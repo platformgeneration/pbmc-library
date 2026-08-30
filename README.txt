@@ -162,3 +162,17 @@ OFF-WHITE FIELD FILL v2.18
 - Default PBMC field cards use a soft warm off-white fill (#faf8f3).
 - The canvas interior stays pure white.
 - Hover states still switch to the perspective color.
+
+MULTI-CASE LIBRARY v2.19
+- Case 001: Scalable Capital.
+- Case 002: SHEIN, generated from Platform_Generation_SHEIN_PBMC_Content_v3_FROZEN.
+- Case 003: akippa, generated from Platform_Generation_Akippa_IPO_PBMC_Content_v1_FROZEN.
+- Search/autocomplete and cyclic Previous/Next navigation are generated from library.json.
+- Snapshot month/year is generated from metadata.snapshot_date; it is no longer hard-coded.
+- SHEIN uses the workbook's BASE on-demand-platform boundary for its library snapshot.
+- akippa uses the workbook's current BASE state with Owner Mode as Provider access.
+
+CASE VIDEO LINKS v2.20
+- SHEIN: https://www.youtube.com/watch?v=Ylpyi3P9WC4
+- akippa: https://www.youtube.com/watch?v=n88gS8-AsAU
+- Both cases now render the automatic clickable YouTube thumbnail section below the PBMC canvas.
