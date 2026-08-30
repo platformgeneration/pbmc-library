@@ -72,6 +72,24 @@
         "Acquisition"
       ],
       "status": "published"
+    },
+    {
+      "slug": "walmart-marketplace",
+      "case_number": "005",
+      "company": "Walmart Marketplace",
+      "headline": "How does Walmart turn retail scale into marketplace power?",
+      "industry": [
+        "Retail",
+        "E-commerce"
+      ],
+      "topics": [
+        "Marketplace",
+        "Retail Platform",
+        "Fulfillment",
+        "Seller Ecosystem",
+        "Advertising"
+      ],
+      "status": "published"
     }
   ]
 }

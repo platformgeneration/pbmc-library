@@ -1,0 +1,447 @@
+{
+  "schema_version": "1.6",
+  "metadata": {
+    "company": "Walmart Marketplace",
+    "slug": "walmart-marketplace",
+    "headline": "How does Walmart turn retail scale into marketplace power?",
+    "case_number": "005",
+    "published_date": "2026-08-30",
+    "updated_date": "2026-08-30",
+    "snapshot_date": "2026-08-30",
+    "status": "official",
+    "industry": [
+      "Retail",
+      "E-commerce"
+    ],
+    "topics": [
+      "Marketplace",
+      "Retail Platform",
+      "Fulfillment",
+      "Seller Ecosystem",
+      "Advertising"
+    ],
+    "geography": [
+      "United States"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Retail assets can become platform infrastructure",
+    "text": "Walmart Marketplace is stronger than a standalone digital marketplace because it can combine third-party seller supply with assets Walmart already built for retail: consumer trust, stores, fulfillment, data, payments and advertising reach. Sellers expand assortment and generate referral-fee and advertising opportunities, while Walmart's physical and digital infrastructure can improve delivery, returns and customer confidence. The strategic challenge is to scale third-party supply without allowing seller quality, logistics or trust problems to weaken the Walmart brand that attracts demand in the first place."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Listing",
+      "explanation": "The Product Listing is the unit of value made discoverable through Walmart Marketplace: a seller's offer combining the product, price, availability, delivery promise and other information a Shopper uses to decide whether to buy.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "Price-conscious shoppers, families and online buyers use Walmart Marketplace to compare and purchase products from Walmart and third-party Sellers through one customer experience.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Save Money",
+        "explanation": "Shoppers use the marketplace to find products that meet their needs at competitive prices without having to search across many separate retailers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Low Price / Choice",
+        "explanation": "A wider assortment, competitive prices, convenience and the Walmart brand can reduce the effort and perceived risk of online shopping.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Trust",
+        "explanation": "High prices, weak selection, delivery problems or uncertainty about third-party seller quality can reduce the value of the marketplace for Shoppers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Shoppers place an order and pay through Walmart's checkout even when the underlying product is offered by a third-party Seller.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Fraud",
+        "explanation": "Participation can be constrained by account rules, fraud controls, age or product restrictions and the ability to use Walmart's digital channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App / Store",
+        "explanation": "Shoppers reach the marketplace primarily through Walmart.com and the Walmart app, while Walmart's physical stores can support pickup, returns and other parts of the experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Browse / Buy / Review",
+        "explanation": "Shoppers search and compare listings, place orders, pay, receive or pick up purchases and can leave reviews that feed back into marketplace trust.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Account / Payment",
+        "explanation": "Shoppers contribute attention, purchase intent, account and payment information, device access and the behavioral data created through their marketplace activity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Third-party sellers, small businesses and brands supply additional assortment to Walmart Marketplace without Walmart owning that inventory.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Reach Customers",
+        "explanation": "Sellers join Walmart Marketplace to reach Walmart's customer base without having to build an equivalent consumer marketplace themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Exposure",
+        "explanation": "Marketplace participation can provide additional demand, brand exposure, sales scale and performance data while giving Sellers access to Walmart's commerce infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition / Logistics",
+        "explanation": "Sellers compete for visibility and price while also managing inventory, fulfillment, returns, customer service and marketplace performance requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Product / Commission",
+        "explanation": "Sellers supply products to Shoppers through Walmart Marketplace and pay Walmart referral fees on completed sales; fee rates vary by category.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Business / Quality",
+        "explanation": "Walmart requires business verification, compliant products, marketplace or e-commerce experience, valid product identifiers, returns capability and adherence to seller performance standards.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Seller Center / API",
+        "explanation": "Sellers manage the marketplace through Seller Center, direct APIs or approved solution providers, depending on their technical setup.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Fulfill / Support",
+        "explanation": "Sellers create and optimize listings, manage price and inventory, fulfill orders directly or through Walmart services, handle support and maintain marketplace performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Catalog / Inventory",
+        "explanation": "Sellers contribute product data, inventory, pricing, fulfillment capability, seller credentials and the operational capacity required to serve Walmart customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Service Partners",
+        "explanation": "Logistics firms, advertising and technology providers, payment services and other solution partners extend capabilities that Walmart or Sellers can use around the marketplace transaction.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Enable Commerce",
+        "explanation": "Service Partners help make marketplace transactions work at scale through fulfillment, integrations, payments, advertising and other specialist services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Revenue",
+        "explanation": "A large marketplace can generate recurring demand, transaction volume, customer reach and revenue opportunities for external service providers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Integration / Peaks",
+        "explanation": "Service Partners have to cope with technical integration, demand peaks, quality expectations and the operational requirements of participating in Walmart's ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Services / Fees",
+        "explanation": "Partners provide logistics, technology, payment or advertising services and receive commercial compensation through their contracts or service relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Compliance / Scale",
+        "explanation": "Partners must meet Walmart's technical, operational and quality requirements; services that cannot scale or meet compliance expectations can lose access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "APIs / Contracts",
+        "explanation": "Service Partners typically connect through APIs, direct business integrations, contractual relationships and operational dashboards rather than the shopper-facing marketplace interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Deliver / Integrate",
+        "explanation": "Partners integrate their systems, deliver services, maintain service quality and scale capacity as marketplace transaction volume changes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Tech / Teams / SLAs",
+        "explanation": "Partners contribute logistics infrastructure, software and data interfaces, specialist teams and service-level commitments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Walmart",
+        "explanation": "Walmart Inc. owns the marketplace environment and its marketplace team governs how third-party Sellers and supporting services participate.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "+20% Mkt.*",
+            "note": "Walmart reported U.S. Marketplace sales growth of approximately 20% in Q4 FY26."
+          }
+        ]
+      },
+      "job": {
+        "value": "Grow Platform",
+        "explanation": "Walmart's job is to expand marketplace assortment and transaction volume while maintaining the customer experience and economics of the broader Walmart ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Margin / Data",
+        "explanation": "Marketplace growth can expand assortment and customer loyalty while adding referral-fee, advertising and service revenue opportunities without Walmart owning every item sold.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Quality / Trust / Scale",
+        "explanation": "Rapid seller growth can create quality, counterfeit, compliance, customer-service and technology-scaling problems that may damage trust in the Walmart brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Fees / Payouts",
+        "explanation": "Walmart sits inside the marketplace transaction: it collects customer payment, deducts category-based referral fees and coordinates settlement or payout to Sellers, while also monetizing services such as advertising.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Quality",
+        "explanation": "Walmart governs entry and participation through product policies, business verification, seller performance standards, reviews, compliance controls, dispute processes and enforcement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Search / Stores",
+        "explanation": "Walmart can promote marketplace demand through its website, app, search visibility, advertising, email, social channels and physical store presence.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Onboard / Govern / Promote",
+        "explanation": "Walmart recruits and onboards Sellers, monitors quality and performance, promotes listings and marketplace services, coordinates transactions and scales the platform infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Tech / Data",
+        "explanation": "The marketplace draws on Walmart's brand, digital platform, commerce data, seller support, marketing reach, legal and policy capabilities, payment infrastructure and physical retail network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Shoppers place marketplace orders and pay through Walmart's checkout."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "Walmart coordinates seller settlement after the marketplace transaction, net of applicable fees and adjustments."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Commission",
+          "explanation": "Sellers pay Walmart category-based referral fees on completed marketplace sales."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "The Seller provides the product that fulfills the Shopper's marketplace purchase, directly or through a fulfillment service."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Fees / Contract",
+          "explanation": "Walmart can contract and pay external service partners for logistics, technology, payments, advertising or other marketplace capabilities."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Service",
+          "explanation": "Service Partners can support the Shopper-facing transaction through delivery, payments or other enabling services."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "+20% Mkt.*",
+        "note": "Walmart reported U.S. Marketplace sales growth of approximately 20% in Q4 FY26."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "How to start selling on Walmart.com: A step-by-step guide",
+      "publisher": "Walmart Marketplace",
+      "date": "2026-02-11",
+      "url": "https://marketplace.walmart.com/seller-registration-guide/",
+      "note": "Primary source for seller eligibility, payout setup, fulfillment choices, returns and onboarding."
+    },
+    {
+      "title": "Getting started with Walmart Marketplace",
+      "publisher": "Walmart Marketplace",
+      "date": "",
+      "url": "https://marketplace.walmart.com/about-walmart-marketplace/",
+      "note": "Primary source for Marketplace qualifications, Seller Center, API and solution-provider integration methods."
+    },
+    {
+      "title": "Walmart Marketplace",
+      "publisher": "Walmart Marketplace",
+      "date": "",
+      "url": "https://marketplace.walmart.com/",
+      "note": "Primary source for referral-fee model, seller success factors, Walmart Connect advertising and marketplace positioning."
+    },
+    {
+      "title": "Ready, set, sell! 3 integration options",
+      "publisher": "Walmart Marketplace",
+      "date": "2024-05-10",
+      "url": "https://marketplace.walmart.com/integration-methods/",
+      "note": "Primary source for Seller Center, API and Solution Provider access and seller operating activities."
+    },
+    {
+      "title": "Walmart Fulfillment Services",
+      "publisher": "Walmart Marketplace",
+      "date": "",
+      "url": "https://marketplace.walmart.com/walmart-fulfillment-services/",
+      "note": "Primary source for fulfillment, storage, shipping, returns and customer-support services available to Marketplace Sellers."
+    },
+    {
+      "title": "Walmart Releases Q2 FY27 Earnings",
+      "publisher": "Walmart",
+      "date": "2026-08-20",
+      "url": "https://corporate.walmart.com/news/2026/08/20/walmart-releases-q2-fy27-earnings",
+      "note": "Primary source for the role of Marketplace, fulfillment services and advertising in Walmart's evolving business mix."
+    },
+    {
+      "title": "Q4 FY26 Earnings Presentation",
+      "publisher": "Walmart",
+      "date": "2026-02-19",
+      "url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2026/02/19/walmart-releases-q4-fy26-earnings/q4-fy26-earnings-presentation.pdf",
+      "note": "Primary source for approximately 20% U.S. Marketplace sales growth and 52% seller utilization of Walmart Fulfillment Services in Q4 FY26."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Walmart Marketplace — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

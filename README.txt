@@ -206,3 +206,11 @@ CASE 004 OPENROUTER v2.24
 - The announced acquisition is handled in the headline, explanations and Platform Lesson rather than prematurely rendering Stripe as current Owner.
 - YouTube: https://www.youtube.com/watch?v=0wIRdTYDitc
 - Library order: Scalable Capital -> SHEIN -> akippa -> OpenRouter -> Scalable Capital.
+
+CASE 005 WALMART MARKETPLACE v2.25
+- Generated from the supplied PBMC_10_walmart.pptx structure.
+- Canvas roles normalized to Walmart / Shoppers / Sellers / Service Partners for readability.
+- Explanation text developed editorially from the supplied PBMC fields and verified against Walmart primary sources.
+- Advertising spend normalized to the seller/advertiser side rather than Consumer spend.
+- No YouTube URL is set, so the video section remains absent.
+- Library order: Scalable Capital -> SHEIN -> akippa -> OpenRouter -> Walmart Marketplace -> Scalable Capital.
