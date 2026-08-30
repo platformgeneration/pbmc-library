@@ -186,3 +186,12 @@ PASTEL PERSPECTIVE FIELDS v2.21
 - Core Value Unit: #F2F2F0 (neutral light grey).
 - Existing role-colored borders remain unchanged.
 - Hover states continue to use the saturated role color with white text.
+
+FLOW LABELS + FOCUS v2.22
+- Flow label coordinates are no longer case-specific.
+- Labels are automatically placed beside latter route segments.
+- Candidate positions are scored against PBMC fields, CVU, other active routes and already placed labels.
+- This keeps labels off their own transaction line whenever a clean candidate is available.
+- Flow routes have an invisible larger hover target for usability.
+- Hovering a route or label renders that route as a solid, stronger foreground overlay and dims the other flows.
+- On touch devices, tapping a flow route or label provides the same focus state.

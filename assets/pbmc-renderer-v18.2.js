@@ -84,6 +84,162 @@ const ROUTES={
   "consumer>provider":{d:"M1079 585 L1079 650 L361 650 L361 585", label:[490,638]}
 };
 
+
+/*
+  Flow labels are positioned automatically from the route geometry.
+  The renderer searches several positions beside the latter route segments and
+  scores them against PBMC fields, the CVU, other active routes and labels that
+  have already been placed. This keeps case JSON free of per-case coordinates.
+*/
+function routePoints(d){
+  const nums=(String(d).match(/-?\d+(?:\.\d+)?/g)||[]).map(Number);
+  const pts=[];
+  for(let i=0;i+1<nums.length;i+=2) pts.push({x:nums[i],y:nums[i+1]});
+  return pts;
+}
+function routeSegments(d){
+  const pts=routePoints(d), out=[];
+  for(let i=1;i<pts.length;i++){
+    const a=pts[i-1],b=pts[i];
+    out.push({
+      a,b,
+      horizontal:Math.abs(a.y-b.y)<.01,
+      vertical:Math.abs(a.x-b.x)<.01,
+      length:Math.abs(a.x-b.x)+Math.abs(a.y-b.y)
+    });
+  }
+  return out;
+}
+function rectOverlap(a,b,pad=0){
+  return !(a.x+a.w+pad<=b.x || b.x+b.w+pad<=a.x ||
+           a.y+a.h+pad<=b.y || b.y+b.h+pad<=a.y);
+}
+function segmentTouchesRect(seg,r,pad=0){
+  const rr={x:r.x-pad,y:r.y-pad,w:r.w+pad*2,h:r.h+pad*2};
+  const minX=Math.min(seg.a.x,seg.b.x),maxX=Math.max(seg.a.x,seg.b.x);
+  const minY=Math.min(seg.a.y,seg.b.y),maxY=Math.max(seg.a.y,seg.b.y);
+  if(seg.horizontal){
+    return seg.a.y>=rr.y && seg.a.y<=rr.y+rr.h &&
+           maxX>=rr.x && minX<=rr.x+rr.w;
+  }
+  if(seg.vertical){
+    return seg.a.x>=rr.x && seg.a.x<=rr.x+rr.w &&
+           maxY>=rr.y && minY<=rr.y+rr.h;
+  }
+  return false;
+}
+function fieldObstacleRects(data,state){
+  const out=[{x:GEOM.cvu.x,y:GEOM.cvu.y,w:GEOM.cvu.w,h:GEOM.cvu.h}];
+  ROLES.forEach(role=>{
+    if(!roleEnabled(data,role,state)) return;
+    Object.values(GEOM.fields[role]||{}).forEach(v=>{
+      out.push({x:v[0],y:v[1],w:v[2],h:v[3]});
+    });
+  });
+  return out;
+}
+function autoFlowLabelPosition(routeKey,width,activeRouteSegments,occupied,data,state){
+  const route=ROUTES[routeKey];
+  const segs=routeSegments(route.d);
+  const obstacles=fieldObstacleRects(data,state);
+  const center={x:GEOM.cvu.x+GEOM.cvu.w/2,y:GEOM.cvu.y+GEOM.cvu.h/2};
+  const candidates=[];
+
+  // Start near the destination end, while preferring meaningful long segments.
+  for(let si=segs.length-1;si>=0;si--){
+    const seg=segs[si];
+    if(seg.length<72) continue;
+
+    const preferredSign=seg.horizontal
+      ? (seg.a.y<center.y ? -1 : 1)
+      : (seg.a.x<center.x ? -1 : 1);
+
+    const signs=[preferredSign,-preferredSign];
+    const ts=[.68,.55,.80,.42];
+    const offsets=[18,26,34];
+
+    signs.forEach(sign=>{
+      offsets.forEach(offset=>{
+        ts.forEach(t=>{
+          const x=seg.a.x+(seg.b.x-seg.a.x)*t+(seg.vertical?sign*offset:0);
+          const y=seg.a.y+(seg.b.y-seg.a.y)*t+(seg.horizontal?sign*offset:0);
+          const box={x:x-width/2-4,y:y-15,w:width+8,h:30};
+
+          let score=(segs.length-1-si)*16 + Math.abs(t-.68)*10 + (offset-18)*.35;
+
+          // Stay comfortably inside the outer PBMC frame.
+          if(box.x<22 || box.x+box.w>1418 || box.y<58 || box.y+box.h>905) score+=10000;
+
+          // Never choose a label position over a PBMC field/CVU unless no
+          // reasonable alternative exists.
+          obstacles.forEach(r=>{ if(rectOverlap(box,r,5)) score+=4000; });
+
+          // Keep labels away from any transaction route, including their own.
+          Object.entries(activeRouteSegments).forEach(([key,segments])=>{
+            segments.forEach(other=>{
+              if(segmentTouchesRect(other,box,3)) score += key===routeKey ? 900 : 1800;
+            });
+          });
+
+          // Strongly avoid label-on-label collisions.
+          occupied.forEach(r=>{ if(rectOverlap(box,r,7)) score+=6000; });
+
+          candidates.push({x,y,box,score});
+        });
+      });
+    });
+  }
+
+  if(!candidates.length){
+    const fallback=route.label||[720,468];
+    return {x:fallback[0],y:fallback[1],box:{x:fallback[0]-width/2,y:fallback[1]-11,w:width,h:22}};
+  }
+  candidates.sort((a,b)=>a.score-b.score);
+  return candidates[0];
+}
+
+function clearFlowFocus(svg){
+  svg.classList.remove("flow-focus-active");
+  svg.querySelectorAll(".flow-focus-overlay").forEach(el=>el.remove());
+}
+function showFlowFocus(svg,path,labelGroup){
+  clearFlowFocus(svg);
+  svg.classList.add("flow-focus-active");
+  const overlay=add(svg,"g",{class:"flow-focus-overlay"});
+  const pathClone=path.cloneNode(true);
+  pathClone.classList.add("flow-focus");
+  pathClone.removeAttribute("data-route");
+  overlay.appendChild(pathClone);
+  if(labelGroup){
+    const labelClone=labelGroup.cloneNode(true);
+    labelClone.classList.add("flow-label-focus");
+    labelClone.removeAttribute("data-route");
+    overlay.appendChild(labelClone);
+  }
+}
+function bindFlowFocus(svg,hit,path,labelGroup){
+  const enter=()=>showFlowFocus(svg,path,labelGroup);
+  const leave=()=>clearFlowFocus(svg);
+  hit.addEventListener("mouseenter",enter);
+  hit.addEventListener("mouseleave",leave);
+  labelGroup.addEventListener("mouseenter",enter);
+  labelGroup.addEventListener("mouseleave",leave);
+
+  // Touch devices have no hover: tapping a route or its label toggles focus.
+  const tap=e=>{
+    if(!isTouchUI()) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const same=svg.querySelector(`.flow-focus-overlay [data-focus-key="${path.dataset.route||""}"]`);
+    if(same){ clearFlowFocus(svg); return; }
+    showFlowFocus(svg,path,labelGroup);
+    const focused=svg.querySelector(".flow-focus-overlay .flow-focus");
+    if(focused) focused.setAttribute("data-focus-key",path.dataset.route||"");
+  };
+  hit.addEventListener("click",tap);
+  labelGroup.addEventListener("click",tap);
+}
+
 const STRUCTURE={
   owner:`M720 393 L720 363
 M720 363 L595 363 L595 359
@@ -258,23 +414,47 @@ function drawFlows(svg,data,state){
     if(value && !grouped.get(key).values.includes(value)) grouped.get(key).values.push(value);
   });
 
+  const activeRouteSegments={};
+  grouped.forEach((group,key)=>{ activeRouteSegments[key]=routeSegments(ROUTES[key].d); });
+  const occupiedLabels=[];
+
   grouped.forEach(group=>{
     const key=`${group.from}>${group.to}`;
     const route=ROUTES[key];
 
-    add(lineLayer,"path",{
+    const path=add(lineLayer,"path",{
       class:`flow ${group.from}-flow`,
       d:route.d,
+      "data-route":key,
       "marker-end":`url(#arrow-${group.from})`
+    });
+
+    // Invisible wider path makes hovering a thin dashed line easy without
+    // changing the visual weight.
+    const hit=add(lineLayer,"path",{
+      class:"flow-hit",
+      d:route.d,
+      "data-route":key
     });
 
     let value=group.values.length ? group.values.join(" · ") : "Transaction";
     if(value.length>26) value=value.slice(0,25)+"…";
-    const [lx,ly]=route.label;
     const width=pillWidth(value);
-    const lg=add(labelLayer,"g",{class:`arrow-label ${group.from}-label`,transform:`translate(${lx} ${ly})`});
+
+    const pos=autoFlowLabelPosition(
+      key,width,activeRouteSegments,occupiedLabels,data,state
+    );
+    occupiedLabels.push(pos.box);
+
+    const lg=add(labelLayer,"g",{
+      class:`arrow-label ${group.from}-label`,
+      "data-route":key,
+      transform:`translate(${Math.round(pos.x)} ${Math.round(pos.y)})`
+    });
     add(lg,"rect",{class:"flow-pill",x:-width/2,y:-11,width,height:22,rx:11});
     add(lg,"text",{class:"flow-text",x:0,y:4,"text-anchor":"middle"},value);
+
+    bindFlowFocus(svg,hit,path,lg);
   });
 }
 
