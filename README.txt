@@ -91,3 +91,9 @@ OFFICIAL LOGOS
 - assets/platform-generation-logo-black.png is used on white/light backgrounds.
 - assets/platform-generation-logo-white.png is used on black/dark backgrounds.
 - The canvas embeds the black logo directly into the SVG so screenshots retain provenance.
+
+CASE HEADER RULE
+- No Back to PBMC Library link: the root redirects into the PBMC browser, so that link would loop.
+- Search PBMCs and See next platform sit at the top of every case, above PBMC Case XXX.
+- Desktop case tags stay on one line where space permits.
+- Header and hero are intentionally compact so the canvas appears quickly.

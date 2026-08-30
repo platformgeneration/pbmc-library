@@ -12,14 +12,14 @@
 }
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:"Poppins","Avenir Next",Avenir,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 64px));margin:0 auto}.wide-wrap{width:min(var(--wide),calc(100% - 44px));margin:0 auto}
-header{height:116px;display:flex;align-items:center;border-bottom:1px solid #f4f4f1;background:#fff}.header-inner{display:grid;grid-template-columns:270px 1fr 270px;align-items:center;gap:24px;width:100%}
+header{height:82px;display:flex;align-items:center;border-bottom:1px solid #f4f4f1;background:#fff}.header-inner{display:grid;grid-template-columns:270px 1fr 270px;align-items:center;gap:24px;width:100%}
 .brand{display:flex;align-items:center;gap:12px;font-weight:800;line-height:.92;letter-spacing:.4px;font-size:18px}.brand-mark{width:38px;height:38px;position:relative;border:2px solid #111;border-radius:4px}
 .brand-mark:before,.brand-mark:after{content:"";position:absolute;background:#111}.brand-mark:before{width:15px;height:2px;left:9px;top:9px;box-shadow:-6px 9px 0 #111,6px 18px 0 #111}.brand-mark:after{width:6px;height:6px;border-radius:50%;left:6px;top:6px;box-shadow:12px 0 0 #111,0 9px 0 #111,12px 18px 0 #111}
-nav{display:flex;justify-content:center;gap:38px;font-size:14px;font-weight:400;color:#666}nav a{padding:12px 0;position:relative}nav a.active:after{content:"";position:absolute;height:1px;background:#222;left:0;right:0;bottom:5px}
-.header-actions{display:flex;justify-content:flex-end}.contact{background:#111;color:#fff;border-radius:999px;padding:15px 40px;font-size:14px;font-weight:400}
+nav{display:flex;justify-content:center;gap:30px;font-size:12px;font-weight:400;color:#666}nav a{padding:12px 0;position:relative}nav a.active:after{content:"";position:absolute;height:1px;background:#222;left:0;right:0;bottom:5px}
+.header-actions{display:flex;justify-content:flex-end}.contact{background:#111;color:#fff;border-radius:999px;padding:11px 28px;font-size:12px;font-weight:400}
 
-.hero{padding:56px 0 68px}.back{display:inline-block;color:#777;font-size:13px;margin-bottom:42px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);margin-bottom:17px}
-.hero h1{font-size:60px;line-height:1.04;letter-spacing:-.035em;font-weight:700;margin:0 0 18px;max-width:920px}.hero .dek{font-size:17px;line-height:1.7;font-weight:400;color:var(--text);max-width:900px;margin:0 0 27px}
+.hero{padding:30px 0 26px}.back{display:none}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);margin-bottom:17px}
+.hero h1{font-size:52px;line-height:1.04;letter-spacing:-.035em;font-weight:700;margin:0 0 12px;max-width:920px}.hero .dek{font-size:15px;line-height:1.65;font-weight:400;color:var(--text);max-width:900px;margin:0 0 18px}
 .meta{display:flex;gap:9px;flex-wrap:wrap}.meta-pill{border:1px solid #ddd;border-radius:999px;padding:7px 11px;font-size:11px;color:#666}.meta-pill.official{background:#111;color:#fff;border-color:#111}
 
 .lesson{background:var(--soft);border-top:1px solid #eeeeeb;border-bottom:1px solid #eeeeeb;padding:54px 0}.lesson-grid{display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:start}
@@ -167,26 +167,49 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
 
 /* v2.7 — official Platform Generation logo assets */
 .brand{display:flex;align-items:center}
-.brand-logo{display:block;width:190px;max-width:100%;height:auto}
+.brand-logo{display:block;width:150px;max-width:100%;height:auto}
 .footer-logo{display:block;width:190px;height:auto}
 .canvas-brand-logo{image-rendering:auto}
 @media(max-width:700px){
  .brand-logo{width:155px}
  .footer-logo{width:160px}
 }
+
+/* v2.8 — compact case header and browsing controls */
+.case-utility-row{display:flex;justify-content:flex-end;align-items:center;margin-bottom:20px}
+.case-utility-row .pbmc-toolbar{width:100%;justify-content:flex-end}
+.hero .meta{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.hero .meta::-webkit-scrollbar{display:none}
+.hero .meta-pill{white-space:nowrap}
+#pbmc.section{padding-top:30px}
+#pbmc .section-head{margin-bottom:24px}
+@media(max-width:1000px){
+  .case-utility-row{justify-content:flex-start}
+  .case-utility-row .pbmc-toolbar{justify-content:flex-start}
+  .hero .meta{flex-wrap:wrap}
+}
+@media(max-width:700px){
+  header{height:72px}
+  .brand-logo{width:135px}
+  .hero{padding:22px 0 20px}
+  .hero h1{font-size:40px}
+  #pbmc.section{padding-top:20px}
+}
 </style></head><body>
 <header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a></nav><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
 <main>
-<section class="hero"><div class="wrap"><a class="back" href="../">← Back to PBMC Library</a><div class="eyebrow">PBMC Case 001</div><h1>Scalable Capital</h1><p class="dek">What changes when Scalable opens the front door to AI agents?</p><div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Finance</span><span class="meta-pill">Brokerage</span><span class="meta-pill">AI Agents</span><span class="meta-pill">Agentic Investing</span><span class="meta-pill">Access Channels</span><span class="meta-pill">Partner Layer</span><span class="meta-pill">MCP</span><span class="meta-pill">Snapshot · August 2026</span></div></div></section>
-
-<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head canvas-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div><div class="pbmc-toolbar">
+<section class="hero"><div class="wrap">
+<div class="case-utility-row"><div class="pbmc-toolbar">
 <div class="case-search" id="caseSearch">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
 <a class="next-platform-top" href="../scalable-capital/">See next platform →</a>
-</div></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Scalable Capital Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
+</div></div>
+<div class="eyebrow">PBMC Case 001</div><h1>Scalable Capital</h1><p class="dek">What changes when Scalable opens the front door to AI agents?</p><div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Finance</span><span class="meta-pill">Brokerage</span><span class="meta-pill">AI Agents</span><span class="meta-pill">Agentic Investing</span><span class="meta-pill">Access Channels</span><span class="meta-pill">Partner Layer</span><span class="meta-pill">MCP</span><span class="meta-pill">Snapshot · August 2026</span></div></div></section>
+
+<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Scalable Capital Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
 
 
 
