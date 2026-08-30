@@ -90,6 +90,24 @@
         "Advertising"
       ],
       "status": "published"
+    },
+    {
+      "slug": "ebay",
+      "case_number": "006",
+      "company": "eBay",
+      "headline": "How does eBay keep a 30-year-old marketplace liquid?",
+      "industry": [
+        "E-commerce",
+        "Marketplace"
+      ],
+      "topics": [
+        "Recommerce",
+        "Trust",
+        "Managed Payments",
+        "Seller Tools",
+        "Advertising"
+      ],
+      "status": "published"
     }
   ]
 }
