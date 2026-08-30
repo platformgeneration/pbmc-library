@@ -195,3 +195,7 @@ FLOW LABELS + FOCUS v2.22
 - Flow routes have an invisible larger hover target for usability.
 - Hovering a route or label renders that route as a solid, stronger foreground overlay and dims the other flows.
 - On touch devices, tapping a flow route or label provides the same focus state.
+
+SHEIN DISPLAY NAME FIX v2.23
+- VO-oriented spellings such as 'she in' are preserved only in the original FROZEN production workbook.
+- Website case data, explanations, hover text and generated static HTML use the official brand spelling SHEIN.

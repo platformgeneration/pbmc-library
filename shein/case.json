@@ -32,7 +32,7 @@
   "pbmc": {
     "core_value_unit": {
       "value": "Style",
-      "explanation": "At the center is the Style. Here, a style means a specific fashion design or variation that a shopper can discover and buy. She in can test a style in a tiny batch, observe demand, and scale only the ones that work.",
+      "explanation": "At the center is the Style. Here, a style means a specific fashion design or variation that a shopper can discover and buy. SHEIN can test a style in a tiny batch, observe demand, and scale only the ones that work.",
       "changed": false,
       "before": "",
       "after": "",
@@ -46,41 +46,41 @@
     "owner": {
       "actor": {
         "value": "SHEIN",
-        "explanation": "The Owner is She in. It controls the customer interface and orchestrates the information, production and fulfilment system.",
+        "explanation": "The Owner is SHEIN. It controls the customer interface and orchestrates the information, production and fulfilment system.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "$41.8B Rev.",
-            "note": "She in generated forty-one-point-eight billion dollars of net revenue in 2025. That scale matters because the valuation collapse is not the story of a tiny business disappearing."
+            "note": "SHEIN generated forty-one-point-eight billion dollars of net revenue in 2025. That scale matters because the valuation collapse is not the story of a tiny business disappearing."
           }
         ]
       },
       "job": {
         "value": "Match Demand",
-        "explanation": "Its central job is to Match Demand. She in calls the system LATR: Large-scale Automated Test and Reorder. A new style can start with only about one hundred to two hundred items. She in watches the response in real time and can reorder winning products in as few as five days.",
+        "explanation": "Its central job is to Match Demand. SHEIN calls the system LATR: Large-scale Automated Test and Reorder. A new style can start with only about one hundred to two hundred items. SHEIN watches the response in real time and can reorder winning products in as few as five days.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Growth / Margin",
-        "explanation": "If that loop works, She in gets Growth and Margin: more orders, less unsold inventory and less capital trapped in the wrong products.",
+        "explanation": "If that loop works, SHEIN gets Growth and Margin: more orders, less unsold inventory and less capital trapped in the wrong products.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Tariffs",
-        "explanation": "The pain that matters most now is Tariffs. She in can optimise production extremely well and still be hit when governments make cross-border imports more expensive.",
+        "explanation": "The pain that matters most now is Tariffs. SHEIN can optimise production extremely well and still be hit when governments make cross-border imports more expensive.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Buy / Sell",
-        "explanation": "In the first-party model, She in does something very retailer-like: it buys finished products from suppliers and sells them to Shoppers.",
+        "explanation": "In the first-party model, SHEIN does something very retailer-like: it buys finished products from suppliers and sells them to Shoppers.",
         "changed": false,
         "before": "",
         "after": ""
@@ -108,7 +108,7 @@
       },
       "promotion_channel": {
         "value": "Social / Ads",
-        "explanation": "Growth is pushed through Social and Ads. She in was an early user of online communities and influencers, and it also spends heavily on paid advertising.",
+        "explanation": "Growth is pushed through Social and Ads. SHEIN was an early user of online communities and influencers, and it also spends heavily on paid advertising.",
         "changed": false,
         "before": "",
         "after": ""
@@ -117,14 +117,14 @@
     "consumer": {
       "actor": {
         "value": "Shoppers",
-        "explanation": "Start with the Consumers: Shoppers. These are people using She in's app or website to discover and buy fashion and lifestyle products.",
+        "explanation": "Start with the Consumers: Shoppers. These are people using SHEIN's app or website to discover and buy fashion and lifestyle products.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "281M Cust.",
-            "note": "The Consumer side is still enormous. She in reported about two hundred eighty-one million active customers for the twelve months ended March 2026. An active customer here means an account that placed at least one order."
+            "note": "The Consumer side is still enormous. SHEIN reported about two hundred eighty-one million active customers for the twelve months ended March 2026. An active customer here means an account that placed at least one order."
           }
         ]
       },
@@ -137,7 +137,7 @@
       },
       "gain": {
         "value": "Low Price",
-        "explanation": "The most important gain for this story is Low Price. She in's on-demand model is designed to keep production and inventory costs low enough to support very low retail prices.",
+        "explanation": "The most important gain for this story is Low Price. SHEIN's on-demand model is designed to keep production and inventory costs low enough to support very low retail prices.",
         "changed": false,
         "before": "",
         "after": ""
@@ -158,14 +158,14 @@
       },
       "filter": {
         "value": "Market",
-        "explanation": "Access depends partly on Market. Product availability, prices, duties and local rules differ across the roughly one hundred and sixty markets She in serves.",
+        "explanation": "Access depends partly on Market. Product availability, prices, duties and local rules differ across the roughly one hundred and sixty markets SHEIN serves.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "App / Web",
-        "explanation": "Shoppers access She in through its app or website, where they discover a constantly changing selection of products.",
+        "explanation": "Shoppers access SHEIN through its app or website, where they discover a constantly changing selection of products.",
         "changed": false,
         "before": "",
         "after": ""
@@ -179,7 +179,7 @@
       },
       "resources": {
         "value": "Taste / Data",
-        "explanation": "What do Shoppers bring? Their taste and their data. Preferences, clicks and purchases help She in see which styles deserve more supply.",
+        "explanation": "What do Shoppers bring? Their taste and their data. Preferences, clicks and purchases help SHEIN see which styles deserve more supply.",
         "changed": false,
         "before": "",
         "after": ""
@@ -188,14 +188,14 @@
     "provider": {
       "actor": {
         "value": "Makers",
-        "explanation": "On the Provider side are Makers. By Makers, I mean She in's contract manufacturers. They do not sell directly to the shopper. She in sits in the middle and decides what gets produced.",
+        "explanation": "On the Provider side are Makers. By Makers, I mean SHEIN's contract manufacturers. They do not sell directly to the shopper. SHEIN sits in the middle and decides what gets produced.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "7,500 Mfrs",
-            "note": "On the manufacturing side, She in reported more than seven thousand five hundred contract manufacturers in 2025."
+            "note": "On the manufacturing side, SHEIN reported more than seven thousand five hundred contract manufacturers in 2025."
           }
         ]
       },
@@ -208,14 +208,14 @@
       },
       "gain": {
         "value": "Volume / Scale",
-        "explanation": "The upside is Volume and Scale. She in says repeated small-batch orders can improve capacity utilisation and returns for manufacturing partners.",
+        "explanation": "The upside is Volume and Scale. SHEIN says repeated small-batch orders can improve capacity utilisation and returns for manufacturing partners.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Cost / Rules",
-        "explanation": "Their pain is Cost and Rules. They have to produce cheaply while meeting She in's quality, labor and compliance standards.",
+        "explanation": "Their pain is Cost and Rules. They have to produce cheaply while meeting SHEIN's quality, labor and compliance standards.",
         "changed": false,
         "before": "",
         "after": ""
@@ -229,28 +229,28 @@
       },
       "filter": {
         "value": "Standards",
-        "explanation": "The gate is Standards. Suppliers are audited and can be monitored, suspended or terminated when they fail She in's requirements.",
+        "explanation": "The gate is Standards. Suppliers are audited and can be monitored, suspended or terminated when they fail SHEIN's requirements.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Software",
-        "explanation": "Makers connect through She in's production software. It links orders, production, quality checks and shipping. That is what allows She in to turn demand data into production decisions so quickly.",
+        "explanation": "Makers connect through SHEIN's production software. It links orders, production, quality checks and shipping. That is what allows SHEIN to turn demand data into production decisions so quickly.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Make / Ship",
-        "explanation": "Their recurring work is to make the selected products and ship them into She in's fulfilment system.",
+        "explanation": "Their recurring work is to make the selected products and ship them into SHEIN's fulfilment system.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Plants / Skill",
-        "explanation": "They bring factories and manufacturing skill. She in does not need to own thousands of garment factories itself.",
+        "explanation": "They bring factories and manufacturing skill. SHEIN does not need to own thousands of garment factories itself.",
         "changed": false,
         "before": "",
         "after": ""
@@ -277,7 +277,7 @@
       },
       "gain": {
         "value": "Volume",
-        "explanation": "The gain is Volume. More She in orders mean more warehousing, customs and delivery work flowing through logistics networks.",
+        "explanation": "The gain is Volume. More SHEIN orders mean more warehousing, customs and delivery work flowing through logistics networks.",
         "changed": false,
         "before": "",
         "after": ""
@@ -341,25 +341,25 @@
           "from": "consumer",
           "to": "owner",
           "value": "Payment",
-          "explanation": "When the Shopper buys, Payment flows into She in's selling system. The same interaction also creates the demand data used by the on-demand model."
+          "explanation": "When the Shopper buys, Payment flows into SHEIN's selling system. The same interaction also creates the demand data used by the on-demand model."
         },
         {
           "from": "owner",
           "to": "consumer",
           "value": "Product",
-          "explanation": "In return, the Shopper receives the Product She in sold, even though logistics partners handle the physical delivery."
+          "explanation": "In return, the Shopper receives the Product SHEIN sold, even though logistics partners handle the physical delivery."
         },
         {
           "from": "provider",
           "to": "owner",
           "value": "Supply",
-          "explanation": "Makers send Supply back into She in's system: finished goods and production capacity that the Owner can use to meet observed demand."
+          "explanation": "Makers send Supply back into SHEIN's system: finished goods and production capacity that the Owner can use to meet observed demand."
         },
         {
           "from": "owner",
           "to": "provider",
           "value": "Orders",
-          "explanation": "She in sends production Orders to Makers. Its software can allocate those orders using factors such as expertise, price and capacity."
+          "explanation": "SHEIN sends production Orders to Makers. Its software can allocate those orders using factors such as expertise, price and capacity."
         },
         {
           "from": "partner",
@@ -377,7 +377,7 @@
           "from": "partner",
           "to": "owner",
           "value": "Service",
-          "explanation": "What She in receives from Logistics is Service: fulfilment, transport and customs support that makes global delivery possible."
+          "explanation": "What SHEIN receives from Logistics is Service: fulfilment, transport and customs support that makes global delivery possible."
         }
       ],
       "before": [],
@@ -387,17 +387,17 @@
       {
         "target": "consumer",
         "value": "281M Cust.",
-        "note": "The Consumer side is still enormous. She in reported about two hundred eighty-one million active customers for the twelve months ended March 2026. An active customer here means an account that placed at least one order."
+        "note": "The Consumer side is still enormous. SHEIN reported about two hundred eighty-one million active customers for the twelve months ended March 2026. An active customer here means an account that placed at least one order."
       },
       {
         "target": "provider",
         "value": "7,500 Mfrs",
-        "note": "On the manufacturing side, She in reported more than seven thousand five hundred contract manufacturers in 2025."
+        "note": "On the manufacturing side, SHEIN reported more than seven thousand five hundred contract manufacturers in 2025."
       },
       {
         "target": "owner",
         "value": "$41.8B Rev.",
-        "note": "She in generated forty-one-point-eight billion dollars of net revenue in 2025. That scale matters because the valuation collapse is not the story of a tiny business disappearing."
+        "note": "SHEIN generated forty-one-point-eight billion dollars of net revenue in 2025. That scale matters because the valuation collapse is not the story of a tiny business disappearing."
       },
       {
         "target": "core_value_unit",
@@ -418,7 +418,7 @@
       "publisher": "SHEIN",
       "date": "",
       "url": "https://m.shein.com/euqs/help-center-a-3173.html?language=nl",
-      "note": "Official SHEIN Creator Center instructs creators to pronounce the brand SHE-IN. Spoken production fields use 'She in'; visible fields retain canonical 'SHEIN'."
+      "note": "Official SHEIN Creator Center instructs creators to pronounce the brand SHE-IN. Spoken production fields use 'SHEIN'; visible fields retain canonical 'SHEIN'."
     },
     {
       "title": "SHEIN Hong Kong IPO valuation reporting",
