@@ -1,54 +1,38 @@
-﻿Perspective,Row Type,Field,Value,Direction,Counterparty,Flow,Explanation
-Owner,field,Actor,Scalable,,,,Scalable remains the Owner of the brokerage platform.
-Owner,field,Job,Enable Trade,,,,"Scalable keeps the account, accepts instructions and makes regulated investing and execution possible."
-Owner,field,Gain,Reach,,,,"Opening the platform to outside AI assistants gives Scalable more ways to reach customers, including from interfaces it does not own."
-Owner,field,Pain,Distance,,,,AI Partners can own more of the first customer conversation. Scalable becomes easier to reach but potentially less visible.
-Owner,field,Transaction,Route / Settle,,,,Scalable routes the order into the market and remains responsible for the regulated brokerage process around the transaction.
-Owner,transaction_flow,↳,← Consumer · Request,incoming,Consumer,Request,"Investor sends a trading, savings-plan or account-related request to Scalable."
-Owner,transaction_flow,↳,→ Consumer · Trade,outgoing,Consumer,Trade,Scalable returns the resulting trade or brokerage response to the investor.
-Owner,transaction_flow,↳,→ Provider · Order,outgoing,Provider,Order,Scalable routes the approved order to a trading venue for execution.
-Owner,transaction_flow,↳,← Provider · Fill,incoming,Provider,Fill,The trading venue returns the execution or fill to Scalable.
-Owner,transaction_flow,↳,← Partner · Request,incoming,Partner,Request,"After authentication, the AI assistant sends the permitted request to Scalable through MCP."
-Owner,transaction_flow,↳,→ Partner · Data,outgoing,Partner,Data,"Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."
-Owner,field,Governance,Approve / 2FA,,,,"Login, two-factor authentication and explicit order approval remain inside Scalable's regulated process."
-Owner,field,Promotion Channel,Ads / Refer,,,,Scalable can still grow through normal marketing and its customer referral programme.
-Owner,field,Activities,Route / Check,,,,"Scalable checks the instruction, provides required information and routes the approved order."
-Owner,field,Resources,License / Tech,,,,"Regulatory permission and technology connect brokerage accounts to markets and, after the opening, to AI assistants."
-Consumer,field,Actor,Investors,,,,People using Scalable to manage and invest their own money.
-Consumer,field,Job,Grow Wealth,,,,Investors use the brokerage with the aim of growing their money over time.
-Consumer,field,Gain,Choice / Ease,,,,Investors value broad investment choice while also wanting that choice to be easy to act on.
-Consumer,field,Pain,Effort / Risk,,,,Investing requires work and every investment can lose money.
-Consumer,field,Transaction,Order / Pay,,,,Investors send orders and use money in their brokerage account to buy securities.
-Consumer,transaction_flow,↳,→ Owner · Request,outgoing,Owner,Request,"Investor sends a trading, savings-plan or account-related request to Scalable."
-Consumer,transaction_flow,↳,← Owner · Trade,incoming,Owner,Trade,Scalable returns the resulting trade or brokerage response to the investor.
-Consumer,transaction_flow,↳,→ Partner · Prompt,outgoing,Partner,Prompt,Investor expresses an information or action request in natural language to the AI assistant.
-Consumer,transaction_flow,↳,← Partner · Insight,incoming,Partner,Insight,"The AI assistant returns information, analysis or a proposed action to the investor."
-Consumer,field,Filter,Account / 2FA,,,,"The investor needs a Scalable account, login and two-factor authentication. Agentic access does not remove these requirements."
-Consumer,field,Access Channel,App / Agent,,,,"The investor can still start in Scalable's own app or website, but can now also begin inside an outside AI assistant."
-Consumer,field,Activities,Ask / Trade,,,,The interaction can now begin conversationally through an AI assistant rather than only through screen-based search and tapping.
-Consumer,field,Resources,Cash / Data,,,,Investors bring money to invest and personal account data that makes portfolio analysis possible.
-Provider,field,Actor,Venues,,,,"Trading venues such as the European Investor Exchange, gettex and Xetra execute market orders."
-Provider,field,Job,Fill Orders,,,,The venue brings buyers and sellers together so an order can be filled.
-Provider,field,Gain,Volume / Fees,,,,"More trading can create more volume and, depending on the venue, more trading-related revenue."
-Provider,field,Pain,Spreads / Risk,,,,"The venue has to manage liquidity, prices and market risk while keeping trading orderly."
-Provider,field,Transaction,Quote / Fill,,,,"The venue provides prices and, when an order matches, an execution fill."
-Provider,transaction_flow,↳,← Owner · Order,incoming,Owner,Order,Scalable routes the approved order to a trading venue for execution.
-Provider,transaction_flow,↳,→ Owner · Fill,outgoing,Owner,Fill,The trading venue returns the execution or fill to Scalable.
-Provider,field,Filter,Listed,,,,A security has to be available on the relevant venue before it can be traded there.
-Provider,field,Access Channel,Exchange,,,,Scalable connects to the venue through the exchange's trading system.
-Provider,field,Activities,Match / Fill,,,,The venue repeatedly matches orders and confirms executions.
-Provider,field,Resources,Book / Flow,,,,The venue contributes an order book and trading flow: the supply and demand needed for a market to work.
-Partner,field,Actor,Agents,,,,"Outside AI assistants such as ChatGPT, Claude or Grok enter as a new Partner layer between the investor and Scalable."
-Partner,field,Job,Help Users,,,,"The AI Partner helps investors analyse, understand and interact with their brokerage."
-Partner,field,Gain,Usage / Reach,,,,The AI provider can gain usage while extending its reach into brokerage interactions.
-Partner,field,Pain,Trust / Rules,,,,"Agentic brokerage interaction operates within trust, permission and regulatory constraints."
-Partner,field,Transaction,Intent / Data,,,,The Partner mediates user intent and relevant brokerage data between the investor and Scalable.
-Partner,transaction_flow,↳,← Consumer · Prompt,incoming,Consumer,Prompt,Investor expresses an information or action request in natural language to the AI assistant.
-Partner,transaction_flow,↳,→ Consumer · Insight,outgoing,Consumer,Insight,"The AI assistant returns information, analysis or a proposed action to the investor."
-Partner,transaction_flow,↳,→ Owner · Request,outgoing,Owner,Request,"After authentication, the AI assistant sends the permitted request to Scalable through MCP."
-Partner,transaction_flow,↳,← Owner · Data,incoming,Owner,Data,"Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."
-Partner,field,Filter,MCP / Auth,,,,Agentic access depends on the MCP connection and authentication into the brokerage account.
-Partner,field,Access Channel,MCP,,,,Model Context Protocol lets an AI assistant call tools offered by Scalable's brokerage service.
-Partner,field,Activities,Read / Call,,,,The agent can read available information and call brokerage tools exposed through the connection.
-Partner,field,Resources,Model / Users,,,,The AI Partner contributes its model capabilities and its existing user interface and user relationships.
-Core Value Unit,field,Core Value Unit,Security,,,,"A stock, ETF, fund, derivative or another investment that an investor can find and trade."
+﻿Perspective,Field,Value,Explanation,Transaction Flows
+Core Value Unit,Core Value Unit,Security,"A stock, ETF, fund, derivative or another investment that an investor can find and trade.",
+Owner,Actor,Scalable,Scalable remains the Owner of the brokerage platform.,
+Owner,Job,Enable Trade,"Scalable keeps the account, accepts instructions and makes regulated investing and execution possible.",
+Owner,Gain,Reach,"Opening the platform to outside AI assistants gives Scalable more ways to reach customers, including from interfaces it does not own.",
+Owner,Pain,Distance,AI Partners can own more of the first customer conversation. Scalable becomes easier to reach but potentially less visible.,
+Owner,Transaction,Route / Settle,Scalable routes the order into the market and remains responsible for the regulated brokerage process around the transaction.,"← Consumer · Request — Investor sends a trading, savings-plan or account-related request to Scalable. | → Consumer · Trade — Scalable returns the resulting trade or brokerage response to the investor. | → Provider · Order — Scalable routes the approved order to a trading venue for execution. | ← Provider · Fill — The trading venue returns the execution or fill to Scalable. | ← Partner · Request — After authentication, the AI assistant sends the permitted request to Scalable through MCP. | → Partner · Data — Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."
+Owner,Governance,Approve / 2FA,"Login, two-factor authentication and explicit order approval remain inside Scalable's regulated process.",
+Owner,Promotion Channel,Ads / Refer,Scalable can still grow through normal marketing and its customer referral programme.,
+Owner,Activities,Route / Check,"Scalable checks the instruction, provides required information and routes the approved order.",
+Owner,Resources,License / Tech,"Regulatory permission and technology connect brokerage accounts to markets and, after the opening, to AI assistants.",
+Consumer,Actor,Investors,People using Scalable to manage and invest their own money.,
+Consumer,Job,Grow Wealth,Investors use the brokerage with the aim of growing their money over time.,
+Consumer,Gain,Choice / Ease,Investors value broad investment choice while also wanting that choice to be easy to act on.,
+Consumer,Pain,Effort / Risk,Investing requires work and every investment can lose money.,
+Consumer,Transaction,Order / Pay,Investors send orders and use money in their brokerage account to buy securities.,"→ Owner · Request — Investor sends a trading, savings-plan or account-related request to Scalable. | ← Owner · Trade — Scalable returns the resulting trade or brokerage response to the investor. | → Partner · Prompt — Investor expresses an information or action request in natural language to the AI assistant. | ← Partner · Insight — The AI assistant returns information, analysis or a proposed action to the investor."
+Consumer,Filter,Account / 2FA,"The investor needs a Scalable account, login and two-factor authentication. Agentic access does not remove these requirements.",
+Consumer,Access Channel,App / Agent,"The investor can still start in Scalable's own app or website, but can now also begin inside an outside AI assistant.",
+Consumer,Activities,Ask / Trade,The interaction can now begin conversationally through an AI assistant rather than only through screen-based search and tapping.,
+Consumer,Resources,Cash / Data,Investors bring money to invest and personal account data that makes portfolio analysis possible.,
+Provider,Actor,Venues,"Trading venues such as the European Investor Exchange, gettex and Xetra execute market orders.",
+Provider,Job,Fill Orders,The venue brings buyers and sellers together so an order can be filled.,
+Provider,Gain,Volume / Fees,"More trading can create more volume and, depending on the venue, more trading-related revenue.",
+Provider,Pain,Spreads / Risk,"The venue has to manage liquidity, prices and market risk while keeping trading orderly.",
+Provider,Transaction,Quote / Fill,"The venue provides prices and, when an order matches, an execution fill.",← Owner · Order — Scalable routes the approved order to a trading venue for execution. | → Owner · Fill — The trading venue returns the execution or fill to Scalable.
+Provider,Filter,Listed,A security has to be available on the relevant venue before it can be traded there.,
+Provider,Access Channel,Exchange,Scalable connects to the venue through the exchange's trading system.,
+Provider,Activities,Match / Fill,The venue repeatedly matches orders and confirms executions.,
+Provider,Resources,Book / Flow,The venue contributes an order book and trading flow: the supply and demand needed for a market to work.,
+Partner,Actor,Agents,"Outside AI assistants such as ChatGPT, Claude or Grok enter as a new Partner layer between the investor and Scalable.",
+Partner,Job,Help Users,"The AI Partner helps investors analyse, understand and interact with their brokerage.",
+Partner,Gain,Usage / Reach,The AI provider can gain usage while extending its reach into brokerage interactions.,
+Partner,Pain,Trust / Rules,"Agentic brokerage interaction operates within trust, permission and regulatory constraints.",
+Partner,Transaction,Intent / Data,The Partner mediates user intent and relevant brokerage data between the investor and Scalable.,"← Consumer · Prompt — Investor expresses an information or action request in natural language to the AI assistant. | → Consumer · Insight — The AI assistant returns information, analysis or a proposed action to the investor. | → Owner · Request — After authentication, the AI assistant sends the permitted request to Scalable through MCP. | ← Owner · Data — Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."
+Partner,Filter,MCP / Auth,Agentic access depends on the MCP connection and authentication into the brokerage account.,
+Partner,Access Channel,MCP,Model Context Protocol lets an AI assistant call tools offered by Scalable's brokerage service.,
+Partner,Activities,Read / Call,The agent can read available information and call brokerage tools exposed through the connection.,
+Partner,Resources,Model / Users,The AI Partner contributes its model capabilities and its existing user interface and user relationships.,

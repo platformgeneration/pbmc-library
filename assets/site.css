@@ -76,3 +76,40 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
 .library-search-icon{position:absolute;right:19px;top:50%;transform:translateY(-50%);font-size:16px;color:#888;pointer-events:none}
 .library-search-meta{font-size:11px;color:#999;margin-top:10px}
 .no-results{display:none;border:1px dashed #d7d7d4;border-radius:20px;padding:30px;color:#777;background:#fbfbfa;margin-bottom:80px}
+
+
+/* v2.1 — unified comparable PBMC data table */
+.pbmc-data-table-wrap{border:1px solid #dfdfdc;border-radius:20px;overflow:hidden;background:#fff}
+.pbmc-data-table{width:100%;border-collapse:collapse;table-layout:fixed}
+.pbmc-data-table col.perspective{width:14%}
+.pbmc-data-table col.field{width:17%}
+.pbmc-data-table col.value{width:31%}
+.pbmc-data-table th{text-align:left;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#999;font-weight:800;padding:12px 18px;border-bottom:1px solid #e4e4e1;background:#fafaf8}
+.pbmc-data-table td{vertical-align:top;padding:15px 18px;border-bottom:1px solid #eeeeeb;font-size:12.5px;line-height:1.55}
+.pbmc-data-table tr:last-child td{border-bottom:0}
+.pbmc-data-table .perspective-cell{font-size:10px;font-weight:850;letter-spacing:.08em;text-transform:uppercase;color:#666}
+.pbmc-data-table .field-cell{font-weight:750;color:#555}
+.pbmc-data-table .value-cell{font-weight:800;color:#171717}
+.pbmc-data-table .explanation-cell{color:#6e6e6e}
+.pbmc-data-table .role-start td{border-top:2px solid #e6e6e2}
+.pbmc-data-table .role-owner .perspective-cell{box-shadow:inset 4px 0 0 var(--owner)}
+.pbmc-data-table .role-provider .perspective-cell{box-shadow:inset 4px 0 0 var(--provider)}
+.pbmc-data-table .role-consumer .perspective-cell{box-shadow:inset 4px 0 0 var(--consumer)}
+.pbmc-data-table .role-partner .perspective-cell{box-shadow:inset 4px 0 0 var(--partner)}
+.pbmc-data-table .cvu-row .perspective-cell{box-shadow:inset 4px 0 0 #111}
+.transaction-stack{margin-top:10px;border-top:1px solid #e8e8e5;padding-top:7px}
+.transaction-flow{display:grid;grid-template-columns:minmax(130px,auto) 1fr;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0ed;font-weight:500}
+.transaction-flow:last-child{border-bottom:0;padding-bottom:0}
+.transaction-flow-main{font-size:11px;font-weight:850;white-space:nowrap}
+.transaction-flow-note{font-size:11px;color:#777;line-height:1.45}
+.transaction-empty{margin-top:8px;font-size:11px;color:#999;font-weight:500}
+.next-platform-top{display:inline-flex;align-items:center;justify-content:center;border:1px solid #d8d8d5;background:#fff;border-radius:999px;padding:9px 14px;font-size:11px;font-weight:750;color:#444;white-space:nowrap}
+.next-platform-top:hover{border-color:#111;color:#111}
+.section-head.canvas-head{align-items:center}
+.video-section{padding-top:28px}
+@media(max-width:700px){
+ .pbmc-data-table{min-width:800px}
+ .pbmc-data-table-wrap{overflow-x:auto}
+ .transaction-flow{grid-template-columns:1fr;gap:2px}
+ .next-platform-top{justify-self:start}
+}
