@@ -86,3 +86,8 @@ VISUAL IDENTITY
 - Typography and spacing are aligned more closely to platformgeneration.com using Poppins-style geometric sans.
 - Main colors are black, white, warm grey and Platform Generation orange.
 - Official logo assets can replace the temporary HTML wordmark as soon as they are supplied.
+
+OFFICIAL LOGOS
+- assets/platform-generation-logo-black.png is used on white/light backgrounds.
+- assets/platform-generation-logo-white.png is used on black/dark backgrounds.
+- The canvas embeds the black logo directly into the SVG so screenshots retain provenance.
