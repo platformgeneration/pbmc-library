@@ -58,5 +58,10 @@ Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation
 
 CANVAS TYPOGRAPHY
 - Field labels sit high in each field.
-- Field values use medium weight, not bold.
+- Field values use regular weight, not bold.
 - Compact fields preserve clear vertical space between label and value.
+
+VIDEO RULE
+- The case-study section is optional.
+- If media.youtube_url is empty, no video placeholder or video section is rendered.
+- If a YouTube URL exists, the video section appears directly below the PBMC Snapshot and before Platform Lesson.

@@ -172,9 +172,10 @@ def case_page(case, library, css, renderer):
     prev,nxt,only_one=nav_for(library,md["slug"])
     embedded=json.dumps(case,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     rows_json=json.dumps(data_rows(case),ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
-    video_url=case.get("media",{}).get("youtube_url","")
-    video_cta=(f'<a class="video-cta live" href="{e(video_url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>'
-               if video_url else '<span class="video-cta">Video link to be added</span>')
+    video_url=case.get("media",{}).get("youtube_url","").strip()
+    video_section=""
+    if video_url:
+        video_section=f"""<section class="section video-section" id="video"><div class="wrap"><div class="video-card"><div><div class="eyebrow">Platform Generation · Case Study</div><h3>Watch the story behind the snapshot</h3><p>The video explains why the architecture changed, what changed and why it matters. The library page stays focused on the reusable PBMC itself.</p></div><a class="video-cta live" href="{e(video_url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></div></section>"""
     json_ld={
         "@context":"https://schema.org","@type":"CreativeWork",
         "name":f"{md['company']} — Platform Business Model Canvas","headline":md["headline"],
@@ -197,7 +198,7 @@ def case_page(case, library, css, renderer):
 
 <section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head canvas-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div><a class="next-platform-top" href="../{e(nxt["slug"])}/">See next platform →</a></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
 
-<section class="section video-section" id="video"><div class="wrap"><div class="video-card"><div><div class="eyebrow">Platform Generation · Case Study</div><h3>Watch the story behind the snapshot</h3><p>The video explains why the architecture changed, what changed and why it matters. The library page stays focused on the reusable PBMC itself.</p></div>{video_cta}</div></div></section>
+{video_section}
 
 <section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>{e(lesson["title"])}</h2><p>{e(lesson["text"])}</p></div></div></section>
 
