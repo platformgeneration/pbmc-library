@@ -65,3 +65,11 @@ VIDEO RULE
 - The case-study section is optional.
 - If media.youtube_url is empty, no video placeholder or video section is rendered.
 - If a YouTube URL exists, the video section appears directly below the PBMC Snapshot and before Platform Lesson.
+
+YOUTUBE THUMBNAIL RULE
+- media.youtube_url is optional.
+- Without it, no video section is rendered.
+- With it, a clickable 16:9 YouTube thumbnail is rendered automatically.
+- The video block contains only the eyebrow, title, thumbnail/play button and YouTube link — no explanatory paragraph.
+- maxresdefault is tried first; hqdefault is used as fallback.
+- media.youtube_title is optional; the generic title is used when empty.

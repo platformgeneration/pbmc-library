@@ -430,7 +430,8 @@
   "media": {
     "youtube_id": "",
     "youtube_url": "",
-    "thumbnail": ""
+    "thumbnail": "",
+    "youtube_title": ""
   },
   "sources": [
     {

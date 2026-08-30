@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "metadata": {
     "company": "",
     "slug": "",
@@ -326,7 +326,8 @@
   "media": {
     "youtube_id": "",
     "youtube_url": "",
-    "thumbnail": ""
+    "thumbnail": "",
+    "youtube_title": ""
   },
   "sources": [
     {

@@ -1,5 +1,6 @@
 from pathlib import Path
 import json, html, csv
+from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parent
 ASSETS = ROOT / "assets"
@@ -167,15 +168,54 @@ def nav_for(library, slug):
     i=next(i for i,c in enumerate(pub) if c["slug"]==slug)
     return pub[(i-1)%len(pub)], pub[(i+1)%len(pub)], len(pub)==1
 
+
+def youtube_video_id(url):
+    """Extract a YouTube video ID from common watch, youtu.be, shorts, live or embed URLs."""
+    if not url:
+        return ""
+    try:
+        u=urlparse(url.strip())
+        host=u.netloc.lower().split(":")[0]
+        if host in {"youtu.be","www.youtu.be"}:
+            return u.path.strip("/").split("/")[0]
+        if host.endswith("youtube.com"):
+            if u.path == "/watch":
+                return parse_qs(u.query).get("v",[""])[0]
+            parts=[p for p in u.path.split("/") if p]
+            if len(parts)>=2 and parts[0] in {"shorts","embed","live"}:
+                return parts[1]
+    except Exception:
+        return ""
+    return ""
+
 def case_page(case, library, css, renderer):
     md=case["metadata"]; lesson=case["platform_lesson"]; reuse=case["reuse"]
     prev,nxt,only_one=nav_for(library,md["slug"])
     embedded=json.dumps(case,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     rows_json=json.dumps(data_rows(case),ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
-    video_url=case.get("media",{}).get("youtube_url","").strip()
+    media=case.get("media",{})
+    video_url=media.get("youtube_url","").strip()
+    video_title=media.get("youtube_title","").strip() or "Watch the story behind the snapshot"
     video_section=""
     if video_url:
-        video_section=f"""<section class="section video-section" id="video"><div class="wrap"><div class="video-card"><div><div class="eyebrow">Platform Generation · Case Study</div><h3>Watch the story behind the snapshot</h3><p>The video explains why the architecture changed, what changed and why it matters. The library page stays focused on the reusable PBMC itself.</p></div><a class="video-cta live" href="{e(video_url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></div></section>"""
+        video_id=youtube_video_id(video_url)
+        if video_id:
+            thumb=f"https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg"
+            fallback=f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+            video_section=f"""<section class="section video-section" id="video"><div class="wrap">
+<div class="video-showcase">
+<a class="video-thumb-link" href="{e(video_url)}" target="_blank" rel="noopener noreferrer" aria-label="Watch {e(video_title)} on YouTube">
+<img class="video-thumb" src="{e(thumb)}" alt="{e(video_title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='{e(fallback)}';">
+<span class="video-thumb-overlay"><span class="video-play" aria-hidden="true"></span></span>
+</a>
+<div class="video-info">
+<div class="eyebrow">Platform Generation · Case Study</div>
+<h3>{e(video_title)}</h3>
+<a class="video-watch-link" href="{e(video_url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+</div>
+</div></div></section>"""
+        else:
+            video_section=f"""<section class="section video-section" id="video"><div class="wrap"><div class="video-card"><div><div class="eyebrow">Platform Generation · Case Study</div><h3>{e(video_title)}</h3></div><a class="video-cta live" href="{e(video_url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></div></section>"""
     json_ld={
         "@context":"https://schema.org","@type":"CreativeWork",
         "name":f"{md['company']} — Platform Business Model Canvas","headline":md["headline"],
