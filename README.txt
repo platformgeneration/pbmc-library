@@ -73,3 +73,16 @@ YOUTUBE THUMBNAIL RULE
 - The video block contains only the eyebrow, title, thumbnail/play button and YouTube link — no explanatory paragraph.
 - maxresdefault is tried first; hqdefault is used as fallback.
 - media.youtube_title is optional; the generic title is used when empty.
+
+SEARCH / BROWSING RULE
+- There is no required standalone library landing page in the user flow.
+- The library root redirects directly to the first published PBMC.
+- Every PBMC page contains search beside the canvas controls.
+- Autocomplete is generated from library.json and searches company, headline, industry and topics.
+- Arrow keys + Enter work in autocomplete.
+- See next platform stays beside search for rapid browsing.
+
+VISUAL IDENTITY
+- Typography and spacing are aligned more closely to platformgeneration.com using Poppins-style geometric sans.
+- Main colors are black, white, warm grey and Platform Generation orange.
+- Official logo assets can replace the temporary HTML wordmark as soon as they are supplied.

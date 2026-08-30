@@ -191,6 +191,14 @@ def youtube_video_id(url):
 def case_page(case, library, css, renderer):
     md=case["metadata"]; lesson=case["platform_lesson"]; reuse=case["reuse"]
     prev,nxt,only_one=nav_for(library,md["slug"])
+    search_cases=[{
+        "slug":c.get("slug",""),
+        "company":c.get("company",""),
+        "headline":c.get("headline",""),
+        "industry":c.get("industry",[]),
+        "topics":c.get("topics",[])
+    } for c in library["cases"] if c.get("status")=="published"]
+    search_json=json.dumps(search_cases,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     embedded=json.dumps(case,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     rows_json=json.dumps(data_rows(case),ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     media=case.get("media",{})
@@ -236,7 +244,14 @@ def case_page(case, library, css, renderer):
 <main>
 <section class="hero"><div class="wrap"><a class="back" href="../">← Back to PBMC Library</a><div class="eyebrow">PBMC Case {e(md["case_number"])}</div><h1>{e(md["company"])}</h1><p class="dek">{e(md["headline"])}</p><div class="meta">{meta_pills(case)}</div></div></section>
 
-<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head canvas-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div><a class="next-platform-top" href="../{e(nxt["slug"])}/">See next platform →</a></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
+<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head canvas-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div><div class="pbmc-toolbar">
+<div class="case-search" id="caseSearch">
+<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
+<span class="case-search-icon">⌕</span>
+<div class="case-search-results" id="caseSearchResults" role="listbox"></div>
+</div>
+<a class="next-platform-top" href="../{e(nxt["slug"])}/">See next platform →</a>
+</div></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
 
 {video_section}
 
@@ -255,32 +270,87 @@ def case_page(case, library, css, renderer):
 const tableRows=JSON.parse(document.getElementById("pbmc-table-data").textContent);
 document.getElementById("copyTable").addEventListener("click",async function(){{const cols=["Perspective","Field","Value","Explanation","Transaction Flows"];const tsv=[cols.join("\t"),...tableRows.map(r=>cols.map(c=>String(r[c]??"").replace(/\t/g," ").replace(/\n/g," ")).join("\t"))].join("\n");try{{await navigator.clipboard.writeText(tsv);this.textContent="Copied";setTimeout(()=>this.textContent="Copy table",1500)}}catch(e){{this.textContent="Use CSV"}}}});
 document.getElementById("copyCitation").addEventListener("click",async function(){{const citation={json.dumps(reuse["citation"])};try{{await navigator.clipboard.writeText(citation);this.textContent="Copied";setTimeout(()=>this.textContent="Copy citation",1500)}}catch(e){{this.textContent="Select citation above"}}}});
+</script>
+<script id="library-search-data" type="application/json">{search_json}</script>
+<script>
+(function(){{
+  const input=document.getElementById("caseSearchInput");
+  const box=document.getElementById("caseSearchResults");
+  const shell=document.getElementById("caseSearch");
+  if(!input||!box||!shell)return;
+  const cases=JSON.parse(document.getElementById("library-search-data").textContent);
+  let matches=[];
+  let active=-1;
+
+  function escapeHtml(value){{
+    const d=document.createElement("div");
+    d.textContent=value||"";
+    return d.innerHTML;
+  }}
+
+  function searchable(c){{
+    return [c.company,c.headline].concat(c.industry||[]).concat(c.topics||[]).join(" ").toLowerCase();
+  }}
+
+  function draw(){{
+    const q=input.value.trim().toLowerCase();
+    matches=(q ? cases.filter(function(c){{return searchable(c).includes(q);}}) : cases).slice(0,8);
+    active=-1;
+
+    if(!matches.length){{
+      box.innerHTML='<div class="case-search-empty">No matching PBMC</div>';
+      box.classList.add("show");
+      return;
+    }}
+
+    box.innerHTML=matches.map(function(c,i){{
+      const meta=(c.industry||[]).concat(c.topics||[]).slice(0,4).join(" · ");
+      return '<a class="case-search-item" data-i="'+i+'" href="../'+encodeURIComponent(c.slug)+'/">'
+        +'<span class="case-search-company">'+escapeHtml(c.company)+'</span>'
+        +'<span class="case-search-meta">'+escapeHtml(meta)+'</span></a>';
+    }}).join("");
+
+    box.classList.add("show");
+  }}
+
+  function setActive(index){{
+    const items=[].slice.call(box.querySelectorAll(".case-search-item"));
+    items.forEach(function(item){{item.classList.remove("active");}});
+    if(!items.length)return;
+    active=(index+items.length)%items.length;
+    items[active].classList.add("active");
+    items[active].scrollIntoView({{block:"nearest"}});
+  }}
+
+  input.addEventListener("focus",draw);
+  input.addEventListener("input",draw);
+  input.addEventListener("keydown",function(e){{
+    if(e.key==="ArrowDown"){{e.preventDefault();setActive(active+1);}}
+    else if(e.key==="ArrowUp"){{e.preventDefault();setActive(active-1);}}
+    else if(e.key==="Enter"&&active>=0&&matches[active]){{e.preventDefault();location.href="../"+matches[active].slug+"/";}}
+    else if(e.key==="Escape"){{box.classList.remove("show");input.blur();}}
+  }});
+
+  document.addEventListener("click",function(e){{
+    if(!shell.contains(e.target))box.classList.remove("show");
+  }});
+}})();
 </script></body></html>"""
 
 
 def home_page(library, css):
-    cards=[]
-    for c in library["cases"]:
-        if c.get("status")!="published":
-            continue
-        tags=(c.get("industry",[])+c.get("topics",[]))[:4]
-        hay=" ".join([
-            c.get("company",""),
-            c.get("headline",""),
-            " ".join(c.get("industry",[])),
-            " ".join(c.get("topics",[]))
-        ]).lower()
-        cards.append(
-            '<a class="case-card" href="' + e(c["slug"]) + '/" data-search="' + e(hay) + '">'
-            '<div class="case-top"><span>Case ' + e(c["case_number"]) + '</span><span class="badge">Official PBMC</span></div>'
-            '<h2>' + e(c["company"]) + '</h2><p>' + e(c["headline"]) + '</p>'
-            '<div class="tags">' + ''.join('<span class="tag">'+e(t)+'</span>' for t in tags) + '</div></a>'
-        )
-
-    before_cards = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PBMC Library | Platform Generation</title><meta name="description" content="A reusable library of Platform Business Model Canvas cases."><style>"""
-    after_css = """</style></head><body><header><div class="wrap header-inner"><a class="brand" href="./"><span class="brand-mark"></span><span>PLATFORM<br>GENERATION</span></a><nav><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="./">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a></nav><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header><main><section class="library-hero"><div class="wrap"><div class="eyebrow">PBMC Library</div><h1>See how platforms really work.</h1><p>Explore Platform Business Model Canvas snapshots as visual models and structured, reusable data. Watch Platform Generation case studies for the story behind each case.</p></div></section><section class="library-search-wrap"><div class="wrap"><div class="library-search"><input id="librarySearch" type="search" placeholder="Search companies, industries or topics…" autocomplete="off" aria-label="Search PBMC Library"><span class="library-search-icon">⌕</span></div><div class="library-search-meta" id="librarySearchMeta"></div></div></section><section><div class="wrap case-grid" id="caseGrid">"""
-    after_cards = """</div><div class="no-results" id="noResults">No PBMCs match your search.</div></section></main><footer><div class="wrap footer-inner"><span>© 2026 Platform Generation</span><div class="footer-links"><span>PBMC Library</span><span>CC BY 4.0</span></div></div></footer><script>(function(){const input=document.getElementById("librarySearch");const cards=[...document.querySelectorAll(".case-card")];const meta=document.getElementById("librarySearchMeta");const empty=document.getElementById("noResults");function update(){const q=input.value.trim().toLowerCase();let visible=0;cards.forEach(card=>{const hit=!q||(card.dataset.search||card.textContent.toLowerCase()).includes(q);card.style.display=hit?"":"none";if(hit)visible++;});meta.textContent=q?(visible+" matching PBMC"+(visible===1?"":"s")):(cards.length+" PBMC"+(cards.length===1?"":"s")+" in the library");empty.style.display=visible===0?"block":"none";}input.addEventListener("input",update);update();})();</script></body></html>"""
-    return before_cards + css + after_css + "".join(cards) + after_cards
+    published=[c for c in library["cases"] if c.get("status")=="published"]
+    if not published:
+        return "<!doctype html><html><body>No published PBMCs.</body></html>"
+    target=published[0]["slug"] + "/"
+    return (
+        '<!doctype html><html lang="en"><head>'
+        '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta http-equiv="refresh" content="0; url=' + e(target) + '">'
+        '<title>PBMC Library | Platform Generation</title>'
+        '<script>location.replace(' + json.dumps(target) + ');</script>'
+        '</head><body><p><a href="' + e(target) + '">Open PBMC Library</a></p></body></html>'
+    )
 
 
 def build():
