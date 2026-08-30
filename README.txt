@@ -171,3 +171,8 @@ MULTI-CASE LIBRARY v2.19
 - Snapshot month/year is generated from metadata.snapshot_date; it is no longer hard-coded.
 - SHEIN uses the workbook's BASE on-demand-platform boundary for its library snapshot.
 - akippa uses the workbook's current BASE state with Owner Mode as Provider access.
+
+CASE VIDEO LINKS v2.20
+- SHEIN: https://www.youtube.com/watch?v=Ylpyi3P9WC4
+- akippa: https://www.youtube.com/watch?v=n88gS8-AsAU
+- Both cases now render the automatic clickable YouTube thumbnail section below the PBMC canvas.
