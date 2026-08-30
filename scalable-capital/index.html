@@ -1,0 +1,534 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scalable Capital PBMC | Platform Generation</title>
+<meta name="description" content="What changes when Scalable opens the front door to AI agents? Explore the Platform Business Model Canvas, structured PBMC data, transaction flows and sources.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://pbmc.platformgeneration.com/scalable-capital/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "Scalable Capital — Platform Business Model Canvas", "headline": "What changes when Scalable opens the front door to AI agents?", "datePublished": "2026-08-25", "dateModified": "2026-08-30", "creator": {"@type": "Person", "name": "Davis Eisape"}, "publisher": {"@type": "Organization", "name": "Platform Generation"}, "license": "https://creativecommons.org/licenses/by/4.0/", "about": ["Finance", "Brokerage", "AI Agents", "Agentic Investing", "Access Channels", "Partner Layer", "MCP"], "citation": "Eisape, D. (2026). Scalable Capital — Platform Business Model Canvas. Platform Generation."}</script><style>
+:root{
+ --orange:#e43d0b;--ink:#111;--text:#656565;--muted:#858585;--line:#e4e4e2;--soft:#f7f7f5;--white:#fff;
+ --owner:#78A9FF;--provider:#E7B43E;--consumer:#F07C55;--partner:#59B978;--max:1220px;--wide:1460px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:"Avenir Next",Avenir,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--max),calc(100% - 64px));margin:0 auto}.wide-wrap{width:min(var(--wide),calc(100% - 44px));margin:0 auto}
+header{height:108px;display:flex;align-items:center;border-bottom:1px solid #f3f3f1;background:#fff}.header-inner{display:grid;grid-template-columns:270px 1fr 270px;align-items:center;gap:24px;width:100%}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;line-height:.92;letter-spacing:.4px;font-size:18px}.brand-mark{width:38px;height:38px;position:relative;border:2px solid #111;border-radius:4px}
+.brand-mark:before,.brand-mark:after{content:"";position:absolute;background:#111}.brand-mark:before{width:15px;height:2px;left:9px;top:9px;box-shadow:-6px 9px 0 #111,6px 18px 0 #111}.brand-mark:after{width:6px;height:6px;border-radius:50%;left:6px;top:6px;box-shadow:12px 0 0 #111,0 9px 0 #111,12px 18px 0 #111}
+nav{display:flex;justify-content:center;gap:42px;font-size:14px;color:#656565}nav a{padding:12px 0;position:relative}nav a.active:after{content:"";position:absolute;height:1px;background:#222;left:0;right:0;bottom:5px}
+.header-actions{display:flex;justify-content:flex-end}.contact{background:#111;color:#fff;border-radius:999px;padding:15px 39px;font-size:14px}
+
+.hero{padding:56px 0 68px}.back{display:inline-block;color:#777;font-size:13px;margin-bottom:42px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);margin-bottom:17px}
+.hero h1{font-size:68px;line-height:.98;letter-spacing:-.052em;margin:0 0 18px;max-width:920px}.hero .dek{font-size:21px;line-height:1.55;color:var(--text);max-width:900px;margin:0 0 27px}
+.meta{display:flex;gap:9px;flex-wrap:wrap}.meta-pill{border:1px solid #ddd;border-radius:999px;padding:7px 11px;font-size:11px;color:#666}.meta-pill.official{background:#111;color:#fff;border-color:#111}
+
+.lesson{background:var(--soft);border-top:1px solid #eeeeeb;border-bottom:1px solid #eeeeeb;padding:54px 0}.lesson-grid{display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:start}
+.lesson-kicker{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);padding-top:6px}.lesson h2{font-size:33px;line-height:1.12;letter-spacing:-.035em;margin:0 0 15px;max-width:870px}.lesson p{font-size:18px;line-height:1.7;color:#5f5f5f;margin:0;max-width:900px}
+
+.section{padding:76px 0}.section.soft{background:#fbfbfa;border-top:1px solid #f0f0ed;border-bottom:1px solid #f0f0ed}.section-head{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end;margin-bottom:32px}
+.section h2{font-size:38px;line-height:1.1;letter-spacing:-.04em;margin:0 0 10px}.section-copy{margin:0;color:#777;line-height:1.65;max-width:800px;font-size:15px}
+.canvas-tip{font-size:11px;color:#777;border:1px solid #ddd;border-radius:999px;padding:8px 12px;background:#fff;white-space:nowrap}
+
+.canvas-stage{background:#f5f4f2;border-radius:30px;padding:24px 20px 15px;overflow:hidden}.svg-frame{overflow:auto}#pbmcSvg{display:block;width:100%;min-width:1250px;height:auto}
+.outer{fill:#fbfbfa;stroke:#3b332e;stroke-width:1.4}.box{fill:#fff;stroke-width:1.55;cursor:pointer;transition:fill .14s ease,filter .14s ease,stroke-width .14s ease}
+.owner .box{stroke:var(--owner)}.provider .box{stroke:var(--provider)}.consumer .box{stroke:var(--consumer)}.partner .box{stroke:var(--partner)}
+.owner[data-role]:hover .box{fill:var(--owner);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}.provider[data-role]:hover .box{fill:var(--provider);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}.consumer[data-role]:hover .box{fill:var(--consumer);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}.partner[data-role]:hover .box{fill:var(--partner);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}
+.owner[data-role]:hover .label,.owner[data-role]:hover .value,.provider[data-role]:hover .label,.provider[data-role]:hover .value,.consumer[data-role]:hover .label,.consumer[data-role]:hover .value,.partner[data-role]:hover .label,.partner[data-role]:hover .value{fill:#fff}
+.label{font-size:7.2px;font-weight:600;letter-spacing:.11em;fill:#a29d96;dominant-baseline:hanging}.value{font-size:12.5px;font-weight:800;fill:#191919}
+.role-label{font-size:8px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;fill:#96918a}.actor-value{font-size:20px;font-weight:900;fill:#151515}.actor{cursor:pointer}.actor:hover .actor-value{fill:#000}.actor:hover .role-label{fill:#6f6962}
+.cvu-box{fill:#fff;stroke:#171717;stroke-width:1.4;cursor:pointer;transition:fill .14s ease,filter .14s ease}.cvu:hover .cvu-box{fill:#171717;filter:drop-shadow(0 9px 18px rgba(0,0,0,.08))}.cvu:hover .label,.cvu:hover .value{fill:#fff!important}
+.canvas-brand{font-family:Arial,Helvetica,sans-serif}.canvas-brand-prefix{font-size:6.8px;letter-spacing:.11em;fill:#aaa;font-weight:600}.canvas-brand-name{font-size:8px;letter-spacing:.08em;fill:#4d4a46;font-weight:800}
+.struct{fill:none;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;opacity:.32}.owner-line{stroke:var(--owner)}.provider-line{stroke:var(--provider)}.consumer-line{stroke:var(--consumer)}.partner-line{stroke:var(--partner)}
+.flow{fill:none;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;opacity:.75;stroke-dasharray:5 5}.owner-flow{stroke:var(--owner)}.provider-flow{stroke:var(--provider)}.consumer-flow{stroke:var(--consumer)}.partner-flow{stroke:var(--partner)}
+.flow-pill{fill:#fff;stroke-width:1.35}.flow-text{font-size:9.2px;font-weight:800}.owner-label .flow-pill{stroke:var(--owner);fill:rgba(120,169,255,.08)}.owner-label .flow-text{fill:var(--owner)}.provider-label .flow-pill{stroke:var(--provider);fill:rgba(231,180,62,.10)}.provider-label .flow-text{fill:var(--provider)}.consumer-label .flow-pill{stroke:var(--consumer);fill:rgba(240,124,85,.10)}.consumer-label .flow-text{fill:var(--consumer)}.partner-label .flow-pill{stroke:var(--partner);fill:rgba(89,185,120,.10)}.partner-label .flow-text{fill:var(--partner)}
+.canvas-legend{display:flex;gap:20px;flex-wrap:wrap;margin:13px 6px 0;font-size:11px;color:#777}.canvas-legend i{width:13px;height:3px;border-radius:999px;display:inline-block;margin-right:6px;vertical-align:3px}
+
+.tooltip{position:fixed;z-index:60;width:360px;max-width:calc(100vw - 28px);background:#111;color:#fff;border-radius:18px;padding:16px 18px;box-shadow:0 20px 45px rgba(0,0,0,.24);opacity:0;pointer-events:none;transform:translateY(4px);transition:.12s ease}
+.tooltip.show{opacity:1;transform:none}.tooltip .role{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#b9b9b9;margin-bottom:6px}.tooltip .field{font-size:13px;font-weight:800;margin-bottom:2px}.tooltip .question{font-size:12px;font-weight:500;color:#9f9f9f;margin-bottom:8px}.tooltip .val{font-size:18px;font-weight:900;color:#ff7543;margin-bottom:10px;white-space:pre-line}.tooltip .desc{font-size:13px;line-height:1.55;color:#ddd;white-space:pre-line}
+
+.data-actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.data-btn{border:1px solid #d8d8d5;background:#fff;border-radius:999px;padding:9px 13px;font-size:11px;color:#555;cursor:pointer}.data-btn:hover{border-color:#111;color:#111}
+.pbmc-data-block{margin-top:18px;border:1px solid #dfdfdc;border-radius:20px;overflow:hidden;background:#fff}.data-role-head{display:flex;align-items:center;gap:12px;padding:18px 22px;background:#fafaf8;border-bottom:1px solid #e8e8e5}.data-role-head .role-dot{width:9px;height:9px;border-radius:50%}.data-role-head span{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#777;font-weight:800}.data-role-head strong{font-size:18px}
+.data-table{width:100%;border-collapse:collapse;table-layout:fixed}.data-table col.field{width:17%}.data-table col.value{width:24%}.data-table th{text-align:left;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#999;font-weight:800;padding:11px 20px;border-bottom:1px solid #ececea;background:#fff}.data-table td{vertical-align:top;padding:15px 20px;border-bottom:1px solid #efefed;font-size:13px;line-height:1.55}.data-table tr:last-child td{border-bottom:0}.data-table td:first-child{font-weight:700;color:#555}.data-table td:nth-child(2){font-weight:800;color:#171717}.data-table td:nth-child(3){color:#6e6e6e}
+.data-table .transaction-main td{background:#fcfcfa}.data-table .flow-subrow td{background:#fafaf8;padding-top:10px;padding-bottom:10px}.data-table .flow-subrow td:first-child{padding-left:36px;color:#aaa;font-weight:700}.data-table .flow-subrow td:nth-child(2){font-size:12px}.flow-direction{display:inline-flex;align-items:center;gap:7px}.flow-arrow{font-size:15px;font-weight:900}.flow-owner{color:var(--owner)}.flow-provider{color:#c39116}.flow-consumer{color:var(--consumer)}.flow-partner{color:var(--partner)}
+.cvu-data{margin-top:12px;border:1px solid #171717;border-radius:18px;padding:22px;display:grid;grid-template-columns:180px 1fr;gap:30px}.cvu-data .role-name{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#777}.cvu-data strong{display:block;font-size:19px;margin-top:6px}.cvu-data p{margin:0;color:#6e6e6e;font-size:13px;line-height:1.6}
+
+.video-card{background:#111;color:#fff;border-radius:24px;padding:42px 46px;display:grid;grid-template-columns:1fr auto;gap:35px;align-items:center}.video-card h3{font-size:30px;letter-spacing:-.035em;margin:0 0 11px}.video-card p{color:#c7c7c7;line-height:1.6;margin:0;max-width:760px}.video-cta{border:1px solid #777;color:#aaa;border-radius:999px;padding:13px 20px;font-size:12px;white-space:nowrap}.video-cta.live{border-color:#fff;color:#fff}
+
+.sources{list-style:none;padding:0;margin:30px 0 0;border-top:1px solid #e5e5e3}.sources li{display:grid;grid-template-columns:52px 1fr;gap:18px;padding:21px 0;border-bottom:1px solid #e5e5e3}.source-no{font-size:11px;color:#aaa;padding-top:3px}.sources a{font-size:14px;font-weight:700}.source-meta{font-size:10px;color:#999;margin-top:5px;text-transform:uppercase;letter-spacing:.07em}.sources p{margin:7px 0 0;color:#777;line-height:1.5;font-size:12px}
+.reuse-box{border:1px solid #ddd;border-radius:23px;padding:38px;display:grid;grid-template-columns:1fr auto;gap:38px;align-items:center}.reuse-box h3{font-size:31px;letter-spacing:-.035em;margin:0 0 12px}.reuse-box p{color:#686868;line-height:1.65;margin:0;max-width:790px}.citation{margin-top:14px!important;font-size:12px!important;color:#999!important}.copy-btn{background:#fff;border:1px solid #111;border-radius:999px;padding:13px 20px;font-size:12px;font-weight:700;cursor:pointer}.copy-btn:hover{background:#111;color:#fff}
+
+.case-nav{border-top:1px solid #e7e7e4}.case-nav-grid{display:grid;grid-template-columns:1fr 1fr}.case-nav-link{padding:42px 0 48px;display:flex;flex-direction:column;gap:8px}.case-nav-link+ .case-nav-link{border-left:1px solid #e7e7e4;padding-left:52px}.case-nav-link:last-child{text-align:right;align-items:flex-end}.case-nav-label{font-size:9px;text-transform:uppercase;letter-spacing:.13em;color:#999;font-weight:800}.case-nav-company{font-size:25px;font-weight:850;letter-spacing:-.03em}.case-nav-link:hover .case-nav-company{color:var(--orange)}
+footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:28px;align-items:center}.footer-links{display:flex;gap:20px}
+
+/* Library home */
+.library-hero{padding:80px 0 52px}.library-hero h1{font-size:65px;line-height:1;letter-spacing:-.05em;max-width:830px;margin:0 0 20px}.library-hero p{font-size:19px;line-height:1.65;color:#696969;max-width:760px}.case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:90px}.case-card{border:1px solid #dededb;border-radius:22px;padding:27px;min-height:260px;display:flex;flex-direction:column;background:#fff;transition:.15s}.case-card:hover{transform:translateY(-2px);border-color:#aaa}.case-top{display:flex;justify-content:space-between;gap:16px;font-size:9px;letter-spacing:.1em;color:#999;text-transform:uppercase}.badge{background:#111;color:#fff;border-radius:999px;padding:5px 8px;letter-spacing:0}.case-card h2{font-size:27px;letter-spacing:-.035em;margin:44px 0 11px}.case-card p{color:#6e6e6e;line-height:1.55;font-size:13px;margin:0 0 22px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}.tag{font-size:9px;border:1px solid #ddd;border-radius:999px;padding:5px 7px;color:#777}
+
+@media(max-width:1000px){
+ .header-inner{grid-template-columns:1fr auto}nav{display:none}.header-actions{grid-column:2}
+ .lesson-grid{grid-template-columns:1fr;gap:15px}.video-card,.reuse-box{grid-template-columns:1fr}.video-cta{justify-self:start}.case-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:700px){
+ .wrap{width:calc(100% - 36px)}.wide-wrap{width:calc(100% - 20px)}header{height:88px}.contact{display:none}
+ .hero{padding:42px 0 52px}.hero h1{font-size:44px}.hero .dek{font-size:17px}.back{margin-bottom:30px}.section{padding:56px 0}.section-head{grid-template-columns:1fr}.canvas-tip{display:none}
+ .data-table col.field{width:25%}.data-table col.value{width:32%}.data-table th,.data-table td{padding-left:12px;padding-right:12px;font-size:11px}.data-table .flow-subrow td:first-child{padding-left:20px}
+ .cvu-data{grid-template-columns:1fr}.video-card{padding:30px}.reuse-box{padding:28px}.case-nav-grid{grid-template-columns:1fr}.case-nav-link+ .case-nav-link{border-left:0;border-top:1px solid #e7e7e4;padding-left:0}.case-nav-link:last-child{text-align:left;align-items:flex-start}.footer-inner{flex-direction:column;align-items:flex-start}
+ .library-hero h1{font-size:45px}.case-grid{grid-template-columns:1fr}
+}
+</style></head><body>
+<header><div class="wrap header-inner"><a class="brand" href="../"><span class="brand-mark"></span><span>PLATFORM<br>GENERATION</span></a><nav><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a></nav><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
+<main>
+<section class="hero"><div class="wrap"><a class="back" href="../">← Back to PBMC Library</a><div class="eyebrow">PBMC Case 001</div><h1>Scalable Capital</h1><p class="dek">What changes when Scalable opens the front door to AI agents?</p><div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Finance</span><span class="meta-pill">Brokerage</span><span class="meta-pill">AI Agents</span><span class="meta-pill">Agentic Investing</span><span class="meta-pill">Access Channels</span><span class="meta-pill">Partner Layer</span><span class="meta-pill">MCP</span><span class="meta-pill">Snapshot · August 2026</span></div></div></section>
+<section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>Sharing the front door without giving up the regulated core</h2><p>AI companies do not have to replace an existing platform to gain power. They can become a new Partner layer that owns the first conversation while the existing platform keeps the regulated transaction. Scalable&#x27;s bet is that sharing the front door is better than forcing every customer back into its own app: the AI Partner can own the conversation while Scalable still owns the account, the rules and the execution.</p></div></div></section>
+<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div><div class="canvas-tip">Hover to explore</div></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Scalable Capital Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
+<section class="section soft" id="data"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PBMC Data</div><h2>Structured data behind the canvas</h2><p class="section-copy">The canvas as a reusable reference. Transaction arrows appear as sub-rows of each perspective's Transaction field, so the visual model and the structured data remain one and the same.</p></div><div class="data-actions"><button class="data-btn" id="copyTable" type="button">Copy table</button><a class="data-btn" href="pbmc-data.csv" download>Download CSV</a><a class="data-btn" href="case.json" download>JSON</a></div></div><section class="pbmc-data-block" aria-labelledby="data-owner">
+<div class="data-role-head"><span class="role-dot" style="background:var(--owner)"></span><span id="data-owner">Owner</span><strong>Scalable</strong></div>
+<table class="data-table"><colgroup><col class="field"><col class="value"><col></colgroup>
+<thead><tr><th>Field</th><th>Value</th><th>Explanation</th></tr></thead><tbody><tr><td>Actor</td><td>Scalable</td><td>Scalable remains the Owner of the brokerage platform.</td></tr><tr><td>Job</td><td>Enable Trade</td><td>Scalable keeps the account, accepts instructions and makes regulated investing and execution possible.</td></tr><tr><td>Gain</td><td>Reach</td><td>Opening the platform to outside AI assistants gives Scalable more ways to reach customers, including from interfaces it does not own.</td></tr><tr><td>Pain</td><td>Distance</td><td>AI Partners can own more of the first customer conversation. Scalable becomes easier to reach but potentially less visible.</td></tr><tr class="transaction-main"><td>Transaction</td><td>Route / Settle</td><td>Scalable routes the order into the market and remains responsible for the regulated brokerage process around the transaction.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-owner">←</span>Consumer · Request</span></td>
+<td>Investor sends a trading, savings-plan or account-related request to Scalable.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-owner">→</span>Consumer · Trade</span></td>
+<td>Scalable returns the resulting trade or brokerage response to the investor.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-owner">→</span>Provider · Order</span></td>
+<td>Scalable routes the approved order to a trading venue for execution.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-owner">←</span>Provider · Fill</span></td>
+<td>The trading venue returns the execution or fill to Scalable.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-owner">←</span>Partner · Request</span></td>
+<td>After authentication, the AI assistant sends the permitted request to Scalable through MCP.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-owner">→</span>Partner · Data</span></td>
+<td>Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable.</td></tr><tr><td>Governance</td><td>Approve / 2FA</td><td>Login, two-factor authentication and explicit order approval remain inside Scalable&#x27;s regulated process.</td></tr><tr><td>Promotion Channel</td><td>Ads / Refer</td><td>Scalable can still grow through normal marketing and its customer referral programme.</td></tr><tr><td>Activities</td><td>Route / Check</td><td>Scalable checks the instruction, provides required information and routes the approved order.</td></tr><tr><td>Resources</td><td>License / Tech</td><td>Regulatory permission and technology connect brokerage accounts to markets and, after the opening, to AI assistants.</td></tr></tbody></table></section><section class="pbmc-data-block" aria-labelledby="data-consumer">
+<div class="data-role-head"><span class="role-dot" style="background:var(--consumer)"></span><span id="data-consumer">Consumer</span><strong>Investors</strong></div>
+<table class="data-table"><colgroup><col class="field"><col class="value"><col></colgroup>
+<thead><tr><th>Field</th><th>Value</th><th>Explanation</th></tr></thead><tbody><tr><td>Actor</td><td>Investors</td><td>People using Scalable to manage and invest their own money.</td></tr><tr><td>Job</td><td>Grow Wealth</td><td>Investors use the brokerage with the aim of growing their money over time.</td></tr><tr><td>Gain</td><td>Choice / Ease</td><td>Investors value broad investment choice while also wanting that choice to be easy to act on.</td></tr><tr><td>Pain</td><td>Effort / Risk</td><td>Investing requires work and every investment can lose money.</td></tr><tr class="transaction-main"><td>Transaction</td><td>Order / Pay</td><td>Investors send orders and use money in their brokerage account to buy securities.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-consumer">→</span>Owner · Request</span></td>
+<td>Investor sends a trading, savings-plan or account-related request to Scalable.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-consumer">←</span>Owner · Trade</span></td>
+<td>Scalable returns the resulting trade or brokerage response to the investor.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-consumer">→</span>Partner · Prompt</span></td>
+<td>Investor expresses an information or action request in natural language to the AI assistant.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-consumer">←</span>Partner · Insight</span></td>
+<td>The AI assistant returns information, analysis or a proposed action to the investor.</td></tr><tr><td>Filter</td><td>Account / 2FA</td><td>The investor needs a Scalable account, login and two-factor authentication. Agentic access does not remove these requirements.</td></tr><tr><td>Access Channel</td><td>App / Agent</td><td>The investor can still start in Scalable&#x27;s own app or website, but can now also begin inside an outside AI assistant.</td></tr><tr><td>Activities</td><td>Ask / Trade</td><td>The interaction can now begin conversationally through an AI assistant rather than only through screen-based search and tapping.</td></tr><tr><td>Resources</td><td>Cash / Data</td><td>Investors bring money to invest and personal account data that makes portfolio analysis possible.</td></tr></tbody></table></section><section class="pbmc-data-block" aria-labelledby="data-provider">
+<div class="data-role-head"><span class="role-dot" style="background:var(--provider)"></span><span id="data-provider">Provider</span><strong>Venues</strong></div>
+<table class="data-table"><colgroup><col class="field"><col class="value"><col></colgroup>
+<thead><tr><th>Field</th><th>Value</th><th>Explanation</th></tr></thead><tbody><tr><td>Actor</td><td>Venues</td><td>Trading venues such as the European Investor Exchange, gettex and Xetra execute market orders.</td></tr><tr><td>Job</td><td>Fill Orders</td><td>The venue brings buyers and sellers together so an order can be filled.</td></tr><tr><td>Gain</td><td>Volume / Fees</td><td>More trading can create more volume and, depending on the venue, more trading-related revenue.</td></tr><tr><td>Pain</td><td>Spreads / Risk</td><td>The venue has to manage liquidity, prices and market risk while keeping trading orderly.</td></tr><tr class="transaction-main"><td>Transaction</td><td>Quote / Fill</td><td>The venue provides prices and, when an order matches, an execution fill.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-provider">←</span>Owner · Order</span></td>
+<td>Scalable routes the approved order to a trading venue for execution.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-provider">→</span>Owner · Fill</span></td>
+<td>The trading venue returns the execution or fill to Scalable.</td></tr><tr><td>Filter</td><td>Listed</td><td>A security has to be available on the relevant venue before it can be traded there.</td></tr><tr><td>Access Channel</td><td>Exchange</td><td>Scalable connects to the venue through the exchange&#x27;s trading system.</td></tr><tr><td>Activities</td><td>Match / Fill</td><td>The venue repeatedly matches orders and confirms executions.</td></tr><tr><td>Resources</td><td>Book / Flow</td><td>The venue contributes an order book and trading flow: the supply and demand needed for a market to work.</td></tr></tbody></table></section><section class="pbmc-data-block" aria-labelledby="data-partner">
+<div class="data-role-head"><span class="role-dot" style="background:var(--partner)"></span><span id="data-partner">Partner</span><strong>Agents</strong></div>
+<table class="data-table"><colgroup><col class="field"><col class="value"><col></colgroup>
+<thead><tr><th>Field</th><th>Value</th><th>Explanation</th></tr></thead><tbody><tr><td>Actor</td><td>Agents</td><td>Outside AI assistants such as ChatGPT, Claude or Grok enter as a new Partner layer between the investor and Scalable.</td></tr><tr><td>Job</td><td>Help Users</td><td>The AI Partner helps investors analyse, understand and interact with their brokerage.</td></tr><tr><td>Gain</td><td>Usage / Reach</td><td>The AI provider can gain usage while extending its reach into brokerage interactions.</td></tr><tr><td>Pain</td><td>Trust / Rules</td><td>Agentic brokerage interaction operates within trust, permission and regulatory constraints.</td></tr><tr class="transaction-main"><td>Transaction</td><td>Intent / Data</td><td>The Partner mediates user intent and relevant brokerage data between the investor and Scalable.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-partner">←</span>Consumer · Prompt</span></td>
+<td>Investor expresses an information or action request in natural language to the AI assistant.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-partner">→</span>Consumer · Insight</span></td>
+<td>The AI assistant returns information, analysis or a proposed action to the investor.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-partner">→</span>Owner · Request</span></td>
+<td>After authentication, the AI assistant sends the permitted request to Scalable through MCP.</td></tr><tr class="flow-subrow">
+<td>↳</td>
+<td><span class="flow-direction"><span class="flow-arrow flow-partner">←</span>Owner · Data</span></td>
+<td>Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable.</td></tr><tr><td>Filter</td><td>MCP / Auth</td><td>Agentic access depends on the MCP connection and authentication into the brokerage account.</td></tr><tr><td>Access Channel</td><td>MCP</td><td>Model Context Protocol lets an AI assistant call tools offered by Scalable&#x27;s brokerage service.</td></tr><tr><td>Activities</td><td>Read / Call</td><td>The agent can read available information and call brokerage tools exposed through the connection.</td></tr><tr><td>Resources</td><td>Model / Users</td><td>The AI Partner contributes its model capabilities and its existing user interface and user relationships.</td></tr></tbody></table></section><div class="cvu-data"><div><span class="role-name">Core Value Unit</span><strong>Security</strong></div><p>A stock, ETF, fund, derivative or another investment that an investor can find and trade.</p></div></div></section>
+<section class="section" id="video"><div class="wrap"><div class="video-card"><div><div class="eyebrow">Platform Generation · Case Study</div><h3>Watch the story behind the snapshot</h3><p>The video explains why the architecture changed, what changed and why it matters. The library page stays focused on the reusable PBMC itself.</p></div><span class="video-cta">Video link to be added</span></div></div></section>
+<section class="section soft" id="sources"><div class="wrap"><div class="eyebrow">Evidence</div><div class="section-head"><div><h2>Sources</h2><p class="section-copy">Sources document the platform mechanics and factual case context. The PBMC mapping and Platform Lesson are Platform Generation's analysis.</p></div></div><ol class="sources"><li><span class="source-no">01</span><div><a href="https://de.scalable.capital/newsroom/scalable-agentic-investing" target="_blank" rel="noopener noreferrer">Scalable Capital becomes first bank in Europe to open platform to AI assistants via Agentic Investing ↗</a><div class="source-meta">Scalable Capital · 2026-08-25</div><p>Primary announcement for Agentic Investing, supported AI assistants, security controls and company metrics.</p></div></li><li><span class="source-no">02</span><div><a href="https://help.scalable.capital/en/agentic-investing-aac939f8/how-do-i-connect-to-scalable-mcp-f2e70c2b" target="_blank" rel="noopener noreferrer">How do I connect to Scalable MCP? ↗</a><div class="source-meta">Scalable Capital FAQ</div><p>Technical setup of the Scalable MCP connection and authentication flow.</p></div></li><li><span class="source-no">03</span><div><a href="https://help.scalable.capital/en/agentic-investing-aac939f8/which-ai-assistants-are-supported-e8d9291b" target="_blank" rel="noopener noreferrer">Which AI assistants are supported? ↗</a><div class="source-meta">Scalable Capital FAQ</div><p>Supported AI assistants and compatible agent interfaces.</p></div></li><li><span class="source-no">04</span><div><a href="https://help.scalable.capital/en/trading-1541d52f/which-stock-exchanges-are-available-c829b9a4" target="_blank" rel="noopener noreferrer">Which stock exchanges are available? ↗</a><div class="source-meta">Scalable Capital FAQ</div><p>Execution venues available through the broker.</p></div></li><li><span class="source-no">05</span><div><a href="https://help.scalable.capital/en/trading-1541d52f/which-financial-products-can-i-invest-in-6a749f4b" target="_blank" rel="noopener noreferrer">Which financial products can I invest in? ↗</a><div class="source-meta">Scalable Capital FAQ</div><p>Product universe and tradable financial instruments.</p></div></li><li><span class="source-no">06</span><div><a href="https://www.reuters.com/business/finance/german-broker-scalable-opens-investment-platform-major-ai-chatbots-2026-08-25/" target="_blank" rel="noopener noreferrer">German broker Scalable opens investment platform to major AI chatbots ↗</a><div class="source-meta">Reuters · 2026-08-25</div><p>Independent reporting on the launch and its position in European brokerage.</p></div></li></ol></div></section>
+<section class="section" id="reuse"><div class="wrap"><div class="reuse-box"><div><div class="eyebrow">Open PBMC</div><h3>Use it. Adapt it. Cite it.</h3><p>This PBMC is released under <strong>CC BY 4.0</strong>. You may reuse and adapt it for research, teaching, workshops and consulting with attribution. Adapted versions should not be presented as an Official PBMC of Platform Generation.</p><p class="citation">Eisape, D. (2026). Scalable Capital — Platform Business Model Canvas. Platform Generation.</p></div><button class="copy-btn" id="copyCitation" type="button">Copy citation</button></div></div></section>
+<section class="case-nav"><div class="wrap case-nav-grid"><a class="case-nav-link" href="../scalable-capital/"><span class="case-nav-label">← Previous PBMC</span><span class="case-nav-company">Scalable Capital</span></a><a class="case-nav-link" href="../scalable-capital/"><span class="case-nav-label">Start again →</span><span class="case-nav-company">Scalable Capital</span></a></div></section>
+</main><footer><div class="wrap footer-inner"><span>© 2026 Platform Generation</span><div class="footer-links"><span>Platform Business Model Canvas</span><span>CC BY 4.0</span></div></div></footer>
+<div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div><div id="dataError" hidden></div>
+<script id="pbmc-data" type="application/json">{"schema_version": "1.3", "metadata": {"company": "Scalable Capital", "slug": "scalable-capital", "headline": "What changes when Scalable opens the front door to AI agents?", "case_number": "001", "published_date": "2026-08-25", "updated_date": "2026-08-30", "status": "official", "industry": ["Finance", "Brokerage"], "topics": ["AI Agents", "Agentic Investing", "Access Channels", "Partner Layer", "MCP"], "language": "en"}, "platform_lesson": {"title": "Sharing the front door without giving up the regulated core", "text": "AI companies do not have to replace an existing platform to gain power. They can become a new Partner layer that owns the first conversation while the existing platform keeps the regulated transaction. Scalable's bet is that sharing the front door is better than forcing every customer back into its own app: the AI Partner can own the conversation while Scalable still owns the account, the rules and the execution."}, "pbmc": {"core_value_unit": {"value": "Security", "explanation": "A stock, ETF, fund, derivative or another investment that an investor can find and trade.", "changed": false, "before": "", "after": "", "metrics": [{"value": "639K+ Sec.*", "note": "Conservative lower-bound snapshot used in the case analysis; it is not intended as a current total count of every security or product now available."}]}, "owner": {"actor": {"value": "Scalable", "explanation": "Scalable remains the Owner of the brokerage platform.", "changed": false, "before": "", "after": "", "metrics": [{"value": "€60B+ Assets", "note": "Assets held by clients on the Scalable platform."}]}, "governance": {"value": "Approve / 2FA", "explanation": "Login, two-factor authentication and explicit order approval remain inside Scalable's regulated process.", "changed": false, "before": "", "after": ""}, "promotion_channel": {"value": "Ads / Refer", "explanation": "Scalable can still grow through normal marketing and its customer referral programme.", "changed": false, "before": "", "after": ""}, "activities": {"value": "Route / Check", "explanation": "Scalable checks the instruction, provides required information and routes the approved order.", "changed": false, "before": "", "after": ""}, "resources": {"value": "License / Tech", "explanation": "Regulatory permission and technology connect brokerage accounts to markets and, after the opening, to AI assistants.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Route / Settle", "explanation": "Scalable routes the order into the market and remains responsible for the regulated brokerage process around the transaction.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Reach", "explanation": "Opening the platform to outside AI assistants gives Scalable more ways to reach customers, including from interfaces it does not own.", "changed": false, "before": "", "after": ""}, "job": {"value": "Enable Trade", "explanation": "Scalable keeps the account, accepts instructions and makes regulated investing and execution possible.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Distance", "explanation": "AI Partners can own more of the first customer conversation. Scalable becomes easier to reach but potentially less visible.", "changed": true, "before": "App Reliance", "after": "Distance"}}, "consumer": {"actor": {"value": "Investors", "explanation": "People using Scalable to manage and invest their own money.", "changed": false, "before": "", "after": "", "metrics": [{"value": "1M+ Clients", "note": "Clients using Scalable to invest and manage portfolios."}]}, "filter": {"value": "Account / 2FA", "explanation": "The investor needs a Scalable account, login and two-factor authentication. Agentic access does not remove these requirements.", "changed": false, "before": "", "after": ""}, "access_channel": {"value": "App / Agent", "explanation": "The investor can still start in Scalable's own app or website, but can now also begin inside an outside AI assistant.", "changed": true, "before": "App", "after": "App / Agent"}, "activities": {"value": "Ask / Trade", "explanation": "The interaction can now begin conversationally through an AI assistant rather than only through screen-based search and tapping.", "changed": true, "before": "Tap / Trade", "after": "Ask / Trade"}, "resources": {"value": "Cash / Data", "explanation": "Investors bring money to invest and personal account data that makes portfolio analysis possible.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Order / Pay", "explanation": "Investors send orders and use money in their brokerage account to buy securities.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Choice / Ease", "explanation": "Investors value broad investment choice while also wanting that choice to be easy to act on.", "changed": false, "before": "", "after": ""}, "job": {"value": "Grow Wealth", "explanation": "Investors use the brokerage with the aim of growing their money over time.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Effort / Risk", "explanation": "Investing requires work and every investment can lose money.", "changed": false, "before": "", "after": ""}}, "provider": {"actor": {"value": "Venues", "explanation": "Trading venues such as the European Investor Exchange, gettex and Xetra execute market orders.", "changed": false, "before": "", "after": "", "metrics": [{"value": "3 Venues", "note": "European Investor Exchange, gettex and Xetra in the case material."}]}, "filter": {"value": "Listed", "explanation": "A security has to be available on the relevant venue before it can be traded there.", "changed": false, "before": "", "after": ""}, "access_channel": {"value": "Exchange", "explanation": "Scalable connects to the venue through the exchange's trading system.", "changed": false, "before": "", "after": ""}, "activities": {"value": "Match / Fill", "explanation": "The venue repeatedly matches orders and confirms executions.", "changed": false, "before": "", "after": ""}, "resources": {"value": "Book / Flow", "explanation": "The venue contributes an order book and trading flow: the supply and demand needed for a market to work.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Quote / Fill", "explanation": "The venue provides prices and, when an order matches, an execution fill.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Volume / Fees", "explanation": "More trading can create more volume and, depending on the venue, more trading-related revenue.", "changed": false, "before": "", "after": ""}, "job": {"value": "Fill Orders", "explanation": "The venue brings buyers and sellers together so an order can be filled.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Spreads / Risk", "explanation": "The venue has to manage liquidity, prices and market risk while keeping trading orderly.", "changed": false, "before": "", "after": ""}}, "partner": {"enabled_before": false, "enabled_after": true, "changed": true, "actor": {"value": "Agents", "explanation": "Outside AI assistants such as ChatGPT, Claude or Grok enter as a new Partner layer between the investor and Scalable.", "changed": false, "before": "", "after": "", "metrics": [{"value": "ChatGPT · Claude · Grok", "note": "Named examples of external AI assistants that can become an access and interaction layer."}]}, "filter": {"value": "MCP / Auth", "explanation": "Agentic access depends on the MCP connection and authentication into the brokerage account.", "changed": false, "before": "", "after": ""}, "access_channel": {"value": "MCP", "explanation": "Model Context Protocol lets an AI assistant call tools offered by Scalable's brokerage service.", "changed": false, "before": "", "after": ""}, "activities": {"value": "Read / Call", "explanation": "The agent can read available information and call brokerage tools exposed through the connection.", "changed": false, "before": "", "after": ""}, "resources": {"value": "Model / Users", "explanation": "The AI Partner contributes its model capabilities and its existing user interface and user relationships.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Intent / Data", "explanation": "The Partner mediates user intent and relevant brokerage data between the investor and Scalable.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Usage / Reach", "explanation": "The AI provider can gain usage while extending its reach into brokerage interactions.", "changed": false, "before": "", "after": ""}, "job": {"value": "Help Users", "explanation": "The AI Partner helps investors analyse, understand and interact with their brokerage.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Trust / Rules", "explanation": "Agentic brokerage interaction operates within trust, permission and regulatory constraints.", "changed": false, "before": "", "after": ""}}, "flows": {"before": [{"from": "consumer", "to": "owner", "value": "Request", "explanation": "Investor sends a trading, savings-plan or account-related request to Scalable."}, {"from": "owner", "to": "consumer", "value": "Trade", "explanation": "Scalable returns the resulting trade or brokerage response to the investor."}, {"from": "owner", "to": "provider", "value": "Order", "explanation": "Scalable routes the approved order to a trading venue for execution."}, {"from": "provider", "to": "owner", "value": "Fill", "explanation": "The trading venue returns the execution or fill to Scalable."}], "after": [{"from": "consumer", "to": "owner", "value": "Request", "explanation": "Investor sends a trading, savings-plan or account-related request to Scalable."}, {"from": "owner", "to": "consumer", "value": "Trade", "explanation": "Scalable returns the resulting trade or brokerage response to the investor."}, {"from": "owner", "to": "provider", "value": "Order", "explanation": "Scalable routes the approved order to a trading venue for execution."}, {"from": "provider", "to": "owner", "value": "Fill", "explanation": "The trading venue returns the execution or fill to Scalable."}, {"from": "consumer", "to": "partner", "value": "Prompt", "explanation": "Investor expresses an information or action request in natural language to the AI assistant."}, {"from": "partner", "to": "consumer", "value": "Insight", "explanation": "The AI assistant returns information, analysis or a proposed action to the investor."}, {"from": "partner", "to": "owner", "value": "Request", "explanation": "After authentication, the AI assistant sends the permitted request to Scalable through MCP."}, {"from": "owner", "to": "partner", "value": "Data", "explanation": "Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."}]}, "metrics": [{"value": "1M+ Clients", "note": "Scalable says more than one million clients use the platform.", "target": "consumer"}, {"value": "3 Venues", "note": "European Investor Exchange, gettex and Xetra are listed for standard securities trading.", "target": "provider"}, {"value": "639K+ Sec.*", "note": "Conservative lower-bound snapshot used in the case analysis; it is not intended as a current total count of every security or product now available.", "target": "core_value_unit"}, {"value": "€60B+ Assets", "note": "Scalable says clients hold more than sixty billion euros on the platform.", "target": "owner"}]}, "media": {"youtube_id": "", "youtube_url": "", "thumbnail": ""}, "sources": [{"title": "Scalable Capital becomes first bank in Europe to open platform to AI assistants via Agentic Investing", "publisher": "Scalable Capital", "date": "2026-08-25", "url": "https://de.scalable.capital/newsroom/scalable-agentic-investing", "note": "Primary announcement for Agentic Investing, supported AI assistants, security controls and company metrics."}, {"title": "How do I connect to Scalable MCP?", "publisher": "Scalable Capital FAQ", "date": "", "url": "https://help.scalable.capital/en/agentic-investing-aac939f8/how-do-i-connect-to-scalable-mcp-f2e70c2b", "note": "Technical setup of the Scalable MCP connection and authentication flow."}, {"title": "Which AI assistants are supported?", "publisher": "Scalable Capital FAQ", "date": "", "url": "https://help.scalable.capital/en/agentic-investing-aac939f8/which-ai-assistants-are-supported-e8d9291b", "note": "Supported AI assistants and compatible agent interfaces."}, {"title": "Which stock exchanges are available?", "publisher": "Scalable Capital FAQ", "date": "", "url": "https://help.scalable.capital/en/trading-1541d52f/which-stock-exchanges-are-available-c829b9a4", "note": "Execution venues available through the broker."}, {"title": "Which financial products can I invest in?", "publisher": "Scalable Capital FAQ", "date": "", "url": "https://help.scalable.capital/en/trading-1541d52f/which-financial-products-can-i-invest-in-6a749f4b", "note": "Product universe and tradable financial instruments."}, {"title": "German broker Scalable opens investment platform to major AI chatbots", "publisher": "Reuters", "date": "2026-08-25", "url": "https://www.reuters.com/business/finance/german-broker-scalable-opens-investment-platform-major-ai-chatbots-2026-08-25/", "note": "Independent reporting on the launch and its position in European brokerage."}], "related": {"manual_override": [], "auto_match": {"industry_weight": 2, "topic_weight": 3, "changed_field_weight": 4}}, "reuse": {"license": "CC BY 4.0", "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation", "citation": "Eisape, D. (2026). Scalable Capital — Platform Business Model Canvas. Platform Generation."}, "rendering": {"state": "after"}}</script><script id="pbmc-table-data" type="application/json">[{"Perspective": "Owner", "Row Type": "field", "Field": "Actor", "Value": "Scalable", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Scalable remains the Owner of the brokerage platform."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Job", "Value": "Enable Trade", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Scalable keeps the account, accepts instructions and makes regulated investing and execution possible."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Gain", "Value": "Reach", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Opening the platform to outside AI assistants gives Scalable more ways to reach customers, including from interfaces it does not own."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Pain", "Value": "Distance", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "AI Partners can own more of the first customer conversation. Scalable becomes easier to reach but potentially less visible."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Transaction", "Value": "Route / Settle", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Scalable routes the order into the market and remains responsible for the regulated brokerage process around the transaction."}, {"Perspective": "Owner", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Consumer · Request", "Direction": "incoming", "Counterparty": "Consumer", "Flow": "Request", "Explanation": "Investor sends a trading, savings-plan or account-related request to Scalable."}, {"Perspective": "Owner", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Consumer · Trade", "Direction": "outgoing", "Counterparty": "Consumer", "Flow": "Trade", "Explanation": "Scalable returns the resulting trade or brokerage response to the investor."}, {"Perspective": "Owner", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Provider · Order", "Direction": "outgoing", "Counterparty": "Provider", "Flow": "Order", "Explanation": "Scalable routes the approved order to a trading venue for execution."}, {"Perspective": "Owner", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Provider · Fill", "Direction": "incoming", "Counterparty": "Provider", "Flow": "Fill", "Explanation": "The trading venue returns the execution or fill to Scalable."}, {"Perspective": "Owner", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Partner · Request", "Direction": "incoming", "Counterparty": "Partner", "Flow": "Request", "Explanation": "After authentication, the AI assistant sends the permitted request to Scalable through MCP."}, {"Perspective": "Owner", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Partner · Data", "Direction": "outgoing", "Counterparty": "Partner", "Flow": "Data", "Explanation": "Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Governance", "Value": "Approve / 2FA", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Login, two-factor authentication and explicit order approval remain inside Scalable's regulated process."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Promotion Channel", "Value": "Ads / Refer", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Scalable can still grow through normal marketing and its customer referral programme."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Activities", "Value": "Route / Check", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Scalable checks the instruction, provides required information and routes the approved order."}, {"Perspective": "Owner", "Row Type": "field", "Field": "Resources", "Value": "License / Tech", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Regulatory permission and technology connect brokerage accounts to markets and, after the opening, to AI assistants."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Actor", "Value": "Investors", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "People using Scalable to manage and invest their own money."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Job", "Value": "Grow Wealth", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Investors use the brokerage with the aim of growing their money over time."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Gain", "Value": "Choice / Ease", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Investors value broad investment choice while also wanting that choice to be easy to act on."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Pain", "Value": "Effort / Risk", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Investing requires work and every investment can lose money."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Transaction", "Value": "Order / Pay", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Investors send orders and use money in their brokerage account to buy securities."}, {"Perspective": "Consumer", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Owner · Request", "Direction": "outgoing", "Counterparty": "Owner", "Flow": "Request", "Explanation": "Investor sends a trading, savings-plan or account-related request to Scalable."}, {"Perspective": "Consumer", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Owner · Trade", "Direction": "incoming", "Counterparty": "Owner", "Flow": "Trade", "Explanation": "Scalable returns the resulting trade or brokerage response to the investor."}, {"Perspective": "Consumer", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Partner · Prompt", "Direction": "outgoing", "Counterparty": "Partner", "Flow": "Prompt", "Explanation": "Investor expresses an information or action request in natural language to the AI assistant."}, {"Perspective": "Consumer", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Partner · Insight", "Direction": "incoming", "Counterparty": "Partner", "Flow": "Insight", "Explanation": "The AI assistant returns information, analysis or a proposed action to the investor."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Filter", "Value": "Account / 2FA", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The investor needs a Scalable account, login and two-factor authentication. Agentic access does not remove these requirements."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Access Channel", "Value": "App / Agent", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The investor can still start in Scalable's own app or website, but can now also begin inside an outside AI assistant."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Activities", "Value": "Ask / Trade", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The interaction can now begin conversationally through an AI assistant rather than only through screen-based search and tapping."}, {"Perspective": "Consumer", "Row Type": "field", "Field": "Resources", "Value": "Cash / Data", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Investors bring money to invest and personal account data that makes portfolio analysis possible."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Actor", "Value": "Venues", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Trading venues such as the European Investor Exchange, gettex and Xetra execute market orders."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Job", "Value": "Fill Orders", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The venue brings buyers and sellers together so an order can be filled."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Gain", "Value": "Volume / Fees", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "More trading can create more volume and, depending on the venue, more trading-related revenue."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Pain", "Value": "Spreads / Risk", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The venue has to manage liquidity, prices and market risk while keeping trading orderly."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Transaction", "Value": "Quote / Fill", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The venue provides prices and, when an order matches, an execution fill."}, {"Perspective": "Provider", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Owner · Order", "Direction": "incoming", "Counterparty": "Owner", "Flow": "Order", "Explanation": "Scalable routes the approved order to a trading venue for execution."}, {"Perspective": "Provider", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Owner · Fill", "Direction": "outgoing", "Counterparty": "Owner", "Flow": "Fill", "Explanation": "The trading venue returns the execution or fill to Scalable."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Filter", "Value": "Listed", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "A security has to be available on the relevant venue before it can be traded there."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Access Channel", "Value": "Exchange", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Scalable connects to the venue through the exchange's trading system."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Activities", "Value": "Match / Fill", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The venue repeatedly matches orders and confirms executions."}, {"Perspective": "Provider", "Row Type": "field", "Field": "Resources", "Value": "Book / Flow", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The venue contributes an order book and trading flow: the supply and demand needed for a market to work."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Actor", "Value": "Agents", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Outside AI assistants such as ChatGPT, Claude or Grok enter as a new Partner layer between the investor and Scalable."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Job", "Value": "Help Users", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The AI Partner helps investors analyse, understand and interact with their brokerage."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Gain", "Value": "Usage / Reach", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The AI provider can gain usage while extending its reach into brokerage interactions."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Pain", "Value": "Trust / Rules", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Agentic brokerage interaction operates within trust, permission and regulatory constraints."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Transaction", "Value": "Intent / Data", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The Partner mediates user intent and relevant brokerage data between the investor and Scalable."}, {"Perspective": "Partner", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Consumer · Prompt", "Direction": "incoming", "Counterparty": "Consumer", "Flow": "Prompt", "Explanation": "Investor expresses an information or action request in natural language to the AI assistant."}, {"Perspective": "Partner", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Consumer · Insight", "Direction": "outgoing", "Counterparty": "Consumer", "Flow": "Insight", "Explanation": "The AI assistant returns information, analysis or a proposed action to the investor."}, {"Perspective": "Partner", "Row Type": "transaction_flow", "Field": "↳", "Value": "→ Owner · Request", "Direction": "outgoing", "Counterparty": "Owner", "Flow": "Request", "Explanation": "After authentication, the AI assistant sends the permitted request to Scalable through MCP."}, {"Perspective": "Partner", "Row Type": "transaction_flow", "Field": "↳", "Value": "← Owner · Data", "Direction": "incoming", "Counterparty": "Owner", "Flow": "Data", "Explanation": "Scalable returns permitted account, portfolio or market data through MCP while regulated approvals remain with Scalable."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Filter", "Value": "MCP / Auth", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Agentic access depends on the MCP connection and authentication into the brokerage account."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Access Channel", "Value": "MCP", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "Model Context Protocol lets an AI assistant call tools offered by Scalable's brokerage service."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Activities", "Value": "Read / Call", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The agent can read available information and call brokerage tools exposed through the connection."}, {"Perspective": "Partner", "Row Type": "field", "Field": "Resources", "Value": "Model / Users", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "The AI Partner contributes its model capabilities and its existing user interface and user relationships."}, {"Perspective": "Core Value Unit", "Row Type": "field", "Field": "Core Value Unit", "Value": "Security", "Direction": "", "Counterparty": "", "Flow": "", "Explanation": "A stock, ETF, fund, derivative or another investment that an investor can find and trade."}]</script>
+<script>"use strict";
+
+const NS="http://www.w3.org/2000/svg";
+const ROLE_COLORS={owner:"#78A9FF",provider:"#E7B43E",consumer:"#F07C55",partner:"#59B978"};
+const ROLES=["owner","provider","consumer","partner"];
+const ROLE_NAMES={owner:"OWNER",provider:"PROVIDER",consumer:"CONSUMER",partner:"PARTNER"};
+
+const FIELD_LABELS={
+  governance:"Governance",promotion_channel:"Promotion",activities:"Activities",
+  resources:"Resources",transaction:"Transaction",gain:"Gain",job:"Job",
+  pain:"Pain",filter:"Filter",access_channel:"Access"
+};
+const QUESTIONS={
+  governance:"What rules govern participation?",
+  promotion_channel:"How are participants attracted?",
+  activities:"What do they do?",
+  resources:"What must they contribute?",
+  transaction:"What is exchanged?",
+  gain:"What positive outcome matters?",
+  job:"What needs doing?",
+  pain:"What gets in the way?",
+  filter:"Who gets access?",
+  access_channel:"How is the platform accessed?",
+  core_value_unit:"What unit of value is exchanged?"
+};
+
+/* Fixed PBMC spatial grammar. Only content changes. */
+const GEOM={
+  outer:{x:8,y:8,w:1424,h:920},
+  cvu:{x:580,y:393,w:280,h:150},
+  actors:{
+    owner:{x:720,roleY:74,valueY:100},
+    provider:{x:106,roleY:456,valueY:482},
+    consumer:{x:1334,roleY:456,valueY:482},
+    partner:{x:720,roleY:824,valueY:850}
+  },
+  fields:{
+    owner:{
+      governance:[489,139,108,62],promotion_channel:[607,139,108,62],
+      activities:[725,139,108,62],resources:[843,139,108,62],
+      transaction:[489,215,462,62],gain:[541,295,108,64],
+      job:[666,295,108,64],pain:[791,295,108,64]
+    },
+    provider:{
+      filter:[192,329,104,62],access_channel:[192,401,104,62],
+      activities:[192,473,104,62],resources:[192,545,104,62],
+      transaction:[318,351,86,234],gain:[422,353,108,64],
+      job:[422,436,108,64],pain:[422,519,108,64]
+    },
+    consumer:{
+      gain:[910,353,108,64],job:[910,436,108,64],pain:[910,519,108,64],
+      transaction:[1036,351,86,234],filter:[1144,329,104,62],
+      access_channel:[1144,401,104,62],activities:[1144,473,104,62],
+      resources:[1144,545,104,62]
+    },
+    partner:{
+      gain:[541,577,108,64],job:[666,577,108,64],pain:[791,577,108,64],
+      transaction:[489,659,462,62],resources:[489,735,108,62],
+      activities:[607,735,108,62],access_channel:[725,735,108,62],
+      filter:[843,735,108,62]
+    }
+  }
+};
+
+/*
+  Every directed role pair is a normal route.
+  The four "long" opposite routes are NOT special/demo routes:
+  owner↔partner use the left/right Job↔Transaction corridors;
+  provider↔consumer use the top/bottom Job↔Transaction corridors.
+*/
+const ROUTES={
+  "owner>provider":   {d:"M489 239 L361 239 L361 351", label:[397,319]},
+  "provider>owner":   {d:"M361 351 L361 271 L489 271", label:[425,263]},
+  "consumer>owner":   {d:"M1079 351 L1079 239 L951 239", label:[1088,231]},
+  "owner>consumer":   {d:"M951 271 L1079 271 L1079 351", label:[1043,319]},
+  "partner>provider": {d:"M489 690 L361 690 L361 585", label:[397,621]},
+  "provider>partner": {d:"M361 585 L361 674 L489 674", label:[425,666]},
+  "consumer>partner": {d:"M1079 585 L1079 674 L951 674", label:[1015,666]},
+  "partner>consumer": {d:"M951 690 L1079 690 L1079 585", label:[1043,621]},
+
+  "owner>partner":    {d:"M489 246 L413 246 L413 690 L489 690", label:[448,702]},
+  "partner>owner":    {d:"M951 690 L1027 690 L1027 246 L951 246", label:[992,234]},
+  "provider>consumer":{d:"M361 351 L361 286 L1079 286 L1079 351", label:[950,298]},
+  "consumer>provider":{d:"M1079 585 L1079 650 L361 650 L361 585", label:[490,638]}
+};
+
+const STRUCTURE={
+  owner:`M720 393 L720 363
+M720 363 L595 363 L595 359
+M720 363 L720 359
+M720 363 L845 363 L845 359
+M720 295 L720 277
+M720 215 L720 207
+M543 207 L897 207
+M543 207 L543 201 M661 207 L661 201 M779 207 L779 201 M897 207 L897 201`,
+  provider:`M580 468 L538 468
+M538 385 L538 551 M538 385 L530 385 M538 468 L530 468 M538 551 L530 551
+M422 468 L404 468 M318 468 L306 468
+M306 360 L306 576 M306 360 L296 360 M306 432 L296 432 M306 504 L296 504 M306 576 L296 576`,
+  consumer:`M860 468 L902 468
+M902 385 L902 551 M902 385 L910 385 M902 468 L910 468 M902 551 L910 551
+M1018 468 L1036 468 M1122 468 L1134 468
+M1134 360 L1134 576 M1134 360 L1144 360 M1134 432 L1144 432 M1134 504 L1144 504 M1134 576 L1144 576`,
+  partner:`M720 543 L720 573
+M720 573 L595 573 L595 577
+M720 573 L720 577
+M720 573 L845 573 L845 577
+M720 641 L720 659
+M720 721 L720 727
+M543 727 L897 727
+M543 727 L543 735 M661 727 L661 735 M779 727 L779 735 M897 727 L897 735`
+};
+
+function svgEl(name,attrs={},text=null){
+  const el=document.createElementNS(NS,name);
+  for(const [k,v] of Object.entries(attrs)) if(v!==null&&v!==undefined) el.setAttribute(k,String(v));
+  if(text!==null) el.textContent=String(text);
+  return el;
+}
+function add(parent,name,attrs={},text=null){
+  const el=svgEl(name,attrs,text); parent.appendChild(el); return el;
+}
+function safe(obj,key,fallback=""){ return obj && obj[key]!==undefined && obj[key]!==null ? obj[key] : fallback; }
+
+function normalizeCase(raw){
+  if(!raw || typeof raw!=="object") throw new Error("PBMC data must be a JSON object.");
+  if(!raw.pbmc) throw new Error("Missing pbmc object.");
+  if(!raw.pbmc.core_value_unit) throw new Error("Missing pbmc.core_value_unit.");
+  for(const role of ["owner","provider","consumer"]){
+    if(!raw.pbmc[role]) throw new Error(`Missing pbmc.${role}.`);
+    if(!raw.pbmc[role].actor) throw new Error(`Missing pbmc.${role}.actor.`);
+  }
+  return raw;
+}
+function renderState(data){ return safe(data.rendering,"state","after"); }
+function roleEnabled(data,role,state){
+  const r=data.pbmc[role];
+  if(!r) return false;
+  if(r.enabled===false) return false;
+  if(state==="before" && r.enabled_before!==undefined) return !!r.enabled_before;
+  if(state==="after" && r.enabled_after!==undefined) return !!r.enabled_after;
+  return true;
+}
+function getFlows(data,state){
+  const f=data.pbmc.flows;
+  if(Array.isArray(f)) return f;
+  if(!f) return [];
+  if(Array.isArray(f[state])) return f[state];
+  if(Array.isArray(f.current)) return f.current;
+  if(Array.isArray(f.after)) return f.after;
+  return [];
+}
+function valueLines(value,maxChars=15){
+  const v=String(value??"").trim();
+  if(!v) return ["—"];
+  if(v.includes(" / ")){
+    const p=v.split(" / ").map(x=>x.trim()).filter(Boolean);
+    if(p.length<=3) return p.slice(0,3);
+  }
+  if(v.length<=maxChars) return [v];
+  const words=v.split(/\s+/);
+  if(words.length===1) return [v.length>20?v.slice(0,19)+"…":v];
+  const lines=[]; let line="";
+  for(const w of words){
+    const trial=line?line+" "+w:w;
+    if(trial.length<=maxChars || !line) line=trial;
+    else { lines.push(line); line=w; if(lines.length===2) break; }
+  }
+  if(line && lines.length<2) lines.push(line);
+  if(lines.join(" ").length<v.length && lines.length) lines[lines.length-1]=lines[lines.length-1].replace(/…?$/,"…");
+  return lines.slice(0,2);
+}
+function textWithLines(parent,klass,cx,cy,lines,fontSize=null){
+  const attrs={class:klass,x:cx,y:cy,"text-anchor":"middle"};
+  if(fontSize) attrs["style"]=`font-size:${fontSize}px`;
+  const t=add(parent,"text",attrs);
+  const step=17;
+  const start=cy-(lines.length-1)*step/2;
+  lines.forEach((line,i)=>add(t,"tspan",{x:cx,y:start+i*step},line));
+  return t;
+}
+function pillWidth(label){ return Math.max(48,Math.min(150,String(label).length*6.2+20)); }
+
+function defs(svg){
+  const d=add(svg,"defs");
+  ROLES.forEach(role=>{
+    const m=add(d,"marker",{id:`arrow-${role}`,markerWidth:7,markerHeight:7,refX:6,refY:3.5,orient:"auto",markerUnits:"strokeWidth"});
+    add(m,"path",{d:"M0,0 L7,3.5 L0,7 Z",fill:ROLE_COLORS[role]});
+  });
+}
+
+function drawStructure(svg,data,state){
+  const g=add(svg,"g",{class:"structure-lines"});
+  ROLES.forEach(role=>{
+    if(!roleEnabled(data,role,state)) return;
+    add(g,"path",{class:`struct ${role}-line`,d:STRUCTURE[role]});
+  });
+}
+
+function drawActor(svg,data,role,state,tooltip){
+  if(!roleEnabled(data,role,state)) return;
+  const rd=data.pbmc[role];
+  const actor=rd.actor||{};
+  const pos=GEOM.actors[role];
+  const g=add(svg,"g",{class:"actor","data-actor":role});
+  add(g,"text",{class:"role-label",x:pos.x,y:pos.roleY,"text-anchor":"middle"},ROLE_NAMES[role]);
+  const name=String(actor.value||"—");
+  const size=Math.max(13,20-Math.max(0,name.length-14)*0.35);
+  add(g,"text",{class:"actor-value",x:pos.x,y:pos.valueY,"text-anchor":"middle",style:`font-size:${size}px`},name);
+  bindTooltip(g,()=>actorTooltip(role,actor),tooltip);
+}
+
+function drawField(svg,data,role,key,tooltip){
+  if(!roleEnabled(data,role,renderState(data))) return;
+  const box=GEOM.fields[role][key];
+  if(!box) return;
+  const [x,y,w,h]=box;
+  const record=(data.pbmc[role]||{})[key]||{};
+  const g=add(svg,"g",{class:role,"data-role":role,"data-key":key});
+  add(g,"rect",{class:"box",x,y,width:w,height:h,rx:14,ry:14});
+  add(g,"text",{class:"label",x:x+10,y:y+11},(FIELD_LABELS[key]||key).toUpperCase());
+  const lines=valueLines(record.value,w>200?24:14);
+  const font=lines.some(l=>l.length>16)?11.5:12.5;
+  textWithLines(g,"value",x+w/2,y+h/2+3,lines,font);
+  bindTooltip(g,()=>fieldTooltip(role,key,record),tooltip);
+}
+
+function drawCVU(svg,data,tooltip){
+  const c=data.pbmc.core_value_unit||{};
+  const {x,y,w,h}=GEOM.cvu;
+  const g=add(svg,"g",{class:"cvu","data-role":"core_value_unit","data-key":"core_value_unit"});
+  add(g,"rect",{class:"cvu-box",x,y,width:w,height:h,rx:18,ry:18});
+  add(g,"text",{class:"label",x:x+13,y:y+11},"CORE VALUE UNIT");
+  const lines=valueLines(c.value,26);
+  textWithLines(g,"value",x+w/2,y+h/2+4,lines,Math.max(18,24-(lines.join("").length>22?3:0)));
+  bindTooltip(g,()=>cvuTooltip(c),tooltip);
+}
+
+function drawFlows(svg,data,state){
+  const rawFlows=getFlows(data,state);
+  const lineLayer=add(svg,"g",{class:"flow-lines"});
+  const labelLayer=add(svg,"g",{class:"flow-labels"});
+
+  // One visual route per directed role pair. If a dataset contains several
+  // transaction values for the same direction, merge their labels rather than
+  // drawing identical arrows on top of each other.
+  const grouped=new Map();
+  rawFlows.forEach(flow=>{
+    const from=String(flow.from||"").toLowerCase();
+    const to=String(flow.to||"").toLowerCase();
+    if(!ROLES.includes(from)||!ROLES.includes(to)||from===to) return;
+    if(!roleEnabled(data,from,state)||!roleEnabled(data,to,state)) return;
+    const key=`${from}>${to}`;
+    if(!ROUTES[key]){ console.warn("No PBMC route for",key); return; }
+    if(!grouped.has(key)) grouped.set(key,{from,to,values:[]});
+    const value=String(flow.value||flow.label||"").trim();
+    if(value && !grouped.get(key).values.includes(value)) grouped.get(key).values.push(value);
+  });
+
+  grouped.forEach(group=>{
+    const key=`${group.from}>${group.to}`;
+    const route=ROUTES[key];
+
+    add(lineLayer,"path",{
+      class:`flow ${group.from}-flow`,
+      d:route.d,
+      "marker-end":`url(#arrow-${group.from})`
+    });
+
+    let value=group.values.length ? group.values.join(" · ") : "Transaction";
+    if(value.length>26) value=value.slice(0,25)+"…";
+    const [lx,ly]=route.label;
+    const width=pillWidth(value);
+    const lg=add(labelLayer,"g",{class:`arrow-label ${group.from}-label`,transform:`translate(${lx} ${ly})`});
+    add(lg,"rect",{class:"flow-pill",x:-width/2,y:-11,width,height:22,rx:11});
+    add(lg,"text",{class:"flow-text",x:0,y:4,"text-anchor":"middle"},value);
+  });
+}
+
+function fieldTooltip(role,key,record){
+  return {
+    role:ROLE_NAMES[role],
+    field:FIELD_LABELS[key]||key,
+    question:QUESTIONS[key]||"",
+    value:record.value||"—",
+    desc:record.explanation||""
+  };
+}
+function metricText(metrics){
+  if(!Array.isArray(metrics)||!metrics.length) return {value:"",desc:""};
+  return {
+    value:metrics.map(m=>m.value).filter(Boolean).join("\n"),
+    desc:metrics.map(m=>m.note).filter(Boolean).join("\n")
+  };
+}
+function actorTooltip(role,actor){
+  const m=metricText(actor.metrics);
+  return {
+    role:ROLE_NAMES[role],
+    field:actor.value||"—",
+    question:"Case value",
+    value:m.value||"",
+    desc:m.desc||actor.explanation||""
+  };
+}
+function cvuTooltip(cvu){
+  const m=metricText(cvu.metrics);
+  return {
+    role:"CORE VALUE UNIT",
+    field:cvu.value||"—",
+    question:QUESTIONS.core_value_unit,
+    value:m.value||cvu.value||"",
+    desc:m.desc||cvu.explanation||""
+  };
+}
+
+function bindTooltip(el,getData,tt){
+  el.addEventListener("mouseenter",e=>showTooltip(e,getData(),tt));
+  el.addEventListener("mousemove",e=>moveTooltip(e,tt));
+  el.addEventListener("mouseleave",()=>tt.classList.remove("show"));
+}
+function showTooltip(e,d,tt){
+  tt.querySelector(".role").textContent=d.role||"";
+  tt.querySelector(".field").textContent=d.field||"";
+  tt.querySelector(".question").textContent=d.question||"";
+  tt.querySelector(".val").textContent=d.value||"";
+  tt.querySelector(".desc").textContent=d.desc||"";
+  moveTooltip(e,tt); tt.classList.add("show");
+}
+function moveTooltip(e,tt){
+  const pad=16,w=360,h=210;
+  let x=e.clientX+18,y=e.clientY+18;
+  if(x+w>innerWidth-pad)x=e.clientX-w-18;
+  if(y+h>innerHeight-pad)y=e.clientY-h-18;
+  tt.style.left=Math.max(pad,x)+"px";tt.style.top=Math.max(pad,y)+"px";
+}
+
+function render(data){
+  const state=renderState(data);
+  const svg=document.getElementById("pbmcSvg");
+  const tt=document.getElementById("tooltip");
+  svg.replaceChildren();
+  defs(svg);
+  add(svg,"rect",{class:"outer",x:GEOM.outer.x,y:GEOM.outer.y,width:GEOM.outer.w,height:GEOM.outer.h,rx:32,ry:32});
+  const brand=add(svg,"text",{class:"canvas-brand",x:1405,y:31,"text-anchor":"end"});
+  add(brand,"tspan",{class:"canvas-brand-prefix"},"CREATED BY ");
+  add(brand,"tspan",{class:"canvas-brand-name"},"PLATFORM GENERATION");
+
+  // Background structural layer, then flows, then fields/actors.
+  drawStructure(svg,data,state);
+  drawFlows(svg,data,state);
+
+  ROLES.forEach(role=>drawActor(svg,data,role,state,tt));
+  const order={
+    owner:["governance","promotion_channel","activities","resources","transaction","gain","job","pain"],
+    provider:["filter","access_channel","activities","resources","transaction","gain","job","pain"],
+    consumer:["gain","job","pain","transaction","filter","access_channel","activities","resources"],
+    partner:["gain","job","pain","transaction","resources","activities","access_channel","filter"]
+  };
+  ROLES.forEach(role=>{
+    if(!roleEnabled(data,role,state)) return;
+    order[role].forEach(key=>drawField(svg,data,role,key,tt));
+  });
+  drawCVU(svg,data,tt);
+
+  const company=safe(data.metadata,"company","PBMC");
+  const _caseTitle=document.getElementById("caseTitle"); if(_caseTitle) _caseTitle.textContent=company;
+  const _caseSub=document.getElementById("caseSub"); if(_caseSub) _caseSub.textContent=safe(data.metadata,"headline","Data-driven Platform Business Model Canvas.");
+  svg.setAttribute("aria-label",`${company} Platform Business Model Canvas`);
+}
+
+try{
+  const DATA=normalizeCase(JSON.parse(document.getElementById("pbmc-data").textContent));
+  render(DATA);
+}catch(err){
+  console.error(err);
+  const box=document.getElementById("dataError");
+  box.style.display="block";
+  box.textContent="PBMC data error: "+err.message;
+}
+</script><script>
+const tableRows=JSON.parse(document.getElementById("pbmc-table-data").textContent);
+document.getElementById("copyTable").addEventListener("click",async function(){const cols=["Perspective","Row Type","Field","Value","Direction","Counterparty","Flow","Explanation"];const tsv=[cols.join("\t"),...tableRows.map(r=>cols.map(c=>String(r[c]??"").replace(/\t/g," ").replace(/\n/g," ")).join("\t"))].join("\n");try{await navigator.clipboard.writeText(tsv);this.textContent="Copied";setTimeout(()=>this.textContent="Copy table",1500)}catch(e){this.textContent="Use CSV"}});
+document.getElementById("copyCitation").addEventListener("click",async function(){const citation="Eisape, D. (2026). Scalable Capital \u2014 Platform Business Model Canvas. Platform Generation.";try{await navigator.clipboard.writeText(citation);this.textContent="Copied";setTimeout(()=>this.textContent="Copy citation",1500)}catch(e){this.textContent="Select citation above"}});
+</script></body></html>

@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "",
+    "slug": "",
+    "headline": "",
+    "case_number": "",
+    "published_date": "",
+    "updated_date": "",
+    "status": "official",
+    "industry": [],
+    "topics": [],
+    "geography": [],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "",
+    "text": ""
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "",
+      "explanation": "",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "owner": {
+      "actor": {
+        "value": "",
+        "explanation": "",
+        "metrics": [],
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "filter": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "filter": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "actor": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "filter": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "",
+        "explanation": "",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "enabled_before": true,
+      "enabled_after": true
+    },
+    "platform_dynamics": {
+      "network_effects": {
+        "value": "",
+        "explanation": ""
+      },
+      "critical_mass": {
+        "value": "",
+        "explanation": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "",
+          "to": "",
+          "value": "",
+          "explanation": ""
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "",
+        "value": "",
+        "note": ""
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": ""
+  },
+  "sources": [
+    {
+      "title": "",
+      "publisher": "",
+      "url": "",
+      "published_date": ""
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": ""
+  },
+  "navigation": {
+    "note": "Previous/Next are generated from library.json; do not enter case-specific links here."
+  },
+  "canvas_branding": {
+    "enabled": true,
+    "text": "Created by PLATFORM GENERATION"
+  }
+}

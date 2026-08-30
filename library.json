@@ -1,0 +1,23 @@
+{
+  "title": "PBMC Library",
+  "cases": [
+    {
+      "slug": "scalable-capital",
+      "case_number": "001",
+      "company": "Scalable Capital",
+      "headline": "What changes when Scalable opens the front door to AI agents?",
+      "industry": [
+        "Finance",
+        "Brokerage"
+      ],
+      "topics": [
+        "AI Agents",
+        "Agentic Investing",
+        "Access Channels",
+        "Partner Layer",
+        "MCP"
+      ],
+      "status": "published"
+    }
+  ]
+}
