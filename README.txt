@@ -199,3 +199,10 @@ FLOW LABELS + FOCUS v2.22
 SHEIN DISPLAY NAME FIX v2.23
 - VO-oriented spellings such as 'she in' are preserved only in the original FROZEN production workbook.
 - Website case data, explanations, hover text and generated static HTML use the official brand spelling SHEIN.
+
+CASE 004 OPENROUTER v2.24
+- Added OpenRouter as Case 004 from the supplied Platform Generation presentation.
+- Snapshot boundary: OpenRouter remains Owner and Stripe is the existing financial Partner at the acquisition announcement.
+- The announced acquisition is handled in the headline, explanations and Platform Lesson rather than prematurely rendering Stripe as current Owner.
+- YouTube: https://www.youtube.com/watch?v=0wIRdTYDitc
+- Library order: Scalable Capital -> SHEIN -> akippa -> OpenRouter -> Scalable Capital.

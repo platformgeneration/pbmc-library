@@ -54,6 +54,24 @@
         "IPO"
       ],
       "status": "published"
+    },
+    {
+      "slug": "openrouter",
+      "case_number": "004",
+      "company": "OpenRouter",
+      "headline": "Why is an AI middleman worth $8 billion?",
+      "industry": [
+        "AI Infrastructure",
+        "Developer Infrastructure"
+      ],
+      "topics": [
+        "AI Routing",
+        "Model Marketplace",
+        "Aggregation Layer",
+        "Payments",
+        "Acquisition"
+      ],
+      "status": "published"
     }
   ]
 }

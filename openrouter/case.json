@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.6",
+  "metadata": {
+    "company": "OpenRouter",
+    "slug": "openrouter",
+    "headline": "Why is an AI middleman worth $8 billion?",
+    "case_number": "004",
+    "published_date": "2026-08-30",
+    "updated_date": "2026-08-30",
+    "snapshot_date": "2026-08-23",
+    "status": "official",
+    "industry": [
+      "AI Infrastructure",
+      "Developer Infrastructure"
+    ],
+    "topics": [
+      "AI Routing",
+      "Model Marketplace",
+      "Aggregation Layer",
+      "Payments",
+      "Acquisition"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Owning the crossroads can matter more than owning the model",
+    "text": "OpenRouter does not need to build the best AI model to occupy a powerful platform position. It aggregates demand through one interface, routes that demand across competing providers, sets participation and routing rules, and sits inside the commercial flow. Stripe was already the financial Partner underneath that transaction architecture. If the announced acquisition closes, Stripe would add the Owner role on top of its existing Partner role — combining control of payments infrastructure with ownership of the layer where models meet customers."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "AI Model",
+      "explanation": "The AI model is the central unit Users come to OpenRouter to discover, choose and use through a common interface.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "500+ Models",
+          "note": "Live OpenRouter inventory at the research cut-off; the acquisition announcement four days earlier still described 400+ models."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Users",
+        "explanation": "Developers and companies use OpenRouter to access AI models inside products, tools and workflows.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "10M+ Users",
+            "note": "OpenRouter reports more than ten million global users."
+          }
+        ]
+      },
+      "job": {
+        "value": "Build / Scale",
+        "explanation": "Users want to build and scale AI applications without maintaining a separate technical relationship with every model supplier.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Backup",
+        "explanation": "One gateway gives Users broad model choice while fallbacks and multi-provider routing can improve reliability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Setup / Downtime",
+        "explanation": "Fragmented suppliers create separate integrations, pricing structures and failure points, while applications still need to keep working.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Request / Pay",
+        "explanation": "Users send AI requests through OpenRouter and pay for the usage there, placing the platform inside both the technical and commercial relationship.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Policy",
+        "explanation": "Access depends on an account, credentials and the policies that govern which models and providers may be used.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Unified API",
+        "explanation": "The main access channel is a unified API that lets developers connect once and use many models without rebuilding each supplier integration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Choose / Set",
+        "explanation": "Users choose models and can configure provider order, price limits, fallbacks and other routing preferences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Key / Credits",
+        "explanation": "Users mainly bring an API key and credits, together with their own code, prompts and application data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Providers",
+        "explanation": "AI model companies and inference infrastructure providers supply the model access and computing capacity that OpenRouter routes to Users.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "80+ Prov.",
+            "note": "OpenRouter's live provider directory lists more than eighty providers."
+          }
+        ]
+      },
+      "job": {
+        "value": "Earn Revenue",
+        "explanation": "Providers want to monetize the models and inference capacity they make available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Traffic",
+        "explanation": "OpenRouter can give Providers reach into a large developer base and more opportunities to use costly computing capacity productively.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Demand / Uptime",
+        "explanation": "Providers need sufficient demand while maintaining reliability and performance; weak uptime can reduce routing priority.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "AI Service",
+        "explanation": "Providers supply inference — the computing service that runs the selected model and produces the response.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Uptime / Rules",
+        "explanation": "Providers must meet technical, reliability, pricing, performance and data-policy requirements before and after joining the network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Inference API",
+        "explanation": "Providers connect their individual inference services behind OpenRouter's common customer-facing interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Serve / Optimize",
+        "explanation": "Providers serve requests and improve price, speed, reliability and tool-calling performance because those signals can affect traffic allocation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Models / Compute",
+        "explanation": "Providers bring the scarce assets OpenRouter does not need to own itself: AI models and the compute required to run them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Stripe",
+        "explanation": "Before the announced acquisition, Stripe was already a critical financial infrastructure Partner inside OpenRouter's transaction layer.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$1.9T Volume",
+            "note": "Businesses running on Stripe generated $1.9 trillion in total volume in 2025."
+          }
+        ]
+      },
+      "job": {
+        "value": "Enable Trade",
+        "explanation": "Stripe provides financial infrastructure that helps AI businesses turn usage into revenue and operate globally.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Volume",
+        "explanation": "As OpenRouter and AI usage grow, Stripe can gain more billing and payment activity around that growth.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Billing / Fraud",
+        "explanation": "AI usage is variable, model costs change, customers are global and payment fraud still has to be managed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Payments / Billing",
+        "explanation": "Stripe helps convert OpenRouter usage into invoices and payments while supporting tax and fraud management.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Tech / Rules",
+        "explanation": "The financial Partner has to integrate technically while operating within payment, tax and risk requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Stripe APIs",
+        "explanation": "Stripe connects through its software and payment infrastructure rather than through the consumer-facing model marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Bill / Protect",
+        "explanation": "Stripe turns usage into bills, collects payments and helps protect the transaction from fraud.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / Risk",
+        "explanation": "Stripe contributes global payment rails plus billing, tax and risk capabilities OpenRouter does not need to build from scratch.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "OpenRouter",
+        "explanation": "OpenRouter owns and orchestrates the AI routing marketplace at the snapshot date.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "~$8B*",
+            "note": "Stripe did not disclose the acquisition price; Reuters reported a deal value slightly above $8 billion."
+          }
+        ]
+      },
+      "job": {
+        "value": "Route AI",
+        "explanation": "OpenRouter's core job is orchestration: connecting Users with many sources of AI and making a fragmented market easier to use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Reach",
+        "explanation": "More Users, Providers and AI usage increase the volume and reach of the routing network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Sprawl / Trust",
+        "explanation": "As the market fragments and Users delegate more routing choices, OpenRouter has to manage complexity while preserving trust in its neutrality and decisions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "OpenRouter matches demand with AI supply and sits inside the commercial relationship between Users and Providers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Ranking / Policies",
+        "explanation": "OpenRouter measures provider conditions and applies routing, privacy and policy rules that can influence which suppliers receive traffic.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Tools / Apps",
+        "explanation": "Developer integrations, compatible tools and applications spread the gateway through existing AI workflows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Route / Monitor",
+        "explanation": "OpenRouter continuously routes requests and monitors provider price, performance, reliability and availability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Network",
+        "explanation": "Traffic across many models and Providers gives OpenRouter network reach and cross-market information about demand and performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "Users send requests through OpenRouter and pay for the AI usage there."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Output",
+          "explanation": "The model result returns through OpenRouter, so the User does not need a separate connection to the Provider that served the request."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Inference",
+          "explanation": "Providers supply the inference service that actually runs the selected model request."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "OpenRouter pays Providers according to the inference Users consume."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Usage",
+          "explanation": "Usage information generated through OpenRouter feeds the billing relationship so consumption can be priced and billed."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Billing",
+          "explanation": "Stripe supplies billing, payment collection, tax and fraud infrastructure back into OpenRouter's transaction layer."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "value": "10M+ Users",
+        "note": "OpenRouter reports more than ten million global users.",
+        "target": "consumer"
+      },
+      {
+        "value": "80+ Prov.",
+        "note": "OpenRouter's live provider directory lists more than eighty providers.",
+        "target": "provider"
+      },
+      {
+        "value": "500+ Models",
+        "note": "Live OpenRouter inventory at the research cut-off.",
+        "target": "core_value_unit"
+      },
+      {
+        "value": "~$8B*",
+        "note": "Reuters-reported acquisition deal value; the price was not disclosed by Stripe.",
+        "target": "owner"
+      },
+      {
+        "value": "$1.9T Volume",
+        "note": "Businesses running on Stripe generated $1.9 trillion in total volume in 2025.",
+        "target": "partner"
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "https://www.youtube.com/watch?v=0wIRdTYDitc",
+    "thumbnail": "",
+    "youtube_title": "Watch the story behind the snapshot"
+  },
+  "sources": [
+    {
+      "title": "OpenRouter is Joining Stripe",
+      "publisher": "OpenRouter",
+      "date": "2026-08-19",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "note": "Primary announcement for the acquisition and OpenRouter's scale at announcement: 10+ trillion tokens per day, 400+ models and more than 10 million developers and companies."
+    },
+    {
+      "title": "Payments firm Stripe to buy marketplace OpenRouter in AI push",
+      "publisher": "Reuters",
+      "date": "2026-08-19",
+      "url": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19/",
+      "note": "Independent reporting on the acquisition and the reported deal value slightly above $8 billion."
+    },
+    {
+      "title": "The Unified Interface For Every Model",
+      "publisher": "OpenRouter",
+      "date": "2026-08",
+      "url": "https://openrouter.ai/",
+      "note": "Live platform metrics and positioning: 10M+ global users, 80+ providers, 500+ models and one unified interface."
+    },
+    {
+      "title": "Provider Routing",
+      "publisher": "OpenRouter Documentation",
+      "date": "",
+      "url": "https://openrouter.ai/docs/guides/routing/provider-selection",
+      "note": "Primary documentation for provider ordering, routing, fallbacks, data policies and availability-based selection."
+    },
+    {
+      "title": "Provider Integration",
+      "publisher": "OpenRouter Documentation",
+      "date": "",
+      "url": "https://openrouter.ai/docs/guides/community/for-providers",
+      "note": "Primary documentation for Provider onboarding, uptime monitoring, traffic routing, performance metrics and supplier requirements."
+    },
+    {
+      "title": "OpenRouter FAQ",
+      "publisher": "OpenRouter Documentation",
+      "date": "",
+      "url": "https://openrouter.ai/docs/faq",
+      "note": "Primary documentation for the unified API, credits, authentication, aggregated billing and model/provider access."
+    },
+    {
+      "title": "Stripe powers OpenRouter's global AI model access for millions of developers",
+      "publisher": "Stripe",
+      "date": "2026-01-29",
+      "url": "https://stripe.com/newsroom/news/openrouter-and-stripe",
+      "note": "Primary source for Stripe's pre-acquisition Partner role through Invoicing, payment collection, Tax and Radar fraud tools."
+    },
+    {
+      "title": "Stripe's 2025 annual letter",
+      "publisher": "Stripe",
+      "date": "2026-02-24",
+      "url": "https://stripe.com/annual-updates/2025",
+      "note": "Primary source for the $1.9 trillion total volume generated by businesses running on Stripe in 2025."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). OpenRouter — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
