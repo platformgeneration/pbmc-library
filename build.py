@@ -221,7 +221,7 @@ def citation_info(case):
         f"  year         = {{{year}}},\n"
         f"  month        = {month_bib},\n"
         f"  url          = {{{canonical}}},\n"
-        f"  note         = {{{resource_type}, {month_name} {year}. Licensed under {reuse.get('license','CC BY 4.0')}. Available at: {canonical}}}\n"
+        f"  note         = {{{resource_type}, {month_name} {year}. Case-specific analysis and data licensed under {reuse.get('license','CC BY 4.0')}; PBMC framework and visual architecture excluded from that license. Available at: {canonical}}}\n"
         f"}}"
     )
     return {
@@ -342,9 +342,14 @@ def case_page(case, css, renderer):
 <section class="section" id="sources"><div class="wrap"><div class="eyebrow">Evidence</div><div class="section-head"><div><h2>Sources</h2><p class="section-copy">Sources document the platform mechanics and factual case context. The PBMC mapping and Platform Lesson are Platform Generation's analysis.</p></div></div><ol class="sources">{sources_html(case)}</ol></div></section>
 <section class="section soft" id="reuse"><div class="wrap"><div class="reuse-box">
 <div class="citation-intro">
-<div class="eyebrow">Open PBMC</div>
-<h3>Use it. Adapt it. Cite it.</h3>
-<p>This PBMC is released under <strong>{e(reuse["license"])}</strong>. You may reuse and adapt it for research, teaching, workshops and consulting with attribution. Adapted versions should not be presented as an Official PBMC of Platform Generation.</p>
+<div class="eyebrow">Open case data · Protected framework</div>
+<h3>Cite the case. Keep the framework attribution.</h3>
+<p>The <strong>case-specific analysis and structured data</strong> on this page are released under <strong>{e(reuse["license"])}</strong>. You may cite, analyze, reuse and adapt those case materials with attribution.</p>
+<div class="ip-boundary">
+<div class="ip-boundary-title">PBMC framework rights</div>
+<p>The <strong>Platform Business Model Canvas (PBMC)</strong> framework, its visual architecture, branding and <strong>Official PBMC</strong> designation are <strong>not</strong> licensed under CC BY 4.0 and remain the intellectual property of Davis Eisape / Platform Generation.</p>
+<p>You may use the case data with attribution. This license does not grant permission to rebrand the PBMC framework, publish a derivative framework design as your own original framework, or use the Official PBMC designation.</p>
+</div>
 </div>
 <div class="citation-panel">
 <div class="citation-format-label">Recommended citation</div>
@@ -358,7 +363,7 @@ def case_page(case, css, renderer):
 <summary>BibTeX</summary>
 <pre class="bibtex-code" id="bibtexCode">{e(cite["bibtex"])}</pre>
 </details>
-<div class="citation-meta-note">Stable PBMC snapshot · {e(cite["month_name"])} {e(cite["year"])} · {e(reuse["license"])} · Platform Generation PBMC Library</div>
+<div class="citation-meta-note">Case-specific analysis &amp; data: {e(reuse["license"])} · PBMC framework &amp; visual architecture: rights reserved · Platform Generation PBMC Library</div>
 </div>
 </div></div></section>
 
@@ -366,7 +371,7 @@ def case_page(case, css, renderer):
 <a class="case-nav-link" id="prevPlatform" href="../" aria-label="See previous platform"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company" id="prevPlatformName">…</span></a>
 <a class="case-nav-link" id="nextPlatform" href="../" aria-label="See next platform"><span class="case-nav-label">See next platform →</span><span class="case-nav-company" id="nextPlatformName">…</span></a>
 </div></section>
-</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><span>Platform Business Model Canvas</span><span>CC BY 4.0</span></div></div></footer>
+</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>Framework rights reserved</span></div></div></footer>
 <div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div><div id="dataError" hidden></div>
 <script id="pbmc-data" type="application/json">{embedded}</script><script id="pbmc-table-data" type="application/json">{rows_json}</script>
 <script>{renderer}</script><script>

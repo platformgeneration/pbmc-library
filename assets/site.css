@@ -401,3 +401,34 @@ body.canvas-viewer-open{overflow:hidden}
    Labels are automatically offset from transaction routes.
    Hover/tap focus renders the selected route solid above the PBMC fields.
 */
+
+/* v2.29 — provenance + IP boundary */
+.canvas-framework-label{
+  font-size:7.5px;
+  font-weight:600;
+  letter-spacing:.12em;
+  fill:#8e8a84;
+}
+.ip-boundary{
+  margin-top:20px;
+  padding:16px 18px;
+  border:1px solid #deddd9;
+  border-radius:14px;
+  background:#faf9f6;
+  max-width:920px;
+}
+.ip-boundary-title{
+  margin-bottom:7px;
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  color:#555;
+}
+.ip-boundary p{
+  margin:0 0 8px;
+  font-size:12.5px;
+  line-height:1.65;
+  color:#5f5f5c;
+}
+.ip-boundary p:last-child{margin-bottom:0}

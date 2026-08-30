@@ -439,7 +439,10 @@
       ],
       "publisher": "Platform Generation",
       "resource_type": "PBMC snapshot"
-    }
+    },
+    "license_scope": "Case-specific analysis and data only",
+    "framework_rights": "The Platform Business Model Canvas (PBMC) framework, visual architecture, branding and Official PBMC designation are excluded from the CC BY 4.0 license and remain the intellectual property of Davis Eisape / Platform Generation.",
+    "framework_use_note": "The case data may be cited, analyzed, reused and adapted with attribution. This does not grant permission to rebrand the PBMC framework, present a derivative framework design as an original framework, or use the Official PBMC designation."
   },
   "rendering": {
     "state": "current"
