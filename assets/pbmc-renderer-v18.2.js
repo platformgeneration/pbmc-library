@@ -318,7 +318,18 @@ function cvuTooltip(cvu){
 function bindTooltip(el,getData,tt){
   el.addEventListener("mouseenter",e=>showTooltip(e,getData(),tt));
   el.addEventListener("mousemove",e=>moveTooltip(e,tt));
-  el.addEventListener("mouseleave",()=>tt.classList.remove("show"));
+  el.addEventListener("mouseleave",()=>{
+    if(!isTouchUI()) tt.classList.remove("show");
+  });
+  el.addEventListener("click",e=>{
+    if(!isTouchUI()) return;
+    e.preventDefault();
+    e.stopPropagation();
+    showTooltip(e,getData(),tt);
+  });
+}
+function isTouchUI(){
+  return window.matchMedia && (window.matchMedia("(hover: none)").matches || window.matchMedia("(pointer: coarse)").matches);
 }
 function showTooltip(e,d,tt){
   tt.querySelector(".role").textContent=d.role||"";
@@ -329,6 +340,11 @@ function showTooltip(e,d,tt){
   moveTooltip(e,tt); tt.classList.add("show");
 }
 function moveTooltip(e,tt){
+  if(isTouchUI()){
+    tt.style.left="";
+    tt.style.top="";
+    return;
+  }
   const pad=16,w=360,h=210;
   let x=e.clientX+18,y=e.clientY+18;
   if(x+w>innerWidth-pad)x=e.clientX-w-18;

@@ -143,3 +143,13 @@ COPY SCRIPT FIX v2.15
 - The primary path uses navigator.clipboard on HTTPS; document.execCommand is the fallback.
 - On successful copy, the clicked button temporarily reads 'Kopiert ✓'.
 - Generated inline JavaScript is syntax-checked before release.
+
+MOBILE EXPERIENCE v2.16
+- Desktop layout is unchanged.
+- On phones the canvas first appears as a full overview.
+- Explore canvas opens the existing interactive SVG in a full-screen viewer.
+- Full-screen viewer supports + / - / Reset, scrolling/panning and two-finger pinch zoom.
+- PBMC fields, actors and CVU support tap tooltips on touch devices.
+- Touch tooltips render as a bottom information sheet.
+- The website header gets a hamburger menu below 1000px.
+- PBMC Data remains a true comparison table; Perspective and Field stay sticky while horizontally scrolling on phones.

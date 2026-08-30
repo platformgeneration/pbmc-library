@@ -298,7 +298,7 @@ def case_page(case, library, css, renderer):
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://pbmc.platformgeneration.com/{e(md["slug"])}/">
 <script type="application/ld+json">{json.dumps(json_ld,ensure_ascii=False)}</script><style>{css}</style></head><body>
-<header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a></nav><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
+<header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav id="siteNav"><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a><a class="mobile-contact" href="https://www.platformgeneration.com/#contact">Contact</a></nav><button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
 <main>
 <section class="case-header"><div class="wrap">
 <div class="case-utility-row"><div class="pbmc-toolbar">
@@ -316,8 +316,19 @@ def case_page(case, library, css, renderer):
 </div></section>
 
 <section class="section" id="pbmc"><div class="wide-wrap">
-<div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div>
-<p class="canvas-note">A visual snapshot of the Platform Business Model Canvas (PBMC). Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p>
+<div class="canvas-stage" id="canvasStage">
+<button class="canvas-mobile-launch" id="openCanvasViewer" type="button">Explore canvas ↗</button>
+<div class="canvas-mobile-controls" id="canvasMobileControls">
+  <div class="canvas-mobile-controls-left"><button class="canvas-control-btn canvas-control-close" id="closeCanvasViewer" type="button">Close</button></div>
+  <div class="canvas-mobile-controls-right">
+    <button class="canvas-control-btn" id="canvasZoomOut" type="button" aria-label="Zoom out">−</button>
+    <span class="canvas-zoom-label" id="canvasZoomLabel">100%</span>
+    <button class="canvas-control-btn" id="canvasZoomIn" type="button" aria-label="Zoom in">+</button>
+    <button class="canvas-control-btn" id="canvasZoomReset" type="button">Reset</button>
+  </div>
+</div>
+<div class="svg-frame" id="canvasViewport"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div>
+<p class="canvas-note">A visual snapshot of the Platform Business Model Canvas (PBMC). Hover over or tap a field for its PBMC guiding question and case-specific explanation; hover over or tap an actor or the Core Value Unit for case values.</p>
 </div></section>
 
 {video_section}
@@ -431,6 +442,115 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   const ok=await copyTextRobust(bibtex);
   copiedFeedback(this,"Copy BibTeX",ok);
 }});
+</script>
+<script>
+(function(){{
+  const menuBtn=document.getElementById("mobileMenuToggle");
+  const nav=document.getElementById("siteNav");
+  if(menuBtn&&nav){{
+    menuBtn.addEventListener("click",function(){{
+      const open=nav.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded",open?"true":"false");
+      menuBtn.setAttribute("aria-label",open?"Close menu":"Open menu");
+    }});
+    nav.addEventListener("click",function(e){{
+      if(e.target.closest("a")){{
+        nav.classList.remove("open");
+        menuBtn.setAttribute("aria-expanded","false");
+      }}
+    }});
+  }}
+
+  const stage=document.getElementById("canvasStage");
+  const openBtn=document.getElementById("openCanvasViewer");
+  const closeBtn=document.getElementById("closeCanvasViewer");
+  const viewport=document.getElementById("canvasViewport");
+  const svg=document.getElementById("pbmcSvg");
+  const zoomIn=document.getElementById("canvasZoomIn");
+  const zoomOut=document.getElementById("canvasZoomOut");
+  const zoomReset=document.getElementById("canvasZoomReset");
+  const zoomLabel=document.getElementById("canvasZoomLabel");
+  const tooltip=document.getElementById("tooltip");
+
+  if(stage&&openBtn&&closeBtn&&viewport&&svg){{
+    let zoom=1;
+    const baseWidth=1250;
+    const minZoom=.72;
+    const maxZoom=1.8;
+
+    function applyZoom(){{
+      if(!stage.classList.contains("canvas-mobile-fullscreen")) return;
+      svg.style.width=Math.round(baseWidth*zoom)+"px";
+      svg.style.minWidth=Math.round(baseWidth*zoom)+"px";
+      if(zoomLabel) zoomLabel.textContent=Math.round(zoom*100)+"%";
+    }}
+
+    function resetView(){{
+      zoom=1;
+      applyZoom();
+      requestAnimationFrame(function(){{
+        viewport.scrollLeft=Math.max(0,(viewport.scrollWidth-viewport.clientWidth)/2);
+        viewport.scrollTop=0;
+      }});
+    }}
+
+    function openViewer(){{
+      stage.classList.add("canvas-mobile-fullscreen");
+      document.body.classList.add("canvas-viewer-open");
+      resetView();
+      closeBtn.focus();
+    }}
+
+    function closeViewer(){{
+      stage.classList.remove("canvas-mobile-fullscreen");
+      document.body.classList.remove("canvas-viewer-open");
+      svg.style.width="";
+      svg.style.minWidth="";
+      if(tooltip) tooltip.classList.remove("show");
+      openBtn.focus();
+    }}
+
+    openBtn.addEventListener("click",openViewer);
+    closeBtn.addEventListener("click",closeViewer);
+    if(zoomIn) zoomIn.addEventListener("click",function(){{zoom=Math.min(maxZoom,zoom+.15);applyZoom();}});
+    if(zoomOut) zoomOut.addEventListener("click",function(){{zoom=Math.max(minZoom,zoom-.15);applyZoom();}});
+    if(zoomReset) zoomReset.addEventListener("click",resetView);
+
+    document.addEventListener("keydown",function(e){{
+      if(e.key==="Escape"&&stage.classList.contains("canvas-mobile-fullscreen")) closeViewer();
+    }});
+
+    // Simple two-finger pinch zoom while the full-screen canvas is open.
+    let pinchStartDistance=0;
+    let pinchStartZoom=1;
+    function distance(touches){{
+      const dx=touches[0].clientX-touches[1].clientX;
+      const dy=touches[0].clientY-touches[1].clientY;
+      return Math.sqrt(dx*dx+dy*dy);
+    }}
+    viewport.addEventListener("touchstart",function(e){{
+      if(stage.classList.contains("canvas-mobile-fullscreen")&&e.touches.length===2){{
+        pinchStartDistance=distance(e.touches);
+        pinchStartZoom=zoom;
+      }}
+    }},{{passive:true}});
+    viewport.addEventListener("touchmove",function(e){{
+      if(stage.classList.contains("canvas-mobile-fullscreen")&&e.touches.length===2&&pinchStartDistance>0){{
+        e.preventDefault();
+        zoom=Math.max(minZoom,Math.min(maxZoom,pinchStartZoom*(distance(e.touches)/pinchStartDistance)));
+        applyZoom();
+      }}
+    }},{{passive:false}});
+    viewport.addEventListener("touchend",function(e){{
+      if(e.touches.length<2) pinchStartDistance=0;
+    }},{{passive:true}});
+
+    // Tap outside a PBMC item closes the touch tooltip.
+    viewport.addEventListener("click",function(e){{
+      if(!e.target.closest("[data-role],[data-actor],.cvu")&&tooltip) tooltip.classList.remove("show");
+    }});
+  }}
+}})();
 </script>
 <script id="library-search-data" type="application/json">{search_json}</script>
 <script>
