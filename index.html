@@ -1,1 +1,22 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=scalable-capital/"><title>PBMC Library | Platform Generation</title><script>location.replace("scalable-capital/");</script></head><body><p><a href="scalable-capital/">Open PBMC Library</a></p></body></html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PBMC Library | Platform Generation</title>
+<meta name="robots" content="index,follow">
+</head><body>
+<p id="fallback"><a href="scalable-capital/">Open PBMC Library</a></p>
+<script>
+(async function(){
+  try{
+    const response=await fetch("library.json",{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const payload=await response.json();
+    const cases=(Array.isArray(payload)?payload:(payload.cases||[])).filter(function(c){
+      return !c.status || c.status==="published";
+    });
+    if(cases.length)location.replace(cases[0].slug+"/");
+  }catch(err){
+    console.warn("PBMC Library index could not be loaded.",err);
+  }
+})();
+</script>
+</body></html>

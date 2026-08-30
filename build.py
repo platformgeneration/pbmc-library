@@ -183,11 +183,6 @@ def meta_pills(case):
     parts.append(f'<span class="meta-pill">Snapshot · {e(snap["display"])}</span>')
     return "".join(parts)
 
-def nav_for(library, slug):
-    pub=[c for c in library["cases"] if c.get("status")=="published"]
-    i=next(i for i,c in enumerate(pub) if c["slug"]==slug)
-    return pub[(i-1)%len(pub)], pub[(i+1)%len(pub)], len(pub)==1
-
 
 
 def citation_info(case):
@@ -261,18 +256,9 @@ def youtube_video_id(url):
         return ""
     return ""
 
-def case_page(case, library, css, renderer):
+def case_page(case, css, renderer):
     md=case["metadata"]; lesson=case["platform_lesson"]; reuse=case["reuse"]
     cite=citation_info(case)
-    prev,nxt,only_one=nav_for(library,md["slug"])
-    search_cases=[{
-        "slug":c.get("slug",""),
-        "company":c.get("company",""),
-        "headline":c.get("headline",""),
-        "industry":c.get("industry",[]),
-        "topics":c.get("topics",[])
-    } for c in library["cases"] if c.get("status")=="published"]
-    search_json=json.dumps(search_cases,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     embedded=json.dumps(case,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     rows_json=json.dumps(data_rows(case),ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
     media=case.get("media",{})
@@ -323,7 +309,7 @@ def case_page(case, library, css, renderer):
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
-<a class="next-platform-top" href="../{e(nxt["slug"])}/">See next platform →</a>
+<a class="next-platform-top" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
 </div></div>
 <div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in {e(snapshot_info(case)["display"])}</div>
 <h1>{e(md["company"])}</h1>
@@ -376,7 +362,10 @@ def case_page(case, library, css, renderer):
 </div>
 </div></div></section>
 
-<section class="case-nav"><div class="wrap case-nav-grid"><a class="case-nav-link" href="../{e(prev["slug"])}/"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company">{e(prev["company"])}</span></a><a class="case-nav-link" href="../{e(nxt["slug"])}/"><span class="case-nav-label">See next platform →</span><span class="case-nav-company">{e(nxt["company"])}</span></a></div></section>
+<section class="case-nav"><div class="wrap case-nav-grid">
+<a class="case-nav-link" id="prevPlatform" href="../" aria-label="See previous platform"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company" id="prevPlatformName">…</span></a>
+<a class="case-nav-link" id="nextPlatform" href="../" aria-label="See next platform"><span class="case-nav-label">See next platform →</span><span class="case-nav-company" id="nextPlatformName">…</span></a>
+</div></section>
 </main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><span>Platform Business Model Canvas</span><span>CC BY 4.0</span></div></div></footer>
 <div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div><div id="dataError" hidden></div>
 <script id="pbmc-data" type="application/json">{embedded}</script><script id="pbmc-table-data" type="application/json">{rows_json}</script>
@@ -568,16 +557,19 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   }}
 }})();
 </script>
-<script id="library-search-data" type="application/json">{search_json}</script>
 <script>
 (function(){{
+  const CURRENT_SLUG={json.dumps(md["slug"])};
   const input=document.getElementById("caseSearchInput");
   const box=document.getElementById("caseSearchResults");
   const shell=document.getElementById("caseSearch");
-  if(!input||!box||!shell)return;
-  const cases=JSON.parse(document.getElementById("library-search-data").textContent);
+  let cases=[];
   let matches=[];
   let active=-1;
+
+  function published(items){{
+    return (items||[]).filter(function(c){{return !c.status || c.status==="published";}});
+  }}
 
   function escapeHtml(value){{
     const d=document.createElement("div");
@@ -586,10 +578,36 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   }}
 
   function searchable(c){{
-    return [c.company,c.headline].concat(c.industry||[]).concat(c.topics||[]).join(" ").toLowerCase();
+    return [c.company||"",c.headline||""]
+      .concat(c.industry||[])
+      .concat(c.topics||[])
+      .join(" ")
+      .toLowerCase();
+  }}
+
+  function applyNavigation(items){{
+    const pub=published(items);
+    const i=pub.findIndex(function(c){{return c.slug===CURRENT_SLUG;}});
+    if(i<0||!pub.length)return;
+
+    const prev=pub[(i-1+pub.length)%pub.length];
+    const next=pub[(i+1)%pub.length];
+
+    const prevLink=document.getElementById("prevPlatform");
+    const nextLink=document.getElementById("nextPlatform");
+    const topNext=document.getElementById("nextPlatformTop");
+    const prevName=document.getElementById("prevPlatformName");
+    const nextName=document.getElementById("nextPlatformName");
+
+    if(prevLink)prevLink.href="../"+encodeURIComponent(prev.slug)+"/";
+    if(nextLink)nextLink.href="../"+encodeURIComponent(next.slug)+"/";
+    if(topNext)topNext.href="../"+encodeURIComponent(next.slug)+"/";
+    if(prevName)prevName.textContent=prev.company||"Previous platform";
+    if(nextName)nextName.textContent=next.company||"Next platform";
   }}
 
   function draw(){{
+    if(!input||!box)return;
     const q=input.value.trim().toLowerCase();
     matches=(q ? cases.filter(function(c){{return searchable(c).includes(q);}}) : cases).slice(0,8);
     active=-1;
@@ -611,6 +629,7 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   }}
 
   function setActive(index){{
+    if(!box)return;
     const items=[].slice.call(box.querySelectorAll(".case-search-item"));
     items.forEach(function(item){{item.classList.remove("active");}});
     if(!items.length)return;
@@ -619,35 +638,67 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     items[active].scrollIntoView({{block:"nearest"}});
   }}
 
-  input.addEventListener("focus",draw);
-  input.addEventListener("input",draw);
-  input.addEventListener("keydown",function(e){{
-    if(e.key==="ArrowDown"){{e.preventDefault();setActive(active+1);}}
-    else if(e.key==="ArrowUp"){{e.preventDefault();setActive(active-1);}}
-    else if(e.key==="Enter"&&active>=0&&matches[active]){{e.preventDefault();location.href="../"+matches[active].slug+"/";}}
-    else if(e.key==="Escape"){{box.classList.remove("show");input.blur();}}
-  }});
+  function bindSearch(){{
+    if(!input||!box||!shell)return;
+    input.addEventListener("focus",draw);
+    input.addEventListener("input",draw);
+    input.addEventListener("keydown",function(e){{
+      if(e.key==="ArrowDown"){{e.preventDefault();setActive(active+1);}}
+      else if(e.key==="ArrowUp"){{e.preventDefault();setActive(active-1);}}
+      else if(e.key==="Enter"&&active>=0&&matches[active]){{
+        e.preventDefault();
+        location.href="../"+encodeURIComponent(matches[active].slug)+"/";
+      }}
+      else if(e.key==="Escape"){{box.classList.remove("show");input.blur();}}
+    }});
 
-  document.addEventListener("click",function(e){{
-    if(!shell.contains(e.target))box.classList.remove("show");
-  }});
+    document.addEventListener("click",function(e){{
+      if(!shell.contains(e.target))box.classList.remove("show");
+    }});
+  }}
+
+  async function loadRuntimeLibrary(){{
+    try{{
+      const response=await fetch("../library.json",{{cache:"no-store"}});
+      if(!response.ok)throw new Error("HTTP "+response.status);
+      const payload=await response.json();
+      cases=published(Array.isArray(payload)?payload:(payload.cases||[]));
+      applyNavigation(cases);
+    }}catch(err){{
+      console.warn("PBMC Library index could not be loaded.",err);
+      cases=[];
+    }}
+  }}
+
+  bindSearch();
+  loadRuntimeLibrary();
 }})();
-</script></body></html>"""
+</script></script></body></html>"""
 
 
-def home_page(library, css):
-    published=[c for c in library["cases"] if c.get("status")=="published"]
-    if not published:
-        return "<!doctype html><html><body>No published PBMCs.</body></html>"
-    target=published[0]["slug"] + "/"
-    return (
-        '<!doctype html><html lang="en"><head>'
-        '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-        '<meta http-equiv="refresh" content="0; url=' + e(target) + '">'
-        '<title>PBMC Library | Platform Generation</title>'
-        '<script>location.replace(' + json.dumps(target) + ');</script>'
-        '</head><body><p><a href="' + e(target) + '">Open PBMC Library</a></p></body></html>'
-    )
+def home_page():
+    return """<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PBMC Library | Platform Generation</title>
+<meta name="robots" content="index,follow">
+</head><body>
+<p id="fallback"><a href="scalable-capital/">Open PBMC Library</a></p>
+<script>
+(async function(){
+  try{
+    const response=await fetch("library.json",{cache:"no-store"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const payload=await response.json();
+    const cases=(Array.isArray(payload)?payload:(payload.cases||[])).filter(function(c){
+      return !c.status || c.status==="published";
+    });
+    if(cases.length)location.replace(cases[0].slug+"/");
+  }catch(err){
+    console.warn("PBMC Library index could not be loaded.",err);
+  }
+})();
+</script>
+</body></html>"""
 
 
 def build():
@@ -663,8 +714,8 @@ def build():
             raise SystemExit(f"Slug mismatch: {entry['slug']}")
         write_csv(case_dir,case)
         write_bib(case_dir,case)
-        (case_dir/"index.html").write_text(case_page(case,library,css,renderer),encoding="utf-8")
-    (ROOT/"index.html").write_text(home_page(library,css),encoding="utf-8")
+        (case_dir/"index.html").write_text(case_page(case,css,renderer),encoding="utf-8")
+    (ROOT/"index.html").write_text(home_page(),encoding="utf-8")
     print(f"Built {len(pub)} PBMC case(s).")
 
 if __name__=="__main__":

@@ -214,3 +214,12 @@ CASE 005 WALMART MARKETPLACE v2.25
 - Advertising spend normalized to the seller/advertiser side rather than Consumer spend.
 - No YouTube URL is set, so the video section remains absent.
 - Library order: Scalable Capital -> SHEIN -> akippa -> OpenRouter -> Walmart Marketplace -> Scalable Capital.
+
+RUNTIME LIBRARY INDEX v2.26
+- One-time migration: all existing case pages now load ../library.json at runtime.
+- Search/autocomplete and cyclic Previous/Next navigation are no longer embedded per case.
+- The root index also reads library.json at runtime to find the first published case.
+- library.json is the single runtime source for published-case discovery and ordering.
+- After v2.26, a normal NEW CASE deployment needs only library.json plus the new case folder.
+- New case folder: case.json, index.html, pbmc-data.csv and citation.bib.
+- Existing case HTML is only uploaded again when shared design, renderer or page-template code changes.
