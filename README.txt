@@ -116,3 +116,23 @@ CANVAS ACTOR TYPOGRAPHY
 
 CANVAS NOTE
 - The PBMC usage note is centered directly below the canvas.
+
+SCHOLARLY CITATION RULE
+- Every published PBMC gets one stable recommended citation and one generated citation.bib file.
+- Recommended citation includes author, year, case title, PBMC snapshot month/year, Platform Generation and canonical URL.
+- BibTeX uses a classic @misc record for broad BibTeX compatibility.
+- BibTeX includes author, title, howpublished, year, month, URL, snapshot note and CC BY 4.0 license.
+- The page provides Copy citation, Copy BibTeX and Download .bib.
+- Citation data comes from reuse.citation_data so future cases can support different authors if needed.
+
+FUTURE YOUTUBE PUBLICATION
+- A YouTube URL may be stored before the video becomes public.
+- The PBMC page is generated with the video card immediately.
+- Thumbnail/click availability before publication depends on YouTube visibility.
+- No PBMC rebuild is required when YouTube later publishes the same video URL.
+
+CANVAS HEADER BRANDING v2.14
+- The case/platform name is rendered dynamically inside the canvas at top-left.
+- Created by + official Platform Generation logo remains top-right with more breathing room from the border.
+- Field values, actor names and CVU use font weight 500 (medium), not 400 and not title-bold.
+- Small field labels remain light/subtle.

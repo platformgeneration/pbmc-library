@@ -28,8 +28,8 @@ nav{display:flex;justify-content:center;gap:30px;font-size:12px;font-weight:400;
 .owner .box{stroke:var(--owner)}.provider .box{stroke:var(--provider)}.consumer .box{stroke:var(--consumer)}.partner .box{stroke:var(--partner)}
 .owner[data-role]:hover .box{fill:var(--owner);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}.provider[data-role]:hover .box{fill:var(--provider);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}.consumer[data-role]:hover .box{fill:var(--consumer);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}.partner[data-role]:hover .box{fill:var(--partner);filter:drop-shadow(0 7px 14px rgba(0,0,0,.065));stroke-width:1.9}
 .owner[data-role]:hover .label,.owner[data-role]:hover .value,.provider[data-role]:hover .label,.provider[data-role]:hover .value,.consumer[data-role]:hover .label,.consumer[data-role]:hover .value,.partner[data-role]:hover .label,.partner[data-role]:hover .value{fill:#fff}
-.label{font-size:7.2px;font-weight:600;letter-spacing:.11em;fill:#a29d96;dominant-baseline:hanging}.value{font-size:12.5px;font-weight:400;fill:#191919}
-.role-label{font-size:8px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;fill:#96918a}.actor-value{font-size:20px;font-weight:400;fill:#151515}.actor{cursor:pointer}.actor:hover .actor-value{fill:#000}.actor:hover .role-label{fill:#6f6962}
+.label{font-size:7.2px;font-weight:600;letter-spacing:.11em;fill:#a29d96;dominant-baseline:hanging}.value{font-size:12.5px;font-weight:500;fill:#191919}
+.role-label{font-size:8px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;fill:#96918a}.actor-value{font-size:20px;font-weight:500;fill:#151515}.actor{cursor:pointer}.actor:hover .actor-value{fill:#000}.actor:hover .role-label{fill:#6f6962}
 .cvu-box{fill:#fff;stroke:#171717;stroke-width:1.4;cursor:pointer;transition:fill .14s ease,filter .14s ease}.cvu:hover .cvu-box{fill:#171717;filter:drop-shadow(0 9px 18px rgba(0,0,0,.08))}.cvu:hover .label,.cvu:hover .value{fill:#fff!important}
 .canvas-brand{font-family:Arial,Helvetica,sans-serif}.canvas-brand-prefix{font-size:6.8px;letter-spacing:.11em;fill:#aaa;font-weight:600}.canvas-brand-name{font-size:8px;letter-spacing:.08em;fill:#4d4a46;font-weight:800}
 .struct{fill:none;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;opacity:.32}.owner-line{stroke:var(--owner)}.provider-line{stroke:var(--provider)}.consumer-line{stroke:var(--consumer)}.partner-line{stroke:var(--partner)}
@@ -211,4 +211,39 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
  .case-header{padding:18px 0 10px}
  .case-header h1{font-size:40px}
  .case-question{font-size:13px}
+}
+
+
+/* v2.12 — scholarly citation block */
+.reuse-box{display:block}
+.citation-intro{max-width:880px}
+.citation-panel{margin-top:28px;border-top:1px solid #e2e2df;padding-top:24px}
+.citation-format-label{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#999;margin-bottom:7px}
+.citation-recommended{font-size:13px;line-height:1.7;color:#444;max-width:980px}
+.citation-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
+.citation-action{background:#fff;border:1px solid #111;border-radius:999px;padding:10px 15px;font-family:inherit;font-size:10.5px;font-weight:600;color:#111;cursor:pointer}
+.citation-action:hover{background:#111;color:#fff}
+.citation-action.secondary{border-color:#d7d7d4;color:#555}
+.citation-action.secondary:hover{border-color:#111;color:#fff}
+.bibtex-details{margin-top:20px;border:1px solid #e0e0dd;border-radius:15px;overflow:hidden;background:#fafaf8}
+.bibtex-details summary{cursor:pointer;list-style:none;padding:13px 16px;font-size:10px;font-weight:650;color:#555}
+.bibtex-details summary::-webkit-details-marker{display:none}
+.bibtex-details summary:after{content:"+";float:right;color:#999}
+.bibtex-details[open] summary:after{content:"−"}
+.bibtex-code{margin:0;border-top:1px solid #e7e7e4;padding:16px;overflow:auto;background:#fff;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-size:10.5px;line-height:1.6;color:#333;white-space:pre}
+.citation-meta-note{margin-top:11px;font-size:9.5px;color:#9a9a9a}
+@media(max-width:700px){
+ .citation-actions{align-items:stretch}
+ .citation-action{width:100%;text-align:center}
+}
+
+.cvu .value{font-weight:500}
+
+
+/* v2.14 — in-canvas case title */
+.canvas-case-title{
+  font-size:14px;
+  font-weight:600;
+  letter-spacing:-.01em;
+  fill:#2a2927;
 }

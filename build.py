@@ -1,5 +1,5 @@
 from pathlib import Path
-import json, html, csv
+import json, html, csv, calendar, re
 from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parent
@@ -169,6 +169,63 @@ def nav_for(library, slug):
     return pub[(i-1)%len(pub)], pub[(i+1)%len(pub)], len(pub)==1
 
 
+
+def citation_info(case):
+    md=case["metadata"]
+    reuse=case.get("reuse",{})
+    cdata=reuse.get("citation_data",{})
+    authors=cdata.get("authors") or [{"family":"Eisape","given":"Davis Adedayo","display":"Eisape, D. A."}]
+    publisher=cdata.get("publisher","Platform Generation")
+    resource_type=cdata.get("resource_type","PBMC snapshot")
+    published=md.get("published_date","")
+    try:
+        year=int(published[:4])
+        month_num=int(published[5:7])
+    except Exception:
+        year=2026
+        month_num=8
+    month_name=calendar.month_name[month_num]
+    month_bib=calendar.month_abbr[month_num].lower()
+    canonical=f"https://pbmc.platformgeneration.com/{md['slug']}/"
+    title=f"{md['company']} — Platform Business Model Canvas"
+    author_display=", ".join(a.get("display") or (a.get("family","")+", "+a.get("given","")) for a in authors)
+    recommended=(
+        f"{author_display} ({year}). {title} "
+        f"[{resource_type}, {month_name} {year}]. {publisher}. {canonical}"
+    )
+    key_base=re.sub(r"[^a-z0-9]+","",md.get("company","").lower())
+    family=re.sub(r"[^a-z0-9]+","",authors[0].get("family","eisape").lower())
+    bibkey=f"{family}{year}{key_base}pbmc"
+    bib_author=" and ".join(
+        f"{a.get('family','')}, {a.get('given','')}".strip(", ")
+        for a in authors
+    )
+    # Classic BibTeX-compatible @misc. URL is duplicated in note for older styles,
+    # while modern BibTeX/biblatex can also use the url field.
+    bibtex=(
+        f"@misc{{{bibkey},\n"
+        f"  author       = {{{bib_author}}},\n"
+        f"  title        = {{{md['company']} --- Platform Business Model Canvas}},\n"
+        f"  howpublished = {{{publisher} PBMC Library}},\n"
+        f"  year         = {{{year}}},\n"
+        f"  month        = {month_bib},\n"
+        f"  url          = {{{canonical}}},\n"
+        f"  note         = {{{resource_type}, {month_name} {year}. Licensed under {reuse.get('license','CC BY 4.0')}. Available at: {canonical}}}\n"
+        f"}}"
+    )
+    return {
+        "recommended":recommended,
+        "bibtex":bibtex,
+        "bibkey":bibkey,
+        "canonical":canonical,
+        "year":year,
+        "month_name":month_name
+    }
+
+def write_bib(case_dir, case):
+    info=citation_info(case)
+    (case_dir/"citation.bib").write_text(info["bibtex"]+"\n",encoding="utf-8")
+
 def youtube_video_id(url):
     """Extract a YouTube video ID from common watch, youtu.be, shorts, live or embed URLs."""
     if not url:
@@ -190,6 +247,7 @@ def youtube_video_id(url):
 
 def case_page(case, library, css, renderer):
     md=case["metadata"]; lesson=case["platform_lesson"]; reuse=case["reuse"]
+    cite=citation_info(case)
     prev,nxt,only_one=nav_for(library,md["slug"])
     search_cases=[{
         "slug":c.get("slug",""),
@@ -231,7 +289,7 @@ def case_page(case, library, css, renderer):
         "creator":{"@type":"Person","name":"Davis Eisape"},
         "publisher":{"@type":"Organization","name":"Platform Generation"},
         "license":"https://creativecommons.org/licenses/by/4.0/",
-        "about":md.get("industry",[])+md.get("topics",[]),"citation":reuse["citation"],
+        "about":md.get("industry",[])+md.get("topics",[]),"citation":cite["recommended"],"url":cite["canonical"],
     }
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -269,7 +327,27 @@ def case_page(case, library, css, renderer):
 <section class="section soft" id="data"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PBMC Data</div><h2>Structured data behind the canvas</h2><p class="section-copy">One fixed table for every PBMC. Transaction remains one field; all transaction arrows and their explanations stay inside that field, so cases remain directly comparable.</p></div><div class="data-actions"><button class="data-btn" id="copyTable" type="button">Copy table</button><a class="data-btn" href="pbmc-data.csv" download>Download CSV</a><a class="data-btn" href="case.json" download>JSON</a></div></div>{unified_table(case)}</div></section>
 
 <section class="section" id="sources"><div class="wrap"><div class="eyebrow">Evidence</div><div class="section-head"><div><h2>Sources</h2><p class="section-copy">Sources document the platform mechanics and factual case context. The PBMC mapping and Platform Lesson are Platform Generation's analysis.</p></div></div><ol class="sources">{sources_html(case)}</ol></div></section>
-<section class="section soft" id="reuse"><div class="wrap"><div class="reuse-box"><div><div class="eyebrow">Open PBMC</div><h3>Use it. Adapt it. Cite it.</h3><p>This PBMC is released under <strong>{e(reuse["license"])}</strong>. You may reuse and adapt it for research, teaching, workshops and consulting with attribution. Adapted versions should not be presented as an Official PBMC of Platform Generation.</p><p class="citation">{e(reuse["citation"])}</p></div><button class="copy-btn" id="copyCitation" type="button">Copy citation</button></div></div></section>
+<section class="section soft" id="reuse"><div class="wrap"><div class="reuse-box">
+<div class="citation-intro">
+<div class="eyebrow">Open PBMC</div>
+<h3>Use it. Adapt it. Cite it.</h3>
+<p>This PBMC is released under <strong>{e(reuse["license"])}</strong>. You may reuse and adapt it for research, teaching, workshops and consulting with attribution. Adapted versions should not be presented as an Official PBMC of Platform Generation.</p>
+</div>
+<div class="citation-panel">
+<div class="citation-format-label">Recommended citation</div>
+<div class="citation-recommended" id="recommendedCitation">{e(cite["recommended"])}</div>
+<div class="citation-actions">
+<button class="citation-action" id="copyCitation" type="button">Copy citation</button>
+<button class="citation-action" id="copyBibtex" type="button">Copy BibTeX</button>
+<a class="citation-action secondary" href="citation.bib" download="{e(cite["bibkey"])}.bib">Download .bib</a>
+</div>
+<details class="bibtex-details">
+<summary>BibTeX</summary>
+<pre class="bibtex-code" id="bibtexCode">{e(cite["bibtex"])}</pre>
+</details>
+<div class="citation-meta-note">Stable PBMC snapshot · {e(cite["month_name"])} {e(cite["year"])} · {e(reuse["license"])} · Platform Generation PBMC Library</div>
+</div>
+</div></div></section>
 
 <section class="case-nav"><div class="wrap case-nav-grid"><a class="case-nav-link" href="../{e(prev["slug"])}/"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company">{e(prev["company"])}</span></a><a class="case-nav-link" href="../{e(nxt["slug"])}/"><span class="case-nav-label">See next platform →</span><span class="case-nav-company">{e(nxt["company"])}</span></a></div></section>
 </main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><span>Platform Business Model Canvas</span><span>CC BY 4.0</span></div></div></footer>
@@ -277,8 +355,61 @@ def case_page(case, library, css, renderer):
 <script id="pbmc-data" type="application/json">{embedded}</script><script id="pbmc-table-data" type="application/json">{rows_json}</script>
 <script>{renderer}</script><script>
 const tableRows=JSON.parse(document.getElementById("pbmc-table-data").textContent);
-document.getElementById("copyTable").addEventListener("click",async function(){{const cols=["Perspective","Field","Value","Explanation","Transaction Flows"];const tsv=[cols.join("\t"),...tableRows.map(r=>cols.map(c=>String(r[c]??"").replace(/\t/g," ").replace(/\n/g," ")).join("\t"))].join("\n");try{{await navigator.clipboard.writeText(tsv);this.textContent="Copied";setTimeout(()=>this.textContent="Copy table",1500)}}catch(e){{this.textContent="Use CSV"}}}});
-document.getElementById("copyCitation").addEventListener("click",async function(){{const citation={json.dumps(reuse["citation"])};try{{await navigator.clipboard.writeText(citation);this.textContent="Copied";setTimeout(()=>this.textContent="Copy citation",1500)}}catch(e){{this.textContent="Select citation above"}}}});
+
+async function copyTextRobust(text){{
+  if(navigator.clipboard && window.isSecureContext){{
+    try{{
+      await navigator.clipboard.writeText(text);
+      return true;
+    }}catch(e){{}}
+  }}
+
+  const area=document.createElement("textarea");
+  area.value=text;
+  area.setAttribute("readonly","");
+  area.style.position="fixed";
+  area.style.left="-9999px";
+  area.style.top="0";
+  document.body.appendChild(area);
+  area.focus();
+  area.select();
+
+  let ok=false;
+  try{{
+    ok=document.execCommand("copy");
+  }}catch(e){{
+    ok=false;
+  }}
+
+  document.body.removeChild(area);
+  return ok;
+}}
+
+document.getElementById("copyTable").addEventListener("click",async function(){{
+  const cols=["Perspective","Field","Value","Explanation","Transaction Flows"];
+  const tsv=[
+    cols.join("\t"),
+    ...tableRows.map(r=>cols.map(c=>String(r[c]??"").replace(/\t/g," ").replace(/\n/g," ")).join("\t"))
+  ].join("\n");
+
+  const ok=await copyTextRobust(tsv);
+  this.textContent=ok?"Copied":"Copy failed";
+  setTimeout(()=>this.textContent="Copy table",1600);
+}});
+
+document.getElementById("copyCitation").addEventListener("click",async function(){{
+  const citation=document.getElementById("recommendedCitation").textContent.trim();
+  const ok=await copyTextRobust(citation);
+  this.textContent=ok?"Copied":"Copy failed";
+  setTimeout(()=>this.textContent="Copy citation",1600);
+}});
+
+document.getElementById("copyBibtex").addEventListener("click",async function(){{
+  const bibtex=document.getElementById("bibtexCode").textContent;
+  const ok=await copyTextRobust(bibtex);
+  this.textContent=ok?"Copied":"Copy failed";
+  setTimeout(()=>this.textContent="Copy BibTeX",1600);
+}});
 </script>
 <script id="library-search-data" type="application/json">{search_json}</script>
 <script>
@@ -374,6 +505,7 @@ def build():
         if case["metadata"]["slug"]!=entry["slug"]:
             raise SystemExit(f"Slug mismatch: {entry['slug']}")
         write_csv(case_dir,case)
+        write_bib(case_dir,case)
         (case_dir/"index.html").write_text(case_page(case,library,css,renderer),encoding="utf-8")
     (ROOT/"index.html").write_text(home_page(library,css),encoding="utf-8")
     print(f"Built {len(pub)} PBMC case(s).")
