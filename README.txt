@@ -176,3 +176,13 @@ CASE VIDEO LINKS v2.20
 - SHEIN: https://www.youtube.com/watch?v=Ylpyi3P9WC4
 - akippa: https://www.youtube.com/watch?v=n88gS8-AsAU
 - Both cases now render the automatic clickable YouTube thumbnail section below the PBMC canvas.
+
+PASTEL PERSPECTIVE FIELDS v2.21
+- Canvas interior remains pure white.
+- Owner fields: #F1F6FF (very light blue).
+- Provider fields: #FFF9EA (very light warm yellow/off-white).
+- Consumer fields: #FFF2EC (very light orange).
+- Partner fields: #F0F8F2 (very light green).
+- Core Value Unit: #F2F2F0 (neutral light grey).
+- Existing role-colored borders remain unchanged.
+- Hover states continue to use the saturated role color with white text.
