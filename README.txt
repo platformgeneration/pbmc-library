@@ -55,3 +55,8 @@ LICENSE
 PBMC cases: CC BY 4.0 with attribution.
 Suggested attribution:
 Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation
+
+CANVAS TYPOGRAPHY
+- Field labels sit high in each field.
+- Field values use medium weight, not bold.
+- Compact fields preserve clear vertical space between label and value.
