@@ -157,3 +157,8 @@ MOBILE EXPERIENCE v2.16
 WHITE CANVAS INTERIOR v2.17
 - The area inside the PBMC outer frame is pure white.
 - The surrounding canvas-stage remains warm light grey so the PBMC frame is still visually distinct.
+
+OFF-WHITE FIELD FILL v2.18
+- Default PBMC field cards use a soft warm off-white fill (#faf8f3).
+- The canvas interior stays pure white.
+- Hover states still switch to the perspective color.
