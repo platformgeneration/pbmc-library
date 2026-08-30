@@ -471,18 +471,156 @@ body.canvas-viewer-open{overflow:hidden}
   color:#777!important;
   font-size:11px!important;
 }
+
+
+/* v2.32 — search + browsing in the global header */
+.header-inner{
+  grid-template-columns:auto minmax(390px,1fr) auto;
+  gap:22px;
+  align-items:center;
+}
+header nav{
+  justify-content:center;
+}
+.header-library-actions{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:10px;
+  min-width:405px;
+}
+.header-search{
+  width:265px;
+  min-width:190px;
+}
+.header-search .case-search-input{
+  height:38px;
+  font-size:10.5px;
+}
+.header-search .case-search-results{
+  left:auto;
+  right:0;
+  width:min(430px,88vw);
+}
+.header-next-platform{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  height:38px;
+  padding:0 17px;
+  border:1px solid #111;
+  border-radius:999px;
+  background:#111;
+  color:#fff;
+  font-size:9.5px;
+  font-weight:700;
+  white-space:nowrap;
+  transition:background .15s ease,border-color .15s ease,transform .15s ease;
+}
+.header-next-platform:hover{
+  background:#ef4a0b;
+  border-color:#ef4a0b;
+  color:#fff;
+  transform:translateY(-1px);
+}
+.case-header{
+  padding-top:34px;
+}
+.footer-links a{
+  color:inherit;
+  text-decoration:none;
+}
+.footer-links a:hover{
+  color:#fff;
+  text-decoration:underline;
+}
+.footer-contact{
+  font-weight:600;
+  color:#fff!important;
+}
+
+@media(max-width:1180px){
+  .header-inner{
+    grid-template-columns:auto minmax(330px,1fr) auto;
+    gap:14px;
+  }
+  header nav{gap:15px}
+  .header-library-actions{min-width:340px;gap:8px}
+  .header-search{width:205px}
+  .header-next-platform{padding:0 13px;font-size:9px}
+}
+
+@media(max-width:1000px){
+  .header-inner{
+    grid-template-columns:1fr auto!important;
+    gap:12px;
+  }
+  .mobile-menu-toggle{
+    display:block;
+    grid-column:2;
+  }
+  header nav{
+    display:none!important;
+  }
+  header nav.open{
+    display:flex!important;
+  }
+  header nav .header-library-actions{
+    display:flex;
+    width:100%;
+    min-width:0;
+    flex-direction:column;
+    align-items:stretch;
+    gap:8px;
+    padding:14px 0 2px;
+  }
+  header nav .header-search{
+    width:100%;
+    min-width:0;
+  }
+  header nav .case-search-results{
+    position:relative;
+    top:6px;
+    right:auto;
+    left:0;
+    width:100%;
+    margin-bottom:6px;
+    box-shadow:none;
+  }
+  header nav .header-next-platform{
+    width:100%;
+    min-height:40px;
+  }
+  .case-header{
+    padding-top:24px;
+  }
+}
+
+@media(max-width:700px){
+  .case-header{padding-top:20px}
+}
 </style></head><body>
-<header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav id="siteNav"><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a><a class="mobile-contact" href="https://www.platformgeneration.com/#contact">Contact</a></nav><button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
-<main>
-<section class="case-header"><div class="wrap">
-<div class="case-utility-row"><div class="pbmc-toolbar">
-<div class="case-search" id="caseSearch">
+<header><div class="wrap header-inner">
+<a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
+<nav id="siteNav">
+<a href="https://www.platformgeneration.com/">Home</a>
+<a href="https://www.platformgeneration.com/#canvas">Canvas</a>
+<a class="active" href="../">PBMC Library</a>
+<a href="https://www.platformgeneration.com/#research">Research</a>
+<a href="https://www.platformgeneration.com/#about">About</a>
+</nav>
+<div class="header-library-actions" id="headerLibraryActions">
+<div class="case-search header-search" id="caseSearch">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
-<a class="next-platform-top" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
-</div></div>
+<a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
+</div>
+<button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+<main>
+<section class="case-header"><div class="wrap">
 <div class="case-snapshot-line">PBMC Case 006 · Snapshot made in August 2026</div>
 <h1>eBay</h1>
 <p class="case-question">How does eBay keep a 30-year-old marketplace liquid?</p>
@@ -562,7 +700,7 @@ body.canvas-viewer-open{overflow:hidden}
 <a class="case-nav-link" id="prevPlatform" href="../" aria-label="See previous platform"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company" id="prevPlatformName">…</span></a>
 <a class="case-nav-link" id="nextPlatform" href="../" aria-label="See next platform"><span class="case-nav-label">See next platform →</span><span class="case-nav-company" id="nextPlatformName">…</span></a>
 </div></section>
-</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
+</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><a class="footer-contact" href="https://www.platformgeneration.com/#contact">Contact</a><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
 <div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div><div id="dataError" hidden></div>
 <script id="pbmc-data" type="application/json">{"schema_version": "1.6", "metadata": {"company": "eBay", "slug": "ebay", "headline": "How does eBay keep a 30-year-old marketplace liquid?", "case_number": "006", "published_date": "2026-08-30", "updated_date": "2026-08-30", "snapshot_date": "2026-08-30", "status": "official", "industry": ["E-commerce", "Marketplace"], "topics": ["Recommerce", "Trust", "Managed Payments", "Seller Tools", "Advertising"], "geography": ["Global"], "language": "en"}, "platform_lesson": {"title": "Trust is marketplace infrastructure", "text": "eBay's scale is not valuable simply because many buyers and sellers are present. The marketplace has to make transactions between strangers reliable enough to happen repeatedly. Reputation, seller standards, buyer protection, managed payments, payouts and seller tooling therefore sit at the center of eBay's platform architecture. With roughly 2.6 billion live listings and 136 million active buyers, the strategic asset is liquidity reinforced by trust: more selection attracts demand, but governance and transaction infrastructure determine whether that demand converts into paid trade."}, "pbmc": {"core_value_unit": {"value": "Product Listing", "explanation": "The Product Listing is the unit of value made discoverable on eBay: an offer that combines the item, price or auction terms, seller information, availability, shipping conditions and other details a Buyer needs to transact.", "changed": false, "before": "", "after": "", "metrics": [{"value": "2.6B Listings", "note": "eBay reported approximately 2.6 billion live listings worldwide as of June 30, 2026."}]}, "consumer": {"actor": {"value": "Buyers", "explanation": "Individual buyers, collectors, bargain hunters and other shoppers use eBay to discover and purchase new, used, rare and collectible goods from third-party Sellers.", "changed": false, "before": "", "after": "", "metrics": [{"value": "136M Buyers", "note": "eBay reported 136 million active buyers worldwide in Q2 2026. Active buyers are accounts that paid for a marketplace transaction in the prior 12 months."}]}, "job": {"value": "Find / Buy", "explanation": "Buyers come to eBay to find products that may be difficult to source elsewhere and to complete a purchase through fixed-price, offer or auction-style marketplace mechanisms.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Value / Choice", "explanation": "Large assortment, price discovery, unique inventory and convenient marketplace search can give Buyers more choice and opportunities to find good value.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Scams / Delays", "explanation": "Buyers can face counterfeit or misrepresented goods, non-delivery, shipping delays, disputes and uncertainty about unfamiliar Sellers.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Order / Pay", "explanation": "Buyers place orders and pay through eBay's checkout. Across eBay's marketplace platforms, paid transactions generated $22.4 billion of Gross Merchandise Volume in Q2 2026.", "changed": false, "before": "", "after": ""}, "filter": {"value": "Account / Payment", "explanation": "Access to transact depends on account, payment, identity, policy and fraud controls; some products and activities are restricted by marketplace rules.", "changed": false, "before": "", "after": ""}, "access_channel": {"value": "Web / App", "explanation": "Buyers primarily access eBay through its websites and mobile apps, where search, recommendations, auctions, offers and checkout are integrated.", "changed": false, "before": "", "after": ""}, "activities": {"value": "Search / Bid", "explanation": "Buyers search and browse listings, compare alternatives, bid or make offers where available, purchase products and provide feedback after transactions.", "changed": false, "before": "", "after": ""}, "resources": {"value": "Account / Payment", "explanation": "Buyers contribute attention, transaction intent, account and payment information, device access, behavioral signals and post-transaction feedback.", "changed": false, "before": "", "after": ""}}, "provider": {"actor": {"value": "Sellers", "explanation": "Private individuals, small businesses, retailers, brands and professional merchants provide the inventory that makes eBay's marketplace valuable.", "changed": false, "before": "", "after": "", "metrics": [{"value": "17M Sellers*", "note": "eBay's current Seller Center states that sellers join '17 million' fellow sellers globally. eBay no longer includes active-seller count in its current quarterly operating KPI table, so this figure should be treated as a current Seller Center scale reference rather than a Q2 2026 active-seller KPI."}]}, "job": {"value": "Sell / Reach", "explanation": "Sellers use eBay to turn inventory into sales and reach demand beyond their own local market or standalone storefront.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Reach / Revenue", "explanation": "Marketplace participation gives Sellers access to a global buyer base, transaction infrastructure, marketing tools, performance data and opportunities to scale revenue.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Fees / Competition", "explanation": "Sellers face marketplace fees, competition for visibility, fraud and dispute risk, fulfillment obligations and pressure to maintain seller performance.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "List / Sell", "explanation": "Sellers create listings, complete sales and pay eBay selling fees. Final value fees vary by category and are deducted from seller earnings before payout.", "changed": false, "before": "", "after": ""}, "filter": {"value": "Identity / Quality", "explanation": "Seller participation is governed through identity, account, product, performance and policy requirements designed to reduce fraud and protect marketplace quality.", "changed": false, "before": "", "after": ""}, "access_channel": {"value": "Seller Hub / API", "explanation": "Sellers manage listings, orders, marketing, performance and payments through Seller Hub or connect inventory and order systems through eBay APIs and approved integrations.", "changed": false, "before": "", "after": ""}, "activities": {"value": "List / Fulfill", "explanation": "Sellers create and optimize listings, manage inventory and prices, fulfill orders, handle returns and support Buyers after the sale.", "changed": false, "before": "", "after": ""}, "resources": {"value": "Inventory / Data", "explanation": "Sellers bring products, product information, images, pricing, inventory, fulfillment capability, reputation and operational data.", "changed": false, "before": "", "after": ""}}, "partner": {"enabled": true, "enabled_before": true, "enabled_after": true, "actor": {"value": "Solution Partners", "explanation": "External technology and commerce providers extend eBay's seller ecosystem with tools for listings, inventory, order management, fulfillment, international expansion and integrations.", "changed": false, "before": "", "after": "", "metrics": [{"value": "29 Listed*", "note": "eBay's current U.S. Seller Center directory lists 9 Gold Partners, 12 Silver Partners and 8 connected e-commerce platforms: 29 listed third-party providers/platforms in total. This is a directory count, not the total number of all commercial partners in eBay's ecosystem."}]}, "job": {"value": "Enable Sellers", "explanation": "Solution Partners help Sellers operate more efficiently by connecting marketplace activity to specialist software, logistics and multichannel commerce workflows.", "changed": false, "before": "", "after": ""}, "gain": {"value": "Demand / Revenue", "explanation": "Access to eBay Sellers creates demand for software and services and gives Partners opportunities to grow recurring commercial relationships.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Integration / Scale", "explanation": "Partners must maintain integrations as eBay APIs, seller requirements and marketplace workflows evolve while supporting large and variable transaction volumes.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Tools / Fees", "explanation": "Solution Partners provide technology or commerce services to Sellers and receive subscription, service or transaction-related fees according to their own commercial models.", "changed": false, "before": "", "after": ""}, "filter": {"value": "Quality / Fit", "explanation": "eBay's listed solution providers must offer capabilities relevant to Seller workflows and meet the technical and commercial expectations associated with platform integrations.", "changed": false, "before": "", "after": ""}, "access_channel": {"value": "APIs / Connectors", "explanation": "Partners connect through eBay APIs, software connectors and approved integrations rather than the buyer-facing marketplace interface.", "changed": false, "before": "", "after": ""}, "activities": {"value": "Integrate / Support", "explanation": "Partners maintain integrations, synchronize listings and inventory, automate operations and support Sellers using their services.", "changed": false, "before": "", "after": ""}, "resources": {"value": "Tech / Services", "explanation": "Partners contribute specialist software, integrations, operational capabilities, support teams and complementary commerce services.", "changed": false, "before": "", "after": ""}}, "owner": {"actor": {"value": "eBay", "explanation": "eBay Inc. owns and governs the marketplace infrastructure that connects Buyers, Sellers and supporting Solution Partners across more than 190 markets.", "changed": false, "before": "", "after": "", "metrics": [{"value": "$3.1B Rev.", "note": "eBay reported $3.134 billion of revenue in Q2 2026."}, {"value": "$46.3B Cap*", "note": "eBay Investor Relations showed a market capitalization of approximately $46.26 billion on August 26, 2026."}, {"value": "$13.7B Brand*", "note": "Interbrand's current eBay profile values the eBay brand at approximately $13.7 billion."}]}, "job": {"value": "Facilitate Trade", "explanation": "eBay's central job is to make trade between large numbers of independent Buyers and Sellers easier, safer and more liquid than those participants could achieve individually.", "changed": false, "before": "", "after": ""}, "gain": {"value": "GMV / Revenue", "explanation": "More successful transactions increase marketplace GMV and create revenue from selling fees, advertising and other commerce services.", "changed": false, "before": "", "after": ""}, "pain": {"value": "Fraud / Churn", "explanation": "Counterfeits, scams, disputes, platform abuse, weak seller quality or declining buyer engagement can reduce trust and weaken marketplace liquidity.", "changed": false, "before": "", "after": ""}, "transaction": {"value": "Match / Settle", "explanation": "eBay intermediates discovery, checkout, payment confirmation, fee deduction and Seller payout. Q2 2026 GMV was $22.4 billion; eBay reports transaction value rather than a precise public count of individual transactions.", "changed": false, "before": "", "after": ""}, "governance": {"value": "Rules / Trust", "explanation": "Marketplace governance combines seller standards, feedback, buyer protection, fraud controls, dispute processes, product policies and enforcement.", "changed": false, "before": "", "after": ""}, "promotion_channel": {"value": "Search / Ads", "explanation": "eBay attracts and re-engages users through search visibility, brand marketing, email, social channels, recommendations and advertising products embedded in the marketplace.", "changed": false, "before": "", "after": ""}, "activities": {"value": "Match / Protect", "explanation": "eBay operates search and discovery, manages payments and payouts, moderates marketplace activity, enforces rules and invests in protection and transaction trust.", "changed": false, "before": "", "after": ""}, "resources": {"value": "Brand / Data", "explanation": "eBay's key resources include its brand, marketplace technology, search and ranking systems, transaction and behavioral data, payments infrastructure, trust systems and global network.", "changed": false, "before": "", "after": ""}}, "flows": {"current": [{"from": "consumer", "to": "owner", "value": "Order / Pay", "explanation": "Buyers place orders and pay through eBay's managed marketplace checkout."}, {"from": "owner", "to": "consumer", "value": "Protect", "explanation": "eBay returns marketplace access, checkout, transaction confirmation and protections such as the eBay Money Back Guarantee."}, {"from": "provider", "to": "owner", "value": "Listing / Fees", "explanation": "Sellers provide listings and pay applicable selling and advertising fees to eBay."}, {"from": "owner", "to": "provider", "value": "Payout / Reach", "explanation": "eBay gives Sellers access to marketplace demand and initiates payouts after Buyer payment is confirmed and selling costs are deducted."}, {"from": "provider", "to": "consumer", "value": "Product", "explanation": "The Seller supplies and fulfills the product purchased by the Buyer."}, {"from": "consumer", "to": "provider", "value": "Review", "explanation": "Buyer feedback contributes to Seller reputation and future marketplace trust."}, {"from": "provider", "to": "partner", "value": "Fees / Data", "explanation": "Sellers can pay Solution Partners and connect marketplace data to third-party operating tools."}, {"from": "partner", "to": "provider", "value": "Tools / Services", "explanation": "Solution Partners provide software, integrations and commerce services that help Sellers operate on eBay."}], "before": [], "after": []}, "metrics": [{"target": "consumer", "value": "136M Buyers", "note": "Active buyers worldwide, Q2 2026."}, {"target": "provider", "value": "17M Sellers*", "note": "Current eBay Seller Center scale reference; not a quarterly active-seller KPI."}, {"target": "partner", "value": "29 Listed*", "note": "Count of listed Gold, Silver and connected e-commerce platform providers on eBay's current Seller Center directory."}, {"target": "core_value_unit", "value": "2.6B Listings", "note": "Approximate live listings worldwide, Q2 2026."}, {"target": "owner", "value": "$3.1B Rev.", "note": "Q2 2026 revenue."}]}, "media": {"youtube_id": "", "youtube_url": "", "thumbnail": "", "youtube_title": ""}, "sources": [{"title": "eBay Inc. Reports Second Quarter 2026 Results", "publisher": "eBay Inc. Investor Relations", "date": "2026-08-05", "url": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Inc--Reports-Second-Quarter-2026-Results/default.aspx", "note": "Primary source for Q2 2026 revenue, $22.4B GMV, 136M active buyers and the definition of GMV."}, {"title": "Fast Facts", "publisher": "eBay Inc. Investor Relations", "date": "2026-06-30", "url": "https://investors.ebayinc.com/fast-facts/default.aspx", "note": "Primary source for 136M active buyers, approximately 2.6B live listings, Q2 GMV, revenue and mobile GMV."}, {"title": "Payments and earnings", "publisher": "eBay Seller Center", "date": "", "url": "https://www.ebay.com/sellercenter/payments-and-fees/payments-and-earnings", "note": "Primary source for managed payments, fee deductions, Seller Hub payment management, bank/debit-card payouts and the 17M global Seller reference."}, {"title": "Selling fees", "publisher": "eBay Seller Center", "date": "", "url": "https://www.ebay.com/sellercenter/selling/start-selling-on-ebay/seller-fees", "note": "Primary source for insertion fees, final value fees and the seller-side monetization model."}, {"title": "Seller Hub", "publisher": "eBay Seller Center", "date": "", "url": "https://www.ebay.com/sellercenter/selling/how-to-sell/seller-hub", "note": "Primary source for Seller Hub activities including listings, orders, marketing and business-performance management."}, {"title": "Third party providers", "publisher": "eBay Seller Center", "date": "", "url": "https://www.ebay.com/sellercenter/ebay-for-business/third-party-providers", "note": "Primary source for eBay's listed Gold Partners, Silver Partners and connected e-commerce platforms; 29 are listed in the current directory."}, {"title": "eBay Money Back Guarantee policy", "publisher": "eBay", "date": "2026", "url": "https://www.ebay.com/help/policies/return-policy/return-policy?id=4210", "note": "Primary source for buyer protection against non-delivery, damaged or faulty goods, and items that do not match the listing."}, {"title": "Digital Services Act", "publisher": "eBay Inc.", "date": "2026", "url": "https://www.ebayinc.com/company/digital-services-act/", "note": "eBay states that millions of transactions happen every day but does not publish a precise current global transaction count."}, {"title": "Investor Relations", "publisher": "eBay Inc.", "date": "2026-08-26", "url": "https://investors.ebayinc.com/overview/default.aspx", "note": "Source for the approximately $46.26B market capitalization displayed on August 26, 2026."}, {"title": "eBay", "publisher": "Interbrand", "date": "2025", "url": "https://interbrand.com/best-global-brands/global/ebay/", "note": "Independent brand-valuation source; current profile reports approximately $13.7B brand value."}], "related": {"manual_override": [], "auto_match": {"industry_weight": 2, "topic_weight": 3, "changed_field_weight": 4}}, "reuse": {"license": "CC BY 4.0", "license_scope": "Case-specific analysis and structured data", "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation", "citation": "Eisape, D. A. (2026). eBay — Platform Business Model Canvas. Platform Generation.", "citation_data": {"authors": [{"family": "Eisape", "given": "Davis Adedayo", "display": "Eisape, D. A."}], "publisher": "Platform Generation", "resource_type": "PBMC snapshot"}, "case_data_license": "CC BY 4.0", "pbmc_canvas_license": "CC BY-SA 4.0", "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com", "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com", "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.", "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."}, "rendering": {"state": "current"}}</script><script id="pbmc-table-data" type="application/json">[{"Perspective": "Core Value Unit", "Field": "Core Value Unit", "Value": "Product Listing", "Explanation": "The Product Listing is the unit of value made discoverable on eBay: an offer that combines the item, price or auction terms, seller information, availability, shipping conditions and other details a Buyer needs to transact.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Actor", "Value": "eBay", "Explanation": "eBay Inc. owns and governs the marketplace infrastructure that connects Buyers, Sellers and supporting Solution Partners across more than 190 markets.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Job", "Value": "Facilitate Trade", "Explanation": "eBay's central job is to make trade between large numbers of independent Buyers and Sellers easier, safer and more liquid than those participants could achieve individually.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Gain", "Value": "GMV / Revenue", "Explanation": "More successful transactions increase marketplace GMV and create revenue from selling fees, advertising and other commerce services.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Pain", "Value": "Fraud / Churn", "Explanation": "Counterfeits, scams, disputes, platform abuse, weak seller quality or declining buyer engagement can reduce trust and weaken marketplace liquidity.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Transaction", "Value": "Match / Settle", "Explanation": "eBay intermediates discovery, checkout, payment confirmation, fee deduction and Seller payout. Q2 2026 GMV was $22.4 billion; eBay reports transaction value rather than a precise public count of individual transactions.", "Transaction Flows": "← Consumer · Order / Pay — Buyers place orders and pay through eBay's managed marketplace checkout. | → Consumer · Protect — eBay returns marketplace access, checkout, transaction confirmation and protections such as the eBay Money Back Guarantee. | ← Provider · Listing / Fees — Sellers provide listings and pay applicable selling and advertising fees to eBay. | → Provider · Payout / Reach — eBay gives Sellers access to marketplace demand and initiates payouts after Buyer payment is confirmed and selling costs are deducted."}, {"Perspective": "Owner", "Field": "Governance", "Value": "Rules / Trust", "Explanation": "Marketplace governance combines seller standards, feedback, buyer protection, fraud controls, dispute processes, product policies and enforcement.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Promotion Channel", "Value": "Search / Ads", "Explanation": "eBay attracts and re-engages users through search visibility, brand marketing, email, social channels, recommendations and advertising products embedded in the marketplace.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Activities", "Value": "Match / Protect", "Explanation": "eBay operates search and discovery, manages payments and payouts, moderates marketplace activity, enforces rules and invests in protection and transaction trust.", "Transaction Flows": ""}, {"Perspective": "Owner", "Field": "Resources", "Value": "Brand / Data", "Explanation": "eBay's key resources include its brand, marketplace technology, search and ranking systems, transaction and behavioral data, payments infrastructure, trust systems and global network.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Actor", "Value": "Buyers", "Explanation": "Individual buyers, collectors, bargain hunters and other shoppers use eBay to discover and purchase new, used, rare and collectible goods from third-party Sellers.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Job", "Value": "Find / Buy", "Explanation": "Buyers come to eBay to find products that may be difficult to source elsewhere and to complete a purchase through fixed-price, offer or auction-style marketplace mechanisms.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Gain", "Value": "Value / Choice", "Explanation": "Large assortment, price discovery, unique inventory and convenient marketplace search can give Buyers more choice and opportunities to find good value.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Pain", "Value": "Scams / Delays", "Explanation": "Buyers can face counterfeit or misrepresented goods, non-delivery, shipping delays, disputes and uncertainty about unfamiliar Sellers.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Transaction", "Value": "Order / Pay", "Explanation": "Buyers place orders and pay through eBay's checkout. Across eBay's marketplace platforms, paid transactions generated $22.4 billion of Gross Merchandise Volume in Q2 2026.", "Transaction Flows": "→ Owner · Order / Pay — Buyers place orders and pay through eBay's managed marketplace checkout. | ← Owner · Protect — eBay returns marketplace access, checkout, transaction confirmation and protections such as the eBay Money Back Guarantee. | ← Provider · Product — The Seller supplies and fulfills the product purchased by the Buyer. | → Provider · Review — Buyer feedback contributes to Seller reputation and future marketplace trust."}, {"Perspective": "Consumer", "Field": "Filter", "Value": "Account / Payment", "Explanation": "Access to transact depends on account, payment, identity, policy and fraud controls; some products and activities are restricted by marketplace rules.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Access Channel", "Value": "Web / App", "Explanation": "Buyers primarily access eBay through its websites and mobile apps, where search, recommendations, auctions, offers and checkout are integrated.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Activities", "Value": "Search / Bid", "Explanation": "Buyers search and browse listings, compare alternatives, bid or make offers where available, purchase products and provide feedback after transactions.", "Transaction Flows": ""}, {"Perspective": "Consumer", "Field": "Resources", "Value": "Account / Payment", "Explanation": "Buyers contribute attention, transaction intent, account and payment information, device access, behavioral signals and post-transaction feedback.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Actor", "Value": "Sellers", "Explanation": "Private individuals, small businesses, retailers, brands and professional merchants provide the inventory that makes eBay's marketplace valuable.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Job", "Value": "Sell / Reach", "Explanation": "Sellers use eBay to turn inventory into sales and reach demand beyond their own local market or standalone storefront.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Gain", "Value": "Reach / Revenue", "Explanation": "Marketplace participation gives Sellers access to a global buyer base, transaction infrastructure, marketing tools, performance data and opportunities to scale revenue.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Pain", "Value": "Fees / Competition", "Explanation": "Sellers face marketplace fees, competition for visibility, fraud and dispute risk, fulfillment obligations and pressure to maintain seller performance.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Transaction", "Value": "List / Sell", "Explanation": "Sellers create listings, complete sales and pay eBay selling fees. Final value fees vary by category and are deducted from seller earnings before payout.", "Transaction Flows": "→ Owner · Listing / Fees — Sellers provide listings and pay applicable selling and advertising fees to eBay. | ← Owner · Payout / Reach — eBay gives Sellers access to marketplace demand and initiates payouts after Buyer payment is confirmed and selling costs are deducted. | → Consumer · Product — The Seller supplies and fulfills the product purchased by the Buyer. | ← Consumer · Review — Buyer feedback contributes to Seller reputation and future marketplace trust. | → Partner · Fees / Data — Sellers can pay Solution Partners and connect marketplace data to third-party operating tools. | ← Partner · Tools / Services — Solution Partners provide software, integrations and commerce services that help Sellers operate on eBay."}, {"Perspective": "Provider", "Field": "Filter", "Value": "Identity / Quality", "Explanation": "Seller participation is governed through identity, account, product, performance and policy requirements designed to reduce fraud and protect marketplace quality.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Access Channel", "Value": "Seller Hub / API", "Explanation": "Sellers manage listings, orders, marketing, performance and payments through Seller Hub or connect inventory and order systems through eBay APIs and approved integrations.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Activities", "Value": "List / Fulfill", "Explanation": "Sellers create and optimize listings, manage inventory and prices, fulfill orders, handle returns and support Buyers after the sale.", "Transaction Flows": ""}, {"Perspective": "Provider", "Field": "Resources", "Value": "Inventory / Data", "Explanation": "Sellers bring products, product information, images, pricing, inventory, fulfillment capability, reputation and operational data.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Actor", "Value": "Solution Partners", "Explanation": "External technology and commerce providers extend eBay's seller ecosystem with tools for listings, inventory, order management, fulfillment, international expansion and integrations.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Job", "Value": "Enable Sellers", "Explanation": "Solution Partners help Sellers operate more efficiently by connecting marketplace activity to specialist software, logistics and multichannel commerce workflows.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Gain", "Value": "Demand / Revenue", "Explanation": "Access to eBay Sellers creates demand for software and services and gives Partners opportunities to grow recurring commercial relationships.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Pain", "Value": "Integration / Scale", "Explanation": "Partners must maintain integrations as eBay APIs, seller requirements and marketplace workflows evolve while supporting large and variable transaction volumes.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Transaction", "Value": "Tools / Fees", "Explanation": "Solution Partners provide technology or commerce services to Sellers and receive subscription, service or transaction-related fees according to their own commercial models.", "Transaction Flows": "← Provider · Fees / Data — Sellers can pay Solution Partners and connect marketplace data to third-party operating tools. | → Provider · Tools / Services — Solution Partners provide software, integrations and commerce services that help Sellers operate on eBay."}, {"Perspective": "Partner", "Field": "Filter", "Value": "Quality / Fit", "Explanation": "eBay's listed solution providers must offer capabilities relevant to Seller workflows and meet the technical and commercial expectations associated with platform integrations.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Access Channel", "Value": "APIs / Connectors", "Explanation": "Partners connect through eBay APIs, software connectors and approved integrations rather than the buyer-facing marketplace interface.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Activities", "Value": "Integrate / Support", "Explanation": "Partners maintain integrations, synchronize listings and inventory, automate operations and support Sellers using their services.", "Transaction Flows": ""}, {"Perspective": "Partner", "Field": "Resources", "Value": "Tech / Services", "Explanation": "Partners contribute specialist software, integrations, operational capabilities, support teams and complementary commerce services.", "Transaction Flows": ""}]</script>
 <script>"use strict";
@@ -1255,14 +1393,34 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
 (function(){
   const menuBtn=document.getElementById("mobileMenuToggle");
   const nav=document.getElementById("siteNav");
+  const libraryActions=document.getElementById("headerLibraryActions");
+  const headerInner=document.querySelector(".header-inner");
+
+  function syncHeaderLibraryActions(){
+    if(!nav||!libraryActions||!headerInner||!menuBtn) return;
+    const mobile=window.matchMedia("(max-width: 1000px)").matches;
+    if(mobile){
+      if(libraryActions.parentNode!==nav) nav.appendChild(libraryActions);
+    }else{
+      if(libraryActions.parentNode!==headerInner) headerInner.insertBefore(libraryActions,menuBtn);
+      nav.classList.remove("open");
+      menuBtn.setAttribute("aria-expanded","false");
+      menuBtn.setAttribute("aria-label","Open menu");
+    }
+  }
+
+  syncHeaderLibraryActions();
+  window.addEventListener("resize",syncHeaderLibraryActions);
+
   if(menuBtn&&nav){
     menuBtn.addEventListener("click",function(){
+      syncHeaderLibraryActions();
       const open=nav.classList.toggle("open");
       menuBtn.setAttribute("aria-expanded",open?"true":"false");
       menuBtn.setAttribute("aria-label",open?"Close menu":"Open menu");
     });
     nav.addEventListener("click",function(e){
-      if(e.target.closest("a")){
+      if(e.target.closest("a") && !e.target.closest(".header-next-platform")){
         nav.classList.remove("open");
         menuBtn.setAttribute("aria-expanded","false");
       }

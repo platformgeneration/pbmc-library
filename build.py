@@ -300,17 +300,27 @@ def case_page(case, css, renderer):
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://pbmc.platformgeneration.com/{e(md["slug"])}/">
 <script type="application/ld+json">{json.dumps(json_ld,ensure_ascii=False)}</script><style>{css}</style></head><body>
-<header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav id="siteNav"><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a><a class="mobile-contact" href="https://www.platformgeneration.com/#contact">Contact</a></nav><button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
-<main>
-<section class="case-header"><div class="wrap">
-<div class="case-utility-row"><div class="pbmc-toolbar">
-<div class="case-search" id="caseSearch">
+<header><div class="wrap header-inner">
+<a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
+<nav id="siteNav">
+<a href="https://www.platformgeneration.com/">Home</a>
+<a href="https://www.platformgeneration.com/#canvas">Canvas</a>
+<a class="active" href="../">PBMC Library</a>
+<a href="https://www.platformgeneration.com/#research">Research</a>
+<a href="https://www.platformgeneration.com/#about">About</a>
+</nav>
+<div class="header-library-actions" id="headerLibraryActions">
+<div class="case-search header-search" id="caseSearch">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
-<a class="next-platform-top" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
-</div></div>
+<a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
+</div>
+<button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+<main>
+<section class="case-header"><div class="wrap">
 <div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in {e(snapshot_info(case)["display"])}</div>
 <h1>{e(md["company"])}</h1>
 <p class="case-question">{e(md["headline"])}</p>
@@ -382,7 +392,7 @@ def case_page(case, css, renderer):
 <a class="case-nav-link" id="prevPlatform" href="../" aria-label="See previous platform"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company" id="prevPlatformName">…</span></a>
 <a class="case-nav-link" id="nextPlatform" href="../" aria-label="See next platform"><span class="case-nav-label">See next platform →</span><span class="case-nav-company" id="nextPlatformName">…</span></a>
 </div></section>
-</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
+</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><a class="footer-contact" href="https://www.platformgeneration.com/#contact">Contact</a><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
 <div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div><div id="dataError" hidden></div>
 <script id="pbmc-data" type="application/json">{embedded}</script><script id="pbmc-table-data" type="application/json">{rows_json}</script>
 <script>{renderer}</script><script>
@@ -468,14 +478,34 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
 (function(){{
   const menuBtn=document.getElementById("mobileMenuToggle");
   const nav=document.getElementById("siteNav");
+  const libraryActions=document.getElementById("headerLibraryActions");
+  const headerInner=document.querySelector(".header-inner");
+
+  function syncHeaderLibraryActions(){{
+    if(!nav||!libraryActions||!headerInner||!menuBtn) return;
+    const mobile=window.matchMedia("(max-width: 1000px)").matches;
+    if(mobile){{
+      if(libraryActions.parentNode!==nav) nav.appendChild(libraryActions);
+    }}else{{
+      if(libraryActions.parentNode!==headerInner) headerInner.insertBefore(libraryActions,menuBtn);
+      nav.classList.remove("open");
+      menuBtn.setAttribute("aria-expanded","false");
+      menuBtn.setAttribute("aria-label","Open menu");
+    }}
+  }}
+
+  syncHeaderLibraryActions();
+  window.addEventListener("resize",syncHeaderLibraryActions);
+
   if(menuBtn&&nav){{
     menuBtn.addEventListener("click",function(){{
+      syncHeaderLibraryActions();
       const open=nav.classList.toggle("open");
       menuBtn.setAttribute("aria-expanded",open?"true":"false");
       menuBtn.setAttribute("aria-label",open?"Close menu":"Open menu");
     }});
     nav.addEventListener("click",function(e){{
-      if(e.target.closest("a")){{
+      if(e.target.closest("a") && !e.target.closest(".header-next-platform")){{
         nav.classList.remove("open");
         menuBtn.setAttribute("aria-expanded","false");
       }}

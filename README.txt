@@ -243,3 +243,13 @@ OPEN USE + ATTRIBUTION v2.31
 - Adapted versions may carry other branding but cannot be presented as Official PBMC.
 - Platform Generation logos and Official PBMC designation remain outside the Creative Commons licenses.
 - Canvas provenance now includes a textual author/domain line in addition to the Platform Generation logo.
+
+HEADER NAVIGATION v2.32
+- Search PBMCs moved into the global top navigation.
+- See next platform replaces Contact as the prominent action at the far right of the desktop header.
+- Contact moved to the footer.
+- The old standalone Search / See next platform row above every case was removed.
+- Previous/Next navigation at the bottom of each case remains unchanged.
+- On screens up to 1000px, the same live Search and Next controls move into the hamburger menu rather than being duplicated.
+- The Next button is black by default and switches to Platform Generation orange on hover.
+- The simplified case header brings the title, tags and canvas higher on the page.
