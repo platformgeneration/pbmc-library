@@ -1,14 +1,239 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PBMC Library | Platform Generation</title>
+  <meta name="description" content="Explore open Platform Business Model Canvas cases by Platform Generation. Understand, compare, use and adapt platform business models." />
+  <style>
+    :root{
+      --orange:#e43d0b;
+      --ink:#111111;
+      --text:#626262;
+      --line:#e7e7e7;
+      --soft:#f7f7f5;
+      --white:#ffffff;
+      --max:1220px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff;color:var(--ink);font-family:"Avenir Next",Avenir,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(var(--max),calc(100% - 64px));margin:0 auto}
+    header{height:112px;display:flex;align-items:center;background:#fff;border-bottom:1px solid transparent}
+    .header-inner{display:grid;grid-template-columns:270px 1fr 270px;align-items:center;gap:24px;width:100%}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;line-height:.92;letter-spacing:.4px;font-size:18px}
+    .brand-mark{width:38px;height:38px;position:relative;border:2px solid var(--ink);border-radius:4px}
+    .brand-mark:before,.brand-mark:after{content:"";position:absolute;background:var(--ink)}
+    .brand-mark:before{width:15px;height:2px;left:9px;top:9px;box-shadow:-6px 9px 0 var(--ink),6px 18px 0 var(--ink)}
+    .brand-mark:after{width:6px;height:6px;border-radius:50%;left:6px;top:6px;box-shadow:12px 0 0 var(--ink),0 9px 0 var(--ink),12px 18px 0 var(--ink)}
+    nav{display:flex;justify-content:center;gap:42px;font-size:14px;color:#656565}
+    nav a{padding:12px 0;position:relative}
+    nav a.active:after{content:"";position:absolute;height:1px;background:#222;left:0;right:0;bottom:5px}
+    .header-actions{display:flex;align-items:center;justify-content:flex-end;gap:18px}
+    .contact{background:#111;color:#fff;border-radius:999px;padding:15px 39px;font-size:14px}
+    .lang{font-size:20px}
+
+    .hero{padding:92px 0 72px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:72px;align-items:center}
+    .eyebrow{font-size:13px;font-weight:700;letter-spacing:1.7px;color:var(--orange);text-transform:uppercase;margin-bottom:18px}
+    h1{font-size:58px;line-height:1.08;letter-spacing:-2.2px;margin:0 0 26px;font-weight:800;max-width:760px}
+    .lead{font-size:18px;line-height:1.72;color:var(--text);max-width:680px;margin:0 0 34px}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{border-radius:999px;padding:15px 26px;font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:9px;border:1px solid #111}
+    .btn-primary{background:var(--orange);border-color:var(--orange);color:white}
+    .btn-secondary{background:white;color:#111}
+    .canvas-preview{background:#fff;border:1.5px solid #161616;border-radius:24px;padding:18px;box-shadow:0 24px 60px rgba(0,0,0,.08);transform:rotate(-1deg)}
+    .canvas-title{display:flex;justify-content:space-between;align-items:center;padding:3px 4px 14px;font-size:12px;font-weight:700;letter-spacing:.5px}
+    .official{font-size:10px;color:#666;border:1px solid #d8d8d8;border-radius:999px;padding:4px 8px}
+    .canvas-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:82px 88px 72px;gap:7px}
+    .cell{border:1px solid #d8d8d8;border-radius:9px;padding:9px;background:#fff;font-size:9px;color:#656565;overflow:hidden}
+    .cell b{display:block;font-size:9px;color:#111;margin-bottom:5px;text-transform:uppercase;letter-spacing:.25px}
+    .cell.orange{border-color:#f2b6a4;background:#fff7f4}
+    .cell.cvu{grid-column:2/4;grid-row:2;background:var(--orange);color:#fff;border-color:var(--orange);display:flex;align-items:center;justify-content:center;text-align:center}
+    .cell.cvu b{color:#fff;font-size:11px}
+    .cell.wide{grid-column:1/3}
+    .cell.wide2{grid-column:3/5}
+
+    .library{background:var(--soft);padding:76px 0 84px;border-top:1px solid #f1f1ef;border-bottom:1px solid #eeeeeb}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:30px}
+    h2{font-size:34px;line-height:1.15;margin:0 0 10px;letter-spacing:-1px}
+    .section-head p{margin:0;color:var(--text);font-size:15px}
+    .search{width:380px;max-width:100%;position:relative}
+    .search input{width:100%;padding:16px 48px 16px 18px;border:1px solid #d8d8d8;border-radius:13px;background:#fff;font:inherit;font-size:14px;outline:none}
+    .search span{position:absolute;right:17px;top:50%;transform:translateY(-50%);font-size:17px;color:#777}
+    .filters{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:26px}
+    .chip{border:1px solid #d8d8d8;background:#fff;border-radius:999px;padding:8px 13px;font-size:12px;color:#626262;cursor:pointer}
+    .chip.active{background:#111;color:#fff;border-color:#111}
+    .cases{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .case{background:#fff;border:1px solid #e3e3e3;border-radius:18px;padding:26px;min-height:258px;display:flex;flex-direction:column;transition:.18s ease}
+    .case:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,0,0,.07);border-color:#ccc}
+    .case-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}
+    .case-no{font-size:11px;font-weight:700;color:var(--orange);letter-spacing:1.2px}
+    .badge{font-size:10px;border-radius:999px;padding:5px 8px;background:#f3f3f3;color:#555}
+    .case h3{font-size:23px;line-height:1.15;margin:0 0 12px;letter-spacing:-.5px}
+    .case p{font-size:13px;line-height:1.6;color:#696969;margin:0 0 22px}
+    .tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}
+    .tag{font-size:10px;border:1px solid #e1e1e1;border-radius:999px;padding:5px 8px;color:#777}
+    .case.featured{border-top:4px solid var(--orange);padding-top:23px}
+
+    .open{padding:82px 0}
+    .open-box{border:1px solid #ddd;border-radius:24px;padding:44px 48px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center}
+    .open-box h2{margin-bottom:12px}
+    .open-box p{color:var(--text);font-size:14px;line-height:1.7;margin:0;max-width:760px}
+    .cc{font-weight:800;font-size:29px;white-space:nowrap}
+    .cc small{display:block;font-size:11px;font-weight:500;color:#6b6b6b;margin-top:7px;text-align:center}
+
+    footer{border-top:1px solid #ececec;padding:34px 0 44px;color:#727272;font-size:12px}
+    .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .footer-links{display:flex;gap:22px}
+
+    @media(max-width:960px){
+      .header-inner{grid-template-columns:1fr auto}.header-actions{grid-column:2}.header-inner nav{display:none}
+      .hero-grid{grid-template-columns:1fr;gap:48px}.canvas-preview{max-width:650px}.cases{grid-template-columns:1fr 1fr}.section-head{align-items:flex-start;flex-direction:column}.search{width:100%}
+    }
+    @media(max-width:650px){
+      .wrap{width:min(var(--max),calc(100% - 36px))}header{height:90px}.contact{display:none}.brand{font-size:16px}
+      .hero{padding:62px 0 52px}h1{font-size:39px;letter-spacing:-1.2px}.lead{font-size:16px}.canvas-grid{grid-template-rows:67px 72px 62px}.cell{font-size:8px;padding:6px}.cell b{font-size:7px}
+      .library{padding:58px 0}.cases{grid-template-columns:1fr}.open{padding:58px 0}.open-box{padding:30px;grid-template-columns:1fr}.cc{text-align:left}.cc small{text-align:left}.footer-inner{align-items:flex-start;flex-direction:column}.footer-links{flex-wrap:wrap}
+    }
+  </style>
 </head>
-<body style="font-family:Arial,sans-serif;max-width:900px;margin:80px auto;padding:0 24px;">
-  <p>PLATFORM GENERATION</p>
-  <h1>Platform Business Model Canvas Library</h1>
-  <p>Open cases for understanding, comparing and designing platform business models.</p>
-  <p><strong>PBMC Library is being built.</strong></p>
+<body>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand" href="#" aria-label="Platform Generation">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>PLATFORM<br>GENERATION</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="https://www.platformgeneration.com/">Home</a>
+        <a href="https://www.platformgeneration.com/#canvas">Canvas</a>
+        <a class="active" href="#cases">PBMC Library</a>
+        <a href="https://www.platformgeneration.com/#research">Research</a>
+        <a href="https://www.platformgeneration.com/#about">About</a>
+      </nav>
+      <div class="header-actions">
+        <a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a>
+        <span class="lang" title="English">🇺🇸</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Open PBMC Library</div>
+          <h1>See how platforms really work.</h1>
+          <p class="lead">Explore real companies through the Platform Business Model Canvas. Understand the ecosystem, compare platform designs, and reuse the cases in teaching, research and consulting.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#cases">Explore cases <span>↓</span></a>
+            <a class="btn btn-secondary" href="https://www.platformgeneration.com/#canvas">About the PBMC</a>
+          </div>
+        </div>
+        <div class="canvas-preview" aria-label="Illustrative Platform Business Model Canvas preview">
+          <div class="canvas-title"><span>PLATFORM BUSINESS MODEL CANVAS</span><span class="official">OPEN CASE</span></div>
+          <div class="canvas-grid">
+            <div class="cell orange"><b>Partners</b>Ecosystem actors</div>
+            <div class="cell"><b>Consumers</b>Demand side</div>
+            <div class="cell"><b>Providers</b>Supply side</div>
+            <div class="cell orange"><b>Governance</b>Rules &amp; trust</div>
+            <div class="cell"><b>Access</b>How users enter</div>
+            <div class="cell cvu"><b>Core Value Unit</b></div>
+            <div class="cell"><b>Transaction</b>Value exchange</div>
+            <div class="cell wide"><b>Resources</b>What enables the platform</div>
+            <div class="cell wide2"><b>Activities</b>What the platform orchestrates</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="library" id="cases">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Platform Lens Cases</div>
+            <h2>Explore the library</h2>
+            <p>One shared framework. Different platform architectures.</p>
+          </div>
+          <label class="search">
+            <input id="search" type="search" placeholder="Search company, industry or topic…" aria-label="Search PBMC cases" />
+            <span>⌕</span>
+          </label>
+        </div>
+        <div class="filters" aria-label="Case filters">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="finance">Finance</button>
+          <button class="chip" data-filter="ai">AI</button>
+          <button class="chip" data-filter="commerce">Commerce</button>
+          <button class="chip" data-filter="media">Media</button>
+        </div>
+        <div class="cases" id="caseGrid">
+          <article class="case featured" data-tags="scalable capital finance ai agents investing">
+            <div class="case-top"><span class="case-no">CASE 001</span><span class="badge">Official PBMC</span></div>
+            <h3>Scalable Capital</h3>
+            <p>How AI agents can become a new access channel — and potentially reshape the platform partner architecture.</p>
+            <div class="tags"><span class="tag">Finance</span><span class="tag">AI Agents</span><span class="tag">Access Channels</span></div>
+          </article>
+          <article class="case" data-tags="youtube media creators advertising platform">
+            <div class="case-top"><span class="case-no">CASE 002</span><span class="badge">Example</span></div>
+            <h3>YouTube</h3>
+            <p>A multi-sided ecosystem connecting creators, audiences, advertisers and complementary services.</p>
+            <div class="tags"><span class="tag">Media</span><span class="tag">Creators</span><span class="tag">Advertising</span></div>
+          </article>
+          <article class="case" data-tags="amazon marketplace commerce sellers buyers ai shopping">
+            <div class="case-top"><span class="case-no">CASE 003</span><span class="badge">Example</span></div>
+            <h3>Amazon Marketplace</h3>
+            <p>How marketplace orchestration changes when product discovery increasingly shifts toward AI interfaces.</p>
+            <div class="tags"><span class="tag">Commerce</span><span class="tag">Marketplace</span><span class="tag">AI</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="open">
+      <div class="wrap">
+        <div class="open-box">
+          <div>
+            <div class="eyebrow">Built to be used</div>
+            <h2>Use it. Adapt it. Cite it.</h2>
+            <p>PBMC cases are designed to travel: into classrooms, research, workshops and consulting projects. Reuse and adaptation are welcome with attribution to the Platform Business Model Canvas and Platform Generation. Modified versions should be identified as adaptations rather than Official PBMC cases.</p>
+          </div>
+          <div class="cc">CC BY 4.0<small>Attribution required</small></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div>© 2026 Platform Generation · Platform Business Model Canvas</div>
+      <div class="footer-links"><a href="https://www.platformgeneration.com/">Main website</a><a href="#">Citation</a><a href="#">License</a></div>
+    </div>
+  </footer>
+
+  <script>
+    const search = document.getElementById('search');
+    const cards = [...document.querySelectorAll('.case')];
+    const chips = [...document.querySelectorAll('.chip')];
+    let activeFilter = 'all';
+    function applyFilters(){
+      const q = search.value.trim().toLowerCase();
+      cards.forEach(card => {
+        const hay = card.dataset.tags.toLowerCase() + ' ' + card.innerText.toLowerCase();
+        const matchesText = !q || hay.includes(q);
+        const matchesFilter = activeFilter === 'all' || hay.includes(activeFilter);
+        card.style.display = matchesText && matchesFilter ? '' : 'none';
+      });
+    }
+    search.addEventListener('input', applyFilters);
+    chips.forEach(chip => chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilter = chip.dataset.filter;
+      applyFilters();
+    }));
+  </script>
 </body>
 </html>
