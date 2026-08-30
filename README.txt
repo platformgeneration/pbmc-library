@@ -8,8 +8,8 @@ and why it matters.
 CASE PAGE ORDER
 1. Case header
 2. PBMC Snapshot
-3. Platform Lesson
-4. Platform Generation / Watch the Case Study
+3. Platform Generation / Watch the Case Study
+4. Platform Lesson
 5. PBMC Data
 6. Sources
 7. Use / Adapt / Cite

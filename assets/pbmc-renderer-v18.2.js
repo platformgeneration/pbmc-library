@@ -218,10 +218,10 @@ function drawField(svg,data,role,key,tooltip){
   const record=(data.pbmc[role]||{})[key]||{};
   const g=add(svg,"g",{class:role,"data-role":role,"data-key":key});
   add(g,"rect",{class:"box",x,y,width:w,height:h,rx:14,ry:14});
-  add(g,"text",{class:"label",x:x+10,y:y+11},(FIELD_LABELS[key]||key).toUpperCase());
+  add(g,"text",{class:"label",x:x+10,y:y+9},(FIELD_LABELS[key]||key).toUpperCase());
   const lines=valueLines(record.value,w>200?24:14);
   const font=lines.some(l=>l.length>16)?11.5:12.5;
-  textWithLines(g,"value",x+w/2,y+h/2+3,lines,font);
+  textWithLines(g,"value",x+w/2,y+h/2+9,lines,font);
   bindTooltip(g,()=>fieldTooltip(role,key,record),tooltip);
 }
 
