@@ -153,3 +153,7 @@ MOBILE EXPERIENCE v2.16
 - Touch tooltips render as a bottom information sheet.
 - The website header gets a hamburger menu below 1000px.
 - PBMC Data remains a true comparison table; Perspective and Field stay sticky while horizontally scrolling on phones.
+
+WHITE CANVAS INTERIOR v2.17
+- The area inside the PBMC outer frame is pure white.
+- The surrounding canvas-stage remains warm light grey so the PBMC frame is still visually distinct.
