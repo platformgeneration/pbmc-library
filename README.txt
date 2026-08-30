@@ -51,21 +51,19 @@ CONTENT MODEL
   search-engine and AI readability.
 - The video carries narrative case-study depth; the library page stays compact.
 
-IP / LICENSE MODEL
-- Case-specific analysis and structured case data: CC BY 4.0 with attribution.
-- Suggested attribution:
-  Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation
-- The Platform Business Model Canvas (PBMC) framework itself, its visual architecture,
-  branding and Official PBMC designation are excluded from CC BY 4.0.
-- Those framework elements remain the intellectual property of
-  Davis Eisape / Platform Generation.
-- CC BY 4.0 permission for case data does not grant permission to rebrand the PBMC
-  framework, publish a derivative framework design as an original framework, or use
-  the Official PBMC designation.
-- Repository software/build code is publicly viewable but is not released under an
-  open-source software license unless a separate LICENSE file explicitly says otherwise.
-- Copyright © Davis Eisape / Platform Generation. All rights reserved for framework,
-  visual architecture, branding, Official PBMC designation and software not otherwise licensed.
+OPEN USE / ATTRIBUTION MODEL
+- Case-specific analysis and structured case data: CC BY 4.0.
+- PBMC canvas/template and copyrightable visual presentation: CC BY-SA 4.0.
+- Users may reproduce, teach with, use commercially and adapt the PBMC.
+- Attribution must remain clearly visible:
+  Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com
+- Adapted versions should state:
+  Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com
+- Adapted PBMC canvases must be shared under CC BY-SA 4.0 or a compatible license.
+- An unmodified Official PBMC should retain its displayed provenance rather than having Platform Generation attribution removed or replaced.
+- Adapted versions may use their own branding, but must retain PBMC attribution and must not be presented as Official PBMC.
+- Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses.
+- Repository software/build code is publicly viewable but is not released under an open-source software license unless a separate LICENSE explicitly says otherwise.
 
 CANVAS TYPOGRAPHY
 - Field labels sit high in each field.
@@ -235,10 +233,13 @@ RUNTIME LIBRARY INDEX v2.26
 - New case folder: case.json, index.html, pbmc-data.csv and citation.bib.
 - Existing case HTML is only uploaded again when shared design, renderer or page-template code changes.
 
-IP MODEL v2.29
-- Public visibility does not mean the complete project is open source.
-- Open layer: case-specific analysis/data under CC BY 4.0.
-- Protected layer: PBMC framework, visual architecture, branding and Official PBMC designation.
-- Software/build system: no open-source license granted by repository visibility alone.
-- Every canvas now carries PLATFORM BUSINESS MODEL CANVAS · PBMC plus CREATED BY Platform Generation provenance.
-- Citation/BibTeX wording now explicitly scopes CC BY 4.0 to case-specific analysis/data.
+OPEN USE + ATTRIBUTION v2.31
+- Replaces the defensive v2.29 'protected framework' language with a Strategyzer-like open-use model.
+- Case data: CC BY 4.0.
+- PBMC canvas/template: CC BY-SA 4.0.
+- Reproduction, teaching, consulting and adaptation are explicitly allowed.
+- Attribution must remain visible; adapted versions use 'Adapted from the Platform Business Model Canvas (PBMC)...'.
+- Unmodified Official PBMCs should retain displayed provenance rather than having it removed/replaced.
+- Adapted versions may carry other branding but cannot be presented as Official PBMC.
+- Platform Generation logos and Official PBMC designation remain outside the Creative Commons licenses.
+- Canvas provenance now includes a textual author/domain line in addition to the Platform Generation logo.
