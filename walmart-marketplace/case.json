@@ -83,14 +83,14 @@
         "after": ""
       },
       "access_channel": {
-        "value": "Web / App / Store",
+        "value": "Web / App",
         "explanation": "Shoppers reach the marketplace primarily through Walmart.com and the Walmart app, while Walmart's physical stores can support pickup, returns and other parts of the experience.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Browse / Buy / Review",
+        "value": "Browse / Buy",
         "explanation": "Shoppers search and compare listings, place orders, pay, receive or pick up purchases and can leave reviews that feed back into marketplace trust.",
         "changed": false,
         "before": "",
@@ -156,7 +156,7 @@
         "after": ""
       },
       "activities": {
-        "value": "List / Fulfill / Support",
+        "value": "List / Fulfill",
         "explanation": "Sellers create and optimize listings, manage price and inventory, fulfill orders directly or through Walmart services, handle support and maintain marketplace performance.",
         "changed": false,
         "before": "",
@@ -232,7 +232,7 @@
         "after": ""
       },
       "resources": {
-        "value": "Tech / Teams / SLAs",
+        "value": "Tech / Teams",
         "explanation": "Partners contribute logistics infrastructure, software and data interfaces, specialist teams and service-level commitments.",
         "changed": false,
         "before": "",
@@ -261,14 +261,14 @@
         "after": ""
       },
       "gain": {
-        "value": "Growth / Margin / Data",
+        "value": "Growth / Margin",
         "explanation": "Marketplace growth can expand assortment and customer loyalty while adding referral-fee, advertising and service revenue opportunities without Walmart owning every item sold.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Quality / Trust / Scale",
+        "value": "Quality / Trust",
         "explanation": "Rapid seller growth can create quality, counterfeit, compliance, customer-service and technology-scaling problems that may damage trust in the Walmart brand.",
         "changed": false,
         "before": "",
@@ -289,21 +289,21 @@
         "after": ""
       },
       "promotion_channel": {
-        "value": "App / Search / Stores",
+        "value": "App / Search",
         "explanation": "Walmart can promote marketplace demand through its website, app, search visibility, advertising, email, social channels and physical store presence.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Onboard / Govern / Promote",
+        "value": "Onboard / Govern",
         "explanation": "Walmart recruits and onboards Sellers, monitors quality and performance, promotes listings and marketplace services, coordinates transactions and scales the platform infrastructure.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Brand / Tech / Data",
+        "value": "Brand / Tech",
         "explanation": "The marketplace draws on Walmart's brand, digital platform, commerce data, seller support, marketing reach, legal and policy capabilities, payment infrastructure and physical retail network.",
         "changed": false,
         "before": "",
