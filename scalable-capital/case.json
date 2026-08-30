@@ -429,9 +429,9 @@
   },
   "media": {
     "youtube_id": "",
-    "youtube_url": "",
+    "youtube_url": "https://www.youtube.com/watch?v=P5bnBmYFdKQ",
     "thumbnail": "",
-    "youtube_title": ""
+    "youtube_title": "Watch the story behind the snapshot"
   },
   "sources": [
     {
@@ -488,7 +488,18 @@
   "reuse": {
     "license": "CC BY 4.0",
     "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
-    "citation": "Eisape, D. (2026). Scalable Capital — Platform Business Model Canvas. Platform Generation."
+    "citation": "Eisape, D. (2026). Scalable Capital — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
   },
   "rendering": {
     "state": "after"

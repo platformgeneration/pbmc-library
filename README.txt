@@ -136,3 +136,10 @@ CANVAS HEADER BRANDING v2.14
 - Created by + official Platform Generation logo remains top-right with more breathing room from the border.
 - Field values, actor names and CVU use font weight 500 (medium), not 400 and not title-bold.
 - Small field labels remain light/subtle.
+
+COPY SCRIPT FIX v2.15
+- Fixed a generated JavaScript syntax error caused by newline/tab escape handling.
+- Copy table, Copy citation and Copy BibTeX now share one robust copy helper.
+- The primary path uses navigator.clipboard on HTTPS; document.execCommand is the fallback.
+- On successful copy, the clicked button temporarily reads 'Kopiert ✓'.
+- Generated inline JavaScript is syntax-checked before release.

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "metadata": {
     "company": "",
     "slug": "",
@@ -348,7 +348,18 @@
   "reuse": {
     "license": "CC BY 4.0",
     "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
-    "citation": ""
+    "citation": "",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
   },
   "navigation": {
     "note": "Previous/Next are generated from library.json; do not enter case-specific links here."

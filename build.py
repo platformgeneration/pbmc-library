@@ -357,22 +357,30 @@ def case_page(case, library, css, renderer):
 const tableRows=JSON.parse(document.getElementById("pbmc-table-data").textContent);
 
 async function copyTextRobust(text){{
+  // Preferred path on GitHub Pages / HTTPS.
   if(navigator.clipboard && window.isSecureContext){{
     try{{
       await navigator.clipboard.writeText(text);
       return true;
-    }}catch(e){{}}
+    }}catch(e){{
+      // Continue to browser fallback below.
+    }}
   }}
 
+  // Fallback for browsers that deny Clipboard API access.
   const area=document.createElement("textarea");
   area.value=text;
   area.setAttribute("readonly","");
   area.style.position="fixed";
+  area.style.opacity="0";
+  area.style.pointerEvents="none";
   area.style.left="-9999px";
   area.style.top="0";
   document.body.appendChild(area);
+
   area.focus();
   area.select();
+  area.setSelectionRange(0,area.value.length);
 
   let ok=false;
   try{{
@@ -385,30 +393,43 @@ async function copyTextRobust(text){{
   return ok;
 }}
 
-document.getElementById("copyTable").addEventListener("click",async function(){{
-  const cols=["Perspective","Field","Value","Explanation","Transaction Flows"];
-  const tsv=[
-    cols.join("\t"),
-    ...tableRows.map(r=>cols.map(c=>String(r[c]??"").replace(/\t/g," ").replace(/\n/g," ")).join("\t"))
-  ].join("\n");
+function copiedFeedback(button,originalLabel,ok){{
+  button.textContent=ok ? "Kopiert ✓" : "Copy failed";
+  setTimeout(function(){{
+    button.textContent=originalLabel;
+  }},1700);
+}}
 
-  const ok=await copyTextRobust(tsv);
-  this.textContent=ok?"Copied":"Copy failed";
-  setTimeout(()=>this.textContent="Copy table",1600);
+document.getElementById("copyTable").addEventListener("click",async function(){{
+  const tab=String.fromCharCode(9);
+  const newline=String.fromCharCode(10);
+  const cols=["Perspective","Field","Value","Explanation","Transaction Flows"];
+
+  function cleanCell(value){{
+    return String(value == null ? "" : value)
+      .split(tab).join(" ")
+      .split(newline).join(" ");
+  }}
+
+  const lines=[cols.join(tab)];
+  tableRows.forEach(function(row){{
+    lines.push(cols.map(function(col){{return cleanCell(row[col]);}}).join(tab));
+  }});
+
+  const ok=await copyTextRobust(lines.join(newline));
+  copiedFeedback(this,"Copy table",ok);
 }});
 
 document.getElementById("copyCitation").addEventListener("click",async function(){{
   const citation=document.getElementById("recommendedCitation").textContent.trim();
   const ok=await copyTextRobust(citation);
-  this.textContent=ok?"Copied":"Copy failed";
-  setTimeout(()=>this.textContent="Copy citation",1600);
+  copiedFeedback(this,"Copy citation",ok);
 }});
 
 document.getElementById("copyBibtex").addEventListener("click",async function(){{
-  const bibtex=document.getElementById("bibtexCode").textContent;
+  const bibtex=document.getElementById("bibtexCode").textContent.trim();
   const ok=await copyTextRobust(bibtex);
-  this.textContent=ok?"Copied":"Copy failed";
-  setTimeout(()=>this.textContent="Copy BibTeX",1600);
+  copiedFeedback(this,"Copy BibTeX",ok);
 }});
 </script>
 <script id="library-search-data" type="application/json">{search_json}</script>
