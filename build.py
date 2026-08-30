@@ -242,7 +242,7 @@ def case_page(case, library, css, renderer):
 <script type="application/ld+json">{json.dumps(json_ld,ensure_ascii=False)}</script><style>{css}</style></head><body>
 <header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a></nav><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
 <main>
-<section class="hero"><div class="wrap">
+<section class="case-header"><div class="wrap">
 <div class="case-utility-row"><div class="pbmc-toolbar">
 <div class="case-search" id="caseSearch">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
@@ -251,9 +251,16 @@ def case_page(case, library, css, renderer):
 </div>
 <a class="next-platform-top" href="../{e(nxt["slug"])}/">See next platform →</a>
 </div></div>
-<div class="eyebrow">PBMC Case {e(md["case_number"])}</div><h1>{e(md["company"])}</h1><p class="dek">{e(md["headline"])}</p><div class="meta">{meta_pills(case)}</div></div></section>
+<div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in August 2026</div>
+<h1>{e(md["company"])}</h1>
+<p class="case-question">{e(md["headline"])}</p>
+<div class="meta">{meta_pills(case)}</div>
+</div></section>
 
-<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
+<section class="section" id="pbmc"><div class="wide-wrap">
+<div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="{e(md["company"])} Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div>
+<p class="canvas-note">A visual snapshot of the Platform Business Model Canvas (PBMC). Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p>
+</div></section>
 
 {video_section}
 

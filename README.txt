@@ -97,3 +97,10 @@ CASE HEADER RULE
 - Search PBMCs and See next platform sit at the top of every case, above PBMC Case XXX.
 - Desktop case tags stay on one line where space permits.
 - Header and hero are intentionally compact so the canvas appears quickly.
+
+UNIFIED CASE HEADER
+- Search PBMCs / See next platform is the first row of the case header.
+- Below it: PBMC Case XXX · Snapshot made in Month YYYY.
+- Then platform name, case question and tags.
+- The canvas follows immediately; there is no second PBMC heading.
+- The small usage note sits below the canvas.

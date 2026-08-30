@@ -195,10 +195,33 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
   .hero h1{font-size:40px}
   #pbmc.section{padding-top:20px}
 }
+
+
+/* v2.9 — unified case header */
+.case-header{padding:24px 0 14px}
+.case-header .case-utility-row{display:flex;justify-content:flex-end;align-items:center;margin:0 0 16px}
+.case-snapshot-line{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:10px}
+.case-header h1{font-size:52px;line-height:1.04;letter-spacing:-.035em;font-weight:700;margin:0 0 9px;max-width:900px}
+.case-question{font-size:15px;line-height:1.6;font-weight:400;color:#6f6f6f;margin:0 0 15px;max-width:900px}
+.case-header .meta{display:flex;gap:8px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.case-header .meta::-webkit-scrollbar{display:none}
+.case-header .meta-pill{white-space:nowrap}
+#pbmc.section{padding:8px 0 0}
+.canvas-stage{margin-top:0}
+.canvas-note{margin:11px 4px 0;font-size:10.5px;line-height:1.65;color:#8a8a8a;max-width:950px}
+@media(max-width:1000px){
+ .case-header .case-utility-row{justify-content:flex-start}
+ .case-header .meta{flex-wrap:wrap}
+}
+@media(max-width:700px){
+ .case-header{padding:18px 0 10px}
+ .case-header h1{font-size:40px}
+ .case-question{font-size:13px}
+}
 </style></head><body>
 <header><div class="wrap header-inner"><a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a><nav><a href="https://www.platformgeneration.com/">Home</a><a href="https://www.platformgeneration.com/#canvas">Canvas</a><a class="active" href="../">PBMC Library</a><a href="https://www.platformgeneration.com/#research">Research</a><a href="https://www.platformgeneration.com/#about">About</a></nav><div class="header-actions"><a class="contact" href="https://www.platformgeneration.com/#contact">Contact</a></div></div></header>
 <main>
-<section class="hero"><div class="wrap">
+<section class="case-header"><div class="wrap">
 <div class="case-utility-row"><div class="pbmc-toolbar">
 <div class="case-search" id="caseSearch">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
@@ -207,9 +230,16 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
 </div>
 <a class="next-platform-top" href="../scalable-capital/">See next platform →</a>
 </div></div>
-<div class="eyebrow">PBMC Case 001</div><h1>Scalable Capital</h1><p class="dek">What changes when Scalable opens the front door to AI agents?</p><div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Finance</span><span class="meta-pill">Brokerage</span><span class="meta-pill">AI Agents</span><span class="meta-pill">Agentic Investing</span><span class="meta-pill">Access Channels</span><span class="meta-pill">Partner Layer</span><span class="meta-pill">MCP</span><span class="meta-pill">Snapshot · August 2026</span></div></div></section>
+<div class="case-snapshot-line">PBMC Case 001 · Snapshot made in August 2026</div>
+<h1>Scalable Capital</h1>
+<p class="case-question">What changes when Scalable opens the front door to AI agents?</p>
+<div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Finance</span><span class="meta-pill">Brokerage</span><span class="meta-pill">AI Agents</span><span class="meta-pill">Agentic Investing</span><span class="meta-pill">Access Channels</span><span class="meta-pill">Partner Layer</span><span class="meta-pill">MCP</span><span class="meta-pill">Snapshot · August 2026</span></div>
+</div></section>
 
-<section class="section" id="pbmc"><div class="wide-wrap"><div class="section-head"><div><div class="eyebrow">PBMC Snapshot · August 2026</div><h2>Platform Business Model Canvas</h2><p class="section-copy">A visual snapshot of the platform architecture. Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p></div></div><div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Scalable Capital Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div></div></section>
+<section class="section" id="pbmc"><div class="wide-wrap">
+<div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Scalable Capital Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div>
+<p class="canvas-note">A visual snapshot of the Platform Business Model Canvas (PBMC). Hover over a field for its PBMC guiding question and case-specific explanation; hover over an actor or the Core Value Unit for case values.</p>
+</div></section>
 
 
 
