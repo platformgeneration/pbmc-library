@@ -104,3 +104,15 @@ UNIFIED CASE HEADER
 - Then platform name, case question and tags.
 - The canvas follows immediately; there is no second PBMC heading.
 - The small usage note sits below the canvas.
+
+COPY BUTTON RULE
+- Copy table uses navigator.clipboard when available.
+- A textarea/document.execCommand fallback is included for browsers or contexts that block Clipboard API access.
+- Success is confirmed with 'Copied'; failure is shown explicitly.
+
+CANVAS ACTOR TYPOGRAPHY
+- Perspective labels (Owner, Provider, Consumer, Partner) are light/medium, not bold.
+- Actor names (e.g. Scalable, Venues, Investors, Agents) use regular weight, matching the calmer field-value typography.
+
+CANVAS NOTE
+- The PBMC usage note is centered directly below the canvas.
