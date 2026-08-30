@@ -155,12 +155,32 @@ def sources_html(case):
         out.append(f"""<li><span class="source-no">{i:02d}</span><div><a href="{e(s.get("url"))}" target="_blank" rel="noopener noreferrer">{e(s.get("title"))} ↗</a><div class="source-meta">{e(meta)}</div><p>{e(s.get("note"))}</p></div></li>""")
     return "".join(out)
 
+
+def snapshot_info(case):
+    md=case["metadata"]
+    raw=md.get("snapshot_date") or md.get("published_date") or md.get("updated_date") or ""
+    try:
+        year=int(raw[:4])
+        month_num=int(raw[5:7])
+        day=int(raw[8:10]) if len(raw)>=10 else 1
+    except Exception:
+        year,month_num,day=2026,8,1
+    month_name=calendar.month_name[month_num]
+    return {
+        "raw":raw,
+        "year":year,
+        "month_num":month_num,
+        "month_name":month_name,
+        "display":f"{month_name} {year}"
+    }
+
 def meta_pills(case):
     md=case["metadata"]
     parts=['<span class="meta-pill official">Official PBMC</span>']
     for x in md.get("industry",[]): parts.append(f'<span class="meta-pill">{e(x)}</span>')
     for x in md.get("topics",[]): parts.append(f'<span class="meta-pill">{e(x)}</span>')
-    parts.append('<span class="meta-pill">Snapshot · August 2026</span>')
+    snap=snapshot_info(case)
+    parts.append(f'<span class="meta-pill">Snapshot · {e(snap["display"])}</span>')
     return "".join(parts)
 
 def nav_for(library, slug):
@@ -177,14 +197,10 @@ def citation_info(case):
     authors=cdata.get("authors") or [{"family":"Eisape","given":"Davis Adedayo","display":"Eisape, D. A."}]
     publisher=cdata.get("publisher","Platform Generation")
     resource_type=cdata.get("resource_type","PBMC snapshot")
-    published=md.get("published_date","")
-    try:
-        year=int(published[:4])
-        month_num=int(published[5:7])
-    except Exception:
-        year=2026
-        month_num=8
-    month_name=calendar.month_name[month_num]
+    snap=snapshot_info(case)
+    year=snap["year"]
+    month_num=snap["month_num"]
+    month_name=snap["month_name"]
     month_bib=calendar.month_abbr[month_num].lower()
     canonical=f"https://pbmc.platformgeneration.com/{md['slug']}/"
     title=f"{md['company']} — Platform Business Model Canvas"
@@ -309,7 +325,7 @@ def case_page(case, library, css, renderer):
 </div>
 <a class="next-platform-top" href="../{e(nxt["slug"])}/">See next platform →</a>
 </div></div>
-<div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in August 2026</div>
+<div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in {e(snapshot_info(case)["display"])}</div>
 <h1>{e(md["company"])}</h1>
 <p class="case-question">{e(md["headline"])}</p>
 <div class="meta">{meta_pills(case)}</div>

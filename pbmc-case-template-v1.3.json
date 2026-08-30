@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.5",
+  "schema_version": "1.6",
   "metadata": {
     "company": "",
     "slug": "",
@@ -11,7 +11,8 @@
     "industry": [],
     "topics": [],
     "geography": [],
-    "language": "en"
+    "language": "en",
+    "snapshot_date": ""
   },
   "platform_lesson": {
     "title": "",

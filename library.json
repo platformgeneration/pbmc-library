@@ -18,6 +18,42 @@
         "MCP"
       ],
       "status": "published"
+    },
+    {
+      "slug": "shein",
+      "case_number": "002",
+      "company": "SHEIN",
+      "headline": "What broke SHEIN's $100B machine?",
+      "industry": [
+        "Fashion",
+        "E-commerce"
+      ],
+      "topics": [
+        "On-Demand Manufacturing",
+        "Cross-Border Commerce",
+        "Tariffs",
+        "Supply Chain",
+        "IPO"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "akippa",
+      "case_number": "003",
+      "company": "akippa",
+      "headline": "Akippa is going public. What are investors really buying?",
+      "industry": [
+        "Mobility",
+        "Parking"
+      ],
+      "topics": [
+        "Marketplace",
+        "Local Liquidity",
+        "Self-Service Supply",
+        "Owner Mode",
+        "IPO"
+      ],
+      "status": "published"
     }
   ]
 }
