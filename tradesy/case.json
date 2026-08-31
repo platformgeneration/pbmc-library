@@ -1,0 +1,437 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Tradesy",
+    "slug": "tradesy",
+    "headline": "How did Tradesy make peer-to-peer luxury resale feel safer?",
+    "case_number": "017",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2022-12-01",
+    "status": "official",
+    "industry": [
+      "Luxury Resale",
+      "Peer-to-Peer Marketplace"
+    ],
+    "topics": [
+      "Luxury Fashion",
+      "Authentication",
+      "Historical Case",
+      "Acquisition"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Trust features do not guarantee standalone scale",
+    "text": "Tradesy used the familiar marketplace recipe of independent supply, fashion-focused demand and trust mechanisms around a risky product category. Those mechanisms helped make luxury resale transact-able, but they did not guarantee that the platform would remain a standalone network. Vestiaire Collective acquired Tradesy in 2022 and the Tradesy platform stopped processing new orders that December. The platform lesson is that trust can improve marketplace quality, while liquidity and strategic scale still determine whether a niche network can survive independently."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Luxury Listing",
+      "explanation": "The Luxury Listing is the Core Value Unit in this historical snapshot: a designer-fashion item offered by an individual Seller and made searchable and purchasable through Tradesy.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "Fashion shoppers seeking pre-owned designer and luxury goods at prices below traditional retail.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Buy Luxury",
+        "explanation": "Buyers wanted access to desirable designer fashion without paying full retail prices.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Value / Trust",
+        "explanation": "Tradesy combined resale pricing with marketplace protections and authentication support intended to reduce luxury-purchase risk.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fakes / Fit",
+        "explanation": "Luxury resale creates uncertainty around authenticity, condition, sizing, shipping and returns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Buyers placed orders and paid through the Tradesy transaction flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Payment",
+        "explanation": "Participation depended on account, payment and platform fraud controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App",
+        "explanation": "Buyers used Tradesy's website and mobile applications.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "Buyers browsed designer listings, purchased, tracked and returned eligible items.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Taste / Budget",
+        "explanation": "Buyers contributed brand preferences, sizing, purchasing power and trust signals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Individuals and fashion resellers supplied pre-owned designer inventory to the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Sell Luxury",
+        "explanation": "Sellers wanted to turn designer fashion they no longer wanted into cash.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Payout",
+        "explanation": "Tradesy reduced listing friction and connected Sellers with fashion-focused demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Delay",
+        "explanation": "Sellers faced commission, selling time, returns and the risk that items would not attract demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listing / Item",
+        "explanation": "Sellers created a luxury listing and supplied the item after a sale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Brand / Condition",
+        "explanation": "Listings were filtered by marketplace rules, product categories, authenticity expectations and condition.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Seller Tools",
+        "explanation": "Sellers listed and managed products through Tradesy's web and mobile tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Ship",
+        "explanation": "Sellers photographed, described, priced and shipped sold items.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Item / Photos",
+        "explanation": "Sellers contributed designer inventory, product information, photos and fulfillment effort.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Commerce Services",
+        "explanation": "Payment, shipping and authentication-related services supported the luxury resale transaction.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Reduce Friction",
+        "explanation": "Supporting services helped move money and products safely through a high-trust transaction.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Revenue",
+        "explanation": "Marketplace activity created service demand around payments, shipping and trust.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fraud / Returns",
+        "explanation": "Luxury resale carries fraud, chargeback, delivery and authenticity risks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Fee",
+        "explanation": "Service providers supplied transaction support in return for commercial value.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Quality / Compliance",
+        "explanation": "Partners needed compatible systems, reliability and compliance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Integration",
+        "explanation": "Services connected through Tradesy's checkout and operational workflows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Pay / Deliver",
+        "explanation": "Partners processed payments, delivery or supporting trust functions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / Logistics",
+        "explanation": "Partners contributed payment infrastructure, logistics and specialist services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Tradesy",
+        "explanation": "Tradesy operated the U.S. fashion-resale marketplace in this historical snapshot. Vestiaire Collective acquired Tradesy in April 2022, and Tradesy ceased processing new orders in December 2022.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Closed Dec ’22*",
+            "note": "Vestiaire Collective stated that the Tradesy platform would cease processing new orders during December 2022 and remain accessible only temporarily afterward."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale Luxury Resale",
+        "explanation": "Tradesy tried to make peer-to-peer designer resale simple and trustworthy enough for mainstream fashion Buyers and Sellers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "GMV / Fees",
+        "explanation": "More trusted supply and demand could generate commission revenue and strengthen the marketplace brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Scale",
+        "explanation": "Luxury resale requires costly trust mechanisms, while standalone marketplace scale and liquidity remain difficult to sustain.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Tradesy coordinated listing discovery, ordering, payment and marketplace support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Trust",
+        "explanation": "The platform used listing rules, returns, fraud controls and authentication support to govern transactions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Fashion",
+        "explanation": "Tradesy relied on digital discovery, fashion marketing and its resale positioning to attract participants.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Protect",
+        "explanation": "Tradesy operated listings, search, payments, customer support, returns and trust mechanisms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Data",
+        "explanation": "Its fashion-focused user base, marketplace data, software and trust processes were key resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Buyers placed and paid for orders through Tradesy."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match / Protect",
+          "explanation": "Tradesy provided discovery, transaction support and marketplace protections."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Sellers supplied listings and paid applicable marketplace commissions."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand / Payout",
+          "explanation": "Tradesy connected Sellers with buyer demand and coordinated proceeds."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Luxury Item",
+          "explanation": "The Seller supplied the purchased designer item to the Buyer."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Review",
+          "explanation": "Buyer feedback contributed to trust and seller reputation."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Services",
+          "explanation": "Commerce services supported payment, delivery or trust functions."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Volume / Fees",
+          "explanation": "Marketplace transactions created commercial volume for service partners."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "Closed Dec ’22*",
+        "note": "Historical platform ceased processing new orders in December 2022 after acquisition by Vestiaire Collective."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Buyer: Tradesy Site Credit Balance Transfer to Vestiaire Collective",
+      "publisher": "Vestiaire Collective",
+      "date": "2022",
+      "url": "https://faq.vestiairecollective.com/hc/en-us/articles/7954355891601-Buyer-Tradesy-Site-Credit-Balance-Transfer-to-Vestiaire-Collective",
+      "note": "Primary source confirming Tradesy became part of Vestiaire Collective and would cease processing new orders in December 2022."
+    },
+    {
+      "title": "Vestiaire Collective Sustainability / Strategic Report",
+      "publisher": "Vestiaire Collective",
+      "date": "2025",
+      "url": "https://assets.vestiairecollective.com/documents/sustainability/2025_08-dnfp-report-en.pdf",
+      "note": "Primary source confirming Vestiaire Collective acquired U.S. company Tradesy in April 2022 as part of its international expansion."
+    },
+    {
+      "title": "Seller: Reporting your Tradesy earnings on your 2022 tax return",
+      "publisher": "Vestiaire Collective",
+      "date": "2023",
+      "url": "https://faq.vestiairecollective.com/hc/en-us/articles/12401504336657-Seller-Reporting-your-Tradesy-earnings-on-your-2022-tax-return",
+      "note": "Primary transition-era source confirming Recycled Media, Inc. / Tradesy, Inc. as the company of record for 2022 seller earnings."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2022). Tradesy — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

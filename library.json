@@ -265,6 +265,91 @@
         "Special Goods"
       ],
       "status": "published"
+    },
+    {
+      "slug": "thredup",
+      "case_number": "016",
+      "company": "ThredUp",
+      "headline": "What happens when a managed resale platform adds peer-to-peer selling?",
+      "industry": [
+        "Fashion Resale",
+        "Recommerce"
+      ],
+      "topics": [
+        "Managed Resale",
+        "Direct Listing",
+        "Circular Fashion",
+        "Resale-as-a-Service"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "tradesy",
+      "case_number": "017",
+      "company": "Tradesy",
+      "headline": "How did Tradesy make peer-to-peer luxury resale feel safer?",
+      "industry": [
+        "Luxury Resale",
+        "Peer-to-Peer Marketplace"
+      ],
+      "topics": [
+        "Luxury Fashion",
+        "Authentication",
+        "Historical Case",
+        "Acquisition"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "chrono24",
+      "case_number": "018",
+      "company": "Chrono24",
+      "headline": "Why does a watch marketplace need more than reviews to create trust?",
+      "industry": [
+        "Luxury Resale",
+        "Watch Marketplace"
+      ],
+      "topics": [
+        "Authentication",
+        "Escrow",
+        "Certified",
+        "Marketplace Trust"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "rebag",
+      "case_number": "019",
+      "company": "Rebag",
+      "headline": "Is Rebag really a marketplace if it buys the inventory itself?",
+      "industry": [
+        "Luxury Resale",
+        "Curated Resale"
+      ],
+      "topics": [
+        "Authentication",
+        "Managed Inventory",
+        "Luxury Fashion",
+        "Clair"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "farfetch",
+      "case_number": "020",
+      "company": "Farfetch",
+      "headline": "How does Farfetch scale luxury without owning every boutique?",
+      "industry": [
+        "Luxury Fashion",
+        "Marketplace"
+      ],
+      "topics": [
+        "Boutique Network",
+        "Global Luxury",
+        "Cross-Border Commerce",
+        "Coupang"
+      ],
+      "status": "published"
     }
   ]
 }

@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "ThredUp",
+    "slug": "thredup",
+    "headline": "What happens when a managed resale platform adds peer-to-peer selling?",
+    "case_number": "016",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-31",
+    "status": "official",
+    "industry": [
+      "Fashion Resale",
+      "Recommerce"
+    ],
+    "topics": [
+      "Managed Resale",
+      "Direct Listing",
+      "Circular Fashion",
+      "Resale-as-a-Service"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "One platform can support two supply modes",
+    "text": "ThredUp was built around managed resale: Sellers send in clothes and the platform handles processing, pricing, photography, listing, fulfillment and returns. Direct Listing adds a second path in which Sellers can create individual listings themselves. The Core Value Unit stays the same, but the activities and resources contributed by the Provider change. The platform lesson is that a marketplace can widen supply by supporting multiple participation modes instead of forcing every Provider through the same operating model."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Secondhand Listing",
+      "explanation": "The Secondhand Listing is the Core Value Unit: a pre-owned fashion item made discoverable and purchasable in ThredUp's marketplace. In the managed Clean Out model ThredUp creates the listing after processing the item; with Direct Listing, the Seller can create it directly.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "261M+ Items*",
+          "note": "ThredUp reported in August 2026 that it had processed more than 261 million secondhand items since founding. This is a lifetime processed-item metric, not current live listings."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "People shopping for secondhand apparel, shoes and accessories across value, premium and luxury brands.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "1.77M Buyers*",
+            "note": "Record active buyers reported for Q2 2026. ThredUp defines an Active Buyer as a buyer who made at least one purchase in the previous 12 months."
+          }
+        ]
+      },
+      "job": {
+        "value": "Buy Secondhand",
+        "explanation": "Buyers want affordable, distinctive or more sustainable fashion without the friction of traditional thrift shopping.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Value / Choice",
+        "explanation": "ThredUp offers broad secondhand selection, filtering, marketplace protections and discounts versus estimated retail prices.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fit / Condition",
+        "explanation": "Secondhand shopping brings uncertainty around size, condition, uniqueness of stock and returnability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Buyers select a secondhand listing and pay through ThredUp's marketplace checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Availability",
+        "explanation": "Purchases depend on account, payment, geographic availability and the fact that many secondhand items are one-of-one.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App",
+        "explanation": "Buyers access ThredUp through the website, app, search, brand-resale storefronts and marketing channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "Buyers browse, filter, favorite, purchase, return and review.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Taste / Budget",
+        "explanation": "Buyers contribute demand, budget, sizing information, preferences and behavioral signals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Individuals supply secondhand inventory. They can use ThredUp's managed Clean Out process or, for eligible items, the newer Direct Listing peer-to-peer flow.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Resell Clothes",
+        "explanation": "Sellers want to turn unwanted clothing into value with as little friction as possible or, increasingly, with more control over individual listings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Ease / Control",
+        "explanation": "Clean Out minimizes work; Direct Listing adds seller control, pricing choice and 0% seller fees in the current beta.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Payout / Effort",
+        "explanation": "Managed resale can mean lower payouts and waiting, while direct selling requires more listing and fulfillment effort.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Item / Listing",
+        "explanation": "Sellers either send physical items into ThredUp's managed process or create a direct listing for a specific item.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Condition / Brand",
+        "explanation": "Items must meet category, condition, authenticity and resale criteria; Direct Listing also follows marketplace eligibility rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Clean Out / Direct",
+        "explanation": "Sellers access supply through Clean Out bags or labels and the newer Direct Listing tool.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Send / List",
+        "explanation": "Depending on the mode, Sellers pack and send items or create, price and manage an individual listing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Clothes / Data",
+        "explanation": "Sellers contribute secondhand items, product information, condition details and fulfillment effort where Direct Listing is used.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Brand Partners",
+        "explanation": "Fashion brands and retailers use ThredUp's Resale-as-a-Service infrastructure to offer clean-out and resale programs to their own customers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "50+ Brands*",
+            "note": "ThredUp said in August 2026 that OLEADA joined more than 50 other brands offering resale programs through its RaaS business."
+          }
+        ]
+      },
+      "job": {
+        "value": "Add Resale",
+        "explanation": "Brand Partners want to offer resale and circularity without building the entire operational stack themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Loyalty / Circularity",
+        "explanation": "A branded resale program can create customer engagement, shopping-credit loops and circular-fashion positioning.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Ops / Complexity",
+        "explanation": "Running resale internally requires reverse logistics, pricing, processing, marketplace demand and customer support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Program / Credit",
+        "explanation": "ThredUp provides resale infrastructure while Brand Partners can route customers into Clean Out programs and offer brand shopping credit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Brand / Integration",
+        "explanation": "RaaS relationships depend on commercial fit, program design, integration and operational readiness.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "RaaS / Brand Site",
+        "explanation": "Customers can enter through co-branded resale or Clean Out experiences powered by ThredUp.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Promote / Reward",
+        "explanation": "Partners promote resale programs and provide incentives such as brand shopping credit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Customers",
+        "explanation": "Partners contribute customer relationships, brand reach, incentives and co-branded demand-generation surfaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "ThredUp",
+        "explanation": "ThredUp operates the resale marketplace, managed processing network, marketplace technology and RaaS infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$90.8M Q2 Rev.*",
+            "note": "ThredUp reported record quarterly revenue of $90.8 million for Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale Resale",
+        "explanation": "ThredUp must make fragmented secondhand supply easy to convert into trustworthy, searchable inventory.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Supply / Revenue",
+        "explanation": "More high-quality supply and more active Buyers can increase orders, revenue and the attractiveness of ThredUp's resale infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Ops / Quality",
+        "explanation": "Managed resale requires physical processing, grading, photography, fulfillment and returns, while marketplace expansion must preserve quality.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Payout",
+        "explanation": "ThredUp coordinates discovery, checkout and payouts while the exact operational path differs between managed and direct selling.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Quality / Returns",
+        "explanation": "ThredUp sets item-acceptance, condition, listing, return and marketplace rules and backs the customer experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Brands",
+        "explanation": "ThredUp attracts demand through search, marketing, its app and brand-partner resale programs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Process / Match",
+        "explanation": "ThredUp processes Clean Out inventory, operates discovery and checkout, manages returns and increasingly supports direct listings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Operations",
+        "explanation": "Resale data, distribution centers, pricing technology, buyer demand, AI listing tools and brand relationships are core resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Buyers place orders and pay through ThredUp."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Listing / Protect",
+          "explanation": "ThredUp provides searchable secondhand inventory, marketplace protections and returns infrastructure."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Item / Listing",
+          "explanation": "Sellers either send items into Clean Out or contribute direct listings to the marketplace."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout / Tools",
+          "explanation": "ThredUp pays Sellers when eligible items sell and provides managed or direct-selling tools depending on the supply mode."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Item",
+          "explanation": "The secondhand item ultimately moves from Seller supply to the Buyer, even when ThredUp handles the physical middle layer."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Demand",
+          "explanation": "Buyer demand determines which secondhand supply converts into a sale and therefore into Seller value."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Customers / Credit",
+          "explanation": "Brand Partners route customers into resale programs and may provide brand credit incentives."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "RaaS / Data",
+          "explanation": "ThredUp provides resale infrastructure, operational execution and program data to Brand Partners."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "1.77M Buyers*",
+        "note": "Q2 2026 active buyers."
+      },
+      {
+        "target": "partner",
+        "value": "50+ Brands*",
+        "note": "RaaS brand-program scale proxy as of Aug. 2026."
+      },
+      {
+        "target": "owner",
+        "value": "$90.8M Q2 Rev.*",
+        "note": "Q2 2026 revenue."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "261M+ Items*",
+        "note": "Lifetime items processed through 2025, reported Aug. 2026."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "ThredUp Announces Second Quarter 2026 Results",
+      "publisher": "ThredUp Inc.",
+      "date": "2026-08-05",
+      "url": "https://ir.thredup.com/news-releases/news-release-details/thredup-announces-second-quarter-2026-results",
+      "note": "Primary source for $90.8M Q2 revenue and 1.77M active buyers."
+    },
+    {
+      "title": "ThredUp Launches Direct Listing, Bringing Peer-to-Peer Selling to Its Marketplace",
+      "publisher": "ThredUp",
+      "date": "2026-06-09",
+      "url": "https://newsroom.thredup.com/news/thredup-directlisting",
+      "note": "Primary source for Direct Listing, 0% seller fees, AI listing tools, marketplace-backed returns and ThredUp's hybrid managed/P2P supply model."
+    },
+    {
+      "title": "ThredUp Releases Fifth Annual Impact Report",
+      "publisher": "ThredUp Inc.",
+      "date": "2026-08-25",
+      "url": "https://ir.thredup.com/news-releases/news-release-details/thredup-releases-fifth-annual-impact-report",
+      "note": "Primary source for 261M+ processed items and 1.7M+ active buyers across 60,000+ brands in 2025."
+    },
+    {
+      "title": "OLEADA Announces Clean Out Program Enabled by ThredUp’s Resale-as-a-Service",
+      "publisher": "ThredUp",
+      "date": "2026-08-11",
+      "url": "https://newsroom.thredup.com/news/thredup-oleada",
+      "note": "Primary source for the 50+ brand RaaS partner scale and co-branded Clean Out model."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). ThredUp — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

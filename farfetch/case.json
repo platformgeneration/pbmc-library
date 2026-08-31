@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Farfetch",
+    "slug": "farfetch",
+    "headline": "How does Farfetch scale luxury without owning every boutique?",
+    "case_number": "020",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-31",
+    "status": "official",
+    "industry": [
+      "Luxury Fashion",
+      "Marketplace"
+    ],
+    "topics": [
+      "Boutique Network",
+      "Global Luxury",
+      "Cross-Border Commerce",
+      "Coupang"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "A marketplace can globalize fragmented specialist inventory",
+    "text": "Luxury fashion supply is fragmented across brands, flagship stores and independent boutiques, and much of that inventory is locally constrained. Farfetch makes this fragmented specialist supply searchable through one customer interface while Providers retain the underlying products and brand identities. Its value therefore comes from orchestration rather than owning every item. The platform lesson is that a marketplace can create global scale by digitally pooling inventory that remains physically and commercially distributed."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Luxury Listing",
+      "explanation": "The Luxury Listing is the Core Value Unit: a specific luxury product from a brand or boutique made globally discoverable and purchasable through the Farfetch customer experience.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Luxury Customers",
+        "explanation": "Global fashion customers seeking luxury products, including items difficult to find in their local market.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Millions Active*",
+            "note": "Farfetch currently describes its marketplace as serving millions of active customers. It does not publish a precise current active-customer count on its company page."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Luxury",
+        "explanation": "Customers want to discover and buy luxury fashion across many brands and boutiques through one interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Access",
+        "explanation": "Farfetch aggregates globally fragmented luxury inventory and can expose Customers to products unavailable locally.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Delivery",
+        "explanation": "Luxury ecommerce creates concerns around price, returns, customs, cross-border delivery and inventory consistency.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Customers place orders through Farfetch's digital storefront and payment flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Region / Payment",
+        "explanation": "Availability depends on geography, shipping, payment, product restrictions and partner inventory.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App",
+        "explanation": "Customers access Farfetch through its website, app and selected integrations such as Coupang's R.LUX in South Korea.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Discover / Buy",
+        "explanation": "Customers browse brands, search, favorite, purchase, track and return.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Taste / Budget",
+        "explanation": "Customers contribute luxury demand, preferences, purchasing power and behavioral data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Brands / Boutiques",
+        "explanation": "Luxury brands and boutiques provide the product supply and inventory that Farfetch aggregates.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "1,400+ Partners*",
+            "note": "Farfetch's current company page states that it connects customers with items from more than 1,400 global brand and boutique partners."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach Customers",
+        "explanation": "Providers want global digital distribution without losing the identity and economics of their own luxury inventory.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Global Reach",
+        "explanation": "Farfetch can expose local boutique or brand inventory to international demand and provide digital commerce capabilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Margin / Control",
+        "explanation": "Providers face commission, operational integration, returns and the risk of losing direct control over customer discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listing / Product",
+        "explanation": "Brands and boutiques synchronize inventory and fulfill orders generated through Farfetch.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Luxury / Quality",
+        "explanation": "Providers need to meet commercial, brand, inventory, service and platform requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Partner Systems",
+        "explanation": "Providers connect through Farfetch partner tools, inventory integrations and operational systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Sync / Fulfill",
+        "explanation": "Providers maintain assortment, pricing and inventory and fulfill orders through agreed processes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Brand",
+        "explanation": "Providers contribute luxury inventory, product data, brand identity, pricing and fulfillment capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Commerce Services",
+        "explanation": "Logistics, payment, technology and other service actors support the cross-border luxury transaction without supplying the fashion item itself.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Enable Luxury",
+        "explanation": "Commerce Services make global payment, delivery, returns and digital integration workable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Revenue",
+        "explanation": "Farfetch's global luxury demand creates service volume and premium commercial opportunities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cross-Border Cost",
+        "explanation": "Luxury shipments create customs, insurance, returns, delivery and integration complexity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Fee",
+        "explanation": "Partners provide commerce infrastructure and receive fees or transaction-linked revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Quality / SLA",
+        "explanation": "Partners must meet reliability, security, service-quality and luxury-customer expectations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API / Network",
+        "explanation": "Services connect through APIs, payment rails, logistics networks and commercial contracts.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Pay / Deliver",
+        "explanation": "Partners process payments, move high-value goods, support returns and maintain integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / Logistics",
+        "explanation": "Partners contribute global logistics, payment infrastructure, software and operational capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Farfetch",
+        "explanation": "Farfetch operates the luxury marketplace and customer interface. Coupang acquired the Farfetch business and assets in January 2024 and now reports Farfetch as part of its group.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "190+ Markets*",
+            "note": "Farfetch states that it connects customers in more than 190 countries and territories with its luxury marketplace."
+          }
+        ]
+      },
+      "job": {
+        "value": "Aggregate Luxury",
+        "explanation": "Farfetch turns fragmented global luxury inventory into one searchable and transactional destination.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Commission",
+        "explanation": "Aggregated demand and supply can generate marketplace economics while making the network more attractive to brands and boutiques.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Margin / Complexity",
+        "explanation": "Farfetch must coordinate premium customer experience, partner economics, cross-border fulfillment and platform profitability across a fragmented supply base.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Farfetch coordinates discovery, ordering, payment and commercial settlement around partner inventory.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Brand / Service",
+        "explanation": "Farfetch governs partner eligibility, product content, customer service, returns and marketplace standards.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Brand / Editorial",
+        "explanation": "Farfetch attracts luxury demand through brand storytelling, campaigns, search, editorial discovery and integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Discover / Orchestrate",
+        "explanation": "Farfetch operates discovery, merchandising, checkout, partner integration, customer service and transaction orchestration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Network / Tech",
+        "explanation": "Its global brand-and-boutique network, customer base, fashion data, marketplace technology and Coupang ownership context are strategic resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Luxury Customers place and pay for orders through Farfetch."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery / Service",
+          "explanation": "Farfetch provides global discovery, checkout and customer-service coordination."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Stock",
+          "explanation": "Brands and boutiques provide product listings, inventory availability and commercial data."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand / Payout",
+          "explanation": "Farfetch routes customer demand to Providers and coordinates commercial proceeds."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Luxury Item",
+          "explanation": "The brand or boutique ultimately supplies the purchased luxury product."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Demand",
+          "explanation": "Customer purchases and preference signals determine which partner inventory converts into sales."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Services",
+          "explanation": "Commerce Services provide payments, logistics or technical capabilities."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Volume / Fees",
+          "explanation": "Farfetch's marketplace creates cross-border transaction and service volume for enabling partners."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "Millions Active*",
+        "note": "Farfetch's current qualitative active-customer scale statement; no precise current figure published on company page."
+      },
+      {
+        "target": "provider",
+        "value": "1,400+ Partners*",
+        "note": "Current Farfetch global brand and boutique partner count."
+      },
+      {
+        "target": "owner",
+        "value": "190+ Markets*",
+        "note": "Countries and territories served by Farfetch."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "What is FARFETCH?",
+      "publisher": "Farfetch",
+      "date": "2026",
+      "url": "https://aboutfarfetch.com/about/farfetch/",
+      "note": "Primary source for Farfetch's marketplace model, 1,400+ global partners, 190+ countries and territories and millions of active customers."
+    },
+    {
+      "title": "Coupang 2025 Form 10-K",
+      "publisher": "Coupang, Inc. / U.S. SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1834584/000183458426000024/cpng-20251231.htm",
+      "note": "Primary filing confirming Coupang acquired Farfetch in January 2024 and describing the Farfetch marketplace as connecting luxury sellers with customers and offering brands direct-to-consumer distribution."
+    },
+    {
+      "title": "FARFETCH FIRST: redefining the luxury customer experience",
+      "publisher": "Farfetch",
+      "date": "2026-05-07",
+      "url": "https://aboutfarfetch.com/news/press-releases/farfetch-unveils-farfetch-first-redefining-the-luxury-customer-experience/",
+      "note": "Primary current source for Farfetch's luxury assortment, delivery and customer-experience strategy."
+    },
+    {
+      "title": "FARFETCH opens a world of luxury to millions of new and engaged customers",
+      "publisher": "Farfetch",
+      "date": "2025-06-09",
+      "url": "https://aboutfarfetch.com/news/press-releases/farfetch-opens-a-world-of-luxury-to-millions-of-new-and-engaged-customers/",
+      "note": "Primary source showing how Farfetch routes brand and boutique partner inventory into Coupang's R.LUX customer channel in South Korea."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Farfetch — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
