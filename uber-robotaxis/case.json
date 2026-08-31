@@ -1,0 +1,494 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Uber",
+    "slug": "uber-robotaxis",
+    "headline": "Can robotaxis let Uber grow without adding more human drivers?",
+    "case_number": "007",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-20",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Ride-Hailing"
+    ],
+    "topics": [
+      "Autonomous Vehicles",
+      "Hybrid Supply",
+      "Robotaxis",
+      "Fleet Operations",
+      "Marketplace Liquidity"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "The same core value can come from a new kind of Provider",
+    "text": "Robotaxis do not change the Core Value Unit: Riders still come to Uber for a ride. What changes is the supply architecture. Human Drivers and autonomous fleets can both perform the Provider role because both supply ride capacity, while FleetOps emerges as a distinct Partner layer that keeps autonomous capacity charged, maintained, cleaned and available. Uber can therefore grow supply in two ways: recruit more human Drivers or integrate more autonomous capacity. The platform does not have to replace one Provider type with the other to benefit from the new supply path."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "The Ride remains the Core Value Unit. Riders do not come to Uber to buy an autonomy stack, depot service or Driver; they come to obtain transportation from pickup to destination.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "$29B Mob. GB*",
+          "note": "Uber reported $28.988 billion of Mobility Gross Bookings in Q2 2026. This measures the value of Mobility transactions rather than robotaxi-only volume."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "Riders are the Consumer side of the mobility marketplace: people who want transportation through Uber regardless of whether the underlying ride is human-driven or autonomous.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "208M MAPCs*",
+            "note": "Uber reported 208 million Monthly Active Platform Consumers in Q2 2026. This includes Mobility and Delivery, so it is a scale proxy rather than a Mobility-only rider count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get Around",
+        "explanation": "The Rider's basic job is to move from one place to another.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Easy",
+        "explanation": "Riders value a fast, easy trip with as little coordination as possible.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Wait",
+        "explanation": "Waiting is a clear supply-side friction. More available ride capacity can help reduce unmet demand during busy periods or in places where too few human Drivers are available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Request / Pay",
+        "explanation": "The Rider requests transportation and pays through Uber's marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Area",
+        "explanation": "Riders need an account, while autonomous ride options remain limited to approved operating areas, eligible trips and available vehicles.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Uber App",
+        "explanation": "The Rider enters through the Uber app. The underlying Provider can change while the customer-facing access channel stays the same.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Request / Ride",
+        "explanation": "Riders request transportation through the app and then take the matched ride.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Phone / Budget",
+        "explanation": "Riders bring a connected device, destination, payment capability and the budget to purchase mobility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Drivers / AV Fleets",
+        "explanation": "The Provider side can contain both human Drivers and autonomous fleets because both supply the same thing the Rider needs: ride capacity.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "10.2M Earners*",
+            "note": "Uber reported a record 10.2 million Drivers and Couriers earning on the platform in Q2 2026. This is not a Mobility-only Driver count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get Paid",
+        "explanation": "Providers turn available mobility capacity into earnings. For a person this means income; for an autonomous operator it means revenue from a costly vehicle fleet.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Yield",
+        "explanation": "Human Drivers want productive time, while autonomous fleet economics improve when expensive vehicles spend more time serving paid trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Idle / Cost",
+        "explanation": "The common Provider pain is idle capacity and operating cost. Autonomy removes the human driving task but does not remove the economics of keeping mobility capacity productive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Ride / Earn",
+        "explanation": "Providers contribute ride capacity and receive earnings from completed marketplace transactions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Safety / Rules",
+        "explanation": "Human Drivers face licensing and platform requirements. Autonomous Providers face safety standards, regulation, technical integration and operating approvals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / API",
+        "explanation": "Human Drivers typically connect to demand through the Driver app, while autonomous fleets connect through technical integrations, fleet systems and APIs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Drive / Operate",
+        "explanation": "Humans drive trips. Autonomous Providers deploy and operate vehicles, keep capacity available and manage the systems around the fleet.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Fleet",
+        "explanation": "The key resource differs by Provider type: human Drivers contribute time and a vehicle, while autonomous operators contribute fleet capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "FleetOps",
+        "explanation": "Fleet Operations actors support autonomous ride capacity without necessarily being the Ride Provider. They keep vehicles physically and operationally ready for service.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Run Fleets",
+        "explanation": "FleetOps providers keep commercial fleets operating reliably at scale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Volume",
+        "explanation": "As autonomous fleets expand, FleetOps providers can gain more service volume and a larger operating footprint.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Downtime / Cost",
+        "explanation": "Downtime and operating cost make fleet capacity less productive, so FleetOps providers have to keep vehicles available while controlling service costs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Fleet Care",
+        "explanation": "The Partner transaction is fleet care: keeping vehicles operational rather than supplying the Ride itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Safety / Rules",
+        "explanation": "Fleet operations sit inside safety, regulatory, insurance and service-quality requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Depots / API",
+        "explanation": "The FleetOps interface is both physical and digital: depots and service facilities on one side, fleet-management software and data connections on the other.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Charge / Repair",
+        "explanation": "Typical FleetOps activities include charging, maintenance, repairs, cleaning, inspections and operational intervention.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Depots / Staff",
+        "explanation": "FleetOps contributes depots, equipment, technicians, operating staff and fleet-management capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Uber",
+        "explanation": "Uber owns and orchestrates the marketplace that connects Riders with human and autonomous ride supply.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "30+ AV Cos.",
+            "note": "Uber states that it works with more than 30 autonomous-vehicle partners as it builds a hybrid network of human and autonomous supply."
+          },
+          {
+            "value": "$14.2B Rev.*",
+            "note": "Uber reported $14.191 billion of total revenue in Q2 2026 across Mobility, Delivery and Freight."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale Rides",
+        "explanation": "For this case, Uber's job is to scale completed rides by keeping enough supply available for demand. This is a marketplace problem before it is a vehicle-technology problem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Fees",
+        "explanation": "More fulfilled demand means more trips, more marketplace activity and more fee-generating transactions for Uber.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Shortage / Lock-in",
+        "explanation": "Too little capacity creates long waits and lost demand, while excessive dependence on one autonomous supplier could create strategic lock-in.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Uber matches Riders with available ride supply and coordinates pricing, payment and the commercial flow around the trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Price / Safety",
+        "explanation": "Uber governs matching and pricing logic, participation eligibility and safety expectations across both human and autonomous supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Offers / Deals",
+        "explanation": "Uber grows demand through marketing and ride options while adding supply through commercial agreements, launches and investments with mobility providers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Enable",
+        "explanation": "Uber increasingly does more than match rides. Its Autonomous Solutions layer supports AV commercialization with capabilities such as data, mapping, fleet operations, regulatory support and customer operations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Data",
+        "explanation": "Uber's key resource for new Providers is aggregated demand, reinforced by marketplace data, operating knowledge and a global customer interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "The Rider pays through Uber, so the customer transaction still enters through the platform."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match",
+          "explanation": "Uber returns the coordination layer: a suitable match, pricing, payment handling and the marketplace experience around the trip."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Supply",
+          "explanation": "Providers give Uber mobility supply. Robotaxis matter because that supply can now grow through autonomous fleets as well as human Drivers."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "After completed trips, Uber coordinates the Provider-side commercial flow. Exact economics vary across human and autonomous arrangements."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Ride",
+          "explanation": "The Provider gives the Rider the Ride, whether the capacity is human-driven or autonomous."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Fleet",
+          "explanation": "Where FleetOps is separated from the Provider, vehicles and operating capacity are handed into the support layer for day-to-day care."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Uptime",
+          "explanation": "FleetOps returns more fleet capacity charged, maintained, repaired, cleaned and ready to serve demand."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "208M MAPCs*",
+        "note": "Q2 2026 platform-wide consumer scale proxy across Mobility and Delivery."
+      },
+      {
+        "target": "provider",
+        "value": "10.2M Earners*",
+        "note": "Q2 2026 Drivers and Couriers earning on Uber; not Mobility-only."
+      },
+      {
+        "target": "owner",
+        "value": "30+ AV Cos.",
+        "note": "Uber-reported breadth of autonomous-vehicle relationships."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "$29B Mob. GB*",
+        "note": "Q2 2026 Mobility Gross Bookings, not robotaxi-only volume."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "https://www.youtube.com/watch?v=DwXJ7sqGsdA",
+    "thumbnail": "",
+    "youtube_title": "Watch the story behind the snapshot"
+  },
+  "sources": [
+    {
+      "title": "Uber Announces Results for Second Quarter 2026",
+      "publisher": "Uber Technologies, Inc.",
+      "date": "2026-08-05",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "note": "Primary source for 208M MAPCs, $28.988B Mobility Gross Bookings, total revenue and Q2 2026 platform scale."
+    },
+    {
+      "title": "Q2 2026 Prepared Remarks",
+      "publisher": "Uber Technologies, Inc.",
+      "date": "2026-08-05",
+      "url": "https://investor.uber.com/files/doc_earnings/2026/q2/transcript/Uber-Q2-26-Prepared-Remarks.pdf",
+      "note": "Primary source for the record 10.2M Drivers and Couriers earning on the platform in Q2 2026."
+    },
+    {
+      "title": "Autonomous vehicles are coming to more cities",
+      "publisher": "Uber",
+      "date": "2026-05-13",
+      "url": "https://www.uber.com/us/en/blog/av-more-cities/",
+      "note": "Primary source for Uber's stated hybrid-marketplace approach in which autonomous vehicles and human Drivers serve customers side by side."
+    },
+    {
+      "title": "Uber Launches Baidu's Fully Driverless Apollo Go in Dubai",
+      "publisher": "Uber Technologies, Inc.",
+      "date": "2026-08-20",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+      "note": "Primary source for Uber's statement that it works with more than 30 AV partners and is building a hybrid network."
+    },
+    {
+      "title": "Hertz and Uber Partner to Power Autonomous Robotaxi and Driver-Led Fleet Operations",
+      "publisher": "Uber Technologies, Inc.",
+      "date": "2026-04-30",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Hertz-and-Uber-Partner-to-Power-Autonomous-Robotaxi-and-Driver-Led-Fleet-Operations/default.aspx",
+      "note": "Primary source for Oro Mobility's FleetOps role: charging, maintenance, repairs, cleaning and depot staffing."
+    },
+    {
+      "title": "Uber Partners with Hinomaru Kotsu for Robotaxi Pilot Deployment in Tokyo",
+      "publisher": "Uber Technologies, Inc.",
+      "date": "2026-08-13",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Partners-with-Hinomaru-Kotsu-for-Robotaxi-Pilot-Deployment-in-Tokyo/default.aspx",
+      "note": "Primary source for a local FleetOps model covering depot operations, cleaning, maintenance, inspections, charging and vehicle uptime."
+    },
+    {
+      "title": "Uber Unveils Uber Autonomous Solutions",
+      "publisher": "Uber Technologies, Inc.",
+      "date": "2026-02",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Unveils-Uber-Autonomous-Solutions-to-Accelerate-Autonomous-Mobility--Delivery-Worldwide/",
+      "note": "Primary source for Uber's enabling layer around autonomous commercialization, including data, rider experience and operational support."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Uber & Robotaxis — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

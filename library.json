@@ -108,6 +108,24 @@
         "Advertising"
       ],
       "status": "published"
+    },
+    {
+      "slug": "uber-robotaxis",
+      "case_number": "007",
+      "company": "Uber",
+      "headline": "Can robotaxis let Uber grow without adding more human drivers?",
+      "industry": [
+        "Mobility",
+        "Ride-Hailing"
+      ],
+      "topics": [
+        "Autonomous Vehicles",
+        "Hybrid Supply",
+        "Robotaxis",
+        "Fleet Operations",
+        "Marketplace Liquidity"
+      ],
+      "status": "published"
     }
   ]
 }
