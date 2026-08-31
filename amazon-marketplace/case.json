@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Amazon Marketplace",
+    "slug": "amazon-marketplace",
+    "headline": "How does Amazon turn its own retail infrastructure into a marketplace advantage?",
+    "case_number": "011",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-31",
+    "status": "official",
+    "industry": [
+      "E-commerce",
+      "Marketplace"
+    ],
+    "topics": [
+      "Hybrid Retail",
+      "Third-Party Sellers",
+      "Marketplace Infrastructure",
+      "Trust"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Retail infrastructure can become marketplace infrastructure",
+    "text": "Amazon's marketplace is powerful because it does not start from zero. Independent Sellers plug into an existing retail destination with demand, search, checkout, trust and optional logistics already in place. The marketplace therefore expands selection without Amazon having to own every unit of inventory. At the same time, Amazon remains a retailer itself, creating a distinctive hybrid architecture: it both operates the market and competes inside the broader store. The platform lesson is that infrastructure built for a pipeline business can become a powerful base for a marketplace."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Listing",
+      "explanation": "The Product Listing is the Core Value Unit for this scoped marketplace case: an offer that makes a third-party Seller's product searchable, comparable and purchasable inside Amazon's store.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "4.6B Items*",
+          "note": "U.S.-based independent sellers sold more than 4.6 billion items in Amazon's store in 2025. This measures units sold, not the number of live listings."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "Consumers and business buyers who use Amazon's store to discover and purchase products from Amazon and third-party Sellers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Buy Products",
+        "explanation": "Shoppers want to find and purchase products with minimal effort.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Speed",
+        "explanation": "Amazon's marketplace expands selection while the broader Amazon experience emphasizes fast delivery and convenient checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Trust",
+        "explanation": "Shoppers can face price differences, seller-quality variation, counterfeit risk or delivery problems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "The Shopper places an order and pays through Amazon's checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Payment",
+        "explanation": "Participation depends on market availability, payment capability, account rules and fraud controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App",
+        "explanation": "Shoppers reach marketplace offers through Amazon's website, mobile app and connected shopping interfaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "Shoppers search, compare offers, order, track, return and review.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Budget / Address",
+        "explanation": "Shoppers contribute purchasing power, delivery information, an account and preference data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Independent Sellers",
+        "explanation": "Independent Sellers are the Provider side in this marketplace boundary because they supply third-party products and listings. Amazon's own first-party retail inventory is intentionally outside this Provider role.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "60%+ Sales*",
+            "note": "Amazon states that independent sellers account for more than 60% of sales in Amazon's store. This is a share of store sales, not a seller count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Goods",
+        "explanation": "Sellers want to turn inventory into sales through Amazon's demand base.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Sales",
+        "explanation": "Sellers gain access to Amazon's customer traffic, trust infrastructure and optional fulfillment and advertising services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Rivalry",
+        "explanation": "Sellers face referral fees, intense price competition, policy dependence and competition for visibility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List / Sell",
+        "explanation": "Sellers publish offers and fulfill resulting sales, either themselves or using optional Amazon services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Policy",
+        "explanation": "Sellers must satisfy onboarding, identity, product, category and marketplace policy requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Seller Central / API",
+        "explanation": "Sellers manage participation through Seller Central, mobile tools and marketplace APIs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Fulfill",
+        "explanation": "Sellers maintain listings, inventory, pricing, fulfillment, returns and customer service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Data",
+        "explanation": "Sellers contribute products, stock, product data, images, pricing and fulfillment capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Service Partners",
+        "explanation": "External logistics, software, payments, advertising and other service firms can support Sellers or Amazon's marketplace operations without supplying the Product Listing itself.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Enable Commerce",
+        "explanation": "Service Partners help marketplace participants execute logistics, payments, software integration or promotion.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Revenue",
+        "explanation": "Marketplace scale can create recurring transaction and service demand for supporting firms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Integration / SLA",
+        "explanation": "Partners must meet Amazon's technical, operational, security and performance expectations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Fee",
+        "explanation": "Partners exchange enabling services for commercial compensation or access to marketplace demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Contract / Quality",
+        "explanation": "Access depends on contracts, integration standards, security, compliance and service quality.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API / Portal",
+        "explanation": "Partners connect through APIs, partner portals, business agreements and operational systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Deliver / Integrate",
+        "explanation": "Partners integrate systems, deliver services, maintain performance and support marketplace operations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Tech / Services",
+        "explanation": "Partners contribute software, infrastructure, logistics capacity, specialist staff or other enabling capabilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Amazon",
+        "explanation": "Amazon owns and governs the marketplace surface inside its broader retail store, controls discovery and checkout, and also operates its own first-party retail business alongside third-party Sellers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Scale Marketplace",
+        "explanation": "Amazon expands selection and transaction volume by bringing third-party supply into its existing retail demand and infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Selection / Fees",
+        "explanation": "More seller supply can broaden selection, improve customer utility and generate seller-service and referral-fee revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Conflict",
+        "explanation": "Amazon must manage seller quality, fraud, counterfeit risk, regulation and the structural tension of hosting Sellers while also retailing products itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Amazon coordinates discovery, ordering, payment and settlement between Shoppers and independent Sellers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Trust",
+        "explanation": "Amazon sets product, seller, pricing, review, safety and customer-protection rules and can suspend non-compliant participants.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Prime",
+        "explanation": "Amazon attracts and retains demand through search, Prime benefits, promotions, advertising and its broader retail brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Govern",
+        "explanation": "Amazon runs search and ranking, checkout, trust and safety, seller tooling, payments and optional logistics services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Logistics",
+        "explanation": "Amazon's customer demand, brand, data, marketplace technology, payments and logistics infrastructure make the marketplace attractive to Sellers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Shoppers place orders and pay through Amazon's marketplace checkout."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match / Protect",
+          "explanation": "Amazon provides discovery, checkout coordination and customer-protection mechanisms around third-party purchases."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Independent Sellers provide product offers and pay applicable selling and referral fees."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand / Payout",
+          "explanation": "Amazon exposes Sellers to customer demand and coordinates proceeds after transactions and applicable deductions."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "The Seller supplies the purchased physical product to the Shopper, directly or through fulfillment infrastructure."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Review",
+          "explanation": "Shoppers can return reputation and feedback signals that affect seller trust and future demand."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Services",
+          "explanation": "External service partners provide logistics, software, payment, advertising or other enabling capabilities."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Access / Fees",
+          "explanation": "Amazon provides integrations or marketplace-linked demand and compensates or commercially engages supporting partners where applicable."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "provider",
+        "value": "60%+ Sales*",
+        "note": "Independent sellers' share of Amazon store sales; not seller count."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "4.6B Items*",
+        "note": "U.S. independent-seller units sold in 2025; not live listings."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Small Business Empowerment Report",
+      "publisher": "Amazon Selling Partners",
+      "date": "2026",
+      "url": "https://sellingpartners.aboutamazon.com/impact",
+      "note": "Primary source for more than 60% independent-seller share of Amazon store sales and 4.6 billion items sold by U.S. independent sellers in 2025."
+    },
+    {
+      "title": "$2.5 trillion in sales and counting: Celebrating 25 years of Amazon’s partnership with independent sellers",
+      "publisher": "Amazon Selling Partners",
+      "date": "2025-11-06",
+      "url": "https://sellingpartners.aboutamazon.com/25-years-of-amazons-partnership-with-independent-sellers",
+      "note": "Primary source on the third-party seller marketplace and Amazon's hybrid retail-plus-marketplace model."
+    },
+    {
+      "title": "How much does it cost to sell on Amazon?",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://sell.amazon.com/pricing",
+      "note": "Primary source for seller plans, referral-fee structure and optional seller services."
+    },
+    {
+      "title": "A-to-z Guarantee",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://digprjsurvey.amazon.com/csad/help/node/GQ37ZCNECJKTFYQV",
+      "note": "Primary source for buyer protection on eligible third-party seller purchases."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Amazon Marketplace — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

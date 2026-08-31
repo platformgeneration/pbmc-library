@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Etsy",
+    "slug": "etsy",
+    "headline": "Why can a marketplace get stronger by staying niche?",
+    "case_number": "015",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-31",
+    "status": "official",
+    "industry": [
+      "E-commerce",
+      "Niche Marketplace"
+    ],
+    "topics": [
+      "Handmade & Vintage",
+      "Creator Economy",
+      "Marketplace Trust",
+      "Special Goods"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Niche supply can be a network effect",
+    "text": "Etsy does not win by offering every interchangeable product on the internet. Its marketplace becomes more useful when Sellers contribute inventory that feels difficult to find elsewhere: handmade, personalized, vintage, craft or otherwise distinctive goods. That differentiation attracts Buyers who are specifically looking for something special, which in turn makes Etsy more valuable to the Sellers who create that supply. The platform lesson is that a marketplace can build network effects around scarcity and identity, not only around maximum breadth."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Unique Listing",
+      "explanation": "The Unique Listing is the Core Value Unit: a specific handmade, vintage, craft, personalized, sourced or seller-designed item that a Buyer can discover and purchase from an independent Seller.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "100M+ Items*",
+          "note": "Etsy reported more than 100 million items for sale on the Etsy marketplace as of December 31, 2025."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "People shopping for distinctive, personalized, vintage, craft or human-made goods that are less standardized than mass-market retail.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "86.5M Buyers*",
+            "note": "Etsy marketplace active buyers as of December 31, 2025, defined by Etsy as buyers with at least one purchase in the trailing 12 months."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Something Special",
+        "explanation": "Buyers come to Etsy when they want products with uniqueness, personalization, creativity or a connection to an independent Seller.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Unique / Human",
+        "explanation": "The marketplace can offer items, customization and seller relationships that are difficult to replicate in standardized retail.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Shipping",
+        "explanation": "Buyers can face quality variation, shipping times, inaccurate descriptions, mass-produced goods or uncertainty about who actually made an item.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Buyers order and pay for Seller products through Etsy's marketplace transaction flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Payment",
+        "explanation": "Access depends on payment, geography, platform rules and fraud controls; many purchases can also begin from search without a deep user profile.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App",
+        "explanation": "Buyers discover Etsy through its website, mobile app, search engines, advertising and shared listing links.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "Buyers search, browse, favorite, message, order, review and sometimes request customization.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Taste / Budget",
+        "explanation": "Buyers contribute taste, intent, search signals, budget, delivery details and feedback.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Independent makers, designers, vintage curators and craft-supply Sellers create or source the distinctive inventory that defines Etsy.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "5.6M Sellers*",
+            "note": "Etsy marketplace active sellers as of December 31, 2025, defined by Etsy as sellers with a charge or sale in the trailing 12 months."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Creations",
+        "explanation": "Sellers want to turn creative work, vintage inventory or specialized goods into income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Identity",
+        "explanation": "Etsy gives Sellers access to a global buyer base while letting distinctive products and shop identity remain visible.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition / Fees",
+        "explanation": "Sellers face search competition, fees, shipping complexity, policy changes and pressure from low-quality or mass-produced listings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listing / Sale",
+        "explanation": "Sellers create listings and deliver the purchased item to the Buyer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Creativity / Policy",
+        "explanation": "Sellers and listings must fit Etsy's seller, creativity, prohibited-item, intellectual-property and marketplace policies.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Shop Manager / API",
+        "explanation": "Sellers manage shops through Etsy's web and mobile seller tools and supported integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Create / Fulfill",
+        "explanation": "Sellers create or source qualifying products, photograph, list, customize, communicate, fulfill and support Buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Craft / Inventory",
+        "explanation": "Sellers contribute the item, creative skill or curation, product information, photos, pricing and fulfillment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Commerce Services",
+        "explanation": "Payment, shipping, advertising, software and other service partners support Seller operations and marketplace transactions.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Enable Commerce",
+        "explanation": "Commerce Services make payment, delivery, promotion and seller operations easier to execute.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Revenue",
+        "explanation": "Etsy's concentrated community of active Buyers and Sellers creates service demand and commercial opportunities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Integration / Risk",
+        "explanation": "Partners must handle fraud, delivery variability, privacy, technical changes and marketplace policy constraints.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Fee",
+        "explanation": "Partners provide enabling services and receive fees, transaction volume or commercial exposure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Compliance / Quality",
+        "explanation": "Partners need compatible systems, appropriate service quality and compliance with Etsy and legal requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API / Integration",
+        "explanation": "Partners connect through payment rails, shipping integrations, marketing systems and supported technical interfaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Pay / Deliver",
+        "explanation": "Partners process payments, deliver parcels, support advertising or provide software and operational services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / Services",
+        "explanation": "Partners contribute payment infrastructure, shipping networks, software, advertising reach and specialist support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Etsy",
+        "explanation": "Etsy owns and governs the marketplace and positions it around special goods, human connection, discovery and trust.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$10.46B GMS*",
+            "note": "Etsy marketplace Gross Merchandise Sales for full-year 2025. GMS is transaction value, not Etsy revenue."
+          }
+        ]
+      },
+      "job": {
+        "value": "Connect Uniqueness",
+        "explanation": "Etsy must make distinctive Seller inventory easy to discover and trustworthy enough to purchase at global scale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "GMS / Fees",
+        "explanation": "Marketplace activity generates listing, transaction, payments and advertising revenue while reinforcing Etsy's differentiated brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Sameness / Trust",
+        "explanation": "If the marketplace fills with generic mass-produced goods, misleading listings or poor experiences, Etsy risks losing the differentiation that attracts Buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Etsy coordinates discovery, ordering, payments and the commercial flow between Buyers and Sellers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Creativity / Trust",
+        "explanation": "Etsy uses creativity standards, listing rules, seller policies, reviews, intellectual-property processes and enforcement to protect marketplace identity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Social",
+        "explanation": "Etsy attracts demand through SEO, paid marketing, social channels, app engagement, email and Sellers' own sharing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Discover / Protect",
+        "explanation": "Etsy operates search and recommendations, trust and safety, seller tooling, payments, advertising and customer support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Community",
+        "explanation": "Etsy's brand, active Buyer and Seller network, listing data, search technology and trust systems are core resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Buyers place orders and pay through Etsy's marketplace flow."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery / Trust",
+          "explanation": "Etsy organizes distinctive inventory and provides marketplace trust, payments and support around purchases."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Sellers contribute unique listings and pay applicable listing, transaction, payment or advertising fees."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand / Payout",
+          "explanation": "Etsy gives Sellers access to buyer demand and coordinates payouts after transactions and deductions."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Item",
+          "explanation": "The Seller provides the purchased physical or digital item to the Buyer."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Review",
+          "explanation": "Buyer reviews and messages contribute to Seller reputation, trust and repeat demand."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Services",
+          "explanation": "Commerce-service partners provide payments, delivery, software, advertising or other enabling capabilities."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Volume / Access",
+          "explanation": "Etsy's marketplace creates transaction volume and integration opportunities for supporting partners."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "86.5M Buyers*",
+        "note": "Etsy marketplace active buyers, Dec. 31 2025."
+      },
+      {
+        "target": "provider",
+        "value": "5.6M Sellers*",
+        "note": "Etsy marketplace active sellers, Dec. 31 2025."
+      },
+      {
+        "target": "owner",
+        "value": "$10.46B GMS*",
+        "note": "Etsy marketplace full-year 2025 GMS, not revenue."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "100M+ Items*",
+        "note": "Items for sale on Etsy marketplace, Dec. 31 2025."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Etsy 2025 Annual Report",
+      "publisher": "Etsy, Inc.",
+      "date": "2026-02-19",
+      "url": "https://investors.etsy.com/sec-filings/all-sec-filings/content/0001370637-26-000019/etsy-20251231.htm",
+      "note": "Primary source for 86.5M active buyers, 5.6M active sellers, 100M+ items for sale and $10.4607B Etsy marketplace GMS in 2025."
+    },
+    {
+      "title": "What are the Fees and Taxes for Selling on Etsy?",
+      "publisher": "Etsy Help",
+      "date": "2026",
+      "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy",
+      "note": "Primary source for current Etsy seller fee mechanics, including the $0.20 listing fee and 6.5% transaction fee."
+    },
+    {
+      "title": "Etsy Creativity Standards",
+      "publisher": "Etsy",
+      "date": "2026",
+      "url": "https://www.etsy.com/legal/creativity/",
+      "note": "Primary governance source defining what kinds of items can be sold and how Etsy distinguishes made, designed, handpicked and sourced products."
+    },
+    {
+      "title": "Etsy Purchase Protection",
+      "publisher": "Etsy",
+      "date": "2026",
+      "url": "https://www.etsy.com/legal/buyers/",
+      "note": "Primary source for buyer-facing marketplace rules and transaction protection context."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Etsy — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

@@ -180,6 +180,91 @@
         "Platform Governance"
       ],
       "status": "published"
+    },
+    {
+      "slug": "amazon-marketplace",
+      "case_number": "011",
+      "company": "Amazon Marketplace",
+      "headline": "How does Amazon turn its own retail infrastructure into a marketplace advantage?",
+      "industry": [
+        "E-commerce",
+        "Marketplace"
+      ],
+      "topics": [
+        "Hybrid Retail",
+        "Third-Party Sellers",
+        "Marketplace Infrastructure",
+        "Trust"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "alibaba-com",
+      "case_number": "012",
+      "company": "Alibaba.com",
+      "headline": "How does Alibaba.com make global sourcing safe enough to transact online?",
+      "industry": [
+        "E-commerce",
+        "B2B Marketplace"
+      ],
+      "topics": [
+        "Global Sourcing",
+        "Trade Assurance",
+        "Cross-Border Commerce",
+        "Marketplace Trust"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "taobao",
+      "case_number": "013",
+      "company": "Taobao",
+      "headline": "How does Taobao make billions of products navigable?",
+      "industry": [
+        "E-commerce",
+        "C2C Marketplace"
+      ],
+      "topics": [
+        "Marketplace Discovery",
+        "Merchant Ecosystem",
+        "Livestream Commerce",
+        "China E-commerce"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "jd-com",
+      "case_number": "014",
+      "company": "JD.com",
+      "headline": "How does JD.com combine retail control with marketplace scale?",
+      "industry": [
+        "E-commerce",
+        "Retail Marketplace"
+      ],
+      "topics": [
+        "Hybrid Retail",
+        "Supply Chain",
+        "Marketplace Trust",
+        "China E-commerce"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "etsy",
+      "case_number": "015",
+      "company": "Etsy",
+      "headline": "Why can a marketplace get stronger by staying niche?",
+      "industry": [
+        "E-commerce",
+        "Niche Marketplace"
+      ],
+      "topics": [
+        "Handmade & Vintage",
+        "Creator Economy",
+        "Marketplace Trust",
+        "Special Goods"
+      ],
+      "status": "published"
     }
   ]
 }

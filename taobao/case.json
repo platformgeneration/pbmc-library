@@ -1,0 +1,461 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Taobao",
+    "slug": "taobao",
+    "headline": "How does Taobao make billions of products navigable?",
+    "case_number": "013",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-31",
+    "status": "official",
+    "industry": [
+      "E-commerce",
+      "C2C Marketplace"
+    ],
+    "topics": [
+      "Marketplace Discovery",
+      "Merchant Ecosystem",
+      "Livestream Commerce",
+      "China E-commerce"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "At extreme scale, discovery becomes marketplace infrastructure",
+    "text": "Taobao's challenge is not simply to accumulate more listings. Once selection reaches billions of products across the wider Taobao/Tmall catalog, the scarce resource becomes the Shopper's ability to navigate it. Search, recommendation feeds, livestreams, merchant content and trust controls therefore become part of the marketplace's core infrastructure. The platform lesson is that when supply becomes abundant, discovery itself becomes a central value-creation mechanism."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Listing",
+      "explanation": "The Product Listing is the Core Value Unit: the merchant offer that Shoppers discover, evaluate and purchase inside Taobao's highly varied marketplace.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "4B+ Products*",
+          "note": "Alibaba reported in May 2026 that the combined Taobao and Tmall catalog contains more than 4 billion products. This is a combined catalog metric, not a Taobao-only listing count."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "Consumers in China who use Taobao to discover and buy a broad range of products from marketplace Merchants.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Find Deals",
+        "explanation": "Shoppers want to find products that fit their needs, tastes and budgets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Price",
+        "explanation": "Taobao offers enormous selection, competitive pricing, merchant variety and increasingly rich discovery formats.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Overload",
+        "explanation": "At very high listing density, Shoppers can face quality uncertainty, counterfeit risk, search overload and delivery variation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Shoppers place orders and pay through Alibaba's commerce and payment infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Rules",
+        "explanation": "Access depends on account, payment, geographic and platform rules plus fraud and abuse controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "The Taobao app is the main consumer access channel, complemented by web and Alibaba ecosystem entry points.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Browse / Buy",
+        "explanation": "Shoppers search, browse feeds and livestreams, compare, chat, purchase, track and review.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Budget",
+        "explanation": "Shoppers contribute purchasing intent, budget, account data, preferences and attention.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Merchants",
+        "explanation": "Individuals, SMEs, factories and commercial merchants supply products and listings to Taobao's shopper base.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "7M Merchants*",
+            "note": "Alibaba reported that Taobao and Tmall's AI-driven content and operations toolkit had served 7 million merchants by the 2025 6.18 campaign. This is a combined Taobao/Tmall tool-usage metric, not a Taobao-only active merchant count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Goods",
+        "explanation": "Merchants want to turn products and inventory into demand and repeat sales.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Growth",
+        "explanation": "Taobao gives Merchants access to large-scale consumer demand, marketing formats, data and commerce tooling.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition / Visibility",
+        "explanation": "A huge merchant base creates intense competition for ranking, traffic, conversion and customer trust.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List / Sell",
+        "explanation": "Merchants publish listings and fulfill orders generated by marketplace demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Identity / Policy",
+        "explanation": "Merchants face identity, product, intellectual-property, quality and marketplace policy requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Seller Tools / API",
+        "explanation": "Merchants manage stores, listings, campaigns and operations through Taobao seller tools and integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Fulfill",
+        "explanation": "Merchants list, price, advertise, communicate, fulfill, handle returns and manage reputation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Content",
+        "explanation": "Merchants contribute products, inventory, product data, images, livestream content and fulfillment capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Commerce Services",
+        "explanation": "Payment, logistics, marketing and technology services support transactions and merchant operations around Taobao.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Support Trade",
+        "explanation": "Commerce Services make payments, fulfillment, advertising and integrations work at marketplace scale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Volume",
+        "explanation": "Taobao's transaction and merchant volume can create large recurring demand for enabling services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Delay / Fraud",
+        "explanation": "High volume raises operational, fraud, integration and service-quality risks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Fee",
+        "explanation": "Service providers exchange payments, delivery, software or media capabilities for commercial value.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Compliance / SLA",
+        "explanation": "Participation depends on technical integration, reliability, compliance and service standards.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API / Network",
+        "explanation": "Partners connect through Alibaba ecosystem APIs, logistics, payment and advertising systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Pay / Deliver",
+        "explanation": "Partners process payments, move parcels, support campaigns, exchange data and maintain integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / Logistics",
+        "explanation": "Partners contribute payment rails, delivery networks, software, media inventory and operational expertise.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Taobao",
+        "explanation": "Taobao operates the marketplace inside Alibaba's China e-commerce business and governs discovery, merchant participation and transaction experience.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Grow Marketplace",
+        "explanation": "Taobao must keep an enormous, diverse merchant marketplace useful and engaging for consumers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "GMV / Ads",
+        "explanation": "More buyer activity and merchant competition can support transaction-related services, software fees and advertising revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Competition",
+        "explanation": "Taobao must control fraud, counterfeit risk, low-quality supply and consumer churn while competing for shopping attention.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Taobao coordinates product discovery, ordering and the marketplace transaction around merchant supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Ratings",
+        "explanation": "Taobao uses merchant rules, reviews, ratings, intellectual-property controls, moderation and enforcement to shape marketplace quality.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Feed / Live",
+        "explanation": "Taobao drives demand through its app, recommendation feeds, search, campaigns, livestream commerce and Alibaba ecosystem traffic.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Discover / Govern",
+        "explanation": "Taobao operates search and recommendation, merchant tools, campaigns, governance and transaction coordination.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Traffic / Data",
+        "explanation": "Consumer traffic, merchant supply, transaction data, recommendation technology and Alibaba ecosystem services are key resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Shoppers place orders and pay through the Taobao commerce flow."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery",
+          "explanation": "Taobao organizes huge product variety through search, recommendations, content and campaign surfaces."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Merchants contribute product offers and pay applicable marketplace, software or marketing fees."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Traffic / Payout",
+          "explanation": "Taobao provides access to shopper demand and coordinates order and payment flows back to Merchants."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "Merchants provide the purchased product to the Shopper."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Review",
+          "explanation": "Shoppers return ratings, reviews and demand signals that shape merchant reputation and visibility."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Services",
+          "explanation": "Commerce-service actors provide payments, logistics, marketing or technical support."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Volume / Data",
+          "explanation": "Taobao's marketplace creates transaction volume and data that integrated service providers can support."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "provider",
+        "value": "7M Merchants*",
+        "note": "Taobao/Tmall AI toolkit usage metric; not Taobao-only active merchants."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "4B+ Products*",
+        "note": "Combined Taobao/Tmall catalog announced in May 2026; not Taobao-only."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Alibaba Opens All of Taobao to Qwen AI, Ushering in a New Agentic Shopping Experience",
+      "publisher": "Alibaba Group",
+      "date": "2026-05-11",
+      "url": "https://www.alibabagroup.com/en-US/document-1991231293551017984",
+      "note": "Primary source for the Taobao/Tmall catalog of more than 4 billion products and current Taobao commerce architecture."
+    },
+    {
+      "title": "Alibaba Reports Solid Progress in AI + Cloud on the Strength of Its Full-Stack Capabilities",
+      "publisher": "Alibaba Group",
+      "date": "2026",
+      "url": "https://home.alibabagroup.com/en-US/document-1971445322303406080",
+      "note": "Primary source for current Taobao app user-growth direction and China e-commerce business context."
+    },
+    {
+      "title": "Taobao and Tmall Wrap Up 6.18 Shopping Festival with Sustained Brand Growth",
+      "publisher": "Alibaba Group",
+      "date": "2025-06-19",
+      "url": "https://home.alibabagroup.com/en-US/document-1872462281804087296",
+      "note": "Primary source for merchant participation, livestream commerce and the 7 million merchant AI-tooling metric."
+    },
+    {
+      "title": "Taobao and Tmall Group Intellectual Property Protection Platform",
+      "publisher": "Alibaba Group",
+      "date": "2026",
+      "url": "https://ipp.alibabagroup.com/offline.htm",
+      "note": "Primary governance source for identity and intellectual-property complaint processes across Taobao and related marketplaces."
+    },
+    {
+      "title": "Alibaba Group FY2026 Annual Report",
+      "publisher": "Alibaba Group",
+      "date": "2026-05-20",
+      "url": "https://www.alibabagroup.com/en-US/document-2003564382071554048",
+      "note": "Primary corporate source for the current Alibaba business structure and China e-commerce context."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Taobao — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
