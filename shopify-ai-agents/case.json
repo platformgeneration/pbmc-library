@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Shopify & AI Agents",
+    "slug": "shopify-ai-agents",
+    "headline": "What happens to Shopify when shoppers stop visiting online stores?",
+    "case_number": "009",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-25",
+    "status": "official",
+    "industry": [
+      "E-commerce",
+      "Commerce Infrastructure"
+    ],
+    "topics": [
+      "Agentic Commerce",
+      "AI Agents",
+      "Universal Commerce Protocol",
+      "Shopify Catalog",
+      "AI Shopping"
+    ],
+    "geography": [
+      "Global",
+      "United States"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "The front door can move while the commerce layer stays central",
+    "text": "AI agents can take over the consumer-facing discovery interface without removing the need for commerce infrastructure underneath it. Shopify’s strategic response is to make Catalog, UCP and Checkout useful across many AI front ends rather than requiring every shopper to visit a Shopify-powered storefront. That creates a trade-off: Shopify can lose direct control of the place where the buying decision happens, while potentially becoming more central to product data, checkout and order orchestration behind those interfaces. The platform bet is therefore not to own every front door, but to remain the commerce backbone behind many of them."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product",
+      "explanation": "The Product is the Core Value Unit: the thing the Shopper ultimately comes to find, compare, choose and buy.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "Billions Prod.*",
+          "note": "Shopify says Catalog spans billions of products. This is the relevant scale proxy for the searchable product universe available to agentic-commerce experiences."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "The Consumer side is Shoppers: people trying to find and buy the right product.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Find Product",
+        "explanation": "Shoppers want to find a product that fits what they actually need.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Ease",
+        "explanation": "Instead of manually opening many stores, a Shopper can describe the need in plain language and let an AI agent narrow the options.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Search",
+        "explanation": "Traditional ecommerce often makes the Shopper do the work: search, filter, compare, reopen tabs and decide.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Query / Pay",
+        "explanation": "The Shopper contributes a query describing what they want and eventually payment when a purchase is made.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "US / Channel",
+        "explanation": "The live buying experience is filtered by geography and channel. At the research cut-off, Shopify described purchasing across connected AI channels as available to U.S. buyers, with availability differing by platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "AI Chat",
+        "explanation": "The Consumer access channel can move from a merchant website to an AI chat such as ChatGPT, Microsoft Copilot, Google AI Mode or Gemini.",
+        "changed": true,
+        "before": "Storefront",
+        "after": "AI Chat"
+      },
+      "activities": {
+        "value": "Ask / Choose",
+        "explanation": "The Shopper asks, refines the request, compares the agent’s suggestions and chooses.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Budget",
+        "explanation": "The Shopper brings purchase intent, a budget and a payment method.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Merchants",
+        "explanation": "Merchants are the Provider side because they supply the products that Shoppers want.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Millions Merch.*",
+            "note": "Shopify’s 2025 annual report states that millions of merchants from more than 175 countries use its platform; Shopify does not disclose a precise current merchant count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Goods",
+        "explanation": "Merchants want to sell products to customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach",
+        "explanation": "If products can appear in many AI conversations without a bespoke integration for every channel, Merchants can meet buyers in more places.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Traffic / Cost",
+        "explanation": "Merchants need to generate traffic without excessive customer-acquisition cost. If discovery increasingly begins in AI, they need to be visible there.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Product / Sale",
+        "explanation": "The Merchant provides the Product and receives the economic value of the sale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Terms / Data",
+        "explanation": "Participation depends on channel terms and usable product data. AI agents need current information such as price, inventory, variants and product attributes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Admin / API",
+        "explanation": "Merchants connect through Shopify Admin or APIs. In Admin they can manage AI-channel participation, product discovery and direct-checkout settings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Fulfill",
+        "explanation": "Merchants keep product data current, list what they sell and fulfill resulting orders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Stock / Brand",
+        "explanation": "Merchants contribute inventory, product information, brand assets and fulfillment capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "AI Agents",
+        "explanation": "AI Agents form the Partner side. They do not supply the Product, but they become essential when discovery, comparison and purchase decisions happen inside their interfaces.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "4 AI Ch.*",
+            "note": "Shopify’s 2026 materials name four major AI shopping channels for merchants: ChatGPT, Microsoft Copilot, Google AI Mode and Gemini."
+          }
+        ]
+      },
+      "job": {
+        "value": "Guide Choice",
+        "explanation": "AI Agents help Shoppers find relevant products, answer questions, compare options and move toward a purchase.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Use / Trust",
+        "explanation": "Useful shopping can increase usage and trust because the assistant becomes more valuable when it can help complete the Shopper’s task.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Data / Checkout",
+        "explanation": "Agents need accurate live product data and dependable commerce execution: price, inventory, variants, tax, payment, fraud and order logic cannot safely be guessed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Query / Order",
+        "explanation": "The Agent receives the Shopper’s query and can send product requests or purchase intent into Shopify’s commerce infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "APIs / Terms",
+        "explanation": "AI channels connect through supported technical interfaces and commercial terms, and different channels can provide different discovery and checkout experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Catalog / UCP",
+        "explanation": "Shopify Catalog provides structured product data, while Universal Commerce Protocol (UCP), co-developed by Shopify and Google, gives agents and merchants a shared technical language across the commerce journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Rank",
+        "explanation": "Agents search, rank, compare, answer questions and guide the Shopper toward a Product. Ranking logic varies by AI platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Users / Models",
+        "explanation": "AI platforms contribute their own users, models, interfaces and the conversations in which demand is expressed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Shopify",
+        "explanation": "Shopify remains the platform Owner. Even when the Shopper never sees a Shopify storefront, Shopify can still orchestrate commerce infrastructure underneath the interaction.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "~13× AI Orders*",
+            "note": "Shopify reported that AI-referred orders grew nearly 13× year over year in Q1 2026. This is a growth rate, not an absolute order count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Enable Sales",
+        "explanation": "Shopify’s job is to enable commerce for Merchants wherever buyers appear: online stores, physical retail, social channels and now AI conversations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale",
+        "explanation": "One commerce platform can potentially power transactions across many AI front ends instead of depending on Shoppers visiting one type of storefront.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Lost Touch",
+        "explanation": "If discovery moves into ChatGPT, Copilot, Gemini or another Agent, Shopify no longer owns the main consumer-facing interface where the Shopper decides what to buy.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Fees",
+        "explanation": "Shopify processes the commerce workflow around the order and can earn transaction-related revenue. For the Agentic Plan, Shopify says there is no monthly subscription fee; businesses pay standard payment rates when products sell through channels powered by Shopify Checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Data / Rules",
+        "explanation": "Shopify governs the commerce layer through product-data requirements, merchant settings, checkout rules and the standards its infrastructure exposes, but it does not fully control how an external AI Agent ranks products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Partners",
+        "explanation": "Partnerships become a growth channel: integrations with OpenAI, Microsoft and Google put Merchant products where AI users already spend time.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Sync / Settle",
+        "explanation": "Shopify synchronizes product information and handles difficult commerce work around checkout, payment processing, tax, fraud and order flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Catalog / Rails",
+        "explanation": "The critical resources are Shopify Catalog and its commerce rails: the underlying systems that make checkout, payments, tax, fraud handling and orders work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Payment",
+          "explanation": "The Shopper pays the Merchant for the purchase. Shopify Checkout or another processor may technically mediate the payment, but the economic Consumer-to-Provider relationship remains."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "The Merchant ultimately gives the Shopper the Product. Agentic commerce changes discovery and transaction orchestration, not the underlying product exchange."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Data",
+          "explanation": "Merchants give Shopify the structured product data AI agents need, including products, variants, prices, inventory and attributes."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Order",
+          "explanation": "Shopify delivers the resulting order into the Merchant’s Admin with channel attribution and the information needed to fulfill it."
+        },
+        {
+          "from": "consumer",
+          "to": "partner",
+          "value": "Query",
+          "explanation": "The Shopper gives the AI Agent a query describing what they want and what matters."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Options",
+          "explanation": "The AI Agent returns product options, comparisons and recommendations."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Catalog",
+          "explanation": "Shopify gives connected AI Agents structured product information through Shopify Catalog and related commerce interfaces."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Order",
+          "explanation": "When the Shopper is ready to buy, the AI channel can send purchase intent or order information into Shopify’s commerce infrastructure."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "provider",
+        "value": "Millions Merch.*",
+        "note": "Shopify reports millions of merchants across more than 175 countries; no precise current merchant count is disclosed."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "Billions Prod.*",
+        "note": "Shopify Catalog spans billions of products."
+      },
+      {
+        "target": "owner",
+        "value": "~13× AI Orders*",
+        "note": "AI-referred orders grew nearly 13× year over year in Q1 2026; growth rate, not absolute volume."
+      },
+      {
+        "target": "partner",
+        "value": "4 AI Ch.*",
+        "note": "Four major named AI shopping channels in Shopify’s 2026 materials."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "https://www.youtube.com/watch?v=D0f8Rugb5UE",
+    "thumbnail": "",
+    "youtube_title": "Watch the story behind the snapshot"
+  },
+  "sources": [
+    {
+      "title": "Millions of merchants can sell in AI chats",
+      "publisher": "Shopify",
+      "date": "2026-03-24",
+      "url": "https://www.shopify.com/news/agentic-commerce-momentum",
+      "note": "Primary source for Agentic Storefronts, the four named major AI channels, Agentic Plan, Merchant control and Shopify’s role behind AI commerce."
+    },
+    {
+      "title": "Agentic commerce for every developer: The Spring '26 Edition",
+      "publisher": "Shopify",
+      "date": "2026-06-17",
+      "url": "https://www.shopify.com/news/spring-26-edition-dev",
+      "note": "Primary source for UCP, Catalog API, developer access and the infrastructure available to AI-agent builders."
+    },
+    {
+      "title": "Selling everything, everywhere, all at once: The Spring '26 Edition",
+      "publisher": "Shopify",
+      "date": "2026-06-17",
+      "url": "https://www.shopify.com/news/spring-26-edition-merchant",
+      "note": "Primary source for Catalog syndication, Agentic Storefronts administration and Merchant control of AI channels."
+    },
+    {
+      "title": "Spring '26 Edition: Five apps that show what Catalog API and UCP make possible",
+      "publisher": "Shopify",
+      "date": "2026-06-17",
+      "url": "https://www.shopify.com/news/spring-26-edition-design",
+      "note": "Primary source for Shopify Catalog containing billions of products and the role of Catalog API plus UCP in agentic commerce."
+    },
+    {
+      "title": "The agentic commerce platform: Shopify connects any merchant to every AI conversation",
+      "publisher": "Shopify",
+      "date": "2026-01-11",
+      "url": "https://www.shopify.com/news/ai-commerce-at-scale",
+      "note": "Primary source for UCP, Agentic Plan, Shopify Catalog expansion beyond traditional Shopify merchants and the infrastructure strategy."
+    },
+    {
+      "title": "How agentic commerce works",
+      "publisher": "Shopify",
+      "date": "2026",
+      "url": "https://www.shopify.com/blog/how-agentic-commerce-works",
+      "note": "Primary source used throughout the supplied research workbook for Shopper, Agent, checkout and order-flow mechanics."
+    },
+    {
+      "title": "Shopify 2025 Annual Report",
+      "publisher": "Shopify / U.S. Securities and Exchange Commission",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+      "note": "Primary filing for Shopify’s statement that millions of merchants from more than 175 countries use the platform."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Shopify & AI Agents — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

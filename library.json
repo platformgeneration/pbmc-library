@@ -144,6 +144,24 @@
         "Core Technology Commission"
       ],
       "status": "published"
+    },
+    {
+      "slug": "shopify-ai-agents",
+      "case_number": "009",
+      "company": "Shopify & AI Agents",
+      "headline": "What happens to Shopify when shoppers stop visiting online stores?",
+      "industry": [
+        "E-commerce",
+        "Commerce Infrastructure"
+      ],
+      "topics": [
+        "Agentic Commerce",
+        "AI Agents",
+        "Universal Commerce Protocol",
+        "Shopify Catalog",
+        "AI Shopping"
+      ],
+      "status": "published"
     }
   ]
 }
