@@ -126,6 +126,24 @@
         "Marketplace Liquidity"
       ],
       "status": "published"
+    },
+    {
+      "slug": "apple-app-store-europe",
+      "case_number": "008",
+      "company": "Apple’s App Store in Europe",
+      "headline": "Why can Apple charge 5% outside its App Store?",
+      "industry": [
+        "Digital Platforms",
+        "App Distribution"
+      ],
+      "topics": [
+        "Digital Markets Act",
+        "Alternative App Stores",
+        "Platform Governance",
+        "Access Channels",
+        "Core Technology Commission"
+      ],
+      "status": "published"
     }
   ]
 }

@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Apple’s App Store in Europe",
+    "slug": "apple-app-store-europe",
+    "headline": "Why can Apple charge 5% outside its App Store?",
+    "case_number": "008",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-25",
+    "status": "official",
+    "industry": [
+      "Digital Platforms",
+      "App Distribution"
+    ],
+    "topics": [
+      "Digital Markets Act",
+      "Alternative App Stores",
+      "Platform Governance",
+      "Access Channels",
+      "Core Technology Commission"
+    ],
+    "geography": [
+      "European Union"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Regulation can open the gate without removing the platform Owner",
+    "text": "The DMA weakens Apple’s exclusivity over mainstream iOS and iPadOS app distribution in Europe, but it does not remove Apple as the platform Owner. Users and Developers gain additional access channels through alternative app marketplaces and eligible web distribution, while independent Stores become a meaningful external Partner layer. Apple still controls the operating system, signing, Notarization, APIs and other technical gates underneath those channels. The strategic response is a new monetization logic: from October 2026, covered digital transactions in alternatively distributed apps can carry a 5% Core Technology Commission. The platform lesson is that regulation can open one commercial gate while the Owner redesigns monetization around infrastructure it still controls."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "App",
+      "explanation": "The App is the Core Value Unit: the digital product Users come to discover, install and use across Apple’s App Store, alternative marketplaces or eligible web distribution.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Users",
+        "explanation": "The Consumer side is iPhone and iPad users in the European Union who want useful apps on the devices they already own.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Get Apps",
+        "explanation": "Users want to get the apps they need onto their iPhone or iPad.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice",
+        "explanation": "The DMA increases choice by giving eligible EU Users additional routes for obtaining apps beyond Apple’s own App Store.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Friction / Risk",
+        "explanation": "Different distribution channels can create different support, refund, moderation, payment and trust processes for Users.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Install / Pay",
+        "explanation": "Users install apps and may pay for paid apps, digital goods or subscriptions through the commercial options supported by the chosen distribution route.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "EU / Device",
+        "explanation": "Alternative distribution depends on EU eligibility, a supported iPhone or iPad, an eligible Apple account and the technical requirements of the chosen route.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Stores / Web",
+        "explanation": "EU Users can obtain notarized apps not only from Apple’s App Store but also from authorized alternative app marketplaces and, for eligible Developers, directly from a registered website.",
+        "changed": true,
+        "before": "App Store",
+        "after": "Stores / Web"
+      },
+      "activities": {
+        "value": "Find / Install",
+        "explanation": "Users find an app, choose a source, approve installation and use the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "iPhone / Account",
+        "explanation": "Users bring the Apple device and account required to participate in the iOS or iPadOS app ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Developers",
+        "explanation": "Developers are the Provider side because they create the Apps that Users want.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "60.6M Devs*",
+            "note": "Apple reported 60,597,750 registered Apple developers worldwide in its 2025 App Store Transparency Report. This is not an EU-only or active-developer count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach Users",
+        "explanation": "Developers want to reach iPhone and iPad Users and make their software economically viable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Margin",
+        "explanation": "Additional distribution and payment routes can expand reach and, depending on the chosen route, improve the economics available to Developers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Rules",
+        "explanation": "Developers want access to iPhone and iPad Users without unnecessary cost, restrictions or complex platform rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "App / Sale",
+        "explanation": "Developers provide the App and receive revenue when Users purchase paid Apps, digital goods or services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Terms / Checks",
+        "explanation": "Apps distributed outside Apple’s App Store are still subject to Apple’s Notarization baseline review for security, privacy and platform integrity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Stores / Web",
+        "explanation": "Developers can reach EU Users through Apple’s App Store, authorized alternative app marketplaces and, when eligible, direct Web Distribution.",
+        "changed": true,
+        "before": "App Store",
+        "after": "Stores / Web"
+      },
+      "activities": {
+        "value": "Build / Update",
+        "explanation": "Developers build, maintain and update their Apps and submit them for the checks required by the distribution route they choose.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Code / IP",
+        "explanation": "Developers contribute code, intellectual property, content and the services behind the App.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": false,
+      "enabled_after": true,
+      "actor": {
+        "value": "Stores",
+        "explanation": "Independent alternative app marketplaces become a meaningful external Partner layer because they can distribute Developers’ Apps to EU Users without being the App Provider or the underlying platform Owner.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "8 Stores*",
+            "note": "Apple’s March 2026 DMA compliance report listed eight live alternative app marketplaces in Europe. This is a snapshot, not a ceiling."
+          }
+        ]
+      },
+      "job": {
+        "value": "Build Market",
+        "explanation": "Alternative Stores need to attract enough Developers and enough Users to make their marketplace useful.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Fees",
+        "explanation": "Successful alternative Stores can gain scale and create their own fee or monetization models.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Cost",
+        "explanation": "Alternative marketplace operators inherit responsibilities for moderation, fraud prevention, support, disputes, refunds, infrastructure and customer service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List / Access",
+        "explanation": "Alternative Stores list Apps from Developers and provide Users with another route to discover and install them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Terms / Funds",
+        "explanation": "Marketplace operators require Apple authorization and must satisfy financial, operational and platform requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "APIs / Web",
+        "explanation": "Alternative Stores connect through MarketplaceKit and related Apple APIs and distribute their marketplace app from an authorized website.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Curate / Support",
+        "explanation": "Marketplace operators curate Apps, support Users and Developers, handle disputes and operate the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Store / Server",
+        "explanation": "Alternative Stores contribute a storefront, servers, catalog infrastructure and support operations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Apple",
+        "explanation": "Apple remains the platform Owner because it owns iOS and iPadOS and controls core technical infrastructure even when an App is distributed through somebody else’s marketplace.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "5% Fee*",
+            "note": "Apple announced a 5% Core Technology Commission on specified digital transactions in Apps distributed outside the App Store. The updated terms take effect October 1, 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Platform",
+        "explanation": "Apple’s job is to operate the iOS and iPadOS app platform while keeping it secure, useful to Users and attractive to Developers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Revenue",
+        "explanation": "A larger app ecosystem can make Apple’s devices and operating systems more useful while generating more commercial activity and platform revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Store Bypass",
+        "explanation": "Alternative marketplaces, Web Distribution and alternative payments allow more of the app-distribution and commerce journey to bypass Apple’s own App Store.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Access / Fee",
+        "explanation": "Apple provides access to the underlying platform and can charge for covered commercial activity even when distribution occurs outside its own App Store. Under the August 2026 terms, the Core Technology Commission is 5% on specified digital transactions in alternatively distributed apps beginning October 1, 2026.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Gates",
+        "explanation": "The DMA constrains Apple’s ability to make its own App Store the only ordinary distribution gate, while Apple still controls technical gates such as Notarization, signing, authorization and system permissions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Store / Search",
+        "explanation": "Apple continues to promote Apps through its own App Store using search, rankings, featuring and discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Sign / Secure",
+        "explanation": "Apple signs software, runs Notarization and security checks, maintains APIs and enforces platform requirements across distribution routes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "iOS / APIs",
+        "explanation": "Apple’s critical resources sit underneath competing Stores: iOS, iPadOS, developer tools, software signing and the APIs that distribution routes depend on.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Payment",
+          "explanation": "With alternative payment options, the economic payment can go to the Developer without Apple In-App Purchase, although a third-party payment processor may technically mediate the transfer."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "App",
+          "explanation": "Developers give Users the App. The distribution source can change while the Core Value Unit stays the same."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Fee",
+          "explanation": "Under the announced October 2026 terms, Developers can owe Apple a 5% Core Technology Commission on specified digital sales even when the App was distributed outside Apple’s App Store."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Access",
+          "explanation": "Apple provides Developers access to the operating-system platform, developer tools, signing, Notarization and alternative-distribution technologies."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Access",
+          "explanation": "An alternative marketplace gives Users another route to discover and install Apps."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "App",
+          "explanation": "A Developer can provide a notarized App to an authorized alternative marketplace for distribution."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "APIs",
+          "explanation": "Apple provides authorized alternative marketplaces with MarketplaceKit APIs and system permissions required to install and manage Apps on iOS and iPadOS."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Reports",
+          "explanation": "Alternative marketplaces and Developers report relevant outside transactions to Apple so applicable commissions can be calculated."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "provider",
+        "value": "60.6M Devs*",
+        "note": "Worldwide registered Apple developers in 2025; not EU-only or necessarily active."
+      },
+      {
+        "target": "partner",
+        "value": "8 Stores*",
+        "note": "Alternative marketplace snapshot from Apple’s March 2026 DMA compliance report."
+      },
+      {
+        "target": "owner",
+        "value": "5% Fee*",
+        "note": "Core Technology Commission announced August 18, 2026 and effective October 1, 2026."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "https://www.youtube.com/watch?v=3vHx-6l0a98",
+    "thumbnail": "",
+    "youtube_title": "Watch the story behind the snapshot"
+  },
+  "sources": [
+    {
+      "title": "Changes for apps in the European Union",
+      "publisher": "Apple Developer",
+      "date": "2026-08-18",
+      "url": "https://developer.apple.com/news/?id=gmws0jgp",
+      "note": "Primary announcement for the unified EU business terms and 5% Core Technology Commission effective October 1, 2026."
+    },
+    {
+      "title": "Changes for apps in the European Union",
+      "publisher": "Apple Developer Support",
+      "date": "2026-08",
+      "url": "https://developer.apple.com/support/apps-in-the-eu",
+      "note": "Primary source for alternative payments, alternative marketplaces, Web Distribution, Notarization and the October 2026 business terms."
+    },
+    {
+      "title": "App distribution",
+      "publisher": "European Commission — Digital Markets Act",
+      "date": "",
+      "url": "https://digital-markets-act.ec.europa.eu/developer-portal/app-distribution_en",
+      "note": "Regulatory source for the DMA requirements affecting app distribution and gatekeeper access."
+    },
+    {
+      "title": "Operating an alternative app marketplace in the EU",
+      "publisher": "Apple Developer Support",
+      "date": "2026",
+      "url": "https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/",
+      "note": "Primary source for marketplace authorization, MarketplaceKit, operator responsibilities, transaction reporting and CTC rules."
+    },
+    {
+      "title": "App Store Transparency Report 2025",
+      "publisher": "Apple",
+      "date": "2026",
+      "url": "https://www.apple.com/legal/app-store/transparency/2025/",
+      "note": "Primary source for 60,597,750 registered Apple developers worldwide and App Store transparency metrics."
+    },
+    {
+      "title": "Non-Confidential Summary of DMA Compliance Report — March 2026",
+      "publisher": "Apple",
+      "date": "2026-03",
+      "url": "https://www.apple.com/legal/dma/NCS-March-2026.pdf",
+      "note": "Primary source for the March 2026 snapshot of eight live alternative app marketplaces in Europe."
+    },
+    {
+      "title": "Distributing your app from your website",
+      "publisher": "Apple Developer Documentation",
+      "date": "",
+      "url": "https://developer.apple.com/documentation/marketplacekit/distributing-your-app-from-your-website",
+      "note": "Primary documentation for Web Distribution of eligible iOS and iPadOS Apps in the EU."
+    },
+    {
+      "title": "Reporting tokens and transactions",
+      "publisher": "Apple App Store Connect Help",
+      "date": "",
+      "url": "https://developer.apple.com/help/app-store-connect/making-payments-to-apple/reporting-tokens-and-transactions",
+      "note": "Primary documentation for transaction reporting associated with Apple’s EU alternative-distribution fee model."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Apple’s App Store in Europe — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
