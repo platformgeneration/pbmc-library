@@ -185,7 +185,7 @@
       "enabled_after": true,
       "actor": {
         "value": "Service Partners",
-        "explanation": "External logistics, software, payments, advertising and other service firms can support Sellers or Amazon's marketplace operations without supplying the Product Listing itself.",
+        "explanation": "Amazon-approved third-party service providers and software partners help independent Sellers launch, manage and grow their businesses with services such as advertising, compliance, taxes, cataloging, shipping and automation.",
         "changed": false,
         "before": "",
         "after": "",
@@ -193,7 +193,7 @@
       },
       "job": {
         "value": "Enable Commerce",
-        "explanation": "Service Partners help marketplace participants execute logistics, payments, software integration or promotion.",
+        "explanation": "Service Partners help independent Sellers execute specialist activities that sit outside the core Amazon marketplace.",
         "changed": false,
         "before": "",
         "after": ""
@@ -214,7 +214,7 @@
       },
       "transaction": {
         "value": "Service / Fee",
-        "explanation": "Partners exchange enabling services for commercial compensation or access to marketplace demand.",
+        "explanation": "Independent Sellers purchase software or specialist services from third-party providers; Amazon provides the vetted network and integration environment but is not the recipient of the Partner's core service.",
         "changed": false,
         "before": "",
         "after": ""
@@ -353,16 +353,28 @@
           "explanation": "Shoppers can return reputation and feedback signals that affect seller trust and future demand."
         },
         {
+          "from": "provider",
+          "to": "partner",
+          "value": "Fees / Data",
+          "explanation": "Independent Sellers can pay third-party Service Partners and share the business or marketplace data needed to perform the service."
+        },
+        {
           "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "External service partners provide logistics, software, payment, advertising or other enabling capabilities."
+          "to": "provider",
+          "value": "Tools / Services",
+          "explanation": "Service Partners provide Sellers with software and specialist help for advertising, compliance, taxes, cataloging, shipping and other operating tasks."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Access / Fees",
-          "explanation": "Amazon provides integrations or marketplace-linked demand and compensates or commercially engages supporting partners where applicable."
+          "value": "Access / Rules",
+          "explanation": "Amazon gives approved providers access to the Service Provider Network or Selling Partner Appstore and sets standards for participation."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Compliance",
+          "explanation": "Service Partners must satisfy Amazon's qualification and performance requirements to remain available through the vetted ecosystem."
         }
       ],
       "before": [],
@@ -415,6 +427,13 @@
       "date": "2026",
       "url": "https://digprjsurvey.amazon.com/csad/help/node/GQ37ZCNECJKTFYQV",
       "note": "Primary source for buyer protection on eligible third-party seller purchases."
+    },
+    {
+      "title": "Service Provider Network (SPN)",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://sell.amazon.com/tools/service-provider-network",
+      "note": "Primary source showing that Amazon's vetted third-party Service Provider Network directly helps Sellers launch, manage and grow their Amazon businesses."
     }
   ],
   "related": {

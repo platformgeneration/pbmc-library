@@ -215,7 +215,7 @@
       },
       "transaction": {
         "value": "List / Access",
-        "explanation": "Alternative Stores list Apps from Developers and provide Users with another route to discover and install them.",
+        "explanation": "Alternative Stores receive notarized Apps from Developers, distribute them to eligible Users, and give Developers an additional route to market outside Apple's own App Store.",
         "changed": false,
         "before": "",
         "after": ""
@@ -369,6 +369,12 @@
           "to": "owner",
           "value": "Reports",
           "explanation": "Alternative marketplaces and Developers report relevant outside transactions to Apple so applicable commissions can be calculated."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Distribution",
+          "explanation": "An authorized alternative marketplace gives Developers an additional distribution and update channel to reach eligible EU Users outside Apple's own App Store."
         }
       ],
       "before": [],
@@ -425,7 +431,7 @@
       "publisher": "Apple Developer Support",
       "date": "2026",
       "url": "https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/",
-      "note": "Primary source for marketplace authorization, MarketplaceKit, operator responsibilities, transaction reporting and CTC rules."
+      "note": "Primary source for marketplace authorization and MarketplaceKit. Apple states that authorized marketplaces can securely receive notarized apps from other Apple Developer Program members and distribute them to EU users."
     },
     {
       "title": "App Store Transparency Report 2025",

@@ -190,7 +190,7 @@
       "enabled_after": true,
       "actor": {
         "value": "Commerce Services",
-        "explanation": "Payment, shipping, advertising, software and other service partners support Seller operations and marketplace transactions.",
+        "explanation": "Third-party shipping apps and other commerce-service integrations support Etsy Sellers with order processing, shipping labels, inventory synchronization and related operating tasks.",
         "changed": false,
         "before": "",
         "after": "",
@@ -198,7 +198,7 @@
       },
       "job": {
         "value": "Enable Commerce",
-        "explanation": "Commerce Services make payment, delivery, promotion and seller operations easier to execute.",
+        "explanation": "Commerce Services help Sellers execute shipping, order management and other specialist marketplace operations.",
         "changed": false,
         "before": "",
         "after": ""
@@ -219,7 +219,7 @@
       },
       "transaction": {
         "value": "Service / Fee",
-        "explanation": "Partners provide enabling services and receive fees, transaction volume or commercial exposure.",
+        "explanation": "Sellers connect order data to third-party tools and pay for the relevant service; Partners return shipping, automation or other operational capability.",
         "changed": false,
         "before": "",
         "after": ""
@@ -363,16 +363,28 @@
           "explanation": "Buyer reviews and messages contribute to Seller reputation, trust and repeat demand."
         },
         {
+          "from": "provider",
+          "to": "partner",
+          "value": "Orders / Fees",
+          "explanation": "Etsy Sellers can connect their shop and order data to third-party shipping or commerce tools and pay the provider for its service."
+        },
+        {
           "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "Commerce-service partners provide payments, delivery, software, advertising or other enabling capabilities."
+          "to": "provider",
+          "value": "Shipping / Tools",
+          "explanation": "Third-party partners give Sellers shipping, label, tracking, inventory-sync or other operating tools."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Volume / Access",
-          "explanation": "Etsy's marketplace creates transaction volume and integration opportunities for supporting partners."
+          "value": "API / Access",
+          "explanation": "Etsy provides approved integrations with access to the technical interfaces needed to synchronize Seller shop and shipping data."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Tracking / Data",
+          "explanation": "Integrated partners return shipping and fulfillment data such as tracking information into the Etsy transaction environment."
         }
       ],
       "before": [],
@@ -435,6 +447,13 @@
       "date": "2026",
       "url": "https://www.etsy.com/legal/buyers/",
       "note": "Primary source for buyer-facing marketplace rules and transaction protection context."
+    },
+    {
+      "title": "How to Use a Third-Party Provider to Ship Your Order",
+      "publisher": "Etsy Help",
+      "date": "2026",
+      "url": "https://help.etsy.com/hc/en-us/articles/26654295371031-How-to-Use-a-Third-Party-Provider-to-Ship-Your-Order",
+      "note": "Primary source showing that Etsy Sellers directly connect third-party shipping partners for order management, shipping labels and inventory/tracking synchronization."
     }
   ],
   "related": {

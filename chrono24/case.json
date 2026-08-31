@@ -224,7 +224,7 @@
       },
       "transaction": {
         "value": "Check / Certificate",
-        "explanation": "A Watchmaker inspects an eligible watch and produces an authenticity result and digital certificate.",
+        "explanation": "A verified Watchmaker receives an eligible watch for inspection and returns an authenticity decision and digital certificate. Depending on the Certified route, the Watchmaker works with the Dealer or in a Chrono24 certification center.",
         "changed": false,
         "before": "",
         "after": ""
@@ -378,6 +378,18 @@
           "to": "owner",
           "value": "Verification",
           "explanation": "Verified Watchmakers return authenticity results and certificates into the marketplace trust system."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Watch",
+          "explanation": "For Chrono24 Certified, a Seller sends the sold watch into the certification process; in Partner Certified, the verified Watchmaker works with or for the Dealer before shipment."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Certificate / Trust",
+          "explanation": "The verified Watchmaker returns an authenticity result and certificate that strengthens the Dealer or Seller's offer and reduces Buyer uncertainty."
         }
       ],
       "before": [],
