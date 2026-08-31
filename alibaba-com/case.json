@@ -3,7 +3,7 @@
   "metadata": {
     "company": "Alibaba.com",
     "slug": "alibaba-com",
-    "headline": "How does Alibaba.com make global sourcing safe enough to transact online?",
+    "headline": "How does Alibaba.com turn local suppliers into global exporters?",
     "case_number": "012",
     "published_date": "2026-08-31",
     "updated_date": "2026-08-31",
@@ -15,9 +15,10 @@
     ],
     "topics": [
       "Global Sourcing",
+      "Channel Partners",
       "Trade Assurance",
       "Cross-Border Commerce",
-      "Marketplace Trust"
+      "Supplier Onboarding"
     ],
     "geography": [
       "Global"
@@ -25,89 +26,89 @@
     "language": "en"
   },
   "platform_lesson": {
-    "title": "Trust turns global discovery into global trade",
-    "text": "A global B2B directory becomes much more valuable when participants can move from discovery to protected transaction. Alibaba.com adds verification, messaging, payment protection, logistics and dispute support around supplier listings, reducing the trust gap created by distance and limited prior relationships. The platform lesson is that in high-friction B2B markets, trust infrastructure is not an add-on to matching; it is what converts matching into trade."
+    "title": "Global marketplaces may need local supply infrastructure",
+    "text": "Alibaba.com can expose a Supplier to Buyers in more than 190 countries, but global demand does not remove the local work required to get a business ready for cross-border digital trade. Its authorized Channel Partners help Suppliers with onboarding, KYC, storefront setup, optimization, training and local marketing, while Alibaba.com provides the global marketplace, tools and incentives around that Partner layer. The platform therefore scales international reach without forcing every supply-side capability into the Owner itself. The platform lesson is that a global marketplace can become more scalable by decentralizing local supply activation while centralizing the market."
   },
   "pbmc": {
     "core_value_unit": {
       "value": "Product Listing",
-      "explanation": "The Product Listing is the Core Value Unit: a supplier offer describing a product, specification, price range, minimum order quantity and sourcing terms that a business Buyer can discover and negotiate.",
+      "explanation": "The Product Listing is the Core Value Unit in this B2B marketplace: a Supplier's product offer containing the information a Business Buyer uses to discover the product, contact the Supplier, negotiate specifications and begin a transaction. Alibaba.com also supports RFQs and negotiated quotations, but the listing remains the persistent supply unit that makes the Supplier's offering discoverable.",
       "changed": false,
       "before": "",
       "after": "",
       "metrics": [
         {
           "value": "280M+ Products*",
-          "note": "Alibaba.com's current Trade Assurance page states 280M+ products in the protected sourcing ecosystem. This is a platform-published product count and should not be read as a count of unique manufacturers."
+          "note": "Alibaba.com's current Trade Assurance page states 280M+ products in the Trade Assurance sourcing ecosystem. This is a protected-product scale metric, not necessarily every live listing on Alibaba.com."
         }
       ]
     },
     "consumer": {
       "actor": {
         "value": "Business Buyers",
-        "explanation": "SMEs, retailers, resellers, importers and procurement teams sourcing products or production capacity for business use.",
+        "explanation": "Business Buyers include trade agents, wholesalers, retailers, manufacturers and SMEs sourcing goods or production opportunities across borders.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "37M+ Buyers*",
-            "note": "Alibaba.com's Trade Assurance page states 37M+ have purchased through the service. This is a Trade Assurance purchasing metric, not necessarily the total number of active Alibaba.com buyers."
+            "value": "47M+ Buyers*",
+            "note": "Alibaba Group's FY2026 Form 20-F states that over 47 million Buyers from more than 190 countries sourced business opportunities or completed transactions on Alibaba.com during fiscal year 2026. This is broader than completed purchasing customers alone."
           }
         ]
       },
       "job": {
-        "value": "Source Goods",
-        "explanation": "Business Buyers need to identify suppliers and source products that meet cost, quality and delivery requirements.",
+        "value": "Source Products",
+        "explanation": "Business Buyers need to find Suppliers that can meet product, price, customization, quality, quantity and delivery requirements.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Choice / Price",
-        "explanation": "Alibaba.com gives Buyers access to a broad global supplier base, product variety and opportunities to compare prices and terms.",
+        "value": "Choice / Access",
+        "explanation": "Alibaba.com gives Buyers access to a large cross-border supplier base, product variety, customization and digital sourcing tools.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Quality / Trust",
-        "explanation": "Cross-border B2B sourcing creates uncertainty around supplier reliability, product quality, payment, shipping and dispute resolution.",
+        "value": "Trust / Complexity",
+        "explanation": "A Buyer may never meet the Supplier in person and must manage uncertainty around quality, specifications, payment, delivery and dispute resolution.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Order / Pay",
-        "explanation": "Buyers negotiate terms, place orders and can pay through Alibaba.com's protected transaction flow.",
+        "value": "Inquiry / Payment",
+        "explanation": "The Buyer communicates requirements directly with Suppliers, while protected orders and payment can be executed through Alibaba.com.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Account / Verification",
-        "explanation": "Buyers need usable payment and account access; protected sourcing also depends on eligible suppliers and Trade Assurance order rules.",
+        "value": "Account / Payment",
+        "explanation": "Participation depends on account and payment access, geography and the eligibility conditions of specific transaction and protection services.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Web / App",
-        "explanation": "Buyers source through Alibaba.com's website, app, messaging tools and increasingly AI-assisted sourcing interfaces.",
+        "explanation": "Buyers source through Alibaba.com's website, app, search, RFQ and messaging tools.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Search / Negotiate",
-        "explanation": "Buyers search, compare suppliers, request quotes, negotiate, order, track and resolve issues.",
+        "explanation": "Buyers find Suppliers, compare products, send inquiries or RFQs, negotiate specifications, place orders, pay, arrange shipping and resolve issues.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Specs / Funds",
-        "explanation": "Buyers contribute specifications, quantities, delivery requirements, commercial information and purchasing funds.",
+        "value": "Specs / Budget",
+        "explanation": "Buyers contribute product requirements, quantities, specifications, commercial information, purchasing power and delivery needs.",
         "changed": false,
         "before": "",
         "after": ""
@@ -116,69 +117,69 @@
     "provider": {
       "actor": {
         "value": "Suppliers",
-        "explanation": "Manufacturers, wholesalers and trading businesses provide products and production capacity to global business Buyers.",
+        "explanation": "Suppliers are manufacturers, wholesalers, distributors and other B2B sellers that make products and commercial offers available to overseas Buyers.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "200K+ TA Suppliers*",
-            "note": "Alibaba.com's Trade Assurance page states 200K+ suppliers in the Trade Assurance ecosystem; it is not presented as the total supplier count on Alibaba.com."
+            "value": "240K+ Paying*",
+            "note": "Alibaba Group's FY2026 Form 20-F states that Alibaba.com had over 240,000 paying members from China and around the world as of March 31, 2026. This is a paying-member metric, not every Supplier profile on the marketplace."
           }
         ]
       },
       "job": {
-        "value": "Sell B2B",
-        "explanation": "Suppliers want to convert manufacturing or wholesale capacity into international orders.",
+        "value": "Win B2B Orders",
+        "explanation": "Suppliers want to convert manufacturing, wholesale or distribution capability into qualified cross-border demand and repeat orders.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Global Demand",
-        "explanation": "Alibaba.com provides global discovery, digital marketing, transaction tools and services that can lower the cost of reaching overseas Buyers.",
+        "explanation": "Alibaba.com provides access to overseas Buyers plus storefront, marketing, CRM, Trade Assurance and logistics-related tools.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Visibility / Risk",
-        "explanation": "Suppliers face global competition, buyer qualification challenges, logistics complexity and the cost of building trust remotely.",
+        "value": "Visibility / Friction",
+        "explanation": "Suppliers face competition for inquiries, trust-building costs, onboarding requirements, cross-border logistics and the complexity of converting leads into profitable orders.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Quote / Supply",
-        "explanation": "Suppliers publish offers, quote terms and deliver goods when an order is agreed.",
+        "value": "Listing / Quote",
+        "explanation": "Suppliers publish products, answer inquiries, provide quotations and ultimately supply the goods agreed with the Buyer.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Business / Quality",
-        "explanation": "Suppliers face onboarding, verification, product, trade, performance and protected-order requirements.",
+        "value": "Business / Verification",
+        "explanation": "Supplier participation involves business identity, membership, product and platform requirements; verification badges can require third-party assessment.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Seller Portal / API",
-        "explanation": "Suppliers participate through Alibaba.com seller tools, messaging, storefronts and integrations.",
+        "value": "My Alibaba",
+        "explanation": "Suppliers use My Alibaba, the AliSupplier app, seller tools and supported integrations to manage products, inquiries and orders.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "List / Quote",
-        "explanation": "Suppliers maintain products, respond to inquiries, quote, negotiate, produce, ship and support after-sales issues.",
+        "value": "List / Negotiate",
+        "explanation": "Suppliers publish products, respond to inquiries and RFQs, negotiate, manage orders, produce or source goods, ship and support Buyers.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Products / Capacity",
-        "explanation": "Suppliers contribute product information, manufacturing or wholesale capacity, certifications, pricing and fulfillment capability.",
+        "explanation": "Suppliers contribute product data, manufacturing or wholesale capacity, certifications, pricing, commercial expertise and fulfillment capability.",
         "changed": false,
         "before": "",
         "after": ""
@@ -189,70 +190,70 @@
       "enabled_before": true,
       "enabled_after": true,
       "actor": {
-        "value": "Trade Services",
-        "explanation": "Payment, logistics, inspection and other trade-service providers help global transactions move from digital sourcing to physical fulfillment.",
+        "value": "Channel Partners",
+        "explanation": "Authorized local Channel Partners are the Partner role. They are not the Suppliers of the marketplace's products. They help Suppliers enter and operate on Alibaba.com through onboarding, KYC support, storefront optimization, training, consultancy and local marketing.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "160M+ TA Orders*",
-            "note": "Alibaba.com's Trade Assurance page states more than 160 million Trade Assurance orders. This is a protected-order count, not total Alibaba.com lifetime orders."
+            "value": "200+ Partners*",
+            "note": "Alibaba.com's current Global Channel Partner page states 200+ active Channel Partners and 10K+ Sellers supported. This is the explicit authorized Partner network, not logistics or payment providers embedded elsewhere in Alibaba.com's transaction stack."
           }
         ]
       },
       "job": {
-        "value": "Enable Trade",
-        "explanation": "Trade Services reduce friction around payment, shipment, inspection and after-sales execution.",
+        "value": "Activate Suppliers",
+        "explanation": "Channel Partners reduce the local knowledge and onboarding barriers that prevent Suppliers from successfully participating in global B2B e-commerce.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Volume / Revenue",
-        "explanation": "Global marketplace volume creates demand for transaction, shipping, verification and support services.",
+        "value": "Revenue / Growth",
+        "explanation": "Partners can build service businesses around Supplier onboarding and growth and receive performance-based incentives from Alibaba.com.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Risk / Integration",
-        "explanation": "Cross-border transactions create fraud, compliance, service-quality, customs and integration complexity.",
+        "value": "Targets / Compliance",
+        "explanation": "Partners must maintain certification, service quality, performance and alignment with Alibaba.com's program requirements.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Service / Fee",
-        "explanation": "Trade-service actors provide protected payments, logistics, inspection or support in return for commercial value.",
+        "value": "Support / Data",
+        "explanation": "Channel Partners receive Supplier account and business information needed for onboarding and optimization and return localized operational support.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Compliance / SLA",
-        "explanation": "Partners must meet technical, legal, financial and service-quality requirements.",
+        "value": "Certification / Performance",
+        "explanation": "Partners apply, complete training and certification, and must meet Alibaba.com performance requirements to obtain or retain Partner status and badges.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "API / Network",
-        "explanation": "Trade services connect through Alibaba.com workflows, APIs, logistics networks and commercial integrations.",
+        "value": "Partner Program",
+        "explanation": "Partners operate through Alibaba.com's Channel Partner program, training resources, account-performance tools and regional commercial relationships.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Pay / Ship",
-        "explanation": "Partners process payment, move goods, verify, track or support disputes.",
+        "value": "Onboard / Optimize",
+        "explanation": "Partners help with account setup, KYC, storefront launch, product optimization, training, consultancy, local marketing and lead generation.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Rails / Logistics",
-        "explanation": "Partners contribute payment rails, logistics networks, inspection capacity, data and cross-border operating expertise.",
+        "value": "Local Reach / Expertise",
+        "explanation": "Partners contribute local language, sales capacity, market knowledge, consulting capability and relationships with potential Suppliers.",
         "changed": false,
         "before": "",
         "after": ""
@@ -261,69 +262,69 @@
     "owner": {
       "actor": {
         "value": "Alibaba.com",
-        "explanation": "Alibaba.com operates the global B2B marketplace and is part of Alibaba International Digital Commerce Group.",
+        "explanation": "Alibaba.com owns and governs the international B2B wholesale marketplace. It connects Suppliers to overseas wholesale Buyers and provides sourcing, online transaction, digital marketing, supply-chain fulfillment and related services.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "190+ Markets*",
-            "note": "Alibaba Group states that Alibaba.com served more than 48 million SMEs from over 190 countries and regions in fiscal year 2024."
+            "value": "RMB13.9B Q2*",
+            "note": "Alibaba Group reported RMB13.906 billion (US$2.049 billion) of Global Wholesale revenue for the quarter ended June 30, 2026. Alibaba's filings state that the international/global wholesale business is primarily generated by Alibaba.com, so this is a strong Owner-revenue proxy but not asserted as Alibaba.com-only revenue."
           }
         ]
       },
       "job": {
-        "value": "Enable Trade",
-        "explanation": "Alibaba.com reduces the friction of discovering, evaluating and transacting with business suppliers across borders.",
+        "value": "Scale B2B Trade",
+        "explanation": "Alibaba.com must make cross-border supplier discovery, negotiation and transaction scalable for businesses that often begin with no prior relationship.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Scale / Revenue",
-        "explanation": "More Buyers and Suppliers reinforce marketplace liquidity and create demand for membership, marketing, transaction and trade services.",
+        "value": "Members / Services",
+        "explanation": "The platform earns from Supplier memberships and value-added and customer-management services as trade activity and Supplier adoption expand.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Trust / Friction",
-        "explanation": "B2B marketplace growth is constrained when Buyers cannot trust supplier quality, payment security, shipment or dispute resolution.",
+        "explanation": "Global B2B trade breaks down when Buyers cannot trust Supplier identity, specifications, payment, quality, shipping or dispute resolution.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Match / Protect",
-        "explanation": "Alibaba.com coordinates discovery and negotiation and, through Trade Assurance, can add escrow, protection and dispute support to the transaction.",
+        "explanation": "Alibaba.com coordinates discovery and communication and can move the agreed order into Trade Assurance, payment, escrow and dispute-resolution infrastructure.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
         "value": "Verify / Protect",
-        "explanation": "Alibaba.com uses supplier verification, platform rules, protected-order requirements, dispute processes and product controls to govern participation.",
+        "explanation": "Alibaba.com governs Supplier participation through business verification, platform rules, badges, Trade Assurance conditions, dispute processes and product controls.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
         "value": "Search / Trade",
-        "explanation": "The platform attracts participants through search, digital marketing, trade events, sourcing campaigns and its global B2B brand.",
+        "explanation": "Alibaba.com attracts Buyers and Suppliers through search, digital marketing, trade events, sourcing campaigns and local Channel Partners.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Match / Secure",
-        "explanation": "Alibaba.com operates search, messaging, transaction workflows, Trade Assurance, supplier tools and cross-border services.",
+        "explanation": "Alibaba.com runs product and Supplier discovery, RFQ, messaging, online transactions, Trade Assurance, Seller tools and ecosystem programs.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Network / Data",
-        "explanation": "Its global buyer-supplier network, transaction data, sourcing technology and trade-service infrastructure are central resources.",
+        "explanation": "The global Buyer-Supplier network, product catalog, transaction data, sourcing technology, payment/protection systems and B2B brand are core resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -335,49 +336,61 @@
           "from": "consumer",
           "to": "owner",
           "value": "Order / Pay",
-          "explanation": "Business Buyers place protected orders and payment through Alibaba.com when using its transaction flow."
+          "explanation": "For protected transactions, Business Buyers create or accept the online order and pay through Alibaba.com's payment flow."
         },
         {
           "from": "owner",
           "to": "consumer",
-          "value": "Match / Protect",
-          "explanation": "Alibaba.com provides supplier discovery, transaction infrastructure and Trade Assurance protections for eligible orders."
+          "value": "Search / Protect",
+          "explanation": "Alibaba.com gives Buyers product and Supplier discovery plus Trade Assurance payment, escrow, mediation and refund protections on eligible orders."
         },
         {
           "from": "provider",
           "to": "owner",
-          "value": "Listing / Data",
-          "explanation": "Suppliers provide product listings, company information, quotes and commercial data to the marketplace."
+          "value": "Listings / Fees",
+          "explanation": "Suppliers provide product and company information and paying members purchase annual membership and optional value-added or marketing services."
         },
         {
           "from": "owner",
           "to": "provider",
           "value": "Leads / Payout",
-          "explanation": "Alibaba.com connects Suppliers with buyer demand and releases protected payment when applicable conditions are satisfied."
-        },
-        {
-          "from": "provider",
-          "to": "consumer",
-          "value": "Goods",
-          "explanation": "The Supplier ultimately provides the physical goods or production output to the Business Buyer."
+          "explanation": "Alibaba.com delivers inquiries and RFQs to Suppliers and, for protected orders, releases Buyer payment according to the transaction terms."
         },
         {
           "from": "consumer",
           "to": "provider",
-          "value": "Specs",
-          "explanation": "Business Buyers provide specifications, quantities and sourcing requirements that shape supplier offers."
+          "value": "Specs / Inquiry",
+          "explanation": "Buyers contact Suppliers directly with product requirements, customization requests, quantities and RFQs."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Quote / Goods",
+          "explanation": "Suppliers return quotations and commercial terms and ultimately provide the physical goods agreed with the Buyer."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Account / Data",
+          "explanation": "Suppliers provide the company, KYC, storefront and product information that an authorized Channel Partner needs to onboard and optimize the account."
         },
         {
           "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "Trade-service actors contribute payments, logistics, inspection and other capabilities."
+          "to": "provider",
+          "value": "Onboarding / Growth",
+          "explanation": "Channel Partners directly help Suppliers with onboarding, verification, storefront launch, optimization, training and local marketing."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Volume / Data",
-          "explanation": "Marketplace orders and transaction data create service volume for integrated trade-service partners."
+          "value": "Tools / Incentives",
+          "explanation": "Alibaba.com provides authorized Partners with training, certification, AI-enabled platform tools, performance dashboards and incentive programs."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Sellers / Reach",
+          "explanation": "Channel Partners extend Alibaba.com's local reach by recruiting, onboarding and supporting Suppliers in their markets."
         }
       ],
       "before": [],
@@ -385,29 +398,29 @@
     },
     "metrics": [
       {
+        "target": "owner",
+        "value": "RMB13.9B Q2*",
+        "note": "June-quarter 2026 Global Wholesale revenue; the category is primarily generated by Alibaba.com but is not asserted as Alibaba.com-only."
+      },
+      {
         "target": "consumer",
-        "value": "37M+ Buyers*",
-        "note": "Trade Assurance purchasing metric; not total active Alibaba.com buyers."
+        "value": "47M+ Buyers*",
+        "note": "FY2026 Buyers who sourced business opportunities or completed transactions; not completed Buyers only."
       },
       {
         "target": "provider",
-        "value": "200K+ TA Suppliers*",
-        "note": "Trade Assurance suppliers; not total platform suppliers."
+        "value": "240K+ Paying*",
+        "note": "Alibaba.com paying members as of March 31, 2026; not total Supplier profiles."
       },
       {
         "target": "partner",
-        "value": "160M+ TA Orders*",
-        "note": "Trade Assurance orders."
+        "value": "200+ Partners*",
+        "note": "Current authorized active Channel Partners; page also states 10K+ Sellers supported."
       },
       {
         "target": "core_value_unit",
         "value": "280M+ Products*",
-        "note": "Products shown in Alibaba.com's Trade Assurance sourcing ecosystem."
-      },
-      {
-        "target": "owner",
-        "value": "190+ Markets*",
-        "note": "Alibaba.com served SMEs across more than 190 countries and regions in FY2024."
+        "note": "Products in Alibaba.com's Trade Assurance sourcing ecosystem; not necessarily every live marketplace listing."
       }
     ]
   },
@@ -419,32 +432,46 @@
   },
   "sources": [
     {
-      "title": "Alibaba.com — A leading platform for global B2B e-commerce",
+      "title": "Alibaba Group FY2026 Form 20-F",
+      "publisher": "Alibaba Group / U.S. SEC",
+      "date": "2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+      "note": "Primary regulatory source for Alibaba.com's role, over 47M Buyers in FY2026, over 240K paying members, Supplier monetization and the definition of international wholesale as primarily Alibaba.com."
+    },
+    {
+      "title": "Alibaba Group Announces June Quarter 2026 Results",
       "publisher": "Alibaba Group",
+      "date": "2026-08-20",
+      "url": "https://www.alibabagroup.com/en-US/document-2026456290057781248",
+      "note": "Primary current financial source for RMB13.906B Global Wholesale revenue in the June quarter 2026 and Alibaba's new E-commerce Group reporting structure."
+    },
+    {
+      "title": "Alibaba.com Global Channel Partners",
+      "publisher": "Alibaba.com",
       "date": "2026",
-      "url": "https://home.alibabagroup.com/en-US/about-alibaba-businesses-1747711844698554368",
-      "note": "Primary source for Alibaba.com's B2B role, 48M+ SMEs served in FY2024 and 190+ countries and regions."
+      "url": "https://seller.alibaba.com/in/partner",
+      "note": "Primary source for 200+ active Channel Partners, 10K+ Sellers supported, 190+ markets and direct Supplier services including onboarding, KYC, storefront optimization, training and local marketing."
+    },
+    {
+      "title": "How Sourcing on Alibaba.com Works",
+      "publisher": "Alibaba.com Buyer Central",
+      "date": "2026",
+      "url": "https://buyer.alibaba.com/page/HowItWorks/Page.html",
+      "note": "Primary source for Buyer-Supplier discovery, direct messaging, RFQ, quotations, Trade Assurance, payment, escrow, quality protection, shipping and dispute-resolution mechanics."
+    },
+    {
+      "title": "How to start selling on Alibaba.com",
+      "publisher": "Alibaba.com Seller Central",
+      "date": "2026",
+      "url": "https://seller.alibaba.com/how-to-sell",
+      "note": "Primary source for Supplier listings, direct inquiries and negotiation, My Alibaba, Trade Assurance and the Seller transaction flow."
     },
     {
       "title": "Trade Assurance protects your Alibaba.com orders",
       "publisher": "Alibaba.com",
       "date": "2026",
       "url": "https://tradeassurance.alibaba.com/",
-      "note": "Primary source for 160M+ Trade Assurance orders, 37M+ purchasers, 200K+ suppliers, 280M+ products, escrow and buyer protection."
-    },
-    {
-      "title": "How Sourcing on Alibaba.com Works",
-      "publisher": "Alibaba.com Buyer Central",
-      "date": "2026",
-      "url": "https://buyer.alibaba.com/page/how_it_wroks.html",
-      "note": "Primary source for sourcing, supplier evaluation, order protection and dispute-resolution mechanics."
-    },
-    {
-      "title": "Alibaba Group Business Operations FAQ",
-      "publisher": "Alibaba Group",
-      "date": "2026",
-      "url": "https://www.alibabagroup.com/en-US/faqs-business-operations",
-      "note": "Primary source describing Alibaba's marketplace customers and ecosystem roles."
+      "note": "Primary source for 160M+ Trade Assurance orders, 37M+ purchasers, 200K+ Suppliers, 280M+ products, escrow and Buyer/Supplier transaction protection."
     }
   ],
   "related": {

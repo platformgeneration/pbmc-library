@@ -185,16 +185,17 @@
       "slug": "amazon-marketplace",
       "case_number": "011",
       "company": "Amazon Marketplace",
-      "headline": "How does Amazon turn its own retail infrastructure into a marketplace advantage?",
+      "headline": "Why can multiple sellers share one Amazon product page?",
       "industry": [
         "E-commerce",
         "Marketplace"
       ],
       "topics": [
-        "Hybrid Retail",
+        "Shared Catalog",
+        "Featured Offer",
         "Third-Party Sellers",
-        "Marketplace Infrastructure",
-        "Trust"
+        "Seller Ecosystem",
+        "Marketplace Governance"
       ],
       "status": "published"
     },
@@ -202,16 +203,17 @@
       "slug": "alibaba-com",
       "case_number": "012",
       "company": "Alibaba.com",
-      "headline": "How does Alibaba.com make global sourcing safe enough to transact online?",
+      "headline": "How does Alibaba.com turn local suppliers into global exporters?",
       "industry": [
         "E-commerce",
         "B2B Marketplace"
       ],
       "topics": [
         "Global Sourcing",
+        "Channel Partners",
         "Trade Assurance",
         "Cross-Border Commerce",
-        "Marketplace Trust"
+        "Supplier Onboarding"
       ],
       "status": "published"
     },
@@ -219,15 +221,16 @@
       "slug": "taobao",
       "case_number": "013",
       "company": "Taobao",
-      "headline": "How does Taobao make billions of products navigable?",
+      "headline": "How does Taobao turn entertainment into product discovery?",
       "industry": [
         "E-commerce",
         "C2C Marketplace"
       ],
       "topics": [
+        "Content Commerce",
+        "Livestreaming",
+        "KOLs",
         "Marketplace Discovery",
-        "Merchant Ecosystem",
-        "Livestream Commerce",
         "China E-commerce"
       ],
       "status": "published"
