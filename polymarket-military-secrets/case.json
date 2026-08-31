@@ -1,0 +1,498 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Polymarket & Military Secrets",
+    "slug": "polymarket-military-secrets",
+    "headline": "What if a trader already knows the answer?",
+    "case_number": "010",
+    "published_date": "2026-08-31",
+    "updated_date": "2026-08-31",
+    "snapshot_date": "2026-08-25",
+    "status": "official",
+    "industry": [
+      "Financial Markets",
+      "Prediction Markets"
+    ],
+    "topics": [
+      "Market Integrity",
+      "Insider Trading",
+      "Military Secrets",
+      "Event Contracts",
+      "Platform Governance"
+    ],
+    "geography": [
+      "Global",
+      "United States"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Reward better thinking — not secret access",
+    "text": "Prediction markets need unequal knowledge. Better research, expertise, models, lawful observations and judgment are what make participants disagree and create a market price. But classified or prohibited confidential information is different because other participants cannot legitimately compete for it. Polymarket therefore faces a platform-governance problem inside the information advantage itself: preserve legitimate informational competition while filtering prohibited access. The market can benefit from participants knowing different things, but trust breaks down when an advantage comes from information that other participants could never lawfully obtain."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Event Contract",
+      "explanation": "The Event Contract is the Core Value Unit: a concrete tradable promise tied to an outcome. For example, a YES contract can settle at $1 if the event happens and $0 if it does not. Polymarket defines the market context and rules; Makers make contracts available at prices; Takers accept available offers.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Takers",
+        "explanation": "The Consumer role is the Taker: a participant who accepts an offer already resting in the order book. A Taker can technically be a buyer or seller; the PBMC models the role of taking liquidity rather than a permanent type of person.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Earn Return",
+        "explanation": "The Taker tries to earn a return by taking a contract at a price they believe is attractive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Return / Edge",
+        "explanation": "The Taker gains when their judgment is better than the price they accepted. That edge can come from better research, expertise, models, faster synthesis of public signals or lawful observation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Risk",
+        "explanation": "The Taker can accept a bad price and lose money. A deeper integrity risk appears if the participant on the other side possesses information the Taker could never legitimately obtain.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Payment / Order",
+        "explanation": "The Taker contributes an order and the funds needed for the trade. When the order matches, the contract changes hands through Polymarket's exchange infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Region / Insider",
+        "explanation": "Takers are filtered by geographic restrictions and market-integrity rules. Polymarket prohibits specified trading on confidential information and trading by participants who can influence the outcome.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / API",
+        "explanation": "Takers reach the trading system through Polymarket interfaces and APIs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Assess / Take",
+        "explanation": "The Taker assesses the event and the offered price, then decides whether to take the contract.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Info / Funds",
+        "explanation": "The Taker contributes information, judgment and funds. The information can include public research, expertise, lawful private observations or a private model built from public data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Makers",
+        "explanation": "The Provider role is the Maker: a participant who places a limit order into the market and leaves an offer available for someone else to take.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Earn Return",
+        "explanation": "The Maker also seeks a return, but does so by making a priced Event Contract available to other traders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Return / Reward",
+        "explanation": "Makers can profit from trading judgment and, in eligible fee-enabled markets, can receive maker rebates or liquidity rewards for useful liquidity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Unfair / Loss",
+        "explanation": "The Maker can lose money when the offered price is wrong. If a Taker secretly knows the outcome, that Taker can exploit an offer that looked reasonable to participants relying on legitimate information.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Contract / Price",
+        "explanation": "The Maker makes an Event Contract available at a price using a limit order that waits in the order book until another participant accepts it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Region / Insider",
+        "explanation": "Makers are subject to geographic and integrity filters. Polymarket's rules prohibit trading on stolen confidential information, illegal tips and outcomes a participant can influence, while permitting specified lawful informational advantages.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / API",
+        "explanation": "Makers place offers through Polymarket interfaces and APIs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Analyze / Offer",
+        "explanation": "The Maker analyzes the event and turns a belief into an available transaction by offering a contract at a price.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Info / Funds",
+        "explanation": "Makers contribute information, judgment and funds. Legitimate differences in interpretation are what create offers, trades and price discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Oracle",
+        "explanation": "The Partner is the Oracle: the external resolution mechanism that determines what happened in the real world so the Event Contract can settle. Polymarket currently uses UMA's Optimistic Oracle.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "2h Challenge*",
+            "note": "After an outcome is proposed, Polymarket's UMA resolution process uses a two-hour challenge period before an undisputed proposal can become final. Disputed cases can take longer."
+          }
+        ]
+      },
+      "job": {
+        "value": "Judge Result",
+        "explanation": "The Oracle determines the result according to the resolution rules Polymarket defined for the market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reward",
+        "explanation": "The resolution mechanism uses financial incentives: a successful proposer receives the posted bond back plus a reward.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Wrong / Dispute",
+        "explanation": "A wrong proposal can be challenged. An unsuccessful proposer can lose the bond, and disputed cases can escalate into UMA's wider dispute-resolution process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Bond / Reward",
+        "explanation": "The Oracle mechanism uses bonds and rewards: participants put funds at risk when proposing or challenging an outcome.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Rules / Stake",
+        "explanation": "The Oracle is constrained by the market's written resolution rules, while participants in the resolution process must post the required bond or stake.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "UMA",
+        "explanation": "Polymarket connects to UMA's Optimistic Oracle for market resolution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Propose / Vote",
+        "explanation": "An outcome is proposed. If nobody challenges it during the challenge window it can settle; challenged cases can escalate to UMA's dispute process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Oracle / Stake",
+        "explanation": "The Partner contributes oracle infrastructure and a bonded dispute mechanism that gives the market an external way to determine the winning outcome.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Polymarket",
+        "explanation": "Polymarket is the platform Owner. It defines market context and boundaries, operates exchange infrastructure and sets participation and integrity rules.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "150+ Wallets*",
+            "note": "Reuters reported research identifying more than 150 wallets that may have traded using inside U.S. military information. The researchers said luck and other explanations are possible; the finding is a screening result, not proof that every wallet used inside information."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Market",
+        "explanation": "Polymarket runs the market around Event Contracts: it defines event context and boundaries, provides exchange infrastructure and enforces platform rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fees / Trust",
+        "explanation": "Polymarket benefits from a trusted, active marketplace. In fee-enabled categories it can earn taker fees, while credible rules are important for sustaining participation and liquidity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Law",
+        "explanation": "If ordinary traders believe others secretly know outcomes, the market can feel rigged. Alleged use of classified or protected information also creates legal, regulatory and national-security risk.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Fees / Rebates",
+        "explanation": "Polymarket is not the house taking the opposite side of every trade. In eligible fee-enabled categories, Takers pay fees and part of those fees can fund Maker rebates. Geopolitical and world-event markets are currently fee-free.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Limits",
+        "explanation": "Polymarket defines the market title, resolution source, end date and edge-case rules, and it sets limits on who may trade and what informational advantages or conduct are prohibited.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "News / Social",
+        "explanation": "Markets spread through news coverage, social sharing and referrals, while changing odds can themselves become part of public discussion.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Define / Match",
+        "explanation": "Polymarket defines markets and their boundaries, operates the order book, matches trades and monitors integrity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "CLOB / Data",
+        "explanation": "A key resource is the Central Limit Order Book: the digital list of prices and quantities participants are willing to trade. Polymarket uses it to match orders, while trading data produces the public price signal.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Payment",
+          "explanation": "The Taker gives the Maker the economic countervalue for the matched contract. Polymarket's exchange and collateral infrastructure technically mediates the trade."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Contract",
+          "explanation": "The Maker gives the Taker the Core Value Unit: an Event Contract made available at a price."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order",
+          "explanation": "The Taker gives Polymarket an order that accepts available liquidity at the chosen price."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Context",
+          "explanation": "Polymarket gives the Taker the defined event context and rules so the contract has a shared meaning."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Offer",
+          "explanation": "The Maker gives Polymarket a limit order stating the contract and price they are willing to make available."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Context",
+          "explanation": "Polymarket gives the Maker the market question, outcomes, deadline, rules and exchange infrastructure within which contracts can be offered."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Rules",
+          "explanation": "Polymarket gives the Oracle the resolution rules that define what evidence and outcome should settle the contract."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Outcome",
+          "explanation": "The Oracle gives Polymarket the resolved outcome, allowing winning contracts to settle at $1 and losing contracts at $0."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "150+ Wallets*",
+        "note": "Reuters-reported research finding; suspicion/screening result rather than proof of insider trading by each wallet."
+      },
+      {
+        "target": "partner",
+        "value": "2h Challenge*",
+        "note": "UMA challenge period for an undisputed proposed resolution; disputed cases can take longer."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "https://www.youtube.com/watch?v=fthiDO2uIkg",
+    "thumbnail": "",
+    "youtube_title": "Watch the story behind the snapshot"
+  },
+  "sources": [
+    {
+      "title": "Polymarket Policy — Market Integrity",
+      "publisher": "Polymarket",
+      "date": "2026",
+      "url": "https://integrity.polymarket.com/",
+      "note": "Primary source for Polymarket's insider-trading rules, permitted versus prohibited informational advantages and integrity enforcement."
+    },
+    {
+      "title": "CFTC Charges U.S. Service Member with Insider Trading in Nicolás Maduro-Related Event Contracts",
+      "publisher": "U.S. Commodity Futures Trading Commission",
+      "date": "2026-04-23",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9217-26",
+      "note": "Primary enforcement source. The CFTC complaint alleges an active-duty U.S. Army service member used classified nonpublic information to purchase more than 436,000 YES shares and generated more than $404,000 in profits. Allegations are not a final adjudication."
+    },
+    {
+      "title": "More than 150 Polymarket wallets may have traded on military secrets, research finds",
+      "publisher": "Reuters",
+      "date": "2026-08-20",
+      "url": "https://www.reuters.com/business/finance/more-than-150-polymarket-wallets-may-have-traded-military-secrets-research-finds-2026-08-20/",
+      "note": "Source for the 150+ wallet integrity metric. Reuters reports research-based suspicion, approximately $8M combined profit and a 97.2% average win rate, while noting alternative explanations are possible."
+    },
+    {
+      "title": "Polymarket Prediction Markets Letter",
+      "publisher": "U.S. House Committee on Oversight and Government Reform",
+      "date": "2026-05-21",
+      "url": "https://oversight.house.gov/letter/letter-to-polymarket-ceo-chayne-coplan/polymarket-prediction-markets-letter/",
+      "note": "Congressional scrutiny source covering identity verification, geographic restrictions, suspicious trading and event contracts linked to military operations."
+    },
+    {
+      "title": "What Is Polymarket?",
+      "publisher": "Polymarket Help Center",
+      "date": "2026",
+      "url": "https://help.polymarket.com/en/articles/13364060-what-is-polymarket",
+      "note": "Primary source for the prediction-market and event-contract mechanics used in the PBMC."
+    },
+    {
+      "title": "How Are Prices Calculated?",
+      "publisher": "Polymarket Help Center",
+      "date": "2026",
+      "url": "https://help.polymarket.com/en/articles/13364488-how-are-prices-calculated",
+      "note": "Primary source for order-book pricing, maker/taker mechanics and prices as market-implied probabilities."
+    },
+    {
+      "title": "Trading Fees",
+      "publisher": "Polymarket Help Center",
+      "date": "2026-07-10",
+      "url": "https://help.polymarket.com/en/articles/13364478-trading-fees",
+      "note": "Primary source for taker fees, fee-enabled categories and the current fee-free treatment of geopolitical and world-event markets."
+    },
+    {
+      "title": "Maker Rebates Program",
+      "publisher": "Polymarket Help Center",
+      "date": "2026-07-21",
+      "url": "https://help.polymarket.com/en/articles/13364471-maker-rebates-program",
+      "note": "Primary source for maker rebates funded from taker fees in eligible markets."
+    },
+    {
+      "title": "How Are Prediction Markets Resolved?",
+      "publisher": "Polymarket Help Center",
+      "date": "2026-01-11",
+      "url": "https://help.polymarket.com/en/articles/13364518-how-are-prediction-markets-resolved",
+      "note": "Primary source for UMA Optimistic Oracle resolution, bonds, rewards and the two-hour challenge period."
+    },
+    {
+      "title": "How Are Markets Disputed?",
+      "publisher": "Polymarket Help Center",
+      "date": "2026",
+      "url": "https://help.polymarket.com/en/articles/13364551-how-are-markets-disputed",
+      "note": "Primary source for the dispute process when a proposed market resolution is challenged."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Polymarket & Military Secrets — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

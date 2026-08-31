@@ -162,6 +162,24 @@
         "AI Shopping"
       ],
       "status": "published"
+    },
+    {
+      "slug": "polymarket-military-secrets",
+      "case_number": "010",
+      "company": "Polymarket & Military Secrets",
+      "headline": "What if a trader already knows the answer?",
+      "industry": [
+        "Financial Markets",
+        "Prediction Markets"
+      ],
+      "topics": [
+        "Market Integrity",
+        "Insider Trading",
+        "Military Secrets",
+        "Event Contracts",
+        "Platform Governance"
+      ],
+      "status": "published"
     }
   ]
 }
