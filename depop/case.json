@@ -1,0 +1,551 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Depop",
+    "slug": "depop",
+    "headline": "Can eBay scale Depop without flattening the social marketplace?",
+    "case_number": "027",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
+    "status": "official",
+    "industry": [
+      "Fashion Resale Marketplace",
+      "C2C Marketplace"
+    ],
+    "topics": [
+      "Recommerce",
+      "Social Commerce",
+      "eBay Acquisition",
+      "Gen Z",
+      "Marketplace Governance"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Ownership can change faster than platform architecture",
+    "text": "eBay completed its acquisition of Depop on July 30, 2026, but explicitly said Depop would keep its distinct brand, platform, customer experience and culture. That makes Depop a useful platform case: the corporate owner has changed, yet the marketplace still runs on the same basic architecture of Buyers discovering fashion Listings from Sellers, completing checkout on Depop and relying on trust, payment and protection infrastructure. The strategic question is therefore not whether eBay can simply merge Depop into a larger marketplace. It is whether eBay can add scale and capabilities without weakening the social discovery and community identity that make Depop valuable in the first place."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Fashion Listing",
+      "explanation": "The Fashion Listing is the Core Value Unit: a Seller-created offer combining the item, images, description, condition, price and style signals that Buyers can discover, like, message about and purchase.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "68M+ Items for Sale",
+          "note": "Depop's current Facts and Figures page reports more than 68 million items for sale and up to 600,000 new listings per day."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "Buyers use Depop to discover second-hand fashion through a mix of search, recommendations, social signals and Seller profiles.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "7.0M Active Buyers",
+            "note": "Etsy reported 7.0 million Depop active buyers as of December 31, 2025; Depop's acquisition announcement repeated the 7 million figure."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Unique Fashion",
+        "explanation": "Buyers want affordable or distinctive fashion that fits their taste without relying only on conventional retail catalogs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Style / Value",
+        "explanation": "Depop combines accessibly priced second-hand fashion with individuality, discovery and the ability to buy from people whose style they follow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Fit",
+        "explanation": "Buyers face uncertainty around condition, authenticity, sizing, Seller reliability and whether an item will arrive as described.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Buyers purchase through Depop checkout using supported payment methods; eligible purchases receive Depop Protection.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Market",
+        "explanation": "Access depends on account, payment and location support, while transactions and content must stay within Depop's marketplace rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Buyers access Depop primarily through its mobile app, with web access also available; 92% of 2025 GMS transacted on the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Discover / Like / Buy",
+        "explanation": "Buyers browse recommendations and search, follow Sellers, like items, message, make offers, purchase and review.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Taste / Budget",
+        "explanation": "Buyers contribute purchasing power, fashion preferences, interaction data, social signals and feedback.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Sellers range from people clearing their wardrobes to high-volume resale shops. They create the supply, presentation and style context that make Depop's marketplace distinctive.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "3.2M Active Sellers",
+            "note": "Etsy reported 3.2 million Depop active sellers as of December 31, 2025, up 41.1% year over year."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Fashion",
+        "explanation": "Sellers want to turn clothing they own or source into income while reaching Buyers who value their style and curation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Audience",
+        "explanation": "Depop provides marketplace demand, social discovery, Seller profiles and optional paid visibility through Boosted Listings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Visibility / Fulfilment",
+        "explanation": "Sellers compete for attention and must handle accurate listings, messaging, packing, shipping, disputes and Buyer expectations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listing / Item",
+        "explanation": "Sellers create the Listing and, after a sale, supply and ship the physical fashion item to the Buyer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Identity / Allowed Items",
+        "explanation": "Sellers must meet account and payment requirements and comply with Depop's prohibited-item, counterfeit, dropshipping and content rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Selling Hub / App",
+        "explanation": "Sellers list and manage inventory through the Depop app or web Selling Hub, with tools for offers, discounts, boosting, payments and shipping.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Engage / Ship",
+        "explanation": "Sellers photograph and describe items, price them, respond to Buyers, negotiate, promote Listings and fulfil sold orders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Content",
+        "explanation": "Sellers contribute the fashion item, original photos, product information, pricing, reputation, style and fulfilment effort.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Payment Processors",
+        "explanation": "Payment Processors are the strongest external complement to Depop's transaction model because every protected marketplace purchase depends on secure authorization and settlement. Depop Payments is powered by Stripe in the UK, US and Australia, while PayPal remains the payment rail for sellers outside those markets.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "2 Core Payment Rails",
+            "note": "Current Depop fee documentation names Stripe for Depop Payments in the UK, US and Australia and PayPal for sellers outside those markets."
+          }
+        ]
+      },
+      "job": {
+        "value": "Settle Marketplace",
+        "explanation": "Payment Processors authorize Buyer payments, support risk and identity controls and move Seller proceeds through the marketplace transaction flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Payment Volume",
+        "explanation": "Depop's growing marketplace creates recurring transaction and payout volume for the payment rails supporting checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fraud / Compliance",
+        "explanation": "C2C payments require fraud controls, identity verification, chargeback handling, regulatory compliance and reliable payout execution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Process / Payout",
+        "explanation": "Processors authorize Buyer payments and settle eligible Seller proceeds, including fees and refunds routed through Depop's payment system.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "KYC / Coverage",
+        "explanation": "Participation depends on supported markets, payment methods, identity verification, bank or PayPal account eligibility and compliance requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Depop Payments / PayPal",
+        "explanation": "Payment infrastructure is embedded into checkout and Seller payout flows rather than presented as a separate marketplace destination.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Authorize / Settle",
+        "explanation": "Processors authorize transactions, manage payment risk, support refunds and transfer Seller payouts.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Payment Rails / Risk",
+        "explanation": "They contribute card and wallet connectivity, payment infrastructure, identity and fraud tooling, settlement systems and compliance capabilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Depop (eBay)",
+        "explanation": "eBay completed its acquisition of Depop on July 30, 2026. Depop continues to operate as a distinct brand, platform and customer experience within eBay.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$1.07B 2025 GMS",
+            "note": "Depop generated $1.0749 billion in gross merchandise sales in 2025, up 36.3% year over year, before its acquisition by eBay closed in July 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale Circular Fashion",
+        "explanation": "Depop must grow second-hand fashion transactions while preserving the discovery, culture and peer-to-peer experience that differentiate it from general marketplaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "GMS / Fees",
+        "explanation": "More successful transactions increase marketplace fee, payment and boosting revenue while strengthening liquidity and network effects.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Identity / Trust",
+        "explanation": "Depop must control fraud, counterfeit goods and off-platform leakage while avoiding the loss of cultural distinctiveness as it scales under eBay ownership.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Protect",
+        "explanation": "Depop coordinates discovery, messaging, checkout, payment, protection, dispute handling and Seller payout around each transaction.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "On-Platform / Allowed Items",
+        "explanation": "Depop governs prohibited items, counterfeit and dropshipping rules, honest listing content, community behavior and the requirement to keep protected transactions on-platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Feed / Campaigns",
+        "explanation": "Depop grows demand through personalized discovery, search, app engagement, brand campaigns, creator culture and social media.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Discover / Protect / Monetize",
+        "explanation": "Depop operates recommendations and search, listings, messaging, checkout, payments, trust and safety, Buyer/Seller protection, boosting and Seller tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Community / Data",
+        "explanation": "Its Buyer/Seller network, fashion listing corpus, social and recommendation data, brand identity and marketplace technology are core resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "Buyers place protected orders and pay through Depop checkout."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery / Protect",
+          "explanation": "Depop provides recommendations, search, messaging, checkout, support and Depop Protection for eligible purchases."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Sellers contribute Listings and may pay payment-processing, boosting or market-specific selling fees."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand / Payout",
+          "explanation": "Depop exposes Seller inventory to Buyer demand and coordinates Seller proceeds after transactions."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Offer / Review",
+          "explanation": "Buyers send messages or offers and provide reviews after completed purchases."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Item / Response",
+          "explanation": "Sellers respond to Buyers and supply the purchased fashion item."
+        },
+        {
+          "from": "consumer",
+          "to": "partner",
+          "value": "Funds / Credentials",
+          "explanation": "Buyer payment instructions and funds are processed through the payment rails embedded in Depop checkout."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Auth / Refund",
+          "explanation": "The payment rail confirms authorization and supports refunds when Depop initiates them."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "KYC / Bank",
+          "explanation": "Sellers provide identity and payout-account information needed for settlement."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "The payment rail transfers eligible sale proceeds to the Seller's connected account."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Payment Instructions",
+          "explanation": "Depop routes checkout, refund and payout instructions through its payment providers."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Processing / Status",
+          "explanation": "Payment providers return authorization, settlement and risk status into Depop's transaction workflow."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "$1.07B 2025 GMS",
+        "note": "Reported Depop GMS for 2025."
+      },
+      {
+        "target": "consumer",
+        "value": "7.0M Active Buyers",
+        "note": "Reported active buyers as of December 31, 2025."
+      },
+      {
+        "target": "provider",
+        "value": "3.2M Active Sellers",
+        "note": "Reported active sellers as of December 31, 2025."
+      },
+      {
+        "target": "partner",
+        "value": "2 Core Payment Rails",
+        "note": "Stripe for Depop Payments in the UK, US and Australia; PayPal outside those markets."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "68M+ Items for Sale",
+        "note": "Depop's current Facts and Figures page reports more than 68 million items for sale."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Cases only.pptx — Depop source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "Internal source reconstruction used only as a starting point. It identified Depop, Buyers, fashion Sellers, a broad payment/logistics/content Partner set and the fashion listing as the original CVU."
+    },
+    {
+      "title": "eBay Completes Acquisition of Depop",
+      "publisher": "eBay Inc.",
+      "date": "2026-07-30",
+      "url": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Completes-Acquisition-of-Depop/default.aspx",
+      "note": "Primary current source confirming the completed acquisition and eBay's intention to preserve Depop's distinct brand, platform, customer experience and culture."
+    },
+    {
+      "title": "Etsy 2025 Annual Report",
+      "publisher": "Etsy, Inc.",
+      "date": "2026-02-19",
+      "url": "https://investors.etsy.com/sec-filings/all-sec-filings/content/0001370637-26-000019/etsy-20251231.htm",
+      "note": "Primary SEC source for Depop's 2025 GMS, active Buyer and Seller counts, app share, apparel share and age profile."
+    },
+    {
+      "title": "Facts and figures",
+      "publisher": "Depop",
+      "date": "2026",
+      "url": "https://news.depop.com/who-we-are/facts-and-figures/",
+      "note": "Primary current Depop source for registered-user scale, more than 68M items for sale and up to 600,000 new listings per day."
+    },
+    {
+      "title": "Seller fees and charges",
+      "publisher": "Depop",
+      "date": "2026",
+      "url": "https://depophelp.zendesk.com/hc/en-gb/articles/360001791127-Seller-fees-and-charges",
+      "note": "Primary current source for zero selling fees in the UK, US and Australia, payment-processing charges, Boosting fees, Stripe-powered Depop Payments and PayPal outside the main Depop Payments markets."
+    },
+    {
+      "title": "Depop Protection for buyers",
+      "publisher": "Depop",
+      "date": "2026",
+      "url": "https://depophelp.zendesk.com/hc/en-gb/articles/360038461713-Depop-Protection-for-buyers",
+      "note": "Primary current source for protected on-platform checkout, eligible payment methods and refund conditions."
+    },
+    {
+      "title": "Community Guidelines",
+      "publisher": "Depop",
+      "date": "2026",
+      "url": "https://depophelp.zendesk.com/hc/en-gb/articles/360026370634-Community-Guidelines",
+      "note": "Primary current governance source requiring transactions to stay on Depop and covering respectful behavior, honest listings and prohibited goods."
+    },
+    {
+      "title": "Terms of Service",
+      "publisher": "Depop",
+      "date": "2026-07-02",
+      "url": "https://depophelp.zendesk.com/hc/en-gb/articles/360001773148-Terms-of-Service",
+      "note": "Primary current source defining Depop as a global fashion marketplace and describing platform, transaction, shipping and user rules."
+    },
+    {
+      "title": "Sell on Depop",
+      "publisher": "Depop",
+      "date": "2026",
+      "url": "https://www.depop.com/sell/",
+      "note": "Primary current product source for AI-powered listing, recommendation-driven Buyer matching, zero selling fees in supported markets and Depop Shipping."
+    },
+    {
+      "title": "How payouts work - UK",
+      "publisher": "Depop",
+      "date": "2026",
+      "url": "https://depophelp.zendesk.com/hc/en-gb/articles/25245286495377-How-payouts-work-UK",
+      "note": "Primary current source confirming Depop Payments is powered by Stripe and that Seller payouts require identity verification and a connected bank account."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Depop — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

@@ -1,24 +1,17 @@
-PBMC LIBRARY v2.60 — ALL-CASE TRANSACTION ARROW TWO-CORNER FIX
+DEPOP — CASE 027 — PBMC LIBRARY v2.61 GITHUB UPDATE
 
 Purpose
-- Applies the transaction-arrow geometry correction to every current PBMC case.
-- All arrowheads enter only via a short edge of the relevant Transaction field.
-- Anchor positions stay distributed along that short edge.
-- Every arrow route has at most two corners.
+- Adds Depop as PBMC Case 027 after Carousell 026.
+- Snapshot date: 1 September 2026.
+- Uses the existing shared v18.5 renderer from PBMC Library v2.60.
 
 Included
-- library.json (26 published cases, including Carousell 026)
-- build.py updated to renderer v18.5
-- assets/pbmc-renderer-v18.5.js
-- index.html for every one of the 26 case folders
-- ARROW_GEOMETRY_AUDIT.md
+- library.json updated to include Depop 027
+- depop/case.json
+- depop/index.html
+- depop/pbmc-data.csv
+- depop/citation.bib
 
 Deployment
 - Copy the contents of this ZIP into the pbmc-library repository root, preserving paths.
-- Existing case.json, pbmc-data.csv and citation.bib files do not need to be replaced for this geometry-only update.
-- Older renderer files may remain in the repository; build.py now uses v18.5.
-
-QA
-- 12/12 directed transaction routes verified against short-edge-only anchors.
-- 12/12 directed transaction routes verified with a maximum of two corners each.
-- 26/26 case pages rebuilt with the new shared renderer geometry.
+- The repository should already contain assets/pbmc-renderer-v18.5.js from v2.60.

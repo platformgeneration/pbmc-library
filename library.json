@@ -468,6 +468,24 @@
         "Classifieds"
       ],
       "status": "published"
+    },
+    {
+      "slug": "depop",
+      "case_number": "027",
+      "company": "Depop",
+      "headline": "Can eBay scale Depop without flattening the social marketplace?",
+      "industry": [
+        "Fashion Resale Marketplace",
+        "C2C Marketplace"
+      ],
+      "topics": [
+        "Recommerce",
+        "Social Commerce",
+        "eBay Acquisition",
+        "Gen Z",
+        "Marketplace Governance"
+      ],
+      "status": "published"
     }
   ]
 }
