@@ -311,16 +311,17 @@
       "slug": "chrono24",
       "case_number": "018",
       "company": "Chrono24",
-      "headline": "Why does a watch marketplace need more than reviews to create trust?",
+      "headline": "How can Chrono24 scale trust without authenticating every watch itself?",
       "industry": [
-        "Luxury Resale",
-        "Watch Marketplace"
+        "Luxury Watch Marketplace",
+        "Marketplace"
       ],
       "topics": [
         "Authentication",
-        "Escrow",
         "Certified",
-        "Marketplace Trust"
+        "Trust Infrastructure",
+        "Escrow",
+        "Luxury Resale"
       ],
       "status": "published"
     },
