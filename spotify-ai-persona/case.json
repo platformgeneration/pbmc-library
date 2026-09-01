@@ -1,0 +1,534 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Spotify",
+    "slug": "spotify-ai-persona",
+    "headline": "Spotify is not banning AI Personas. So why stop recommending them?",
+    "case_number": "025",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-08-29",
+    "status": "official",
+    "industry": [
+      "Music Streaming",
+      "Audio Platform"
+    ],
+    "topics": [
+      "AI Personas",
+      "Recommendation",
+      "Platform Governance",
+      "Music Discovery",
+      "Trust"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "On a crowded platform, discovery can matter more than access",
+    "text": "Spotify's new AI Persona rule separates two kinds of platform power that are often treated as the same thing. An artist profile can remain available in the catalog while losing access to editorial and algorithmic recommendation by default. That means the Provider has not been removed from the platform, but its passive reach can fall sharply. With more than 100 million tracks available, the critical gate may therefore be less about whether supply can enter and more about whether the Owner chooses to distribute that supply through discovery. The platform lesson is that recommendation governance can become as consequential as access governance when attention is scarcer than content."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Track",
+      "explanation": "The Track is the Core Value Unit in this music-only boundary: the piece of music a Listener can find, choose and play.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "100M+ Tracks",
+          "note": "Spotify's current company information states that the catalog contains more than 100 million tracks."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Listeners",
+        "explanation": "Listeners are the Consumer side of Spotify's music platform: people who search, play, save, follow and discover music.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "777M Users",
+            "note": "Spotify reported 777 million monthly active users in Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Music",
+        "explanation": "Listeners want to find something worth hearing without manually sorting through the entire catalog.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Fit",
+        "explanation": "The catalog creates value when Spotify can combine large choice with music that fits the Listener's taste or moment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust Risk",
+        "explanation": "Discovery becomes less useful when people cannot tell who is real, what is spam or whether an artist identity is misleading.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listen / Pay",
+        "explanation": "Listening creates attention and engagement; Premium Listeners also pay a subscription.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Plan / Market",
+        "explanation": "Available features depend on subscription plan and market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Listeners primarily access Spotify through the app and web player.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Play",
+        "explanation": "Listeners search, play, skip, save and follow music and artists.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Data",
+        "explanation": "Listening activity contributes attention and taste signals that Spotify can use for personalization and discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Artists",
+        "explanation": "Artists are the Provider side because they create the music Listeners ultimately want. AI Persona profiles are a specific subtype affected by the new policy, not the whole Provider population.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "250K Pro Artists*",
+            "note": "Spotify's 2025 estimate of professional or aspiring professional artists globally. Spotify also states that around 13 million people have uploaded at least one song; the 250K figure is the narrower professional-provider population."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach Fans",
+        "explanation": "Artists want their music to reach Listeners and build an audience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Plays / Fans",
+        "explanation": "Successful discovery can create streams, repeat listening and new fans.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Noise / Fraud",
+        "explanation": "Artists compete for attention while also facing spam, impersonation and music wrongly attached to an artist identity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Music / Data",
+        "explanation": "Artists contribute music and profile information, while Spotify can return audience and performance data through Spotify for Artists.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Licensed",
+        "explanation": "Music must reach Spotify through an authorized label or distributor so the release is properly licensed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "For Artists",
+        "explanation": "Spotify for Artists gives Artists tools to manage profiles, understand audiences and pitch upcoming music.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Release / Pitch",
+        "explanation": "Artists release music, manage their profiles and pitch tracks for discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Songs / Brand",
+        "explanation": "Artists contribute the music itself and the public artist identity around it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Labels / Distributors",
+        "explanation": "Labels and distributors form the rights-and-delivery Partner layer between many Artists and Spotify. They deliver licensed releases, rights metadata and royalty flows without being the end Listener or the underlying Artist.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "67 Label Dist.*",
+            "note": "67 label distributors listed in Spotify for Artists' current Provider Directory. This is not the number of individual record labels represented on Spotify; one distributor can represent many labels."
+          }
+        ]
+      },
+      "job": {
+        "value": "Grow Value",
+        "explanation": "Labels and distributors want the catalog they represent to be heard and generate economic value.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fees / Reach",
+        "explanation": "More listening can generate broader reach and more royalty income for the rights side.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rights Risk",
+        "explanation": "The rights side risks losing control of rights or allowing manipulated activity to divert value toward the wrong content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Rights / Pay",
+        "explanation": "Labels and distributors provide licensed rights and release data, while royalty money flows back through the rights chain.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Catalog",
+        "explanation": "Only music a label or distributor controls or is authorized to deliver belongs in that relationship.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Deals",
+        "explanation": "The relationship with Spotify is built through licensing and distribution agreements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Clear / Track",
+        "explanation": "Labels and distributors clear rights, deliver releases and track usage that drives payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rights / Data",
+        "explanation": "They contribute music rights and metadata needed to identify who owns what.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Spotify",
+        "explanation": "Spotify owns and operates the music platform connecting Listeners, Artists and the rights side and controls search, playlists, recommendation and platform rules.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "€4.8B Rev.",
+            "note": "Spotify reported approximately €4.8 billion in total revenue in Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Match Music",
+        "explanation": "Spotify's job in this model is to match Listener taste with the right Track at the right moment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Revenue",
+        "explanation": "If discovery keeps working, Listeners stay, subscribe and create more opportunities for revenue growth.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Spam",
+        "explanation": "A huge catalog creates trust and quality challenges when spam, impersonation and low-effort content compete for limited Listener attention.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Stream / Settle",
+        "explanation": "Spotify delivers the listening experience, collects revenue and settles a large share of music revenue back to the rights side.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rank / Rules",
+        "explanation": "Spotify sets platform rules and decides how music is ranked and recommended. The announced AI Persona policy adds badges and changes default recommendation eligibility for that subtype.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Playlists",
+        "explanation": "Playlists and recommendation surfaces are among Spotify's strongest tools for moving attention toward particular Tracks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Check",
+        "explanation": "Spotify ranks music and checks signals for policy, identity and quality problems; the AI Persona policy adds profile review and recommendation treatment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Reach",
+        "explanation": "Spotify's audience reach and the taste signals generated by hundreds of millions of Listeners are core platform resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "For Premium Listeners, subscription payment moves to Spotify."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery",
+          "explanation": "Spotify gives Listeners discovery through search, playlists and recommendations."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Profile",
+          "explanation": "Artists connect directly to Spotify with profile information, pitches and artist-management activity."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Data",
+          "explanation": "Spotify returns audience and performance information through Spotify for Artists."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Music",
+          "explanation": "For many Artists, the journey to Spotify begins by sending the release through a label or distributor."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "As listening generates royalties, money can move back to the Artist through the label or distributor relationship."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Royalty",
+          "explanation": "Spotify returns royalties to the rights side, which then distributes money according to its agreements."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Rights",
+          "explanation": "Labels and distributors provide the licensed catalog and rights information Spotify needs to carry the music."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "€4.8B Rev.",
+        "note": "Q2 2026 total Spotify revenue."
+      },
+      {
+        "target": "consumer",
+        "value": "777M Users",
+        "note": "Q2 2026 monthly active users."
+      },
+      {
+        "target": "provider",
+        "value": "250K Pro Artists*",
+        "note": "Spotify's 2025 estimate of professional or aspiring professional artists globally; not the total number of artist profiles."
+      },
+      {
+        "target": "partner",
+        "value": "67 Label Dist.*",
+        "note": "Current Spotify for Artists Provider Directory count of label distributors; not a count of all individual labels on Spotify."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "100M+ Tracks",
+        "note": "Current catalog scale from Spotify company information."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "7uTpfI9nPS0",
+    "youtube_url": "https://www.youtube.com/watch?v=7uTpfI9nPS0",
+    "thumbnail": "https://i.ytimg.com/vi/7uTpfI9nPS0/maxresdefault.jpg",
+    "youtube_title": "Spotify is not banning AI Personas. So why stop recommending them?"
+  },
+  "sources": [
+    {
+      "title": "Spotify AI Persona PBMC Content v1 REVIEW",
+      "publisher": "Platform Generation",
+      "date": "2026-08-29",
+      "url": "",
+      "note": "Primary production workbook for the music-only system boundary, PBMC roles, metrics, transaction topology and AI Persona state."
+    },
+    {
+      "title": "Spotify company information",
+      "publisher": "Spotify",
+      "date": "2026",
+      "url": "https://newsroom.spotify.com/company-info/",
+      "note": "Primary source for platform and catalog scale."
+    },
+    {
+      "title": "Spotify Q2 2026 earnings",
+      "publisher": "Spotify",
+      "date": "2026-08-04",
+      "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+      "note": "Primary source for 777M MAUs and approximately €4.8B Q2 2026 revenue."
+    },
+    {
+      "title": "AI Persona badges and recommendation transparency",
+      "publisher": "Spotify",
+      "date": "2026-08-11",
+      "url": "https://newsroom.spotify.com/2026-08-11/ai-persona-badges-transparency/",
+      "note": "Primary source for AI Persona labeling, review and default recommendation treatment."
+    },
+    {
+      "title": "AI Personas",
+      "publisher": "Spotify for Artists Support",
+      "date": "2026",
+      "url": "https://support.spotify.com/us/artists/article/ai-personas/",
+      "note": "Primary source defining AI Personas and clarifying that the policy concerns public artist identity, not necessarily how the music was made."
+    },
+    {
+      "title": "Spotify strengthens AI protections",
+      "publisher": "Spotify",
+      "date": "2025-09-25",
+      "url": "https://newsroom.spotify.com/2025-09-25/spotify-strengthens-ai-protections/",
+      "note": "Primary source for spam, impersonation and profile-integrity concerns."
+    },
+    {
+      "title": "Getting music on Spotify",
+      "publisher": "Spotify for Artists Support",
+      "date": "2026",
+      "url": "https://support.spotify.com/dm/artists/article/getting-music-on-spotify/",
+      "note": "Primary source for label/distributor delivery and royalty-chain structure."
+    },
+    {
+      "title": "Getting access to Spotify for Artists",
+      "publisher": "Spotify for Artists Support",
+      "date": "2026",
+      "url": "https://support.spotify.com/ie/artists/article/getting-access-to-spotify-for-artists/",
+      "note": "Primary source for Artist profile management, audience information and pitching tools."
+    },
+    {
+      "title": "2025 music-industry payouts: what's next for artists",
+      "publisher": "Spotify",
+      "date": "2026-01-28",
+      "url": "https://newsroom.spotify.com/2026-01-28/2025-music-industry-payouts-whats-next-for-artists/",
+      "note": "Primary source for royalty-flow context between Spotify and the music rights side."
+    },
+    {
+      "title": "Loud & Clear — FAQ on artist population",
+      "publisher": "Spotify",
+      "date": "2026",
+      "url": "https://loudandclear.byspotify.com/faqs/",
+      "note": "Primary source for Spotify's estimate of roughly 250,000 professional or aspiring professional artists, and the broader context that around 13 million people have uploaded at least one song."
+    },
+    {
+      "title": "Spotify for Artists — Provider Directory",
+      "publisher": "Spotify",
+      "date": "2026",
+      "url": "https://artists.spotify.com/providers",
+      "note": "Primary current source for Spotify's list of approved music providers, including the label-distributor category used to derive the 67-provider Partner metric."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Spotify — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

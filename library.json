@@ -428,6 +428,24 @@
         "Platform Access"
       ],
       "status": "published"
+    },
+    {
+      "slug": "spotify-ai-persona",
+      "case_number": "025",
+      "company": "Spotify",
+      "headline": "Spotify is not banning AI Personas. So why stop recommending them?",
+      "industry": [
+        "Music Streaming",
+        "Audio Platform"
+      ],
+      "topics": [
+        "AI Personas",
+        "Recommendation",
+        "Platform Governance",
+        "Music Discovery",
+        "Trust"
+      ],
+      "status": "published"
     }
   ]
 }
