@@ -593,3 +593,140 @@ header nav{
 @media(max-width:700px){
   .case-header{padding-top:20px}
 }
+
+/* v2.75 — intentional search + alphabetical Browse all cases */
+.header-library-actions{
+  min-width:515px;
+}
+.header-search{
+  width:235px;
+}
+.case-search-item{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:18px;
+  padding:10px 12px;
+}
+.case-search-company{
+  display:block;
+  min-width:0;
+  margin:0;
+  font-size:12px;
+  font-weight:650;
+  color:#111;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.case-search-number{
+  flex:0 0 auto;
+  font-size:8.5px;
+  font-weight:650;
+  letter-spacing:.08em;
+  color:#aaa;
+}
+.case-browse{
+  position:relative;
+  flex:0 0 auto;
+}
+.case-browse-button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  height:38px;
+  padding:0 14px;
+  border:1px solid #d8d8d5;
+  border-radius:999px;
+  background:#fff;
+  color:#444;
+  font-family:inherit;
+  font-size:9.5px;
+  font-weight:700;
+  white-space:nowrap;
+  cursor:pointer;
+  transition:border-color .15s ease,color .15s ease,background .15s ease;
+}
+.case-browse-button:hover,
+.case-browse-button[aria-expanded="true"]{
+  border-color:#111;
+  color:#111;
+  background:#fafaf8;
+}
+.case-browse-button span{
+  color:#999;
+  font-size:11px;
+  line-height:1;
+}
+.case-browse-panel{
+  display:none;
+  position:absolute;
+  z-index:101;
+  right:0;
+  top:46px;
+  width:330px;
+  max-height:430px;
+  overflow:auto;
+  background:#fff;
+  border:1px solid #dededa;
+  border-radius:18px;
+  box-shadow:0 18px 45px rgba(0,0,0,.14);
+  padding:7px;
+}
+.case-browse-panel.show{
+  display:block;
+}
+.case-browse-item{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:18px;
+  border-radius:11px;
+  padding:9px 11px;
+}
+.case-browse-item:hover{
+  background:#f6f6f3;
+}
+.case-browse-company{
+  min-width:0;
+  font-size:11.5px;
+  font-weight:600;
+  color:#222;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.case-browse-number{
+  flex:0 0 auto;
+  font-size:8.5px;
+  font-weight:650;
+  letter-spacing:.08em;
+  color:#aaa;
+}
+
+@media(max-width:1180px){
+  .header-library-actions{min-width:430px}
+  .header-search{width:180px}
+  .case-browse-button{padding:0 11px;font-size:9px}
+}
+
+@media(max-width:1000px){
+  header nav .case-browse{
+    width:100%;
+  }
+  header nav .case-browse-button{
+    width:100%;
+    min-height:40px;
+  }
+  header nav .case-browse-panel{
+    position:relative;
+    top:6px;
+    right:auto;
+    left:0;
+    width:100%;
+    max-height:360px;
+    margin-bottom:6px;
+    box-shadow:none;
+  }
+}

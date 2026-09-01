@@ -336,9 +336,13 @@ def case_page(case, css, renderer):
 </nav>
 <div class="header-library-actions" id="headerLibraryActions">
 <div class="case-search header-search" id="caseSearch">
-<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search PBMCs…" autocomplete="off" aria-label="Search PBMC Library">
+<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
+</div>
+<div class="case-browse header-browse" id="caseBrowse">
+<button class="case-browse-button" id="caseBrowseButton" type="button" aria-expanded="false" aria-controls="caseBrowsePanel">Browse all cases <span aria-hidden="true">⌄</span></button>
+<div class="case-browse-panel" id="caseBrowsePanel" aria-label="All PBMC cases"></div>
 </div>
 <a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
 </div>
@@ -634,6 +638,9 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   const input=document.getElementById("caseSearchInput");
   const box=document.getElementById("caseSearchResults");
   const shell=document.getElementById("caseSearch");
+  const browseShell=document.getElementById("caseBrowse");
+  const browseButton=document.getElementById("caseBrowseButton");
+  const browsePanel=document.getElementById("caseBrowsePanel");
   let cases=[];
   let matches=[];
   let active=-1;
@@ -648,12 +655,25 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     return d.innerHTML;
   }}
 
+  // Search uses compact Library metadata. Topics are the case tags.
   function searchable(c){{
-    return [c.company||"",c.headline||""]
+    return [c.company||"",c.case_number||"",c.headline||""]
       .concat(c.industry||[])
       .concat(c.topics||[])
       .join(" ")
       .toLowerCase();
+  }}
+
+  function resultRank(c,q){{
+    const company=(c.company||"").toLowerCase();
+    if(company===q)return 0;
+    if(company.startsWith(q))return 1;
+    if(company.includes(q))return 2;
+    return 3;
+  }}
+
+  function caseNumber(c){{
+    return String(c.case_number||"").trim();
   }}
 
   function applyNavigation(items){{
@@ -677,10 +697,27 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     if(nextName)nextName.textContent=next.company||"Next platform";
   }}
 
-  function draw(){{
+  function closeSearch(){{
+    matches=[];
+    active=-1;
+    if(box){{box.innerHTML="";box.classList.remove("show");}}
+  }}
+
+  function drawSearch(){{
     if(!input||!box)return;
     const q=input.value.trim().toLowerCase();
-    matches=(q ? cases.filter(function(c){{return searchable(c).includes(q);}}) : cases).slice(0,8);
+
+    // Clicking/focusing an empty field must not reveal arbitrary cases.
+    if(!q){{closeSearch();return;}}
+
+    matches=cases
+      .filter(function(c){{return searchable(c).includes(q);}})
+      .sort(function(a,b){{
+        const rank=resultRank(a,q)-resultRank(b,q);
+        if(rank)return rank;
+        return (a.company||"").localeCompare(b.company||"",undefined,{{sensitivity:"base"}});
+      }})
+      .slice(0,6);
     active=-1;
 
     if(!matches.length){{
@@ -690,13 +727,30 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     }}
 
     box.innerHTML=matches.map(function(c,i){{
-      const meta=(c.industry||[]).concat(c.topics||[]).slice(0,4).join(" · ");
       return '<a class="case-search-item" data-i="'+i+'" href="../'+encodeURIComponent(c.slug)+'/">'
         +'<span class="case-search-company">'+escapeHtml(c.company)+'</span>'
-        +'<span class="case-search-meta">'+escapeHtml(meta)+'</span></a>';
+        +'<span class="case-search-number">'+escapeHtml(caseNumber(c))+'</span></a>';
     }}).join("");
 
     box.classList.add("show");
+  }}
+
+  function drawBrowse(){{
+    if(!browsePanel)return;
+    const alphabetical=cases.slice().sort(function(a,b){{
+      return (a.company||"").localeCompare(b.company||"",undefined,{{sensitivity:"base",numeric:true}});
+    }});
+    browsePanel.innerHTML=alphabetical.map(function(c){{
+      return '<a class="case-browse-item" href="../'+encodeURIComponent(c.slug)+'/">'
+        +'<span class="case-browse-company">'+escapeHtml(c.company)+'</span>'
+        +'<span class="case-browse-number">'+escapeHtml(caseNumber(c))+'</span></a>';
+    }}).join("");
+  }}
+
+  function setBrowseOpen(open){{
+    if(!browsePanel||!browseButton)return;
+    browsePanel.classList.toggle("show",!!open);
+    browseButton.setAttribute("aria-expanded",open?"true":"false");
   }}
 
   function setActive(index){{
@@ -709,22 +763,33 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     items[active].scrollIntoView({{block:"nearest"}});
   }}
 
-  function bindSearch(){{
-    if(!input||!box||!shell)return;
-    input.addEventListener("focus",draw);
-    input.addEventListener("input",draw);
-    input.addEventListener("keydown",function(e){{
-      if(e.key==="ArrowDown"){{e.preventDefault();setActive(active+1);}}
-      else if(e.key==="ArrowUp"){{e.preventDefault();setActive(active-1);}}
-      else if(e.key==="Enter"&&active>=0&&matches[active]){{
+  function bindLibraryControls(){{
+    if(input&&box&&shell){{
+      input.addEventListener("focus",function(){{setBrowseOpen(false);drawSearch();}});
+      input.addEventListener("input",drawSearch);
+      input.addEventListener("keydown",function(e){{
+        if(e.key==="ArrowDown"&&matches.length){{e.preventDefault();setActive(active+1);}}
+        else if(e.key==="ArrowUp"&&matches.length){{e.preventDefault();setActive(active-1);}}
+        else if(e.key==="Enter"&&active>=0&&matches[active]){{
+          e.preventDefault();
+          location.href="../"+encodeURIComponent(matches[active].slug)+"/";
+        }}
+        else if(e.key==="Escape"){{closeSearch();input.blur();}}
+      }});
+    }}
+
+    if(browseButton&&browsePanel){{
+      browseButton.addEventListener("click",function(e){{
         e.preventDefault();
-        location.href="../"+encodeURIComponent(matches[active].slug)+"/";
-      }}
-      else if(e.key==="Escape"){{box.classList.remove("show");input.blur();}}
-    }});
+        closeSearch();
+        if(input)input.blur();
+        setBrowseOpen(!browsePanel.classList.contains("show"));
+      }});
+    }}
 
     document.addEventListener("click",function(e){{
-      if(!shell.contains(e.target))box.classList.remove("show");
+      if(shell&&!shell.contains(e.target))closeSearch();
+      if(browseShell&&!browseShell.contains(e.target))setBrowseOpen(false);
     }});
   }}
 
@@ -735,13 +800,15 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
       const payload=await response.json();
       cases=published(Array.isArray(payload)?payload:(payload.cases||[]));
       applyNavigation(cases);
+      drawBrowse();
     }}catch(err){{
       console.warn("PBMC Library index could not be loaded.",err);
       cases=[];
+      drawBrowse();
     }}
   }}
 
-  bindSearch();
+  bindLibraryControls();
   loadRuntimeLibrary();
 }})();
 </script></script></body></html>"""
@@ -775,7 +842,7 @@ def home_page():
 def build():
     library=load_json(ROOT/"library.json")
     css=(ASSETS/"site.css").read_text(encoding="utf-8")
-    renderer=(ASSETS/"pbmc-renderer-v18.9.js").read_text(encoding="utf-8")
+    renderer=(ASSETS/"pbmc-renderer-v18.10.js").read_text(encoding="utf-8")
     pub=[c for c in library["cases"] if c.get("status")=="published"]
     if not pub: raise SystemExit("No published cases.")
     for entry in pub:
