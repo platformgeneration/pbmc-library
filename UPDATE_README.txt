@@ -1,13 +1,21 @@
-PBMC LIBRARY v2.76 — UNCAPPED SEARCH RESULTS
+PBMC LIBRARY v2.78 — GLOBAL PARTNER→OWNER LABEL FIX
+
+Purpose
+- Removes the far-right floating label behavior for the shared Partner → Owner route.
+- Applies to all current PBMC case pages.
 
 What changed
-- Removed the fixed six-result limit from autocomplete.
-- Search now returns every matching published case.
-- Results remain ranked: exact company match, company prefix, company substring, then metadata/tag matches.
-- The dropdown has a responsive maximum height and scrolls when the match set is longer.
-- Empty search focus still shows nothing.
-- Browse all cases remains complete and alphabetically sorted.
-- Search and browse still load dynamically from library.json, so new published cases are included automatically.
+- The shared hard-coded remote parking position for the Partner → Owner route label was removed.
+- That route now uses the same near-route auto-placement logic as the other standard labels.
+- Labels such as `Supply` no longer sit detached at the lower-right edge.
 
-Scope
-All current published case pages were rebuilt because search logic and CSS are embedded in each page.
+Included
+- build.py updated to renderer v18.11
+- assets/pbmc-renderer-v18.11.js
+- library.json
+- ARROW_GEOMETRY_AUDIT.md
+- rebuilt index.html for all current case pages
+
+Deployment
+- Copy the contents of this ZIP into the pbmc-library repository root, preserving paths.
+- Existing case.json, pbmc-data.csv and citation.bib files do not need to be replaced for this shared renderer update.

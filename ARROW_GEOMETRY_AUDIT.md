@@ -1,18 +1,19 @@
-# PBMC Library v2.65 Arrow / Label Geometry Audit
+# PBMC Library v2.78 Arrow Geometry Audit
 
-Rules
-- Transaction arrows start/end only on the short Transaction edges.
-- Short-edge anchors remain distributed.
-- Arrows remain perpendicular to those edges at departure/arrival.
-- Each route has at most two bends.
-- Flow labels must be in white space and may not overlap PBMC fields, actors or CVU.
-- Labels must remain close to their own route so the visual association stays obvious.
+Purpose: remove the remaining far-right floating label behavior for the Partner → Owner transaction route.
 
-Renderer v18.9
-- Difficult owner↔partner labels now use route-attached parking positions beside the lower horizontal route segments.
-- partner→owner parks at (1035,742), directly beside its own lower green segment and outside the Partner/Consumer fields.
-- owner→partner parks at (405,742), directly beside its own lower blue segment and outside the Partner/Provider fields.
-- The normal automatic collision checks remain active.
+Renderer change
+- Removed the shared hard-coded parking position for the `partner>owner` route label.
+- The route now uses the same near-route auto-placement logic as the other standard transaction labels.
+- Result: labels such as `Supply` no longer sit far away at the lower-right edge across cases.
 
-QA
-- 27/27 case pages rebuilt.
+Rules retained
+- Transaction arrows start or end only on the short edge of the relevant Transaction field.
+- Anchor points remain distributed along the short edge.
+- Every route has at most two corners.
+- Routes leave and enter transaction fields perpendicularly.
+- Labels stay in nearby white space and avoid fields and other labels where possible.
+
+QA summary
+- Removed remote shared parking spot for `partner>owner`.
+- Rebuilt all current case pages with renderer v18.11.
