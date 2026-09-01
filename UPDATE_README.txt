@@ -1,14 +1,14 @@
-PBMC LIBRARY v2.63 — ALL-CASE FLOW LABEL VISIBILITY FIX
+PBMC LIBRARY v2.64 — ALL-CASE WHITE-SPACE FLOW LABEL FIX
 
 Purpose
-- Applies the flow-label visibility correction to every current PBMC case.
-- All arrow labels remain in surrounding white space where possible.
-- No arrow label may be hidden behind PBMC fields, actors or the CVU.
+- Applies the flow-label placement correction to every current PBMC case.
+- All arrow labels must remain visible and not overlap PBMC fields.
+- For difficult shared routes, the renderer now prefers predefined white-space parking positions.
 
 Included
 - library.json (27 published cases, including Depop 027)
-- build.py updated to renderer v18.7
-- assets/pbmc-renderer-v18.7.js
+- build.py updated to renderer v18.8
+- assets/pbmc-renderer-v18.8.js
 - index.html for every one of the 27 case folders
 - ARROW_GEOMETRY_AUDIT.md
 
@@ -17,6 +17,7 @@ Deployment
 - Existing case.json, pbmc-data.csv and citation.bib files do not need to be replaced for this renderer/layout update.
 
 QA
-- Flow-label layer is forced above all PBMC boxes at final render time.
+- Flow-label layer stays above PBMC boxes at final render time.
+- Difficult route labels now prefer explicit white-space positions.
 - Short-edge anchors, perpendicular exits/entries and max-two-corner routes remain unchanged.
 - 27/27 case pages rebuilt with the shared renderer update.
