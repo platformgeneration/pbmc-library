@@ -329,16 +329,17 @@
       "slug": "rebag",
       "case_number": "019",
       "company": "Rebag",
-      "headline": "Is Rebag really a marketplace if it buys the inventory itself?",
+      "headline": "Is Rebag really a marketplace if Sellers never meet Buyers?",
       "industry": [
         "Luxury Resale",
-        "Curated Resale"
+        "Managed Resale"
       ],
       "topics": [
+        "Managed Marketplace",
         "Authentication",
-        "Managed Inventory",
-        "Luxury Fashion",
-        "Clair"
+        "Omnichannel Resale",
+        "Bloomingdale’s",
+        "Circular Luxury"
       ],
       "status": "published"
     },

@@ -3,106 +3,107 @@
   "metadata": {
     "company": "Rebag",
     "slug": "rebag",
-    "headline": "Is Rebag really a marketplace if it buys the inventory itself?",
+    "headline": "Is Rebag really a marketplace if Sellers never meet Buyers?",
     "case_number": "019",
-    "published_date": "2026-08-31",
-    "updated_date": "2026-08-31",
-    "snapshot_date": "2026-08-31",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
     "status": "official",
     "industry": [
       "Luxury Resale",
-      "Curated Resale"
+      "Managed Resale"
     ],
     "topics": [
+      "Managed Marketplace",
       "Authentication",
-      "Managed Inventory",
-      "Luxury Fashion",
-      "Clair"
+      "Omnichannel Resale",
+      "Bloomingdale’s",
+      "Circular Luxury"
     ],
     "geography": [
-      "Global"
+      "United States"
     ],
     "language": "en"
   },
   "platform_lesson": {
     "title": "A digital intermediary is not automatically a marketplace",
-    "text": "Rebag connects people who want to sell luxury goods with people who want to buy them, but the transaction architecture is not the same as a peer-to-peer marketplace. Sellers commonly transfer the item into Rebag's controlled buyout or consignment process; Rebag authenticates, prices and lists it, and the Buyer purchases from Rebag's curated inventory. The PBMC therefore shows two exchanges through the Owner rather than one direct Provider-to-Consumer transaction. The platform lesson is that having two participant groups does not by itself make a business a marketplace."
+    "text": "Rebag connects luxury Sellers and Buyers, but it does not simply let the two sides transact with each other. Sellers first deal with Rebag: they receive a Clair quote, send or drop off the item, and Rebag inspects and authenticates it. Rebag then controls the product page, pricing and Buyer experience. In buyout Rebag becomes the inventory owner; in consignment it still controls the selling interface and fulfillment flow. The Bloomingdale’s partnership adds a true ecosystem layer at the edge by placing Rebag’s resale service inside an established luxury retailer and letting both Buyers and Sellers access Rebag there. The platform lesson is that a business can be digitally networked and ecosystem-enabled while its core transaction remains closer to a managed resale pipeline than a classic peer-to-peer marketplace."
   },
   "pbmc": {
     "core_value_unit": {
       "value": "Authenticated Item",
-      "explanation": "The Authenticated Item is the Core Value Unit: a luxury handbag, accessory, watch or jewelry item that Rebag has accepted, vetted and made available for resale.",
+      "explanation": "The Authenticated Item is the Core Value Unit: a specific pre-owned luxury handbag, watch, jewelry piece, accessory or shoe that Rebag has inspected, approved and made available for resale.",
       "changed": false,
       "before": "",
       "after": "",
       "metrics": [
         {
-          "value": "50+ Brands*",
-          "note": "Rebag states that shoppers can browse thousands of one-of-a-kind items from more than 50 designer brands."
+          "value": "Thousands of Items*",
+          "note": "Rebag says it offers thousands of one-of-a-kind items across more than 50 designer brands. No exact live inventory count is published."
         }
       ]
     },
     "consumer": {
       "actor": {
         "value": "Luxury Buyers",
-        "explanation": "Shoppers seeking authenticated pre-owned luxury handbags, accessories, watches and jewelry.",
+        "explanation": "Shoppers seeking vetted pre-owned luxury goods from Rebag’s curated assortment.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": []
       },
       "job": {
-        "value": "Buy Luxury",
-        "explanation": "Buyers want desirable luxury products with lower authenticity risk than an unverified resale transaction.",
+        "value": "Buy Vetted Luxury",
+        "explanation": "Buyers want desirable luxury products at resale prices without carrying the full counterfeit and condition risk themselves.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Trust / Value",
-        "explanation": "Rebag combines curated inventory, authentication, resale-price information and physical/digital shopping channels.",
+        "explanation": "Rebag combines curation, in-house authentication, transparent product condition and multiple buying channels.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Fake / Price",
-        "explanation": "Luxury Buyers face counterfeit risk, condition uncertainty, high prices and uncertain resale value.",
+        "explanation": "Luxury resale creates counterfeit risk, condition uncertainty, high ticket prices and uncertainty around future resale value.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Payment",
-        "explanation": "The Buyer pays Rebag for an item from Rebag's curated inventory.",
+        "explanation": "The Buyer pays Rebag for an item in Rebag’s curated inventory or consignment assortment.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
         "value": "Payment / Availability",
-        "explanation": "Purchase depends on payment, geographic availability and the one-of-a-kind nature of resale inventory.",
+        "explanation": "Purchase depends on payment eligibility, geographic availability and the one-of-a-kind nature of resale inventory.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Web / App / Store",
-        "explanation": "Buyers shop through Rebag.com, the mobile app and physical Rebag locations.",
+        "value": "Web / Store",
+        "explanation": "Buyers shop online, in Rebag boutiques and through Rebag concessions at selected Bloomingdale’s stores.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Browse / Buy",
-        "explanation": "Buyers search, compare, buy, finance, trade or use Rebag's resale-value tools.",
+        "value": "Search / Buy",
+        "explanation": "Buyers browse, compare, purchase and, where eligible, return or later trade items back into Rebag.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Budget / Taste",
-        "explanation": "Buyers contribute purchasing power, style preferences and demand signals.",
+        "explanation": "Buyers contribute purchasing power, brand preferences and demand signals.",
         "changed": false,
         "before": "",
         "after": ""
@@ -111,64 +112,64 @@
     "provider": {
       "actor": {
         "value": "Luxury Sellers",
-        "explanation": "Individuals provide pre-owned luxury items to Rebag through buyout, consignment or trade processes.",
+        "explanation": "Individuals and collectors who bring pre-owned luxury goods into Rebag through Buyout, Consignment or Trade.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": []
       },
       "job": {
-        "value": "Sell Luxury",
-        "explanation": "Sellers want to turn high-value luxury items into cash, credit or consignment proceeds with less transaction friction.",
+        "value": "Resell Luxury",
+        "explanation": "Sellers want to turn luxury items into cash or trade value without creating listings, finding Buyers or authenticating the goods themselves.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Quote / Convenience",
-        "explanation": "Clair can provide rapid pricing guidance or offers, while stores and mail-in flows reduce the effort of finding an end Buyer.",
+        "explanation": "Clair pricing, prepaid shipping, stores and Rebag-managed resale reduce the work required to sell.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Price / Acceptance",
-        "explanation": "Sellers may disagree with Rebag's quote, wait for consignment sale or have items rejected after inspection.",
+        "value": "Price / Payout",
+        "explanation": "Sellers face offer uncertainty, inspection outcomes, payout timing and the possibility that Rebag will decline an item.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Item / Payout",
-        "explanation": "The Seller gives the item to Rebag and receives an offer, eventual consignment payout or trade value depending on the route.",
+        "explanation": "Sellers transfer or consign the item to Rebag; Rebag returns cash, wallet funds or trade credit depending on the selected route.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Brand / Authenticity",
-        "explanation": "Rebag only accepts selected designers and vets condition and authenticity before an item enters inventory.",
+        "value": "Brand / Condition",
+        "explanation": "Rebag accepts only supported categories, brands and items that pass condition and authenticity inspection.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Clair / Store",
-        "explanation": "Sellers can use Clair online, submit images, ship items or visit a Rebag store.",
+        "value": "App / Store",
+        "explanation": "Sellers can submit online, ship with a prepaid label, use Pickup where available or visit a Rebag or participating Bloomingdale’s location.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Quote / Send",
-        "explanation": "Sellers identify the item, request a quote, submit or consign it and accept the resulting commercial terms.",
+        "explanation": "Sellers identify the item, request a quote, accept a route and send or drop off the item.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Luxury Item",
-        "explanation": "The key Provider resource is the authentic pre-owned luxury item plus accurate information about model and condition.",
+        "value": "Item / History",
+        "explanation": "Sellers contribute the physical luxury item plus model, material, condition and provenance information.",
         "changed": false,
         "before": "",
         "after": ""
@@ -179,65 +180,70 @@
       "enabled_before": true,
       "enabled_after": true,
       "actor": {
-        "value": "Commerce Services",
-        "explanation": "Payments, logistics, financing and retail-property services support Rebag's resale operation.",
+        "value": "Bloomingdale’s",
+        "explanation": "Bloomingdale’s is the strongest current complementary Partner because the strategic retail and digital partnership embeds Rebag’s resale assortment and Sell/Trade/Consign service inside an established luxury retailer. It expands both demand access and supply access rather than merely supplying generic infrastructure.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "7 Locations*",
+            "note": "Rebag’s current store directory lists seven Rebag-at-Bloomingdale’s locations. This is the current physical partner footprint, not all Bloomingdale’s stores."
+          }
+        ]
       },
       "job": {
-        "value": "Enable Resale",
-        "explanation": "Service Partners help Rebag move money, goods and customers across online and physical channels.",
+        "value": "Add Circular Luxury",
+        "explanation": "Bloomingdale’s can add authenticated resale to its first-hand luxury proposition without building the sourcing, pricing and authentication system itself.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Volume / Revenue",
-        "explanation": "High-value resale creates payment, shipping, financing and retail-service demand.",
+        "value": "Traffic / Assortment",
+        "explanation": "Rebag adds ultra-luxury resale assortment, circularity and additional reasons for customers to visit or transact.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Fraud / Loss",
-        "explanation": "Luxury goods create high exposure to fraud, chargebacks, loss, damage and service errors.",
+        "value": "Brand / Experience",
+        "explanation": "The partner has to preserve a premium retail experience while integrating pre-owned inventory and resale services.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Service / Fee",
-        "explanation": "Partners provide enabling services to Rebag in return for commercial compensation.",
+        "value": "Retail Access",
+        "explanation": "Bloomingdale’s provides physical and digital customer access; Rebag supplies authenticated inventory and resale capability.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Security / Quality",
-        "explanation": "Partners need reliability, security and service quality appropriate to high-value goods.",
+        "value": "Store / Brand Fit",
+        "explanation": "The partnership is limited to selected stores and categories that fit the luxury retail environment.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Integration",
-        "explanation": "Partners connect through payment, logistics, retail and technical integrations.",
+        "value": "Concession / Online",
+        "explanation": "Rebag appears in dedicated Bloomingdale’s concessions and on Bloomingdales.com.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Pay / Deliver",
-        "explanation": "Partners process payments, ship, finance, insure or support physical retail.",
+        "value": "Sell / Service",
+        "explanation": "Bloomingdale’s surfaces Rebag inventory and gives customers a place to buy, consign, trade or sell eligible items.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Rails / Network",
-        "explanation": "Partners contribute transaction rails, delivery networks, real estate or operational infrastructure.",
+        "value": "Stores / Customers",
+        "explanation": "Bloomingdale’s contributes retail locations, digital reach, luxury footfall and brand credibility.",
         "changed": false,
         "before": "",
         "after": ""
@@ -246,7 +252,7 @@
     "owner": {
       "actor": {
         "value": "Rebag",
-        "explanation": "Rebag is the central buyer, curator, authenticator and reseller in the transaction. Unlike a classic peer-to-peer marketplace, it often takes the item into its own controlled inventory flow before selling it onward.",
+        "explanation": "Rebag is the central buyer, consignor interface, authenticator, curator and reseller. It deliberately stands between luxury Sellers and Buyers rather than leaving the transaction peer-to-peer.",
         "changed": false,
         "before": "",
         "after": "",
@@ -254,56 +260,56 @@
       },
       "job": {
         "value": "Curate Resale",
-        "explanation": "Rebag turns heterogeneous luxury supply into a standardized, trusted resale assortment.",
+        "explanation": "Rebag turns heterogeneous secondhand luxury supply into a standardized, authenticated retail assortment.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Margin / Trust",
-        "explanation": "By controlling pricing, authentication and the customer experience, Rebag can earn resale margin and build a premium trust brand.",
+        "explanation": "Controlling pricing, authentication and presentation can generate resale margin and reinforce a premium trust brand.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Inventory / Risk",
-        "explanation": "Taking control of goods creates inventory, authentication, pricing, return and working-capital risk that a lighter marketplace can push to participants.",
+        "explanation": "Buyout and managed consignment create authentication, pricing, return, storage and working-capital risk that lighter marketplaces can leave with participants.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Buy / Resell",
-        "explanation": "Rebag buys, consigns or accepts luxury items from Sellers and then resells authenticated inventory to Buyers.",
+        "explanation": "Rebag acquires or consigns luxury items from Sellers and resells the authenticated inventory to Buyers.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
-        "value": "Brand / Vetting",
-        "explanation": "Rebag controls accepted brands, condition standards, authentication, pricing logic and item eligibility.",
+        "value": "Vet / Price",
+        "explanation": "Rebag controls accepted brands and categories, authentication, condition standards, pricing logic and item eligibility.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
-        "value": "Search / Stores",
-        "explanation": "Rebag attracts demand through digital marketing, Clair reports, its app, luxury content and physical retail.",
+        "value": "Search / Retail",
+        "explanation": "Rebag attracts participants through digital discovery, Clair content, its own stores and strategic retail distribution.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Quote / Authenticate",
-        "explanation": "Rebag prices, vets, authenticates, photographs, lists, stores and sells items.",
+        "explanation": "Rebag prices, inspects, authenticates, photographs, lists, stores and sells luxury items.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Clair / Experts",
-        "explanation": "Clair pricing data, authentication expertise, luxury inventory, physical stores and operating know-how are central resources.",
+        "explanation": "Clair pricing data, in-house authentication expertise, controlled inventory and retail operations are core resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -315,37 +321,61 @@
           "from": "consumer",
           "to": "owner",
           "value": "Payment",
-          "explanation": "Luxury Buyers pay Rebag for authenticated inventory."
+          "explanation": "Luxury Buyers pay Rebag for vetted inventory."
         },
         {
           "from": "owner",
           "to": "consumer",
           "value": "Authenticated Item",
-          "explanation": "Rebag provides the vetted luxury item to the Buyer."
+          "explanation": "Rebag provides the inspected and Rebag-approved luxury item to the Buyer."
         },
         {
           "from": "provider",
           "to": "owner",
           "value": "Luxury Item",
-          "explanation": "Luxury Sellers send or bring items to Rebag for buyout, consignment or trade."
+          "explanation": "Luxury Sellers send, drop off, consign or trade eligible items into Rebag’s controlled resale flow."
         },
         {
           "from": "owner",
           "to": "provider",
           "value": "Quote / Payout",
-          "explanation": "Rebag provides a quote and pays or credits the Seller according to the selected resale route."
+          "explanation": "Rebag returns a quote and, after acceptance and inspection, cash, wallet funds or trade credit depending on the route."
+        },
+        {
+          "from": "consumer",
+          "to": "partner",
+          "value": "Purchase / Visit",
+          "explanation": "At the Bloomingdale’s channel, Buyers bring shopping demand and can purchase Rebag inventory in-store or online."
         },
         {
           "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "Commerce partners provide payment, logistics, financing or retail support."
+          "to": "consumer",
+          "value": "Retail Access",
+          "explanation": "Bloomingdale’s gives Buyers additional physical and digital access to Rebag’s resale assortment."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Item / Visit",
+          "explanation": "At participating Bloomingdale’s locations, Sellers can bring eligible luxury items into the Rebag sell, trade or consignment process."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Sell Access",
+          "explanation": "Bloomingdale’s provides an additional physical access point where Providers can initiate Rebag’s resale process."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Fees / Volume",
-          "explanation": "Rebag creates transaction and service volume for supporting partners."
+          "value": "Inventory / Service",
+          "explanation": "Rebag supplies authenticated resale inventory and the operational capability behind Sell, Trade and Consign."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Stores / Customers",
+          "explanation": "Bloomingdale’s contributes retail concessions, online reach and an established luxury customer base."
         }
       ],
       "before": [],
@@ -353,9 +383,14 @@
     },
     "metrics": [
       {
+        "target": "partner",
+        "value": "7 Locations*",
+        "note": "Current Rebag-at-Bloomingdale’s physical locations listed by Rebag; not all Bloomingdale’s stores."
+      },
+      {
         "target": "core_value_unit",
-        "value": "50+ Brands*",
-        "note": "Rebag sells thousands of one-of-a-kind items across 50+ designer brands."
+        "value": "Thousands of Items*",
+        "note": "Current Rebag public description of its one-of-a-kind inventory; exact live inventory count not disclosed."
       }
     ]
   },
@@ -367,32 +402,74 @@
   },
   "sources": [
     {
-      "title": "What do you sell at Rebag?",
+      "title": "Cases only.pptx — Rebag source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "Internal source reconstruction used only as a starting point. The final Partner and topology were independently re-derived from current public evidence."
+    },
+    {
+      "title": "Selling with Rebag",
       "publisher": "Rebag",
-      "date": "2026-02-03",
-      "url": "https://support.rebag.com/hc/en-us/articles/360037852331-What-do-you-sell-at-Rebag",
-      "note": "Primary source for current product categories, thousands of one-of-a-kind items, 50+ designer brands and Rebag-approved inventory."
+      "date": "2026",
+      "url": "https://www.rebag.com/selling-with-rebag/",
+      "note": "Primary current source for Rebag’s three seller routes: Consign, Trade and Buyout."
     },
     {
       "title": "How does consignment work?",
       "publisher": "Rebag",
       "date": "2026-01-14",
       "url": "https://support.rebag.com/hc/en-us/articles/19687840606477-How-does-consignment-work",
-      "note": "Primary source for Clair offers, item submission, inspection, listing and consignment payout flow."
+      "note": "Primary source for Clair quotes, item shipment to Rebag, inspection, listing by Rebag and post-sale Seller payment."
     },
     {
-      "title": "Payment / Selling with Rebag",
+      "title": "What happens after accepting the quote?",
+      "publisher": "Rebag",
+      "date": "2026-02-03",
+      "url": "https://support.rebag.com/hc/en-us/articles/360037893391-What-happens-after-accepting-the-quote",
+      "note": "Primary source for prepaid shipping labels, store drop-off and Rebag inspection after receipt."
+    },
+    {
+      "title": "Rebag Authenticity",
       "publisher": "Rebag",
       "date": "2026",
-      "url": "https://www.rebag.com/payment/",
-      "note": "Primary source for Rebag's vetting, authentication, buying and store processes."
+      "url": "https://support.rebag.com/hc/en-us/articles/360037480012-Rebag-Authenticity",
+      "note": "Primary source showing authentication is performed in-house by Rebag experts, not by a distinct external Partner."
     },
     {
-      "title": "The 2025 Clair Report",
+      "title": "What do you sell at Rebag?",
       "publisher": "Rebag",
-      "date": "2025",
-      "url": "https://www.rebag.com/clair-report/by-the-numbers",
-      "note": "Primary source for Clair as Rebag's proprietary luxury appraisal software and its data-driven pricing role."
+      "date": "2026-02-03",
+      "url": "https://support.rebag.com/hc/en-us/articles/360037852331-What-do-you-sell-at-Rebag",
+      "note": "Primary source for thousands of one-of-a-kind items across 50+ designer brands."
+    },
+    {
+      "title": "About the Bloomingdale’s partnership",
+      "publisher": "Rebag",
+      "date": "2024-08-08",
+      "url": "https://support.rebag.com/hc/en-us/articles/29095427800077-About-the-partnership",
+      "note": "Primary source for the strategic retail/digital partnership and the ability to buy, consign, trade and sell through participating Bloomingdale’s locations."
+    },
+    {
+      "title": "Rebag Store Locations",
+      "publisher": "Rebag",
+      "date": "2026",
+      "url": "https://www.rebag.com/store/",
+      "note": "Primary current source for the seven Rebag-at-Bloomingdale’s physical locations used in the Partner metric."
+    },
+    {
+      "title": "Rebag and Bloomingdale’s Collaborate to Expand Access to the Luxury Resale Market",
+      "publisher": "Rebag",
+      "date": "2024-08-08",
+      "url": "https://www.prnewswire.com/news-releases/rebag-and-bloomingdales-collaborate-to-expand-access-to-the-luxury-resale-market-302217597.html",
+      "note": "Rebag-issued announcement describing the partnership as a strategic retail and digital relationship between first-hand and second-hand luxury."
+    },
+    {
+      "title": "Payment methods",
+      "publisher": "Rebag",
+      "date": "2026-01-21",
+      "url": "https://support.rebag.com/hc/en-us/articles/360037480272-What-payment-methods-do-you-accept",
+      "note": "Primary source used to compare financing/payment providers against other Partner candidates; they remain optional checkout services rather than the selected Partner role."
     }
   ],
   "related": {
