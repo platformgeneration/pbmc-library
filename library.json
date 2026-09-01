@@ -540,6 +540,25 @@
         "Marketplace Trust"
       ],
       "status": "published"
+    },
+    {
+      "slug": "meta-teen-feed",
+      "case_number": "031",
+      "company": "Meta Teen Feed",
+      "headline": "Can governments regulate a network effect?",
+      "industry": [
+        "Social Media",
+        "Content Platform"
+      ],
+      "topics": [
+        "Network Effects",
+        "Teen Safety",
+        "Regulation",
+        "Social Media",
+        "Content Discovery",
+        "Parental Controls"
+      ],
+      "status": "published"
     }
   ]
 }

@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Meta Teen Feed",
+    "slug": "meta-teen-feed",
+    "headline": "Can governments regulate a network effect?",
+    "case_number": "031",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
+    "status": "official",
+    "industry": [
+      "Social Media",
+      "Content Platform"
+    ],
+    "topics": [
+      "Network Effects",
+      "Teen Safety",
+      "Regulation",
+      "Social Media",
+      "Content Discovery",
+      "Parental Controls"
+    ],
+    "geography": [
+      "United States"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Regulation can reach the feedback loop",
+    "text": "Meta's teen social feed is a useful example of regulation acting on platform mechanics rather than only on content. Creators supply content, Meta distributes it, teens generate engagement signals, and those signals help Meta improve matching and sustain creator reach. The 2026 settlement does not remove that loop, but it constrains teen time, changes feed defaults, strengthens age assurance and gives parents more control. The platform question is therefore whether regulation can weaken the reinforcing engagement loop while making participation more acceptable to families."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Content",
+      "explanation": "Content is the Core Value Unit: posts, Reels, Stories and other items that creators publish and that Meta can rank and distribute to teen users across the bounded Facebook and Instagram feed experience.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Teens",
+        "explanation": "Teenagers under 18 using Facebook and Instagram are the Consumer role in this bounded model. They receive, consume and react to content.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Connect",
+        "explanation": "Teens use the social feed to connect with people and keep up with topics, creators and communities they care about.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fun / Belong",
+        "explanation": "The positive outcome is entertainment together with a sense of connection or belonging.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Harm / Overuse",
+        "explanation": "The central tension is that useful connection can become excessive use or expose teens to harmful experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Time / Data",
+        "explanation": "While using the feed, teens contribute attention and behavioral signals such as watching, pausing, liking, skipping and sharing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Age / Parent",
+        "explanation": "The settlement strengthens age assurance and makes parental permission important for lifting major default restrictions on teen accounts.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Feed",
+        "explanation": "The bounded experience is accessed through Facebook and Instagram Feed, Reels, Stories and Explore. Direct messaging is deliberately outside this model because several settlement restrictions exclude it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Scroll / React",
+        "explanation": "Teens scroll, watch and react to content, generating the engagement behavior that sustains the feed loop.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time",
+        "explanation": "Time and attention are the thesis-critical Consumer resources because the settlement directly constrains how much time teens can spend in the bounded feed experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Creators",
+        "explanation": "Creators are the Provider side: public creators and other eligible accounts supplying discoverable posts, Reels, Stories and related feed content.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Reach Fans",
+        "explanation": "Creators publish because they want their work to reach an audience and help them build a following.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Teen Reach",
+        "explanation": "Creators gain distribution to teen audiences. If the settlement reduces teen time and engagement at the margin, that segment of potential reach can weaken.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Noise / Rules",
+        "explanation": "Creators compete with very large amounts of content while operating within Meta's platform and teen-safety rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Posts / Reach",
+        "explanation": "Creators provide content to Meta and seek distribution and audience reach in return.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Rules",
+        "explanation": "Accounts and content must comply with Meta policies, including restrictions on what may be shown to teens.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Create",
+        "explanation": "Creators publish through Meta's creation and professional tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Post / Reply",
+        "explanation": "Creators publish repeatedly, respond to audiences and adapt content based on reaction and distribution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Content / Brand",
+        "explanation": "Creators contribute the supply Meta cannot create by itself: content, identity, credibility and audience affinity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Parents",
+        "explanation": "Parents are a governance-enabling Partner in this teen-specific platform model. Through supervision tools and permission rights, they can make teen participation more acceptable and determine whether some protective defaults may be changed.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "2x+ Superv.*",
+            "note": "Meta said in May 2026 that the number of US teens enrolled in parental supervision had more than doubled year over year. This indicates supervision adoption rather than the absolute number of parents."
+          }
+        ]
+      },
+      "job": {
+        "value": "Protect Teens",
+        "explanation": "Parents want their teenagers to remain connected without giving up safety and appropriate limits.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Control",
+        "explanation": "The settlement strengthens the information and control parents can exercise over important teen-account settings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Harm / Conflict",
+        "explanation": "Parents must balance protection against the possibility of recurring conflict over devices, limits and social participation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Consent / Limits",
+        "explanation": "Parents can approve changes, set limits or leave protective restrictions in place.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Guardian",
+        "explanation": "The role exists because the person is the parent or guardian of a supervised teen account.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Family Ctr",
+        "explanation": "Family Center is Meta's main interface for parental supervision and related controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Set / Review",
+        "explanation": "Parents review activity and settings, set limits and decide whether protective defaults should change.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Trust",
+        "explanation": "Parents contribute supervision time and the family relationship needed to make guidance and controls workable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Meta",
+        "explanation": "Meta owns and operates the bounded Facebook and Instagram social-feed layer between creators and teen users.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "~$18B Deal*",
+            "note": "Meta describes the court-approved agreement as approximately $18 billion over ten years. About $12.7B is allocated to participating states and about $5.3B is conditional on specified TikTok and YouTube actions and matching payments."
+          }
+        ]
+      },
+      "job": {
+        "value": "Match Content",
+        "explanation": "Meta's platform job is to match people with content they are likely to value through discovery and recommendation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Ads",
+        "explanation": "Sustained engagement supports usage, creator participation and the advertising opportunities that drive most of Meta's revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rival Shift",
+        "explanation": "A platform-specific restriction can shift some teen attention toward competing apps. Meta explicitly argues that teens move between apps when one service becomes more restrictive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Rank / Serve",
+        "explanation": "Meta selects, ranks and serves personalized content back to the teen user.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "2h / Night",
+        "explanation": "The court-approved baseline introduces a two-hour cumulative daily limit across Facebook and Instagram and a midnight-to-6am Night Mode, alongside stronger age assurance and parental controls. A stricter one-hour-per-app state is conditional on peer adoption.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Push",
+        "explanation": "Push notifications are an important re-engagement channel. The settlement mutes most notifications during school hours and therefore directly constrains this return mechanism.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Check",
+        "explanation": "Meta ranks content and checks age, account, safety and policy signals across the teen experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Graph",
+        "explanation": "Behavioral data and the social/interest graph are central resources for discovery, recommendation and engagement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Signals",
+          "explanation": "Teen scrolling, viewing, liking, skipping and sharing generate behavioral signals for Meta."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Content",
+          "explanation": "Meta ranks and serves a personalized stream of creator content to teens."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Content",
+          "explanation": "Creators supply posts, Reels, Stories and other discoverable content to Meta."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Reach",
+          "explanation": "Meta provides creators with distribution and audience reach."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Controls",
+          "explanation": "Meta gives parents supervision information and controls over parts of the teen experience."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Consent",
+          "explanation": "Parents approve or retain restrictions, and those decisions change how the teen account operates."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "Sg_9up3vVkc",
+    "youtube_url": "https://youtu.be/Sg_9up3vVkc",
+    "thumbnail": "https://i.ytimg.com/vi/Sg_9up3vVkc/hqdefault.jpg",
+    "youtube_title": "Can governments regulate a network effect?"
+  },
+  "sources": [
+    {
+      "title": "Our Agreement With Bipartisan Attorneys General: Calling on TikTok and YouTube to Join Us in Supporting Teens",
+      "publisher": "Meta",
+      "date": "2026-08-26",
+      "url": "https://about.fb.com/news/2026/08/agreement-with-state-attorneys-general-supporting-teens/",
+      "note": "Primary source for the settlement, teen time limits, Night Mode, School Mode, feed controls, age assurance, parental controls and financial structure."
+    },
+    {
+      "title": "New Supervision Tools Give Parents Insights Into Their Teen’s Algorithm and More",
+      "publisher": "Meta",
+      "date": "2026-05",
+      "url": "https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/",
+      "note": "Primary source for the Parents partner role, Family Center supervision and the growth in US teen supervision enrollment."
+    },
+    {
+      "title": "Strengthening Teen Accounts with New Safety Updates on Instagram and Facebook",
+      "publisher": "Meta",
+      "date": "2026-06",
+      "url": "https://about.fb.com/news/2026/06/strengthening-teen-accounts-with-new-safety-updates-on-instagram-and-facebook/",
+      "note": "Primary source for the existing Teen Account protections and teen-specific content and safety settings."
+    },
+    {
+      "title": "Creator Fast Track: Grow Your Audience and Earn Money on Facebook",
+      "publisher": "Meta",
+      "date": "2026-03",
+      "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+      "note": "Primary source for creator reach and audience-growth incentives."
+    },
+    {
+      "title": "Meta Platforms 2025 Annual Report",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "note": "Primary filing source for engagement, discovery/recommendation and Meta's advertising-dependent business economics."
+    },
+    {
+      "title": "Attorney General Bonta Secures Transformative Settlement with Meta",
+      "publisher": "California Department of Justice",
+      "date": "2026-08",
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-transformative-17-billion-settlement-meta",
+      "note": "Government source for the states' allegations, settlement objectives and youth-safety rationale."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Meta Teen Feed — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
