@@ -3,7 +3,7 @@
   "metadata": {
     "company": "JD.com",
     "slug": "jd-com",
-    "headline": "How does JD.com combine retail control with marketplace scale?",
+    "headline": "How does JD.com turn logistics from a retail cost into a marketplace service?",
     "case_number": "014",
     "published_date": "2026-08-31",
     "updated_date": "2026-08-31",
@@ -14,95 +14,101 @@
       "Retail Marketplace"
     ],
     "topics": [
+      "Integrated Logistics",
       "Hybrid Retail",
+      "Third-Party Merchants",
       "Supply Chain",
-      "Marketplace Trust",
-      "China E-commerce"
+      "Retail as a Service"
     ],
     "geography": [
-      "Global"
+      "China"
     ],
     "language": "en"
   },
   "platform_lesson": {
-    "title": "A marketplace can borrow trust from an integrated retailer",
-    "text": "JD.com's marketplace does not sit beside a neutral marketplace brand. It sits inside a retail system already known for first-party inventory, fulfillment and supply-chain control. Third-party Merchants can therefore benefit from customer demand and a trust context built partly by JD's own retail operations. The trade-off is greater architectural complexity: JD must broaden supply without making the marketplace feel less reliable than its controlled retail business. The platform lesson is that a marketplace can inherit strengths from a pipeline business when the boundary between the two is managed deliberately."
+    "title": "Internal infrastructure can become ecosystem infrastructure",
+    "text": "JD built logistics to support its first-party retail model, where controlling warehousing and last-mile delivery helped create the speed and authenticity customers associated with JD. The same infrastructure was later opened to third-party merchants, and in 2026 JD Logistics explicitly shifted parts of its on-demand delivery business to serve third-party merchants on JD's platform directly. In the marketplace, logistics is therefore no longer only an internal Owner activity: it becomes a complementary service that Providers can consume. The platform lesson is that a capability built for a pipeline business can become ecosystem infrastructure when it is exposed as a service to other participants."
   },
   "pbmc": {
     "core_value_unit": {
       "value": "Product Listing",
-      "explanation": "The Product Listing is the Core Value Unit in this marketplace boundary: a third-party Merchant's offer that can be discovered and purchased through JD's retail interface.",
+      "explanation": "The Product Listing is the Core Value Unit in the third-party marketplace boundary: a Merchant's product offer made discoverable and purchasable through JD's retail interface. JD's broader store also contains first-party inventory, but that inventory is outside the Provider side of this PBMC.",
       "changed": false,
       "before": "",
       "after": "",
-      "metrics": []
+      "metrics": [
+        {
+          "value": "100M+ Page Visits*",
+          "note": "High-end home-appliance product pages on JD.com generated more than 100 million visits during the 2025 11.11 promotion. This is an engagement proxy for product-listing scale and attention, not a count of all live listings."
+        }
+      ]
     },
     "consumer": {
       "actor": {
         "value": "Shoppers",
-        "explanation": "Consumers using JD's retail ecosystem to purchase products from JD itself and third-party marketplace Merchants.",
+        "explanation": "Shoppers are the demand side of JD's retail platform. They can buy products sold directly by JD or by third-party Merchants; this case isolates their interaction with Marketplace supply.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "700M+ Customers*",
-            "note": "JD.com said annual active customers surpassed 700 million in October 2025. The metric includes JD's broader retail business, not only third-party marketplace purchases."
+            "note": "JD.com said its annual active customers surpassed 700 million in October 2025. This is a company-wide retail-customer metric, not a third-party-marketplace-only Buyer count."
           }
         ]
       },
       "job": {
-        "value": "Buy Products",
-        "explanation": "Shoppers want convenient access to products with dependable quality and delivery.",
+        "value": "Buy with Confidence",
+        "explanation": "Shoppers want a broad selection of products with reliable quality, price, delivery and after-sales service.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Trust / Speed",
-        "explanation": "JD's retail brand and integrated supply-chain capabilities can make marketplace purchases feel closer to a controlled retail experience.",
+        "explanation": "JD combines marketplace assortment with a retail brand strongly associated with authenticity, fulfillment speed and service.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Quality / Choice",
-        "explanation": "A hybrid store must preserve trust while widening third-party selection and managing seller variability.",
+        "value": "Seller / Quality Risk",
+        "explanation": "Third-party supply can create uncertainty around Merchant quality, product authenticity, service consistency and fulfillment.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Order / Pay",
-        "explanation": "Shoppers order and pay through JD's commerce interface.",
+        "explanation": "Shoppers choose a third-party Merchant's listing and complete the order and payment through JD's commerce flow.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Account / Payment",
-        "explanation": "Participation depends on account access, payment, geography and platform fraud controls.",
+        "value": "Account / Availability",
+        "explanation": "Purchase access depends on account, payment, geography, inventory availability and product or fraud controls.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "App / Web",
-        "explanation": "Shoppers access JD through its app, website and connected commerce entry points.",
+        "value": "JD App / Web",
+        "explanation": "Shoppers primarily access JD through its retail apps and website, with additional ecosystem entry points.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Search / Buy",
-        "explanation": "Shoppers search, compare, buy, track, return and review.",
+        "explanation": "Shoppers search and compare, purchase, track delivery, request service or returns and provide reviews.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Budget / Address",
-        "explanation": "Shoppers contribute purchasing power, account data, delivery information and preferences.",
+        "explanation": "Shoppers contribute purchasing power, delivery information, preferences, account data and review signals.",
         "changed": false,
         "before": "",
         "after": ""
@@ -111,64 +117,69 @@
     "provider": {
       "actor": {
         "value": "Third-Party Merchants",
-        "explanation": "Third-party Merchants are the Provider side for this scoped marketplace case. JD's own first-party inventory is outside this Provider role.",
+        "explanation": "Third-party Merchants sell products through JD's online marketplace. They retain the underlying inventory and can fulfill orders themselves or use logistics services provided through the JD ecosystem.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "3K+ New >¥1M*",
+            "note": "During JD's 2026 618 promotion, more than 3,000 Merchants participating in 618 for the first time surpassed RMB1 million in transaction volume. This is a high-performing new-Merchant cohort, not the total Merchant population."
+          }
+        ]
       },
       "job": {
-        "value": "Sell Goods",
-        "explanation": "Merchants want to reach JD's large customer base and convert inventory into sales.",
+        "value": "Sell on JD",
+        "explanation": "Merchants want to convert product inventory and brand presence into sales by reaching JD's large customer base.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Demand / Trust",
-        "explanation": "Merchants can benefit from JD's brand, customer traffic, marketing tools and broader supply-chain ecosystem.",
+        "value": "Demand / Logistics",
+        "explanation": "Merchants gain customer traffic plus access to marketing tools and optional integrated logistics and fulfillment services.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Fees / Competition",
-        "explanation": "Merchants face competition for visibility, quality requirements, returns and marketplace fees.",
+        "explanation": "Merchants face commissions, marketing costs, competition for traffic, strict quality requirements and service-performance expectations.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "List / Sell",
-        "explanation": "Merchants provide product listings and fulfill marketplace orders.",
+        "value": "List / Fulfill",
+        "explanation": "Merchants create product listings and commercial terms and then supply the purchased item, using self-fulfillment or JD-linked logistics.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Quality / Compliance",
-        "explanation": "JD applies seller, product, legal, quality and performance requirements.",
+        "value": "Quality / Verification",
+        "explanation": "JD applies Merchant qualification, product, brand-authorization, quality and marketplace-conduct requirements.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Seller Portal / API",
-        "explanation": "Merchants connect through JD seller tools, APIs and operational integrations.",
+        "value": "Merchant Tools",
+        "explanation": "Merchants use JD's seller systems, dashboards, marketing tools and supported integrations to operate on the marketplace.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "List / Fulfill",
-        "explanation": "Merchants maintain listings, inventory, pricing, promotions, order fulfillment and customer support.",
+        "value": "List / Price / Fulfill",
+        "explanation": "Merchants manage product data, inventory, pricing, marketing, orders, customer service, fulfillment and returns.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Inventory / Data",
-        "explanation": "Merchants contribute goods, product data, images, pricing, compliance documents and fulfillment capacity.",
+        "value": "Inventory / Brand",
+        "explanation": "Merchants contribute products, inventory, product information, pricing, brand authorization and fulfillment capability.",
         "changed": false,
         "before": "",
         "after": ""
@@ -179,65 +190,70 @@
       "enabled_before": true,
       "enabled_after": true,
       "actor": {
-        "value": "Service Partners",
-        "explanation": "External logistics, software, payment and other service providers can support marketplace execution without being the seller of the product.",
+        "value": "JD Logistics",
+        "explanation": "JD Logistics is modeled as the complementary Partner layer rather than being hidden inside the Owner. It is a separately reported and separately listed JD group company that provides warehousing, distribution, express, freight and on-demand delivery services both to JD Retail and directly to third-party Merchants.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "79.3K Ext. ISC*",
+            "note": "JD Logistics reported 79,314 external integrated supply chain customers for the first half of 2026. Its external-customer revenue explicitly includes third-party Merchants on JD Group's marketplace, but the 79,314 figure also includes external customers outside JD.com."
+          }
+        ]
       },
       "job": {
-        "value": "Enable Commerce",
-        "explanation": "Service Partners improve delivery, payments, integration, marketing or seller operations.",
+        "value": "Fulfill Commerce",
+        "explanation": "JD Logistics turns inventory into reliable warehousing, delivery and return execution for JD Retail and Merchant customers.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Volume / Revenue",
-        "explanation": "JD's transaction scale can generate recurring demand for services and integrations.",
+        "explanation": "Marketplace and external-Merchant demand creates logistics volume, customer relationships and service revenue.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "SLA / Security",
-        "explanation": "Partners must meet reliability, data-security, compliance and performance expectations.",
+        "value": "Cost / SLA",
+        "explanation": "The logistics layer must balance speed, service consistency, network utilization and cost across large and volatile order volumes.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Service / Fee",
-        "explanation": "Partners provide enabling services in exchange for commercial compensation or marketplace-linked business.",
+        "value": "Fulfillment / Fees",
+        "explanation": "JD Logistics provides logistics and supply-chain services and receives service revenue from JD Group and external customers, including marketplace Merchants.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Capability / Compliance",
-        "explanation": "Access depends on technical capability, reliability, data security and contractual standards.",
+        "value": "Contract / Service Fit",
+        "explanation": "Logistics participation depends on service scope, operational requirements, product characteristics, network coverage and commercial terms.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "API / B2B",
-        "explanation": "Partners connect through APIs, B2B systems, contracts and operational platforms.",
+        "value": "Logistics Network / API",
+        "explanation": "Merchants and JD businesses connect into warehousing, order, delivery and return services through JD Logistics systems and operating network.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Integrate / Deliver",
-        "explanation": "Partners integrate systems, deliver services, monitor performance and support scale.",
+        "value": "Store / Deliver / Return",
+        "explanation": "JD Logistics warehouses inventory, processes fulfillment, transports parcels, performs last-mile delivery and supports returns.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Tech / Operations",
-        "explanation": "Partners contribute specialist systems, logistics capacity, payment infrastructure and service teams.",
+        "value": "Warehouses / Couriers",
+        "explanation": "Its logistics network, warehouses, couriers, automation, routing technology, data and supply-chain expertise are core resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -245,70 +261,70 @@
     },
     "owner": {
       "actor": {
-        "value": "JD.com",
-        "explanation": "JD.com owns the retail platform and combines a large first-party retail operation with a third-party marketplace. This case isolates the marketplace layer while recognizing that its trust and logistics context comes from the wider JD system.",
+        "value": "JD Retail",
+        "explanation": "JD Retail is the operating Owner of the marketplace inside JD.com. JD.com reports JD Retail as the segment that mainly engages in online retail, online marketplace and marketing services in China.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "RMB107B Mktg.*",
-            "note": "JD.com reported RMB107.1 billion in marketplace and marketing revenues for full-year 2025. This combines marketplace and marketing revenue and is not a pure marketplace commission figure."
+            "value": "RMB30.9B Mktg.*",
+            "note": "JD.com reported RMB30.860 billion of marketplace and marketing revenues in Q2 2026. This is the consolidated marketplace-and-marketing revenue category supporting the marketplace layer, not a pure marketplace commission figure."
           }
         ]
       },
       "job": {
-        "value": "Scale Hybrid Retail",
-        "explanation": "JD.com expands selection and monetization while preserving the quality expectations created by its controlled retail and supply-chain model.",
+        "value": "Run Hybrid Retail",
+        "explanation": "JD Retail must combine first-party retail and third-party Marketplace supply while preserving a consistent customer experience.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Scale / Services",
-        "explanation": "Third-party supply broadens assortment and contributes marketplace and marketing revenue without JD owning all inventory.",
+        "value": "Selection / Service Rev.",
+        "explanation": "Third-party Merchants broaden selection and generate marketplace, marketing and adjacent service revenue without JD owning every item.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Trust / Complexity",
-        "explanation": "JD must coordinate first-party retail, third-party Merchants, fulfillment choices and service quality without diluting customer trust.",
+        "value": "1P / 3P Complexity",
+        "explanation": "JD must coordinate two supply models, Merchant quality, ranking, pricing, fulfillment choices and customer expectations within one retail interface.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Match / Settle",
-        "explanation": "JD coordinates marketplace discovery, ordering, payment and merchant settlement.",
+        "explanation": "JD Retail organizes discovery, ordering, payment, Merchant economics and the handoff into the selected fulfillment route.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
         "value": "Quality / Rules",
-        "explanation": "JD governs merchant onboarding, product quality, reviews, service standards, prohibited goods and marketplace conduct.",
+        "explanation": "JD governs Merchant eligibility, brand authorization, product quality, reviews, customer protections and marketplace conduct.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
-        "value": "App / Campaigns",
-        "explanation": "JD attracts demand through its app, promotions, loyalty, advertising and broader online and offline retail footprint.",
+        "value": "Search / 618",
+        "explanation": "JD attracts demand through search, recommendations, major shopping festivals, loyalty, advertising, livestreaming and its retail brand.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Retail / Match",
-        "explanation": "JD operates search, merchant tools, marketing, customer service and marketplace transaction infrastructure alongside first-party retail.",
+        "value": "Rank / Govern",
+        "explanation": "JD Retail operates discovery, seller onboarding, marketplace rules, marketing services, checkout, customer support and transaction coordination.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Brand / Supply Chain",
-        "explanation": "JD's brand, customer base, data, technology and integrated supply-chain capabilities differentiate the marketplace environment.",
+        "value": "Demand / Catalog",
+        "explanation": "JD's customer base, retail brand, catalog, transaction data, marketplace technology and links to its supply-chain infrastructure are strategic resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -320,49 +336,67 @@
           "from": "consumer",
           "to": "owner",
           "value": "Order / Pay",
-          "explanation": "Shoppers place marketplace orders and pay through JD's commerce flow."
+          "explanation": "Shoppers send the marketplace order and payment through JD Retail's commerce flow."
         },
         {
           "from": "owner",
           "to": "consumer",
-          "value": "Match / Trust",
-          "explanation": "JD provides discovery, transaction coordination and the trust context of its broader retail ecosystem."
+          "value": "Discovery / Protect",
+          "explanation": "JD Retail provides product discovery, checkout, reviews, marketplace governance and customer-service protections."
         },
         {
           "from": "provider",
           "to": "owner",
           "value": "Listing / Fees",
-          "explanation": "Third-party Merchants provide listings and pay applicable marketplace or marketing fees."
+          "explanation": "Third-party Merchants provide product listings and pay commission or purchase applicable marketing and marketplace services."
         },
         {
           "from": "owner",
           "to": "provider",
-          "value": "Demand / Payout",
-          "explanation": "JD gives Merchants access to customer demand and coordinates order proceeds."
+          "value": "Traffic / Payout",
+          "explanation": "JD Retail exposes Merchant listings to customer demand and coordinates proceeds from completed marketplace orders."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Demand / Review",
+          "explanation": "Purchases, messages and reviews create demand and reputation signals directly relevant to the Merchant."
         },
         {
           "from": "provider",
           "to": "consumer",
           "value": "Product",
-          "explanation": "The third-party Merchant supplies the purchased product, using its own or integrated fulfillment arrangements."
-        },
-        {
-          "from": "consumer",
-          "to": "provider",
-          "value": "Review",
-          "explanation": "Shopper feedback contributes to merchant reputation and marketplace quality."
+          "explanation": "The third-party Merchant is the economic Seller and supplies the purchased product, regardless of whether fulfillment is self-operated or delegated."
         },
         {
           "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "External service partners contribute logistics, software, payments or other capabilities."
+          "to": "consumer",
+          "value": "Delivery / Return",
+          "explanation": "When JD Logistics is selected, it provides the physical delivery and can support reverse-logistics services for the Shopper."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Inventory / Fees",
+          "explanation": "Merchants can place inventory into JD Logistics' service flow and purchase warehousing, delivery or related supply-chain services."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Fulfillment / Returns",
+          "explanation": "JD Logistics returns warehousing, order fulfillment, delivery and return capabilities directly to third-party Merchants."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Volume / Fees",
-          "explanation": "JD's marketplace creates service volume and commercial relationships for enabling partners."
+          "value": "Orders / Volume",
+          "explanation": "JD Retail supplies order volume and internal logistics demand to JD Logistics; JD reports inter-segment logistics-service transactions between the businesses."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Fulfillment / Data",
+          "explanation": "JD Logistics provides supply-chain execution and logistics status back into JD Retail's customer and order experience."
         }
       ],
       "before": [],
@@ -370,14 +404,29 @@
     },
     "metrics": [
       {
-        "target": "consumer",
-        "value": "700M+ Customers*",
-        "note": "Annual active customers across JD's broader retail business; not marketplace-only."
+        "target": "owner",
+        "value": "RMB30.9B Mktg.*",
+        "note": "Q2 2026 marketplace and marketing revenues; not pure marketplace commission revenue."
       },
       {
-        "target": "owner",
-        "value": "RMB107B Mktg.*",
-        "note": "Full-year 2025 marketplace and marketing revenue combined."
+        "target": "consumer",
+        "value": "700M+ Customers*",
+        "note": "JD.com annual active customers surpassed 700M in October 2025; not Marketplace-only."
+      },
+      {
+        "target": "provider",
+        "value": "3K+ New >¥1M*",
+        "note": "First-time 618 Merchants exceeding RMB1M transaction volume during the 2026 promotion; not total Merchants."
+      },
+      {
+        "target": "partner",
+        "value": "79.3K Ext. ISC*",
+        "note": "JD Logistics external integrated supply chain customers in H1 2026; includes JD Marketplace Merchants and customers outside JD.com."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "100M+ Page Visits*",
+        "note": "High-end appliance product-page visits during 2025 11.11; engagement proxy, not total listing count."
       }
     ]
   },
@@ -389,32 +438,53 @@
   },
   "sources": [
     {
-      "title": "JD.com Announces Fourth Quarter and Full Year 2025 Results",
+      "title": "Cases only.pptx — JD.com source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "User-supplied source reconstruction: JD.com as platform owner, shoppers as Consumers, third-party Sellers as Providers, logistics/payment/technology actors as Partners, and Product Listing as the original CVU."
+    },
+    {
+      "title": "JD.com Announces Second Quarter and Interim 2026 Results",
       "publisher": "JD.com",
-      "date": "2026-03-05",
-      "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2025-results-and",
-      "note": "Primary source for RMB107.1B marketplace and marketing revenues in 2025 and JD Retail's hybrid retail context."
+      "date": "2026-08-13",
+      "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-second-quarter-and-interim-2026-results",
+      "note": "Primary source for RMB30.860B Q2 2026 marketplace and marketing revenue, current JD Retail/JD Logistics segment boundaries, and the explicit 2026 shift of JD Logistics on-demand delivery to directly serve third-party Merchants on JD's platform."
+    },
+    {
+      "title": "JD.com 2025 Form 20-F",
+      "publisher": "JD.com / U.S. SEC",
+      "date": "2026-04-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526157870/d53690d20f.htm",
+      "note": "Primary regulatory source for the hybrid retail/marketplace architecture: third-party Merchants sell on JD Platform and can fulfill orders themselves or through JD Group logistics; JD earns commissions and provides marketing and logistics services."
+    },
+    {
+      "title": "JD Logistics — Results for the Three and Six Months Ended June 30, 2026",
+      "publisher": "JD Logistics",
+      "date": "2026-08-13",
+      "url": "https://financialfilings.com/filings/jd-logistics-inc/earnings-release/2026/55967805/",
+      "note": "Regulatory-results reproduction for 79,314 external integrated supply chain customers in H1 2026 and RMB85.4B external-customer revenue. The filing states external customers include third-party Merchants on JD Group's online marketplace."
+    },
+    {
+      "title": "JD.com 618 Grand Promotion Sets New Record for Shoppers",
+      "publisher": "JD.com",
+      "date": "2026-06-19",
+      "url": "https://jdcorporateblog.com/jd-com-618-grand-promotion-sets-new-record-for-shoppers-alongside-rapid-growth-in-service-consumption/",
+      "note": "Primary current source for the Provider-scale proxy: more than 3,000 Merchants participating in 618 for the first time surpassed RMB1M in transaction volume in 2026."
     },
     {
       "title": "JD.com Announces Third Quarter 2025 Results",
       "publisher": "JD.com",
-      "date": "2025",
+      "date": "2025-11-13",
       "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
-      "note": "Primary source for the milestone of more than 700 million annual active customers in October 2025."
+      "note": "Primary source for the milestone of more than 700M annual active customers in October 2025."
     },
     {
-      "title": "JD.com 2025 Annual Report",
+      "title": "JD.com Strengthens Its Position as Gateway for Premium International Home Appliance Brands in China",
       "publisher": "JD.com",
-      "date": "2026-04-16",
-      "url": "https://ir.jd.com/annual-reports",
-      "note": "Primary annual filing source for JD's retail, marketplace, logistics and service-business architecture."
-    },
-    {
-      "title": "JD.com Files Its Annual Report on Form 20-F",
-      "publisher": "JD.com",
-      "date": "2026-04-16",
-      "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-files-its-annual-report-form-20-f-1",
-      "note": "Primary source describing JD.com as a supply chain-based technology and service provider that opens infrastructure to partners and brands."
+      "date": "2025-11-12",
+      "url": "https://jdcorporateblog.com/jd-com-strengthens-its-position-as-gateway-for-premium-international-home-appliance-brands-in-china-with-2000-brands-achieving-100-growth-rate-during-singles-day/",
+      "note": "Primary source for the CVU engagement proxy: high-end appliance product pages generated over 100M visits during 2025 11.11."
     }
   ],
   "related": {
