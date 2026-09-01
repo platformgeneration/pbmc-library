@@ -293,16 +293,17 @@
       "slug": "tradesy",
       "case_number": "017",
       "company": "Tradesy",
-      "headline": "How did Tradesy make peer-to-peer luxury resale feel safer?",
+      "headline": "Why did Tradesy need shipping infrastructure if it never held inventory?",
       "industry": [
         "Luxury Resale",
         "Peer-to-Peer Marketplace"
       ],
       "topics": [
-        "Luxury Fashion",
-        "Authentication",
-        "Historical Case",
-        "Acquisition"
+        "Asset-Light Marketplace",
+        "Peer-to-Peer Fulfillment",
+        "Shipping Infrastructure",
+        "Luxury Trust",
+        "Historical Case"
       ],
       "status": "published"
     },
