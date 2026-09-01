@@ -210,7 +210,7 @@
         "after": ""
       },
       "gain": {
-        "value": "Payment Volume",
+        "value": "Volume",
         "explanation": "Depop's growing marketplace creates recurring transaction and payout volume for the payment rails supporting checkout.",
         "changed": false,
         "before": "",
@@ -335,55 +335,55 @@
         {
           "from": "consumer",
           "to": "owner",
-          "value": "Order / Pay",
+          "value": "Order",
           "explanation": "Buyers place protected orders and pay through Depop checkout."
         },
         {
           "from": "owner",
           "to": "consumer",
-          "value": "Discovery / Protect",
+          "value": "Discovery",
           "explanation": "Depop provides recommendations, search, messaging, checkout, support and Depop Protection for eligible purchases."
         },
         {
           "from": "provider",
           "to": "owner",
-          "value": "Listing / Fees",
+          "value": "Listing",
           "explanation": "Sellers contribute Listings and may pay payment-processing, boosting or market-specific selling fees."
         },
         {
           "from": "owner",
           "to": "provider",
-          "value": "Demand / Payout",
+          "value": "Demand",
           "explanation": "Depop exposes Seller inventory to Buyer demand and coordinates Seller proceeds after transactions."
         },
         {
           "from": "consumer",
           "to": "provider",
-          "value": "Offer / Review",
+          "value": "Offer",
           "explanation": "Buyers send messages or offers and provide reviews after completed purchases."
         },
         {
           "from": "provider",
           "to": "consumer",
-          "value": "Item / Response",
+          "value": "Item",
           "explanation": "Sellers respond to Buyers and supply the purchased fashion item."
         },
         {
           "from": "consumer",
           "to": "partner",
-          "value": "Funds / Credentials",
+          "value": "Funds",
           "explanation": "Buyer payment instructions and funds are processed through the payment rails embedded in Depop checkout."
         },
         {
           "from": "partner",
           "to": "consumer",
-          "value": "Auth / Refund",
+          "value": "Authorization",
           "explanation": "The payment rail confirms authorization and supports refunds when Depop initiates them."
         },
         {
           "from": "provider",
           "to": "partner",
-          "value": "KYC / Bank",
+          "value": "KYC",
           "explanation": "Sellers provide identity and payout-account information needed for settlement."
         },
         {
@@ -395,13 +395,13 @@
         {
           "from": "owner",
           "to": "partner",
-          "value": "Payment Instructions",
+          "value": "Instructions",
           "explanation": "Depop routes checkout, refund and payout instructions through its payment providers."
         },
         {
           "from": "partner",
           "to": "owner",
-          "value": "Processing / Status",
+          "value": "Status",
           "explanation": "Payment providers return authorization, settlement and risk status into Depop's transaction workflow."
         }
       ],
