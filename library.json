@@ -410,6 +410,24 @@
         "Identity Verification"
       ],
       "status": "published"
+    },
+    {
+      "slug": "amazon-ai-shopping",
+      "case_number": "024",
+      "company": "Amazon AI Shopping",
+      "headline": "Why is Amazon fighting an AI that wants to shop on Amazon?",
+      "industry": [
+        "AI Shopping",
+        "Recommendation Platform"
+      ],
+      "topics": [
+        "Agentic Shopping",
+        "Recommendation",
+        "Perplexity",
+        "Alexa for Shopping",
+        "Platform Access"
+      ],
+      "status": "published"
     }
   ]
 }

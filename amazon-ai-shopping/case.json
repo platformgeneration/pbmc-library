@@ -1,0 +1,520 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Amazon AI Shopping",
+    "slug": "amazon-ai-shopping",
+    "headline": "Why is Amazon fighting an AI that wants to shop on Amazon?",
+    "case_number": "024",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-08-26",
+    "status": "official",
+    "industry": [
+      "AI Shopping",
+      "Recommendation Platform"
+    ],
+    "topics": [
+      "Agentic Shopping",
+      "Recommendation",
+      "Perplexity",
+      "Alexa for Shopping",
+      "Platform Access"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Sometimes the best way to protect a platform is to stop protecting its only Provider",
+    "text": "Amazon's shopping business can still win a sale even after another AI has already helped the Shopper decide what to buy. But the recommendation platform loses something earlier: the query, the comparison process, the recommendation interaction and some of the decision-stage signals and advertising opportunities around them. In the current architecture Amazon both owns the recommendation environment and supplies its only built-in adviser through Alexa for Shopping. If outside AI advisers become the place where Shoppers naturally ask what to buy, defending Alexa's exclusivity may protect the Provider while weakening the platform. A more platform-native response would be governed Provider access: Amazon could keep the Shopper relationship, Seller access and platform rules while allowing approved advisers to compete inside the recommendation layer. This remains a strategic counterfactual, not an announced Amazon architecture."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Match",
+      "explanation": "The Product Match is the Core Value Unit of the recommendation layer: a recommendation or shortlist that connects a Shopper's need with products that appear to fit. It is not the physical product and not the completed purchase.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "Shoppers are people who have a need but have not fully decided what to buy yet. They are still searching, comparing and refining the choice.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "350M+ Users",
+            "note": "Amazon said more than 350 million customers used Alexa for Shopping or its predecessor shopping assistant during the prior twelve months. This measures use of Amazon's shopping-assistant layer, not total Amazon shoppers."
+          }
+        ]
+      },
+      "job": {
+        "value": "Choose Well",
+        "explanation": "Shoppers want to understand the options and find something that actually fits their situation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Clarity / Fit",
+        "explanation": "A useful recommendation reduces a large product universe to a smaller set of relevant choices.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Choice / Doubt",
+        "explanation": "Hundreds of similar products, mixed reviews and competing claims create uncertainty.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Need / Info",
+        "explanation": "The Shopper contributes a need and information such as budget, use case and preferences so the adviser can make a more useful recommendation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Market",
+        "explanation": "Access to AI shopping features depends on the Amazon market and service in which the feature is available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Search / App",
+        "explanation": "Shoppers enter through Amazon's own shopping surfaces, especially Search and the Amazon app. Alexa is the Provider inside that environment, not the access channel itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Ask / Compare",
+        "explanation": "Shoppers ask questions, compare alternatives and refine what they want.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Data",
+        "explanation": "Questions reveal purchase intent; where available, Amazon shopping activity can further personalize the recommendation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Alexa",
+        "explanation": "Alexa means Alexa for Shopping: Amazon's own AI shopping adviser. Recommendation algorithms predate generative AI; Alexa makes the Provider role visible and conversational.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "5x Interact.*",
+            "note": "Amazon said interactions with its shopping assistant grew more than five times year over year in Q2 2026. This is interaction growth, not five times more purchases or five times more users."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Match",
+        "explanation": "The Provider's task is to find a useful match between the Shopper's need and the available product universe.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Usage",
+        "explanation": "The adviser creates more platform value when Shoppers actually ask it for help and use the recommendations it produces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Noise",
+        "explanation": "Alexa has to interpret product information, reviews and paid placements without making the advice feel biased or useless.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Advice / Match",
+        "explanation": "Alexa returns explanations, comparisons and a Product Match or shortlist.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Closed",
+        "explanation": "In the current recommendation-layer model, the Provider role is vertically integrated: Alexa is the built-in adviser rather than one Provider among competing external agents.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Built-in",
+        "explanation": "Alexa is embedded inside Amazon shopping surfaces such as search, results pages, product pages and the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Advise",
+        "explanation": "Alexa interprets intent, ranks options, compares products, explains differences and recommends what may fit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Models",
+        "explanation": "The adviser combines AI models with Amazon product information and shopping signals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Sellers are the complementary Partner side in this recommendation-layer boundary. They include Amazon Sellers and, increasingly through Shop Direct, external shops whose products can enter Amazon's recommendation universe.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Reach Buyers",
+        "explanation": "Sellers want their products to enter the Shopper's serious consideration set while the purchase decision is still open.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Reach",
+        "explanation": "A recommendation can generate qualified attention that may later become a sale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Noise / Cost",
+        "explanation": "Many Sellers compete for the same decision moment and sponsored visibility can be costly.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Data / Ads",
+        "explanation": "Sellers provide offers, prices and availability; some Sellers and brands also pay Amazon for sponsored visibility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Rules / Feed",
+        "explanation": "Sellers must follow Amazon's participation rules and provide product data in a usable format.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Portal / Feed",
+        "explanation": "Amazon Sellers connect through seller tools, while approved external shops can connect product information through feeds.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Update",
+        "explanation": "Sellers keep listings, prices, offers and stock information current.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Catalog / Stock",
+        "explanation": "The Partner side contributes the product catalog and the inventory behind it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Amazon",
+        "explanation": "Amazon owns the recommendation environment, controls access and ranking and operates the advertising layer around product discovery.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$19.8B Ads*",
+            "note": "Amazon Advertising Services generated $19.809 billion in Q2 2026. This is company-wide advertising revenue, not Alexa-only revenue; it is used to show the economic weight of attention and discovery around the Owner."
+          }
+        ]
+      },
+      "job": {
+        "value": "Guide Choice",
+        "explanation": "Amazon wants to keep the Shopper moving from a vague need toward a useful set of options inside its shopping environment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Ads / Demand",
+        "explanation": "The decision phase creates product demand and valuable advertising opportunities before checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Bias",
+        "explanation": "If recommendation advice feels too biased toward paid products or platform interests, Shoppers can stop trusting the layer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Ads / Traffic",
+        "explanation": "Advertising money flows into Amazon while the recommendation environment routes attention toward products and stores.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rank / Access",
+        "explanation": "Amazon governs ranking, sponsored placement, access to the recommendation layer and the rules applied to outside applications.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Prime / Echo",
+        "explanation": "Amazon can distribute the recommendation experience through its store, Prime relationships and Alexa-enabled devices.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Monetize",
+        "explanation": "Amazon operates the environment, ranks products, places ads, measures results and tunes the recommendation experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Trust",
+        "explanation": "Amazon brings a huge catalog, years of shopping signals and an existing customer relationship.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Query",
+          "explanation": "The Shopper gives Alexa the question or need that requires recommendation help."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Match",
+          "explanation": "Alexa returns the recommendation or shortlist that narrows the decision."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Intent",
+          "explanation": "The Shopper's questions reveal decision-stage intent to Amazon."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Access",
+          "explanation": "Amazon provides the shopping surfaces through which the recommendation layer reaches the Shopper."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Signals",
+          "explanation": "Recommendation interactions create signals about what Shoppers ask, compare and consider."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Data",
+          "explanation": "Amazon provides product information and, where applicable, shopping signals that help the adviser personalize guidance."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Traffic",
+          "explanation": "When Alexa recommends a Seller's product, the Seller can receive qualified Shopper attention."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Catalog",
+          "explanation": "Sellers provide product, price, offer and availability information used by the recommendation Provider."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "Some Sellers and brands pay Amazon for sponsored visibility inside the decision process."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "350M+ Users",
+        "note": "Amazon shopping-assistant customers over the previous 12 months; not total Amazon shoppers."
+      },
+      {
+        "target": "provider",
+        "value": "5x Interact.*",
+        "note": "Q2 2026 YoY shopping-assistant interaction growth; not purchase growth."
+      },
+      {
+        "target": "owner",
+        "value": "$19.8B Ads*",
+        "note": "Q2 2026 Amazon Advertising Services revenue; company-wide, not Alexa-only."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "bNzO7kNVoGI",
+    "youtube_url": "https://www.youtube.com/watch?v=bNzO7kNVoGI",
+    "thumbnail": "https://i.ytimg.com/vi/bNzO7kNVoGI/maxresdefault.jpg",
+    "youtube_title": "Why is Amazon fighting an AI that wants to shop on Amazon?"
+  },
+  "sources": [
+    {
+      "title": "Amazon AI Shopping Recommendation PBMC Content v14 TTS Clarity",
+      "publisher": "Platform Generation",
+      "date": "2026-08",
+      "url": "",
+      "note": "Final production workbook supplied by the user. Library conversion preserves its Recommendation Platform boundary, roles and BASE transaction topology."
+    },
+    {
+      "title": "Amazon AI Shopping PBMC Content v10 Defense Logic",
+      "publisher": "Platform Generation",
+      "date": "2026-08-27",
+      "url": "",
+      "note": "Earlier indexed production version used to verify the final BASE role definitions, metrics and 9-arrow transaction topology."
+    },
+    {
+      "title": "Amazon.com Announces Second Quarter 2026 Results",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+      "note": "Primary source for Alexa for Shopping engagement growth and current AI-shopping context."
+    },
+    {
+      "title": "Amazon CEO Andy Jassy on stores growth and AI shopping",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-stores-growth-ai-shopping-q2-2026-earnings",
+      "note": "Primary source for more than 350M customers using Alexa for Shopping or its predecessor in the prior twelve months."
+    },
+    {
+      "title": "Amazon Q2 2026 Form 10-Q",
+      "publisher": "Amazon / U.S. SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "note": "Primary source for $19.809B Q2 2026 Advertising Services net sales."
+    },
+    {
+      "title": "Amazon expands agentic AI and generative AI shopping",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://www.aboutamazon.com/news/retail/amazon-agentic-ai-gen-ai-shopping",
+      "note": "Primary source for Alexa for Shopping and Amazon's long-running AI-assisted shopping role."
+    },
+    {
+      "title": "Amazon shopping assistant personalized features",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://www.aboutamazon.com/news/retail/amazon-rufus-ai-assistant-personalized-shopping-features",
+      "note": "Primary source for conversational context and Amazon shopping activity used to tailor recommendations."
+    },
+    {
+      "title": "Agentic shopping and advertising",
+      "publisher": "Amazon Ads",
+      "date": "2026",
+      "url": "https://advertising.amazon.com/library/news/agentic-shopping-advertising",
+      "note": "Primary source for recommendation, advertising and decision-stage shopping signals."
+    },
+    {
+      "title": "Amazon Shop Direct external stores",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://www.aboutamazon.com/news/retail/amazon-shop-direct-external-stores",
+      "note": "Primary source for external merchant catalogs and Shop Direct's expansion beyond the traditional Amazon marketplace."
+    },
+    {
+      "title": "Amazon statement on Perplexity Comet",
+      "publisher": "Amazon",
+      "date": "2026",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-perplexity-comet-statement",
+      "note": "Primary Amazon source for the dispute over third-party agent access."
+    },
+    {
+      "title": "Ninth Circuit — Amazon v. Perplexity/Comet access dispute",
+      "publisher": "U.S. Court of Appeals / Justia",
+      "date": "2026-08-04",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
+      "note": "Legal source for the appeals-court decision vacating the preliminary injunction; underlying litigation remained unresolved."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Amazon AI Shopping — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
