@@ -504,6 +504,42 @@
         "Specialization"
       ],
       "status": "published"
+    },
+    {
+      "slug": "stockx",
+      "case_number": "029",
+      "company": "StockX",
+      "headline": "Can StockX scale beyond mandatory verification without weakening trust?",
+      "industry": [
+        "Resale Marketplace",
+        "Current Culture Marketplace"
+      ],
+      "topics": [
+        "Sneakers",
+        "Recommerce",
+        "Authentication",
+        "Dynamic Pricing",
+        "Marketplace Trust"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "goat",
+      "case_number": "030",
+      "company": "GOAT",
+      "headline": "Can GOAT own the space between retail and resale?",
+      "industry": [
+        "Resale Marketplace",
+        "Fashion Marketplace"
+      ],
+      "topics": [
+        "Sneakers",
+        "Recommerce",
+        "Authentication",
+        "Primary and Resale",
+        "Marketplace Trust"
+      ],
+      "status": "published"
     }
   ]
 }

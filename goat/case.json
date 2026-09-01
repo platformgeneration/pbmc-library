@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "GOAT",
+    "slug": "goat",
+    "headline": "Can GOAT own the space between retail and resale?",
+    "case_number": "030",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
+    "status": "official",
+    "industry": [
+      "Resale Marketplace",
+      "Fashion Marketplace"
+    ],
+    "topics": [
+      "Sneakers",
+      "Recommerce",
+      "Authentication",
+      "Primary and Resale",
+      "Marketplace Trust"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Hybrid supply is the differentiator",
+    "text": "GOAT combines two economically distinct supply paths under one marketplace: resale inventory from approved sellers and primary-market inventory from premium boutiques and retailers. The core transaction is the transfer of a product to the buyer; GOAT may physically sit in the middle for verification, while selected partners can fulfill directly. The distinctive platform layer is GOAT's orchestration and assurance across both supply paths, not the individual shipping, tracking or warehouse steps."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Listing",
+      "explanation": "The Product Listing is the Core Value Unit. It represents a specific sneaker, apparel or accessory offer made available to GOAT buyers by an approved seller or a curated retail partner. GOAT adds catalog structure, pricing context and an assurance layer before the listing becomes a trusted purchase opportunity.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "315K+ Items",
+          "note": "GOAT's storefront displayed more than 315,000 items at the September 2026 snapshot."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "Buyers include sneaker enthusiasts, collectors and fashion shoppers looking for current, rare, archival, new and pre-owned products with stronger authenticity assurance than an unmanaged peer-to-peer market.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "50M+ Reach",
+            "note": "alias states that a single listing can reach more than 50 million GOAT and Flight Club members."
+          }
+        ]
+      },
+      "job": {
+        "value": "Buy Rare Style",
+        "explanation": "Buyers want access to desirable fashion products without carrying the full counterfeit and counterparty risk themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trust / Choice",
+        "explanation": "GOAT combines broad selection across primary and resale supply with product assurance, condition information and curated discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fakes / Price",
+        "explanation": "Buyers face counterfeit risk, volatile resale pricing, condition uncertainty, shipping friction and limited availability for scarce products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Buy",
+        "explanation": "Buyers select a product, place the order and pay through GOAT.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Risk",
+        "explanation": "Access depends on account status, payment acceptance, geography, product availability and fraud or policy controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Buyers access GOAT through its mobile app and website.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Browse / Buy",
+        "explanation": "Buyers search, compare, favorite, purchase and track products across sneakers, apparel and accessories.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Budget / Taste",
+        "explanation": "Buyers contribute purchasing power, demand signals, product preferences, attention and transaction history.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Approved Sellers",
+        "explanation": "Providers are approved individual and professional sellers supplying resale inventory. GOAT restricts selling access to selected sellers and uses seller scores, verification outcomes and fulfillment performance to govern continued participation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Sell Products",
+        "explanation": "Sellers want liquidity and global demand for valuable sneakers, apparel and accessories.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Liquidity",
+        "explanation": "GOAT and alias provide demand access, pricing data, seller tools, marketplace trust and payout infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Rejection",
+        "explanation": "Sellers face commissions, seller fees, verification failures, shipping deadlines, cancellations and account-score penalties.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List",
+        "explanation": "Approved sellers submit product listings and commit inventory under GOAT's selling rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Approval / Score",
+        "explanation": "GOAT selects sellers and governs participation through seller approval, seller scores, authenticity, description accuracy and fulfillment performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "alias / GOAT",
+        "explanation": "Sellers can use GOAT selling workflows and alias, GOAT Group's official seller application.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Ship",
+        "explanation": "Sellers price and list inventory, confirm orders, ship or drop off products, manage consignment and monitor earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Price",
+        "explanation": "Sellers contribute authentic inventory, product condition, pricing decisions, photos where required and fulfillment effort.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Boutiques / Retailers",
+        "explanation": "Premium boutiques and retailers are the strategic Partner role because they give GOAT a second supply logic beyond peer resale. GOAT explicitly sources products from premium boutiques and retailers as well as sellers and trusted partners, allowing the platform to bridge primary and secondary markets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Supply Primary",
+        "explanation": "Retail partners want an additional trusted channel for reaching GOAT's global fashion and sneaker demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Reach",
+        "explanation": "GOAT provides access to a large international audience and a premium discovery environment without requiring partners to build that demand network themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Margin / Stock",
+        "explanation": "Partners must balance marketplace economics, inventory availability, fulfillment quality and brand presentation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Supply",
+        "explanation": "Selected boutiques and retailers make primary-market inventory available through GOAT's trusted marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Vetting / Quality",
+        "explanation": "GOAT vets trusted partners and applies quality and authenticity expectations to partner-supplied products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Partner Tools",
+        "explanation": "Retail partners connect through GOAT Group's commercial and operational partner processes rather than ordinary consumer selling access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Supply / Fulfill",
+        "explanation": "Partners contribute sellable inventory, maintain availability and fulfill orders through the agreed GOAT operating model.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Brand",
+        "explanation": "Partners contribute authentic primary-market inventory, retail relationships, brand credibility and fulfillment capabilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "GOAT Group",
+        "explanation": "GOAT Group owns and operates GOAT and the wider portfolio that includes Flight Club, Grailed, Sneakers.com and alias. GOAT is the consumer-facing marketplace analyzed in this case.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "60M+ Group Members",
+            "note": "GOAT Group reports a global community of more than 60 million members across 170 countries."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Trusted Market",
+        "explanation": "GOAT Group must combine broad supply, trusted buying, seller governance and premium cultural positioning into a scalable marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fees / Liquidity",
+        "explanation": "More trusted supply and demand increase transaction revenue, marketplace liquidity, data depth and cross-platform strategic leverage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Cost",
+        "explanation": "GOAT must preserve authenticity and quality while reducing the cost and delay created by physical handling and verification.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Assure",
+        "explanation": "GOAT matches demand with resale and retail supply, processes purchases, applies its assurance layer and releases seller proceeds.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Trust Rules",
+        "explanation": "GOAT governs seller approval, seller scores, fees, product condition, authenticity, fulfillment requirements and buyer protection.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Drops / Culture",
+        "explanation": "GOAT builds demand through drops, editorial curation, collaborations, cultural partnerships, app merchandising and brand storytelling.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Verify",
+        "explanation": "GOAT operates discovery, marketplace matching, seller systems, authentication methods, consignment, payments, support and cultural programming.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Facilities",
+        "explanation": "Key resources include marketplace software, product and authenticity data, brand trust, verification expertise, facilities and GOAT Group's multi-brand demand network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Purchase",
+          "explanation": "Buyers place and pay for orders through GOAT."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing",
+          "explanation": "Approved resale sellers make products available to GOAT's demand network."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "GOAT releases seller earnings once the applicable transaction and assurance conditions are satisfied."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "Resale sellers provide the purchased product to the buyer. Physically, many resale items first pass through a GOAT facility for verification before GOAT forwards them; the arrow represents the core economic value transfer rather than every logistics handoff."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Supply",
+          "explanation": "Selected boutiques and retailers contribute primary-market inventory to GOAT's marketplace."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "Retail and boutique partners provide primary-market products to GOAT buyers; selected partners may fulfill directly, while other products may be handled through GOAT's facilities."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Cases only.pptx — GOAT source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "Internal source case used as a starting point and then updated against current GOAT and GOAT Group sources."
+    },
+    {
+      "title": "Assurance of Authenticity",
+      "publisher": "GOAT",
+      "date": "2026",
+      "url": "https://www.goat.com/verification",
+      "note": "Primary source for premium boutique and retailer sourcing and GOAT's mix of digital, in-hand and machine-learning verification."
+    },
+    {
+      "title": "Selling with GOAT",
+      "publisher": "GOAT",
+      "date": "2026-08-01",
+      "url": "https://www.goat.com/selling",
+      "note": "Current seller-policy source for selective seller access, consignment, shipping rules and payout after verification."
+    },
+    {
+      "title": "Fee Policy",
+      "publisher": "GOAT",
+      "date": "2026-08-01",
+      "url": "https://www.goat.com/fees",
+      "note": "Current source for seller fees, commission levels and seller-score consequences."
+    },
+    {
+      "title": "GOAT Storefront",
+      "publisher": "GOAT",
+      "date": "2026-09-01",
+      "url": "https://www.goat.com/",
+      "note": "Snapshot source for the current storefront assortment of more than 315,000 items."
+    },
+    {
+      "title": "FAQ",
+      "publisher": "alias by GOAT Group",
+      "date": "2026-08-25",
+      "url": "https://www.alias.org/faq",
+      "note": "Current primary source confirming alias as the official seller app for GOAT, Flight Club and Sneakers.com and 50M+ potential buyer reach across GOAT and Flight Club."
+    },
+    {
+      "title": "GOAT Group",
+      "publisher": "GOAT Group",
+      "date": "2026",
+      "url": "https://www.goatgroup.com/news",
+      "note": "Current company source for GOAT Group's five brands and global community of more than 60M members across 170 countries."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). GOAT — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
