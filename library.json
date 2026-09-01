@@ -450,6 +450,24 @@
         "Trust"
       ],
       "status": "published"
+    },
+    {
+      "slug": "carousell",
+      "case_number": "026",
+      "company": "Carousell",
+      "headline": "How is Carousell turning classifieds into transaction-led commerce?",
+      "industry": [
+        "Second-Hand Marketplace",
+        "C2C Marketplace"
+      ],
+      "topics": [
+        "Recommerce",
+        "Buyer Protection",
+        "Integrated Delivery",
+        "Trust & Safety",
+        "Classifieds"
+      ],
+      "status": "published"
     }
   ]
 }
