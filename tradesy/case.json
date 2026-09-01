@@ -3,101 +3,112 @@
   "metadata": {
     "company": "Tradesy",
     "slug": "tradesy",
-    "headline": "How did Tradesy make peer-to-peer luxury resale feel safer?",
+    "headline": "How did Tradesy keep luxury resale peer-to-peer without taking inventory?",
     "case_number": "017",
-    "published_date": "2026-08-31",
-    "updated_date": "2026-08-31",
-    "snapshot_date": "2022-12-01",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2022-03-14",
     "status": "official",
     "industry": [
       "Luxury Resale",
       "Peer-to-Peer Marketplace"
     ],
     "topics": [
-      "Luxury Fashion",
-      "Authentication",
-      "Historical Case",
-      "Acquisition"
+      "Asset-Light Marketplace",
+      "Luxury Trust",
+      "Peer-to-Peer Fulfillment",
+      "Cloud Infrastructure",
+      "Historical Case"
     ],
     "geography": [
-      "Global"
+      "United States"
     ],
     "language": "en"
   },
   "platform_lesson": {
-    "title": "Trust features do not guarantee standalone scale",
-    "text": "Tradesy used the familiar marketplace recipe of independent supply, fashion-focused demand and trust mechanisms around a risky product category. Those mechanisms helped make luxury resale transact-able, but they did not guarantee that the platform would remain a standalone network. Vestiaire Collective acquired Tradesy in 2022 and the Tradesy platform stopped processing new orders that December. The platform lesson is that trust can improve marketplace quality, while liquidity and strategic scale still determine whether a niche network can survive independently."
+    "title": "Trust can be centralized while inventory stays decentralized",
+    "text": "Tradesy's core marketplace remained genuinely peer-to-peer: Sellers kept possession of their luxury items, created their own listings and shipped sold goods to Buyers. Tradesy centralized the layers that made that decentralized exchange usable at scale—discovery, pricing assistance, payment coordination, returns, fraud controls and an authenticity guarantee—without taking inventory itself. Even its computing infrastructure was externalized to specialist cloud partners. The platform lesson is that an Owner can centralize trust, rules and market coordination while leaving both inventory and fulfillment distributed across Providers."
   },
   "pbmc": {
     "core_value_unit": {
       "value": "Luxury Listing",
-      "explanation": "The Luxury Listing is the Core Value Unit in this historical snapshot: a designer-fashion item offered by an individual Seller and made searchable and purchasable through Tradesy.",
+      "explanation": "The Luxury Listing is the Core Value Unit: a Seller-created offer for a pre-owned designer item, including images, description, condition and price. Tradesy did not take inventory; the listing made Seller-held goods searchable and purchasable.",
       "changed": false,
       "before": "",
       "after": "",
-      "metrics": []
+      "metrics": [
+        {
+          "value": "$600+ AOV*",
+          "note": "Tradesy CEO Tracy DiNunzio said in late 2021 that average order value was above $600, with roughly 1.2 items per basket. This is a transaction-value proxy for the high-value listings exchanged on the marketplace, not an average listing price."
+        }
+      ]
     },
     "consumer": {
       "actor": {
         "value": "Buyers",
-        "explanation": "Fashion shoppers seeking pre-owned designer and luxury goods at prices below traditional retail.",
+        "explanation": "Fashion-conscious Buyers searched Tradesy for pre-owned designer handbags, clothing, shoes and accessories at prices below primary-market retail.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "7M Members*",
+            "note": "Tradesy reported about seven million members before acquisition. This figure includes both Buyers and Sellers, so it is used only as a broad demand/community scale proxy rather than a Buyer-only count."
+          }
+        ]
       },
       "job": {
-        "value": "Buy Luxury",
-        "explanation": "Buyers wanted access to desirable designer fashion without paying full retail prices.",
+        "value": "Buy Designer Resale",
+        "explanation": "Buyers wanted desirable luxury and designer pieces at lower prices without accepting the full counterfeit and transaction risk of an unstructured resale market.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Value / Trust",
-        "explanation": "Tradesy combined resale pricing with marketplace protections and authentication support intended to reduce luxury-purchase risk.",
+        "explanation": "Tradesy offered curated luxury discovery, a clean shopping interface, returns support and an authenticity guarantee.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Fakes / Fit",
-        "explanation": "Luxury resale creates uncertainty around authenticity, condition, sizing, shipping and returns.",
+        "value": "Fake / Fit / Delay",
+        "explanation": "Luxury resale creates uncertainty around authenticity, condition, fit, pricing and shipping time.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Order / Pay",
-        "explanation": "Buyers placed orders and paid through the Tradesy transaction flow.",
+        "explanation": "Buyers purchased through Tradesy's marketplace transaction and payment flow rather than paying Sellers off-platform.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
         "value": "Account / Payment",
-        "explanation": "Participation depended on account, payment and platform fraud controls.",
+        "explanation": "Participation depended on account and payment access plus Tradesy's fraud, listing and transaction controls.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Web / App",
-        "explanation": "Buyers used Tradesy's website and mobile applications.",
+        "explanation": "Buyers accessed Tradesy through its website and mobile applications.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Search / Buy",
-        "explanation": "Buyers browsed designer listings, purchased, tracked and returned eligible items.",
+        "value": "Browse / Buy / Return",
+        "explanation": "Buyers searched listings, purchased, tracked orders, reviewed transactions and used Tradesy's return process where applicable.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Taste / Budget",
-        "explanation": "Buyers contributed brand preferences, sizing, purchasing power and trust signals.",
+        "value": "Budget / Taste",
+        "explanation": "Buyers contributed purchasing power, designer preferences, sizing information, wishlists and feedback.",
         "changed": false,
         "before": "",
         "after": ""
@@ -106,64 +117,69 @@
     "provider": {
       "actor": {
         "value": "Sellers",
-        "explanation": "Individuals and fashion resellers supplied pre-owned designer inventory to the marketplace.",
+        "explanation": "Individuals, collectors and professional luxury resellers supplied the inventory while keeping physical possession until a sale.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "$1B+ Earned*",
+            "note": "A 2022 technology case study states that Tradesy Sellers had generated more than $1 billion in revenue cumulatively. This is lifetime Seller proceeds, not annual GMV or the number of active Sellers."
+          }
+        ]
       },
       "job": {
         "value": "Sell Luxury",
-        "explanation": "Sellers wanted to turn designer fashion they no longer wanted into cash.",
+        "explanation": "Sellers wanted to turn designer items into cash while retaining more proceeds and doing less work than building their own resale audience.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Reach / Payout",
-        "explanation": "Tradesy reduced listing friction and connected Sellers with fashion-focused demand.",
+        "value": "Reach / Earnings",
+        "explanation": "Tradesy provided luxury-focused demand, pricing recommendations, photo enhancement, shipping support and marketplace trust.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Fees / Delay",
-        "explanation": "Sellers faced commission, selling time, returns and the risk that items would not attract demand.",
+        "value": "Fees / Time",
+        "explanation": "Sellers faced commission costs, uncertain time-to-sale, payout timing and the work of preparing and shipping the item.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Listing / Item",
-        "explanation": "Sellers created a luxury listing and supplied the item after a sale.",
+        "explanation": "Sellers created the listing, held the item until sale and then shipped the purchased luxury good to the Buyer.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Brand / Condition",
-        "explanation": "Listings were filtered by marketplace rules, product categories, authenticity expectations and condition.",
+        "value": "Authenticity / Condition",
+        "explanation": "Listings and Seller behavior were subject to luxury-brand, condition, authenticity, fraud and marketplace rules.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Seller Tools",
-        "explanation": "Sellers listed and managed products through Tradesy's web and mobile tools.",
+        "value": "Listing Tools",
+        "explanation": "Sellers listed through Tradesy's app and web tools and could use platform pricing and image-assistance features.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "List / Ship",
-        "explanation": "Sellers photographed, described, priced and shipped sold items.",
+        "value": "List / Price / Ship",
+        "explanation": "Sellers photographed, described and priced items, communicated as needed and fulfilled sold orders.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Item / Photos",
-        "explanation": "Sellers contributed designer inventory, product information, photos and fulfillment effort.",
+        "value": "Item / Product Data",
+        "explanation": "Sellers contributed the luxury item, images, description, condition information, price choice and fulfillment effort.",
         "changed": false,
         "before": "",
         "after": ""
@@ -174,65 +190,70 @@
       "enabled_before": true,
       "enabled_after": true,
       "actor": {
-        "value": "Commerce Services",
-        "explanation": "Payment, shipping and authentication-related services supported the luxury resale transaction.",
+        "value": "Google Cloud / Insight",
+        "explanation": "Tradesy used Google Cloud as core computing infrastructure and Insight as the specialist migration Partner that helped move its CDN, databases, data warehouse and production workloads away from earlier cloud infrastructure.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "30–40% Savings*",
+            "note": "Tradesy's documented cloud migration produced approximately 30% to 40% immediate cost savings on the migrated infrastructure. This is a Partner-impact metric, not Partner revenue or user count."
+          }
+        ]
       },
       "job": {
-        "value": "Reduce Friction",
-        "explanation": "Supporting services helped move money and products safely through a high-trust transaction.",
+        "value": "Scale Infrastructure",
+        "explanation": "The cloud Partners had to provide reliable, elastic infrastructure and migration expertise for a rapidly growing image-, data- and transaction-heavy marketplace.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Volume / Revenue",
-        "explanation": "Marketplace activity created service demand around payments, shipping and trust.",
+        "value": "Cloud Usage / Relationship",
+        "explanation": "Tradesy's production workloads created cloud consumption and a strategic customer relationship for Google Cloud and Insight.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Fraud / Returns",
-        "explanation": "Luxury resale carries fraud, chargeback, delivery and authenticity risks.",
+        "value": "Migration / Reliability",
+        "explanation": "Moving databases, CDN, analytics and production workloads created technical migration risk and required continuity for marketplace users.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Service / Fee",
-        "explanation": "Service providers supplied transaction support in return for commercial value.",
+        "value": "Cloud / Fees",
+        "explanation": "Tradesy moved workloads and cloud spending to the Partner stack; Google Cloud and Insight returned infrastructure, migration support and operational expertise.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Quality / Compliance",
-        "explanation": "Partners needed compatible systems, reliability and compliance.",
+        "value": "Scale / Tech Fit",
+        "explanation": "The Partner stack needed to support containerization, databases, analytics, global content delivery and a production marketplace.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Integration",
-        "explanation": "Services connected through Tradesy's checkout and operational workflows.",
+        "value": "Cloud / Consulting",
+        "explanation": "The relationship operated through Google Cloud services and Insight's migration and technical-support engagement.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Pay / Deliver",
-        "explanation": "Partners processed payments, delivery or supporting trust functions.",
+        "value": "Migrate / Operate",
+        "explanation": "Partners audited infrastructure, planned migration and helped move CDN, databases, analytics and production workloads.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Rails / Logistics",
-        "explanation": "Partners contributed payment infrastructure, logistics and specialist services.",
+        "value": "Cloud / Expertise",
+        "explanation": "Partners contributed compute, storage, databases, Kubernetes, analytics infrastructure and specialist migration knowledge.",
         "changed": false,
         "before": "",
         "after": ""
@@ -241,69 +262,69 @@
     "owner": {
       "actor": {
         "value": "Tradesy",
-        "explanation": "Tradesy operated the U.S. fashion-resale marketplace in this historical snapshot. Vestiaire Collective acquired Tradesy in April 2022, and Tradesy ceased processing new orders in December 2022.",
+        "explanation": "Tradesy operated the U.S. peer-to-peer luxury resale marketplace immediately before Vestiaire Collective announced its acquisition on March 15, 2022.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "Closed Dec ’22*",
-            "note": "Vestiaire Collective stated that the Tradesy platform would cease processing new orders during December 2022 and remain accessible only temporarily afterward."
+            "value": "17% Avg Comm.*",
+            "note": "CEO Tracy DiNunzio said in late 2021 that Sellers paid about 17% of a sale to Tradesy on average; a new Seller's first item could carry a 19.8% commission. Commission was the platform's primary revenue model."
           }
         ]
       },
       "job": {
         "value": "Scale Luxury Resale",
-        "explanation": "Tradesy tried to make peer-to-peer designer resale simple and trustworthy enough for mainstream fashion Buyers and Sellers.",
+        "explanation": "Tradesy needed to make peer-to-peer luxury transactions easy and trustworthy enough to compete with inventory-heavy consignment models.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "GMV / Fees",
-        "explanation": "More trusted supply and demand could generate commission revenue and strengthen the marketplace brand.",
+        "value": "Commission / Liquidity",
+        "explanation": "More high-quality listings and Buyer demand increased transaction liquidity and commission revenue without requiring Tradesy to buy inventory.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Trust / Scale",
-        "explanation": "Luxury resale requires costly trust mechanisms, while standalone marketplace scale and liquidity remain difficult to sustain.",
+        "explanation": "Counterfeits, fraud, returns and inconsistent Seller execution threatened trust, while marketplace liquidity had to compete with larger resale networks.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Match / Settle",
-        "explanation": "Tradesy coordinated listing discovery, ordering, payment and marketplace support.",
+        "explanation": "Tradesy coordinated listing discovery, payment, Seller proceeds, returns and trust mechanisms around the direct Seller-to-Buyer exchange.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
-        "value": "Rules / Trust",
-        "explanation": "The platform used listing rules, returns, fraud controls and authentication support to govern transactions.",
+        "value": "Authenticity / Returns",
+        "explanation": "Tradesy governed listing quality, fraud, authenticity disputes, Seller performance and its return and authenticity guarantee.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
         "value": "Search / Fashion",
-        "explanation": "Tradesy relied on digital discovery, fashion marketing and its resale positioning to attract participants.",
+        "explanation": "Tradesy attracted users through search, fashion media, social channels, referrals and its luxury-resale positioning.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Match / Protect",
-        "explanation": "Tradesy operated listings, search, payments, customer support, returns and trust mechanisms.",
+        "explanation": "Tradesy operated discovery, pricing technology, photo enhancement, payments, returns, customer support, fraud detection and marketplace trust.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Brand / Data",
-        "explanation": "Its fashion-focused user base, marketplace data, software and trust processes were key resources.",
+        "value": "Brand / Data / Tech",
+        "explanation": "Its member network, luxury transaction data, pricing and fraud technology, marketplace software and trust processes were key resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -315,49 +336,49 @@
           "from": "consumer",
           "to": "owner",
           "value": "Order / Pay",
-          "explanation": "Buyers placed and paid for orders through Tradesy."
+          "explanation": "Buyers placed orders and paid through Tradesy's marketplace transaction flow."
         },
         {
           "from": "owner",
           "to": "consumer",
-          "value": "Match / Protect",
-          "explanation": "Tradesy provided discovery, transaction support and marketplace protections."
+          "value": "Discovery / Protect",
+          "explanation": "Tradesy provided luxury discovery, payment coordination, returns and authenticity-related marketplace protection."
         },
         {
           "from": "provider",
           "to": "owner",
-          "value": "Listing / Fees",
-          "explanation": "Sellers supplied listings and paid applicable marketplace commissions."
+          "value": "Listing / Commission",
+          "explanation": "Sellers supplied listings and paid Tradesy a commission when an item sold."
         },
         {
           "from": "owner",
           "to": "provider",
           "value": "Demand / Payout",
-          "explanation": "Tradesy connected Sellers with buyer demand and coordinated proceeds."
+          "explanation": "Tradesy exposed listings to Buyer demand and coordinated Seller proceeds after a completed transaction."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Demand / Review",
+          "explanation": "Buyer purchases and transaction feedback created demand and reputation signals for the Seller."
         },
         {
           "from": "provider",
           "to": "consumer",
           "value": "Luxury Item",
-          "explanation": "The Seller supplied the purchased designer item to the Buyer."
-        },
-        {
-          "from": "consumer",
-          "to": "provider",
-          "value": "Review",
-          "explanation": "Buyer feedback contributed to trust and seller reputation."
-        },
-        {
-          "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "Commerce services supported payment, delivery or trust functions."
+          "explanation": "The Seller retained inventory and shipped the sold luxury item directly to the Buyer."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Volume / Fees",
-          "explanation": "Marketplace transactions created commercial volume for service partners."
+          "value": "Workloads / Fees",
+          "explanation": "Tradesy moved marketplace infrastructure workloads and associated cloud spending into the Google Cloud and Insight relationship."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Cloud / Support",
+          "explanation": "Google Cloud and Insight returned scalable infrastructure, migration execution and technical support to Tradesy."
         }
       ],
       "before": [],
@@ -366,8 +387,28 @@
     "metrics": [
       {
         "target": "owner",
-        "value": "Closed Dec ’22*",
-        "note": "Historical platform ceased processing new orders in December 2022 after acquisition by Vestiaire Collective."
+        "value": "17% Avg Comm.*",
+        "note": "Average Seller commission cited by CEO in late 2021; first-item commission could be 19.8%."
+      },
+      {
+        "target": "consumer",
+        "value": "7M Members*",
+        "note": "Broad Tradesy membership/community proxy; includes Buyers and Sellers."
+      },
+      {
+        "target": "provider",
+        "value": "$1B+ Earned*",
+        "note": "Cumulative Seller revenue generated through Tradesy."
+      },
+      {
+        "target": "partner",
+        "value": "30–40% Savings*",
+        "note": "Immediate cloud-infrastructure cost savings documented after migration."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "$600+ AOV*",
+        "note": "Late-2021 average order value; roughly 1.2 items per basket, so not an average listing price."
       }
     ]
   },
@@ -379,25 +420,46 @@
   },
   "sources": [
     {
+      "title": "Cases only.pptx — Tradesy source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "User-supplied source reconstruction: Tradesy as Owner, luxury shoppers as Consumers, luxury resellers as Providers, payment/shipping/authentication services as the original broad Partner category, and authenticated luxury listing as the original CVU."
+    },
+    {
+      "title": "Tradesy Looks to Be the Next Big Thing in Luxury Resale",
+      "publisher": "WWD / Yahoo",
+      "date": "2021-02-04",
+      "url": "https://www.yahoo.com/lifestyle/tradesy-looks-next-big-thing-050119718.html",
+      "note": "Historical source for seven million Tradesy members, 73% U.S. ZIP-code reach, 2020 listing growth, $550 AOV and the platform's commission structure."
+    },
+    {
+      "title": "Tradesy CEO: Younger generations are transforming fashion and we're here for it",
+      "publisher": "Yahoo Finance",
+      "date": "2021-11",
+      "url": "https://finance.yahoo.com/video/tradesy-ceo-younger-generations-transforming-202940417.html",
+      "note": "Direct CEO interview for $600+ average order value, roughly 1.2 items per basket, approximately 17% average Seller commission and 19.8% first-item commission."
+    },
+    {
+      "title": "Tradesy migrates and scales infrastructure to enable sellers to generate over $1 billion in revenue",
+      "publisher": "Insight",
+      "date": "2022-06-28",
+      "url": "https://www.insight.com/en_US/content-and-resources/case-studies/tradesy-migrates-and-scales-infrastructure-to-enable-sellers-to-generate-over-1-billion-in-revenue.html",
+      "note": "Detailed Tradesy technology case study confirming the P2P no-inventory architecture, >$1B cumulative Seller revenue, Google Cloud / Insight Partner relationship and 30–40% infrastructure cost savings."
+    },
+    {
+      "title": "Vestiaire Collective announces the acquisition of Tradesy",
+      "publisher": "Vestiaire Collective",
+      "date": "2022-03-15",
+      "url": "https://www.prnewswire.com/news-releases/vestiaire-collective-announces-the-acquisition-of-tradesy-the-us-pioneer-in-the-fashion-resale-industry-to-accelerate-circularity-in-the-global-luxury-fashion-market-301502976.html",
+      "note": "Primary acquisition announcement. It establishes March 15, 2022 as the boundary immediately after this independent Tradesy snapshot and describes Tradesy and Vestiaire as peer-to-peer fashion resale marketplaces."
+    },
+    {
       "title": "Buyer: Tradesy Site Credit Balance Transfer to Vestiaire Collective",
       "publisher": "Vestiaire Collective",
       "date": "2022",
       "url": "https://faq.vestiairecollective.com/hc/en-us/articles/7954355891601-Buyer-Tradesy-Site-Credit-Balance-Transfer-to-Vestiaire-Collective",
-      "note": "Primary source confirming Tradesy became part of Vestiaire Collective and would cease processing new orders in December 2022."
-    },
-    {
-      "title": "Vestiaire Collective Sustainability / Strategic Report",
-      "publisher": "Vestiaire Collective",
-      "date": "2025",
-      "url": "https://assets.vestiairecollective.com/documents/sustainability/2025_08-dnfp-report-en.pdf",
-      "note": "Primary source confirming Vestiaire Collective acquired U.S. company Tradesy in April 2022 as part of its international expansion."
-    },
-    {
-      "title": "Seller: Reporting your Tradesy earnings on your 2022 tax return",
-      "publisher": "Vestiaire Collective",
-      "date": "2023",
-      "url": "https://faq.vestiairecollective.com/hc/en-us/articles/12401504336657-Seller-Reporting-your-Tradesy-earnings-on-your-2022-tax-return",
-      "note": "Primary transition-era source confirming Recycled Media, Inc. / Tradesy, Inc. as the company of record for 2022 seller earnings."
+      "note": "Transition source confirming that Tradesy later ceased processing new orders in December 2022. Used to keep the historical snapshot clearly separated from the later migration/closure phase."
     }
   ],
   "related": {
