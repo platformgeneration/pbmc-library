@@ -775,25 +775,24 @@ const GEOM={
 */
 const ROUTES={
   /*
-    Shared transaction-anchor rule (v18.4): every route starts and ends on a
-    transaction box's SHORT edge, but anchor points are DISTRIBUTED along that
-    short edge instead of all collapsing into the middle. Routes may bend
-    outside the box to stay visually distinct, but no arrowhead lands on a
-    long edge.
+    Shared transaction-anchor rule (v18.5): every route starts and ends on a
+    transaction box's SHORT edge, anchor points stay distributed along that
+    short edge, and every arrow route may have at most TWO corners (at most
+    two bends / three straight segments).
 
     Owner transaction:    left  y = 228 / 246 / 264   · right y = 228 / 246 / 264
     Provider transaction: top   x = 334 / 361 / 388   · bottom x = 334 / 361 / 388
     Consumer transaction: top   x = 1052 / 1079 / 1106 · bottom x = 1052 / 1079 / 1106
     Partner transaction:  left  y = 672 / 690 / 708   · right y = 672 / 690 / 708
   */
-  "owner>provider":   {d:"M489 228 L377 228 L377 326 L334 326 L334 351", label:[394,319]},
-  "provider>owner":   {d:"M361 351 L361 271 L473 271 L473 246 L489 246", label:[425,263]},
-  "consumer>owner":   {d:"M1052 351 L1052 228 L967 228 L951 228", label:[1048,218]},
-  "owner>consumer":   {d:"M951 246 L1063 246 L1063 326 L1079 326 L1079 351", label:[1043,319]},
-  "partner>provider": {d:"M489 672 L377 672 L377 610 L334 610 L334 585", label:[394,621]},
-  "provider>partner": {d:"M361 585 L361 665 L473 665 L473 690 L489 690", label:[425,666]},
-  "consumer>partner": {d:"M1052 585 L1052 672 L967 672 L951 672", label:[1013,666]},
-  "partner>consumer": {d:"M951 690 L1063 690 L1063 610 L1079 610 L1079 585", label:[1043,621]},
+  "owner>provider":   {d:"M489 228 L334 228 L334 351", label:[344,319]},
+  "provider>owner":   {d:"M361 351 L489 351 L489 246", label:[433,339]},
+  "consumer>owner":   {d:"M1052 351 L951 351 L951 228", label:[1010,339]},
+  "owner>consumer":   {d:"M951 246 L1079 246 L1079 351", label:[1043,339]},
+  "partner>provider": {d:"M489 672 L334 672 L334 585", label:[344,621]},
+  "provider>partner": {d:"M361 585 L489 585 L489 690", label:[433,597]},
+  "consumer>partner": {d:"M1052 585 L951 585 L951 672", label:[1010,597]},
+  "partner>consumer": {d:"M951 690 L1079 690 L1079 585", label:[1043,621]},
 
   "owner>partner":    {d:"M489 264 L413 264 L413 708 L489 708", label:[448,720]},
   "partner>owner":    {d:"M951 672 L1027 672 L1027 264 L951 264", label:[992,660]},
