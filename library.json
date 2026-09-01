@@ -293,17 +293,16 @@
       "slug": "tradesy",
       "case_number": "017",
       "company": "Tradesy",
-      "headline": "How did Tradesy keep luxury resale peer-to-peer without taking inventory?",
+      "headline": "How did Tradesy make peer-to-peer luxury resale feel safer?",
       "industry": [
         "Luxury Resale",
         "Peer-to-Peer Marketplace"
       ],
       "topics": [
-        "Asset-Light Marketplace",
-        "Luxury Trust",
-        "Peer-to-Peer Fulfillment",
-        "Cloud Infrastructure",
-        "Historical Case"
+        "Luxury Fashion",
+        "Authentication",
+        "Historical Case",
+        "Acquisition"
       ],
       "status": "published"
     },
@@ -355,6 +354,24 @@
         "Global Luxury",
         "Cross-Border Commerce",
         "Coupang"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "temu",
+      "case_number": "021",
+      "company": "Temu",
+      "headline": "Temu was fined €200M. Can more products weaken the platform?",
+      "industry": [
+        "E-commerce",
+        "Marketplace"
+      ],
+      "topics": [
+        "Digital Services Act",
+        "Product Safety",
+        "Platform Governance",
+        "Affiliate Growth",
+        "EU Marketplace"
       ],
       "status": "published"
     }

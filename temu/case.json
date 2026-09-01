@@ -1,0 +1,502 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Temu",
+    "slug": "temu",
+    "headline": "Temu was fined €200M. Can more products weaken the platform?",
+    "case_number": "021",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-08-29",
+    "status": "official",
+    "industry": [
+      "E-commerce",
+      "Marketplace"
+    ],
+    "topics": [
+      "Digital Services Act",
+      "Product Safety",
+      "Platform Governance",
+      "Affiliate Growth",
+      "EU Marketplace"
+    ],
+    "geography": [
+      "European Union"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "More supply can scale risk as well as value",
+    "text": "Temu's marketplace growth loop depends on more Shoppers attracting more Sellers, more Sellers adding more Products, and more choice and price competition attracting more Shoppers again. The DSA case exposes the other side of that loop: the same discovery and promotion systems can also increase the reach of unsafe or illegal products. Stronger governance may add friction and reduce raw supply, but it can still strengthen the platform if it raises the quality of what remains. The strongest marketplace is not the one with the most products. It is the one where additional products create more value than risk."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product",
+      "explanation": "The Product is the Core Value Unit in this EU marketplace case: the item a Shopper can discover, compare and order through Temu.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "100M+ Items*",
+          "note": "Global Temu scale metric, not EU-only. Temu's current global Affiliate Program page advertises a catalog of more than 100 million high-converting items. This is a global catalog-scale metric, not an EU-only count."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "Shoppers are the Consumer side: people looking for inexpensive products and deals in Temu's EU marketplace.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "530M MAU*",
+            "note": "Global Temu scale metric, not EU-only. Sensor Tower reported a record 530 million monthly active users globally in August 2025. This is an app audience metric, not a count of EU Buyers."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Deals",
+        "explanation": "Shoppers come looking for useful products at prices that feel like a deal.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Low Price",
+        "explanation": "Low price and broad choice are central parts of Temu's value proposition to Shoppers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Bad Goods",
+        "explanation": "A cheap product stops being a bargain when it is unsafe, illegal, non-compliant or materially different from what the listing suggests.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Once a Shopper chooses a Product, interest turns into an order and payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Market",
+        "explanation": "Participation depends primarily on Temu serving the Shopper's market and the Product being available there.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Temu's app and website are the main access channels into the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Browse / Buy",
+        "explanation": "Shoppers search, scroll, compare and buy products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Data",
+        "explanation": "Shopper attention and behavior create data about clicks, ignored offers and purchases that can feed discovery and recommendation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Outside businesses supply the Products. They form the Provider side of the marketplace and can include merchants, manufacturers and brands.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "300K+ Sellers*",
+            "note": "Global Temu scale metric, not EU-only. Marketplace Pulse estimated more than 300,000 Temu Sellers globally in August 2024. This is an external estimate, not an official Temu count, and it predates the subsequent expansion of local Seller programs."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell More",
+        "explanation": "Sellers join because Temu can expose their Products to a much larger pool of potential Buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Sales",
+        "explanation": "Marketplace attention can translate into more reach and sales.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rules / Cost",
+        "explanation": "Selling through Temu brings platform rules, intense price competition and the cost and effort of getting goods to customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Goods / Fees",
+        "explanation": "Sellers bring the goods and pay for services connected with marketplace transactions and promotion.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Verify",
+        "explanation": "Temu's EU Seller Center requires identity or company documentation before a business can start selling.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Portal",
+        "explanation": "Approved Sellers manage Products, orders and logistics through Temu's Seller Portal.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Ship",
+        "explanation": "Sellers update stock, manage Products and orders and arrange shipping.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Stock / Docs",
+        "explanation": "Sellers contribute the underlying inventory, Product information and the documentation needed to participate.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Promoters",
+        "explanation": "Promoters are creators, deal pages and other affiliate-program participants that bring outside audiences and traffic into Temu.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "50M+ Partners*",
+            "note": "Global Temu scale metric, not EU-only. Temu's current Affiliate Program page states that the program is trusted by more than 50 million Affiliate Partners across 80+ countries and regions. This is not an EU-only Promoter count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Earn Fees",
+        "explanation": "Promoters turn outside attention into visits and qualifying orders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income",
+        "explanation": "Successful referrals can generate commissions or rewards.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rules / Trust",
+        "explanation": "Promoter income depends on program rules and retaining enough credibility with an outside audience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Traffic / Fees",
+        "explanation": "Outside traffic moves toward Temu while qualifying referrals can earn money in return.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Program",
+        "explanation": "Access to this role comes through Temu's Affiliate or related promoter program.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Links / Codes",
+        "explanation": "Referral links and codes connect an outside audience back to the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Share / Push",
+        "explanation": "Promoters share products, deals and recommendations outside Temu's own app and advertising.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Audience / Trust",
+        "explanation": "Promoters contribute attention and an audience Temu did not have to build itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Temu",
+        "explanation": "Temu operates the marketplace between Shoppers, Sellers and Promoters, sets participation rules, shapes discovery and helps transactions happen.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Grow Trade",
+        "explanation": "Temu's job is to make useful transactions happen at scale by connecting demand with outside supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Fees",
+        "explanation": "More successful purchases can increase the value of Temu's merchant transaction and marketing services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Safety Risk",
+        "explanation": "As the marketplace scales, unsafe or illegal Products can also gain more opportunities to be discovered and promoted.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Temu coordinates the match and helps the purchase move from discovery to payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rank / Rules",
+        "explanation": "Temu governs who can sell, what can remain on the marketplace and how Products are ranked or recommended.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Ads / Deals",
+        "explanation": "Advertising, discounts, deals and referrals push additional demand into the platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Review",
+        "explanation": "Temu simultaneously helps Products get found and reviews marketplace risks, Sellers, Products and content against its rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Reach",
+        "explanation": "A large audience attracts supply while Shopper behavior provides data that helps Temu decide what to surface next.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Order",
+          "explanation": "When a Shopper buys, the order ultimately reaches the Seller through the platform-mediated transaction."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Product",
+          "explanation": "The Seller provides the Product the Shopper ultimately receives."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "The Shopper's payment moves through Temu's marketplace flow."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery",
+          "explanation": "Temu shapes Product discovery through search, recommendations and deals."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Fees",
+          "explanation": "Sellers pay for services connected with transactions and promotion."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Traffic",
+          "explanation": "Temu gives Sellers access to a large pool of potential Buyers."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Promo",
+          "explanation": "Promoters pull people toward Products through deals, links and recommendations."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Reward",
+          "explanation": "When a referral qualifies, Temu can return part of the value as a commission or reward."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Traffic",
+          "explanation": "Referral clicks and visits bring additional demand into Temu's marketplace."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "530M MAU*",
+        "note": "Global Temu scale metric, not EU-only. Sensor Tower, August 2025; app MAU, not EU Buyers."
+      },
+      {
+        "target": "provider",
+        "value": "300K+ Sellers*",
+        "note": "Global Temu scale metric, not EU-only. Marketplace Pulse estimate, August 2024; not an official Temu count."
+      },
+      {
+        "target": "partner",
+        "value": "50M+ Partners*",
+        "note": "Global Temu scale metric, not EU-only. Temu Affiliate Program; current global figure across 80+ markets."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "100M+ Items*",
+        "note": "Global Temu scale metric, not EU-only. Temu Affiliate Program global catalog-scale figure."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "2LnIpm0hwrc",
+    "youtube_url": "https://www.youtube.com/watch?v=2LnIpm0hwrc",
+    "thumbnail": "https://i.ytimg.com/vi/2LnIpm0hwrc/maxresdefault.jpg",
+    "youtube_title": "Temu was fined €200M. Can more products weaken the platform?"
+  },
+  "sources": [
+    {
+      "title": "Temu DSA PBMC Production Workbook v5",
+      "publisher": "Platform Generation",
+      "date": "2026-08-29",
+      "url": "",
+      "note": "Primary analytical production source for the PBMC roles, fields, transaction topology and DSA narrative."
+    },
+    {
+      "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
+      "publisher": "European Commission",
+      "date": "2026-05-28",
+      "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1178/IP_26_1178_EN.pdf",
+      "note": "Primary source for the €200M DSA fine and the finding concerning systemic risks related to illegal products."
+    },
+    {
+      "title": "PDD Holdings 2025 Form 20-F",
+      "publisher": "PDD Holdings / U.S. SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926050727/pdd-20251231x20f.htm",
+      "note": "Primary regulatory source for Temu's marketplace model, merchant services, buyers, recommendation and transaction architecture."
+    },
+    {
+      "title": "Temu EU Seller Center",
+      "publisher": "Temu",
+      "date": "2026",
+      "url": "https://seller-eu.temu.com/login.html",
+      "note": "Primary operational source for EU Seller verification, Seller Portal access, Products, orders and logistics."
+    },
+    {
+      "title": "Temu Affiliate Program",
+      "publisher": "Temu",
+      "date": "2026",
+      "url": "https://www.temu.com/de/affiliate_seeding_entry.html",
+      "note": "Primary Partner source for referral links/codes, rewards, 50M+ global Affiliate Partners and 100M+ global catalog items."
+    },
+    {
+      "title": "2025 Holiday Shopping Season: How eCommerce Apps & Brands Capture Growth",
+      "publisher": "Sensor Tower",
+      "date": "2025",
+      "url": "https://sensortower.com/blog/ecommerce-holiday-performance-2025-report",
+      "note": "Source for Temu reaching a record 530M global monthly active users in August 2025."
+    },
+    {
+      "title": "Temu Starts Recruiting U.S. Brands",
+      "publisher": "Marketplace Pulse",
+      "date": "2024-08-27",
+      "url": "https://www.marketplacepulse.com/articles/temu-starts-recruiting-us-brands",
+      "note": "External research estimate of more than 300,000 Temu Sellers globally in August 2024; not an official Temu count."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Temu — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
