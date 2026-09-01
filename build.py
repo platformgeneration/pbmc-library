@@ -707,7 +707,7 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     if(!input||!box)return;
     const q=input.value.trim().toLowerCase();
 
-    // Clicking/focusing an empty field must not reveal arbitrary cases.
+    // Clicking/focusing an empty field must not reveal arbitrary cases. Typed searches return all relevant matches; the result panel itself scrolls when needed.
     if(!q){{closeSearch();return;}}
 
     matches=cases
@@ -716,8 +716,7 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
         const rank=resultRank(a,q)-resultRank(b,q);
         if(rank)return rank;
         return (a.company||"").localeCompare(b.company||"",undefined,{{sensitivity:"base"}});
-      }})
-      .slice(0,6);
+      }});
     active=-1;
 
     if(!matches.length){{

@@ -1,19 +1,13 @@
-PBMC LIBRARY v2.75 — SEARCH + BROWSE ALL CASES
+PBMC LIBRARY v2.76 — UNCAPPED SEARCH RESULTS
 
 What changed
-- Empty search field no longer opens arbitrary first cases.
-- Autocomplete starts only after the user types.
-- Search indexes platform/company name, case number, headline, industry and topics/tags.
-- Autocomplete displays only platform name plus a small, unobtrusive case number.
-- Autocomplete is limited to the six best matches.
-- Added “Browse all cases” beside the search.
-- Browse list is alphabetically sorted by platform/company name.
-- Browse list displays platform name plus a small case number.
-- Both search and browse are populated at runtime from library.json.
-
-Future cases
-No separate search/dropdown maintenance is required. Once a published case is added to library.json,
-it automatically becomes searchable and appears alphabetically in Browse all cases.
+- Removed the fixed six-result limit from autocomplete.
+- Search now returns every matching published case.
+- Results remain ranked: exact company match, company prefix, company substring, then metadata/tag matches.
+- The dropdown has a responsive maximum height and scrolls when the match set is longer.
+- Empty search focus still shows nothing.
+- Browse all cases remains complete and alphabetically sorted.
+- Search and browse still load dynamically from library.json, so new published cases are included automatically.
 
 Scope
-All 30 current case pages were rebuilt because the header behavior and CSS are embedded in each page.
+All current published case pages were rebuilt because search logic and CSS are embedded in each page.

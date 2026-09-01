@@ -152,7 +152,7 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
 .case-search-input::placeholder{color:#999}
 .case-search-input:focus{border-color:#111;box-shadow:0 0 0 3px rgba(0,0,0,.035)}
 .case-search-icon{position:absolute;right:15px;top:50%;transform:translateY(-50%);font-size:13px;color:#999;pointer-events:none}
-.case-search-results{display:none;position:absolute;z-index:100;right:0;top:46px;width:min(460px,90vw);max-height:390px;overflow:auto;background:#fff;border:1px solid #dededa;border-radius:18px;box-shadow:0 18px 45px rgba(0,0,0,.14);padding:7px}
+.case-search-results{display:none;position:absolute;z-index:100;right:0;top:46px;width:min(460px,90vw);max-height:min(430px,58vh);overflow:auto;overscroll-behavior:contain;background:#fff;border:1px solid #dededa;border-radius:18px;box-shadow:0 18px 45px rgba(0,0,0,.14);padding:7px}
 .case-search-results.show{display:block}
 .case-search-item{display:block;border-radius:12px;padding:11px 12px}
 .case-search-item:hover,.case-search-item.active{background:#f6f6f3}
@@ -594,7 +594,7 @@ header nav{
   .case-header{padding-top:20px}
 }
 
-/* v2.75 — intentional search + alphabetical Browse all cases */
+/* v2.76 — uncapped search results + alphabetical Browse all cases */
 .header-library-actions{
   min-width:515px;
 }
