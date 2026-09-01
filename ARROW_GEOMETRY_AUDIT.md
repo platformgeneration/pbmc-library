@@ -1,27 +1,28 @@
-# PBMC Library v2.60 Arrow Geometry Audit
+# PBMC Library v2.62 Arrow Geometry Audit
 
-Purpose: update the shared transaction-arrow geometry for all current PBMC cases.
+## Global transaction-arrow rule
 
-Rule
-- Transaction arrows may only start or end on a SHORT edge of the relevant Transaction field.
-- Anchor points are distributed along that short edge instead of all meeting at the center.
-- Every arrow route may have at most two corners (two bends / three straight segments).
+Every transaction arrow must satisfy all four constraints:
 
-Distributed anchors
-- Owner transaction: left y = 228 / 246 / 264; right y = 228 / 246 / 264
-- Provider transaction: top x = 334 / 361 / 388; bottom x = 334 / 361 / 388
-- Consumer transaction: top x = 1052 / 1079 / 1106; bottom x = 1052 / 1079 / 1106
-- Partner transaction: left y = 672 / 690 / 708; right y = 672 / 690 / 708
+1. It starts and ends only on a **short edge** of the relevant Transaction field.
+2. Anchor points are **distributed along the short edge**, rather than all collapsing into its midpoint.
+3. The complete route has **at most two corners / bends**.
+4. The first segment leaves the start edge **perpendicularly** and the final segment meets the destination edge **perpendicularly**.
 
-Directed routes verified
-- owner>provider, provider>owner
-- owner>consumer, consumer>owner
-- owner>partner, partner>owner
-- provider>consumer, consumer>provider
-- provider>partner, partner>provider
-- consumer>partner, partner>consumer
+For horizontal Owner/Partner Transaction boxes, this means the first/final segment at the field is horizontal.
+For vertical Provider/Consumer Transaction boxes, this means the first/final segment at the field is vertical.
 
-QA summary
-- 12/12 directed routes verified against short-edge-only anchors
-- 12/12 directed routes verified with a maximum of two corners each
-- 26/26 case pages rebuilt with the shared renderer update
+## Distributed anchors
+
+- Owner: left y = 228 / 246 / 264; right y = 228 / 246 / 264
+- Provider: top x = 334 / 361 / 388; bottom x = 334 / 361 / 388
+- Consumer: top x = 1052 / 1079 / 1106; bottom x = 1052 / 1079 / 1106
+- Partner: left y = 672 / 690 / 708; right y = 672 / 690 / 708
+
+## Route QA
+
+- 12/12 directed role-pair routes use short-edge anchors only.
+- 12/12 routes use distributed anchors.
+- 12/12 routes have no more than two bends.
+- 12/12 routes leave and meet the Transaction field perpendicularly.
+- 27/27 current case pages rebuilt with renderer v18.6, including Depop 027.
