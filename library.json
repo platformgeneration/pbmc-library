@@ -257,16 +257,17 @@
       "slug": "etsy",
       "case_number": "015",
       "company": "Etsy",
-      "headline": "Why can a marketplace get stronger by staying niche?",
+      "headline": "How can Etsy outsource seller operations without outsourcing the marketplace?",
       "industry": [
         "E-commerce",
         "Niche Marketplace"
       ],
       "topics": [
-        "Handmade & Vintage",
-        "Creator Economy",
+        "Seller Operations",
+        "Shipping Integrations",
+        "Unique Goods",
         "Marketplace Trust",
-        "Special Goods"
+        "Creator Economy"
       ],
       "status": "published"
     },
@@ -274,16 +275,17 @@
       "slug": "thredup",
       "case_number": "016",
       "company": "ThredUp",
-      "headline": "What happens when a managed resale platform adds peer-to-peer selling?",
+      "headline": "What changes when ThredUp lets sellers do the selling themselves?",
       "industry": [
         "Fashion Resale",
         "Recommerce"
       ],
       "topics": [
-        "Managed Resale",
+        "Hybrid Supply",
         "Direct Listing",
-        "Circular Fashion",
-        "Resale-as-a-Service"
+        "Managed Marketplace",
+        "Resale-as-a-Service",
+        "Circular Fashion"
       ],
       "status": "published"
     },
