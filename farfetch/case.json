@@ -3,20 +3,21 @@
   "metadata": {
     "company": "Farfetch",
     "slug": "farfetch",
-    "headline": "How does Farfetch scale luxury without owning every boutique?",
+    "headline": "How does Farfetch make 1,400 luxury partners feel like one store?",
     "case_number": "020",
-    "published_date": "2026-08-31",
-    "updated_date": "2026-08-31",
-    "snapshot_date": "2026-08-31",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
     "status": "official",
     "industry": [
-      "Luxury Fashion",
+      "Luxury Fashion Marketplace",
       "Marketplace"
     ],
     "topics": [
-      "Boutique Network",
-      "Global Luxury",
-      "Cross-Border Commerce",
+      "Global Inventory",
+      "Cross-Border Fulfillment",
+      "Luxury Commerce",
+      "Marketplace Orchestration",
       "Coupang"
     ],
     "geography": [
@@ -25,13 +26,13 @@
     "language": "en"
   },
   "platform_lesson": {
-    "title": "A marketplace can globalize fragmented specialist inventory",
-    "text": "Luxury fashion supply is fragmented across brands, flagship stores and independent boutiques, and much of that inventory is locally constrained. Farfetch makes this fragmented specialist supply searchable through one customer interface while Providers retain the underlying products and brand identities. Its value therefore comes from orchestration rather than owning every item. The platform lesson is that a marketplace can create global scale by digitally pooling inventory that remains physically and commercially distributed."
+    "title": "The inventory can stay fragmented while the customer experience is unified",
+    "text": "Farfetch's core marketplace does not need to own the luxury inventory it sells. Brands and boutiques keep the stock, while Farfetch turns thousands of separate inventories into one searchable checkout and customer experience. That makes cross-border logistics structurally important: after a customer buys from one or several partners, the physical products still have to move from those distributed inventories to a customer who may be in another country. Farfetch therefore orchestrates discovery, payment, partner settlement, shipping options, tracking and returns around inventory it does not hold. The platform lesson is that aggregation can centralize the customer experience without centralizing the underlying assets."
   },
   "pbmc": {
     "core_value_unit": {
       "value": "Luxury Listing",
-      "explanation": "The Luxury Listing is the Core Value Unit: a specific luxury product from a brand or boutique made globally discoverable and purchasable through the Farfetch customer experience.",
+      "explanation": "The Luxury Listing is the Core Value Unit: a specific luxury item from a brand or boutique, represented with product, price, size and availability information so it can be discovered and purchased globally through Farfetch.",
       "changed": false,
       "before": "",
       "after": "",
@@ -40,69 +41,69 @@
     "consumer": {
       "actor": {
         "value": "Luxury Customers",
-        "explanation": "Global fashion customers seeking luxury products, including items difficult to find in their local market.",
+        "explanation": "Luxury Customers use Farfetch to discover and buy products from brands and boutiques around the world through one interface.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "Millions Active*",
-            "note": "Farfetch currently describes its marketplace as serving millions of active customers. It does not publish a precise current active-customer count on its company page."
+            "note": "Farfetch's current company page describes its customer base as millions of active customers. No precise current active-customer count is publicly disclosed."
           }
         ]
       },
       "job": {
         "value": "Find Luxury",
-        "explanation": "Customers want to discover and buy luxury fashion across many brands and boutiques through one interface.",
+        "explanation": "Customers want to find desirable luxury products, including pieces that may not be available in their local market.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Choice / Access",
-        "explanation": "Farfetch aggregates globally fragmented luxury inventory and can expose Customers to products unavailable locally.",
+        "explanation": "Farfetch combines fragmented global inventory into a broad selection with one discovery and checkout experience.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Price / Delivery",
-        "explanation": "Luxury ecommerce creates concerns around price, returns, customs, cross-border delivery and inventory consistency.",
+        "explanation": "Luxury e-commerce creates friction around price, fit, customs, returns, delivery time and cross-border complexity.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Order / Pay",
-        "explanation": "Customers place orders through Farfetch's digital storefront and payment flow.",
+        "explanation": "Customers place orders and pay through Farfetch even when the underlying sale is with a third-party partner boutique.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Region / Payment",
-        "explanation": "Availability depends on geography, shipping, payment, product restrictions and partner inventory.",
+        "value": "Market / Payment",
+        "explanation": "Access and availability depend on destination market, payment eligibility, shipping restrictions and partner inventory.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Web / App",
-        "explanation": "Customers access Farfetch through its website, app and selected integrations such as Coupang's R.LUX in South Korea.",
+        "explanation": "Customers access the marketplace through Farfetch's website and mobile applications.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Discover / Buy",
-        "explanation": "Customers browse brands, search, favorite, purchase, track and return.",
+        "value": "Browse / Buy",
+        "explanation": "Customers browse, compare, purchase and return luxury products.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Taste / Budget",
-        "explanation": "Customers contribute luxury demand, preferences, purchasing power and behavioral data.",
+        "value": "Budget / Taste",
+        "explanation": "Customers contribute purchasing power, style preferences, sizing information and shopping behavior.",
         "changed": false,
         "before": "",
         "after": ""
@@ -111,69 +112,69 @@
     "provider": {
       "actor": {
         "value": "Brands / Boutiques",
-        "explanation": "Luxury brands and boutiques provide the product supply and inventory that Farfetch aggregates.",
+        "explanation": "Independent luxury brands, boutiques and department stores provide the distributed inventory that Farfetch aggregates.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "1,400+ Partners*",
-            "note": "Farfetch's current company page states that it connects customers with items from more than 1,400 global brand and boutique partners."
+            "note": "Farfetch currently states that it connects customers with items from more than 1,400 brands and boutiques worldwide."
           }
         ]
       },
       "job": {
-        "value": "Reach Customers",
-        "explanation": "Providers want global digital distribution without losing the identity and economics of their own luxury inventory.",
+        "value": "Sell Globally",
+        "explanation": "Providers want to reach international luxury customers without building the same global digital demand and transaction layer themselves.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Global Reach",
-        "explanation": "Farfetch can expose local boutique or brand inventory to international demand and provide digital commerce capabilities.",
+        "value": "Reach / Sales",
+        "explanation": "Farfetch provides international discovery, demand generation and access to markets beyond the Provider's local footprint.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Margin / Control",
-        "explanation": "Providers face commission, operational integration, returns and the risk of losing direct control over customer discovery.",
+        "value": "Sync / Fulfill",
+        "explanation": "Providers must keep inventory, pricing and product information accurate while fulfilling premium cross-border orders.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Listing / Product",
-        "explanation": "Brands and boutiques synchronize inventory and fulfill orders generated through Farfetch.",
+        "value": "Listing / Stock",
+        "explanation": "Providers supply product listings, availability and the physical inventory behind them.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Luxury / Quality",
-        "explanation": "Providers need to meet commercial, brand, inventory, service and platform requirements.",
+        "value": "Quality / Terms",
+        "explanation": "Farfetch controls which retail partners join and applies marketplace, product, service and content requirements.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Partner Systems",
-        "explanation": "Providers connect through Farfetch partner tools, inventory integrations and operational systems.",
+        "value": "Partner Portal",
+        "explanation": "Brands and boutiques connect their catalog, stock and order-management processes to Farfetch's partner systems.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Sync / Fulfill",
-        "explanation": "Providers maintain assortment, pricing and inventory and fulfill orders through agreed processes.",
+        "value": "List / Fulfill",
+        "explanation": "Providers maintain product data and stock, prepare sold items and hand parcels into the delivery network.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Inventory / Brand",
-        "explanation": "Providers contribute luxury inventory, product data, brand identity, pricing and fulfillment capability.",
+        "value": "Stock / Catalog",
+        "explanation": "Providers contribute luxury inventory, product data, pricing, brand identity and fulfillment capability.",
         "changed": false,
         "before": "",
         "after": ""
@@ -184,65 +185,65 @@
       "enabled_before": true,
       "enabled_after": true,
       "actor": {
-        "value": "Commerce Services",
-        "explanation": "Logistics, payment, technology and other service actors support the cross-border luxury transaction without supplying the fashion item itself.",
+        "value": "Logistics Carriers",
+        "explanation": "Logistics Carriers are the most business-model-critical external complement in the global marketplace boundary. Farfetch currently ships worldwide primarily through DHL, with UPS and other carriers used in selected markets, so distributed boutique inventory can reach customers without Farfetch owning the stock.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": []
       },
       "job": {
-        "value": "Enable Luxury",
-        "explanation": "Commerce Services make global payment, delivery, returns and digital integration workable.",
+        "value": "Deliver Globally",
+        "explanation": "Carriers must move high-value products reliably across the local and international routes connecting Farfetch partners with customers.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Volume / Revenue",
-        "explanation": "Farfetch's global luxury demand creates service volume and premium commercial opportunities.",
+        "value": "Volume / Reach",
+        "explanation": "Farfetch creates recurring premium parcel volume across many countries and retail origins.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Cross-Border Cost",
-        "explanation": "Luxury shipments create customs, insurance, returns, delivery and integration complexity.",
+        "value": "Customs / Delay",
+        "explanation": "Cross-border luxury shipments face customs, security, delivery-time and loss or damage risk.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Service / Fee",
-        "explanation": "Partners provide commerce infrastructure and receive fees or transaction-linked revenue.",
+        "value": "Parcel / Delivery",
+        "explanation": "Providers hand parcels to the carrier network; carriers move them to customers and support the reverse flow for returns.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Quality / SLA",
-        "explanation": "Partners must meet reliability, security, service-quality and luxury-customer expectations.",
+        "value": "Coverage / SLA",
+        "explanation": "The carrier layer needs international coverage, tracking and service levels compatible with a premium luxury experience.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "API / Network",
-        "explanation": "Services connect through APIs, payment rails, logistics networks and commercial contracts.",
+        "value": "Labels / Tracking",
+        "explanation": "Farfetch integrates shipping options, labels and tracking into the order and return process.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Pay / Deliver",
-        "explanation": "Partners process payments, move high-value goods, support returns and maintain integrations.",
+        "value": "Pick / Deliver",
+        "explanation": "Carriers collect or receive parcels, transport them, clear relevant delivery steps and complete delivery.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Rails / Logistics",
-        "explanation": "Partners contribute global logistics, payment infrastructure, software and operational capability.",
+        "value": "Network / Tracking",
+        "explanation": "Carriers contribute global parcel networks, customs capability, tracking systems and delivery capacity.",
         "changed": false,
         "before": "",
         "after": ""
@@ -251,14 +252,14 @@
     "owner": {
       "actor": {
         "value": "Farfetch",
-        "explanation": "Farfetch operates the luxury marketplace and customer interface. Coupang acquired the Farfetch business and assets in January 2024 and now reports Farfetch as part of its group.",
+        "explanation": "Farfetch operates the luxury marketplace and customer interface. Coupang acquired the Farfetch business and assets in January 2024.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
             "value": "190+ Markets*",
-            "note": "Farfetch states that it connects customers in more than 190 countries and territories with its luxury marketplace."
+            "note": "Farfetch currently serves customers in more than 190 countries and territories. This is geographic marketplace reach, not a revenue or customer-count metric."
           }
         ]
       },
@@ -271,49 +272,49 @@
       },
       "gain": {
         "value": "Scale / Commission",
-        "explanation": "Aggregated demand and supply can generate marketplace economics while making the network more attractive to brands and boutiques.",
+        "explanation": "Aggregated demand and supply can increase marketplace liquidity and generate transaction-related economics.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Margin / Complexity",
-        "explanation": "Farfetch must coordinate premium customer experience, partner economics, cross-border fulfillment and platform profitability across a fragmented supply base.",
+        "explanation": "Farfetch must coordinate premium service, partner economics, global fulfillment and profitability across a fragmented supply base.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Match / Settle",
-        "explanation": "Farfetch coordinates discovery, ordering, payment and commercial settlement around partner inventory.",
+        "explanation": "Farfetch coordinates discovery, ordering, customer payment and commercial settlement with the selling partner.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
-        "value": "Brand / Service",
-        "explanation": "Farfetch governs partner eligibility, product content, customer service, returns and marketplace standards.",
+        "value": "Partner / Service",
+        "explanation": "Farfetch governs retail-partner eligibility, listing quality, customer service, returns and marketplace standards.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
         "value": "Brand / Editorial",
-        "explanation": "Farfetch attracts luxury demand through brand storytelling, campaigns, search, editorial discovery and integrations.",
+        "explanation": "Farfetch attracts luxury demand through campaigns, search, editorial merchandising, exclusives and brand storytelling.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Discover / Orchestrate",
-        "explanation": "Farfetch operates discovery, merchandising, checkout, partner integration, customer service and transaction orchestration.",
+        "value": "Match / Orchestrate",
+        "explanation": "Farfetch operates discovery, checkout, partner integration, customer support, settlement and shipping orchestration.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Network / Tech",
-        "explanation": "Its global brand-and-boutique network, customer base, fashion data, marketplace technology and Coupang ownership context are strategic resources.",
+        "value": "Network / Data",
+        "explanation": "Its global retail network, customer base, fashion data and marketplace technology are strategic resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -325,13 +326,13 @@
           "from": "consumer",
           "to": "owner",
           "value": "Order / Pay",
-          "explanation": "Luxury Customers place and pay for orders through Farfetch."
+          "explanation": "Customers place orders and payment through Farfetch's unified checkout."
         },
         {
           "from": "owner",
           "to": "consumer",
           "value": "Discovery / Service",
-          "explanation": "Farfetch provides global discovery, checkout and customer-service coordination."
+          "explanation": "Farfetch provides global discovery, checkout, customer support, shipping coordination and returns."
         },
         {
           "from": "provider",
@@ -343,31 +344,49 @@
           "from": "owner",
           "to": "provider",
           "value": "Demand / Payout",
-          "explanation": "Farfetch routes customer demand to Providers and coordinates commercial proceeds."
+          "explanation": "Farfetch routes customer demand to the selling partner and remits the relevant proceeds after the transaction."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Purchase / Demand",
+          "explanation": "The underlying purchase contract is with the partner boutique or brand, so the customer's order creates direct demand for that Provider's product."
         },
         {
           "from": "provider",
           "to": "consumer",
           "value": "Luxury Item",
-          "explanation": "The brand or boutique ultimately supplies the purchased luxury product."
-        },
-        {
-          "from": "consumer",
-          "to": "provider",
-          "value": "Demand",
-          "explanation": "Customer purchases and preference signals determine which partner inventory converts into sales."
+          "explanation": "The selling partner supplies the purchased item, which is shipped from that partner's inventory to the customer."
         },
         {
           "from": "partner",
-          "to": "owner",
-          "value": "Services",
-          "explanation": "Commerce Services provide payments, logistics or technical capabilities."
+          "to": "consumer",
+          "value": "Delivery",
+          "explanation": "The logistics carrier physically delivers the purchased product to the customer."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Parcel",
+          "explanation": "The selling brand or boutique hands the packed order into the carrier network."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Shipping / Tracking",
+          "explanation": "The carrier provides transport and tracking that allow the Provider to fulfill the Farfetch order."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Volume / Fees",
-          "explanation": "Farfetch's marketplace creates cross-border transaction and service volume for enabling partners."
+          "value": "Volume / Labels",
+          "explanation": "Farfetch orchestrates shipping options and creates parcel volume across its distributed retail network."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Tracking / Delivery",
+          "explanation": "Carrier status and delivery events feed Farfetch's customer-service, tracking and return processes."
         }
       ],
       "before": [],
@@ -375,19 +394,19 @@
     },
     "metrics": [
       {
+        "target": "owner",
+        "value": "190+ Markets*",
+        "note": "Current Farfetch geographic reach across countries and territories."
+      },
+      {
         "target": "consumer",
         "value": "Millions Active*",
-        "note": "Farfetch's current qualitative active-customer scale statement; no precise current figure published on company page."
+        "note": "Current qualitative active-customer scale statement; no precise count disclosed."
       },
       {
         "target": "provider",
         "value": "1,400+ Partners*",
-        "note": "Current Farfetch global brand and boutique partner count."
-      },
-      {
-        "target": "owner",
-        "value": "190+ Markets*",
-        "note": "Countries and territories served by Farfetch."
+        "note": "Current Farfetch global brand-and-boutique partner count."
       }
     ]
   },
@@ -399,32 +418,60 @@
   },
   "sources": [
     {
+      "title": "Cases only.pptx — Farfetch source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "Internal source reconstruction used only as a starting point. It identified Farfetch, luxury customers, brands/boutiques, a broad commerce-services Partner set and a luxury fashion listing as the original CVU."
+    },
+    {
       "title": "What is FARFETCH?",
       "publisher": "Farfetch",
       "date": "2026",
       "url": "https://aboutfarfetch.com/about/farfetch/",
-      "note": "Primary source for Farfetch's marketplace model, 1,400+ global partners, 190+ countries and territories and millions of active customers."
+      "note": "Primary source for the current marketplace model, 1,400+ global brand/boutique partners, 190+ countries and territories and millions of active customers."
+    },
+    {
+      "title": "Farfetch Terms and Conditions",
+      "publisher": "Farfetch",
+      "date": "2026",
+      "url": "https://www.farfetch.com/de/terms-and-conditions/",
+      "note": "Primary legal source confirming that customers generally buy from third-party partner boutiques, Farfetch collects payment and remits proceeds, Farfetch provides shipping services, and items ship directly from partner inventory."
+    },
+    {
+      "title": "How to shop on FARFETCH",
+      "publisher": "Farfetch",
+      "date": "2026",
+      "url": "https://www.farfetch.com/de/how-to-shop/",
+      "note": "Primary source for one-checkout aggregation across multiple retail partners and worldwide shipping via DHL, with UPS in selected countries."
+    },
+    {
+      "title": "Orders & Shipping",
+      "publisher": "Farfetch",
+      "date": "2026",
+      "url": "https://www.farfetch.com/de/orders-and-shipping/",
+      "note": "Primary source for direct partner-origin shipments, separate packages by boutique, shipping/tracking and the carrier network including DHL, UPS, FedEx, TNT and DPD."
+    },
+    {
+      "title": "FARFETCH FIRST",
+      "publisher": "Farfetch",
+      "date": "2026-05-07",
+      "url": "https://www.aboutfarfetch.com/news/press-releases/farfetch-unveils-farfetch-first-redefining-the-luxury-customer-experience/",
+      "note": "Primary current source showing how delivery speed has become part of Farfetch's premium customer proposition, with next-day delivery across Europe for selected inventory."
     },
     {
       "title": "Coupang 2025 Form 10-K",
-      "publisher": "Coupang, Inc. / U.S. SEC",
+      "publisher": "Coupang / U.S. SEC",
       "date": "2026",
       "url": "https://www.sec.gov/Archives/edgar/data/1834584/000183458426000024/cpng-20251231.htm",
-      "note": "Primary filing confirming Coupang acquired Farfetch in January 2024 and describing the Farfetch marketplace as connecting luxury sellers with customers and offering brands direct-to-consumer distribution."
-    },
-    {
-      "title": "FARFETCH FIRST: redefining the luxury customer experience",
-      "publisher": "Farfetch",
-      "date": "2026-05-07",
-      "url": "https://aboutfarfetch.com/news/press-releases/farfetch-unveils-farfetch-first-redefining-the-luxury-customer-experience/",
-      "note": "Primary current source for Farfetch's luxury assortment, delivery and customer-experience strategy."
+      "note": "Primary filing confirming Coupang's January 2024 acquisition of Farfetch and describing the Farfetch marketplace as connecting luxury sellers with customers."
     },
     {
       "title": "FARFETCH opens a world of luxury to millions of new and engaged customers",
       "publisher": "Farfetch",
       "date": "2025-06-09",
       "url": "https://aboutfarfetch.com/news/press-releases/farfetch-opens-a-world-of-luxury-to-millions-of-new-and-engaged-customers/",
-      "note": "Primary source showing how Farfetch routes brand and boutique partner inventory into Coupang's R.LUX customer channel in South Korea."
+      "note": "Current strategic context for R.LUX integration. Used to show why R.LUX is a regional growth channel inside the Coupang group rather than the core global Partner role."
     }
   ],
   "related": {

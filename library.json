@@ -347,15 +347,16 @@
       "slug": "farfetch",
       "case_number": "020",
       "company": "Farfetch",
-      "headline": "How does Farfetch scale luxury without owning every boutique?",
+      "headline": "How does Farfetch make 1,400 luxury partners feel like one store?",
       "industry": [
-        "Luxury Fashion",
+        "Luxury Fashion Marketplace",
         "Marketplace"
       ],
       "topics": [
-        "Boutique Network",
-        "Global Luxury",
-        "Cross-Border Commerce",
+        "Global Inventory",
+        "Cross-Border Fulfillment",
+        "Luxury Commerce",
+        "Marketplace Orchestration",
         "Coupang"
       ],
       "status": "published"
