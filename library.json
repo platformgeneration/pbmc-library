@@ -239,16 +239,17 @@
       "slug": "jd-com",
       "case_number": "014",
       "company": "JD.com",
-      "headline": "How does JD.com combine retail control with marketplace scale?",
+      "headline": "How does JD.com turn logistics from a retail cost into a marketplace service?",
       "industry": [
         "E-commerce",
         "Retail Marketplace"
       ],
       "topics": [
+        "Integrated Logistics",
         "Hybrid Retail",
+        "Third-Party Merchants",
         "Supply Chain",
-        "Marketplace Trust",
-        "China E-commerce"
+        "Retail as a Service"
       ],
       "status": "published"
     },
@@ -256,16 +257,17 @@
       "slug": "etsy",
       "case_number": "015",
       "company": "Etsy",
-      "headline": "Why can a marketplace get stronger by staying niche?",
+      "headline": "How can Etsy outsource seller operations without outsourcing the marketplace?",
       "industry": [
         "E-commerce",
         "Niche Marketplace"
       ],
       "topics": [
-        "Handmade & Vintage",
-        "Creator Economy",
+        "Seller Operations",
+        "Shipping Integrations",
+        "Unique Goods",
         "Marketplace Trust",
-        "Special Goods"
+        "Creator Economy"
       ],
       "status": "published"
     },

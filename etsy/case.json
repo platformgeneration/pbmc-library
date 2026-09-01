@@ -3,7 +3,7 @@
   "metadata": {
     "company": "Etsy",
     "slug": "etsy",
-    "headline": "Why can a marketplace get stronger by staying niche?",
+    "headline": "How can Etsy outsource seller operations without outsourcing the marketplace?",
     "case_number": "015",
     "published_date": "2026-08-31",
     "updated_date": "2026-08-31",
@@ -14,10 +14,11 @@
       "Niche Marketplace"
     ],
     "topics": [
-      "Handmade & Vintage",
-      "Creator Economy",
+      "Seller Operations",
+      "Shipping Integrations",
+      "Unique Goods",
       "Marketplace Trust",
-      "Special Goods"
+      "Creator Economy"
     ],
     "geography": [
       "Global"
@@ -25,89 +26,89 @@
     "language": "en"
   },
   "platform_lesson": {
-    "title": "Niche supply can be a network effect",
-    "text": "Etsy does not win by offering every interchangeable product on the internet. Its marketplace becomes more useful when Sellers contribute inventory that feels difficult to find elsewhere: handmade, personalized, vintage, craft or otherwise distinctive goods. That differentiation attracts Buyers who are specifically looking for something special, which in turn makes Etsy more valuable to the Sellers who create that supply. The platform lesson is that a marketplace can build network effects around scarcity and identity, not only around maximum breadth."
+    "title": "Seller operations can be modular without giving up the customer relationship",
+    "text": "Etsy keeps the marketplace relationship with Buyers and Sellers while allowing independent shipping apps to plug directly into Seller operations. Those partners can import order data, create labels, synchronize shipping information and return tracking status without becoming the Seller or taking over Etsy's discovery and checkout layer. The Seller therefore gains specialist operational capability while Etsy keeps control of the market, transaction and trust interface. The platform lesson is that a marketplace can externalize parts of Provider operations as modular services without externalizing the core customer relationship."
   },
   "pbmc": {
     "core_value_unit": {
       "value": "Unique Listing",
-      "explanation": "The Unique Listing is the Core Value Unit: a specific handmade, vintage, craft, personalized, sourced or seller-designed item that a Buyer can discover and purchase from an independent Seller.",
+      "explanation": "The Unique Listing is the Core Value Unit: an item offered by an Etsy Seller that meets Etsy's Creativity Standards and becomes searchable, purchasable and reviewable in the marketplace. Listings can cover handmade, designed, handpicked or sourced goods within Etsy's permitted categories.",
       "changed": false,
       "before": "",
       "after": "",
       "metrics": [
         {
           "value": "100M+ Items*",
-          "note": "Etsy reported more than 100 million items for sale on the Etsy marketplace as of December 31, 2025."
+          "note": "Etsy reported more than 100 million items for sale on the Etsy marketplace as of December 31, 2025. This is the latest explicit marketplace-wide live-item figure found in Etsy's public filings."
         }
       ]
     },
     "consumer": {
       "actor": {
         "value": "Buyers",
-        "explanation": "People shopping for distinctive, personalized, vintage, craft or human-made goods that are less standardized than mass-market retail.",
+        "explanation": "Buyers come to Etsy for unique and creative goods and can interact directly with Sellers around product questions, customization, delivery and reviews.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "86.5M Buyers*",
-            "note": "Etsy marketplace active buyers as of December 31, 2025, defined by Etsy as buyers with at least one purchase in the trailing 12 months."
+            "value": "87.0M Buyers*",
+            "note": "Etsy reported 86.969 million active Buyers for the Etsy marketplace as of June 30, 2026. An active Buyer made at least one purchase in the previous 12 months."
           }
         ]
       },
       "job": {
         "value": "Find Something Special",
-        "explanation": "Buyers come to Etsy when they want products with uniqueness, personalization, creativity or a connection to an independent Seller.",
+        "explanation": "Buyers want distinctive goods, personalization and human connection rather than only standardized mass-market products.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Unique / Human",
-        "explanation": "The marketplace can offer items, customization and seller relationships that are difficult to replicate in standardized retail.",
+        "explanation": "Etsy combines broad niche supply with search, personalization, direct Seller interaction and marketplace protections.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Trust / Shipping",
-        "explanation": "Buyers can face quality variation, shipping times, inaccurate descriptions, mass-produced goods or uncertainty about who actually made an item.",
+        "value": "Trust / Delivery",
+        "explanation": "Buyers can face uncertainty around item quality, production method, delivery timing, customization and whether a listing truly meets Etsy's standards.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Order / Pay",
-        "explanation": "Buyers order and pay for Seller products through Etsy's marketplace transaction flow.",
+        "explanation": "Buyers purchase through Etsy's checkout and payment flow.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
         "value": "Account / Payment",
-        "explanation": "Access depends on payment, geography, platform rules and fraud controls; many purchases can also begin from search without a deep user profile.",
+        "explanation": "Purchase access depends on payment availability, geography, product restrictions and trust-and-safety controls.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Web / App",
-        "explanation": "Buyers discover Etsy through its website, mobile app, search engines, advertising and shared listing links.",
+        "explanation": "Buyers access Etsy through the website, mobile app, search engines, marketing and direct links to shops or listings.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Search / Buy",
-        "explanation": "Buyers search, browse, favorite, message, order, review and sometimes request customization.",
+        "value": "Search / Message / Buy",
+        "explanation": "Buyers search, favorite, message Sellers, request personalization, purchase, track, review and open cases when necessary.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Taste / Budget",
-        "explanation": "Buyers contribute taste, intent, search signals, budget, delivery details and feedback.",
+        "explanation": "Buyers contribute purchasing power, preferences, personalization requests, attention, reviews and behavioral data.",
         "changed": false,
         "before": "",
         "after": ""
@@ -116,69 +117,69 @@
     "provider": {
       "actor": {
         "value": "Sellers",
-        "explanation": "Independent makers, designers, vintage curators and craft-supply Sellers create or source the distinctive inventory that defines Etsy.",
+        "explanation": "Creative entrepreneurs supply Etsy's differentiated inventory. Etsy requires listed items to be made, designed, handpicked or sourced by the Seller under its Creativity Standards.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "5.6M Sellers*",
-            "note": "Etsy marketplace active sellers as of December 31, 2025, defined by Etsy as sellers with a charge or sale in the trailing 12 months."
+            "value": "5.71M Sellers*",
+            "note": "Etsy reported 5.706 million active Sellers for the Etsy marketplace as of June 30, 2026. An active Seller had a charge or sale in the previous 12 months."
           }
         ]
       },
       "job": {
-        "value": "Sell Creations",
-        "explanation": "Sellers want to turn creative work, vintage inventory or specialized goods into income.",
+        "value": "Sell Creative Goods",
+        "explanation": "Sellers want to turn creative work, curation or specialized supply into income and repeat customer relationships.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Reach / Identity",
-        "explanation": "Etsy gives Sellers access to a global buyer base while letting distinctive products and shop identity remain visible.",
+        "value": "Demand / Identity",
+        "explanation": "Etsy provides access to a large Buyer base, shop identity, discovery, payments, advertising, messaging and Seller tools.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Competition / Fees",
-        "explanation": "Sellers face search competition, fees, shipping complexity, policy changes and pressure from low-quality or mass-produced listings.",
+        "value": "Visibility / Fees",
+        "explanation": "Sellers face competition for attention, listing and transaction costs, delivery expectations, returns or cases and strict marketplace-policy enforcement.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Listing / Sale",
-        "explanation": "Sellers create listings and deliver the purchased item to the Buyer.",
+        "value": "Listing / Item",
+        "explanation": "Sellers create the listing and supply the physical or digital item purchased by the Buyer.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
         "value": "Creativity / Policy",
-        "explanation": "Sellers and listings must fit Etsy's seller, creativity, prohibited-item, intellectual-property and marketplace policies.",
+        "explanation": "Seller and listing participation is governed by Etsy's Creativity Standards, prohibited-items rules, identity and marketplace policies.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "Shop Manager / API",
-        "explanation": "Sellers manage shops through Etsy's web and mobile seller tools and supported integrations.",
+        "value": "Shop Manager",
+        "explanation": "Sellers operate through Shop Manager, the Etsy Seller app, listings, messaging, Ads, payments and connected third-party apps.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Create / Fulfill",
-        "explanation": "Sellers create or source qualifying products, photograph, list, customize, communicate, fulfill and support Buyers.",
+        "value": "Create / List / Fulfill",
+        "explanation": "Sellers design, make, curate or source permitted items, create listings, communicate, price, fulfill, ship and support Buyers.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Craft / Inventory",
-        "explanation": "Sellers contribute the item, creative skill or curation, product information, photos, pricing and fulfillment.",
+        "value": "Creativity / Inventory",
+        "explanation": "Sellers contribute original designs, craft skill, curated goods, inventory, product data, photos, customer service and fulfillment effort.",
         "changed": false,
         "before": "",
         "after": ""
@@ -189,65 +190,70 @@
       "enabled_before": true,
       "enabled_after": true,
       "actor": {
-        "value": "Commerce Services",
-        "explanation": "Third-party shipping apps and other commerce-service integrations support Etsy Sellers with order processing, shipping labels, inventory synchronization and related operating tasks.",
+        "value": "Shipping Apps",
+        "explanation": "Shipping Apps are independent third-party services that Etsy explicitly integrates with Seller shops. They help Sellers process shipping operations and exchange shipping-related data with Etsy without becoming the Seller, Buyer or marketplace Owner.",
         "changed": false,
         "before": "",
         "after": "",
-        "metrics": []
+        "metrics": [
+          {
+            "value": "16 Services*",
+            "note": "Counted from Etsy's current country-by-country list of integrated/recommended third-party shipping services as of August 2026: 16 distinct named services across the listed seller locations. This is a derived count from Etsy's official Help Center table, not a company-reported headline metric."
+          }
+        ]
       },
       "job": {
-        "value": "Enable Commerce",
-        "explanation": "Commerce Services help Sellers execute shipping, order management and other specialist marketplace operations.",
+        "value": "Run Shipping Ops",
+        "explanation": "Shipping Apps help Sellers turn Etsy orders into labels, shipment records, inventory updates and tracking workflows.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Volume / Revenue",
-        "explanation": "Etsy's concentrated community of active Buyers and Sellers creates service demand and commercial opportunities.",
+        "value": "Users / Volume",
+        "explanation": "Partners gain Seller customers and shipping or software volume by integrating into Etsy's operational workflow.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Integration / Risk",
-        "explanation": "Partners must handle fraud, delivery variability, privacy, technical changes and marketplace policy constraints.",
+        "value": "API / Reliability",
+        "explanation": "Partners depend on Etsy data access, country-specific integration rules, reliable synchronization and the performance of their own shipping workflows.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Service / Fee",
-        "explanation": "Sellers connect order data to third-party tools and pay for the relevant service; Partners return shipping, automation or other operational capability.",
+        "value": "Shipping Tools / Data",
+        "explanation": "Sellers authorize order and shop data to the app; the app returns shipping labels, tracking, shipment status and operational tools.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Compliance / Quality",
-        "explanation": "Partners need compatible systems, appropriate service quality and compliance with Etsy and legal requirements.",
+        "value": "Country / Integration",
+        "explanation": "Full automatic data exchange is limited to specific supported partners by Seller location, while other apps can have reduced functionality.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "API / Integration",
-        "explanation": "Partners connect through payment rails, shipping integrations, marketing systems and supported technical interfaces.",
+        "value": "Connected Apps",
+        "explanation": "Sellers connect supported services through Shop Manager's Apps area and the partner's integration.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Pay / Deliver",
-        "explanation": "Partners process payments, deliver parcels, support advertising or provide software and operational services.",
+        "value": "Import / Label / Track",
+        "explanation": "Partners import order information, help create or manage shipping, synchronize inventory where supported and send tracking or shipment status back.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Rails / Services",
-        "explanation": "Partners contribute payment infrastructure, shipping networks, software, advertising reach and specialist support.",
+        "value": "Software / Shipping Data",
+        "explanation": "Partners contribute shipping software, integrations, carrier connectivity, label workflows and operational data.",
         "changed": false,
         "before": "",
         "after": ""
@@ -256,69 +262,69 @@
     "owner": {
       "actor": {
         "value": "Etsy",
-        "explanation": "Etsy owns and governs the marketplace and positions it around special goods, human connection, discovery and trust.",
+        "explanation": "Etsy owns and governs the marketplace connecting creative Sellers with Buyers. It controls discovery, checkout, payments, marketplace rules and trust systems while allowing complementary Seller-operation apps to integrate.",
         "changed": false,
         "before": "",
         "after": "",
         "metrics": [
           {
-            "value": "$10.46B GMS*",
-            "note": "Etsy marketplace Gross Merchandise Sales for full-year 2025. GMS is transaction value, not Etsy revenue."
+            "value": "$456M Mkt. Rev.*",
+            "note": "Etsy reported $456.074 million of Marketplace revenue for Q2 2026 on a continuing-operations basis. Etsy marketplace standalone Marketplace revenue for the comparison period is separately disclosed; the current Q2 2026 continuing business is the Etsy marketplace after the Reverb sale and Depop classification as discontinued operations."
           }
         ]
       },
       "job": {
-        "value": "Connect Uniqueness",
-        "explanation": "Etsy must make distinctive Seller inventory easy to discover and trustworthy enough to purchase at global scale.",
+        "value": "Connect Unique Supply",
+        "explanation": "Etsy must make millions of differentiated items discoverable while preserving trust that the marketplace remains meaningfully creative and human.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "GMS / Fees",
-        "explanation": "Marketplace activity generates listing, transaction, payments and advertising revenue while reinforcing Etsy's differentiated brand.",
+        "value": "GMS / Revenue",
+        "explanation": "More relevant Buyer demand and successful Sellers generate marketplace fees, payments revenue, advertising and other Seller-service revenue.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Sameness / Trust",
-        "explanation": "If the marketplace fills with generic mass-produced goods, misleading listings or poor experiences, Etsy risks losing the differentiation that attracts Buyers.",
+        "value": "Trust / Sameness",
+        "explanation": "Etsy must prevent prohibited reselling, low-quality or misleading listings and operational failures from eroding its differentiated marketplace identity.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Match / Settle",
-        "explanation": "Etsy coordinates discovery, ordering, payments and the commercial flow between Buyers and Sellers.",
+        "explanation": "Etsy organizes discovery, ordering, payment, Seller proceeds and Buyer/Seller protections around each marketplace transaction.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
         "value": "Creativity / Trust",
-        "explanation": "Etsy uses creativity standards, listing rules, seller policies, reviews, intellectual-property processes and enforcement to protect marketplace identity.",
+        "explanation": "Etsy governs what may be sold, Seller conduct, production-partner disclosure, reviews, Purchase Protection, cases and policy enforcement.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
-        "value": "Search / Social",
-        "explanation": "Etsy attracts demand through SEO, paid marketing, social channels, app engagement, email and Sellers' own sharing.",
+        "value": "Search / App",
+        "explanation": "Etsy attracts demand through search, personalized discovery, its app, paid marketing, offsite advertising and direct Seller traffic.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Discover / Protect",
-        "explanation": "Etsy operates search and recommendations, trust and safety, seller tooling, payments, advertising and customer support.",
+        "explanation": "Etsy operates search and recommendations, listings, checkout, payments, trust and safety, Seller tools, messaging, ads and integration governance.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Brand / Community",
-        "explanation": "Etsy's brand, active Buyer and Seller network, listing data, search technology and trust systems are core resources.",
+        "value": "Brand / Network",
+        "explanation": "Etsy's differentiated Seller community, Buyer base, listing corpus, marketplace data, brand, payment infrastructure and discovery technology are core resources.",
         "changed": false,
         "before": "",
         "after": ""
@@ -330,61 +336,61 @@
           "from": "consumer",
           "to": "owner",
           "value": "Order / Pay",
-          "explanation": "Buyers place orders and pay through Etsy's marketplace flow."
+          "explanation": "Buyers place the order and pay through Etsy's marketplace checkout."
         },
         {
           "from": "owner",
           "to": "consumer",
-          "value": "Discovery / Trust",
-          "explanation": "Etsy organizes distinctive inventory and provides marketplace trust, payments and support around purchases."
+          "value": "Discovery / Protect",
+          "explanation": "Etsy provides search and recommendations plus transaction, case and Purchase Protection infrastructure."
         },
         {
           "from": "provider",
           "to": "owner",
           "value": "Listing / Fees",
-          "explanation": "Sellers contribute unique listings and pay applicable listing, transaction, payment or advertising fees."
+          "explanation": "Sellers provide listings and pay applicable listing, transaction, payment, advertising or other marketplace fees."
         },
         {
           "from": "owner",
           "to": "provider",
           "value": "Demand / Payout",
-          "explanation": "Etsy gives Sellers access to buyer demand and coordinates payouts after transactions and deductions."
-        },
-        {
-          "from": "provider",
-          "to": "consumer",
-          "value": "Item",
-          "explanation": "The Seller provides the purchased physical or digital item to the Buyer."
+          "explanation": "Etsy exposes Seller listings to Buyer demand and coordinates Seller payment proceeds after transactions and deductions."
         },
         {
           "from": "consumer",
           "to": "provider",
-          "value": "Review",
-          "explanation": "Buyer reviews and messages contribute to Seller reputation, trust and repeat demand."
+          "value": "Request / Review",
+          "explanation": "Buyers can directly message Sellers with questions or personalization requests and provide reviews after purchase."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Item / Response",
+          "explanation": "The Seller supplies the purchased item and communicates directly with the Buyer around the order."
         },
         {
           "from": "provider",
           "to": "partner",
-          "value": "Orders / Fees",
-          "explanation": "Etsy Sellers can connect their shop and order data to third-party shipping or commerce tools and pay the provider for its service."
+          "value": "Orders / Data",
+          "explanation": "Sellers connect their Etsy shop and authorize shipping-related order and shop data to supported third-party Shipping Apps."
         },
         {
           "from": "partner",
           "to": "provider",
-          "value": "Shipping / Tools",
-          "explanation": "Third-party partners give Sellers shipping, label, tracking, inventory-sync or other operating tools."
+          "value": "Labels / Tracking",
+          "explanation": "Shipping Apps return operational capabilities such as shipment processing, labels, tracking and inventory synchronization."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "API / Access",
-          "explanation": "Etsy provides approved integrations with access to the technical interfaces needed to synchronize Seller shop and shipping data."
+          "value": "API / Shop Data",
+          "explanation": "Etsy enables supported integrations to import shipping-related shop and order data according to country-specific integration rules."
         },
         {
           "from": "partner",
           "to": "owner",
-          "value": "Tracking / Data",
-          "explanation": "Integrated partners return shipping and fulfillment data such as tracking information into the Etsy transaction environment."
+          "value": "Tracking / Status",
+          "explanation": "Integrated Shipping Apps can export shipment information, tracking numbers and fulfillment status back into the Etsy shop."
         }
       ],
       "before": [],
@@ -392,24 +398,29 @@
     },
     "metrics": [
       {
+        "target": "owner",
+        "value": "$456M Mkt. Rev.*",
+        "note": "Q2 2026 Marketplace revenue; current continuing business is Etsy marketplace following portfolio divestitures."
+      },
+      {
         "target": "consumer",
-        "value": "86.5M Buyers*",
-        "note": "Etsy marketplace active buyers, Dec. 31 2025."
+        "value": "87.0M Buyers*",
+        "note": "86.969M active Etsy marketplace Buyers at June 30, 2026."
       },
       {
         "target": "provider",
-        "value": "5.6M Sellers*",
-        "note": "Etsy marketplace active sellers, Dec. 31 2025."
+        "value": "5.71M Sellers*",
+        "note": "5.706M active Etsy marketplace Sellers at June 30, 2026."
       },
       {
-        "target": "owner",
-        "value": "$10.46B GMS*",
-        "note": "Etsy marketplace full-year 2025 GMS, not revenue."
+        "target": "partner",
+        "value": "16 Services*",
+        "note": "Derived count of distinct named integrated/recommended shipping services in Etsy's current country table."
       },
       {
         "target": "core_value_unit",
         "value": "100M+ Items*",
-        "note": "Items for sale on Etsy marketplace, Dec. 31 2025."
+        "note": "Items for sale on Etsy at Dec. 31, 2025; latest explicit marketplace-wide live-item count found."
       }
     ]
   },
@@ -421,39 +432,46 @@
   },
   "sources": [
     {
-      "title": "Etsy 2025 Annual Report",
+      "title": "Etsy, Inc. Q2 2026 Form 10-Q",
       "publisher": "Etsy, Inc.",
-      "date": "2026-02-19",
-      "url": "https://investors.etsy.com/sec-filings/all-sec-filings/content/0001370637-26-000019/etsy-20251231.htm",
-      "note": "Primary source for 86.5M active buyers, 5.6M active sellers, 100M+ items for sale and $10.4607B Etsy marketplace GMS in 2025."
+      "date": "2026-08-05",
+      "url": "https://investors.etsy.com/sec-filings/all-sec-filings/content/0001370637-26-000080/etsy-20260630.htm",
+      "note": "Primary current source for 86.969M active Buyers, 5.706M active Sellers, Q2 2026 Marketplace revenue, GMS definitions and Etsy marketplace operating metrics."
     },
     {
-      "title": "What are the Fees and Taxes for Selling on Etsy?",
-      "publisher": "Etsy Help",
+      "title": "Etsy 2025 Form 10-K",
+      "publisher": "Etsy, Inc. / U.S. SEC",
       "date": "2026",
-      "url": "https://help.etsy.com/hc/en-us/articles/115014483627-What-are-the-Fees-and-Taxes-for-Selling-on-Etsy",
-      "note": "Primary source for current Etsy seller fee mechanics, including the $0.20 listing fee and 6.5% transaction fee."
-    },
-    {
-      "title": "Etsy Creativity Standards",
-      "publisher": "Etsy",
-      "date": "2026",
-      "url": "https://www.etsy.com/legal/creativity/",
-      "note": "Primary governance source defining what kinds of items can be sold and how Etsy distinguishes made, designed, handpicked and sourced products."
-    },
-    {
-      "title": "Etsy Purchase Protection",
-      "publisher": "Etsy",
-      "date": "2026",
-      "url": "https://www.etsy.com/legal/buyers/",
-      "note": "Primary source for buyer-facing marketplace rules and transaction protection context."
+      "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm",
+      "note": "Primary source for more than 100M items for sale at year-end 2025 and Etsy's strategic differentiation around unique items, search and discovery, human connection and trust."
     },
     {
       "title": "How to Use a Third-Party Provider to Ship Your Order",
       "publisher": "Etsy Help",
       "date": "2026",
       "url": "https://help.etsy.com/hc/en-us/articles/26654295371031-How-to-Use-a-Third-Party-Provider-to-Ship-Your-Order",
-      "note": "Primary source showing that Etsy Sellers directly connect third-party shipping partners for order management, shipping labels and inventory/tracking synchronization."
+      "note": "Primary current source for Etsy's country-specific integrated shipping partners, automatic import/export of shipping data, Seller shop integrations and the Partner metric derived from 16 distinct named services."
+    },
+    {
+      "title": "How to Use Apps to Manage Your Shop",
+      "publisher": "Etsy Help",
+      "date": "2026",
+      "url": "https://help.etsy.com/hc/en-us/articles/360001931728-How-to-Use-Apps-to-Manage-Your-Shop",
+      "note": "Primary source confirming that Etsy partners with third-party app companies, provides an Official partner badge and lets Sellers connect apps through Shop Manager."
+    },
+    {
+      "title": "Etsy's Creativity Standards",
+      "publisher": "Etsy",
+      "date": "2026",
+      "url": "https://www.etsy.com/legal/creativity",
+      "note": "Primary source defining Etsy's permitted item categories: made, designed, handpicked or sourced by a Seller, including rules for production-partner-assisted goods."
+    },
+    {
+      "title": "Seller Policy",
+      "publisher": "Etsy",
+      "date": "2026",
+      "url": "https://www.etsy.com/legal/sellers/",
+      "note": "Primary source for Seller obligations, listing transparency, production-partner disclosure, reviews, cases and marketplace rules."
     }
   ],
   "related": {
