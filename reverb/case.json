@@ -363,22 +363,10 @@
           "explanation": "Reverb exposes Seller inventory to millions of specialist Buyers and provides pricing, shop, payment and support tools."
         },
         {
-          "from": "consumer",
-          "to": "provider",
-          "value": "Offer",
-          "explanation": "Buyers can message Sellers and make purchase offers on eligible listings."
-        },
-        {
           "from": "provider",
           "to": "consumer",
           "value": "Gear",
           "explanation": "Sellers supply the purchased instrument or equipment and fulfill the order to the Buyer."
-        },
-        {
-          "from": "consumer",
-          "to": "partner",
-          "value": "Address",
-          "explanation": "Buyer delivery information is incorporated into the shipment so the Carrier can complete delivery."
         },
         {
           "from": "partner",
@@ -393,12 +381,6 @@
           "explanation": "Sellers hand the packed sold item to the selected Carrier for transport."
         },
         {
-          "from": "partner",
-          "to": "provider",
-          "value": "Tracking",
-          "explanation": "Carriers provide tracking and shipment events that let Sellers monitor fulfillment and support payout timing."
-        },
-        {
           "from": "owner",
           "to": "partner",
           "value": "Label",
@@ -407,7 +389,7 @@
         {
           "from": "partner",
           "to": "owner",
-          "value": "Status",
+          "value": "Tracking",
           "explanation": "Carrier tracking and delivery status return to Reverb so the platform can update the order, support protection and coordinate payout."
         }
       ],
