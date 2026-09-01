@@ -486,6 +486,24 @@
         "Marketplace Governance"
       ],
       "status": "published"
+    },
+    {
+      "slug": "reverb",
+      "case_number": "028",
+      "company": "Reverb",
+      "headline": "Why does a niche marketplace need its own price guide?",
+      "industry": [
+        "Musical Instrument Marketplace",
+        "Niche Marketplace"
+      ],
+      "topics": [
+        "Music Gear",
+        "Recommerce",
+        "Price Transparency",
+        "Marketplace Trust",
+        "Specialization"
+      ],
+      "status": "published"
     }
   ]
 }

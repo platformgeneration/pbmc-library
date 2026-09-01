@@ -1,19 +1,27 @@
-PBMC LIBRARY v2.65 — ROUTE-ATTACHED WHITE-SPACE LABEL FIX
+PBMC LIBRARY — REVERB 028 v2.70
 
 Purpose
-- Keep every flow label in white space without allowing it to float far away from its arrow.
-- Labels stay visually attributable to their own route.
+- Adds Reverb as PBMC Case 028 after Depop.
+- Uses the current v18.11 shared renderer geometry already present in the repository.
 
-Rules preserved
-- transaction arrows only on short edges
-- distributed short-edge anchors
-- perpendicular departure/arrival
-- maximum two bends
-- labels may not overlap PBMC fields, actors or CVU
+Included
+- library.json updated to 28 published cases
+- reverb/case.json
+- reverb/index.html
+- reverb/pbmc-data.csv
+- reverb/citation.bib
 
-New placement rule
-- Prefer a free parking position directly beside the label's own route.
-- Difficult owner↔partner routes park labels beside their lower horizontal route segments, where the canvas has real white space.
+Important current-data correction
+- Reverb is no longer owned by Etsy. Etsy completed its sale on June 2, 2025. Reverb is privately held and independently operated, backed by Creator Partners and Servco.
 
-QA
-- 27/27 case pages rebuilt with renderer v18.9.
+PBMC
+- Owner: Reverb
+- Consumer: Buyers
+- Provider: Sellers
+- Partner: Shipping Carriers
+- CVU: Gear Listing
+
+Canvas QA
+- No three-line field values
+- One core concept per flow label
+- 12 transaction routes retain short-edge-only, perpendicular, max-two-bend geometry

@@ -1,0 +1,545 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Reverb",
+    "slug": "reverb",
+    "headline": "Why does a niche marketplace need its own price guide?",
+    "case_number": "028",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
+    "status": "official",
+    "industry": [
+      "Musical Instrument Marketplace",
+      "Niche Marketplace"
+    ],
+    "topics": [
+      "Music Gear",
+      "Recommerce",
+      "Price Transparency",
+      "Marketplace Trust",
+      "Specialization"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Specialization can create liquidity",
+    "text": "Reverb does not compete by offering every product category. It narrows the market to music gear and then adds domain-specific infrastructure around that niche: standardized gear data, a Price Guide built from marketplace sales, musician-focused search and seller tools, buyer and seller protection, and shipping support for fragile physical goods. That specialization reduces pricing, discovery and trust friction on both sides, helping a narrower marketplace reach millions of buyers and more than half a million shops and sellers."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Gear Listing",
+      "explanation": "The Gear Listing is the Core Value Unit: a seller-created offer for a specific new, used or vintage instrument or piece of music gear, including photos, condition, price, shipping terms and product details that a Buyer can discover, compare, negotiate over and purchase.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "20M+ Instruments Sold",
+          "note": "Reverb’s current welcome page reports more than 20 million instruments sold through the marketplace."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "Musicians, producers, collectors and other gear buyers use Reverb to find new, used and vintage music gear from specialist shops and individual sellers around the world.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Millions of Buyers",
+            "note": "Reverb’s current selling pages state that millions of prospective buyers search for gear on the marketplace."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Gear",
+        "explanation": "Buyers want to find the right instrument or piece of gear for their sound, budget and use case, including rare or discontinued products that may be hard to source locally.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Price",
+        "explanation": "A specialized global marketplace offers broad selection, transparent market signals, negotiation through offers and the possibility of buying used gear below typical retail pricing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Condition / Risk",
+        "explanation": "Buyers face uncertainty about condition, accurate descriptions, shipping damage, seller reliability, cross-border duties and whether a used instrument will arrive as expected.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Buy Gear",
+        "explanation": "Buyers purchase or make offers on Gear Listings through Reverb and keep payment and order communication on-platform to qualify for marketplace protection.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Region",
+        "explanation": "Purchase options depend on account, seller shipping regions, item restrictions and supported payment or delivery conditions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Buyers browse and purchase through Reverb’s website and mobile app, using search, filters, saved listings, feeds, alerts and price information.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "Buyers search, compare, save, message, make offers, purchase, track orders and resolve issues when needed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Budget / Taste",
+        "explanation": "Buyers contribute purchasing power, musical preferences, product knowledge, search and save signals, messages, offers and transaction history.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Providers range from individual musicians and collectors to independent music shops, dealers, manufacturers and larger retailers that supply the marketplace with gear.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "500K+ Shops & Sellers",
+            "note": "Reverb’s current welcome and app pages report more than 500,000 shops and sellers."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Gear",
+        "explanation": "Sellers want to turn instruments and equipment into cash while reaching buyers who understand the category and are actively looking for music gear.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Income",
+        "explanation": "Reverb gives Sellers access to a global specialist audience, pricing guidance, seller tools and optional paid visibility through Bump.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Pricing / Shipping",
+        "explanation": "Sellers must price competitively, describe condition accurately, respond to Buyers, pack fragile or bulky gear safely and manage shipping, returns and cross-border complexity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List Gear",
+        "explanation": "Sellers create Gear Listings and, after a sale, provide the physical instrument or equipment and fulfill the order.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Gear / Standards",
+        "explanation": "Listings must be music gear, use accurate categories and condition information, follow Reverb listing standards and avoid prohibited items or off-platform transactions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Seller Hub",
+        "explanation": "Sellers use Reverb’s listing flow, Seller Hub, app, shop tools, messages, offers, shipping labels and integrations to manage supply and orders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Ship",
+        "explanation": "Sellers photograph and describe gear, set prices, answer questions, negotiate offers, pack items, ship orders and manage their shop.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Gear / Content",
+        "explanation": "Sellers contribute inventory, original photos, product details, condition information, pricing, reputation, packaging effort and specialist knowledge.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Shipping Carriers",
+        "explanation": "Shipping Carriers are the most important external complement in this physical-goods model because a matched transaction only creates value when often fragile, bulky and sometimes cross-border music gear reaches the Buyer reliably. Reverb integrates discounted labels and tracking with multiple carriers and uses Packlink for selected EU and UK shipping flows.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "8+ Named Carriers",
+            "note": "Reverb currently names four U.S. carriers and four U.K. carriers for labels, plus Packlink for selected EU and U.K. shipping."
+          }
+        ]
+      },
+      "job": {
+        "value": "Move Gear",
+        "explanation": "Carriers move sold instruments and equipment from Sellers to Buyers and provide the logistics status needed to complete and protect marketplace orders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume",
+        "explanation": "Reverb transactions generate recurring parcel volume, including high-value and international shipments that can use premium tracking, insurance and duty-paid services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Damage / Customs",
+        "explanation": "Instruments are fragile and irregularly sized, while international orders add customs, tariff, duty and delivery-compliance complexity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Ship Gear",
+        "explanation": "Carriers accept labeled parcels, transport them, generate tracking events and deliver the sold gear to the Buyer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Coverage / Limits",
+        "explanation": "Carrier participation depends on route coverage, package dimensions and value limits, insurance or Safe Shipping conditions, customs rules and service availability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Labels / Tracking",
+        "explanation": "Reverb connects shipping to orders through carrier labels, calculated rates, tracking data and, in selected markets, Packlink.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Ship / Track",
+        "explanation": "Carriers collect or accept parcels, transport them, clear international shipments where applicable, provide tracking and deliver or return packages.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Network / Tracking",
+        "explanation": "Carriers contribute physical delivery networks, hubs, vehicles, tracking systems, customs capabilities and claims infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Reverb",
+        "explanation": "Reverb owns and operates the specialist music-gear marketplace. Since June 2, 2025 it has again been a privately held, independently operated company backed by Creator Partners and Servco after Etsy completed its sale of Reverb.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "5% Selling Fee",
+            "note": "Reverb currently charges a 5% selling fee on each completed sale, in addition to payment-processing and optional service fees."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Gear Market",
+        "explanation": "Reverb must create enough trusted liquidity in a specialist category for Buyers to find the right gear and Sellers to reach knowledgeable demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fees / Liquidity",
+        "explanation": "Successful transactions generate selling and payment-related revenue while deeper marketplace activity improves selection, price signals and repeat participation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Friction",
+        "explanation": "Reverb must control misleading listings, off-platform leakage, payment and shipping problems, poor pricing, fraud and cross-border friction without making participation too cumbersome.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match",
+        "explanation": "Reverb matches Buyers with Gear Listings, supports offers and checkout, coordinates payment, protection, shipping information and dispute handling.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Listing Standards",
+        "explanation": "Reverb governs category fit, original photography, accurate condition and product data, prohibited goods, pricing behavior, duplicate listings and the requirement to keep transactions on-platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Content / Feed",
+        "explanation": "Reverb drives discovery through search, personalized feeds, saved searches, price-drop alerts, editorial content, artist stories, emails and seller promotion tools such as Bump.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Protect",
+        "explanation": "Reverb operates search and discovery, product data, offers, checkout, payments, protection, seller tools, support, shipping integrations and marketplace integrity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Gear Data",
+        "explanation": "Reverb’s specialist product catalog, Price Guide, transaction history, search and recommendation data, seller network, brand and musician-focused product knowledge are core resources.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "240K+ Price Guide Products",
+            "note": "Reverb’s current Price Guide says its database contains more than 240,000 products and uses millions of marketplace sales to estimate market ranges."
+          }
+        ]
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "Buyers pay through Reverb checkout when purchasing a Gear Listing."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery",
+          "explanation": "Reverb provides specialist search, recommendations, pricing signals, checkout and Buyer Protection around marketplace purchases."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing",
+          "explanation": "Sellers contribute Gear Listings and pay Reverb selling and related transaction fees when items sell."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand",
+          "explanation": "Reverb exposes Seller inventory to millions of specialist Buyers and provides pricing, shop, payment and support tools."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Offer",
+          "explanation": "Buyers can message Sellers and make purchase offers on eligible listings."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Gear",
+          "explanation": "Sellers supply the purchased instrument or equipment and fulfill the order to the Buyer."
+        },
+        {
+          "from": "consumer",
+          "to": "partner",
+          "value": "Address",
+          "explanation": "Buyer delivery information is incorporated into the shipment so the Carrier can complete delivery."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Delivery",
+          "explanation": "Carriers deliver the purchased gear and provide the physical fulfillment of the marketplace transaction."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Parcel",
+          "explanation": "Sellers hand the packed sold item to the selected Carrier for transport."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Tracking",
+          "explanation": "Carriers provide tracking and shipment events that let Sellers monitor fulfillment and support payout timing."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Label",
+          "explanation": "Reverb supplies order and label information through its shipping integrations and partner services."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Status",
+          "explanation": "Carrier tracking and delivery status return to Reverb so the platform can update the order, support protection and coordinate payout."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": []
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Cases only.pptx — Reverb source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "Internal source reconstruction used only as a starting point. The original ownership reference to Etsy was outdated and was replaced with current primary-source ownership information."
+    },
+    {
+      "title": "Reverb’s Next Chapter as a Private Company",
+      "publisher": "Reverb",
+      "date": "2025-04-22",
+      "url": "https://reverb.com/uk/news/reverb-servco-creator-partners",
+      "note": "Primary Reverb source explaining the return to private, independently operated ownership backed by Creator Partners and Servco; the page notes the transaction closed June 2, 2025."
+    },
+    {
+      "title": "Etsy Quarterly Report — Sale of Reverb",
+      "publisher": "U.S. Securities and Exchange Commission / Etsy, Inc.",
+      "date": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000080/etsy-20260630.htm",
+      "note": "Current SEC source confirming that Etsy completed the sale of Reverb on June 2, 2025 and recording the $105 million cash purchase price subject to adjustments."
+    },
+    {
+      "title": "Welcome to Reverb",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://reverb.com/featured/welcome-to-reverb",
+      "note": "Primary current source for 20M+ instruments sold, millions of fellow musicians and 500K+ shops and sellers."
+    },
+    {
+      "title": "What is Reverb?",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://help.reverb.com/hc/en-us/articles/41988495033243-What-is-Reverb",
+      "note": "Primary current description of Reverb as a global marketplace for new, used and vintage musical instruments with price transparency, specialist tools and music-focused support."
+    },
+    {
+      "title": "Reverb Pricing & Payouts",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://reverb.com/selling/selling-fees",
+      "note": "Primary current source for the 5% selling fee, payment-processing fees, millions of buyers and the role of offers and Price Guide data in seller pricing."
+    },
+    {
+      "title": "Reverb Price Guide",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://reverb.com/price-guide/",
+      "note": "Primary current source for the 240K+ product database and the use of millions of historical marketplace sales to estimate fair market ranges."
+    },
+    {
+      "title": "Listing Standards",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://help.reverb.com/hc/en-us/articles/41988278270747-Listing-Standards",
+      "note": "Primary governance source for original photos, category accuracy, item conditions, prohibited items and actions, duplicate listings and off-platform transaction restrictions."
+    },
+    {
+      "title": "How does Reverb protect buyers?",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://help.reverb.com/hc/en-us/articles/40917640280987-How-does-Reverb-protect-buyers",
+      "note": "Primary current source for Reverb Buyer Protection, on-platform payment and communication requirements, and the 7-day problem-reporting window."
+    },
+    {
+      "title": "How does Reverb protect sellers?",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://help.reverb.com/hc/en-us/articles/40917615337755-How-does-Reverb-protect-sellers",
+      "note": "Primary current source for secure payments, Reverb Seller Protection and the requirement to keep sales and communications on-platform."
+    },
+    {
+      "title": "How do shipping labels on Reverb work?",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://help.reverb.com/hc/en-us/articles/41988323612955-How-do-shipping-labels-on-Reverb-work",
+      "note": "Primary current source for Reverb shipping labels, Safe Shipping, four named U.S. carriers, four named U.K. carriers and Packlink for selected EU/U.K. shipping."
+    },
+    {
+      "title": "International shipping guide",
+      "publisher": "Reverb",
+      "date": "2026",
+      "url": "https://help.reverb.com/hc/en-us/articles/40917615579931-International-shipping-guide",
+      "note": "Primary current source for cross-border shipping, carrier choices, DDP recommendations, Packlink and tariff/customs friction affecting international gear sales in 2026."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Reverb — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
