@@ -374,6 +374,24 @@
         "EU Marketplace"
       ],
       "status": "published"
+    },
+    {
+      "slug": "hugging-face",
+      "case_number": "022",
+      "company": "Hugging Face",
+      "headline": "If Nvidia buys Hugging Face, can the platform stay neutral?",
+      "industry": [
+        "AI Platform",
+        "Model Hub"
+      ],
+      "topics": [
+        "Platform Neutrality",
+        "AI Models",
+        "AI Infrastructure",
+        "NVIDIA",
+        "Vertical Integration"
+      ],
+      "status": "published"
     }
   ]
 }

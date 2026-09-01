@@ -1,0 +1,464 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Hugging Face",
+    "slug": "hugging-face",
+    "headline": "If Nvidia buys Hugging Face, can the platform stay neutral?",
+    "case_number": "022",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-08-29",
+    "status": "official",
+    "industry": [
+      "AI Platform",
+      "Model Hub"
+    ],
+    "topics": [
+      "Platform Neutrality",
+      "AI Models",
+      "AI Infrastructure",
+      "NVIDIA",
+      "Vertical Integration"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Vertical integration can create both speed and a neutrality burden",
+    "text": "Hugging Face is valuable because it sits above many technology choices: Creators publish models, Builders discover them, and the Hub organizes search, access and reuse. Nvidia already participates below that coordination layer as a compute partner. A reported acquisition would therefore be more than a change of ownership: one infrastructure supplier could also gain control of the platform where Builders decide what to use. That could shorten the path from model discovery to compute, but it could also make neutrality itself a governance obligation. The broader lesson is that vertical integration can increase platform power only if users continue to trust the crossroads."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "AI Model",
+      "explanation": "The AI Model is the Core Value Unit: the model repository a Builder can discover, inspect, download or connect to inference services through the Hugging Face Hub.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "3.03M Models",
+          "note": "The public Hugging Face Models page listed 3,030,482 model repositories at the workbook research cut-off on August 29, 2026."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Builders",
+        "explanation": "Builders include developers, researchers and organizations that come to the Hub to find and use models in AI products and research.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "13M Users*",
+            "note": "Hugging Face reported that its community reached 13 million users in 2025. This is the newest clean company-reported user figure in the workbook, not a live 2026 count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Build AI",
+        "explanation": "Builders want to create useful AI without developing every model from scratch.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Speed",
+        "explanation": "A large model catalog increases choice and can make experimentation and development faster.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust",
+        "explanation": "Builders need confidence in who created a model, what it does, its documentation and the terms under which it can be used.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Use / Pay",
+        "explanation": "Builders can use public models and may also pay Hugging Face for private features, storage or compute-related services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "License / Gate",
+        "explanation": "Access depends on model licenses, repository rules and, for gated models, approval requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Hub / API",
+        "explanation": "Builders access the platform through the Hub website, libraries and APIs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Build",
+        "explanation": "Builders search, compare, test and build with models they find on the Hub.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Code / GPUs",
+        "explanation": "Builders bring their own code and require computing resources to turn models into working applications.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Creators",
+        "explanation": "Creators are individuals, research groups, startups and companies that publish models for others to discover and reuse.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Share Models",
+        "explanation": "Creators want their models to be found, tested and reused.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Reuse",
+        "explanation": "Publishing on the Hub can generate downloads, attention, feedback and downstream reuse.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cost / Noise",
+        "explanation": "Training and maintaining models can be expensive, while millions of alternatives compete for attention.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Model / Docs",
+        "explanation": "Creators supply model files plus the documentation and metadata needed to understand and use them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account",
+        "explanation": "Publishing requires a Hugging Face account and compliance with repository rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Repo / Git",
+        "explanation": "Creators publish and maintain models through repositories with Git-style versioning and collaboration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Upload / Update",
+        "explanation": "Creators publish new versions, improve documentation, answer questions and maintain model repositories.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Models / Data",
+        "explanation": "Creators contribute the model supply, training work, data and technical knowledge the Hub does not have to create itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "NVIDIA",
+        "explanation": "Nvidia is the focal compute partner in this case. Before any ownership change, Hugging Face and Nvidia already collaborate to connect organizations with Nvidia GPU infrastructure. The workbook intentionally isolates Nvidia because it is the reported buyer, while also noting that Hugging Face supports a wider multi-provider and multi-hardware ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Sell Compute",
+        "explanation": "More AI training and inference can create more demand for computing capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Sales",
+        "explanation": "Builder workloads can increase demand for Nvidia hardware, software and related compute services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rivals / Supply",
+        "explanation": "Nvidia competes with other hardware and cloud options and must supply enough advanced compute for rapidly growing AI workloads.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Compute / Demand",
+        "explanation": "Nvidia contributes compute capacity while Hugging Face can connect it with organizations and workloads that need it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Support",
+        "explanation": "The partnership matters only when Nvidia technology works with the models, frameworks and workflows Builders use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "DGX Cloud",
+        "explanation": "A concrete integration in the workbook is Nvidia DGX Cloud for access to large GPU clusters.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Train / Run",
+        "explanation": "Nvidia infrastructure supports model training and inference workloads.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "GPUs / CUDA",
+        "explanation": "Nvidia contributes GPUs and the software ecosystem used to program and operate them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "HF",
+        "explanation": "Hugging Face owns and operates the Hub in the BASE snapshot. The Canvas uses HF as the compact actor label.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": []
+      },
+      "job": {
+        "value": "Match Models",
+        "explanation": "Hugging Face helps the right model meet the right Builder.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Fees",
+        "explanation": "More useful activity can grow the community and generate revenue from paid Hub, storage and compute-related services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Bias",
+        "explanation": "The Hub depends on Builders trusting that search, access and technical support are not unfairly tilted toward one supplier.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Host / Bill",
+        "explanation": "Hugging Face hosts repositories and collaboration tools and bills for advanced services when users choose paid features.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Rank",
+        "explanation": "Hugging Face sets repository rules, manages gated access and operates the search systems that influence discovery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Community",
+        "explanation": "Publishing, discussion, reuse and improvement inside the community drive much of the Hub's growth.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Host / Rank",
+        "explanation": "Hugging Face stores repositories, keeps them available and makes millions of models searchable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Hub / Demand",
+        "explanation": "The Hub itself plus concentrated Builder attention and demand are strategic platform resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Demand",
+          "explanation": "Builders send demand into the Hub when they search for models, download them or use paid services."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Model",
+          "explanation": "Hugging Face gives Builders access to the models they came to find."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Models",
+          "explanation": "Creators bring the supply by publishing models and documentation to the Hub."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Reach",
+          "explanation": "The Hub gives Creators reach by making their work easier to discover, download and reuse."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Demand",
+          "explanation": "Hugging Face brings AI workloads and organizations looking for compute into the Nvidia partnership."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Compute",
+          "explanation": "Nvidia contributes computing power that Hugging Face can connect to Builders and organizations."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "13M Users*",
+        "note": "Hugging Face community size reported for 2025; dated, not a live 2026 count."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "3.03M Models",
+        "note": "Live model repository count captured at the August 29, 2026 research cut-off."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "grt1WIQaXzo",
+    "youtube_url": "https://www.youtube.com/watch?v=grt1WIQaXzo",
+    "thumbnail": "https://i.ytimg.com/vi/grt1WIQaXzo/maxresdefault.jpg",
+    "youtube_title": "If Nvidia buys Hugging Face, can the platform stay neutral?"
+  },
+  "sources": [
+    {
+      "title": "Nvidia / Hugging Face PBMC Neutrality Review Workbook v2",
+      "publisher": "Platform Generation",
+      "date": "2026-08-29",
+      "url": "",
+      "note": "Primary analytical production source for the BASE roles, fields, metrics, transaction topology and conditional post-close scenario."
+    },
+    {
+      "title": "Hugging Face Hub documentation",
+      "publisher": "Hugging Face",
+      "date": "2026",
+      "url": "https://huggingface.co/docs/hub/index",
+      "note": "Primary source for the Hub's repository, model discovery and platform structure."
+    },
+    {
+      "title": "Models — Hugging Face",
+      "publisher": "Hugging Face",
+      "date": "2026-08-29",
+      "url": "https://huggingface.co/models",
+      "note": "Primary source used in the workbook for the 3,030,482 model-repository count at research cut-off."
+    },
+    {
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "publisher": "Hugging Face",
+      "date": "2026",
+      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "note": "Primary source for the 13M-user 2025 community figure and ecosystem scale context."
+    },
+    {
+      "title": "Hugging Face and NVIDIA Training Cluster",
+      "publisher": "Hugging Face",
+      "date": "2026",
+      "url": "https://huggingface.co/blog/nvidia-training-cluster",
+      "note": "Primary source for the existing Nvidia compute partnership, DGX Cloud connection and compute/demand flows."
+    },
+    {
+      "title": "Inference Providers",
+      "publisher": "Hugging Face",
+      "date": "2026",
+      "url": "https://huggingface.co/docs/hub/en/models-inference",
+      "note": "Primary source showing that Hugging Face supports a wider provider ecosystem rather than only Nvidia infrastructure."
+    },
+    {
+      "title": "Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports",
+      "publisher": "Reuters",
+      "date": "2026-08-27",
+      "url": "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/",
+      "note": "Current-event source for the reported $12.9B acquisition agreement. The Library snapshot remains BASE because the deal had not been publicly announced by the companies or completed at the workbook research cut-off."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Hugging Face — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
