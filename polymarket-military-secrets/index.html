@@ -1210,7 +1210,7 @@ function drawFlows(svg,data,state){
     bindFlowFocus(svg,hit,path,lg);
   });
 
-  // Keep flow labels above PBMC boxes so they never disappear behind fields.
+  // Keep flow labels grouped; final z-order is enforced at the end of render().
   svg.appendChild(labelLayer);
 }
 
@@ -1318,6 +1318,10 @@ function render(data){
     order[role].forEach(key=>drawField(svg,data,role,key,tt));
   });
   drawCVU(svg,data,tt);
+
+  // Absolute z-order rule for flow labels: keep every arrow label above all
+  // PBMC boxes and actors so labels can never be hidden by fields.
+  svg.querySelectorAll(".flow-labels").forEach(layer=>svg.appendChild(layer));
 
   const company=safe(data.metadata,"company","PBMC");
   const _caseTitle=document.getElementById("caseTitle"); if(_caseTitle) _caseTitle.textContent=company;

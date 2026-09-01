@@ -1,28 +1,19 @@
-# PBMC Library v2.62 Arrow Geometry Audit
+# PBMC Library v2.63 Arrow Geometry Audit
 
-## Global transaction-arrow rule
+Purpose: reinforce the shared transaction-arrow label rule for all current PBMC cases.
 
-Every transaction arrow must satisfy all four constraints:
+Rules
+- Transaction arrows may only start or end on a SHORT edge of the relevant Transaction field.
+- Anchor points are distributed along that short edge instead of all meeting at the center.
+- Every arrow route may have at most two corners (two bends / three straight segments).
+- Every arrow label must sit in surrounding white space where possible and must never be hidden behind PBMC fields or actors.
 
-1. It starts and ends only on a **short edge** of the relevant Transaction field.
-2. Anchor points are **distributed along the short edge**, rather than all collapsing into its midpoint.
-3. The complete route has **at most two corners / bends**.
-4. The first segment leaves the start edge **perpendicularly** and the final segment meets the destination edge **perpendicularly**.
+Renderer fix
+- Flow labels remain grouped in a dedicated .flow-labels layer.
+- At the end of render(), the .flow-labels layer is re-appended so it always sits above all fields, actors and the CVU.
 
-For horizontal Owner/Partner Transaction boxes, this means the first/final segment at the field is horizontal.
-For vertical Provider/Consumer Transaction boxes, this means the first/final segment at the field is vertical.
-
-## Distributed anchors
-
-- Owner: left y = 228 / 246 / 264; right y = 228 / 246 / 264
-- Provider: top x = 334 / 361 / 388; bottom x = 334 / 361 / 388
-- Consumer: top x = 1052 / 1079 / 1106; bottom x = 1052 / 1079 / 1106
-- Partner: left y = 672 / 690 / 708; right y = 672 / 690 / 708
-
-## Route QA
-
-- 12/12 directed role-pair routes use short-edge anchors only.
-- 12/12 routes use distributed anchors.
-- 12/12 routes have no more than two bends.
-- 12/12 routes leave and meet the Transaction field perpendicularly.
-- 27/27 current case pages rebuilt with renderer v18.6, including Depop 027.
+QA summary
+- 12/12 directed routes keep short-edge-only anchors
+- 12/12 directed routes keep a maximum of two corners
+- flow-label layer forced to top z-order across all rebuilt case pages
+- 27/27 case pages rebuilt with the shared renderer update
