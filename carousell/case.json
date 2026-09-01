@@ -1,0 +1,566 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Carousell",
+    "slug": "carousell",
+    "headline": "How is Carousell turning classifieds into transaction-led commerce?",
+    "case_number": "026",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-09-01",
+    "status": "official",
+    "industry": [
+      "Second-Hand Marketplace",
+      "C2C Marketplace"
+    ],
+    "topics": [
+      "Recommerce",
+      "Buyer Protection",
+      "Integrated Delivery",
+      "Trust & Safety",
+      "Classifieds"
+    ],
+    "geography": [
+      "Greater Southeast Asia"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Keeping the transaction on-platform changes the marketplace",
+    "text": "Carousell began with a classifieds logic: Sellers created listings, Buyers discovered them, and the two sides often handled payment, meet-up and delivery themselves. Its current strategy pulls more of that exchange back inside the platform through the Buy button, Buyer Protection and integrated shipping. The inventory still belongs to Sellers, but Carousell gains more control over payment, delivery status, disputes and trust signals. Delivery Partners therefore become more important as the platform moves from simply introducing two users toward orchestrating an end-to-end transaction. The platform lesson is that a marketplace can deepen its role without taking ownership of the goods."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Item Listing",
+      "explanation": "The Item Listing is the Core Value Unit: a Seller-created offer with item, price, condition, images and location information that a Buyer can discover, discuss and potentially purchase.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "30–60M New/yr*",
+          "note": "Estimated annual new Item Listings for the Carousell brand. Carousell Group publicly reported 80M new listings annually; because that figure includes other Group marketplaces such as Mudah.my and Cho Tot, the Library uses a conservative 30–60M Carousell-brand range rather than presenting the Group total as a Carousell-only figure."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "Buyers use Carousell to find second-hand, local and value-oriented items across many categories.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "15–30M MAU*",
+            "note": "Estimated global Carousell-brand monthly active users. Carousell Group publicly reports 'tens of millions' of MAUs across seven markets and multiple brands; Carousell itself is the flagship marketplace operating in six markets. The 15–30M range is a conservative brand-level estimate, not a disclosed company KPI."
+          }
+        ]
+      },
+      "job": {
+        "value": "Buy Second-Hand",
+        "explanation": "Buyers want to find useful pre-owned goods at attractive prices without the friction and risk of an unstructured local deal.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Savings / Choice",
+        "explanation": "A broad local supply of used goods can provide lower prices, variety and access to items that may no longer be available new.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Scams / Quality",
+        "explanation": "Buyers face fake listings, misrepresented condition, payment scams and uncertainty about whether a Seller will complete the deal.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "For Buy-button transactions, Buyers place the order and pay through Carousell; meet-up transactions can still be completed directly.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Market",
+        "explanation": "Participation depends on account, market availability and Carousell's safety, identity and category rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Buyers access listings through Carousell's mobile app and website.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Chat",
+        "explanation": "Buyers browse listings, chat with Sellers, negotiate, purchase and review completed deals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Budget / Intent",
+        "explanation": "Buyers contribute purchasing power, search intent, location, preferences and feedback.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Sellers range from people decluttering their homes to side hustlers and professional merchants. They retain ownership of the item until the deal is completed.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "3–8M Sellers/yr*",
+            "note": "Estimated annual active Seller population for the Carousell brand. The estimate is triangulated from Carousell Group's 80M new listings per year, the Carousell brand's large share of the Group marketplace footprint, and the platform's predominantly low-volume C2C Seller structure. It is an analytical range, not a reported Seller count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Used Goods",
+        "explanation": "Sellers want to convert unused or resale inventory into cash with as little listing and transaction effort as possible.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Cash / Reach",
+        "explanation": "Carousell provides access to local demand, discovery and optional paid visibility tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Scams / Visibility",
+        "explanation": "Sellers face fake Buyers, negotiation friction, low visibility, no-shows and the effort required to arrange handoff or delivery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listing / Item",
+        "explanation": "Sellers create the listing and ultimately supply the physical item to the Buyer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Identity / Rules",
+        "explanation": "Accounts, listings and merchant activity are subject to category rules, identity checks and trust-and-safety controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Listing Tools",
+        "explanation": "Sellers list through the app or web and can use paid tools such as Bumps, Spotlight or business subscriptions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Fulfill",
+        "explanation": "Sellers create listings, respond to Buyers, negotiate and complete the meet-up or shipping process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Item / Details",
+        "explanation": "Sellers contribute the item, photos, description, price, condition, location and fulfillment effort.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Delivery Partners",
+        "explanation": "Delivery Partners are the strongest external complement in Carousell's current transaction-led marketplace model. They make remote C2C deals possible after Carousell has brought payment and Buyer Protection on-platform. In Singapore, SPX Express is a current named partner for Carousell Official Delivery.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "7–10 Carriers*",
+            "note": "Estimated current integrated-delivery Partner range across Carousell markets. At least seven distinct carriers are publicly named in current Carousell delivery documentation: SPX Express, J&T Express, Ninja Van, SingPost, GoGoX, SF Express and PosLaju. The upper end allows for additional local integrations not captured in the public Help Centre pages reviewed."
+          }
+        ]
+      },
+      "job": {
+        "value": "Move Items",
+        "explanation": "Delivery Partners move Seller-held goods to Buyers when the transaction is completed remotely rather than through a meet-up.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Parcel Volume",
+        "explanation": "Integrated marketplace delivery creates recurring parcel demand from many small Sellers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Delay / Loss",
+        "explanation": "Low-value and heterogeneous C2C parcels create operational challenges around pickup, tracking, loss and delivery reliability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Parcel / Delivery",
+        "explanation": "Sellers hand sold items to the delivery network; the Partner transports and delivers them to Buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Coverage / Tracking",
+        "explanation": "The service must support the relevant market, parcel types, tracking and Carousell's integrated checkout and protection flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Delivery Integration",
+        "explanation": "Carousell connects eligible Buy-button orders with Official Delivery options inside checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Pickup / Deliver",
+        "explanation": "Delivery Partners collect or receive parcels, track them and complete delivery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Network / Tracking",
+        "explanation": "They contribute parcel infrastructure, drivers, tracking systems and delivery capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Carousell",
+        "explanation": "Carousell operates the multi-category second-hand marketplace and increasingly orchestrates payment, shipping and trust rather than only introducing Buyers and Sellers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "6 Markets",
+            "note": "Carousell's current marketplace brand is available in six markets: Singapore, Hong Kong, Indonesia, Malaysia, the Philippines and Taiwan. This is Carousell-brand scope, not the wider Carousell Group footprint."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale Recommerce",
+        "explanation": "Carousell must make second-hand buying and selling simple and trusted enough to become a repeat commerce behavior.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Revenue",
+        "explanation": "More trusted transactions support engagement and multiple revenue streams such as seller tools, business subscriptions, advertising and transaction-related services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Scams / Leakage",
+        "explanation": "If users move conversations, payment or delivery outside the platform, Carousell loses visibility and has less ability to prevent or resolve scams.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Protect",
+        "explanation": "Carousell coordinates discovery and chat and, for supported Buy-button deals, payment holding, Buyer Protection and delivery orchestration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Safety",
+        "explanation": "Carousell governs listings, identity, scam detection, user reports and the transaction conditions attached to Buyer Protection.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Referrals",
+        "explanation": "Carousell grows through app discovery, search, referrals, social media and paid promotion.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Protect",
+        "explanation": "Carousell runs listings, discovery, chat, trust-and-safety, payment protection and integrated delivery workflows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Trust",
+        "explanation": "Its user network, marketplace interaction data, trust signals and brand are core strategic resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "For Buy-button transactions, Buyers place orders and make payment through Carousell."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery / Protect",
+          "explanation": "Carousell provides discovery, chat, Buyer Protection and dispute support for supported transactions."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Sellers create listings and may pay for business subscriptions, boosts or other marketplace tools."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Demand / Payout",
+          "explanation": "Carousell provides Buyer demand and releases protected transaction proceeds to the Seller after completion."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Order / Review",
+          "explanation": "Buyer demand, negotiation and reviews accrue directly to the Seller."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Item",
+          "explanation": "The Seller ultimately supplies the purchased item to the Buyer."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Delivery",
+          "explanation": "For integrated delivery transactions, the Delivery Partner physically delivers the Seller's item to the Buyer."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Parcel",
+          "explanation": "The Seller hands the sold item into the integrated delivery network."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Pickup / Tracking",
+          "explanation": "The Delivery Partner provides pickup or drop-off service and tracking that enables the Seller to fulfill remotely."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Orders / Volume",
+          "explanation": "Carousell's Official Delivery integration routes eligible marketplace orders and parcel volume to delivery partners."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Tracking / Status",
+          "explanation": "Delivery status feeds back into Carousell's order tracking, Buyer Protection and Seller payout workflow."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "6 Markets",
+        "note": "Current Carousell-brand geographic footprint."
+      },
+      {
+        "target": "consumer",
+        "value": "15–30M MAU*",
+        "note": "Estimated Carousell-brand global MAU range; derived from Carousell Group's disclosed tens-of-millions MAU scale."
+      },
+      {
+        "target": "provider",
+        "value": "3–8M Sellers/yr*",
+        "note": "Estimated annual active Seller range; triangulated from listing throughput and predominantly C2C supply."
+      },
+      {
+        "target": "partner",
+        "value": "7–10 Carriers*",
+        "note": "Estimated integrated-carrier range; at least seven distinct current carriers are publicly named."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "30–60M New/yr*",
+        "note": "Estimated annual new Carousell-brand listings; Group disclosed 80M new listings annually."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Cases only.pptx — Carousell source case",
+      "publisher": "Platform Generation source material",
+      "date": "2026",
+      "url": "",
+      "note": "Internal source reconstruction used only as a starting point. It identified Carousell, Buyers, Sellers, a broad delivery/payment/services Partner set and the listed item as the original CVU."
+    },
+    {
+      "title": "Carousell Group expands recommerce business and achieves EBITDA profitability",
+      "publisher": "Carousell Group",
+      "date": "2026-07-07",
+      "url": "https://press.carousell.com/2026/07/07/carousell-%E9%9B%86%E5%9C%98%E6%93%B4%E5%A4%A7%E4%BA%8C%E6%89%8B%E6%A5%AD%E5%8B%99-%E8%BF%8E%E4%BE%86-ebitda-%E7%9B%88%E5%88%A9%E9%87%8C%E7%A8%8B%E7%A2%91%EF%BC%9B2026%E8%B2%A1%E5%B9%B4%E8%81%9A/",
+      "note": "Primary current source for the shift from classifieds toward transaction-led commerce through integrated payments, shipping, Certified and recommerce services."
+    },
+    {
+      "title": "Introducing the all-new Buy button",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://www.carousell.sg/buy-and-sell-with-buy-button/l/",
+      "note": "Primary source for Buyer Protection, on-platform payment, Seller payout after receipt and transaction workflow."
+    },
+    {
+      "title": "Carousell Official Delivery with SPX Express",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://www.carousell.sg/carousell-delivery-spx-b/l/",
+      "note": "Primary current Partner source naming SPX Express and describing tracked delivery, Buyer Protection and payment release."
+    },
+    {
+      "title": "Carousell pick-up service",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://www.carousell.sg/sg-carousellofficialdelivery-supply2/l/",
+      "note": "Primary operational source for Seller-to-delivery-partner parcel handoff, pickup scheduling and integrated order flow."
+    },
+    {
+      "title": "Carousell Safety Policy",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://www.carousell.sg/safety-policy-updates/l/",
+      "note": "Primary source showing the distinction between on-platform delivery transactions using the Buy button and meet-up transactions."
+    },
+    {
+      "title": "Carousell 2025 Regional Scam Trends Report",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://press.carousell.com/wp-content/uploads/2026/04/Carousell-2025-Regional-Scam-Trends-Report-2.pdf",
+      "note": "Primary source describing Carousell as predominantly C2C and the role of official payment and delivery options."
+    },
+    {
+      "title": "About Carousell",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://college.carousell.com/about/",
+      "note": "Primary current source for Carousell-brand availability in Singapore, Hong Kong, Indonesia, Malaysia, the Philippines and Taiwan, and for Carousell Group's tens-of-millions monthly-user scale."
+    },
+    {
+      "title": "Launch of Carousell Campus",
+      "publisher": "Carousell Group",
+      "date": "2023-09-22",
+      "url": "https://press.carousell.com/2023/09/22/launch-of-carousell-campus-leading-the-future-of-secondhand-with-recommerce-cultivating-talent-and-contributing-back-to-the-startup-ecosystem/",
+      "note": "Primary source for Carousell Group's 80 million new listings annually and tens of millions of monthly active users. Used as the upper-scale basis for explicitly estimated Carousell-brand ranges."
+    },
+    {
+      "title": "How to ship with Carousell Official Delivery — Singapore",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://support.carousell.com/hc/en-us/articles/14430232183321--Singapore-How-to-ship-with-Carousell-Official-Delivery",
+      "note": "Primary current source naming SPX Express, J&T Express, SingPost and Ninja Van in Singapore's integrated delivery layer."
+    },
+    {
+      "title": "Insurance coverage for Carousell Official Delivery — Singapore",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://support.carousell.com/hc/en-us/articles/18360865293081--Singapore-Insurance-coverage-for-Carousell-Official-Delivery",
+      "note": "Primary current source additionally naming GoGoX alongside SPX, J&T, Ninja Van and SingPost."
+    },
+    {
+      "title": "How to ship with Carousell Official Delivery — Hong Kong",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://support.carousell.com/hc/en-us/articles/34353502324377--Hong-Kong-How-to-ship-with-Carousell-Official-Delivery",
+      "note": "Primary current source naming SF Express as Carousell's integrated Hong Kong delivery Partner."
+    },
+    {
+      "title": "Delivery fee calculation — Malaysia",
+      "publisher": "Carousell",
+      "date": "2026",
+      "url": "https://support.carousell.com/hc/en-us/articles/30332073716505--Malaysia-Delivery-fee-calculation",
+      "note": "Primary current source naming PosLaju as a Carousell Official Delivery Partner in Malaysia."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Carousell — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
