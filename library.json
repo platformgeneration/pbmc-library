@@ -392,6 +392,24 @@
         "Vertical Integration"
       ],
       "status": "published"
+    },
+    {
+      "slug": "roblox",
+      "case_number": "023",
+      "company": "Roblox",
+      "headline": "Can Roblox make kids safer without weakening its network?",
+      "industry": [
+        "Gaming Platform",
+        "Creator Platform"
+      ],
+      "topics": [
+        "Child Safety",
+        "Age Assurance",
+        "Platform Governance",
+        "Network Effects",
+        "Identity Verification"
+      ],
+      "status": "published"
     }
   ]
 }

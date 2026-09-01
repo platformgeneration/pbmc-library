@@ -1,0 +1,515 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Roblox",
+    "slug": "roblox",
+    "headline": "Can Roblox make kids safer without weakening its network?",
+    "case_number": "023",
+    "published_date": "2026-09-01",
+    "updated_date": "2026-09-01",
+    "snapshot_date": "2026-08-26",
+    "status": "official",
+    "industry": [
+      "Gaming Platform",
+      "Creator Platform"
+    ],
+    "topics": [
+      "Child Safety",
+      "Age Assurance",
+      "Platform Governance",
+      "Network Effects",
+      "Identity Verification"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "The strongest network may be the one with the right connections",
+    "text": "Roblox's safety redesign deliberately removes some possible connections. Age checks restrict communication, younger users receive different content and chat access, and Creators face extra requirements before reaching youth audiences. That creates real friction. But the network does not benefit equally from every possible interaction. A useful friendship can increase retention; an unsafe adult-child contact can destroy trust in the system. Persona adds an external age-estimation signal, while Roblox keeps the final decision about access and recommendations. The platform lesson is that Governance can become part of network infrastructure when it removes harmful connections more effectively than it destroys useful participation."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Experience",
+      "explanation": "An Experience is the game or interactive virtual world a Player comes to Roblox to find, choose and enter.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "30K Games*",
+          "note": "Roblox reported about 30,000 games available to Kids and Select accounts by the end of Q2 2026, nearly 50% more than at launch. This is a hook-relevant youth-catalog subset, not Roblox's total Experience inventory."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Players",
+        "explanation": "Players are the people who use Roblox to play games, explore virtual worlds and connect with other people.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "123M Users",
+            "note": "Roblox averaged about 123 million Daily Active Users in Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Play / Connect",
+        "explanation": "Players come to Roblox to play, discover new Experiences and connect with others.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fun / Friends",
+        "explanation": "Players seek enjoyable games and useful social connections.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Harm / Abuse",
+        "explanation": "The same social features that create connection can create child-safety risks, including unsafe contact between children and unknown adults.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Play / Spend",
+        "explanation": "Players contribute time and attention and, for paying users, money that is converted into Robux and spent inside the platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Age / Consent",
+        "explanation": "Age checks, age-based accounts, communication settings and parental controls increasingly determine what a Player can access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Players enter through the Roblox app or website, while age status can determine which communication and content features are available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Play / Chat",
+        "explanation": "Players repeatedly choose Experiences, play them and, where age settings allow it, communicate with other people.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Robux",
+        "explanation": "Players contribute time, attention, friendships and sometimes Robux.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Creators",
+        "explanation": "Creators are people or teams who make the games and virtual worlds that Players come to Roblox for.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$363M DevEx*",
+            "note": "Roblox recorded $363 million of Developer Exchange fees expense in Q2 2026. This measures creator-side economic scale, not the number of Creators and not a fee charged to Creators."
+          }
+        ]
+      },
+      "job": {
+        "value": "Create / Earn",
+        "explanation": "Creators want to build Experiences people enjoy, grow an audience and often earn income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Income",
+        "explanation": "Roblox gives Creators access to a large audience and multiple ways to earn Robux.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rules / Reach",
+        "explanation": "New safety requirements can make it harder for a Creator or Experience to reach younger Players.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Content / Robux",
+        "explanation": "Creators supply Experiences and digital content and can earn Robux when Players spend or when other reward programs apply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "ID / Status",
+        "explanation": "Youth-catalog participation requires additional Creator verification, account conditions and content review.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Studio",
+        "explanation": "Creators build and publish through Roblox Studio.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Update",
+        "explanation": "Creators repeatedly build, test and update Experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skill / Assets",
+        "explanation": "Creators contribute ideas, code, art, game design and other digital assets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Persona",
+        "explanation": "Persona is the external technology company Roblox uses to process the short selfie video used for facial age estimation.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "1.4y Error*",
+            "note": "Independent UK ACCS testing cited by Roblox and Persona reported mean absolute error of about 1.4 years for under-18 users. Lower is better. This is an accuracy metric, not a scale metric."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale Checks",
+        "explanation": "Persona helps make age estimation fast enough to work at the scale of a large platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Trust",
+        "explanation": "Operating with a platform as large as Roblox gives Persona real-world deployment scale and evidence that its verification technology can operate at high volume.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Error / Bias",
+        "explanation": "Age estimation has to be accurate and fair enough to avoid putting people into the wrong age group.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Age Signal",
+        "explanation": "Persona's key output is an estimated age signal. Roblox—not Persona—uses that signal to decide age group, chat and content access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Privacy Rules",
+        "explanation": "Participation is constrained by privacy and data-protection requirements; Roblox says Persona deletes selfie images and video after processing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API",
+        "explanation": "The integration is modeled as a software/API connection through which the Roblox age-check flow sends the request and receives the result.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Check / Delete",
+        "explanation": "Persona analyzes the short selfie video to estimate age and deletes the images/video after secure processing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Models / Data",
+        "explanation": "Persona contributes the age-estimation software plus data and models used to train and test it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Roblox",
+        "explanation": "Roblox owns and operates the system connecting Players and Creators, controls discovery and the Robux economy and sets the safety rules.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "57% Checked",
+            "note": "By the end of Q2 2026, 57% of Roblox's global Daily Active Users had completed an age check. Roblox said its long-term target was 90%."
+          }
+        ]
+      },
+      "job": {
+        "value": "Safe Growth",
+        "explanation": "Roblox must keep the platform attractive enough to grow while making it safe enough for Players, families, Creators and regulators to keep participating.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trust / Growth",
+        "explanation": "The intended gain is trust and more durable growth if safer and more age-appropriate participation improves long-run platform health.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Harm / Friction",
+        "explanation": "Roblox has to avoid both weak governance that leaves children exposed to harm and overly restrictive governance that destroys useful play and communication.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Robux / Payout",
+        "explanation": "Players buy Robux from Roblox; Creators can earn Robux and eligible Creators can convert earned Robux into fiat through Developer Exchange.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Age / Access",
+        "explanation": "Roblox uses age checks, age-based communication rules, content ratings, parental controls and youth catalogs to decide who can reach which people and Experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Viral / Ads",
+        "explanation": "Roblox grows through friend networks, Creator-led discovery and advertising.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Guard",
+        "explanation": "Roblox hosts Experiences, recommends content, runs payments and Robux and operates moderation and safety systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Network",
+        "explanation": "The Player-Creator network and increasingly reliable age information are strategic resources for both safety and recommendation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "Players who want paid items or features buy Robux from Roblox."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Experience",
+          "explanation": "Roblox gives Players access to eligible Experiences through its app, search, recommendations and hosting system."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Content",
+          "explanation": "Creators publish their Experiences and other content into Roblox, where the platform hosts, ranks and governs it."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "Eligible Creators can convert earned Robux into real money through Developer Exchange."
+        },
+        {
+          "from": "consumer",
+          "to": "partner",
+          "value": "Selfie",
+          "explanation": "For facial age estimation, the Player supplies Persona with a short selfie-style video through the Roblox age-check flow."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Estimate",
+          "explanation": "Persona returns an age estimate that Roblox can use as an input to its own age-group and access rules."
+        }
+      ],
+      "before": [],
+      "after": []
+    },
+    "metrics": [
+      {
+        "target": "consumer",
+        "value": "123M Users",
+        "note": "Q2 2026 average Daily Active Users."
+      },
+      {
+        "target": "provider",
+        "value": "$363M DevEx*",
+        "note": "Q2 2026 Developer Exchange fee expense; creator-side economic scale."
+      },
+      {
+        "target": "partner",
+        "value": "1.4y Error*",
+        "note": "Under-18 age-estimation mean absolute error in independent UK ACCS testing; accuracy, not scale."
+      },
+      {
+        "target": "owner",
+        "value": "57% Checked",
+        "note": "Share of global DAUs that had completed an age check by Q2 2026 end."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "30K Games*",
+        "note": "Youth-catalog subset for Kids and Select accounts; not total Roblox Experiences."
+      }
+    ]
+  },
+  "media": {
+    "youtube_id": "djERwvYy1gY",
+    "youtube_url": "https://www.youtube.com/watch?v=djERwvYy1gY",
+    "thumbnail": "https://i.ytimg.com/vi/djERwvYy1gY/maxresdefault.jpg",
+    "youtube_title": "Can Roblox make kids safer without weakening its network?"
+  },
+  "sources": [
+    {
+      "title": "Roblox Safety + Persona PBMC Content v4",
+      "publisher": "Platform Generation",
+      "date": "2026-08-26",
+      "url": "",
+      "note": "Primary analytical production source for roles, fields, metrics, Partner scope and transaction topology."
+    },
+    {
+      "title": "Roblox 2025 Form 10-K",
+      "publisher": "Roblox / U.S. SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm",
+      "note": "Primary source for the core Player-Creator platform, Robux economy, Studio and DevEx structure."
+    },
+    {
+      "title": "Roblox Q2 2026 earnings release",
+      "publisher": "Roblox / U.S. SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026051059/ex991-robloxq22026earnin.htm",
+      "note": "Primary source for 123M DAUs, $363M DevEx expense, 30K youth-accessible games and 57% age-check penetration."
+    },
+    {
+      "title": "Roblox Q1 2026 shareholder letter",
+      "publisher": "Roblox / U.S. SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026028882/ex991-q12026earningsshar.htm",
+      "note": "Primary source for disclosed friction from the age-check rollout and the company's long-term safety/network-health framing."
+    },
+    {
+      "title": "eSafety secures court-enforceable undertaking from Roblox",
+      "publisher": "Australian eSafety Commissioner",
+      "date": "2026-08-20",
+      "url": "https://www.esafety.gov.au/newsroom/media-releases/esafety-secures-court-enforceable-undertaking-from-roblox-to-do-more-to-protect-australian-kids-from-grooming-and-sexual-exploitation",
+      "note": "Primary regulatory source for the current child-safety trigger and required additional protections."
+    },
+    {
+      "title": "Age Checks Required to Chat on Roblox",
+      "publisher": "Roblox",
+      "date": "2026-01",
+      "url": "https://about.roblox.com/newsroom/2026/01/roblox-age-checks-required-to-chat",
+      "note": "Primary source for mandatory age checking before access to chat."
+    },
+    {
+      "title": "Introducing Roblox Kids and Select Accounts",
+      "publisher": "Roblox",
+      "date": "2026-04",
+      "url": "https://about.roblox.com/newsroom/2026/04/introducing-roblox-kids-and-select-accounts",
+      "note": "Primary source for age-based account design, youth catalog and additional Creator/content eligibility."
+    },
+    {
+      "title": "How does Roblox estimate my age?",
+      "publisher": "Roblox Help",
+      "date": "2026",
+      "url": "https://en.help.roblox.com/hc/en-us/articles/42295385001236-How-does-Roblox-estimate-my-age",
+      "note": "Primary source naming Persona as the third-party facial-age-estimation processor and describing the selfie/estimate flow."
+    },
+    {
+      "title": "Age Estimation",
+      "publisher": "Roblox",
+      "date": "2026",
+      "url": "https://about.roblox.com/age-estimation",
+      "note": "Primary source for Persona processing, deletion/privacy statements and accuracy context."
+    },
+    {
+      "title": "Selfie Age Estimation",
+      "publisher": "Persona",
+      "date": "2026",
+      "url": "https://withpersona.com/product/verifications/selfie-age-estimation",
+      "note": "Partner source for Persona's age-estimation product and functionality."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Roblox — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
