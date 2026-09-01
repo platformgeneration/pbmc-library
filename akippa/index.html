@@ -624,7 +624,7 @@ header nav{
 <div class="case-snapshot-line">PBMC Case 003 · Snapshot made in August 2026</div>
 <h1>akippa</h1>
 <p class="case-question">Akippa is going public. What are investors really buying?</p>
-<div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Mobility</span><span class="meta-pill">Parking</span><span class="meta-pill">Marketplace</span><span class="meta-pill">Local Liquidity</span><span class="meta-pill">Self-Service Supply</span><span class="meta-pill">Owner Mode</span><span class="meta-pill">IPO</span><span class="meta-pill">Snapshot · August 2026</span></div>
+<div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Parking</span><span class="meta-pill">Marketplace</span><span class="meta-pill">Local Liquidity</span><span class="meta-pill">Snapshot · August 2026</span></div>
 </div></section>
 
 <section class="section" id="pbmc"><div class="wide-wrap">
@@ -796,8 +796,12 @@ const ROUTES={
 
   "owner>partner":    {d:"M489 246 L413 246 L413 690 L489 690", label:[448,702]},
   "partner>owner":    {d:"M951 690 L1027 690 L1027 246 L951 246", label:[992,234]},
-  "provider>consumer":{d:"M361 351 L361 286 L1079 286 L1079 351", label:[950,298]},
-  "consumer>provider":{d:"M1079 585 L1079 650 L361 650 L361 585", label:[490,638]}
+
+  // Direct provider↔consumer routes now use separate side-entry anchors on the
+  // vertical transaction boxes, instead of piling onto the same top/bottom
+  // center points. This keeps the topology readable in dense canvases.
+  "provider>consumer":{d:"M404 404 L413 404 L413 286 L1027 286 L1027 404 L1036 404", label:[950,298]},
+  "consumer>provider":{d:"M1036 532 L1027 532 L1027 650 L413 650 L413 532 L404 532", label:[490,638]}
 };
 
 

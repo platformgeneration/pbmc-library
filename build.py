@@ -177,12 +177,37 @@ def snapshot_info(case):
 def meta_pills(case):
     md=case["metadata"]
     parts=['<span class="meta-pill official">Official PBMC</span>']
-    for x in md.get("industry",[]): parts.append(f'<span class="meta-pill">{e(x)}</span>')
-    for x in md.get("topics",[]): parts.append(f'<span class="meta-pill">{e(x)}</span>')
+
+    # Visible tags are deliberately curated:
+    # 1 specific industry/category + up to 2 case-specific topics.
+    # Full metadata remains unchanged in case.json/library.json.
+    visible=[]
+
+    industries=[x for x in md.get("industry",[]) if x]
+    if industries:
+        # Convention: the more specific category is stored last.
+        visible.append(industries[-1])
+
+    for item in md.get("topics",[]):
+        if item and item not in visible:
+            visible.append(item)
+        if len(visible)>=3:
+            break
+
+    # Fallback when a case has very little topic metadata.
+    if len(visible)<3:
+        for item in reversed(industries[:-1]):
+            if item not in visible:
+                visible.append(item)
+            if len(visible)>=3:
+                break
+
+    for item in visible[:3]:
+        parts.append(f'<span class="meta-pill">{e(item)}</span>')
+
     snap=snapshot_info(case)
     parts.append(f'<span class="meta-pill">Snapshot · {e(snap["display"])}</span>')
     return "".join(parts)
-
 
 
 def citation_info(case):
