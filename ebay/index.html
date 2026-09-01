@@ -796,8 +796,8 @@ const ROUTES={
   "consumer>partner": {d:"M1052 585 L1052 672 L951 672", label:[1010,684]},
   "partner>consumer": {d:"M951 690 L1079 690 L1079 585", label:[1043,621]},
 
-  "owner>partner":    {d:"M489 264 L413 264 L413 708 L489 708", label:[266,486]},
-  "partner>owner":    {d:"M951 708 L1027 708 L1027 264 L951 264", label:[1188,486]},
+  "owner>partner":    {d:"M489 264 L413 264 L413 708 L489 708", label:[405,742]},
+  "partner>owner":    {d:"M951 708 L1027 708 L1027 264 L951 264", label:[1035,742]},
   "provider>consumer":{d:"M388 351 L388 286 L1106 286 L1106 351", label:[950,298]},
   "consumer>provider":{d:"M1106 585 L1106 650 L388 650 L388 585", label:[490,638]}
 };
@@ -863,9 +863,9 @@ function autoFlowLabelPosition(routeKey,width,activeRouteSegments,occupied,data,
   const center={x:GEOM.cvu.x+GEOM.cvu.w/2,y:GEOM.cvu.y+GEOM.cvu.h/2};
   const candidates=[];
 
-  // First, honor an explicit route label position when provided. These manual
-  // parking spots are chosen in white space and should win whenever they do
-  // not collide with other content.
+  // First, honor an explicit route-attached label position when provided. These
+  // parking spots sit in nearby white space beside the label's own route, so
+  // the label stays visually attributable and never floats to a remote area.
   if(Array.isArray(route.label) && route.label.length>=2){
     const x=route.label[0], y=route.label[1];
     const box={x:x-width/2-4,y:y-15,w:width+8,h:30};

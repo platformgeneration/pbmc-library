@@ -775,7 +775,7 @@ def home_page():
 def build():
     library=load_json(ROOT/"library.json")
     css=(ASSETS/"site.css").read_text(encoding="utf-8")
-    renderer=(ASSETS/"pbmc-renderer-v18.8.js").read_text(encoding="utf-8")
+    renderer=(ASSETS/"pbmc-renderer-v18.9.js").read_text(encoding="utf-8")
     pub=[c for c in library["cases"] if c.get("status")=="published"]
     if not pub: raise SystemExit("No published cases.")
     for entry in pub:

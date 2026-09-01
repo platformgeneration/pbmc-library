@@ -1,22 +1,18 @@
-# PBMC Library v2.64 Arrow Geometry Audit
-
-Purpose: reinforce the shared flow-label placement rule for all current PBMC cases.
+# PBMC Library v2.65 Arrow / Label Geometry Audit
 
 Rules
-- Transaction arrows may only start or end on a SHORT edge of the relevant Transaction field.
-- Anchor points are distributed along that short edge instead of all meeting at the center.
-- Every arrow route may have at most two corners (two bends / three straight segments).
-- Every arrow label must sit in surrounding white space where possible and must never be hidden behind PBMC fields or actors.
-- When a route has a predefined white-space parking position, the renderer now prefers that position before trying generic auto-placement.
+- Transaction arrows start/end only on the short Transaction edges.
+- Short-edge anchors remain distributed.
+- Arrows remain perpendicular to those edges at departure/arrival.
+- Each route has at most two bends.
+- Flow labels must be in white space and may not overlap PBMC fields, actors or CVU.
+- Labels must remain close to their own route so the visual association stays obvious.
 
-Renderer fix
-- Added preferred manual label parking positions in white space for difficult routes.
-- The auto-placement engine now evaluates route.label as a first-class candidate before broader search.
-- Final z-order still keeps the flow-label layer above fields, actors and the CVU.
+Renderer v18.9
+- Difficult owner↔partner labels now use route-attached parking positions beside the lower horizontal route segments.
+- partner→owner parks at (1035,742), directly beside its own lower green segment and outside the Partner/Consumer fields.
+- owner→partner parks at (405,742), directly beside its own lower blue segment and outside the Partner/Provider fields.
+- The normal automatic collision checks remain active.
 
-QA summary
-- 12/12 directed routes keep short-edge-only anchors
-- 12/12 directed routes keep a maximum of two corners
-- flow-label layer forced to top z-order across all rebuilt case pages
-- explicit white-space label parking added for difficult shared routes
-- 27/27 case pages rebuilt with the shared renderer update
+QA
+- 27/27 case pages rebuilt.

@@ -1,23 +1,19 @@
-PBMC LIBRARY v2.64 — ALL-CASE WHITE-SPACE FLOW LABEL FIX
+PBMC LIBRARY v2.65 — ROUTE-ATTACHED WHITE-SPACE LABEL FIX
 
 Purpose
-- Applies the flow-label placement correction to every current PBMC case.
-- All arrow labels must remain visible and not overlap PBMC fields.
-- For difficult shared routes, the renderer now prefers predefined white-space parking positions.
+- Keep every flow label in white space without allowing it to float far away from its arrow.
+- Labels stay visually attributable to their own route.
 
-Included
-- library.json (27 published cases, including Depop 027)
-- build.py updated to renderer v18.8
-- assets/pbmc-renderer-v18.8.js
-- index.html for every one of the 27 case folders
-- ARROW_GEOMETRY_AUDIT.md
+Rules preserved
+- transaction arrows only on short edges
+- distributed short-edge anchors
+- perpendicular departure/arrival
+- maximum two bends
+- labels may not overlap PBMC fields, actors or CVU
 
-Deployment
-- Copy the contents of this ZIP into the pbmc-library repository root, preserving paths.
-- Existing case.json, pbmc-data.csv and citation.bib files do not need to be replaced for this renderer/layout update.
+New placement rule
+- Prefer a free parking position directly beside the label's own route.
+- Difficult owner↔partner routes park labels beside their lower horizontal route segments, where the canvas has real white space.
 
 QA
-- Flow-label layer stays above PBMC boxes at final render time.
-- Difficult route labels now prefer explicit white-space positions.
-- Short-edge anchors, perpendicular exits/entries and max-two-corner routes remain unchanged.
-- 27/27 case pages rebuilt with the shared renderer update.
+- 27/27 case pages rebuilt with renderer v18.9.
