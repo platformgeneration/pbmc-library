@@ -1,21 +1,13 @@
-PBMC LIBRARY v2.78 — GLOBAL PARTNER→OWNER LABEL FIX
-
-Purpose
-- Removes the far-right floating label behavior for the shared Partner → Owner route.
-- Applies to all current PBMC case pages.
+PBMC LIBRARY v2.79 — MOBILE TABLE SCROLL FIX
 
 What changed
-- The shared hard-coded remote parking position for the Partner → Owner route label was removed.
-- That route now uses the same near-route auto-placement logic as the other standard labels.
-- Labels such as `Supply` no longer sit detached at the lower-right edge.
+- On phones, the first two PBMC data-table columns are no longer frozen.
+- The complete table now scrolls horizontally as one unit.
+- Desktop behavior remains unchanged.
 
-Included
-- build.py updated to renderer v18.11
-- assets/pbmc-renderer-v18.11.js
-- library.json
-- ARROW_GEOMETRY_AUDIT.md
-- rebuilt index.html for all current case pages
+Why
+Frozen Perspective + Field columns consumed too much of the mobile viewport and made the Value / Explanation columns difficult to see and understand.
 
 Deployment
-- Copy the contents of this ZIP into the pbmc-library repository root, preserving paths.
-- Existing case.json, pbmc-data.csv and citation.bib files do not need to be replaced for this shared renderer update.
+Copy this ZIP into the repository root, preserving paths.
+All current case index pages are included because the shared CSS is embedded during build.

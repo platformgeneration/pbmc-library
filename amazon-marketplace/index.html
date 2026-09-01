@@ -291,24 +291,33 @@ body.canvas-viewer-open{overflow:hidden}
 .canvas-control-close{border-color:#111}
 .canvas-zoom-label{font-size:10px;color:#777;min-width:42px;text-align:center}
 
-/* Table mobile scrolling + frozen identity columns */
-.pbmc-data-table-wrap{position:relative}
+/* Table mobile scrolling — one coherent scroll surface.
+   No frozen columns on phones: Perspective, Field, Value and Explanation
+   move together so row context remains readable while swiping horizontally. */
+.pbmc-data-table-wrap{
+  position:relative;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
 @media(max-width:700px){
   .pbmc-data-table{min-width:920px}
   .pbmc-data-table col.perspective{width:128px}
   .pbmc-data-table col.field{width:142px}
   .pbmc-data-table col.value{width:270px}
+
   .pbmc-data-table th:nth-child(1),
-  .pbmc-data-table td:nth-child(1){
-    position:sticky;left:0;z-index:4;background:#fff
-  }
+  .pbmc-data-table td:nth-child(1),
   .pbmc-data-table th:nth-child(2),
   .pbmc-data-table td:nth-child(2){
-    position:sticky;left:128px;z-index:3;background:#fff;
-    box-shadow:5px 0 8px -8px rgba(0,0,0,.35)
+    position:static;
+    left:auto;
+    z-index:auto;
+    box-shadow:none
   }
+
   .pbmc-data-table th:nth-child(1),
-  .pbmc-data-table th:nth-child(2){background:#fafaf8;z-index:6}
+  .pbmc-data-table th:nth-child(2){background:#fafaf8}
+
   .pbmc-data-table .role-start td:nth-child(1),
   .pbmc-data-table .role-start td:nth-child(2){border-top:2px solid #e6e6e2}
 }
