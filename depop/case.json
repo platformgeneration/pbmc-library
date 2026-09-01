@@ -100,7 +100,7 @@
         "after": ""
       },
       "activities": {
-        "value": "Discover / Like / Buy",
+        "value": "Discover / Buy",
         "explanation": "Buyers browse recommendations and search, follow Sellers, like items, message, make offers, purchase and review.",
         "changed": false,
         "before": "",
@@ -171,7 +171,7 @@
         "after": ""
       },
       "activities": {
-        "value": "List / Engage / Ship",
+        "value": "List / Ship",
         "explanation": "Sellers photograph and describe items, price them, respond to Buyers, negotiate, promote Listings and fulfil sold orders.",
         "changed": false,
         "before": "",
@@ -316,7 +316,7 @@
         "after": ""
       },
       "activities": {
-        "value": "Discover / Protect / Monetize",
+        "value": "Discover / Protect",
         "explanation": "Depop operates recommendations and search, listings, messaging, checkout, payments, trust and safety, Buyer/Seller protection, boosting and Seller tools.",
         "changed": false,
         "before": "",
