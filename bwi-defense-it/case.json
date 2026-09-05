@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "BWI",
+    "slug": "bwi-defense-it",
+    "headline": "When does procurement become an ecosystem?",
+    "case_number": "032",
+    "published_date": "2026-09-05",
+    "updated_date": "2026-09-05",
+    "status": "official",
+    "industry": [
+      "Public Sector",
+      "Defense IT"
+    ],
+    "topics": [
+      "Procurement Ecosystem",
+      "Partner Ecosystem",
+      "Orchestration",
+      "Standards",
+      "Digital Sovereignty"
+    ],
+    "language": "en",
+    "snapshot_date": "2026-09-05"
+  },
+  "platform_lesson": {
+    "title": "Outsource integration. Not orchestration.",
+    "text": "BWI can rely on external vendors and integrators for technology, delivery and even major parts of integration. But as the Owner, it has to keep control of the rules that make the ecosystem coherent: target architecture, interfaces, security constraints and the distinction between formal standards and de facto standards created through implementation. The strategic risk is not using partners. It is allowing integration choices to become ecosystem rules without BWI consciously governing them."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "IT Service",
+      "explanation": "Software, infrastructure, cloud, cybersecurity, workplace technology or specialist support that becomes usable for the Bundeswehr.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "owner": {
+      "actor": {
+        "value": "BWI",
+        "explanation": "BWI is the Owner of this bounded defense-IT ecosystem: it connects Bundeswehr demand with its own capabilities and contributions from the market.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "€10B+ Plan",
+            "note": "BWI plans more than €10 billion of additional awards to industry through 2031. The roadmap is non-binding planning data, not guaranteed spend."
+          }
+        ]
+      },
+      "governance": {
+        "value": "Rules / Arch",
+        "explanation": "BWI defines procurement rules, security requirements, target architectures and interfaces that suppliers and integrators have to work with.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Roadmap",
+        "explanation": "The procurement roadmap and market-dialogue formats make future demand visible earlier and help companies decide where to prepare and invest.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Align",
+        "explanation": "BWI builds and operates important capabilities itself while aligning outside contributions with the wider Bundeswehr IT environment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Staff / Arch",
+        "explanation": "BWI combines more than 8,500 employees, architecture knowledge and operational control of more than 1.2 million IT systems and assets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Buy / Bundle",
+        "explanation": "BWI buys external capability and bundles it with its own services, infrastructure and operating knowledge.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Speed / Scale",
+        "explanation": "BWI can use market capability to increase speed and scale without having to own every technology and skill internally.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run Network",
+        "explanation": "BWI has to orchestrate the network of Bundeswehr demand, internal capability, outside suppliers and common rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Complex / Lock-in",
+        "explanation": "More suppliers create more interfaces, dependencies and technology choices that have to remain secure, interoperable and replaceable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Bundeswehr",
+        "explanation": "The Bundeswehr is the primary customer in this bounded system and needs secure digital capability for its mission.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Mandate",
+        "explanation": "Participation is not open to any customer: BWI exists primarily to serve the Bundeswehr under a public mandate.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Portfolio",
+        "explanation": "The Bundeswehr receives value through BWI's service portfolio and delivery organization rather than through an open marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Use / Ask",
+        "explanation": "The Bundeswehr repeatedly uses existing services and requests new or changed digital capabilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Needs / Data",
+        "explanation": "The Bundeswehr contributes requirements, operational knowledge and the data needed to shape appropriate solutions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Need / Order",
+        "explanation": "The Bundeswehr brings needs, priorities and orders into the system and expects working digital services in return.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Ready / Secure",
+        "explanation": "The Bundeswehr gains digital capability that is available when needed and secure enough for military use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Stay Ready",
+        "explanation": "Its job is to remain operationally ready in peace, crisis and war.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Delay / Gaps",
+        "explanation": "Capability arrives too slowly, does not connect to the wider environment or cannot be trusted in the mission.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Vendors",
+        "explanation": "External software companies, technology suppliers and service firms provide parts of the digital solution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Fit / Trust",
+        "explanation": "A provider has to fit the tender, security rules and technical environment; technical quality alone is not enough.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Portal",
+        "explanation": "Formal access to live opportunities comes through BWI's procurement platform, while the roadmap and market-dialogue formats provide earlier visibility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Bid / Build",
+        "explanation": "Providers repeatedly prepare bids, build or configure solutions and support delivery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skill / Tech",
+        "explanation": "Providers contribute specialist skills, technologies, products and delivery capacity that BWI does not need to own entirely itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Bid / Deliver",
+        "explanation": "Providers bid for work and, if selected, deliver technology or services into the BWI environment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Plan / Revenue",
+        "explanation": "Earlier demand visibility can improve planning while successful bids create revenue from future contracts.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Win Work",
+        "explanation": "Providers aim to turn their specialist expertise into real projects and delivery work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rules / Cost",
+        "explanation": "Qualifying, bidding and meeting strict procurement, security and technical requirements is costly and complex.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Enablers",
+        "explanation": "System integrators, architecture partners and similar firms help multiple technologies and suppliers work together. This is a functional ecosystem role, not a separate legal procurement category.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Trusted",
+        "explanation": "The role depends on trust, required security conditions and the ability to work inside BWI's architecture and governance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Projects",
+        "explanation": "Enablers connect through projects, architecture work and integration programs rather than through a consumer-facing interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Link / Align",
+        "explanation": "They repeatedly connect systems, align interfaces and turn separate components into coherent services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Knowhow / Tools",
+        "explanation": "They contribute integration know-how, architecture skills and tools for complex multi-vendor environments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Design / Align",
+        "explanation": "Enablers contribute integration design and alignment while receiving mandates, rules and project context from BWI.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Role / Scale",
+        "explanation": "As the ecosystem grows, an Enabler can gain a broader role because its work can support multiple projects rather than one product.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Make Fit",
+        "explanation": "Their job is to make different technologies fit the same architecture, security model and operating environment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Legacy / Gaps",
+        "explanation": "Legacy systems, missing interfaces and divergent technical choices can make integration slow and expensive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "after": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Demand",
+          "explanation": "The Bundeswehr sends requirements, priorities and orders into BWI so the ecosystem knows which problems have to be solved."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Service",
+          "explanation": "BWI returns an integrated digital service to the Bundeswehr rather than a disconnected collection of supplier outputs."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Supply",
+          "explanation": "Vendors feed technology, products and specialist delivery capacity into BWI."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payment",
+          "explanation": "Selected vendors receive paid work; the roadmap makes future demand more visible before formal tenders are published."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Rules",
+          "explanation": "BWI gives Enablers architecture, security and project constraints so orchestration remains under deliberate Owner control."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Design",
+          "explanation": "Enablers return integration design that helps multiple suppliers fit together and can also create de facto standards if choices are not governed consciously."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Specs",
+          "explanation": "Enablers can translate integration choices into specifications that vendors must fit, which is where implementation patterns can begin to behave like standards."
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "value": "€10B+ Plan",
+        "note": "BWI plans more than €10 billion of additional awards to industry through 2031; the roadmap is non-binding planning data.",
+        "target": "owner"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "BWI plant Vergaben an Industrie von über zehn Milliarden Euro",
+      "publisher": "BWI",
+      "date": "2026-09-01",
+      "url": "https://www.bwi.de/magazin/artikel/bwi-plant-vergaben-an-industrie-von-ueber-zehn-milliarden-euro",
+      "note": "Primary source for the 2027–2031 procurement roadmap, the more-than-€10-billion planning volume and BWI's market-facing procurement context."
+    },
+    {
+      "title": "Partner-Ökosystem",
+      "publisher": "BWI",
+      "date": "",
+      "url": "https://www.bwi.de/partner-oekosystem",
+      "note": "BWI's own description of its partner ecosystem, supplier access, market dialogue and the role of external capabilities in Bundeswehr digitalization."
+    },
+    {
+      "title": "BWI Vergabe-Roadmap 2026",
+      "publisher": "BWI",
+      "date": "2026",
+      "url": "https://www.bwi.de/fileadmin/Ausschreibungen/Vergabe_Roadmap_2026.pdf",
+      "note": "Roadmap used to ground the provider categories and the forward-looking visibility of planned procurement."
+    },
+    {
+      "title": "Der IT-Dienstleister für die Bundeswehr",
+      "publisher": "BWI",
+      "date": "",
+      "url": "https://www.bwi.de/unternehmen",
+      "note": "Company facts, BWI's role as primary digitalization partner, employee scale and the number of managed IT systems and assets."
+    },
+    {
+      "title": "Governance: IT-Systeme schnell und sicher bereitstellen",
+      "publisher": "BWI",
+      "date": "2024-06-12",
+      "url": "https://www.bwi.de/magazin/artikel/governance-it-systeme-schnell-und-sicher-bereitstellen",
+      "note": "Supports the governance, architecture, standardization and interoperability logic used in the Owner and Partner perspectives."
+    },
+    {
+      "title": "Software Defined Defence der Bundeswehr bekommt Unterstützung durch die BWI Software Factory",
+      "publisher": "BWI",
+      "date": "2026-04-24",
+      "url": "https://www.bwi.de/magazin/artikel/software-defined-defence-der-bundeswehr-bekommt-unterstuetzung-durch-die-bwi-software-factory",
+      "note": "Evidence for modular architectures, interoperable interfaces, industry participation and shared engineering frameworks."
+    },
+    {
+      "title": "Digitale Souveränität ist Handlungsfreiheit",
+      "publisher": "BWI",
+      "date": "2020-10-06",
+      "url": "https://www.bwi.de/magazin/artikel/digitale-souveraenitaet-ist-handlungsfreiheit",
+      "note": "Supports the distinction between standardization, de facto standards, interoperability, partner ecosystems and Owner responsibility for dependency management."
+    },
+    {
+      "title": "Cloud-Strategie: Bundeswehr und BWI setzen Fokus auf Open Source",
+      "publisher": "BWI",
+      "date": "2026-03-18",
+      "url": "https://www.bwi.de/magazin/artikel/cloud-strategie-bundeswehr-und-bwi-setzen-fokus-auf-open-source",
+      "note": "Shows how BWI combines different technology stacks, industrial partners and open-source approaches while preserving interoperability and digital sovereignty."
+    }
+  ],
+  "media": {
+    "youtube_id": "aS-W57JRa_U",
+    "youtube_url": "https://www.youtube.com/watch?v=aS-W57JRa_U",
+    "thumbnail": "",
+    "youtube_title": "Watch the story behind the snapshot"
+  },
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. (2026). BWI — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "after"
+  }
+}
