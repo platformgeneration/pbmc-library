@@ -559,6 +559,24 @@
         "Parental Controls"
       ],
       "status": "published"
+    },
+    {
+      "slug": "bwi-defense-it",
+      "case_number": "032",
+      "company": "BWI",
+      "headline": "When does procurement become an ecosystem?",
+      "industry": [
+        "Public Sector",
+        "Defense IT"
+      ],
+      "topics": [
+        "Procurement Ecosystem",
+        "Partner Ecosystem",
+        "Orchestration",
+        "Standards",
+        "Digital Sovereignty"
+      ],
+      "status": "published"
     }
   ]
 }
