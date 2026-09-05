@@ -1,0 +1,74 @@
+{
+  "case_name": "BWI Defense IT Ecosystem",
+  "slug": "bwi-defense-it",
+  "headline": "When does procurement become an ecosystem?",
+  "snapshot_date": "2026-09-05",
+  "case_id": "BWI",
+  "youtube_id": "aS-W57JRa_U",
+  "model_title": "BWI's Defense IT Ecosystem",
+  "cvu": "IT Service",
+  "consumer": {
+    "actor": "Bundeswehr",
+    "job": "Stay Ready",
+    "gain": "Ready / Secure",
+    "pain": "Delay / Gaps",
+    "transaction": "Need / Order",
+    "filter": "Mandate",
+    "access": "Portfolio",
+    "activities": "Use / Ask",
+    "resources": "Needs / Data"
+  },
+  "provider": {
+    "actor": "Vendors",
+    "job": "Win Work",
+    "gain": "Plan / Revenue",
+    "pain": "Rules / Cost",
+    "transaction": "Bid / Deliver",
+    "filter": "Fit / Trust",
+    "access": "Portal",
+    "activities": "Bid / Build",
+    "resources": "Skill / Tech"
+  },
+  "partner": {
+    "actor": "Integrator",
+    "job": "Make Fit",
+    "gain": "Role / Scale",
+    "pain": "Legacy / Gaps",
+    "transaction": "Design / Align",
+    "filter": "Trusted",
+    "access": "Projects",
+    "activities": "Link / Align",
+    "resources": "Knowhow / Tools"
+  },
+  "owner": {
+    "actor": "BWI",
+    "job": "Run Network",
+    "gain": "Speed / Scale",
+    "pain": "Complex / Lockin",
+    "transaction": "Buy / Bundle",
+    "governance": "Rules / Arch",
+    "promotion": "Roadmap",
+    "activities": "Build / Align",
+    "resources": "Staff / Arch",
+    "metric": ">€10B Plan"
+  },
+  "arrows": [
+    {"from":"Consumer","to":"Owner","label":"Demand","type":"core"},
+    {"from":"Owner","to":"Consumer","label":"Service","type":"core"},
+    {"from":"Provider","to":"Owner","label":"Supply","type":"core"},
+    {"from":"Owner","to":"Provider","label":"Payment","type":"core"},
+    {"from":"Owner","to":"Partner","label":"Rules","type":"differentiator"},
+    {"from":"Partner","to":"Owner","label":"Design","type":"differentiator"},
+    {"from":"Partner","to":"Provider","label":"Specs","type":"differentiator"}
+  ],
+  "platform_lesson": "Outsource integration. Not orchestration.",
+  "search_keywords": ["BWI","Bundeswehr","defense IT","defence IT","public procurement","ecosystem","partner ecosystem","standards","de-facto standards","software defined defence","system integration"],
+  "sources": [
+    "https://www.bwi.de/magazin/artikel/bwi-plant-vergaben-an-industrie-von-ueber-zehn-milliarden-euro",
+    "https://www.bwi.de/partner-oekosystem",
+    "https://www.bwi.de/unternehmen",
+    "https://www.bwi.de/magazin/artikel/software-defined-defence-der-bundeswehr-bekommt-unterstuetzung-durch-die-bwi-software-factory",
+    "https://www.bwi.de/magazin/artikel/governance-it-systeme-schnell-und-sicher-bereitstellen",
+    "https://www.bwi.de/events/termin/bwi-industry-days-2026-digitalisierungsoffensive-fuer-die-bundeswehr"
+  ]
+}
