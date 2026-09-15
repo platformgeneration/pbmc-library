@@ -328,7 +328,6 @@ def case_page(case, css, renderer):
 <header><div class="wrap header-inner">
 <a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
 <nav id="siteNav">
-<a href="#pbmc">Canvas</a>
 <a class="active" href="../">PBMC Library</a>
 <a href="../about/">About</a>
 </nav>
@@ -338,10 +337,6 @@ def case_page(case, css, renderer):
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
-<div class="case-browse header-browse" id="caseBrowse">
-<button class="case-browse-button" id="caseBrowseButton" type="button" aria-expanded="false" aria-controls="caseBrowsePanel">Browse all cases <span aria-hidden="true">⌄</span></button>
-<div class="case-browse-panel" id="caseBrowsePanel" aria-label="All PBMC cases"></div>
-</div>
 <a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
 </div>
 <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button>
@@ -349,7 +344,13 @@ def case_page(case, css, renderer):
 <main>
 <section class="case-header"><div class="wrap">
 <div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in {e(snapshot_info(case)["display"])}</div>
+<div class="case-title-row">
 <h1>{e(md["company"])}</h1>
+<div class="case-browse case-title-browse" id="caseBrowse">
+<button class="case-browse-button case-title-browse-button" id="caseBrowseButton" type="button" aria-expanded="false" aria-controls="caseBrowsePanel" aria-label="Browse all PBMC cases" title="Browse all cases"><span aria-hidden="true">▾</span></button>
+<div class="case-browse-panel case-title-browse-panel" id="caseBrowsePanel" aria-label="All PBMC cases"></div>
+</div>
+</div>
 <p class="case-question">{e(md["headline"])}</p>
 <div class="meta">{meta_pills(case)}</div>
 </div></section>

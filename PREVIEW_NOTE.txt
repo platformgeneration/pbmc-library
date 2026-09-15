@@ -1,0 +1,1 @@
+v2.84 keeps the established About-page layout shown in the screenshots. FortisBC cover is restored. Footer uses the black Platform Generation logo on a white footer. The standalone preview embeds CSS and images so it renders like the site.
