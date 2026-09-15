@@ -199,6 +199,31 @@ async function exportPDF(){
 }
 function showToast(msg){const t=qs("#creatorToast");t.textContent=msg;t.classList.add("show");clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove("show"),2200);}
 
+
+function syncEditorHeight(){
+  const workbench=qs(".creator-workbench"), preview=qs(".creator-preview");
+  if(!workbench||!preview)return;
+  const h=Math.max(360,Math.ceil(preview.getBoundingClientRect().height));
+  workbench.style.setProperty("--creator-preview-height",`${h}px`);
+}
+function setEditorWide(wide){
+  const workbench=qs(".creator-workbench"),btn=qs("#editorSizeToggle");
+  if(!workbench||!btn)return;
+  workbench.classList.toggle("editor-wide",wide);
+  btn.setAttribute("aria-expanded",String(wide));
+  const label=qs(".creator-editor-size-label",btn);if(label)label.textContent=wide?"Collapse editor":"Expand editor";
+  requestAnimationFrame(syncEditorHeight);
+}
+function bindEditorLayout(){
+  const btn=qs("#editorSizeToggle"),workbench=qs(".creator-workbench"),preview=qs(".creator-preview");
+  if(!btn||!workbench||!preview)return;
+  btn.addEventListener("click",()=>setEditorWide(!workbench.classList.contains("editor-wide")));
+  const ro=new ResizeObserver(()=>requestAnimationFrame(syncEditorHeight));
+  ro.observe(preview);
+  window.addEventListener("resize",()=>requestAnimationFrame(syncEditorHeight),{passive:true});
+  requestAnimationFrame(syncEditorHeight);
+}
+
 function bindTopActions(){
   qs("#saveDraft").addEventListener("click",saveDraft);qs("#newDraft").addEventListener("click",newDraft);qs("#downloadDraft").addEventListener("click",downloadJSON);qs("#exportPNG").addEventListener("click",exportPNG);qs("#exportSVG").addEventListener("click",exportSVG);qs("#exportPDF").addEventListener("click",exportPDF);
   qs("#draftSelect").addEventListener("change",e=>{if(e.target.value)openDraft(e.target.value);});
@@ -208,7 +233,7 @@ function bindTopActions(){
 
 function init(){
   const recovered=storageGet(WORKING_STORAGE);if(recovered){try{state=normalizeImported(JSON.parse(recovered));setSaveState("Recovered browser autosave",true);}catch{}}
-  renderEditor();renderCanvas();refreshDraftSelect();bindTopActions();
+  renderEditor();renderCanvas();refreshDraftSelect();bindTopActions();bindEditorLayout();
   window.addEventListener("beforeunload",()=>{try{storageSet(WORKING_STORAGE,JSON.stringify(state));}catch{}});
 }
 document.addEventListener("DOMContentLoaded",init);
