@@ -328,11 +328,9 @@ def case_page(case, css, renderer):
 <header><div class="wrap header-inner">
 <a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
 <nav id="siteNav">
-<a href="https://www.platformgeneration.com/">Home</a>
-<a href="https://www.platformgeneration.com/#canvas">Canvas</a>
+<a href="#pbmc">Canvas</a>
 <a class="active" href="../">PBMC Library</a>
-<a href="https://www.platformgeneration.com/#research">Research</a>
-<a href="https://www.platformgeneration.com/#about">About</a>
+<a href="../about/">About</a>
 </nav>
 <div class="header-library-actions" id="headerLibraryActions">
 <div class="case-search header-search" id="caseSearch">
@@ -846,7 +844,14 @@ def build():
     if not pub: raise SystemExit("No published cases.")
     for entry in pub:
         case_dir=ROOT/entry["slug"]
-        case=load_json(case_dir/"case.json")
+        case_source=case_dir/"case.json"
+        if not case_source.exists():
+            existing=case_dir/"index.html"
+            if not existing.exists():
+                raise SystemExit(f"Case source and page missing: {entry['slug']}")
+            print(f"Preserved {entry['slug']} page (case.json unavailable).")
+            continue
+        case=load_json(case_source)
         if case["metadata"]["slug"]!=entry["slug"]:
             raise SystemExit(f"Slug mismatch: {entry['slug']}")
         write_csv(case_dir,case)

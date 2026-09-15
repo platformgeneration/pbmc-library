@@ -1,0 +1,21 @@
+GitHub update for the existing pbmc-library repository
+
+1. Unzip the small *github-patch* archive on your computer.
+2. Open the pbmc-library repository on GitHub, then choose Add file → Upload files.
+3. Drag the extracted files and folders into the repository root, preserving
+   their paths (for example about/index.html and assets/about.css). Replace
+   files with the same paths and commit the changes. Uploading the ZIP file as
+   one file does not publish its contents through GitHub Pages.
+4. After GitHub Pages updates, check the existing cases and the new route:
+   https://platformgeneration.github.io/pbmc-library/about/
+
+The patch contains the About page, its stylesheet, the exact FortisBC PNG,
+build.py, and case index.html files whose header navigation is updated. It
+does not include existing case data, canvas assets, library.json, or the
+existing site's CSS. If case pages on GitHub have changed since the uploaded
+pbmc-library-main.zip was exported, compare them before replacing them: the
+patch's case pages come from that upload with menu changes only.
+
+The attached image is a cover PNG, not the FortisBC whitepaper PDF. The About
+page currently links to the PDF on the old website's CDN. Save the PDF to
+independent hosting before retiring the old Tailor Brands website.
