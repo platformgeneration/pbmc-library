@@ -8,7 +8,7 @@
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://platformgeneration.com/create/">
 <link rel="stylesheet" href="../assets/site.css">
-<link rel="stylesheet" href="../assets/creator.css?v=3.05">
+<link rel="stylesheet" href="../assets/creator.css?v=3.06">
 </head>
 <body>
 <header class="pg-header"><div class="wrap header-inner">
@@ -23,22 +23,36 @@
 <p>Build a Platform Business Model Canvas directly in your browser. Your work stays on your device unless you download or share the draft file. Click any canvas field to jump to its editor.</p>
 </div></section>
 
-<div class="creator-actions"><div class="creator-shell creator-actions-inner">
-<button class="creator-btn" id="newDraft" type="button">New</button>
-<button class="creator-btn primary" id="saveDraft" type="button">Save in browser</button>
-<select class="creator-select" id="draftSelect" aria-label="Open a saved draft"><option>Saved drafts…</option></select>
-<button class="creator-btn" id="downloadDraft" type="button">Download draft</button>
-<button class="creator-btn" id="importDraft" type="button">Import draft</button>
-<input id="importFile" type="file" accept="application/json,.json" hidden>
-<button class="creator-btn export" id="exportPNG" type="button">PNG</button>
-<button class="creator-btn export" id="exportSVG" type="button">SVG</button>
-<button class="creator-btn export" id="exportPDF" type="button">PDF</button>
-<span class="creator-save-state saved" id="saveState">New draft</span>
-</div></div>
-
 <div class="creator-shell creator-workbench">
-<section class="creator-preview" aria-label="Live PBMC preview">
+<div class="creator-workbench-head">
   <div class="creator-preview-head"><div><h2 id="caseTitle">Untitled platform</h2><p id="caseSub">Live Platform Business Model Canvas preview.</p></div><span class="creator-preview-badge">Live preview</span></div>
+  <div class="creator-compact-tools" aria-label="Draft and export tools">
+    <div class="creator-tool-buttons">
+      <button class="creator-tool-btn" id="newDraft" type="button">New</button>
+      <button class="creator-tool-btn primary" id="saveDraft" type="button">Save</button>
+      <details class="creator-tool-menu">
+        <summary>Drafts <span aria-hidden="true">▾</span></summary>
+        <div class="creator-tool-popover">
+          <label class="creator-tool-label" for="draftSelect">Saved drafts</label>
+          <select class="creator-tool-select" id="draftSelect" aria-label="Open a saved draft"><option>Saved drafts…</option></select>
+          <button class="creator-tool-item" id="importDraft" type="button">Import draft…</button>
+          <button class="creator-tool-item" id="downloadDraft" type="button">Download draft (.json)</button>
+        </div>
+      </details>
+      <details class="creator-tool-menu">
+        <summary>Export <span aria-hidden="true">▾</span></summary>
+        <div class="creator-tool-popover creator-export-popover">
+          <button class="creator-tool-item" id="exportPNG" type="button">PNG</button>
+          <button class="creator-tool-item" id="exportSVG" type="button">SVG</button>
+          <button class="creator-tool-item" id="exportPDF" type="button">PDF</button>
+        </div>
+      </details>
+    </div>
+    <span class="creator-save-state" id="saveState">New draft</span>
+    <input id="importFile" type="file" accept="application/json,.json" hidden>
+  </div>
+</div>
+<section class="creator-preview" aria-label="Live PBMC preview">
   <div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div>
   <p class="creator-help">Click a canvas field to open its editor. Drafts saved in the browser stay on this device/browser; download the JSON draft for a portable backup.</p>
 </section>
