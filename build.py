@@ -325,21 +325,13 @@ def case_page(case, css, renderer):
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://pbmc.platformgeneration.com/{e(md["slug"])}/">
 <script type="application/ld+json">{json.dumps(json_ld,ensure_ascii=False)}</script><style>{css}</style></head><body>
-<header><div class="wrap header-inner">
-<a class="brand" href="../"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
-<nav id="siteNav">
-<a class="active" href="../">PBMC Library</a>
+<header class="pg-header"><div class="wrap header-inner">
+<a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
+<nav id="siteNav" aria-label="Main navigation">
+<a class="active" aria-current="page" href="../">PBMC Library</a>
 <a href="../about/">About</a>
 </nav>
-<div class="header-library-actions" id="headerLibraryActions">
-<div class="case-search header-search" id="caseSearch">
-<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
-<span class="case-search-icon">⌕</span>
-<div class="case-search-results" id="caseSearchResults" role="listbox"></div>
-</div>
-<a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
-</div>
-<button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu"><span></span><span></span><span></span></button>
+<button class="site-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">Menu</button>
 </div></header>
 <main>
 <section class="case-header"><div class="wrap">
@@ -353,6 +345,16 @@ def case_page(case, css, renderer):
 </div>
 <p class="case-question">{e(md["headline"])}</p>
 <div class="meta">{meta_pills(case)}</div>
+<div class="case-utility-row">
+<div class="header-library-actions case-library-actions" id="headerLibraryActions">
+<div class="case-search header-search" id="caseSearch">
+<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
+<span class="case-search-icon">⌕</span>
+<div class="case-search-results" id="caseSearchResults" role="listbox"></div>
+</div>
+<a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
+</div>
+</div>
 </div></section>
 
 <section class="section" id="pbmc"><div class="wide-wrap">
@@ -506,28 +508,8 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
 (function(){{
   const menuBtn=document.getElementById("mobileMenuToggle");
   const nav=document.getElementById("siteNav");
-  const libraryActions=document.getElementById("headerLibraryActions");
-  const headerInner=document.querySelector(".header-inner");
-
-  function syncHeaderLibraryActions(){{
-    if(!nav||!libraryActions||!headerInner||!menuBtn) return;
-    const mobile=window.matchMedia("(max-width: 1000px)").matches;
-    if(mobile){{
-      if(libraryActions.parentNode!==nav) nav.appendChild(libraryActions);
-    }}else{{
-      if(libraryActions.parentNode!==headerInner) headerInner.insertBefore(libraryActions,menuBtn);
-      nav.classList.remove("open");
-      menuBtn.setAttribute("aria-expanded","false");
-      menuBtn.setAttribute("aria-label","Open menu");
-    }}
-  }}
-
-  syncHeaderLibraryActions();
-  window.addEventListener("resize",syncHeaderLibraryActions);
-
   if(menuBtn&&nav){{
     menuBtn.addEventListener("click",function(){{
-      syncHeaderLibraryActions();
       const open=nav.classList.toggle("open");
       menuBtn.setAttribute("aria-expanded",open?"true":"false");
       menuBtn.setAttribute("aria-label",open?"Close menu":"Open menu");
