@@ -22,7 +22,7 @@ function starterState(){
   const owner=role(); delete owner.filter; delete owner.access_channel; owner.governance=field(); owner.promotion_channel=field();
   return {
     schema_version:"creator-1.0",
-    metadata:{company:"Untitled platform",headline:"",snapshot_date:isoDate(today)},
+    metadata:{company:"Untitled platform",headline:""},
     creator:{name:"",organization:"",version:"1.0",created_date:isoDate(today)},
     rendering:{state:"after"},
     pbmc:{core_value_unit:field(),owner,consumer:role(),provider:role(),partner:{...role(),enabled:true},flows:[]}
@@ -45,8 +45,8 @@ function getPath(obj,path){return path.split(".").reduce((o,k)=>o?.[k],obj);}
 function setPath(obj,path,value){const bits=path.split(".");let o=obj;bits.slice(0,-1).forEach(k=>o=o[k]);o[bits.at(-1)]=value;}
 function esc(s){return String(s??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));}
 function slugify(s){return String(s||"pbmc").toLowerCase().trim().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")||"pbmc";}
-function compactSnapshot(){const d=state.metadata.snapshot_date||"";return d.length>=7?`${d.slice(5,7)}-${d.slice(2,4)}`:"snapshot";}
-function filename(ext){return `${slugify(state.metadata.company)}-pbmc-${compactSnapshot()}-v${String(state.creator.version||"1.0").replace(/^v/i,"")}.${ext}`;}
+function compactCreatedDate(){const d=String(state.creator.created_date||"").trim();return /^\d{4}-\d{2}-\d{2}$/.test(d)?d:"undated";}
+function filename(ext){return `${slugify(state.metadata.company)}-pbmc-${compactCreatedDate()}-v${String(state.creator.version||"1.0").replace(/^v/i,"")}.${ext}`;}
 
 function normalizeImported(raw){
   const base=starterState();
@@ -68,32 +68,30 @@ function normalizeImported(raw){
 
 function fieldControl(role,key){
   const rec=state.pbmc[role][key]; const [label,question]=FIELD_META[key];
-  const id=`${role}-${key}-value`; const max=key==="actor"?24:(key==="transaction"?30:28);
+  const id=`${role}-${key}-value`; const max=key==="actor"?24:(key==="transaction"?30:28); const len=String(rec.value||"").length;
   return `<div class="creator-field" data-editor-field="${role}.${key}">
-    <label for="${id}">${esc(label)} <span>keep concise</span></label>
+    <label for="${id}">${esc(label)} <span class="char-count ${len>max?"over":""}" data-count-for="${id}">${len} / ${max}</span></label>
     <div class="creator-question">${esc(question)}</div>
-    <input id="${id}" data-path="pbmc.${role}.${key}.value" data-soft-max="${max}" value="${esc(rec.value)}" autocomplete="off">
+    <input id="${id}" data-path="pbmc.${role}.${key}.value" data-soft-max="${max}" value="${esc(rec.value)}" autocomplete="off" class="${len>max?"warn":""}">
     <details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.${role}.${key}.explanation" placeholder="Optional context saved with the editable draft">${esc(rec.explanation)}</textarea></details>
   </div>`;
 }
 
 function renderEditor(){
   const editor=qs("#creatorEditorBody");
-  const month=(state.metadata.snapshot_date||isoDate(today)).slice(0,7);
-  let html=`<details class="creator-section" open><summary>Snapshot details</summary><div class="creator-section-body">
+  let html=`<details class="creator-section" open><summary>Canvas details</summary><div class="creator-section-body">
     <div class="creator-field"><label>Platform name</label><input data-path="metadata.company" value="${esc(state.metadata.company)}" placeholder="e.g. Alibaba.com"></div>
     <div class="creator-field"><label>Question / subtitle <span>optional</span></label><input data-path="metadata.headline" value="${esc(state.metadata.headline)}" placeholder="What does this platform enable?"></div>
     <div class="creator-grid-2">
-      <div class="creator-field"><label>Snapshot</label><input type="month" data-special="snapshot-month" value="${esc(month)}"></div>
       <div class="creator-field"><label>Version</label><input data-path="creator.version" value="${esc(state.creator.version)}" placeholder="1.0"></div>
       <div class="creator-field"><label>Created date</label><input type="date" data-path="creator.created_date" value="${esc(state.creator.created_date)}"></div>
       <div class="creator-field"><label>Creator name <span>optional</span></label><input data-path="creator.name" value="${esc(state.creator.name)}" placeholder="Your name"></div>
+      <div class="creator-field"><label>Organisation <span>optional</span></label><input data-path="creator.organization" value="${esc(state.creator.organization)}" placeholder="Organisation / university / company"></div>
     </div>
-    <div class="creator-field"><label>Organisation <span>optional</span></label><input data-path="creator.organization" value="${esc(state.creator.organization)}" placeholder="Organisation / university / company"></div>
   </div></details>`;
 
   html+=`<details class="creator-section" open data-section="core_value_unit"><summary>Core Value Unit</summary><div class="creator-section-body">
-    <div class="creator-field" data-editor-field="core_value_unit.core_value_unit"><label>Core Value Unit <span>max. 2 concepts</span></label><div class="creator-question">What is the fundamental unit of value exchanged on the platform?</div><input id="core-value-unit-value" data-path="pbmc.core_value_unit.value" data-soft-max="28" value="${esc(state.pbmc.core_value_unit.value)}" placeholder="e.g. Product Listing"><details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.core_value_unit.explanation">${esc(state.pbmc.core_value_unit.explanation)}</textarea></details></div>
+    <div class="creator-field" data-editor-field="core_value_unit.core_value_unit"><label>Core Value Unit <span class="char-count ${String(state.pbmc.core_value_unit.value||"").length>28?"over":""}" data-count-for="core-value-unit-value">${String(state.pbmc.core_value_unit.value||"").length} / 28</span></label><div class="creator-question">What is the fundamental unit of value exchanged on the platform? Aim for no more than two concepts.</div><input id="core-value-unit-value" data-path="pbmc.core_value_unit.value" data-soft-max="28" value="${esc(state.pbmc.core_value_unit.value)}" class="${String(state.pbmc.core_value_unit.value||"").length>28?"warn":""}" placeholder="e.g. Product Listing"><details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.core_value_unit.explanation">${esc(state.pbmc.core_value_unit.explanation)}</textarea></details></div>
   </div></details>`;
 
   for(const [role,cfg] of Object.entries(ROLE_CONFIG)){
@@ -124,10 +122,13 @@ function renderFlows(){
 function bindEditorEvents(){
   qsa("[data-path]",qs("#creatorEditorBody")).forEach(el=>el.addEventListener("input",()=>{
     setPath(state,el.dataset.path,el.value);
-    const soft=Number(el.dataset.softMax||0); if(soft)el.classList.toggle("warn",el.value.length>soft);
+    const soft=Number(el.dataset.softMax||0); if(soft){
+      const over=el.value.length>soft; el.classList.toggle("warn",over);
+      const counter=qs(`[data-count-for="${el.id}"]`,qs("#creatorEditorBody"));
+      if(counter){counter.textContent=`${el.value.length} / ${soft}`;counter.classList.toggle("over",over);}
+    }
     markChanged(); renderCanvas();
   }));
-  const month=qs('[data-special="snapshot-month"]'); if(month)month.addEventListener("input",()=>{if(month.value)state.metadata.snapshot_date=month.value+"-01";markChanged();renderCanvas();});
   const partner=qs('[data-special="partner-enabled"]'); if(partner)partner.addEventListener("change",()=>{state.pbmc.partner.enabled=partner.checked;markChanged();renderCanvas();});
   qs("#addFlow")?.addEventListener("click",()=>{state.pbmc.flows.push({from:"consumer",to:"owner",value:"",explanation:""});renderFlows();markChanged();renderCanvas();});
 }
@@ -193,7 +194,7 @@ async function exportPDF(){
     if(!window.jspdf?.jsPDF)throw new Error("PDF library not loaded");
     const canvas=await svgCanvas(2);const png=canvas.toDataURL("image/png",1);const {jsPDF}=window.jspdf;const pdf=new jsPDF({orientation:"landscape",unit:"mm",format:"a4"});
     const pageW=297,pageH=210,margin=10,maxW=pageW-margin*2,maxH=pageH-margin*2;const ratio=1440/960;let w=maxW,h=w/ratio;if(h>maxH){h=maxH;w=h*ratio;}const x=(pageW-w)/2,y=(pageH-h)/2;
-    pdf.addImage(png,"PNG",x,y,w,h,undefined,"FAST");pdf.setProperties({title:`${state.metadata.company} — Platform Business Model Canvas`,subject:"PBMC snapshot",author:state.creator.name||"Platform Generation",creator:"Platform Generation PBMC Creator"});pdf.save(filename("pdf"));showToast("PDF downloaded");
+    pdf.addImage(png,"PNG",x,y,w,h,undefined,"FAST");pdf.setProperties({title:`${state.metadata.company} — Platform Business Model Canvas`,subject:"Platform Business Model Canvas",author:state.creator.name||"Platform Generation",creator:"Platform Generation PBMC Creator"});pdf.save(filename("pdf"));showToast("PDF downloaded");
   }catch(e){console.error(e);alert("PDF export could not start. Check your internet connection and try again.");}
 }
 function showToast(msg){const t=qs("#creatorToast");t.textContent=msg;t.classList.add("show");clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove("show"),2200);}

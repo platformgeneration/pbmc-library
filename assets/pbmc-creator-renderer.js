@@ -619,8 +619,6 @@ function render(data){
   const creatorOrg=String(safe(data.creator,"organization","")||"").trim();
   const creatorLine=[creatorName,creatorOrg,"platformgeneration.com"].filter(Boolean).join(" · ");
   add(svg,"text",{class:"canvas-attribution-line",x:1405,y:62,"text-anchor":"end"},creatorLine);
-  const snapRaw=String(safe(data.metadata,"snapshot_date","")||"");
-  const snap=(snapRaw.length>=7 ? snapRaw.slice(5,7)+"/"+snapRaw.slice(2,4) : "");
   const version=String(safe(data.creator,"version","1.0")||"1.0").trim();
   const createdRaw=String(safe(data.creator,"created_date","")||"").trim();
   let created=createdRaw;
@@ -628,7 +626,7 @@ function render(data){
     const d=new Date(createdRaw+"T00:00:00");
     if(!Number.isNaN(d.getTime())) created=d.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"});
   }
-  const metaLine=[snap ? "Snapshot "+snap : "", version ? "v"+version.replace(/^v/i,"") : "", created].filter(Boolean).join(" · ");
+  const metaLine=[version ? "v"+version.replace(/^v/i,"") : "", created].filter(Boolean).join(" · ");
   add(svg,"text",{class:"canvas-attribution-meta",x:1405,y:77,"text-anchor":"end"},metaLine);
 
   // Background structural layer, then flows, then fields/actors.
