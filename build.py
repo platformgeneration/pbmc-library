@@ -205,6 +205,18 @@ def meta_pills(case):
     for item in visible[:3]:
         parts.append(f'<span class="meta-pill">{e(item)}</span>')
 
+    # Compact reference pills: case identity + snapshot month/year.
+    # These mirror the citation/BibTeX snapshot metadata without repeating
+    # the former long kicker above the title.
+    case_no=str(md.get("case_number") or "").strip()
+    if case_no:
+        parts.append(f'<span class="meta-pill meta-pill-reference">Case {e(case_no)}</span>')
+
+    snap=snapshot_info(case)
+    parts.append(
+        f'<span class="meta-pill meta-pill-reference">Snapshot {snap["month_num"]:02d}/{str(snap["year"])[-2:]}</span>'
+    )
+
     return "".join(parts)
 
 
