@@ -205,8 +205,6 @@ def meta_pills(case):
     for item in visible[:3]:
         parts.append(f'<span class="meta-pill">{e(item)}</span>')
 
-    snap=snapshot_info(case)
-    parts.append(f'<span class="meta-pill">Snapshot · {e(snap["display"])}</span>')
     return "".join(parts)
 
 
@@ -222,7 +220,7 @@ def citation_info(case):
     month_num=snap["month_num"]
     month_name=snap["month_name"]
     month_bib=calendar.month_abbr[month_num].lower()
-    canonical=f"https://pbmc.platformgeneration.com/{md['slug']}/"
+    canonical=f"https://platformgeneration.com/{md['slug']}/"
     title=f"{md['company']} — Platform Business Model Canvas"
     author_display=", ".join(a.get("display") or (a.get("family","")+", "+a.get("given","")) for a in authors)
     recommended=(
@@ -323,7 +321,7 @@ def case_page(case, css, renderer):
 <title>{e(md["company"])} PBMC | Platform Generation</title>
 <meta name="description" content="{e(md["headline"])} Explore the Platform Business Model Canvas, structured PBMC data, transaction flows and sources.">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://pbmc.platformgeneration.com/{e(md["slug"])}/">
+<link rel="canonical" href="https://platformgeneration.com/{e(md["slug"])}/">
 <script type="application/ld+json">{json.dumps(json_ld,ensure_ascii=False)}</script><style>{css}</style></head><body>
 <header class="pg-header"><div class="wrap header-inner">
 <a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
@@ -335,7 +333,6 @@ def case_page(case, css, renderer):
 </div></header>
 <main>
 <section class="case-header"><div class="wrap">
-<div class="case-snapshot-line">PBMC Case {e(md["case_number"])} · Snapshot made in {e(snapshot_info(case)["display"])}</div>
 <div class="case-title-row">
 <h1>{e(md["company"])}</h1>
 <div class="case-browse case-title-browse" id="caseBrowse">
@@ -345,19 +342,21 @@ def case_page(case, css, renderer):
 </div>
 <p class="case-question">{e(md["headline"])}</p>
 <div class="meta">{meta_pills(case)}</div>
-<div class="case-utility-row">
-<div class="header-library-actions case-library-actions" id="headerLibraryActions">
-<div class="case-search header-search" id="caseSearch">
+</div></section>
+
+<section class="section" id="pbmc"><div class="wide-wrap">
+<div class="canvas-case-tools" aria-label="Case navigation">
+<a class="canvas-case-tool canvas-case-arrow" id="prevPlatformTop" href="../" aria-label="Previous platform" title="Previous platform">←</a>
+<div class="case-search canvas-case-search" id="caseSearch">
+<button class="canvas-case-tool canvas-search-toggle" id="caseSearchToggle" type="button" aria-label="Search platforms" title="Search platforms" aria-expanded="false" aria-controls="caseSearchPopover"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l5 5"></path></svg></button>
+<div class="canvas-search-popover" id="caseSearchPopover">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
-<a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
 </div>
+<a class="canvas-case-tool canvas-case-arrow" id="nextPlatformTop" href="../" aria-label="Next platform" title="Next platform">→</a>
 </div>
-</div></section>
-
-<section class="section" id="pbmc"><div class="wide-wrap">
 <div class="canvas-stage" id="canvasStage">
 <button class="canvas-mobile-launch" id="openCanvasViewer" type="button">Explore canvas ↗</button>
 <div class="canvas-mobile-controls" id="canvasMobileControls">
@@ -619,6 +618,8 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   const input=document.getElementById("caseSearchInput");
   const box=document.getElementById("caseSearchResults");
   const shell=document.getElementById("caseSearch");
+  const searchToggle=document.getElementById("caseSearchToggle");
+  const searchPopover=document.getElementById("caseSearchPopover");
   const browseShell=document.getElementById("caseBrowse");
   const browseButton=document.getElementById("caseBrowseButton");
   const browsePanel=document.getElementById("caseBrowsePanel");
@@ -667,12 +668,14 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
 
     const prevLink=document.getElementById("prevPlatform");
     const nextLink=document.getElementById("nextPlatform");
+    const topPrev=document.getElementById("prevPlatformTop");
     const topNext=document.getElementById("nextPlatformTop");
     const prevName=document.getElementById("prevPlatformName");
     const nextName=document.getElementById("nextPlatformName");
 
     if(prevLink)prevLink.href="../"+encodeURIComponent(prev.slug)+"/";
     if(nextLink)nextLink.href="../"+encodeURIComponent(next.slug)+"/";
+    if(topPrev)topPrev.href="../"+encodeURIComponent(prev.slug)+"/";
     if(topNext)topNext.href="../"+encodeURIComponent(next.slug)+"/";
     if(prevName)prevName.textContent=prev.company||"Previous platform";
     if(nextName)nextName.textContent=next.company||"Next platform";
@@ -682,6 +685,13 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     matches=[];
     active=-1;
     if(box){{box.innerHTML="";box.classList.remove("show");}}
+  }}
+
+  function setSearchOpen(open){{
+    if(!shell)return;
+    shell.classList.toggle("open",!!open);
+    if(searchToggle)searchToggle.setAttribute("aria-expanded",open?"true":"false");
+    if(!open){{closeSearch();if(input)input.blur();}}
   }}
 
   function drawSearch(){{
@@ -744,8 +754,19 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   }}
 
   function bindLibraryControls(){{
+    if(searchToggle&&shell){{
+      searchToggle.addEventListener("click",function(e){{
+        e.preventDefault();
+        e.stopPropagation();
+        const open=!shell.classList.contains("open");
+        setBrowseOpen(false);
+        setSearchOpen(open);
+        if(open&&input)setTimeout(function(){{input.focus();}},0);
+      }});
+    }}
+
     if(input&&box&&shell){{
-      input.addEventListener("focus",function(){{setBrowseOpen(false);drawSearch();}});
+      input.addEventListener("focus",function(){{setBrowseOpen(false);setSearchOpen(true);drawSearch();}});
       input.addEventListener("input",drawSearch);
       input.addEventListener("keydown",function(e){{
         if(e.key==="ArrowDown"&&matches.length){{e.preventDefault();setActive(active+1);}}
@@ -754,21 +775,20 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
           e.preventDefault();
           location.href="../"+encodeURIComponent(matches[active].slug)+"/";
         }}
-        else if(e.key==="Escape"){{closeSearch();input.blur();}}
+        else if(e.key==="Escape"){{setSearchOpen(false);}}
       }});
     }}
 
     if(browseButton&&browsePanel){{
       browseButton.addEventListener("click",function(e){{
         e.preventDefault();
-        closeSearch();
-        if(input)input.blur();
+        setSearchOpen(false);
         setBrowseOpen(!browsePanel.classList.contains("show"));
       }});
     }}
 
     document.addEventListener("click",function(e){{
-      if(shell&&!shell.contains(e.target))closeSearch();
+      if(shell&&!shell.contains(e.target))setSearchOpen(false);
       if(browseShell&&!browseShell.contains(e.target))setBrowseOpen(false);
     }});
   }}

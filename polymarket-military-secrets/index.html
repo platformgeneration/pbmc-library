@@ -3,8 +3,8 @@
 <title>Polymarket &amp; Military Secrets PBMC | Platform Generation</title>
 <meta name="description" content="What if a trader already knows the answer? Explore the Platform Business Model Canvas, structured PBMC data, transaction flows and sources.">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="https://pbmc.platformgeneration.com/polymarket-military-secrets/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "Polymarket & Military Secrets — Platform Business Model Canvas", "headline": "What if a trader already knows the answer?", "datePublished": "2026-08-31", "dateModified": "2026-08-31", "creator": {"@type": "Person", "name": "Davis Eisape"}, "publisher": {"@type": "Organization", "name": "Platform Generation"}, "license": "https://creativecommons.org/licenses/by/4.0/", "about": ["Financial Markets", "Prediction Markets", "Market Integrity", "Insider Trading", "Military Secrets", "Event Contracts", "Platform Governance"], "citation": "Eisape, D. A. (2026). Polymarket & Military Secrets — Platform Business Model Canvas [PBMC snapshot, August 2026]. Platform Generation. https://pbmc.platformgeneration.com/polymarket-military-secrets/", "url": "https://pbmc.platformgeneration.com/polymarket-military-secrets/"}</script><style>@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+<link rel="canonical" href="https://platformgeneration.com/polymarket-military-secrets/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CreativeWork", "name": "Polymarket & Military Secrets — Platform Business Model Canvas", "headline": "What if a trader already knows the answer?", "datePublished": "2026-08-31", "dateModified": "2026-08-31", "creator": {"@type": "Person", "name": "Davis Eisape"}, "publisher": {"@type": "Organization", "name": "Platform Generation"}, "license": "https://creativecommons.org/licenses/by/4.0/", "about": ["Financial Markets", "Prediction Markets", "Market Integrity", "Insider Trading", "Military Secrets", "Event Contracts", "Platform Governance"], "citation": "Eisape, D. A. (2026). Polymarket & Military Secrets — Platform Business Model Canvas [PBMC snapshot, August 2026]. Platform Generation. https://platformgeneration.com/polymarket-military-secrets/", "url": "https://platformgeneration.com/polymarket-military-secrets/"}</script><style>@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 :root{
  --orange:#ef4a0b;--ink:#111;--text:#707070;--muted:#8a8a8a;--line:#e6e6e3;--soft:#fafaf8;--white:#fff;
@@ -839,6 +839,62 @@ header nav{
 /* v2.88.3 — exact About mobile menu typography */
 @media(max-width:650px){.pg-header nav{font-size:13px!important}}
 
+
+
+/* v2.90 — compact case header navigation + case metadata cleanup */
+.case-snapshot-line{display:none!important}
+.case-title-browse-button{color:var(--orange)!important}
+.case-title-browse-button:hover,.case-title-browse-button[aria-expanded="true"]{color:var(--orange)!important;background:#fff5f0!important;border-color:#ffd6c6!important}
+.case-title-browse-button:focus-visible{outline:3px solid rgba(239,74,11,.22);outline-offset:2px}
+.case-meta-nav-row{display:flex;align-items:center;justify-content:space-between;gap:14px 22px;flex-wrap:wrap;margin-top:14px}
+.case-meta-nav-row .meta{flex:1 1 480px;min-width:0;margin:0}
+.case-header .case-top-navigation{display:grid!important;grid-template-columns:auto minmax(190px,230px) auto;align-items:center;gap:8px;width:auto!important;min-width:0!important;margin-left:auto}
+.case-header .case-top-navigation .header-search{width:100%!important;min-width:0!important}
+.header-prev-platform{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 14px;border:1px solid #d8d8d4;border-radius:999px;background:#fff;color:#222;font-size:9.5px;font-weight:700;white-space:nowrap;transition:background .15s ease,border-color .15s ease,color .15s ease,transform .15s ease}
+.header-prev-platform:hover{background:#f6f6f3;border-color:#bdbdb8;color:#111;transform:translateY(-1px)}
+.case-top-navigation .header-next-platform{padding-left:14px;padding-right:14px}
+.nav-short{display:none}
+@media(max-width:980px){
+  .case-meta-nav-row{align-items:flex-start}
+  .case-meta-nav-row .meta{flex-basis:100%}
+  .case-header .case-top-navigation{margin-left:0;width:min(100%,520px)!important;grid-template-columns:auto minmax(160px,1fr) auto}
+}
+@media(max-width:700px){
+  .case-header{padding-top:22px!important}
+  .case-meta-nav-row{margin-top:12px;gap:11px}
+  .case-header .case-top-navigation{width:100%!important;grid-template-columns:auto minmax(0,1fr) auto;gap:6px}
+  .header-prev-platform,.case-top-navigation .header-next-platform{height:38px;padding:0 10px;font-size:9px}
+  .case-top-navigation .header-search .case-search-input{height:38px;padding-left:12px;padding-right:34px;font-size:9.5px}
+  .case-top-navigation .case-search-icon{right:12px}
+  .nav-long{display:none}
+  .nav-short{display:inline}
+}
+@media(max-width:430px){
+  .case-header .case-top-navigation{grid-template-columns:auto minmax(0,1fr) auto}
+  .header-prev-platform,.case-top-navigation .header-next-platform{padding:0 9px}
+}
+
+
+/* v2.91 — minimal canvas navigation */
+.case-meta-nav-row{display:block!important;margin-top:14px!important}
+.case-meta-nav-row .meta{margin:0!important}
+.case-top-navigation{display:none!important}
+.canvas-case-tools{display:flex;align-items:center;justify-content:flex-end;gap:4px;min-height:28px;margin:0 6px 7px 0;position:relative;z-index:25}
+.canvas-case-tool{width:27px;height:27px;padding:0;border:0;background:transparent;color:#858585;display:inline-flex;align-items:center;justify-content:center;border-radius:7px;cursor:pointer;line-height:1;transition:color .14s ease,background .14s ease,transform .14s ease}
+.canvas-case-tool:hover,.canvas-case-tool:focus-visible{color:var(--orange);background:#fff4ef;outline:none}
+.canvas-case-tool:active{transform:translateY(1px)}
+.canvas-case-arrow{font-size:18px;font-weight:500}
+.canvas-search-toggle svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.canvas-case-search{position:relative;width:27px!important;min-width:27px!important}
+.canvas-search-popover{display:none;position:absolute;z-index:120;right:0;top:31px;width:min(315px,calc(100vw - 48px));background:#fff;border:1px solid #dededa;border-radius:14px;box-shadow:0 16px 38px rgba(0,0,0,.13);padding:7px}
+.canvas-case-search.open .canvas-search-popover{display:block}
+.canvas-search-popover .case-search-input{height:35px!important;padding:0 35px 0 12px!important;border-radius:10px!important;font-size:10.5px!important;border-color:#e1e1dd!important}
+.canvas-search-popover .case-search-icon{right:18px!important;font-size:12px!important}
+.canvas-search-popover .case-search-results{left:7px!important;right:7px!important;top:49px!important;width:auto!important;max-height:min(360px,52vh)!important;border-radius:13px!important}
+@media(max-width:700px){.case-meta-nav-row{margin-top:12px!important}.canvas-case-tools{margin:0 2px 5px 0;gap:2px;min-height:26px}.canvas-case-tool{width:25px;height:25px}.canvas-case-arrow{font-size:17px}.canvas-search-toggle svg{width:13px;height:13px}.canvas-case-search{width:25px!important;min-width:25px!important}.canvas-search-popover{right:-27px;top:29px;width:min(300px,calc(100vw - 38px))}}
+
+/* v2.91.1 — keep title dropdown visibly orange */
+.case-title-browse-button span{color:#ef4a0b!important}
 </style></head><body>
 <header class="pg-header"><div class="wrap header-inner">
 <a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
@@ -850,7 +906,6 @@ header nav{
 </div></header>
 <main>
 <section class="case-header"><div class="wrap">
-<div class="case-snapshot-line">PBMC Case 010 · Snapshot made in August 2026</div>
 <div class="case-title-row">
 <h1>Polymarket &amp; Military Secrets</h1>
 <div class="case-browse case-title-browse" id="caseBrowse">
@@ -859,20 +914,22 @@ header nav{
 </div>
 </div>
 <p class="case-question">What if a trader already knows the answer?</p>
-<div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Prediction Markets</span><span class="meta-pill">Market Integrity</span><span class="meta-pill">Insider Trading</span><span class="meta-pill">Snapshot · August 2026</span></div>
-<div class="case-utility-row">
-<div class="header-library-actions case-library-actions" id="headerLibraryActions">
-<div class="case-search header-search" id="caseSearch">
+<div class="meta"><span class="meta-pill official">Official PBMC</span><span class="meta-pill">Prediction Markets</span><span class="meta-pill">Market Integrity</span><span class="meta-pill">Insider Trading</span></div>
+</div></section>
+
+<section class="section" id="pbmc"><div class="wide-wrap">
+<div class="canvas-case-tools" aria-label="Case navigation">
+<a class="canvas-case-tool canvas-case-arrow" id="prevPlatformTop" href="../" aria-label="Previous platform" title="Previous platform">←</a>
+<div class="case-search canvas-case-search" id="caseSearch">
+<button class="canvas-case-tool canvas-search-toggle" id="caseSearchToggle" type="button" aria-label="Search platforms" title="Search platforms" aria-expanded="false" aria-controls="caseSearchPopover"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l5 5"></path></svg></button>
+<div class="canvas-search-popover" id="caseSearchPopover">
 <input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
-<a class="header-next-platform" id="nextPlatformTop" href="../" aria-label="See next platform">See next platform →</a>
 </div>
+<a class="canvas-case-tool canvas-case-arrow" id="nextPlatformTop" href="../" aria-label="Next platform" title="Next platform">→</a>
 </div>
-</div></section>
-
-<section class="section" id="pbmc"><div class="wide-wrap">
 <div class="canvas-stage" id="canvasStage">
 <button class="canvas-mobile-launch" id="openCanvasViewer" type="button">Explore canvas ↗</button>
 <div class="canvas-mobile-controls" id="canvasMobileControls">
@@ -930,7 +987,7 @@ header nav{
 
 <div class="citation-panel">
 <div class="citation-format-label">Recommended citation</div>
-<div class="citation-recommended" id="recommendedCitation">Eisape, D. A. (2026). Polymarket &amp; Military Secrets — Platform Business Model Canvas [PBMC snapshot, August 2026]. Platform Generation. https://pbmc.platformgeneration.com/polymarket-military-secrets/</div>
+<div class="citation-recommended" id="recommendedCitation">Eisape, D. A. (2026). Polymarket &amp; Military Secrets — Platform Business Model Canvas [PBMC snapshot, August 2026]. Platform Generation. https://platformgeneration.com/polymarket-military-secrets/</div>
 <div class="citation-actions">
 <button class="citation-action" id="copyCitation" type="button">Copy citation</button>
 <button class="citation-action" id="copyBibtex" type="button">Copy BibTeX</button>
@@ -944,8 +1001,8 @@ header nav{
   howpublished = {Platform Generation PBMC Library},
   year         = {2026},
   month        = aug,
-  url          = {https://pbmc.platformgeneration.com/polymarket-military-secrets/},
-  note         = {PBMC snapshot, August 2026. Case-specific analysis/data: CC BY 4.0. PBMC canvas/template: CC BY-SA 4.0 with attribution. Platform Generation logos and Official PBMC designation are excluded from the Creative Commons licenses. Available at: https://pbmc.platformgeneration.com/polymarket-military-secrets/}
+  url          = {https://platformgeneration.com/polymarket-military-secrets/},
+  note         = {PBMC snapshot, August 2026. Case-specific analysis/data: CC BY 4.0. PBMC canvas/template: CC BY-SA 4.0 with attribution. Platform Generation logos and Official PBMC designation are excluded from the Creative Commons licenses. Available at: https://platformgeneration.com/polymarket-military-secrets/}
 }</pre>
 </details>
 <div class="citation-meta-note">Case data: CC BY 4.0 · PBMC canvas/template: CC BY-SA 4.0 · Attribution required · Platform Generation PBMC Library</div>
@@ -1823,6 +1880,8 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   const input=document.getElementById("caseSearchInput");
   const box=document.getElementById("caseSearchResults");
   const shell=document.getElementById("caseSearch");
+  const searchToggle=document.getElementById("caseSearchToggle");
+  const searchPopover=document.getElementById("caseSearchPopover");
   const browseShell=document.getElementById("caseBrowse");
   const browseButton=document.getElementById("caseBrowseButton");
   const browsePanel=document.getElementById("caseBrowsePanel");
@@ -1871,12 +1930,14 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
 
     const prevLink=document.getElementById("prevPlatform");
     const nextLink=document.getElementById("nextPlatform");
+    const topPrev=document.getElementById("prevPlatformTop");
     const topNext=document.getElementById("nextPlatformTop");
     const prevName=document.getElementById("prevPlatformName");
     const nextName=document.getElementById("nextPlatformName");
 
     if(prevLink)prevLink.href="../"+encodeURIComponent(prev.slug)+"/";
     if(nextLink)nextLink.href="../"+encodeURIComponent(next.slug)+"/";
+    if(topPrev)topPrev.href="../"+encodeURIComponent(prev.slug)+"/";
     if(topNext)topNext.href="../"+encodeURIComponent(next.slug)+"/";
     if(prevName)prevName.textContent=prev.company||"Previous platform";
     if(nextName)nextName.textContent=next.company||"Next platform";
@@ -1886,6 +1947,13 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
     matches=[];
     active=-1;
     if(box){box.innerHTML="";box.classList.remove("show");}
+  }
+
+  function setSearchOpen(open){
+    if(!shell)return;
+    shell.classList.toggle("open",!!open);
+    if(searchToggle)searchToggle.setAttribute("aria-expanded",open?"true":"false");
+    if(!open){closeSearch();if(input)input.blur();}
   }
 
   function drawSearch(){
@@ -1948,8 +2016,19 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
   }
 
   function bindLibraryControls(){
+    if(searchToggle&&shell){
+      searchToggle.addEventListener("click",function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        const open=!shell.classList.contains("open");
+        setBrowseOpen(false);
+        setSearchOpen(open);
+        if(open&&input)setTimeout(function(){input.focus();},0);
+      });
+    }
+
     if(input&&box&&shell){
-      input.addEventListener("focus",function(){setBrowseOpen(false);drawSearch();});
+      input.addEventListener("focus",function(){setBrowseOpen(false);setSearchOpen(true);drawSearch();});
       input.addEventListener("input",drawSearch);
       input.addEventListener("keydown",function(e){
         if(e.key==="ArrowDown"&&matches.length){e.preventDefault();setActive(active+1);}
@@ -1958,21 +2037,20 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
           e.preventDefault();
           location.href="../"+encodeURIComponent(matches[active].slug)+"/";
         }
-        else if(e.key==="Escape"){closeSearch();input.blur();}
+        else if(e.key==="Escape"){setSearchOpen(false);}
       });
     }
 
     if(browseButton&&browsePanel){
       browseButton.addEventListener("click",function(e){
         e.preventDefault();
-        closeSearch();
-        if(input)input.blur();
+        setSearchOpen(false);
         setBrowseOpen(!browsePanel.classList.contains("show"));
       });
     }
 
     document.addEventListener("click",function(e){
-      if(shell&&!shell.contains(e.target))closeSearch();
+      if(shell&&!shell.contains(e.target))setSearchOpen(false);
       if(browseShell&&!browseShell.contains(e.target))setBrowseOpen(false);
     });
   }
