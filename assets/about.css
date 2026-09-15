@@ -53,3 +53,24 @@
   .publication-meta{gap:5px 14px}
   .publication-meta span:not(:first-child):before,.publication-meta a:before{left:-9px}
 }
+
+
+/* v2.89 — compact left portrait beside intro copy. Uses enhanced original photo only. */
+.intro-grid{grid-template-columns:105px minmax(0,760px);gap:34px;align-items:start;justify-content:start;max-width:960px}
+.intro-photo{grid-column:1;grid-row:1;margin:2px 0 0;justify-self:start;width:105px}
+.intro-copy{grid-column:2;grid-row:1;max-width:760px}
+@media(max-width:900px){
+  .intro-grid{grid-template-columns:96px minmax(0,1fr);gap:28px;max-width:860px}
+  .intro-photo{width:96px}
+}
+@media(max-width:650px){
+  .intro-grid{grid-template-columns:82px minmax(0,1fr);gap:18px;align-items:start}
+  .intro-photo{grid-column:1;grid-row:1;width:82px;margin-top:3px}
+  .intro-copy{grid-column:2;grid-row:1;max-width:none}
+  .intro-copy p{font-size:15.5px;line-height:1.62}
+}
+@media(max-width:380px){
+  .intro-grid{grid-template-columns:74px minmax(0,1fr);gap:15px}
+  .intro-photo{width:74px}
+  .intro-copy p{font-size:15px}
+}
