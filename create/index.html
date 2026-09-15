@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Create a PBMC | Platform Generation</title>
+<meta name="description" content="Create, save and export your own Platform Business Model Canvas snapshot in the browser.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://platformgeneration.com/create/">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/creator.css">
+</head>
+<body>
+<header class="pg-header"><div class="wrap header-inner">
+<a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
+<nav id="siteNav" aria-label="Main navigation"><a href="../">PBMC Library</a><a class="active" aria-current="page" href="./">Create PBMC</a><a href="../about/">About</a></nav>
+<button class="site-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">Menu</button>
+</div></header>
+
+<main>
+<section class="creator-hero"><div class="wrap">
+<h1>Create a PBMC.</h1>
+<p>Build a Platform Business Model Canvas directly in your browser. Your work stays on your device unless you download or share the draft file. Click any canvas field to jump to its editor.</p>
+</div></section>
+
+<div class="creator-actions"><div class="creator-shell creator-actions-inner">
+<button class="creator-btn" id="newDraft" type="button">New</button>
+<button class="creator-btn primary" id="saveDraft" type="button">Save in browser</button>
+<select class="creator-select" id="draftSelect" aria-label="Open a saved draft"><option>Saved drafts…</option></select>
+<button class="creator-btn" id="downloadDraft" type="button">Download draft</button>
+<button class="creator-btn" id="importDraft" type="button">Import draft</button>
+<input id="importFile" type="file" accept="application/json,.json" hidden>
+<button class="creator-btn export" id="exportPNG" type="button">PNG</button>
+<button class="creator-btn export" id="exportSVG" type="button">SVG</button>
+<button class="creator-btn export" id="exportPDF" type="button">PDF</button>
+<span class="creator-save-state saved" id="saveState">New draft</span>
+</div></div>
+
+<div class="creator-shell creator-workbench">
+<aside class="creator-editor" aria-label="PBMC editor">
+  <div class="creator-editor-head"><h2>PBMC fields</h2><p>Keep the canvas values short. Optional explanations stay in the editable JSON draft.</p></div>
+  <div id="creatorEditorBody"></div>
+</aside>
+<section class="creator-preview" aria-label="Live PBMC preview">
+  <div class="creator-preview-head"><div><h2 id="caseTitle">Untitled platform</h2><p id="caseSub">Live Platform Business Model Canvas preview.</p></div><span class="creator-preview-badge">Live preview</span></div>
+  <div class="canvas-stage"><div class="svg-frame"><svg id="pbmcSvg" viewBox="0 0 1440 960" aria-label="Platform Business Model Canvas"></svg></div><div class="canvas-legend"><span><i style="background:var(--owner)"></i>Owner</span><span><i style="background:var(--provider)"></i>Provider</span><span><i style="background:var(--consumer)"></i>Consumer</span><span><i style="background:var(--partner)"></i>Partner</span></div></div>
+  <p class="creator-help">Drafts saved in the browser stay on this device/browser. Download the JSON draft to move it between devices or keep a portable backup.</p>
+</section>
+</div>
+<div class="creator-shell creator-footer-note">The PBMC canvas/template is licensed under CC BY-SA 4.0. Exported snapshots retain Platform Generation attribution. Browser-saved drafts are stored locally and are not uploaded to Platform Generation.</div>
+</main>
+
+<footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><a class="footer-contact" href="https://www.platformgeneration.com/#contact">Contact</a><span>Platform Business Model Canvas</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
+<div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div>
+<div id="dataError" hidden></div>
+<div class="creator-toast" id="creatorToast" role="status" aria-live="polite"></div>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js" async></script>
+<script src="../assets/pbmc-creator-renderer.js" defer></script>
+<script src="../assets/pbmc-creator.js" defer></script>
+</body>
+</html>

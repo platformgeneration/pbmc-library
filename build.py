@@ -339,6 +339,7 @@ def case_page(case, css, renderer):
 <a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
 <nav id="siteNav" aria-label="Main navigation">
 <a class="active" aria-current="page" href="../">PBMC Library</a>
+<a href="../create/">Create PBMC</a>
 <a href="../about/">About</a>
 </nav>
 <button class="site-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">Menu</button>
