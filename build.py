@@ -434,7 +434,7 @@ def case_page(case, css, renderer):
 <a class="case-nav-link" id="prevPlatform" href="../" aria-label="See previous platform"><span class="case-nav-label">← See previous platform</span><span class="case-nav-company" id="prevPlatformName">…</span></a>
 <a class="case-nav-link" id="nextPlatform" href="../" aria-label="See next platform"><span class="case-nav-label">See next platform →</span><span class="case-nav-company" id="nextPlatformName">…</span></a>
 </div></section>
-</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><a class="footer-contact" href="https://www.platformgeneration.com/#contact">Contact</a><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
+</main><footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><a class="footer-contact" href="mailto:davis.eisape@platformgeneration.com?subject=Platform%20Generation%20inquiry">Contact</a><span>Platform Business Model Canvas</span><span>Case data: CC BY 4.0</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
 <div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div><div id="dataError" hidden></div>
 <script id="pbmc-data" type="application/json">{embedded}</script><script id="pbmc-table-data" type="application/json">{rows_json}</script>
 <script>{renderer}</script><script>

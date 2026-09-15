@@ -230,6 +230,26 @@ function bindEditorLayout(){
   requestAnimationFrame(syncEditorHeight);
 }
 
+
+function bindToolMenus(){
+  const menus=[...document.querySelectorAll(".creator-tool-menu")];
+  if(!menus.length)return;
+  menus.forEach(menu=>{
+    menu.addEventListener("toggle",()=>{
+      if(menu.open)menus.forEach(other=>{if(other!==menu)other.removeAttribute("open");});
+    });
+    menu.addEventListener("click",e=>{
+      if(e.target.closest(".creator-tool-item")) menu.removeAttribute("open");
+    });
+  });
+  document.addEventListener("pointerdown",e=>{
+    menus.forEach(menu=>{if(menu.open&&!menu.contains(e.target))menu.removeAttribute("open");});
+  });
+  document.addEventListener("keydown",e=>{
+    if(e.key==="Escape")menus.forEach(menu=>menu.removeAttribute("open"));
+  });
+}
+
 function bindTopActions(){
   qs("#saveDraft").addEventListener("click",saveDraft);qs("#newDraft").addEventListener("click",newDraft);qs("#downloadDraft").addEventListener("click",downloadJSON);qs("#exportPNG").addEventListener("click",exportPNG);qs("#exportSVG").addEventListener("click",exportSVG);qs("#exportPDF").addEventListener("click",exportPDF);
   qs("#draftSelect").addEventListener("change",e=>{if(e.target.value)openDraft(e.target.value);});
@@ -239,7 +259,7 @@ function bindTopActions(){
 
 function init(){
   const recovered=storageGet(WORKING_STORAGE);if(recovered){try{state=normalizeImported(JSON.parse(recovered));setSaveState("Recovered browser autosave",true);}catch{}}
-  renderEditor();renderCanvas();refreshDraftSelect();bindTopActions();bindEditorLayout();
+  renderEditor();renderCanvas();refreshDraftSelect();bindTopActions();bindToolMenus();bindEditorLayout();
   window.addEventListener("beforeunload",()=>{try{storageSet(WORKING_STORAGE,JSON.stringify(state));}catch{}});
 }
 document.addEventListener("DOMContentLoaded",init);

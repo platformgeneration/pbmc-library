@@ -82,3 +82,10 @@
   .creator-tool-popover{left:0;right:auto}
   .creator-export-popover{left:auto;right:0}
 }
+
+
+/* v3.07 — tighten tool row to canvas/editor */
+.creator-workbench{column-gap:22px;row-gap:5px}
+.creator-workbench-head{margin-bottom:0}
+@media(max-width:1000px){.creator-workbench-head{margin-bottom:4px}}
+@media(max-width:700px){.creator-workbench-head{margin-bottom:5px}.creator-preview-head{margin-bottom:5px}}
