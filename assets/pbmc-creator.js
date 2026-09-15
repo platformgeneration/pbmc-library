@@ -201,10 +201,14 @@ function showToast(msg){const t=qs("#creatorToast");t.textContent=msg;t.classLis
 
 
 function syncEditorHeight(){
-  const workbench=qs(".creator-workbench"), preview=qs(".creator-preview");
-  if(!workbench||!preview)return;
-  const h=Math.max(360,Math.ceil(preview.getBoundingClientRect().height));
+  const workbench=qs(".creator-workbench"), preview=qs(".creator-preview"), stage=qs(".creator-preview .canvas-stage");
+  if(!workbench||!preview||!stage)return;
+  const previewRect=preview.getBoundingClientRect();
+  const stageRect=stage.getBoundingClientRect();
+  const h=Math.max(360,Math.ceil(stageRect.height));
+  const offset=Math.max(0,Math.round(stageRect.top-previewRect.top));
   workbench.style.setProperty("--creator-preview-height",`${h}px`);
+  workbench.style.setProperty("--creator-editor-offset",`${offset}px`);
 }
 function setEditorWide(wide){
   const workbench=qs(".creator-workbench"),btn=qs("#editorSizeToggle");
@@ -220,6 +224,8 @@ function bindEditorLayout(){
   btn.addEventListener("click",()=>setEditorWide(!workbench.classList.contains("editor-wide")));
   const ro=new ResizeObserver(()=>requestAnimationFrame(syncEditorHeight));
   ro.observe(preview);
+  const stage=qs(".creator-preview .canvas-stage");
+  if(stage)ro.observe(stage);
   window.addEventListener("resize",()=>requestAnimationFrame(syncEditorHeight),{passive:true});
   requestAnimationFrame(syncEditorHeight);
 }

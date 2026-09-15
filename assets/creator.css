@@ -11,8 +11,8 @@
 .creator-select{min-width:185px;max-width:260px}
 .creator-save-state{margin-left:auto;font-size:10.5px;color:#8b8b8b;white-space:nowrap}
 .creator-save-state.saved{color:#41845a}
-.creator-workbench{--creator-preview-height:720px;display:grid!important;grid-template-columns:minmax(0,1fr) 340px;gap:22px;align-items:start;padding:26px 0 72px}
-.creator-editor{display:block!important;width:100%!important;max-width:none!important;margin-top:0;border:1px solid #e1e1de;border-radius:18px;background:#fff;overflow:auto;position:sticky;top:58px;height:var(--creator-preview-height);max-height:var(--creator-preview-height);scrollbar-gutter:stable}
+.creator-workbench{--creator-preview-height:720px;--creator-editor-offset:0px;display:grid!important;grid-template-columns:minmax(0,1fr) 340px;gap:22px;align-items:start;padding:26px 0 72px}
+.creator-editor{display:block!important;width:100%!important;max-width:none!important;margin-top:var(--creator-editor-offset);border:1px solid #e1e1de;border-radius:18px;background:#fff;overflow:auto;position:sticky;top:58px;height:var(--creator-preview-height);max-height:var(--creator-preview-height);scrollbar-gutter:stable}
 .creator-editor-head{padding:13px 13px 11px;border-bottom:1px solid #ececea;background:#fafaf8;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:3}.creator-editor-head-copy{min-width:0;flex:1}.creator-editor-size{flex:0 0 auto;border:1px solid #d8d8d5;border-radius:999px;background:#fff;color:#555;height:29px;padding:0 9px;display:inline-flex;align-items:center;gap:5px;font:inherit;font-size:9px;font-weight:700;cursor:pointer}.creator-editor-size:hover{border-color:#111;color:#111}.creator-editor-size-icon{font-size:12px;line-height:1}.creator-editor-size-label{white-space:nowrap}
 .creator-editor-head h2{font-size:17px;margin:0 0 4px;letter-spacing:-.025em}.creator-editor-head p{font-size:9.5px;line-height:1.45;color:#777;margin:0}
 .creator-section{border-bottom:1px solid #ececea}.creator-section:last-child{border-bottom:0}
