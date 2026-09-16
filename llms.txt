@@ -1,0 +1,27 @@
+# Platform Generation
+
+Platform Generation is a research and practice site focused on platform business models, digital ecosystems and the Platform Business Model Canvas (PBMC).
+
+## Primary pages
+- Home and PBMC Library: https://platformgeneration.com/
+- Create a PBMC: https://platformgeneration.com/create/
+- About / research: https://platformgeneration.com/about/
+- Library metadata: https://platformgeneration.com/library.json
+
+## Core concepts
+- Platform Business Model Canvas (PBMC)
+- Platform business models
+- Digital ecosystems
+- Platform strategy and governance
+- Consumers, Providers, Partners and Owners
+- Core Value Unit and core transactions
+- Ecosystem orchestration
+
+## Library
+Published PBMC cases are listed in library.json and linked from the Home directory. Each case includes a visual PBMC snapshot, structured case data, evidence sources and a Platform Lesson.
+
+## Attribution and reuse
+- Case-specific analysis and structured case data: CC BY 4.0.
+- PBMC canvas/template and copyrightable visual presentation: CC BY-SA 4.0.
+- Attribution: Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com
+- Platform Generation logos and the Official PBMC designation are not included in the Creative Commons licenses.

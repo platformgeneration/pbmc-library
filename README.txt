@@ -84,12 +84,12 @@ YOUTUBE THUMBNAIL RULE
 - media.youtube_title is optional; the generic title is used when empty.
 
 SEARCH / BROWSING RULE
-- There is no required standalone library landing page in the user flow.
-- The library root redirects directly to the first published PBMC.
-- Every PBMC page contains search beside the canvas controls.
-- Autocomplete is generated from library.json and searches company, headline, industry and topics.
-- Arrow keys + Enter work in autocomplete.
-- See next platform stays beside search for rapid browsing.
+- The root is the Platform Generation Home and PBMC Library discovery page.
+- Home reads library.json at runtime; the A-Z directory and Home search update automatically when a published case is added.
+- library.json remains the single runtime source for published-case discovery and publication order.
+- Every PBMC page also contains search beside the canvas controls.
+- Search uses company, case number, headline, industry and topics.
+- See previous/next platform navigation remains cyclic on case pages.
 
 VISUAL IDENTITY
 - Typography and spacing are aligned more closely to platformgeneration.com using Poppins-style geometric sans.
@@ -102,7 +102,7 @@ OFFICIAL LOGOS
 - The canvas embeds the black logo directly into the SVG so screenshots retain provenance.
 
 CASE HEADER RULE
-- No Back to PBMC Library link: the root redirects into the PBMC browser, so that link would loop.
+- Case pages keep compact browsing controls; the Platform Generation logo/root URL leads back to Home.
 - Search PBMCs and See next platform sit at the top of every case, above PBMC Case XXX.
 - Desktop case tags stay on one line where space permits.
 - Header and hero are intentionally compact so the canvas appears quickly.
@@ -227,7 +227,7 @@ CASE 005 WALMART MARKETPLACE v2.25
 RUNTIME LIBRARY INDEX v2.26
 - One-time migration: all existing case pages now load ../library.json at runtime.
 - Search/autocomplete and cyclic Previous/Next navigation are no longer embedded per case.
-- The root index also reads library.json at runtime to find the first published case.
+- The root Home reads library.json at runtime to render its searchable A-Z directory and first-case entry point.
 - library.json is the single runtime source for published-case discovery and ordering.
 - After v2.26, a normal NEW CASE deployment needs only library.json plus the new case folder.
 - New case folder: case.json, index.html, pbmc-data.csv and citation.bib.
@@ -253,3 +253,14 @@ HEADER NAVIGATION v2.32
 - On screens up to 1000px, the same live Search and Next controls move into the hamburger menu rather than being duplicated.
 - The Next button is black by default and switches to Platform Generation orange on hover.
 - The simplified case header brings the title, tags and canvas higher on the page.
+
+HOME + DISCOVERY v3.19
+- Root / is now Home rather than a redirect into Case 001.
+- The visual hierarchy mirrors PBMC case pages: compact header, canvas-position gateway, directory, knowledge/SEO, open-use block and black footer.
+- The black gateway replaces the PBMC canvas on Home and provides direct search plus an entry into the first published case.
+- The A-Z platform directory is generated in the browser from library.json; no manual Home edit is required for a normal new case.
+- robots.txt explicitly permits OAI-SearchBot and points crawlers to sitemap.xml.
+- llms.txt provides a concise machine-readable orientation for AI agents that choose to use it.
+- sitemap.xml lists Home, About, Create PBMC and every currently published case; build.py refreshes it when the full builder is run.
+- Home structured data includes Organization, Person, WebSite and CollectionPage entities; a runtime ItemList is added from library.json.
+- Case data license remains CC BY 4.0; PBMC canvas/template remains CC BY-SA 4.0.

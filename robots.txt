@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /deploy/
+Disallow: /__pycache__/
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://platformgeneration.com/sitemap.xml

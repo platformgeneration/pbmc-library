@@ -827,29 +827,17 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
 </script></script></body></html>"""
 
 
-def home_page():
-    return """<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PBMC Library | Platform Generation</title>
-<meta name="robots" content="index,follow">
-</head><body>
-<p id="fallback"><a href="scalable-capital/">Open PBMC Library</a></p>
-<script>
-(async function(){
-  try{
-    const response=await fetch("library.json",{cache:"no-store"});
-    if(!response.ok)throw new Error("HTTP "+response.status);
-    const payload=await response.json();
-    const cases=(Array.isArray(payload)?payload:(payload.cases||[])).filter(function(c){
-      return !c.status || c.status==="published";
-    });
-    if(cases.length)location.replace(cases[0].slug+"/");
-  }catch(err){
-    console.warn("PBMC Library index could not be loaded.",err);
-  }
-})();
-</script>
-</body></html>"""
+def write_sitemap(library):
+    published=[c for c in library.get("cases",[]) if c.get("status")=="published" and c.get("slug")]
+    urls=[
+        "https://platformgeneration.com/",
+        "https://platformgeneration.com/about/",
+        "https://platformgeneration.com/create/",
+    ] + [f"https://platformgeneration.com/{c['slug']}/" for c in published]
+    xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    xml.extend(f"  <url><loc>{u}</loc></url>" for u in urls)
+    xml.append("</urlset>")
+    (ROOT/"sitemap.xml").write_text("\n".join(xml)+"\n",encoding="utf-8")
 
 
 def build():
@@ -873,8 +861,9 @@ def build():
         write_csv(case_dir,case)
         write_bib(case_dir,case)
         (case_dir/"index.html").write_text(case_page(case,css,renderer),encoding="utf-8")
-    (ROOT/"index.html").write_text(home_page(),encoding="utf-8")
-    print(f"Built {len(pub)} PBMC case(s).")
+    # Home is runtime-driven from library.json and is intentionally preserved.
+    write_sitemap(library)
+    print(f"Built {len(pub)} PBMC case(s) and refreshed sitemap.xml.")
 
 if __name__=="__main__":
     build()
