@@ -264,3 +264,11 @@ HOME + DISCOVERY v3.19
 - sitemap.xml lists Home, About, Create PBMC and every currently published case; build.py refreshes it when the full builder is run.
 - Home structured data includes Organization, Person, WebSite and CollectionPage entities; a runtime ItemList is added from library.json.
 - Case data license remains CC BY 4.0; PBMC canvas/template remains CC BY-SA 4.0.
+
+
+V3.20 NAVIGATION + RIGHTS CONSISTENCY
+- Root / is the PBMC Library home.
+- Global navigation is PBMC Library | PBMC Cases | Create PBMC | About.
+- PBMC Cases points to /#directory and is active on individual case pages.
+- The home directory remains runtime-driven from library.json.
+- Home and case reuse sections use the same rights boundary: case-specific analysis/data CC BY 4.0; PBMC canvas/template CC BY-SA 4.0; Platform Generation logos and Official PBMC designation excluded.

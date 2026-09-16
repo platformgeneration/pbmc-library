@@ -338,7 +338,8 @@ def case_page(case, css, renderer):
 <header class="pg-header"><div class="wrap header-inner">
 <a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
 <nav id="siteNav" aria-label="Main navigation">
-<a class="active" aria-current="page" href="../">PBMC Library</a>
+<a href="../">PBMC Library</a>
+<a class="active" aria-current="page" href="../#directory">PBMC Cases</a>
 <a href="../create/">Create PBMC</a>
 <a href="../about/">About</a>
 </nav>
@@ -363,7 +364,7 @@ def case_page(case, css, renderer):
 <div class="case-search canvas-case-search" id="caseSearch">
 <button class="canvas-case-tool canvas-search-toggle" id="caseSearchToggle" type="button" aria-label="Search platforms" title="Search platforms" aria-expanded="false" aria-controls="caseSearchPopover"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l5 5"></path></svg></button>
 <div class="canvas-search-popover" id="caseSearchPopover">
-<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
+<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Cases">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>

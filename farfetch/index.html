@@ -823,22 +823,18 @@ header nav{
 }
 
 
-
 /* v2.88.1 — exact About-header shell geometry on PBMC pages */
 .pg-header{display:block!important}
 .pg-header .header-inner{width:min(1220px,calc(100% - 64px))!important;margin:0 auto!important}
 @media(max-width:650px){.pg-header .header-inner{width:calc(100% - 38px)!important}}
 @media(max-width:380px){.pg-header .header-inner{width:calc(100% - 30px)!important}}
 
-
 /* v2.88.2 — match About navigation line-height exactly */
 .pg-header nav{line-height:1.7!important}
 .site-menu-toggle{line-height:1.7!important}
 
-
 /* v2.88.3 — exact About mobile menu typography */
 @media(max-width:650px){.pg-header nav{font-size:13px!important}}
-
 
 
 /* v2.90 — compact case header navigation + case metadata cleanup */
@@ -874,32 +870,91 @@ header nav{
   .header-prev-platform,.case-top-navigation .header-next-platform{padding:0 9px}
 }
 
-
 /* v2.91 — minimal canvas navigation */
 .case-meta-nav-row{display:block!important;margin-top:14px!important}
 .case-meta-nav-row .meta{margin:0!important}
 .case-top-navigation{display:none!important}
-.canvas-case-tools{display:flex;align-items:center;justify-content:flex-end;gap:4px;min-height:28px;margin:0 6px 7px 0;position:relative;z-index:25}
-.canvas-case-tool{width:27px;height:27px;padding:0;border:0;background:transparent;color:#858585;display:inline-flex;align-items:center;justify-content:center;border-radius:7px;cursor:pointer;line-height:1;transition:color .14s ease,background .14s ease,transform .14s ease}
-.canvas-case-tool:hover,.canvas-case-tool:focus-visible{color:var(--orange);background:#fff4ef;outline:none}
+.canvas-case-tools{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:4px;
+  min-height:28px;
+  margin:0 6px 7px 0;
+  position:relative;
+  z-index:25;
+}
+.canvas-case-tool{
+  width:27px;
+  height:27px;
+  padding:0;
+  border:0;
+  background:transparent;
+  color:#858585;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:7px;
+  cursor:pointer;
+  line-height:1;
+  transition:color .14s ease,background .14s ease,transform .14s ease;
+}
+.canvas-case-tool:hover,.canvas-case-tool:focus-visible{
+  color:var(--orange);
+  background:#fff4ef;
+  outline:none;
+}
 .canvas-case-tool:active{transform:translateY(1px)}
 .canvas-case-arrow{font-size:18px;font-weight:500}
 .canvas-search-toggle svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
 .canvas-case-search{position:relative;width:27px!important;min-width:27px!important}
-.canvas-search-popover{display:none;position:absolute;z-index:120;right:0;top:31px;width:min(315px,calc(100vw - 48px));background:#fff;border:1px solid #dededa;border-radius:14px;box-shadow:0 16px 38px rgba(0,0,0,.13);padding:7px}
+.canvas-search-popover{
+  display:none;
+  position:absolute;
+  z-index:120;
+  right:0;
+  top:31px;
+  width:min(315px,calc(100vw - 48px));
+  background:#fff;
+  border:1px solid #dededa;
+  border-radius:14px;
+  box-shadow:0 16px 38px rgba(0,0,0,.13);
+  padding:7px;
+}
 .canvas-case-search.open .canvas-search-popover{display:block}
-.canvas-search-popover .case-search-input{height:35px!important;padding:0 35px 0 12px!important;border-radius:10px!important;font-size:10.5px!important;border-color:#e1e1dd!important}
+.canvas-search-popover .case-search-input{
+  height:35px!important;
+  padding:0 35px 0 12px!important;
+  border-radius:10px!important;
+  font-size:10.5px!important;
+  border-color:#e1e1dd!important;
+}
 .canvas-search-popover .case-search-icon{right:18px!important;font-size:12px!important}
-.canvas-search-popover .case-search-results{left:7px!important;right:7px!important;top:49px!important;width:auto!important;max-height:min(360px,52vh)!important;border-radius:13px!important}
-@media(max-width:700px){.case-meta-nav-row{margin-top:12px!important}.canvas-case-tools{margin:0 2px 5px 0;gap:2px;min-height:26px}.canvas-case-tool{width:25px;height:25px}.canvas-case-arrow{font-size:17px}.canvas-search-toggle svg{width:13px;height:13px}.canvas-case-search{width:25px!important;min-width:25px!important}.canvas-search-popover{right:-27px;top:29px;width:min(300px,calc(100vw - 38px))}}
-
+.canvas-search-popover .case-search-results{
+  left:7px!important;
+  right:7px!important;
+  top:49px!important;
+  width:auto!important;
+  max-height:min(360px,52vh)!important;
+  border-radius:13px!important;
+}
+@media(max-width:700px){
+  .case-meta-nav-row{margin-top:12px!important}
+  .canvas-case-tools{margin:0 2px 5px 0;gap:2px;min-height:26px}
+  .canvas-case-tool{width:25px;height:25px}
+  .canvas-case-arrow{font-size:17px}
+  .canvas-search-toggle svg{width:13px;height:13px}
+  .canvas-case-search{width:25px!important;min-width:25px!important}
+  .canvas-search-popover{right:-27px;top:29px;width:min(300px,calc(100vw - 38px))}
+}
 /* v2.91.1 — keep title dropdown visibly orange */
 .case-title-browse-button span{color:#ef4a0b!important}
 </style></head><body>
 <header class="pg-header"><div class="wrap header-inner">
 <a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
 <nav id="siteNav" aria-label="Main navigation">
-<a class="active" aria-current="page" href="../">PBMC Library</a>
+<a href="../">PBMC Library</a>
+<a class="active" aria-current="page" href="../#directory">PBMC Cases</a>
 <a href="../create/">Create PBMC</a>
 <a href="../about/">About</a>
 </nav>
@@ -924,7 +979,7 @@ header nav{
 <div class="case-search canvas-case-search" id="caseSearch">
 <button class="canvas-case-tool canvas-search-toggle" id="caseSearchToggle" type="button" aria-label="Search platforms" title="Search platforms" aria-expanded="false" aria-controls="caseSearchPopover"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l5 5"></path></svg></button>
 <div class="canvas-search-popover" id="caseSearchPopover">
-<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Library">
+<input class="case-search-input" id="caseSearchInput" type="search" placeholder="Search platforms…" autocomplete="off" aria-label="Search PBMC Cases">
 <span class="case-search-icon">⌕</span>
 <div class="case-search-results" id="caseSearchResults" role="listbox"></div>
 </div>
@@ -1751,24 +1806,9 @@ document.getElementById("copyBibtex").addEventListener("click",async function(){
       menuBtn.setAttribute("aria-label",open?"Close menu":"Open menu");
     });
     nav.addEventListener("click",function(e){
-      if(e.target.closest("a")){
+      if(e.target.closest("a") && !e.target.closest(".header-next-platform")){
         nav.classList.remove("open");
         menuBtn.setAttribute("aria-expanded","false");
-        menuBtn.setAttribute("aria-label","Open menu");
-      }
-    });
-    document.addEventListener("click",function(e){
-      if(!menuBtn.contains(e.target)&&!nav.contains(e.target)){
-        nav.classList.remove("open");
-        menuBtn.setAttribute("aria-expanded","false");
-        menuBtn.setAttribute("aria-label","Open menu");
-      }
-    });
-    document.addEventListener("keydown",function(e){
-      if(e.key==="Escape"){
-        nav.classList.remove("open");
-        menuBtn.setAttribute("aria-expanded","false");
-        menuBtn.setAttribute("aria-label","Open menu");
       }
     });
   }
