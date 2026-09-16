@@ -1,4 +1,4 @@
-/* Platform Generation Home / Discovery page — v3.19 */
+/* Platform Generation consolidated Home / PBMC Library — v4.0 */
 .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .home-header{padding-bottom:12px}
 .home-header h1{max-width:1000px}
@@ -84,4 +84,67 @@
  .home-seo-grid{grid-template-columns:1fr}
  .home-seo-wide{grid-column:auto;display:block}
  .home-seo-wide p{margin-top:12px}
+}
+
+
+/* v4.0 — About + Research consolidated into Home */
+.home-about-section{padding-top:72px;padding-bottom:76px;border-top:1px solid var(--line)}
+.home-about-grid{display:grid;grid-template-columns:minmax(190px,.45fr) minmax(0,1.55fr);gap:58px;align-items:start}
+.home-about-heading h2{font-size:34px;line-height:1.12;letter-spacing:-.035em;margin:7px 0 24px}
+.home-about-photo{width:118px;margin:0}
+.home-about-photo img{display:block;width:100%;height:auto;border-radius:4px}
+.home-about-copy{max-width:840px;color:#555}
+.home-about-copy p{font-size:15px;line-height:1.78;margin:0 0 16px}
+.home-about-copy strong{color:#171717;font-weight:650}
+.home-about-copy em{color:#292929}
+.home-about-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.home-about-actions a,.home-text-link,.home-research-links a{font-size:11px;font-weight:700;border-bottom:1px solid currentColor;padding-bottom:2px}
+.home-about-actions a:hover,.home-text-link:hover,.home-research-links a:hover{color:var(--orange)}
+.home-research-section{padding-top:72px;padding-bottom:76px}
+.home-research-head{align-items:end}
+.home-research-links{display:flex;gap:12px 22px;flex-wrap:wrap;justify-content:flex-end}
+.home-publication-list{margin-top:38px;border-top:1px solid #dededb}
+.home-publication-item{padding:18px 0 19px;border-bottom:1px solid #dededb}
+.home-publication-item h4{font-size:16px;line-height:1.45;font-weight:650;letter-spacing:-.02em;margin:0;max-width:1060px}
+.home-publication-item h4 a:hover{color:var(--orange)}
+.home-publication-item .publication-meta{display:flex;gap:6px 18px;flex-wrap:wrap;margin-top:7px;font-size:10.5px;line-height:1.55;color:#777}
+.home-publication-item .publication-meta span,.home-publication-item .publication-meta a{position:relative}
+.home-publication-item .publication-meta span:not(:first-child):before,.home-publication-item .publication-meta a:before{content:"·";position:absolute;left:-11px;color:#b0b0ac}
+.home-publication-item .publication-meta a{font-weight:650;color:#555}
+.home-research-feature{display:grid;grid-template-columns:180px 1fr;gap:34px;align-items:start;margin-top:56px;padding-top:38px;border-top:1px solid #dededb}
+.home-fortis-cover{display:block;width:180px;border:1px solid #ddd;background:#fff;transition:.18s ease}
+.home-fortis-cover:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.07)}
+.home-fortis-cover img{display:block;width:100%;height:auto}
+.home-research-feature h3,.home-follow-grid h3,.home-elsewhere h3{font-size:22px;line-height:1.25;letter-spacing:-.025em;margin:7px 0 10px}
+.home-research-feature p{max-width:760px;font-size:13px;line-height:1.72;color:#666;margin:0 0 14px}
+.home-follow-grid,.home-elsewhere{display:grid;grid-template-columns:.7fr 1.3fr;gap:46px;align-items:start;margin-top:48px;padding-top:34px;border-top:1px solid #dededb}
+.home-follow-links{border-top:1px solid #dededb}
+.home-follow-links a{display:flex;justify-content:space-between;gap:24px;padding:14px 0;border-bottom:1px solid #dededb;font-size:12px}
+.home-follow-links span{color:#777}.home-follow-links strong{font-weight:650}
+.home-follow-links a:hover strong{color:var(--orange)}
+.home-elsewhere{align-items:end}
+.home-elsewhere .home-research-links{justify-content:flex-start}
+#about,#research,#directory,#pbmc,#reuse{scroll-margin-top:90px}
+@media(max-width:900px){
+ .home-about-grid{grid-template-columns:150px 1fr;gap:34px}
+ .home-research-feature{grid-template-columns:150px 1fr}
+ .home-fortis-cover{width:150px}
+ .home-follow-grid,.home-elsewhere{grid-template-columns:1fr;gap:18px}
+ .home-research-links{justify-content:flex-start}
+}
+@media(max-width:700px){
+ .home-about-section,.home-research-section{padding-top:54px;padding-bottom:58px}
+ .home-about-grid{grid-template-columns:1fr;gap:20px}
+ .home-about-heading{display:grid;grid-template-columns:90px 1fr;gap:18px;align-items:start}
+ .home-about-heading .eyebrow{grid-column:1/-1}
+ .home-about-heading h2{grid-column:2;grid-row:2;margin:0;align-self:center}
+ .home-about-photo{grid-column:1;grid-row:2;width:90px}
+ .home-about-copy p{font-size:14px;line-height:1.72}
+ .home-research-head{display:block}
+ .home-research-links{margin-top:15px}
+ .home-publication-item h4{font-size:15px}
+ .home-publication-item .publication-meta{font-size:10px}
+ .home-research-feature{grid-template-columns:110px 1fr;gap:20px;margin-top:42px;padding-top:30px}
+ .home-fortis-cover{width:110px}
+ .home-research-feature h3,.home-follow-grid h3,.home-elsewhere h3{font-size:19px}
 }

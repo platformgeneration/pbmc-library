@@ -291,7 +291,7 @@ def youtube_video_id(url):
         return ""
     return ""
 
-def case_page(case, css, renderer):
+def case_page(case, css, renderer, first_slug="scalable-capital"):
     md=case["metadata"]; lesson=case["platform_lesson"]; reuse=case["reuse"]
     cite=citation_info(case)
     embedded=json.dumps(case,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
@@ -338,10 +338,9 @@ def case_page(case, css, renderer):
 <header class="pg-header"><div class="wrap header-inner">
 <a class="brand" href="../" aria-label="Platform Generation Library"><img class="brand-logo" src="../assets/platform-generation-logo-black.png" alt="Platform Generation"></a>
 <nav id="siteNav" aria-label="Main navigation">
-<a href="../">PBMC Library</a>
-<a class="active" aria-current="page" href="../#directory">PBMC Cases</a>
+<a href="../">Home</a>
+<a class="active" aria-current="page" href="../{e(first_slug)}/">Explore Cases</a>
 <a href="../create/">Create PBMC</a>
-<a href="../about/">About</a>
 </nav>
 <button class="site-menu-toggle" id="mobileMenuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">Menu</button>
 </div></header>
@@ -832,7 +831,6 @@ def write_sitemap(library):
     published=[c for c in library.get("cases",[]) if c.get("status")=="published" and c.get("slug")]
     urls=[
         "https://platformgeneration.com/",
-        "https://platformgeneration.com/about/",
         "https://platformgeneration.com/create/",
     ] + [f"https://platformgeneration.com/{c['slug']}/" for c in published]
     xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -861,7 +859,7 @@ def build():
             raise SystemExit(f"Slug mismatch: {entry['slug']}")
         write_csv(case_dir,case)
         write_bib(case_dir,case)
-        (case_dir/"index.html").write_text(case_page(case,css,renderer),encoding="utf-8")
+        (case_dir/"index.html").write_text(case_page(case,css,renderer,pub[0]["slug"]),encoding="utf-8")
     # Home is runtime-driven from library.json and is intentionally preserved.
     write_sitemap(library)
     print(f"Built {len(pub)} PBMC case(s) and refreshed sitemap.xml.")

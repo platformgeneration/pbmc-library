@@ -272,3 +272,17 @@ V3.20 NAVIGATION + RIGHTS CONSISTENCY
 - PBMC Cases points to /#directory and is active on individual case pages.
 - The home directory remains runtime-driven from library.json.
 - Home and case reuse sections use the same rights boundary: case-specific analysis/data CC BY 4.0; PBMC canvas/template CC BY-SA 4.0; Platform Generation logos and Official PBMC designation excluded.
+
+
+V4.0 CONSOLIDATED HOME — MAJOR UPDATE
+- Global top navigation is reduced to Home | Explore Cases | Create PBMC.
+- The Platform Generation logo also links to Home.
+- Home combines the PBMC Library, About, Research & publications, platform knowledge/SEO content and Open PBMC licensing.
+- PBMC Library is no longer a top-navigation item; it is the searchable A–Z directory on Home (#directory).
+- Explore Cases enters the cyclic case browser at the first published case (currently /scalable-capital/).
+- Individual PBMC case pages mark Explore Cases as active.
+- /about/ is retained only as a compatibility redirect to /#about so old links do not break.
+- Home continues to build the PBMC Library at runtime from library.json; adding a published case does not require editing Home.
+- sitemap.xml no longer lists /about/ because About is part of Home.
+- build.py preserves Home and generates future case pages with the new three-item navigation.
+- Open PBMC rights remain: case-specific analysis/data CC BY 4.0; PBMC canvas/template CC BY-SA 4.0; Platform Generation logos and Official PBMC designation excluded from those licenses.

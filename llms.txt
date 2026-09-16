@@ -3,10 +3,12 @@
 Platform Generation is a research and practice site focused on platform business models, digital ecosystems and the Platform Business Model Canvas (PBMC).
 
 ## Primary pages
-- PBMC Library: https://platformgeneration.com/
-- PBMC Cases (A–Z directory): https://platformgeneration.com/#directory
+- Home: https://platformgeneration.com/
+- PBMC Library (A–Z directory): https://platformgeneration.com/#directory
+- Explore Cases (case browser entry): https://platformgeneration.com/scalable-capital/
 - Create a PBMC: https://platformgeneration.com/create/
-- About / research: https://platformgeneration.com/about/
+- About Platform Generation: https://platformgeneration.com/#about
+- Research & publications: https://platformgeneration.com/#research
 - Library metadata: https://platformgeneration.com/library.json
 
 ## Core concepts
@@ -19,7 +21,10 @@ Platform Generation is a research and practice site focused on platform business
 - Ecosystem orchestration
 
 ## Library
-Published PBMC cases are listed in library.json and linked from the PBMC Cases directory on the PBMC Library page. Each case includes a visual PBMC snapshot, structured case data, evidence sources and a Platform Lesson.
+Published PBMC cases are listed in library.json. The Home page reads library.json at runtime to build the searchable A–Z PBMC Library. Explore Cases opens the first published case and case pages provide cyclic previous/next navigation and search.
+
+## Research
+Platform Generation includes publications, research links and practical platform analysis by Dr. Davis Adedayo Eisape. The About and Research content is consolidated on the Home page.
 
 ## Attribution and reuse
 - Case-specific analysis and structured case data: CC BY 4.0.
