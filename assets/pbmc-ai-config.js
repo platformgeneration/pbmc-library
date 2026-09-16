@@ -1,4 +1,3 @@
 // Platform Generation PBMC Assistant
-// After deploying the Worker, paste its public URL between the quotes below.
-// Example: window.PBMC_AI_ENDPOINT = "https://pbmc-assistant.yourname.workers.dev";
-window.PBMC_AI_ENDPOINT = "";
+// Public endpoint for the PBMC Assistant Cloudflare Worker.
+window.PBMC_AI_ENDPOINT = "https://pbmc-assistant.eisape-platformgeneration.workers.dev";
