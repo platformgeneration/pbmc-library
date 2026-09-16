@@ -8,7 +8,7 @@
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://platformgeneration.com/create/">
 <link rel="stylesheet" href="../assets/site.css">
-<link rel="stylesheet" href="../assets/creator.css?v=3.07">
+<link rel="stylesheet" href="../assets/creator.css?v=3.09">
 </head>
 <body>
 <header class="pg-header"><div class="wrap header-inner">
@@ -57,7 +57,13 @@
   <p class="creator-help">Click a canvas field to open its editor. Drafts saved in the browser stay on this device/browser; download the JSON draft for a portable backup.</p>
 </section>
 <aside class="creator-editor" aria-label="PBMC editor">
-  <div class="creator-editor-head"><div class="creator-editor-head-copy"><h2>PBMC fields</h2></div><button class="creator-editor-size" id="editorSizeToggle" type="button" aria-expanded="false" aria-controls="creatorEditorBody"><span class="creator-editor-size-icon" aria-hidden="true">↔</span><span class="creator-editor-size-label">Expand editor</span></button></div>
+  <div class="creator-editor-head">
+    <div class="creator-editor-head-copy"><h2>PBMC fields</h2></div>
+    <div class="creator-editor-head-actions">
+      <button class="creator-ai-trigger" id="pbmcAssistantOpen" type="button" aria-haspopup="dialog"><span aria-hidden="true">✦</span> PBMC Assistant</button>
+      <button class="creator-editor-size" id="editorSizeToggle" type="button" aria-expanded="false" aria-controls="creatorEditorBody"><span class="creator-editor-size-icon" aria-hidden="true">↔</span><span class="creator-editor-size-label">Expand editor</span></button>
+    </div>
+  </div>
   <div id="creatorEditorBody"></div>
 </aside>
 </div>
@@ -65,11 +71,22 @@
 </main>
 
 <footer style="background:#111;color:#fff"><div class="wrap footer-inner"><img class="footer-logo" src="../assets/platform-generation-logo-white.png" alt="Platform Generation"><div class="footer-links"><a class="footer-contact" href="mailto:davis.eisape@platformgeneration.com?subject=Platform%20Generation%20inquiry">Contact</a><span>Platform Business Model Canvas</span><span>PBMC canvas: CC BY-SA 4.0</span></div></div></footer>
+
+<div class="creator-ai-modal" id="pbmcAssistantModal" aria-hidden="true">
+  <div class="creator-ai-card" role="dialog" aria-modal="true" aria-labelledby="pbmcAssistantTitle">
+    <div class="creator-ai-head">
+      <div><span class="creator-ai-kicker">✦ Platform Generation</span><h2 id="pbmcAssistantTitle">PBMC Assistant</h2></div>
+      <button class="creator-ai-close" id="pbmcAssistantClose" type="button" aria-label="Close PBMC Assistant">×</button>
+    </div>
+    <div class="creator-ai-body" id="pbmcAssistantBody"></div>
+  </div>
+</div>
 <div id="tooltip" class="tooltip"><div class="role"></div><div class="field"></div><div class="question"></div><div class="val"></div><div class="desc"></div></div>
 <div id="dataError" hidden></div>
 <div class="creator-toast" id="creatorToast" role="status" aria-live="polite"></div>
 <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js" async></script>
+<script src="../assets/pbmc-ai-config.js?v=3.09" defer></script>
 <script src="../assets/pbmc-creator-renderer.js?v=3.03" defer></script>
-<script src="../assets/pbmc-creator.js?v=3.07" defer></script>
+<script src="../assets/pbmc-creator.js?v=3.09" defer></script>
 </body>
 </html>

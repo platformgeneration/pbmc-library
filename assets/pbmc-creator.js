@@ -2,6 +2,8 @@
 
 const CREATOR_STORAGE="pg-pbmc-creator-drafts-v1";
 const WORKING_STORAGE="pg-pbmc-creator-working-v1";
+const AI_ENDPOINT_STORAGE="pg-pbmc-ai-endpoint-v1";
+const AI_CLIENT_STORAGE="pg-pbmc-ai-client-v1";
 const ROLE_CONFIG={
   owner:{label:"Owner",fields:["actor","job","gain","pain","transaction","governance","promotion_channel","activities","resources"]},
   consumer:{label:"Consumer",fields:["actor","job","gain","pain","transaction","filter","access_channel","activities","resources"]},
@@ -71,7 +73,7 @@ function fieldControl(role,key){
   const id=`${role}-${key}-value`; const max=key==="actor"?24:(key==="transaction"?30:28); const len=String(rec.value||"").length;
   return `<div class="creator-field" data-editor-field="${role}.${key}">
     <label for="${id}">${esc(label)} <span class="char-count ${len>max?"over":""}" data-count-for="${id}">${len} / ${max}</span></label>
-    <div class="creator-question">${esc(question)}</div>
+    <div class="creator-question">${esc(question)} <button class="creator-field-ai" type="button" data-ai-path="pbmc.${role}.${key}.value" data-ai-label="${esc(ROLE_LABELS[role])} · ${esc(label)}">✦ Suggest</button></div>
     <input id="${id}" data-path="pbmc.${role}.${key}.value" data-soft-max="${max}" value="${esc(rec.value)}" autocomplete="off" class="${len>max?"warn":""}">
     <details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.${role}.${key}.explanation" placeholder="Optional context saved with the editable draft">${esc(rec.explanation)}</textarea></details>
   </div>`;
@@ -91,7 +93,7 @@ function renderEditor(){
   </div></details>`;
 
   html+=`<details class="creator-section" open data-section="core_value_unit"><summary>Core Value Unit</summary><div class="creator-section-body">
-    <div class="creator-field" data-editor-field="core_value_unit.core_value_unit"><label>Core Value Unit <span class="char-count ${String(state.pbmc.core_value_unit.value||"").length>28?"over":""}" data-count-for="core-value-unit-value">${String(state.pbmc.core_value_unit.value||"").length} / 28</span></label><div class="creator-question">What is the fundamental unit of value exchanged on the platform? Aim for no more than two concepts.</div><input id="core-value-unit-value" data-path="pbmc.core_value_unit.value" data-soft-max="28" value="${esc(state.pbmc.core_value_unit.value)}" class="${String(state.pbmc.core_value_unit.value||"").length>28?"warn":""}" placeholder="e.g. Product Listing"><details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.core_value_unit.explanation">${esc(state.pbmc.core_value_unit.explanation)}</textarea></details></div>
+    <div class="creator-field" data-editor-field="core_value_unit.core_value_unit"><label>Core Value Unit <span class="char-count ${String(state.pbmc.core_value_unit.value||"").length>28?"over":""}" data-count-for="core-value-unit-value">${String(state.pbmc.core_value_unit.value||"").length} / 28</span></label><div class="creator-question">What is the fundamental unit of value exchanged on the platform? Aim for no more than two concepts. <button class="creator-field-ai" type="button" data-ai-path="pbmc.core_value_unit.value" data-ai-label="Core Value Unit">✦ Suggest</button></div><input id="core-value-unit-value" data-path="pbmc.core_value_unit.value" data-soft-max="28" value="${esc(state.pbmc.core_value_unit.value)}" class="${String(state.pbmc.core_value_unit.value||"").length>28?"warn":""}" placeholder="e.g. Product Listing"><details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.core_value_unit.explanation">${esc(state.pbmc.core_value_unit.explanation)}</textarea></details></div>
   </div></details>`;
 
   for(const [role,cfg] of Object.entries(ROLE_CONFIG)){
@@ -131,6 +133,7 @@ function bindEditorEvents(){
   }));
   const partner=qs('[data-special="partner-enabled"]'); if(partner)partner.addEventListener("change",()=>{state.pbmc.partner.enabled=partner.checked;markChanged();renderCanvas();});
   qs("#addFlow")?.addEventListener("click",()=>{state.pbmc.flows.push({from:"consumer",to:"owner",value:"",explanation:""});renderFlows();markChanged();renderCanvas();});
+  qsa("[data-ai-path]",qs("#creatorEditorBody")).forEach(btn=>btn.addEventListener("click",()=>openFieldSuggestion(btn.dataset.aiPath,btn.dataset.aiLabel)));
 }
 
 function renderCanvas(){
@@ -231,6 +234,120 @@ function bindEditorLayout(){
 }
 
 
+// --- PBMC Assistant -------------------------------------------------------
+function getAIEndpoint(){return String(storageGet(AI_ENDPOINT_STORAGE)||window.PBMC_AI_ENDPOINT||"").trim().replace(/\/$/,"");}
+function setAIEndpoint(url){const clean=String(url||"").trim().replace(/\/$/,"");if(clean)storageSet(AI_ENDPOINT_STORAGE,clean);else storageRemove(AI_ENDPOINT_STORAGE);return clean;}
+function getAIClientId(){let id=storageGet(AI_CLIENT_STORAGE);if(!id){id=(crypto.randomUUID?.()||`pbmc-${Date.now()}-${Math.random().toString(36).slice(2)}`);storageSet(AI_CLIENT_STORAGE,id);}return id;}
+function aiModal(){return qs("#pbmcAssistantModal");}
+function aiBody(){return qs("#pbmcAssistantBody");}
+function openAIModal(){const m=aiModal();if(!m)return;m.classList.add("show");m.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";}
+function closeAIModal(){const m=aiModal();if(!m)return;m.classList.remove("show");m.setAttribute("aria-hidden","true");document.body.style.overflow="";}
+function aiHome(){
+  openAIModal();
+  const body=aiBody();
+  body.innerHTML=`<p class="creator-ai-intro">Use the PBMC methodology as a co-editor. Suggestions never overwrite your canvas until you accept them.</p>
+  <div class="creator-ai-actions">
+    <button class="creator-ai-action" type="button" data-ai-action="draft"><span class="ai-mark">✦</span><strong>Create a first draft</strong><span>Start from a platform, a question and optional notes.</span></button>
+    <button class="creator-ai-action" type="button" data-ai-action="complete"><span class="ai-mark">✦</span><strong>Complete this PBMC</strong><span>Suggest useful values for gaps and weak fields without replacing your work automatically.</span></button>
+    <button class="creator-ai-action" type="button" data-ai-action="review"><span class="ai-mark">✦</span><strong>Review this PBMC</strong><span>Check roles, CVU, transactions, partner logic and consistency.</span></button>
+  </div>
+  <div class="creator-ai-privacy">AI suggestions are advisory. Your current PBMC is sent to the configured Platform Generation AI endpoint only when you request assistance.</div>`;
+  qsa("[data-ai-action]",body).forEach(btn=>btn.addEventListener("click",()=>aiActionForm(btn.dataset.aiAction)));
+}
+function aiActionTitle(action){return action==="draft"?"Create a first draft":action==="complete"?"Complete this PBMC":"Review this PBMC";}
+function cleanPlatformName(){const name=String(state.metadata.company||"").trim();return name==="Untitled platform"?"":name;}
+function aiActionForm(action){
+  const body=aiBody();
+  const endpoint=getAIEndpoint();
+  body.innerHTML=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button>
+    <p class="creator-ai-intro"><strong>${esc(aiActionTitle(action))}</strong><br>${action==="review"?"The assistant reviews the model you have already built. Add context only if something important is not visible in the canvas.":"Give the assistant just enough context to understand the platform. Concise notes are enough."}</p>
+    <div class="creator-ai-form">
+      <div><label>Platform / company</label><input id="aiPlatform" value="${esc(cleanPlatformName())}" placeholder="e.g. Airbnb"></div>
+      <div><label>Question / focus <span>optional</span></label><input id="aiQuestion" value="${esc(state.metadata.headline||"")}" placeholder="What should this PBMC explain?"></div>
+      <div><label>Context or notes <span>optional</span></label><textarea id="aiNotes" placeholder="Paste relevant facts, observations or assumptions here."></textarea></div>
+      <div class="creator-ai-form-actions"><button class="creator-ai-btn" type="button" id="aiCancel">Cancel</button><button class="creator-ai-btn primary" type="button" id="aiRun">${action==="review"?"Review PBMC":"Generate suggestions"}</button></div>
+    </div>
+    ${endpoint?"":`<div class="creator-ai-setup" style="margin-top:16px"><h3>AI endpoint not connected yet</h3><p>Deploy the included PBMC Assistant Worker, then paste its URL here for this browser. The public site can later use the same URL through <code>assets/pbmc-ai-config.js</code>.</p><div class="creator-ai-setup-row"><input id="aiEndpointInput" placeholder="https://…workers.dev"><button class="creator-ai-btn" id="aiEndpointSave" type="button">Connect</button></div></div>`}`;
+  qs("#aiBack")?.addEventListener("click",aiHome);qs("#aiCancel")?.addEventListener("click",closeAIModal);
+  qs("#aiEndpointSave")?.addEventListener("click",()=>{const v=setAIEndpoint(qs("#aiEndpointInput")?.value);if(v){showToast("AI endpoint connected in this browser");aiActionForm(action);}});
+  qs("#aiRun")?.addEventListener("click",()=>runAIAction(action));
+}
+async function callPBMCAI(action,extra={}){
+  const endpoint=getAIEndpoint();
+  if(!endpoint)throw new Error("The PBMC Assistant endpoint is not connected yet.");
+  const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),90000);
+  try{
+    const res=await fetch(endpoint,{method:"POST",headers:{"Content-Type":"application/json","X-PBMC-Client":getAIClientId()},body:JSON.stringify({action,state,client_id:getAIClientId(),...extra}),signal:controller.signal});
+    const data=await res.json().catch(()=>({}));
+    if(!res.ok||data.ok===false)throw new Error(data.error||`AI request failed (${res.status})`);
+    return data.result||data;
+  }catch(err){if(err.name==="AbortError")throw new Error("The assistant took too long to respond. Please try again.");throw err;}finally{clearTimeout(timer);}
+}
+async function runAIAction(action){
+  const platform=String(qs("#aiPlatform")?.value||"").trim();const question=String(qs("#aiQuestion")?.value||"").trim();const notes=String(qs("#aiNotes")?.value||"").trim();
+  if(action==="draft"&&!platform){qs("#aiPlatform")?.focus();return;}
+  const body=aiBody();body.innerHTML=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><div class="creator-ai-loading"><span class="creator-ai-spinner"></span><span>${action==="review"?"Reviewing the PBMC logic…":"Building PBMC suggestions…"}</span></div>`;qs("#aiBack")?.addEventListener("click",aiHome);
+  try{const result=await callPBMCAI(action,{context:{platform,question,notes}});if(action==="review")renderAIReview(result);else renderAISuggestions(result,action);}catch(err){renderAIError(err.message,action);}
+}
+function prettyPath(path){
+  if(path==="pbmc.core_value_unit.value")return {group:"Core Value Unit",label:"Core Value Unit"};
+  const m=String(path||"").match(/^pbmc\.(owner|provider|consumer|partner)\.([a-z_]+)\.value$/);if(!m)return {group:"Other",label:path};
+  const role=ROLE_LABELS[m[1]]||m[1];const meta=FIELD_META[m[2]];return {group:role,label:meta?meta[0]:m[2].replaceAll("_"," ")};
+}
+function applyAISuggestion(s,rerender=true){
+  if(!s||!s.path||typeof s.value!=="string")return false;try{setPath(state,s.path,s.value);const expPath=s.path.replace(/\.value$/,".explanation");if(s.explanation&&getPath(state,expPath)!==undefined)setPath(state,expPath,s.explanation);if(rerender){renderEditor();renderCanvas();markChanged();}return true;}catch{return false;}
+}
+function applyAIFlow(f){if(!f||!ROLE_LABELS[f.from]||!ROLE_LABELS[f.to]||!f.value)return false;const duplicate=state.pbmc.flows.some(x=>x.from===f.from&&x.to===f.to&&String(x.value).toLowerCase()===String(f.value).toLowerCase());if(!duplicate)state.pbmc.flows.push({from:f.from,to:f.to,value:f.value,explanation:f.reason||""});return !duplicate;}
+function renderAISuggestions(result,action){
+  const body=aiBody();const suggestions=Array.isArray(result.suggestions)?result.suggestions:[];const flows=Array.isArray(result.flows)?result.flows:[];const groups={};suggestions.forEach((s,i)=>{const p=prettyPath(s.path);(groups[p.group]??=[]).push({s,i,label:p.label});});
+  let html=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><p class="creator-ai-summary">${esc(result.summary||`${suggestions.length} suggestions ready.`)}</p><div class="creator-ai-result-actions"><button class="creator-ai-btn primary" type="button" id="aiAcceptAll">Accept all suggestions</button></div>`;
+  for(const [group,items] of Object.entries(groups)){html+=`<div class="creator-ai-group"><h3>${esc(group)}</h3>`+items.map(({s,i,label})=>`<div class="creator-ai-suggestion"><div><div class="creator-ai-suggestion-label">${esc(label)}${s.confidence?` <span class="creator-ai-confidence">${esc(s.confidence)}</span>`:""}</div><div class="creator-ai-suggestion-value">${esc(s.value)}</div>${s.explanation?`<div class="creator-ai-suggestion-reason">${esc(s.explanation)}</div>`:""}</div><button class="creator-ai-accept" type="button" data-ai-accept="${i}">Accept</button></div>`).join("")+`</div>`;}
+  if(flows.length){html+=`<div class="creator-ai-group"><h3>Transaction arrows</h3>`+flows.map((f,i)=>`<div class="creator-ai-suggestion"><div><div class="creator-ai-suggestion-label">${esc(ROLE_LABELS[f.from]||f.from)} → ${esc(ROLE_LABELS[f.to]||f.to)}${f.confidence?` <span class="creator-ai-confidence">${esc(f.confidence)}</span>`:""}</div><div class="creator-ai-suggestion-value">${esc(f.value)}</div>${f.reason?`<div class="creator-ai-suggestion-reason">${esc(f.reason)}</div>`:""}</div><button class="creator-ai-accept" type="button" data-ai-flow="${i}">Accept</button></div>`).join("")+`</div>`;}
+  body.innerHTML=html;qs("#aiBack")?.addEventListener("click",aiHome);
+  qsa("[data-ai-accept]",body).forEach(btn=>btn.addEventListener("click",()=>{const i=Number(btn.dataset.aiAccept);if(applyAISuggestion(suggestions[i])){btn.textContent="Accepted";btn.classList.add("done");btn.disabled=true;showToast("AI suggestion added");}}));
+  qsa("[data-ai-flow]",body).forEach(btn=>btn.addEventListener("click",()=>{const i=Number(btn.dataset.aiFlow);if(applyAIFlow(flows[i])){renderEditor();renderCanvas();markChanged();}btn.textContent="Accepted";btn.classList.add("done");btn.disabled=true;}));
+  qs("#aiAcceptAll")?.addEventListener("click",()=>{suggestions.forEach(s=>applyAISuggestion(s,false));flows.forEach(applyAIFlow);renderEditor();renderCanvas();markChanged();qsa(".creator-ai-accept",body).forEach(b=>{b.textContent="Accepted";b.classList.add("done");b.disabled=true;});const all=qs("#aiAcceptAll");if(all){all.textContent="Suggestions accepted";all.disabled=true;}showToast("AI suggestions added to PBMC");});
+}
+function applyAIFlowReview(change){
+  if(!change||!["add","replace","remove"].includes(change.action))return false;
+  if(change.action==="add")return applyAIFlow(change);
+  const idx=Number(change.target_index);
+  if(!Number.isInteger(idx)||idx<0||idx>=state.pbmc.flows.length)return false;
+  if(change.action==="remove"){state.pbmc.flows.splice(idx,1);return true;}
+  if(!ROLE_LABELS[change.from]||!ROLE_LABELS[change.to]||!String(change.value||"").trim())return false;
+  state.pbmc.flows[idx]={from:change.from,to:change.to,value:String(change.value).trim(),explanation:change.reason||""};
+  return true;
+}
+function flowReviewLabel(change){
+  const action=String(change.action||"").toLowerCase();
+  if(action==="remove")return "Remove";
+  if(action==="replace")return "Replace";
+  return "Add";
+}
+function flowReviewDescription(change){
+  const from=ROLE_LABELS[change.from]||change.from||"";const to=ROLE_LABELS[change.to]||change.to||"";
+  return `${from} → ${to}${change.value?` · ${change.value}`:""}`;
+}
+function renderAIReview(result){
+  const body=aiBody();const checks=Array.isArray(result.checks)?result.checks:[];const flowChanges=Array.isArray(result.transaction_changes)?result.transaction_changes:[];
+  let html=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><p class="creator-ai-summary">${esc(result.summary||"PBMC review complete.")}</p>`;
+  html+=checks.map((c,i)=>`<div class="creator-ai-review"><div class="creator-ai-review-top"><strong>${esc(c.title||"Review note")}</strong><span class="creator-ai-severity ${esc(c.severity||"consider")}">${esc(c.severity||"consider")}</span></div><p>${esc(c.message||"")}</p>${c.path&&c.suggested_value?`<button class="creator-ai-accept" type="button" data-review-apply="${i}">Apply: ${esc(c.suggested_value)}</button>`:""}</div>`).join("");
+  if(flowChanges.length){html+=`<div class="creator-ai-group creator-ai-transaction-review"><h3>Transaction arrows</h3>`+flowChanges.map((c,i)=>`<div class="creator-ai-review"><div class="creator-ai-review-top"><strong>${esc(c.title||`${flowReviewLabel(c)} transaction`)}</strong><span class="creator-ai-severity ${esc(c.severity||"consider")}">${esc(c.severity||"consider")}</span></div><div class="creator-ai-flow-change"><span class="creator-ai-flow-action ${esc(c.action||"add")}">${esc(flowReviewLabel(c))}</span><span>${esc(flowReviewDescription(c))}</span></div><p>${esc(c.reason||"")}</p><button class="creator-ai-accept" type="button" data-review-flow="${i}">${esc(flowReviewLabel(c))}</button></div>`).join("")+`</div>`;}
+  body.innerHTML=html;
+  qs("#aiBack")?.addEventListener("click",aiHome);
+  qsa("[data-review-apply]",body).forEach(btn=>btn.addEventListener("click",()=>{const c=checks[Number(btn.dataset.reviewApply)];if(applyAISuggestion({path:c.path,value:c.suggested_value,explanation:c.message})){btn.textContent="Applied";btn.classList.add("done");btn.disabled=true;}}));
+  qsa("[data-review-flow]",body).forEach(btn=>btn.addEventListener("click",()=>{const c=flowChanges[Number(btn.dataset.reviewFlow)];if(applyAIFlowReview(c)){renderEditor();renderCanvas();markChanged();btn.textContent=c.action==="remove"?"Removed":c.action==="replace"?"Replaced":"Added";btn.classList.add("done");btn.disabled=true;showToast(`Transaction ${btn.textContent.toLowerCase()}`);}else{showToast("Transaction could not be changed");}}));
+}
+function renderAIError(message,action){const body=aiBody();body.innerHTML=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><div class="creator-ai-error"><strong>The assistant could not complete this request.</strong><br>${esc(message)}</div><div class="creator-ai-form-actions" style="margin-top:14px"><button class="creator-ai-btn primary" id="aiRetry" type="button">Try again</button></div>`;qs("#aiBack")?.addEventListener("click",aiHome);qs("#aiRetry")?.addEventListener("click",()=>aiActionForm(action));}
+async function openFieldSuggestion(path,label){
+  openAIModal();const body=aiBody();const current=String(getPath(state,path)||"");body.innerHTML=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><p class="creator-ai-intro"><strong>${esc(label||"Field suggestion")}</strong><br>Generate a few concise PBMC-style alternatives. Nothing is changed until you choose one.</p><div class="creator-ai-loading"><span class="creator-ai-spinner"></span><span>Thinking in PBMC logic…</span></div>`;qs("#aiBack")?.addEventListener("click",aiHome);
+  try{const result=await callPBMCAI("suggest",{field:{path,label,current}});const suggestions=Array.isArray(result.suggestions)?result.suggestions:[];body.innerHTML=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><p class="creator-ai-summary">${esc(result.summary||label||"Choose a suggestion")}</p><div class="creator-ai-group">`+suggestions.map((s,i)=>`<div class="creator-ai-suggestion"><div><div class="creator-ai-suggestion-value">${esc(s.value)}</div>${s.reason?`<div class="creator-ai-suggestion-reason">${esc(s.reason)}</div>`:""}</div><button class="creator-ai-accept" type="button" data-field-suggestion="${i}">Use</button></div>`).join("")+`</div>`;qs("#aiBack")?.addEventListener("click",aiHome);qsa("[data-field-suggestion]",body).forEach(btn=>btn.addEventListener("click",()=>{const s=suggestions[Number(btn.dataset.fieldSuggestion)];if(applyAISuggestion({path,value:s.value,explanation:s.reason||""})){btn.textContent="Used";btn.classList.add("done");btn.disabled=true;showToast("Suggestion added");}}));}catch(err){renderAIError(err.message,"suggest");}
+}
+function bindPBMCAssistant(){
+  qs("#pbmcAssistantOpen")?.addEventListener("click",aiHome);qs("#pbmcAssistantClose")?.addEventListener("click",closeAIModal);aiModal()?.addEventListener("pointerdown",e=>{if(e.target===aiModal())closeAIModal();});document.addEventListener("keydown",e=>{if(e.key==="Escape"&&aiModal()?.classList.contains("show"))closeAIModal();});
+}
+
+
 function bindToolMenus(){
   const menus=[...document.querySelectorAll(".creator-tool-menu")];
   if(!menus.length)return;
@@ -259,7 +376,7 @@ function bindTopActions(){
 
 function init(){
   const recovered=storageGet(WORKING_STORAGE);if(recovered){try{state=normalizeImported(JSON.parse(recovered));setSaveState("Recovered browser autosave",true);}catch{}}
-  renderEditor();renderCanvas();refreshDraftSelect();bindTopActions();bindToolMenus();bindEditorLayout();
+  renderEditor();renderCanvas();refreshDraftSelect();bindTopActions();bindToolMenus();bindEditorLayout();bindPBMCAssistant();
   window.addEventListener("beforeunload",()=>{try{storageSet(WORKING_STORAGE,JSON.stringify(state));}catch{}});
 }
 document.addEventListener("DOMContentLoaded",init);

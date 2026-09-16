@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pbmc-assistant",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-16",
+  "vars": {
+    "ALLOWED_ORIGINS": "https://platformgeneration.com,https://www.platformgeneration.com",
+    "PBMC_MODEL_FAST": "gpt-5.6-luna",
+    "PBMC_MODEL_SMART": "gpt-5.6-terra"
+  },
+  "ratelimits": [
+    {
+      "name": "AI_RATE_LIMITER",
+      "namespace_id": "1007",
+      "simple": { "limit": 12, "period": 60 }
+    }
+  ]
+}
