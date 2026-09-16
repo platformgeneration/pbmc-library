@@ -328,14 +328,60 @@ function flowReviewDescription(change){
   return `${from} → ${to}${change.value?` · ${change.value}`:""}`;
 }
 function renderAIReview(result){
-  const body=aiBody();const checks=Array.isArray(result.checks)?result.checks:[];const flowChanges=Array.isArray(result.transaction_changes)?result.transaction_changes:[];
+  const body=aiBody();
+  const checks=Array.isArray(result.checks)?result.checks:[];
+  const flowChanges=Array.isArray(result.transaction_changes)?result.transaction_changes:[];
+  const actionableChecks=checks.filter(c=>c.path&&c.suggested_value);
+  const baseFlows=JSON.parse(JSON.stringify(state.pbmc.flows||[]));
+  const hasActions=actionableChecks.length>0||flowChanges.length>0;
+
   let html=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><p class="creator-ai-summary">${esc(result.summary||"PBMC review complete.")}</p>`;
+  if(hasActions){html+=`<div class="creator-ai-result-actions"><button class="creator-ai-btn primary" type="button" id="aiReviewAcceptAll">Accept all changes</button></div>`;}
   html+=checks.map((c,i)=>`<div class="creator-ai-review"><div class="creator-ai-review-top"><strong>${esc(c.title||"Review note")}</strong><span class="creator-ai-severity ${esc(c.severity||"consider")}">${esc(c.severity||"consider")}</span></div><p>${esc(c.message||"")}</p>${c.path&&c.suggested_value?`<button class="creator-ai-accept" type="button" data-review-apply="${i}">Apply: ${esc(c.suggested_value)}</button>`:""}</div>`).join("");
   if(flowChanges.length){html+=`<div class="creator-ai-group creator-ai-transaction-review"><h3>Transaction arrows</h3>`+flowChanges.map((c,i)=>`<div class="creator-ai-review"><div class="creator-ai-review-top"><strong>${esc(c.title||`${flowReviewLabel(c)} transaction`)}</strong><span class="creator-ai-severity ${esc(c.severity||"consider")}">${esc(c.severity||"consider")}</span></div><div class="creator-ai-flow-change"><span class="creator-ai-flow-action ${esc(c.action||"add")}">${esc(flowReviewLabel(c))}</span><span>${esc(flowReviewDescription(c))}</span></div><p>${esc(c.reason||"")}</p><button class="creator-ai-accept" type="button" data-review-flow="${i}">${esc(flowReviewLabel(c))}</button></div>`).join("")+`</div>`;}
+
   body.innerHTML=html;
   qs("#aiBack")?.addEventListener("click",aiHome);
-  qsa("[data-review-apply]",body).forEach(btn=>btn.addEventListener("click",()=>{const c=checks[Number(btn.dataset.reviewApply)];if(applyAISuggestion({path:c.path,value:c.suggested_value,explanation:c.message})){btn.textContent="Applied";btn.classList.add("done");btn.disabled=true;}}));
-  qsa("[data-review-flow]",body).forEach(btn=>btn.addEventListener("click",()=>{const c=flowChanges[Number(btn.dataset.reviewFlow)];if(applyAIFlowReview(c)){renderEditor();renderCanvas();markChanged();btn.textContent=c.action==="remove"?"Removed":c.action==="replace"?"Replaced":"Added";btn.classList.add("done");btn.disabled=true;showToast(`Transaction ${btn.textContent.toLowerCase()}`);}else{showToast("Transaction could not be changed");}}));
+
+  qsa("[data-review-apply]",body).forEach(btn=>btn.addEventListener("click",()=>{
+    const c=checks[Number(btn.dataset.reviewApply)];
+    if(applyAISuggestion({path:c.path,value:c.suggested_value,explanation:c.message})){
+      btn.textContent="Applied";btn.classList.add("done");btn.disabled=true;
+    }
+  }));
+
+  qsa("[data-review-flow]",body).forEach(btn=>btn.addEventListener("click",()=>{
+    const c=flowChanges[Number(btn.dataset.reviewFlow)];
+    if(applyAIFlowReview(c)){
+      renderEditor();renderCanvas();markChanged();
+      btn.textContent=c.action==="remove"?"Removed":c.action==="replace"?"Replaced":"Added";
+      btn.classList.add("done");btn.disabled=true;
+      showToast(`Transaction ${btn.textContent.toLowerCase()}`);
+    }else{
+      showToast("Transaction could not be changed");
+    }
+  }));
+
+  qs("#aiReviewAcceptAll")?.addEventListener("click",()=>{
+    actionableChecks.forEach(c=>applyAISuggestion({path:c.path,value:c.suggested_value,explanation:c.message},false));
+
+    // Rebuild transaction arrows from the state that was reviewed so target indexes stay reliable,
+    // even when the user already accepted one transaction change individually.
+    state.pbmc.flows=JSON.parse(JSON.stringify(baseFlows));
+    const replaces=flowChanges.filter(c=>c.action==="replace").sort((a,b)=>Number(a.target_index)-Number(b.target_index));
+    const removes=flowChanges.filter(c=>c.action==="remove").sort((a,b)=>Number(b.target_index)-Number(a.target_index));
+    const adds=flowChanges.filter(c=>c.action==="add");
+    replaces.forEach(applyAIFlowReview);
+    removes.forEach(applyAIFlowReview);
+    adds.forEach(applyAIFlowReview);
+
+    renderEditor();renderCanvas();markChanged();
+    qsa("[data-review-apply]",body).forEach(b=>{b.textContent="Applied";b.classList.add("done");b.disabled=true;});
+    qsa("[data-review-flow]",body).forEach((b,i)=>{const c=flowChanges[Number(b.dataset.reviewFlow)];b.textContent=c?.action==="remove"?"Removed":c?.action==="replace"?"Replaced":"Added";b.classList.add("done");b.disabled=true;});
+    const all=qs("#aiReviewAcceptAll");
+    if(all){all.textContent="All changes accepted";all.disabled=true;}
+    showToast("All review changes applied");
+  });
 }
 function renderAIError(message,action){const body=aiBody();body.innerHTML=`<button class="creator-ai-back" type="button" id="aiBack">← PBMC Assistant</button><div class="creator-ai-error"><strong>The assistant could not complete this request.</strong><br>${esc(message)}</div><div class="creator-ai-form-actions" style="margin-top:14px"><button class="creator-ai-btn primary" id="aiRetry" type="button">Try again</button></div>`;qs("#aiBack")?.addEventListener("click",aiHome);qs("#aiRetry")?.addEventListener("click",()=>aiActionForm(action));}
 async function openFieldSuggestion(path,label){
