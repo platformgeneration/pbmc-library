@@ -2,16 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Platform Generation</title>
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://platformgeneration.com/">
-  <meta http-equiv="refresh" content="0; url=https://platformgeneration.com/">
-  <script>
-    window.location.replace("https://platformgeneration.com/");
-  </script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PBMC Library | Platform Generation</title>
+  <meta name="robots" content="index,follow">
 </head>
 <body>
-  <p>This page has moved to <a href="https://platformgeneration.com/">platformgeneration.com</a>.</p>
+  <p id="fallback"><a href="scalable-capital/">Open PBMC Library</a></p>
+
+  <script>
+  (async function(){
+    try{
+      const response = await fetch("library.json", {cache:"no-store"});
+      if(!response.ok) throw new Error("HTTP " + response.status);
+
+      const payload = await response.json();
+      const cases = (Array.isArray(payload) ? payload : (payload.cases || []))
+        .filter(function(c){
+          return !c.status || c.status === "published";
+        });
+
+      if(cases.length){
+        location.replace(cases[0].slug + "/");
+      }
+    }catch(err){
+      console.warn("PBMC Library index could not be loaded.", err);
+    }
+  })();
+  </script>
 </body>
 </html>
