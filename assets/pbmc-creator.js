@@ -14,6 +14,8 @@ const FIELD_META={
   actor:["Actor","Who is the actor in this role?"],job:["Job","What needs doing?"],gain:["Gain","What positive outcome matters?"],pain:["Pain","What gets in the way?"],transaction:["Transaction","What is exchanged?"],governance:["Governance","What rules govern participation?"],promotion_channel:["Promotion","How are participants attracted?"],filter:["Filter","Who gets access?"],access_channel:["Access","How is the platform accessed?"],activities:["Activities","What do they do?"],resources:["Resources","What must they contribute?"]
 };
 const ROLE_LABELS={owner:"Owner",consumer:"Consumer",provider:"Provider",partner:"Partner"};
+const FIELD_LIMITS={actor:22,transaction:24,default:18,core_value_unit:20};
+function fieldLimit(key){return FIELD_LIMITS[key]||FIELD_LIMITS.default;}
 const today=new Date();
 const isoDate=d=>d.toISOString().slice(0,10);
 const monthValue=d=>d.toISOString().slice(0,7);
@@ -70,11 +72,11 @@ function normalizeImported(raw){
 
 function fieldControl(role,key){
   const rec=state.pbmc[role][key]; const [label,question]=FIELD_META[key];
-  const id=`${role}-${key}-value`; const max=key==="actor"?24:(key==="transaction"?30:28); const len=String(rec.value||"").length;
+  const id=`${role}-${key}-value`; const max=fieldLimit(key); const len=String(rec.value||"").length;
   return `<div class="creator-field" data-editor-field="${role}.${key}">
     <label for="${id}">${esc(label)} <span class="char-count ${len>max?"over":""}" data-count-for="${id}">${len} / ${max}</span></label>
     <div class="creator-question">${esc(question)} <button class="creator-field-ai" type="button" data-ai-path="pbmc.${role}.${key}.value" data-ai-label="${esc(ROLE_LABELS[role])} · ${esc(label)}">✦ Suggest</button></div>
-    <input id="${id}" data-path="pbmc.${role}.${key}.value" data-soft-max="${max}" value="${esc(rec.value)}" autocomplete="off" class="${len>max?"warn":""}">
+    <input id="${id}" data-path="pbmc.${role}.${key}.value" data-soft-max="${max}" maxlength="${max}" value="${esc(rec.value)}" autocomplete="off" class="${len>max?"warn":""}">
     <details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.${role}.${key}.explanation" placeholder="Optional context saved with the editable draft">${esc(rec.explanation)}</textarea></details>
   </div>`;
 }
@@ -93,7 +95,7 @@ function renderEditor(){
   </div></details>`;
 
   html+=`<details class="creator-section" open data-section="core_value_unit"><summary>Core Value Unit</summary><div class="creator-section-body">
-    <div class="creator-field" data-editor-field="core_value_unit.core_value_unit"><label>Core Value Unit <span class="char-count ${String(state.pbmc.core_value_unit.value||"").length>28?"over":""}" data-count-for="core-value-unit-value">${String(state.pbmc.core_value_unit.value||"").length} / 28</span></label><div class="creator-question">What is the fundamental unit of value exchanged on the platform? Aim for no more than two concepts. <button class="creator-field-ai" type="button" data-ai-path="pbmc.core_value_unit.value" data-ai-label="Core Value Unit">✦ Suggest</button></div><input id="core-value-unit-value" data-path="pbmc.core_value_unit.value" data-soft-max="28" value="${esc(state.pbmc.core_value_unit.value)}" class="${String(state.pbmc.core_value_unit.value||"").length>28?"warn":""}" placeholder="e.g. Product Listing"><details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.core_value_unit.explanation">${esc(state.pbmc.core_value_unit.explanation)}</textarea></details></div>
+    <div class="creator-field" data-editor-field="core_value_unit.core_value_unit"><label>Core Value Unit <span class="char-count ${String(state.pbmc.core_value_unit.value||"").length>FIELD_LIMITS.core_value_unit?"over":""}" data-count-for="core-value-unit-value">${String(state.pbmc.core_value_unit.value||"").length} / ${FIELD_LIMITS.core_value_unit}</span></label><div class="creator-question">What is the fundamental unit of value exchanged on the platform? Aim for no more than two concepts. <button class="creator-field-ai" type="button" data-ai-path="pbmc.core_value_unit.value" data-ai-label="Core Value Unit">✦ Suggest</button></div><input id="core-value-unit-value" data-path="pbmc.core_value_unit.value" data-soft-max="${FIELD_LIMITS.core_value_unit}" maxlength="${FIELD_LIMITS.core_value_unit}" value="${esc(state.pbmc.core_value_unit.value)}" class="${String(state.pbmc.core_value_unit.value||"").length>FIELD_LIMITS.core_value_unit?"warn":""}" placeholder="e.g. Product Listing"><details class="field-note"><summary>Add explanation</summary><textarea data-path="pbmc.core_value_unit.explanation">${esc(state.pbmc.core_value_unit.explanation)}</textarea></details></div>
   </div></details>`;
 
   for(const [role,cfg] of Object.entries(ROLE_CONFIG)){
@@ -113,7 +115,7 @@ function roleOptions(selected){return Object.entries(ROLE_LABELS).map(([v,l])=>`
 function renderFlows(){
   const list=qs("#flowList"); if(!list)return;
   if(!state.pbmc.flows.length){list.innerHTML='<div class="creator-question">No arrows yet. Add the few exchanges that are essential to the model.</div>';return;}
-  list.innerHTML=state.pbmc.flows.map((f,i)=>`<div class="flow-row" data-flow-index="${i}"><div class="flow-row-grid"><select data-flow="from">${roleOptions(f.from)}</select><div class="flow-arrow-mini">→</div><select data-flow="to">${roleOptions(f.to)}</select></div><div class="flow-row-bottom"><input data-flow="value" value="${esc(f.value||"")}" placeholder="e.g. Payment / Data"><button class="flow-remove" type="button" aria-label="Remove arrow" title="Remove arrow">×</button></div></div>`).join("");
+  list.innerHTML=state.pbmc.flows.map((f,i)=>`<div class="flow-row" data-flow-index="${i}"><div class="flow-row-grid"><select data-flow="from">${roleOptions(f.from)}</select><div class="flow-arrow-mini">→</div><select data-flow="to">${roleOptions(f.to)}</select></div><div class="flow-row-bottom"><input data-flow="value" maxlength="24" value="${esc(f.value||"")}" placeholder="e.g. Payment / Data"><button class="flow-remove" type="button" aria-label="Remove arrow" title="Remove arrow">×</button></div></div>`).join("");
   qsa(".flow-row",list).forEach(row=>{
     const idx=Number(row.dataset.flowIndex);
     qsa("select,input",row).forEach(el=>el.addEventListener("input",()=>{state.pbmc.flows[idx][el.dataset.flow]=el.value;markChanged();renderCanvas();}));
@@ -275,13 +277,10 @@ function aiActionForm(action){
 async function callPBMCAI(action,extra={}){
   const endpoint=getAIEndpoint();
   if(!endpoint)throw new Error("The PBMC Assistant endpoint is not connected yet.");
-  const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),90000);
-  try{
-    const res=await fetch(endpoint,{method:"POST",headers:{"Content-Type":"application/json","X-PBMC-Client":getAIClientId()},body:JSON.stringify({action,state,client_id:getAIClientId(),...extra}),signal:controller.signal});
-    const data=await res.json().catch(()=>({}));
-    if(!res.ok||data.ok===false)throw new Error(data.error||`AI request failed (${res.status})`);
-    return data.result||data;
-  }catch(err){if(err.name==="AbortError")throw new Error("The assistant took too long to respond. Please try again.");throw err;}finally{clearTimeout(timer);}
+  const res=await fetch(endpoint,{method:"POST",headers:{"Content-Type":"application/json","X-PBMC-Client":getAIClientId()},body:JSON.stringify({action,state,client_id:getAIClientId(),...extra})});
+  const data=await res.json().catch(()=>({}));
+  if(!res.ok||data.ok===false)throw new Error(data.error||`AI request failed (${res.status})`);
+  return data.result||data;
 }
 async function runAIAction(action){
   const platform=String(qs("#aiPlatform")?.value||"").trim();const question=String(qs("#aiQuestion")?.value||"").trim();const notes=String(qs("#aiNotes")?.value||"").trim();
