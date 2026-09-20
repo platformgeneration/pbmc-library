@@ -9,6 +9,7 @@ Platform Generation is a research and practice site focused on platform business
 - Create a PBMC: https://platformgeneration.com/create/
 - About Platform Generation: https://platformgeneration.com/#about
 - Research & publications: https://platformgeneration.com/#research
+- Research essay — Locate Yourself: Platform Awareness: https://platformgeneration.com/locate-yourself/
 - Library metadata: https://platformgeneration.com/library.json
 
 ## Core concepts
@@ -24,7 +25,7 @@ Platform Generation is a research and practice site focused on platform business
 Published PBMC cases are listed in library.json. The Home page reads library.json at runtime to build the searchable A–Z PBMC Library. Explore Cases opens the first published case and case pages provide cyclic previous/next navigation and search.
 
 ## Research
-Platform Generation includes publications, research links and practical platform analysis by Dr. Davis Adedayo Eisape. The About and Research content is consolidated on the Home page.
+Platform Generation includes publications, research links and practical platform analysis by Dr. Davis Adedayo Eisape. The About and Research content is consolidated on the Home page. The first Platform Generation Research Series essay is Locate Yourself: Platform Awareness (2026), which develops Platform Awareness and the Platform Landscape as organization-centred concepts for locating multiple platform positions before strategic choice.
 
 ## Attribution and reuse
 - Case-specific analysis and structured case data: CC BY 4.0.

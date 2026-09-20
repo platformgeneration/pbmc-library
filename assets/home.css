@@ -148,3 +148,8 @@
  .home-fortis-cover{width:110px}
  .home-research-feature h3,.home-follow-grid h3,.home-elsewhere h3{font-size:19px}
 }
+
+/* v4.1 — Locate Yourself research-series feature */
+.home-locate-feature{margin-top:38px;padding-top:34px}
+.home-locate-feature + .home-publication-list{margin-top:46px}
+.home-locate-feature .home-fortis-cover{background:#111;border-color:#d8d8d5}
