@@ -54,18 +54,29 @@
 .locate-landscape .locate-landscape-emphasis{color:#fff;font-size:14px;line-height:1.75;font-weight:600;margin-top:22px}
 .locate-landscape .locate-landscape-explainer{margin-top:22px;color:#bdbdbd}
 .locate-landscape .locate-landscape-explainer strong{color:#fff}
-.landscape-demo{position:relative;min-height:390px;border:1px solid #343434;border-radius:24px;background:#171717;padding:24px;overflow:hidden}
-.landscape-demo:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(239,74,11,.10),transparent 32%);pointer-events:none}
-.landscape-card{position:absolute;width:154px;height:116px;border:1px solid #555;border-radius:14px;background:#1f1f1f;padding:12px;color:#fff;z-index:3;box-shadow:0 12px 28px rgba(0,0,0,.16)}
-.landscape-card strong{display:block;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin-bottom:9px}
-.landscape-card span{display:block;font-size:11px;line-height:1.35;color:#c8c8c8}
-.landscape-card b{display:block;font-size:13px;margin-top:9px}
-.landscape-a{left:7%;top:12%}.landscape-b{right:7%;top:14%}.landscape-c{left:50%;bottom:18%;transform:translateX(-50%)}
-.landscape-center{position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);z-index:4;width:168px;min-height:58px;border-radius:999px;background:#fff;color:#111;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px 18px;box-shadow:0 0 0 5px rgba(255,255,255,.045),0 12px 30px rgba(0,0,0,.32)}
-.landscape-center span{font-size:11px;font-weight:800;letter-spacing:.02em}
-.landscape-demo svg{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
-.landscape-demo path{fill:none;stroke:#ef4a0b;stroke-width:1.7;stroke-dasharray:5 6;opacity:.85}
-.landscape-caption{position:absolute;left:24px;right:24px;bottom:18px;text-align:center;color:#999;font-size:10px;line-height:1.5;z-index:3}
+/* Platform Landscape explainer: intentionally simple before introducing PBMC terminology */
+.landscape-demo{position:relative;min-height:430px;border:1px solid #343434;border-radius:24px;background:linear-gradient(180deg,#181818 0%,#151515 100%);padding:28px 28px 24px;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.025)}
+.landscape-demo:before{content:"";position:absolute;inset:-20% 8% 10%;background:radial-gradient(circle at 50% 32%,rgba(239,74,11,.13),rgba(239,74,11,.045) 28%,transparent 58%);pointer-events:none}
+.landscape-demo-kicker{position:relative;z-index:2;text-align:center;color:#838383;font-size:9px;font-weight:750;letter-spacing:.13em;text-transform:uppercase;margin:1px 0 16px}
+.landscape-org{position:relative;z-index:3;width:min(310px,72%);margin:0 auto;background:#fff;color:#111;border-radius:16px;padding:15px 22px;text-align:center;box-shadow:0 16px 34px rgba(0,0,0,.30),0 0 0 5px rgba(255,255,255,.035)}
+.landscape-org span{display:block;font-size:15px;font-weight:800;line-height:1.2;letter-spacing:-.01em}
+.landscape-org small{display:block;margin-top:4px;color:#777;font-size:9.5px;line-height:1.35}
+.landscape-branch{position:relative;z-index:2;height:48px;width:72%;margin:0 auto}
+.landscape-branch:before{content:"";position:absolute;left:50%;top:0;height:20px;border-left:1.5px solid rgba(239,74,11,.82)}
+.landscape-branch:after{content:"";position:absolute;left:16.666%;right:16.666%;top:20px;border-top:1.5px solid rgba(239,74,11,.82)}
+.landscape-branch span{position:absolute;top:20px;height:28px;border-left:1.5px solid rgba(239,74,11,.82)}
+.landscape-branch span:nth-child(1){left:16.666%}.landscape-branch span:nth-child(2){left:50%}.landscape-branch span:nth-child(3){left:83.333%}
+.landscape-role-grid{position:relative;z-index:3;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.landscape-role-card{min-height:178px;border:1px solid #444;border-radius:16px;background:#202020;padding:16px;display:flex;flex-direction:column;box-shadow:0 10px 24px rgba(0,0,0,.14)}
+.landscape-role-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.landscape-role-top strong{color:var(--orange);font-size:9px;font-weight:800;letter-spacing:.10em;text-transform:uppercase}
+.landscape-role-top span{color:#696969;font-size:9px;font-weight:700}
+.landscape-role-card>p{margin:15px 0 16px;color:#c7c7c7;font-size:12px;line-height:1.4}
+.landscape-role-badge{margin-top:auto;border-top:1px solid #3d3d3d;padding-top:13px}
+.landscape-role-badge small{display:block;color:#818181;font-size:8.5px;line-height:1.2;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.landscape-role-badge b{display:block;color:#fff;font-size:18px;line-height:1.15;letter-spacing:-.02em}
+.landscape-caption{position:relative;z-index:3;margin:19px auto 0;text-align:center;color:#888;font-size:10px;line-height:1.55}
+.landscape-caption strong{color:#d9d9d9;font-weight:700}
 .locate-read{padding:78px 0}
 .locate-read-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}
 .locate-read h2{margin-bottom:12px}
@@ -99,15 +110,18 @@
  .locate-question{min-height:170px}
  .locate-case-row{grid-template-columns:34px 1fr;gap:8px 14px}
  .locate-case-row p{grid-column:2}
- .landscape-demo{min-height:360px}
- .landscape-card{width:136px;height:110px}.landscape-a{left:5%}.landscape-b{right:5%}.landscape-c{left:50%;bottom:18%;transform:translateX(-50%)}
- .landscape-center{width:150px;min-height:54px}
+ .landscape-demo{min-height:0;padding:24px 20px}
+ .landscape-role-grid{grid-template-columns:1fr;gap:10px}
+ .landscape-branch{display:none}
+ .landscape-org{margin-bottom:18px;width:min(320px,90%)}
+ .landscape-role-card{min-height:0}
 }
 @media(max-width:440px){
  .locate-hero h2{font-size:38px}.locate-hero .lead{font-size:14px}.locate-tagline{font-size:16px}
  .locate-cover-link{width:82%}
- .landscape-demo{min-height:390px}
- .landscape-card{width:122px;height:105px;padding:10px}.landscape-a{left:4%;top:10%}.landscape-b{right:4%;top:12%}.landscape-c{left:50%;bottom:19%;transform:translateX(-50%)}
- .landscape-center{width:138px;min-height:50px;top:49%}
- .landscape-caption{font-size:9px;left:16px;right:16px}
+ .landscape-demo{padding:22px 16px}
+ .landscape-org{width:92%}
+ .landscape-demo-kicker{font-size:8px}
+ .landscape-role-card{padding:14px}
+ .landscape-caption{font-size:9px}
 }
