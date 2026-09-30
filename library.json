@@ -793,6 +793,24 @@
         "Mobility Platform"
       ],
       "status": "published"
+    },
+    {
+      "slug": "didi",
+      "case_number": "045",
+      "company": "DiDi",
+      "headline": "Why does DiDi help drivers get vehicles and energy instead of only matching rides?",
+      "industry": [
+        "Mobility",
+        "Ride-Hailing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Driver Enablement",
+        "Vehicle Ecosystem",
+        "Electric Mobility",
+        "Local Network Effects"
+      ],
+      "status": "published"
     }
   ]
 }

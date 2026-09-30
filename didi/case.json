@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "DiDi",
+    "slug": "didi",
+    "headline": "Why does DiDi help drivers get vehicles and energy instead of only matching rides?",
+    "case_number": "045",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Ride-Hailing"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Driver Enablement",
+      "Vehicle Ecosystem",
+      "Electric Mobility",
+      "Local Network Effects"
+    ],
+    "geography": [
+      "China",
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "DiDi makes it easier for drivers to get a car and keep it running",
+    "text": "Like every ride-hailing platform, DiDi needs riders and nearby drivers at the same time. What makes DiDi especially interesting is how much it has built around the driver side of the marketplace in China. DiDi works with leasing companies and financial institutions so drivers can get access to vehicles, and it provides refuelling and charging services that can lower the cost of keeping those vehicles on the road. Many vehicles offered through DiDi's leasing network are owned by external leasing partners, and parts of its charging network are operated with national and local partners. By the end of 2025, about 6.7 million electric vehicles were registered on DiDi's domestic platform, electric vehicles accounted for about 74% of ride-hailing mileage in December, and the charging network covered more than 280 cities. These services matter because a driver who cannot get an affordable car or spends too much time finding fuel or charging is not useful supply for riders. DiDi therefore strengthens the ride-hailing marketplace by making it easier and cheaper for drivers to participate."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "A completed ride is the core value unit: a rider requests transport, DiDi matches the request with available local supply, and a driver provides the trip.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "owner": {
+      "actor": {
+        "value": "DiDi",
+        "explanation": "DiDi owns and operates the mobility platform, manages matching and payments, sets platform rules, and builds services that help riders and drivers transact.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "40.1M tx/day",
+            "note": "DiDi reported a record 40.1 million average daily China Mobility transactions in Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Balance",
+        "explanation": "DiDi has to make sure enough drivers are available in each local market when riders request trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Trips",
+        "explanation": "DiDi benefits when more trips are completed and the platform keeps a share of transaction value after driver and partner earnings, incentives, tolls, fees and taxes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Supply / Rules",
+        "explanation": "The marketplace becomes less useful when too few drivers are available, and DiDi must operate within transport, safety, labor and data rules across many markets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Fees",
+        "explanation": "DiDi coordinates trip requests, matching and payment. Its reported Platform Sales measure is transaction value after driver and partner earnings and other deductions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Safety / Price",
+        "explanation": "DiDi sets and enforces rules for driver eligibility, vehicles, safety, service quality, pricing and dispute handling while adapting to local regulation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Mini",
+        "explanation": "Riders access DiDi through its apps and, in China, also through mini-programs in services such as WeChat and Alipay.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Predict / Match",
+        "explanation": "DiDi predicts supply and demand, matches riders and drivers, routes trips, processes payments, supports users and manages safety and service quality.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Data",
+        "explanation": "Important resources include rider demand, driver supply, trip and location data, mapping, matching technology, AI systems and the DiDi brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "People use DiDi when they need an on-demand trip or another mobility service.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "749M users*",
+            "note": "DiDi reported 749 million annual active users worldwide for the twelve months ended December 31, 2025. This covers the broader platform, not ride-hailing alone."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get Ride",
+        "explanation": "Riders want to arrange transport quickly without having to find and negotiate with a driver themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Choice",
+        "explanation": "DiDi can give riders several mobility options, estimated arrival information and a simple digital booking and payment process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Wait / Price",
+        "explanation": "Riders can face long waits when supply is scarce, changing prices, cancellations or safety concerns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Request / Pay",
+        "explanation": "The rider enters a destination, requests a trip and pays through the platform or a supported payment method.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "City / Supply",
+        "explanation": "A trip can only be matched where DiDi operates and where suitable local driver supply is available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Mini",
+        "explanation": "Consumers can access DiDi through its mobile apps and, in China, through mini-programs on apps such as WeChat and Alipay.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Book / Ride",
+        "explanation": "Riders request a trip, meet the driver, take the ride, pay and can provide feedback about the experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Location / Pay",
+        "explanation": "Riders bring trip demand, pickup and destination information, payment data and ratings that help the marketplace operate.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Drivers",
+        "explanation": "Drivers provide the physical transport service using their time and access to an eligible vehicle.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "35M drivers+delivery*",
+            "note": "DiDi reported 35 million annual active drivers and delivery partners worldwide for the twelve months ended December 31, 2025. The figure is broader than ride-hailing drivers alone."
+          }
+        ]
+      },
+      "job": {
+        "value": "Earn",
+        "explanation": "Drivers want a steady source of nearby trip demand that can turn available driving time into income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trips / Savings",
+        "explanation": "DiDi can provide ride demand and can also reduce barriers through vehicle leasing, fuel discounts and charging access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Car / Idle",
+        "explanation": "Drivers need an affordable vehicle and face fuel or charging costs, maintenance costs and unpaid time between trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Accept / Drive",
+        "explanation": "Drivers receive trip opportunities, choose whether to accept them and complete the physical ride.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "License",
+        "explanation": "Drivers and vehicles must meet DiDi requirements and applicable local legal and safety rules before providing rides.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Driver App",
+        "explanation": "Drivers use DiDi's driver tools to go online, receive trip requests and manage work on the platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Drive / Maintain",
+        "explanation": "Drivers make themselves available, accept suitable trips, transport riders and keep vehicles and documents in working order.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Car / License",
+        "explanation": "Drivers contribute their time, driving ability, local knowledge, required licenses and access to a suitable vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Vehicle Partners",
+        "explanation": "Leasing companies, financial institutions, charging operators and other vehicle-service partners help drivers get vehicles and keep them operating.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "280+ charging cities*",
+            "note": "DiDi said its China charging network covered more than 280 cities at the end of 2025 and was operated partly by DiDi and partly by national and local partners."
+          }
+        ]
+      },
+      "job": {
+        "value": "Cars / Energy",
+        "explanation": "Partners make vehicles, leasing, financing, charging and related services available so more drivers can participate in ride-hailing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Utilization",
+        "explanation": "Partners gain access to a very large base of high-mileage drivers who need vehicles, energy and ongoing automotive services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Capital / Rules",
+        "explanation": "Vehicle and energy partners need enough driver demand to justify assets and infrastructure while meeting financial, transport and energy rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Lease / Charge",
+        "explanation": "Partners provide vehicles, charging, refuelling or financing that helps drivers stay active on the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Quality / Reach",
+        "explanation": "Partners must meet DiDi and local requirements and have useful geographic coverage for drivers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Partner Hub",
+        "explanation": "DiDi connects drivers to leasing, refuelling and charging services through its energy and vehicle service ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Lease / Charge",
+        "explanation": "Partners provide vehicles, financing, charging or fuel access and keep the underlying assets and services available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cars / Chargers",
+        "explanation": "Partners contribute vehicles, charging stations, fuel networks, financing capacity and automotive operating expertise.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "40.1M China tx/day",
+        "note": "Average daily China Mobility transactions in Q2 2026.",
+        "target": "owner"
+      },
+      {
+        "value": "749M active users*",
+        "note": "Annual active users worldwide in 2025 across the broader DiDi platform.",
+        "target": "consumer"
+      },
+      {
+        "value": "35M drivers / delivery partners*",
+        "note": "Annual active drivers and delivery partners worldwide in 2025; broader than ride-hailing drivers alone.",
+        "target": "provider"
+      },
+      {
+        "value": "280+ charging cities*",
+        "note": "China charging-network coverage at end-2025; the network is operated partly with national and local partners.",
+        "target": "partner"
+      },
+      {
+        "value": "3.65B China rides / Q2",
+        "note": "China Mobility transactions reached 3.648 billion in Q2 2026. For the China Mobility segment, transactions are completed rides.",
+        "target": "core_value_unit"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Request / Pay",
+          "explanation": "The rider asks DiDi for a trip and pays through the platform or a supported method."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Offer",
+          "explanation": "DiDi sends a trip opportunity to an eligible nearby driver based on location and marketplace conditions."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match / ETA",
+          "explanation": "DiDi shows the rider the matched driver, pickup information and expected arrival details."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Ride",
+          "explanation": "The driver provides the physical transport from pickup to destination."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "DiDi coordinates payment and driver earnings after completed trips."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Car / Charge",
+          "explanation": "Vehicle and energy partners help drivers access cars, leasing, charging or fuel so they can stay active on the platform."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Form 20-F — Annual Report for 2025",
+      "publisher": "DiDi Global Inc.",
+      "date": "2026-04-13",
+      "url": "https://ir.didiglobal.com/static-files/f1804651-ad87-4bcf-9053-2b80f643a372",
+      "note": "Primary source for DiDi's business model, shared-mobility services, 749M annual active users, 35M annual active drivers and delivery partners, mini-program access, energy and vehicle services, leasing partners, 6.7M EVs, 74% electric ride-hailing mileage and charging-network coverage in 280+ cities."
+    },
+    {
+      "title": "DiDi Announces Results for Second Quarter 2026",
+      "publisher": "DiDi Global Inc.",
+      "date": "2026-08-13",
+      "url": "https://ir.didiglobal.com/static-files/830e3adc-50e1-4422-808b-21995cf75b75",
+      "note": "Primary source for Q2 2026 operating scale: 3.648B China Mobility transactions, RMB90.4B China Mobility GTV and a record 40.1M average daily China Mobility transactions."
+    },
+    {
+      "title": "Investor Relations — Corporate Overview",
+      "publisher": "DiDi Global Inc.",
+      "date": "",
+      "url": "https://ir.didiglobal.com/",
+      "note": "Current company overview describing DiDi as a mobility technology platform spanning ride hailing, taxi hailing, chauffeur and other shared mobility as well as energy and vehicle services."
+    },
+    {
+      "title": "DiDi Global — About Us",
+      "publisher": "DiDi Global Inc.",
+      "date": "",
+      "url": "https://web.didiglobal.com/",
+      "note": "Official overview of DiDi's global mobility platform, service categories and collaboration with the taxi and automotive industries."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "uber-ride-hailing",
+      "lyft",
+      "bolt"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). DiDi — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
