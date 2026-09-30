@@ -847,6 +847,24 @@
         "Network Effects"
       ],
       "status": "published"
+    },
+    {
+      "slug": "turo",
+      "case_number": "048",
+      "company": "Turo",
+      "headline": "How can Turo rent cars without owning the fleet?",
+      "industry": [
+        "Mobility",
+        "Peer-to-Peer Car Sharing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Asset-light Supply",
+        "Trust & Insurance",
+        "Vehicle Sharing",
+        "Risk Pricing"
+      ],
+      "status": "published"
     }
   ]
 }

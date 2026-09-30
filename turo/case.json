@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Turo",
+    "slug": "turo",
+    "headline": "How can Turo rent cars without owning the fleet?",
+    "case_number": "048",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Peer-to-Peer Car Sharing"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Asset-light Supply",
+      "Trust & Insurance",
+      "Vehicle Sharing",
+      "Risk Pricing"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Turo can add rental cars without buying the cars itself",
+    "text": "Traditional rental companies usually need to own or lease the vehicles they rent. Turo works differently. A host can list a car they already own, and a guest can book it for a few days or longer. This lets Turo add many different vehicles without purchasing a fleet. But handing an expensive car to a stranger creates risk, so Turo has to do more than match the two sides. It manages identity, payments, reviews, vehicle rules, protection and claims. In 2026, Turo also linked host earnings more closely to risk: hosts can keep a larger share of the trip price when they accept more damage responsibility, and some US markets reward bookings made further in advance. The case shows that a platform can scale supply without owning the assets, but it still has to make owners comfortable sharing them."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Car Booking",
+      "explanation": "The core value unit is a booked period of access to a host's vehicle. Turo makes that temporary access searchable, reservable and protected.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "5.5M US trips*",
+          "note": "Turo reported 5.5 million trips in the United States during 2025. This is a US figure, not a global total."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Turo",
+        "explanation": "Turo operates the marketplace, sets the rules and connects guests with vehicles supplied by independent hosts.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "28K+ cities*",
+            "note": "Turo reports more than 28,000 cities globally based on the 12 months through November 2025."
+          }
+        ]
+      },
+      "job": {
+        "value": "Fill Cars",
+        "explanation": "Turo has to bring enough guest demand to host vehicles while keeping booking and handoff friction low.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Bookings",
+        "explanation": "More completed bookings improve vehicle utilization and generate marketplace revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Risk / Supply",
+        "explanation": "Turo must keep enough attractive vehicles available while controlling safety, claims, fraud and pricing risk.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Protect",
+        "explanation": "Turo manages booking, payment, host payout, protection choices and the rules around each trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Trust / Safety",
+        "explanation": "Turo sets vehicle eligibility, identity, maintenance, review, cancellation and claims rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Search",
+        "explanation": "Guests discover Turo through its app, website, search, airport marketing and host promotion.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Support",
+        "explanation": "Turo runs search and booking, pricing tools, payments, customer support, trust and claims processes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Data",
+        "explanation": "Important resources include guest demand, vehicle listings, pricing data, reviews, risk models and marketplace technology.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Guests",
+        "explanation": "Guests book vehicles for travel, airport trips, monthly access, special occasions and everyday mobility.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "3.6M+ active*",
+            "note": "Turo reports more than 3.6 million active guests globally based on the 12 months through November 2025."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get a Car",
+        "explanation": "Guests want temporary access to a suitable vehicle without buying or leasing it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Access",
+        "explanation": "Guests can choose from many local vehicles, models and pickup or delivery options.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Damage",
+        "explanation": "Guests face total trip cost, availability limits and possible financial responsibility if the vehicle is damaged.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Pay",
+        "explanation": "Guests choose a car, book a trip and pay through Turo.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Car / Place",
+        "explanation": "A useful listing must fit the guest's location, dates, price and vehicle needs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Turo App",
+        "explanation": "Guests search, book, message and manage trips through Turo's app and website.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Drive",
+        "explanation": "Guests compare vehicles, book, collect the car, use it and return it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "ID / Payment",
+        "explanation": "Guests contribute verified identity, payment, trip demand and reviews.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Hosts",
+        "explanation": "Private owners and professional hosts list vehicles and make them available to guests.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "340K+ cars*",
+            "note": "Turo reports more than 340,000 active vehicles globally based on the 12 months through November 2025."
+          }
+        ]
+      },
+      "job": {
+        "value": "Earn / Share",
+        "explanation": "Hosts want to earn money from vehicles that would otherwise sit unused or operate them as a small rental business.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Use",
+        "explanation": "Bookings generate income and improve utilization of an expensive asset.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Damage / Idle",
+        "explanation": "Hosts face damage risk, cleaning and handoff work, depreciation and periods with no booking.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Car / Trip",
+        "explanation": "Hosts list a vehicle, accept platform rules and provide the car for a booked period.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Car Standards",
+        "explanation": "Vehicles and hosts must meet Turo's eligibility, maintenance and marketplace-quality requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Host App",
+        "explanation": "Hosts manage vehicles, availability, pricing, bookings and earnings through Turo's host tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Handoff",
+        "explanation": "Hosts list and prepare vehicles, coordinate pickup or delivery, and manage returns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Car / Time",
+        "explanation": "Hosts contribute vehicles, availability, local operating effort and customer service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Insurers",
+        "explanation": "Insurance and protection partners help make it possible for privately owned vehicles to be shared with strangers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$750K US cover**",
+            "note": "US host earnings plans include up to $750,000 in third-party liability coverage in most locations; rules vary by state and market."
+          }
+        ]
+      },
+      "job": {
+        "value": "Cover Risk",
+        "explanation": "Insurance partners provide liability coverage and support the financial risk layer around vehicle sharing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Premium / Scale",
+        "explanation": "A large booking network creates insurance volume and data across many vehicle-sharing trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Claims / Fraud",
+        "explanation": "Partners must price and manage accident, damage, fraud and regulatory risk.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Coverage",
+        "explanation": "Insurance protection sits around eligible trips and limits some of the financial exposure created by sharing a vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Eligibility",
+        "explanation": "Coverage depends on the market, trip, vehicle and applicable policy or protection terms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Policy",
+        "explanation": "Turo embeds relevant protection and liability arrangements into the booking and host-plan structure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Cover / Claims",
+        "explanation": "Insurance partners provide coverage and support claims processes when covered incidents occur.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Risk Capital",
+        "explanation": "Partners contribute insurance capacity, underwriting expertise and claims infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "28K+ cities*",
+        "note": "Global cities based on the 12 months through November 2025.",
+        "target": "owner"
+      },
+      {
+        "value": "3.6M+ active*",
+        "note": "Global active guests based on the 12 months through November 2025.",
+        "target": "consumer"
+      },
+      {
+        "value": "340K+ cars*",
+        "note": "Global active vehicles based on the 12 months through November 2025.",
+        "target": "provider"
+      },
+      {
+        "value": "$750K US cover**",
+        "note": "Up to $750,000 third-party liability coverage in most US host earnings plans; location-specific exceptions apply.",
+        "target": "partner"
+      },
+      {
+        "value": "5.5M US trips*",
+        "note": "US trips in 2025; not a global trip count.",
+        "target": "core_value_unit"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Book / Pay",
+          "explanation": "The guest chooses a vehicle, books the trip and pays through Turo."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Booking / Payout",
+          "explanation": "Turo sends the booking to the host and pays the host according to the selected earnings plan and trip terms."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Car / Handoff",
+          "explanation": "The host provides temporary access to the booked vehicle."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Return / Care",
+          "explanation": "The guest returns the vehicle and is responsible for following the trip and vehicle-use rules."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Coverage",
+          "explanation": "Insurance partners provide liability coverage and risk capacity around eligible trips."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Premium / Claims",
+          "explanation": "The marketplace sends policy economics and claims-related activity into the insurance layer."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Rent out your car and earn money on Turo",
+      "publisher": "Turo",
+      "date": "",
+      "url": "https://turo.com/us/en/car-rental/united-states/list-your-car",
+      "note": "Current Turo host page reporting $6.6 billion in cumulative host earnings, 3.6M+ active guests, 340,000+ active vehicles and 28,000+ cities."
+    },
+    {
+      "title": "Turo's Year in Rearview 2025",
+      "publisher": "Turo",
+      "date": "2026",
+      "url": "https://turo.com/us/en/car-rental/united-states/2025-in-rearview",
+      "note": "Official 2025 US marketplace summary reporting 5.5 million trips, 26.6 million trip days and $1.4 billion in host earnings."
+    },
+    {
+      "title": "Introducing earnings plans",
+      "publisher": "Turo",
+      "date": "2026-06-15",
+      "url": "https://turo.com/us/en/car-rental/united-states/host-hub/updates/introducing-earnings-plans",
+      "note": "Explains Turo's 2026 earnings plans, standard 70/80/90% host shares, the trade-off between earnings and damage responsibility, and variable host share in selected US markets."
+    },
+    {
+      "title": "Earnings plans in brief — US hosts",
+      "publisher": "Turo",
+      "date": "",
+      "url": "https://help.turo.com/en_us/earnings-plans-in-brief-us-hosts-ryy_U4gE9",
+      "note": "Current US plan details, including host shares, damage responsibility and third-party liability insurance issued to Turo by Travelers."
+    },
+    {
+      "title": "Where Turo operates",
+      "publisher": "Turo",
+      "date": "",
+      "url": "https://help.turo.com/available-cars-HJZZVNgE9",
+      "note": "Current geographic availability in the United States, Australia, France, United Kingdom and selected Canadian provinces and territories."
+    },
+    {
+      "title": "A new era of Turo: Winning together in 2026 and beyond",
+      "publisher": "Turo",
+      "date": "2026-06-15",
+      "url": "https://turo.com/us/en/car-rental/united-states/host-hub/updates/a-new-era-of-turo-winning-together-in-2026-and-beyond",
+      "note": "Turo says it has reached roughly 6% of the total rental car market and is targeting airport, long-duration and advance-booking demand while adding tools for professional hosts."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "blablacar",
+      "uber-ride-hailing",
+      "lyft",
+      "bolt"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Turo — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
