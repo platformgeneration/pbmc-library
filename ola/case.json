@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Ola",
+    "slug": "ola",
+    "headline": "What changes when Ola stops taking a cut from every ride?",
+    "case_number": "046",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Ride-Hailing"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Subscription Model",
+      "Zero Commission",
+      "Driver Economics",
+      "Local Network Effects"
+    ],
+    "geography": [
+      "India"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Ola changed who pays the platform",
+    "text": "Ride-hailing platforms traditionally make money by taking a percentage from each fare. Ola has moved in a different direction in India. In June 2025, the company said it had rolled out a zero-commission model across autos, bikes and cabs, allowing drivers to keep the full fare while paying for platform access through a plan instead. Ola's current terms for its auto bidding model show the same basic idea: the rider and driver determine the fare, the rider pays the driver directly, and Ola may charge the driver a software subscription fee. This changes the relationship between the platform and the provider. A driver who completes more trips does not automatically give Ola a larger percentage of every fare; the platform instead has to make its access fee worthwhile by bringing useful demand. The basic marketplace is still the same: riders need nearby drivers and drivers need riders. What changes is how the platform earns money from that connection."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "A completed ride is the core value unit: a rider requests transport, an available driver accepts the trip, and the driver takes the rider to the destination.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "owner": {
+      "actor": {
+        "value": "Ola",
+        "explanation": "ANI Technologies operates Ola's ride-hailing platform in India and provides the technology that connects riders and drivers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Match / Access",
+        "explanation": "Ola has to bring riders and drivers together and make the platform useful enough that drivers are willing to pay for access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Subscriptions",
+        "explanation": "Under the zero-commission approach, Ola can earn from driver access or subscription plans instead of taking a percentage from every fare.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Supply / Demand",
+        "explanation": "Ola still needs enough riders and drivers in each local market. If either side is missing, the platform becomes less useful.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "App Access",
+        "explanation": "Ola provides matching and software access. In the subscription model, drivers can pay for access while keeping the fare from rides.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Safety / Rules",
+        "explanation": "Ola sets rules for driver eligibility, vehicles, safety, service quality and platform use while following local transport regulation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Ola App",
+        "explanation": "Ola reaches riders through its consumer app and drivers through its driver tools and local acquisition programs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Support",
+        "explanation": "Ola operates the apps, matches requests, supports users, manages safety and maintains the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Tech",
+        "explanation": "Important resources include rider demand, driver supply, software, trip data, maps, payments integrations and the Ola brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "People use Ola when they need a cab, auto-rickshaw, bike or other available mobility option.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Ride",
+        "explanation": "Riders want a quick way to find transport without searching for a driver themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Price",
+        "explanation": "Ola can give riders several vehicle categories, estimated fares and convenient booking from one app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Wait / Price",
+        "explanation": "Riders can face long waits, cancellations, fare disagreements or limited supply in some places and times.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Request / Pay",
+        "explanation": "The rider requests a trip and pays the fare. In Ola's auto bidding model, payment goes directly from rider to driver.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "City / Supply",
+        "explanation": "A rider can only book where Ola operates and where a suitable driver is available.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Ola App",
+        "explanation": "Riders search, book and track available trips in the Ola app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Book / Ride",
+        "explanation": "Riders enter a destination, select an option, take the trip, pay and can provide feedback.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Trip / Pay",
+        "explanation": "Riders bring trip demand, pickup and destination information, payment and ratings to the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Drivers",
+        "explanation": "Independent drivers provide the physical transport service using cabs, auto-rickshaws, bikes or other eligible vehicles.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "1M+ drivers*",
+            "note": "Ola said in June 2025 that its nationwide zero-commission rollout covered more than one million driver-partners across autos, bikes and cabs."
+          }
+        ]
+      },
+      "job": {
+        "value": "Earn",
+        "explanation": "Drivers want enough useful trip demand to turn their time and vehicle into income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Keep Fare",
+        "explanation": "Under Ola's zero-commission model, drivers can keep the fare rather than losing a percentage of each ride to platform commission.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Idle / Costs",
+        "explanation": "Drivers still face fuel, vehicle, maintenance and idle-time costs and need enough trips to make platform access worthwhile.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Ride / Fare",
+        "explanation": "Drivers accept suitable requests, provide the physical ride and receive the fare from the rider.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "License",
+        "explanation": "Drivers and vehicles must meet Ola requirements and applicable licensing, documentation and safety rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Driver App",
+        "explanation": "Drivers use Ola's driver tools to go online, see requests and manage their platform participation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Drive / Bid",
+        "explanation": "Drivers go online, accept or bid on eligible requests, complete trips and maintain their vehicle and documents.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Car / Time",
+        "explanation": "Drivers contribute their time, local knowledge, required documents and access to a suitable vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Fleet Operators",
+        "explanation": "Fleet operators can register and manage multiple drivers and vehicles through Ola's operator tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Add Supply",
+        "explanation": "Fleet operators help put more eligible cars and drivers onto the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Car Use",
+        "explanation": "A fleet benefits when its vehicles and drivers receive enough ride demand to stay productive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Idle Cars",
+        "explanation": "Fleet economics weaken when vehicles sit unused or drivers cannot get enough trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Cars / Drivers",
+        "explanation": "Fleet operators add and manage vehicles and drivers that can provide rides through Ola.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Fleet / Docs",
+        "explanation": "Vehicles, drivers and operators must meet Ola and local documentation and quality requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Operator App",
+        "explanation": "Ola provides an operator portal with tools for drivers, vehicles, performance, banking and quality checks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Add / Manage",
+        "explanation": "Fleet operators onboard drivers and vehicles and manage availability, quality and performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cars / Drivers",
+        "explanation": "Fleet operators contribute vehicles, driver relationships and local operating capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "1M+ driver-partners*",
+        "note": "Company statement reported in June 2025 for the nationwide zero-commission rollout across autos, bikes and cabs.",
+        "target": "provider"
+      },
+      {
+        "value": "100+ cities*",
+        "note": "Ola's current developer documentation describes ride availability in more than 100 Indian cities; this page may not be a continuously updated coverage count.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Request",
+          "explanation": "The rider asks Ola to find a suitable nearby driver."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Match",
+          "explanation": "Ola sends the trip opportunity to eligible drivers through its software."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Ride",
+          "explanation": "The driver provides the physical transport from pickup to destination."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Fare",
+          "explanation": "In the direct-payment model, the rider pays the fare to the driver."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Subscription",
+          "explanation": "Drivers can pay Ola for platform access instead of giving Ola a percentage of every ride fare."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Car / Fleet",
+          "explanation": "Fleet operators make vehicles and managed driver capacity available to the provider side."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Driver Partner | Bidding Model T&C Auto",
+      "publisher": "Ola",
+      "date": "",
+      "url": "https://blog.olacabs.com/driver-partner-bidding-model-tc-auto/",
+      "note": "Current Ola terms describing the auto model as a technology platform that connects drivers and customers, with no commission on the fare, direct customer-to-driver payment, driver/customer bidding and possible software subscription fees."
+    },
+    {
+      "title": "Ola launches zero percent commission model across India",
+      "publisher": "The Economic Times",
+      "date": "2025-06-18",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ola-launches-zero-percent-commission-model-across-india-drivers-to-keep-entire-fare-earnings/articleshow/121924682.cms",
+      "note": "Reports Ola's company announcement that the zero-commission model was rolled out nationwide across autos, bikes and cabs and that drivers can choose plans while keeping the full fare."
+    },
+    {
+      "title": "Ola rolls out nationwide zero-commission model",
+      "publisher": "Business Standard",
+      "date": "2025-06-17",
+      "url": "https://www.business-standard.com/companies/news/bhavish-aggarwal-led-ola-rolls-out-nationwide-zero-commission-model-125061701242_1.html",
+      "note": "Reports the company's statement that more than one million driver-partners were covered by the zero-commission rollout."
+    },
+    {
+      "title": "Reimagining Ola",
+      "publisher": "Ola",
+      "date": "2023-12-21",
+      "url": "https://blog.olacabs.com/reimagining-ola/",
+      "note": "Official explanation of Ola's India mobility strategy, the importance of partner supply, expansion beyond cabs and the company's reported base of 130M+ individual consumers at the time."
+    },
+    {
+      "title": "Ola Developer Platform — Overview",
+      "publisher": "Ola",
+      "date": "",
+      "url": "https://developers.olacabs.com/docs/overview",
+      "note": "Official documentation describing Ola as a cab-booking platform available in more than 100 Indian cities and documenting partner API integrations."
+    },
+    {
+      "title": "Ola Operator Web App",
+      "publisher": "Ola",
+      "date": "",
+      "url": "https://operator.olacabs.com/live-map",
+      "note": "Current operator interface showing dedicated functions for adding and managing drivers and vehicles, performance, banking and quality checks."
+    },
+    {
+      "title": "Ola to stop ride-hailing operations in international markets",
+      "publisher": "Reuters",
+      "date": "2024-04-09",
+      "url": "https://www.reuters.com/world/india/indias-ola-stop-ride-hailing-operations-international-markets-2024-04-09/",
+      "note": "Confirms Ola's decision to exit the UK, Australia and New Zealand and refocus its ride-hailing business on India."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "uber-ride-hailing",
+      "lyft",
+      "bolt",
+      "didi"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Ola — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

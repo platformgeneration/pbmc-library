@@ -811,6 +811,24 @@
         "Local Network Effects"
       ],
       "status": "published"
+    },
+    {
+      "slug": "ola",
+      "case_number": "046",
+      "company": "Ola",
+      "headline": "What changes when Ola stops taking a cut from every ride?",
+      "industry": [
+        "Mobility",
+        "Ride-Hailing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Subscription Model",
+        "Zero Commission",
+        "Driver Economics",
+        "Local Network Effects"
+      ],
+      "status": "published"
     }
   ]
 }
