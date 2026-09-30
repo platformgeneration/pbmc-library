@@ -1,0 +1,476 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Flipkart",
+    "slug": "flipkart",
+    "headline": "Why did Flipkart build logistics, payments and seller tools around its marketplace?",
+    "case_number": "039",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Retail",
+      "E-commerce Marketplace"
+    ],
+    "topics": [
+      "Marketplace",
+      "Platform Regulation",
+      "Fulfillment",
+      "Seller Ecosystem",
+      "Platform Infrastructure"
+    ],
+    "geography": [
+      "India"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Flipkart’s marketplace depends on much more than product listings",
+    "text": "Flipkart connects shoppers with independent sellers instead of operating like a traditional retailer that owns the products it sells. This matters in India because foreign-controlled e-commerce companies can operate marketplaces, but they are restricted from using an inventory-led retail model. To make the marketplace work at national scale, Flipkart has therefore built services around the transaction, including seller tools, payments, advertising, fulfilment, returns, trust systems and logistics. Ekart is a clear example: it began as infrastructure supporting Flipkart deliveries, and in 2026 Flipkart opened parts of that logistics network to businesses outside its own marketplace. The case shows that a marketplace does not scale through matching buyers and sellers alone; it may also need to build the services that help independent sellers reach customers reliably."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Listing",
+      "explanation": "The core value unit is a product listing: a seller makes an offer discoverable through Flipkart by combining product information, price, availability and a delivery promise.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "150M+ Products",
+          "note": "Flipkart reports more than 150 million products across 80+ categories on its marketplace."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "Consumers across India use Flipkart to discover, compare and buy products from third-party sellers through one marketplace experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Buy Easily",
+        "explanation": "Shoppers want to find and purchase the right product without searching across many separate sellers or managing fulfillment themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Value",
+        "explanation": "A large assortment, price competition, shopping events, payment options, returns and national delivery can increase convenience and perceived value.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Delivery",
+        "explanation": "Counterfeits, poor seller quality, failed delivery, returns friction or weak service can undermine confidence in a large marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "Shoppers place orders and pay through Flipkart's commerce experience while the underlying product is supplied by a marketplace seller.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Serviceable PIN",
+        "explanation": "The transaction depends on account, product and geographic serviceability as well as fraud, payment and category restrictions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Shoppers primarily access the marketplace through Flipkart's mobile app and website.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "They search, compare, order, pay, receive products, return items when necessary and contribute reviews or other trust signals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Payment / Address",
+        "explanation": "Consumers contribute attention, purchase intent, account and payment details, delivery information and behavioral data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Sellers",
+        "explanation": "Third-party sellers, brands, MSMEs and entrepreneurs provide the assortment sold through the marketplace rather than Flipkart owning all of that inventory.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Reach India",
+        "explanation": "Sellers use Flipkart to reach national demand without building an equivalent consumer marketplace and distribution interface themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Tools",
+        "explanation": "Sellers gain access to large-scale demand plus seller tools, advertising, fulfillment, insights and shopping-event visibility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Competition",
+        "explanation": "Sellers face marketplace fees, price and visibility competition, compliance requirements, returns and service-performance pressure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List / Fulfill",
+        "explanation": "Sellers create offers, maintain inventory and fulfill marketplace demand directly or with Flipkart-supported fulfillment and logistics.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "GST / Compliance",
+        "explanation": "Seller access is governed through business verification, tax and bank details, product rules, marketplace policies and ongoing performance controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Seller Hub",
+        "explanation": "Seller Hub and related tools let sellers onboard, create listings, manage orders, inventory, payments, advertising and support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Price",
+        "explanation": "Sellers list products, manage price and inventory, process orders, prepare shipments, advertise and manage customer outcomes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Catalog",
+        "explanation": "They contribute the inventory, catalogue data, prices, product images, seller credentials and operational capacity that create marketplace supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Logistics Partners",
+        "explanation": "Independent delivery partners and franchise operators extend the physical network around Flipkart's marketplace. Ekart itself is treated here as a Flipkart Group resource, while external operators sit in the Partner role.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Deliver Reach",
+        "explanation": "Their job is to extend reliable pickup, line-haul and last-mile capacity across India's highly varied geography.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Income",
+        "explanation": "Marketplace and Ekart shipment volume creates recurring delivery demand and commercial opportunity for logistics partners.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Peaks / Last Mile",
+        "explanation": "Festive peaks, difficult addresses, remote geographies, service-level expectations and high last-mile variability make execution difficult.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Delivery / Fees",
+        "explanation": "Partners execute logistics work and receive compensation through their delivery or franchise relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Coverage / SLA",
+        "explanation": "Participation depends on geography, capacity, operational standards, service levels and integration with the logistics network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Ekart Network",
+        "explanation": "Partners connect operationally through Ekart's delivery and franchise network, local hubs, technology and contractual arrangements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Pickup / Deliver",
+        "explanation": "Partners pick up, route and deliver shipments, handle exceptions and support reverse logistics.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Fleet / Local Reach",
+        "explanation": "They contribute vehicles, delivery capacity, local knowledge, operating staff and geographic reach.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Flipkart",
+        "explanation": "Flipkart owns and orchestrates the marketplace experience. Walmart's FY2026 SEC filing lists Flipkart Private Limited as an 84%-owned significant subsidiary.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Orchestrate Commerce",
+        "explanation": "Flipkart's job is to connect demand and supply while making the full transaction reliable enough to scale across India.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Monetize",
+        "explanation": "More shoppers attract more sellers and assortment; more supply improves selection and creates transaction, advertising and service monetization opportunities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Compliance",
+        "explanation": "Scale increases the burden of seller quality, fraud, counterfeit control, regulatory compliance, fulfillment reliability and customer experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Settle",
+        "explanation": "Flipkart orchestrates discovery, checkout, marketplace fees, seller settlements and supporting services around each transaction.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Trust",
+        "explanation": "The platform governs seller onboarding, product compliance, marketplace integrity, reviews, fraud controls, service standards and enforcement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Big Billion Days",
+        "explanation": "Flipkart uses its app, web experience, search and recommendation systems, advertising and large shopping events such as The Big Billion Days to activate demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Govern",
+        "explanation": "Flipkart recruits sellers, structures listings, matches supply with demand, governs participation, coordinates payments and fulfillment, and operates the customer experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Tech / Ekart",
+        "explanation": "Key resources include the Flipkart brand and commerce stack, marketplace data and algorithms, Seller Hub, payments capabilities and the Flipkart Group's Ekart logistics infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "500M+ Users",
+        "note": "Flipkart reports more than 500 million registered users; this is a registered-user figure, not a monthly-active-user figure.",
+        "target": "consumer"
+      },
+      {
+        "value": "1.4M+ Sellers*",
+        "note": "Flipkart reports more than 1.4 million sellers on the platform including Shopsy sellers; the asterisk flags that this is broader than Flipkart-only sellers.",
+        "target": "provider"
+      },
+      {
+        "value": "600 3PL Franch.",
+        "note": "On 29 September 2026 Flipkart reported that Ekart's 3PL franchise network had doubled to 600 within two months of launch.",
+        "target": "partner"
+      },
+      {
+        "value": "19K+ PIN Codes",
+        "note": "Flipkart Seller Hub states that the marketplace reaches more than 19,000 PIN codes across India.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing / Fees",
+          "explanation": "Sellers supply product listings and participate under the marketplace fee and policy structure."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Discovery",
+          "explanation": "Flipkart makes seller offers searchable, comparable and recommendable through one customer interface."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "The shopper places the marketplace order and pays through Flipkart's checkout experience."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "Flipkart coordinates seller settlement after the order, net of applicable fees and adjustments."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Shipment",
+          "explanation": "The platform and its logistics layer route delivery work into the physical fulfillment network."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Delivery",
+          "explanation": "Logistics partners complete the physical last mile and support reverse flows such as returns."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "A legacy of innovation: The Flipkart group empowerment story",
+      "publisher": "Flipkart",
+      "date": "2025-09-21",
+      "url": "https://stories.flipkart.com/about-us/about-us",
+      "note": "Primary source for current marketplace scale: 500M+ registered users, 1.4M sellers including Shopsy, 150M+ products across 80+ categories, and customer-access innovations including COD, EMI, returns and UPI."
+    },
+    {
+      "title": "Become a Flipkart Seller",
+      "publisher": "Flipkart Seller Hub",
+      "date": "",
+      "url": "https://seller.flipkart.com/",
+      "note": "Primary source for seller-side access, 19,000+ PIN-code reach, seller onboarding, payout timing and tools such as Fulfilment by Flipkart and Flipkart Ads."
+    },
+    {
+      "title": "Sell Online with Flipkart",
+      "publisher": "Flipkart Seller Hub",
+      "date": "",
+      "url": "https://seller.flipkart.com/sell-online",
+      "note": "Primary source for fulfillment choices, delivery and returns support, seller payments, pricing and product-recommendation tools, inventory management and advertising."
+    },
+    {
+      "title": "Flipkart Deepens Marketplace Governance to Strengthen Trust and Platform Integrity",
+      "publisher": "Flipkart",
+      "date": "2026-01-20",
+      "url": "https://stories.flipkart.com/announcement/flipkart-deepens-marketplace-governance-framework-to-strengthen-trust-accountability-and-platform-integrity",
+      "note": "Primary source for risk-based seller onboarding, marketplace compliance, fraud and authenticity controls across a marketplace with more than 1.4 million sellers."
+    },
+    {
+      "title": "Flipkart Opens Ekart Logistics Network to India's MSMEs and D2C Brands",
+      "publisher": "Flipkart",
+      "date": "2026-07-28",
+      "url": "https://stories.flipkart.com/announcement/flipkart-opens-ekart-logistics-network-to-india-s-msm-es-and-d2-c-brands",
+      "note": "Primary source for Ekart as Flipkart Group's supply-chain arm and its 2026 move to open the logistics and technology stack to external businesses through a franchise model and dedicated warehousing."
+    },
+    {
+      "title": "Flipkart Adds 14 Million Cubic Feet of Capacity, Expands Big Billion Days Reach to 750+ New PIN Codes",
+      "publisher": "Flipkart",
+      "date": "2026-09-29",
+      "url": "https://stories.flipkart.com/announcement/flipkart-adds-14-million-cubic-feet-of-capacity-expands-big-billion-days-reach-over-750-new-pin-codes",
+      "note": "Primary source for current logistics scale: 8,200+ Ekart facilities, expanded warehousing and a 3PL franchise network that reached 600 by September 2026."
+    },
+    {
+      "title": "Press Note 3 (2016) — Guidelines for Foreign Direct Investment on E-commerce",
+      "publisher": "Department of Industrial Policy & Promotion, Government of India",
+      "date": "2016-03-29",
+      "url": "https://www.dpiit.gov.in/static/uploads/2025/07/551a1ef3a4a5257343ffe276ada52c7b.pdf",
+      "note": "Official source defining marketplace and inventory-based e-commerce models, permitting 100% FDI in marketplace e-commerce while prohibiting FDI in the inventory-based model and allowing marketplace support services such as logistics, warehousing and payment collection."
+    },
+    {
+      "title": "Walmart Inc. FY2026 — Significant Subsidiaries",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "date": "2026-03-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmtexhibit21fy26.htm",
+      "note": "Walmart's FY2026 filing lists Flipkart Private Limited as a significant subsidiary with Walmart owning 84% of its equity securities."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "amazon-marketplace",
+      "walmart-marketplace",
+      "jd-com"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Flipkart — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

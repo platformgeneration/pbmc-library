@@ -685,6 +685,24 @@
         "Platform Portability"
       ],
       "status": "published"
+    },
+    {
+      "slug": "flipkart",
+      "case_number": "039",
+      "company": "Flipkart",
+      "headline": "Why did Flipkart build logistics, payments and seller tools around its marketplace?",
+      "industry": [
+        "Retail",
+        "E-commerce Marketplace"
+      ],
+      "topics": [
+        "Marketplace",
+        "Platform Regulation",
+        "Fulfillment",
+        "Seller Ecosystem",
+        "Platform Infrastructure"
+      ],
+      "status": "published"
     }
   ]
 }
