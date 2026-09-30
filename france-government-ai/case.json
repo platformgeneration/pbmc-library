@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "France Government AI",
+    "slug": "france-government-ai",
+    "headline": "What changes when the state owns the shared AI layer?",
+    "case_number": "034",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Public Sector",
+      "Government AI"
+    ],
+    "topics": [
+      "Shared AI Infrastructure",
+      "SIIAG",
+      "Albert API",
+      "Digital Sovereignty",
+      "Government as a Platform"
+    ],
+    "geography": [
+      "France"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Shared infrastructure moves coordination into the Owner layer.",
+    "text": "France's architecture puts common inference, tooling, data capabilities and horizontal applications into a shared state layer. In the PBMC, model supply and secure hosting feed into DINUM, while administrations consume a reusable AI service through SIIAG and Albert API. This can reduce duplicated technical backends and make common security and access rules reusable across administrations, while also concentrating more operational responsibility in the Owner layer."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "AI Service",
+      "explanation": "At the center is an AI service: secure access to inference, shared tools, data capabilities or horizontal applications that an administration can actually use.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "consumer": {
+      "actor": {
+        "value": "Ministries",
+        "explanation": "The Consumer side is ministries and other state administrations that need AI capability without building the full technical stack themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Deploy AI",
+        "explanation": "Their job is to put useful AI into administrative work and digital services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Secure",
+        "explanation": "The gain is faster deployment with a security level that individual teams do not have to recreate from scratch.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Dupes / Shadow",
+        "explanation": "The pain is duplicated development and shadow AI: teams solving the same infrastructure problem repeatedly or using tools outside state control.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Demand / Use",
+        "explanation": "Administrations bring use cases and demand into the system, then consume shared AI services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Public",
+        "explanation": "Access is bounded to the public sector rather than an open consumer market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "SIIAG",
+        "explanation": "Administrations access the value through SIIAG, short for Socle interministériel d'IA générative, the interministerial generative AI foundation. Its products include Albert API and horizontal applications.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Use / Deploy",
+        "explanation": "They test, integrate and use AI in their own processes and products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Cases",
+        "explanation": "They contribute the use cases, domain knowledge and data context needed to make AI useful in administration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Vendors",
+        "explanation": "The Provider side is the organizations whose foundation and specialist models can be made available through the common layer. Albert currently exposes models from several model families and third parties.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Supply AI",
+        "explanation": "Their ecosystem job is to supply competitive model capability that the shared layer can expose to government users.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Usage",
+        "explanation": "The gain is usage through a common government gateway without every application integrating each model separately.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fit / Rules",
+        "explanation": "The friction is fitting technical, licensing, security and performance requirements of the shared environment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Models / Update",
+        "explanation": "Providers contribute models and model updates into the service catalog.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Approved",
+        "explanation": "Not every model automatically becomes part of the state catalog. Models are selected and hosted within the controlled service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Albert API",
+        "explanation": "The common access point is Albert API, which centralizes model access behind one OpenAI-compatible interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Train / Update",
+        "explanation": "Providers develop and update models while Dinum can change what is offered behind the common interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Models / Weights",
+        "explanation": "Their core resource is the model itself, including open weights or proprietary model access where applicable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Hosts",
+        "explanation": "The Partner side is secure cloud hosting. The shared layer depends on certified infrastructure that can run inference under state security requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run Secure",
+        "explanation": "The partner job is to provide secure, resilient compute on which the state AI layer can operate.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Trust",
+        "explanation": "The gain is sustained public-sector workload and a trusted infrastructure role.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Audit / Load",
+        "explanation": "The burden is meeting demanding assurance requirements while keeping enough capacity for shared government workloads.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Compute / Host",
+        "explanation": "The partner contributes sovereign compute and hosting into the common AI layer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "SecNum",
+        "explanation": "Hosting is filtered by the state security boundary, with SecNumCloud certification central to the current architecture.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Contracts",
+        "explanation": "Hosting partners enter through public-sector infrastructure and service arrangements rather than through an open marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Host / Run",
+        "explanation": "They host, operate and maintain the compute environment that supports inference.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "GPUs / Cloud",
+        "explanation": "They bring cloud infrastructure and accelerator capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "DINUM",
+        "explanation": "The Owner is DINUM, short for Direction interministérielle du numérique, France's interministerial digital directorate. It coordinates the state AI strategy, operates the shared layer and animates the government AI community.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "70+ Projects",
+            "note": "Albert API is reported by DINUM as already used in more than 70 public projects as of the September 2026 snapshot."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Layer",
+        "explanation": "Dinum's job is to run a common AI layer that many administrations can reuse.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Control",
+        "explanation": "The upside is reuse at scale while keeping control over the gateway, data path and common rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Risk / Load",
+        "explanation": "The trade-off is concentration. A common layer can reduce duplicated attack surfaces, but it also carries more critical load and has to remain available and secure under attack.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Route / Serve",
+        "explanation": "Dinum routes demand to shared model and infrastructure capability and serves AI access back to administrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Security / Rules",
+        "explanation": "Governance is concentrated in common security, interoperability, data protection and service rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "State Network",
+        "explanation": "Dinum grows adoption through the interministerial AI community and shared state programs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Operate / Govern",
+        "explanation": "It operates common services, curates access and coordinates adoption across administrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Albert / SIIAG",
+        "explanation": "Its strategic resources are the shared layer itself, especially Albert API, common tooling, data services and horizontal applications.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "70+ Projects",
+        "note": "Albert API is reported by DINUM as already used in more than 70 public projects as of the September 2026 snapshot.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "after": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Demand",
+          "explanation": "Ministries send demand and use cases into Dinum. The shared owner learns what government teams need."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Models",
+          "explanation": "Model vendors contribute model capability into the shared service catalog."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Compute",
+          "explanation": "Secure hosting partners contribute certified compute and hosting into the shared AI layer."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Service",
+          "explanation": "Dinum returns a usable AI service to administrations through the common layer."
+        }
+      ]
+    }
+  },
+  "media": {
+    "youtube_id": "o8mPitP9nbE",
+    "youtube_url": "https://www.youtube.com/watch?v=o8mPitP9nbE",
+    "thumbnail": "",
+    "youtube_title": "Watch the France vs Germany Government AI case study"
+  },
+  "sources": [
+    {
+      "title": "Socle interministériel d'IA",
+      "publisher": "DINUM",
+      "date": "",
+      "url": "https://ia.numerique.gouv.fr/socle-interminist%C3%A9riel-dia/",
+      "note": "Primary source for SIIAG as a shared interministerial AI infrastructure, its service layers, public-sector scope and SecNumCloud hosting."
+    },
+    {
+      "title": "Inférence — SIIAG",
+      "publisher": "DINUM",
+      "date": "",
+      "url": "https://ia.numerique.gouv.fr/socle-interminist%C3%A9riel-dia/inf%C3%A9rence/",
+      "note": "Primary source for Albert API as the shared inference layer, its OpenAI-compatible interface, model catalog and SecNumCloud infrastructure."
+    },
+    {
+      "title": "Albert API",
+      "publisher": "DINUM",
+      "date": "",
+      "url": "https://ia.numerique.gouv.fr/outils-ia/albert-api/",
+      "note": "Primary source for the shared AI gateway, centralized model access, advanced services and current public-project usage figures."
+    },
+    {
+      "title": "Modèles — Albert API",
+      "publisher": "DINUM",
+      "date": "",
+      "url": "https://ia.numerique.gouv.fr/outils-ia/albert-api/mod%C3%A8les/",
+      "note": "Source for the model-provider side and the range of model families exposed through the common gateway."
+    },
+    {
+      "title": "Infrastructure sécurisée — Albert API",
+      "publisher": "DINUM",
+      "date": "",
+      "url": "https://ia.numerique.gouv.fr/outils-ia/albert-api/infrastructure-s%C3%A9curis%C3%A9e/",
+      "note": "Source for secure hosting, sovereign infrastructure and the SecNumCloud boundary used to derive the Partner role."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. (2026). BWI — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "after"
+  }
+}

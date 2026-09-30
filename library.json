@@ -595,6 +595,42 @@
         "M&A"
       ],
       "status": "published"
+    },
+    {
+      "slug": "france-government-ai",
+      "case_number": "034",
+      "company": "France Government AI",
+      "headline": "What changes when the state owns the shared AI layer?",
+      "industry": [
+        "Public Sector",
+        "Government AI"
+      ],
+      "topics": [
+        "Shared AI Infrastructure",
+        "SIIAG",
+        "Albert API",
+        "Digital Sovereignty",
+        "Government as a Platform"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "germany-government-ai",
+      "case_number": "035",
+      "company": "Germany Government AI",
+      "headline": "What happens when government scales AI through an ecosystem?",
+      "industry": [
+        "Public Sector",
+        "Government AI"
+      ],
+      "topics": [
+        "Agentic AI Hub",
+        "AI Startups",
+        "Public Procurement",
+        "Scaling",
+        "Government as a Platform"
+      ],
+      "status": "published"
     }
   ]
 }

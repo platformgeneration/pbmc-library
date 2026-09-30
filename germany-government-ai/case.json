@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Germany Government AI",
+    "slug": "germany-government-ai",
+    "headline": "What happens when government scales AI through an ecosystem?",
+    "case_number": "035",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Public Sector",
+      "Government AI"
+    ],
+    "topics": [
+      "Agentic AI Hub",
+      "AI Startups",
+      "Public Procurement",
+      "Scaling",
+      "Government as a Platform"
+    ],
+    "geography": [
+      "Germany"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Ecosystem orchestration moves coordination between participants.",
+    "text": "Germany's Agentic AI Hub connects municipal problems with startup solutions, validates them through pilots and then faces a separate scaling step. In the PBMC, BMDS orchestrates selection and pilot formation while municipalities and startups co-develop solutions. Procurement, integration, secure infrastructure and ongoing operations become more important when successful pilots move toward durable public services. The Operator role is an analytical PBMC role for this transition, not an official Agentic AI Hub participant category."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "AI Solution",
+      "explanation": "A validated AI solution that addresses a concrete public-sector problem and can move from pilot toward repeatable use in other administrations.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "consumer": {
+      "actor": {
+        "value": "Municipalities",
+        "explanation": "Municipalities are the demand side of the Hub: public administrations bring concrete operational problems and test solutions in practice.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Simplify Work",
+        "explanation": "Their job is to simplify administrative work and reduce manual routine effort with usable AI solutions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Speed / Relief",
+        "explanation": "The expected gain is faster processing and relief for staff in repetitive or capacity-constrained workflows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Backlog / Legacy",
+        "explanation": "Municipalities face backlogs, legacy systems and limited implementation capacity when introducing new AI solutions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Problem / Use",
+        "explanation": "They contribute concrete public problems and use cases and then test or use the resulting AI solution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Public Need",
+        "explanation": "Problems are selected for public relevance, strategic fit, representativeness and potential scalability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Hub",
+        "explanation": "The Agentic AI Hub is the interface through which municipalities enter the matching and pilot process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Apply / Test",
+        "explanation": "Municipalities apply, provide process context, test solutions with real workflows and evaluate whether they work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cases / Data",
+        "explanation": "They contribute use cases, domain knowledge, process context, staff time and, where appropriate, operational data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Startups",
+        "explanation": "AI startups and scale-ups form the Provider side by bringing specialist technologies and teams into the public-sector pilot process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Win Public",
+        "explanation": "Their job is to turn a public-sector problem into a working AI solution that can be validated in practice.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Access / Scale",
+        "explanation": "The Hub gives providers access to public-sector demand, references and a potential path from pilot to broader adoption.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Procure / Scale",
+        "explanation": "Moving from a successful pilot to repeatable public-sector business requires procurement, integration and scaling across heterogeneous administrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Build / Pilot",
+        "explanation": "Providers build and adapt software for a concrete municipal pilot and contribute the solution into the testing process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Fit / Scale",
+        "explanation": "Startups are selected based on solution fit, strategic relevance and the potential to scale beyond one pilot.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Hub",
+        "explanation": "The Hub application and matching process connects selected providers with participating municipalities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Iterate",
+        "explanation": "Providers develop, adapt and iterate their AI solution with the municipality during the pilot.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "AI / Team",
+        "explanation": "They contribute AI technology, product capability, specialist knowledge and delivery teams.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Operators",
+        "explanation": "Operators represent the integration and operating capabilities needed when validated solutions move from pilots into durable public services. This is an analytical PBMC role, not an official Agentic AI Hub participant category.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run Service",
+        "explanation": "Their functional job is to integrate, secure and operate AI solutions reliably in public-sector environments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Ops / Scale",
+        "explanation": "A scaling layer can create recurring integration and operating work across multiple administrations and solutions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Legacy / Risk",
+        "explanation": "Operators have to bridge legacy environments, security requirements, infrastructure constraints and operational responsibility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Integrate / Run",
+        "explanation": "They turn startup software into an integrated and operated service that administrations can use beyond the pilot setting.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Secure / Fit",
+        "explanation": "Participation depends on security, technical fit, procurement conditions and the ability to operate within public-sector requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Projects",
+        "explanation": "Operators enter through implementation, infrastructure and operating projects rather than through the Hub as a formal participant category.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Link / Operate",
+        "explanation": "They integrate components, connect infrastructure, harden deployments and operate services over time.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cloud / Ops",
+        "explanation": "They contribute cloud or compute access, integration capability, operations tooling, security know-how and service-management capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "BMDS",
+        "explanation": "BMDS is the public sponsor and orchestrating Owner in this PBMC; BMDS and DigitalService jointly selected the first 20 pilots and organize the Hub process.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "20 Pilots",
+            "note": "DigitalService and BMDS report 20 Agentic AI Hub pilot projects across 19 municipalities in the first pilot phase."
+          }
+        ]
+      },
+      "job": {
+        "value": "Scale AI",
+        "explanation": "The Owner role is to scale useful AI in administration by connecting public demand with suitable providers and creating paths beyond isolated pilots.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Speed / Adoption",
+        "explanation": "A successful Hub can shorten the route from identified public problem to tested solution and broaden adoption of solutions that prove transferable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fragment / Scale",
+        "explanation": "The main scaling friction appears after validation: procurement, heterogeneous local environments, infrastructure and durable operation can fragment reuse.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Scale",
+        "explanation": "The Hub matches public problems with providers, creates pilot opportunities and then supports the transition toward broader adoption.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Criteria / Security",
+        "explanation": "Governance includes participant selection, pilot criteria, security expectations and the rules used to evaluate scalability and transferability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Hub / Network",
+        "explanation": "The Hub and its network attract municipalities, startups and supporting stakeholders into the program and wider community.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Select / Validate",
+        "explanation": "The Owner selects, matches, coordinates and evaluates pilots and develops mechanisms for procurement and scaling.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Network / Buy",
+        "explanation": "Core resources are the public-problem pipeline, startup network, pilot evidence and the emerging procurement and scaling mechanisms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "20 Pilots",
+        "note": "DigitalService and BMDS report 20 Agentic AI Hub pilot projects across 19 municipalities in the first pilot phase.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "after": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Problems",
+          "explanation": "Municipalities bring concrete administrative problems and use cases into the Hub."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Pilot",
+          "explanation": "The Hub creates a matched pilot opportunity for a selected startup solution."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Needs",
+          "explanation": "After matching, municipalities provide process needs and domain context directly to the startup."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Solution",
+          "explanation": "Startups return a working AI solution for practical testing in the municipality."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Software",
+          "explanation": "At the scaling stage, validated software has to be integrated into secure production environments."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Service",
+          "explanation": "An operating layer turns the software into a durable service that an administration can use."
+        }
+      ]
+    }
+  },
+  "media": {
+    "youtube_id": "o8mPitP9nbE",
+    "youtube_url": "https://www.youtube.com/watch?v=o8mPitP9nbE",
+    "thumbnail": "",
+    "youtube_title": "Watch the France vs Germany Government AI case study"
+  },
+  "sources": [
+    {
+      "title": "Agentic AI Hub",
+      "publisher": "DigitalService",
+      "date": "2026",
+      "url": "https://digitalservice.bund.de/projekte/agentic-ai-hub",
+      "note": "Primary source for the Hub structure, municipal demand side, startup provider side, matching process, 20 pilot projects and scaling criteria."
+    },
+    {
+      "title": "Agentic AI Hub: Pilotierung erfolgreich abgeschlossen",
+      "publisher": "BMDS",
+      "date": "2026-06-15",
+      "url": "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/agentic-ai-hub-pilotierung-erfolgreich-abgeschlossen",
+      "note": "Primary source for pilot results, the Hub as the interface between public administration and AI startups, and planned procurement and infrastructure scaling."
+    },
+    {
+      "title": "Agentic AI Hub — Matching-Phase",
+      "publisher": "BMDS",
+      "date": "2026",
+      "url": "https://bmds.bund.de/aktuelles/aktuelle-meldungen/detail/agentic-ai-hub-matching-phase-laeuft",
+      "note": "Source for demand-provider matching and participation logic in the Hub."
+    },
+    {
+      "title": "Agentic AI Hub — KI in der Verwaltung",
+      "publisher": "BMDS",
+      "date": "2026",
+      "url": "https://bmds.bund.de/en/themen/kuenstliche-intelligenz/ki-in-der-verwaltung/agentic-ai-hub",
+      "note": "Additional official context for the Hub, administrative relief and scaling objectives."
+    },
+    {
+      "title": "BMDS erteilt Zuschlag für souveräne KI-Cloud",
+      "publisher": "BMDS",
+      "date": "2026",
+      "url": "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/bmds-erteilt-zuschlag-fuer-souveraene-ki-cloud",
+      "note": "Context for the sovereign AI infrastructure layer relevant to post-pilot technical operation and scale."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. (2026). BWI — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "after"
+  }
+}
