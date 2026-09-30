@@ -1,0 +1,452 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Copart + ACV Auctions",
+    "slug": "copart-acv-auctions",
+    "headline": "Can you buy a network effect?",
+    "case_number": "033",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Automotive Marketplace",
+      "Digital Vehicle Remarketing"
+    ],
+    "topics": [
+      "Network Effects",
+      "Marketplace Acquisition",
+      "Dealer-to-Dealer Wholesale",
+      "Marketplace Liquidity",
+      "M&A"
+    ],
+    "geography": [
+      "United States",
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Buy the network. Earn the effect.",
+    "text": "Copart is not only buying software or dealer relationships. It is proposing to acquire an already functioning marketplace with active buyers, active sellers, transaction routines, condition data and $10.4 billion of 2025 marketplace GMV. That can bypass part of the chicken-and-egg problem of building an adjacent dealer-to-dealer market from zero. But ownership alone does not create a stronger network effect. The effect appears only if participants become more valuable to one another, for example if Copart's global buyer reach increases liquidity for selected ACV vehicles and ACV's dealer relationships add useful new supply. At this snapshot the transaction is still pending, so these cross-network benefits remain a strategic opportunity rather than an accomplished outcome."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Used Car",
+      "explanation": "A wholesale used vehicle, represented by a listing with condition, title, pricing and inspection data, is the Core Value Unit exchanged through the ACV marketplace inside the proposed combined architecture.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "829K Units/yr",
+          "note": "ACV reported 829,276 Marketplace Units in 2025. Marketplace Units are vehicles transacted on the marketplace during the year."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buying Dealers",
+        "explanation": "Independent and franchise dealers buy wholesale vehicles to replenish inventory. In the proposed combined architecture, this existing ACV demand could also be complemented by selected buyers from Copart's much larger global buyer network.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "22K Buyers",
+            "note": "ACV reported 22,062 active Marketplace Buyers in 2025, defined as dealer or commercial-partner customer IDs that transacted as a buyer at least once in the prior 12 months."
+          }
+        ]
+      },
+      "job": {
+        "value": "Source Cars",
+        "explanation": "Buyers need to source the right used vehicles for inventory at workable economics.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Trust",
+        "explanation": "They gain broad inventory access together with condition information, marketplace history and digital transaction tools that reduce uncertainty.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Search / Risk",
+        "explanation": "The buyer has to find suitable inventory while judging condition, price, title and resale risk without physically inspecting every vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Bid / Pay",
+        "explanation": "Buying dealers bid or purchase through the marketplace and pay for successful transactions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Licensed",
+        "explanation": "The marketplace is primarily B2B; dealer and commercial participants must meet ACV's eligibility and account requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "ACV's auctions are accessible through mobile apps, desktop and API integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Bid",
+        "explanation": "Buyers repeatedly search inventory, compare vehicles, bid and purchase.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cash / Data",
+        "explanation": "They contribute purchasing capacity plus demand signals, bidding behavior and inventory preferences that improve marketplace matching and data depth.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Selling Dealers",
+        "explanation": "Dealers and commercial consignors supply wholesale vehicles. The strategic value of ACV to Copart is that this seller network already exists rather than having to be recruited from scratch.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "14.9K Sellers",
+            "note": "ACV reported 14,905 active Marketplace Sellers in 2025. The metric includes independent and franchise dealers as well as commercial partners such as leasing, rental and finance companies."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Cars",
+        "explanation": "Sellers need to move used vehicles efficiently into wholesale demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Speed / Price",
+        "explanation": "They seek faster inventory turn, broad bidder reach and competitive sale outcomes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Turn / Risk",
+        "explanation": "Slow disposition ties up capital and space, while disputes over condition or disclosures can reduce confidence and economics.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List / Sell",
+        "explanation": "Sellers place wholesale vehicles into the marketplace and complete a sale when buyer demand clears.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Licensed",
+        "explanation": "Dealer and commercial sellers must satisfy ACV's marketplace participation and account requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / API",
+        "explanation": "Sellers launch inventory through ACV's digital interfaces, integrations and operational channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Price",
+        "explanation": "They repeatedly list vehicles, provide vehicle information and manage reserve or pricing decisions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cars / Data",
+        "explanation": "They contribute the vehicle supply and the title, condition and inventory data required to transact.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Carriers",
+        "explanation": "Third-party transportation carriers are the clearest external Partner role in ACV's digital wholesale model. ACV integrates their capacity into checkout so vehicles can move from selling locations to buyers nationwide.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Move Cars",
+        "explanation": "Carriers physically move purchased vehicles between sellers, ACV-related locations and buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Routing",
+        "explanation": "Integrated marketplace demand can provide recurring transport volume and route opportunities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Empty Miles",
+        "explanation": "Transport economics depend on utilization, routing, distance and reliable pickup and delivery coordination.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pickup / Deliver",
+        "explanation": "Carriers receive vehicles into the transport network and deliver them to the buying side.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Approved",
+        "explanation": "Transportation capacity is provided through ACV's network of third-party carrier partners rather than by any carrier automatically participating.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Transport Net.",
+        "explanation": "Carrier capacity is orchestrated through ACV Transportation and its technology-supported transport network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Move / Track",
+        "explanation": "Carriers pick up, move, deliver and provide status information for vehicle shipments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Trucks / Capacity",
+        "explanation": "They contribute transport assets, driver capacity and geographic coverage that let a digital transaction end in physical delivery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Copart + ACV",
+        "explanation": "This is a proposed post-close Owner view, not a claim that the acquisition has already closed. Copart would own ACV, while ACV is expected to continue as an independent subsidiary led by its existing management.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$1.9B Deal",
+            "note": "The announced cash acquisition implies an equity value of approximately $1.9 billion at $10.50 per ACV share. The transaction remained pending at the September 30, 2026 snapshot."
+          },
+          {
+            "value": "$10.4B GMV",
+            "note": "ACV reported $10.4 billion of Marketplace GMV in 2025, showing the economic scale of the functioning dealer marketplace being acquired."
+          }
+        ]
+      },
+      "job": {
+        "value": "Own / Grow Net.",
+        "explanation": "The strategic job is to own and grow an adjacent dealer-to-dealer network without rebuilding both marketplace sides from zero.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Liquidity",
+        "explanation": "The opportunity is to broaden Copart's vehicle mix and use complementary demand, supply, infrastructure and data to increase liquidity and commercial reach.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Link / Risk",
+        "explanation": "Owning both marketplaces does not guarantee that the networks reinforce one another. Integration, participant fit and cross-side activation have to create real additional value.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Fees",
+        "explanation": "ACV matches wholesale supply and demand and earns auction and related service fees when transactions occur.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Data",
+        "explanation": "The Owner layer governs participation, auction rules, condition information, arbitration, data use and the boundaries between the two marketplaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Sales / App",
+        "explanation": "Dealer relationships, account management and the digital marketplace drive acquisition and repeat participation; Copart adds additional global buyer reach and commercial relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Inspect / Match",
+        "explanation": "ACV inspects vehicles and runs the digital auction and transaction journey, while Copart can add physical infrastructure, buyer reach and commercial distribution after closing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Buyer Net / Yards",
+        "explanation": "The proposed combination joins ACV's dealer relationships, marketplace data and inspection technology with Copart's approximately one million members and more than 250 physical locations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Listing",
+          "explanation": "Selling dealers and commercial consignors place wholesale vehicles and associated vehicle information into the ACV marketplace."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Bid / Pay",
+          "explanation": "Buying dealers bid or purchase through the marketplace and send payment into the transaction process."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match",
+          "explanation": "The marketplace gives buyers matched access to relevant wholesale inventory, condition information and auction execution."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "After a successful transaction, the marketplace completes settlement and value flows back to the selling side."
+        },
+        {
+          "from": "provider",
+          "to": "partner",
+          "value": "Vehicle",
+          "explanation": "When integrated transportation is used, the sold vehicle enters ACV's third-party carrier network for physical movement."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Delivery",
+          "explanation": "The transportation partner physically delivers the purchased vehicle to the buyer or destination."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "JAvOJAszExs",
+    "youtube_url": "https://youtu.be/JAvOJAszExs",
+    "thumbnail": "https://i.ytimg.com/vi/JAvOJAszExs/hqdefault.jpg",
+    "youtube_title": "Can you buy a network effect?"
+  },
+  "sources": [
+    {
+      "title": "Copart to Acquire ACV, Expanding Position Across the Vehicle Remarketing Ecosystem",
+      "publisher": "Copart",
+      "date": "2026-09-10",
+      "url": "https://www.copart.com/content/us/en/press-releases/copart-to-acquire-acv",
+      "note": "Primary source for the announced approximately $1.9 billion acquisition, Copart's approximately one million members, 250-plus locations, strategic rationale and expectation that ACV will remain an independent subsidiary after closing."
+    },
+    {
+      "title": "Copart to Acquire ACV Auctions - Acquisition Presentation",
+      "publisher": "Copart / SEC",
+      "date": "2026-09-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526388064/d138322dex992.htm",
+      "note": "Primary source for immediate scaled entry into dealer-to-dealer wholesale, Copart's buyer network and physical infrastructure, ACV's dealer relationships and the stated liquidity and network-effect thesis."
+    },
+    {
+      "title": "ACV Auctions Inc. 2025 Annual Report (Form 10-K)",
+      "publisher": "ACV Auctions / SEC",
+      "date": "2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637873/000163787326000011/acva-20251231.htm",
+      "note": "Primary source for 22,062 active Marketplace Buyers, 14,905 active Marketplace Sellers, 829,276 Marketplace Units, $10.4 billion Marketplace GMV, marketplace mechanics, inspection capabilities and ACV's third-party carrier network."
+    },
+    {
+      "title": "Copart, Inc. 2025 Annual Report (Form 10-K)",
+      "publisher": "Copart / SEC",
+      "date": "2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000162828025042946/cprt-20250731.htm",
+      "note": "Primary source for Copart's legacy vehicle remarketing model, buyer groups, seller groups and the fact that 81% of fiscal 2025 processed vehicles came from insurance-company sellers."
+    },
+    {
+      "title": "Offer to Purchase for Cash - ACV Auctions Inc.",
+      "publisher": "Copart / SEC",
+      "date": "2026-09-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637873/000119312526393827/d160557dex99a1i.htm",
+      "note": "Current transaction-status source. Copart's subsidiary commenced the tender offer on September 17, 2026; the offer was scheduled to expire one minute after 11:59 p.m. Eastern Time on September 30, 2026 unless extended or earlier terminated."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement.",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Copart + ACV Auctions — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    }
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

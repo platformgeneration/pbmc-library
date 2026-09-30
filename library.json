@@ -577,6 +577,24 @@
         "Digital Sovereignty"
       ],
       "status": "published"
+    },
+    {
+      "slug": "copart-acv-auctions",
+      "case_number": "033",
+      "company": "Copart + ACV Auctions",
+      "headline": "Can you buy a network effect?",
+      "industry": [
+        "Automotive Marketplace",
+        "Digital Vehicle Remarketing"
+      ],
+      "topics": [
+        "Network Effects",
+        "Marketplace Acquisition",
+        "Dealer-to-Dealer Wholesale",
+        "Marketplace Liquidity",
+        "M&A"
+      ],
+      "status": "published"
     }
   ]
 }
