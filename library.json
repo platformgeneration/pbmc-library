@@ -739,6 +739,24 @@
         "Commerce Infrastructure"
       ],
       "status": "published"
+    },
+    {
+      "slug": "uber-ride-hailing",
+      "case_number": "042",
+      "company": "Uber Ride-Hailing",
+      "headline": "Why does Uber need riders and drivers in the same place at the same time?",
+      "industry": [
+        "Mobility",
+        "Ride-Hailing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Local Network Effects",
+        "Real-time Matching",
+        "Driver Supply",
+        "Dynamic Pricing"
+      ],
+      "status": "published"
     }
   ]
 }

@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Uber Ride-Hailing",
+    "slug": "uber-ride-hailing",
+    "headline": "Why does Uber need riders and drivers in the same place at the same time?",
+    "case_number": "042",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Ride-Hailing"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Local Network Effects",
+      "Real-time Matching",
+      "Driver Supply",
+      "Dynamic Pricing"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Uber works when enough riders and drivers are available at the same time",
+    "text": "Uber connects people who need a ride with drivers who are ready to take one. The difficult part is that both sides have to meet in the same place and at roughly the same time. A large number of drivers in another city does not help a rider who needs a car now, and many riders do not help a driver if they are too far away. Uber therefore spends much of its effort on balancing local supply and demand: attracting drivers, predicting demand, matching trips, showing estimated arrival times and changing prices or incentives when one side becomes scarce. This is why the network effect in ride-hailing is not only about having many users. It is about having enough useful supply and demand in each local market when a trip is requested."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "A completed ride is the core value unit: a rider is matched with a driver, transported from pickup to destination and the trip is completed through the Uber platform.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "$97.5B Mobility GB",
+          "note": "Uber reported quarterly Mobility Gross Bookings of $21.182B, $23.762B, $25.111B and $27.442B in 2025, totaling about $97.5B for the year."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Uber",
+        "explanation": "Uber owns and operates the technology platform that matches riders with drivers, coordinates pricing and payments, and sets the rules for participating in the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Balance the Market",
+        "explanation": "Uber has to keep enough riders and drivers active in each local market so that riders can get a car quickly and drivers can find paid trips without too much idle time.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Trips / Fees",
+        "explanation": "Uber earns more when more trips are completed and when the marketplace is liquid enough that riders and drivers keep returning.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Local Imbalance / Regulation",
+        "explanation": "Demand and driver supply can change by neighborhood and time of day. Uber also has to operate under different transport, labor, safety and pricing rules across many countries and cities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Service Fee",
+        "explanation": "Uber coordinates the trip and earns Mobility revenue mainly from service fees paid by drivers for use of the platform, as well as other rider charges in some markets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Driver / Safety / Pricing Rules",
+        "explanation": "Uber sets platform rules for driver eligibility, vehicle requirements, conduct, safety, ratings, payments and how trips are offered and priced, subject to local law.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Uber App / Brand",
+        "explanation": "The rider and driver apps are the main access points, supported by Uber's global brand, referrals, promotions and local marketing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Price / Support",
+        "explanation": "Uber runs the apps, predicts demand, matches riders and drivers, calculates prices and ETAs, processes payments, supports users and manages safety and marketplace quality.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Data / Routing",
+        "explanation": "Important resources include the installed rider and driver base, trip and location data, matching and pricing systems, routing technology, payments infrastructure and the Uber brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "People use Uber when they want transport from one place to another and prefer an on-demand ride over driving themselves or using another transport option.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "202M MAPCs*",
+            "note": "Uber reported 202 million Monthly Active Platform Consumers in Q4 2025. This is a platform-wide figure that includes consumers using Mobility and Delivery, not a ride-hailing-only count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get a Ride",
+        "explanation": "Riders want to get from pickup to destination without having to find, call or negotiate with a driver themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Short Wait / Clear Trip",
+        "explanation": "The app can show available ride options, an estimated pickup time, route and price before or during the trip, making an on-demand ride easier to arrange.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Wait / Safety",
+        "explanation": "Riders may face higher prices during busy periods, longer waits when few drivers are nearby, cancellations, service problems or safety concerns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Request / Pay",
+        "explanation": "The rider requests a trip, confirms the pickup and destination and pays through the platform or another locally supported method.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Location / Availability",
+        "explanation": "A ride depends on whether Uber operates in the location, whether an eligible driver is available and whether the requested ride type can be served.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Uber App / Web",
+        "explanation": "Riders usually request trips through the Uber app, with web booking available in some markets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Request / Ride / Rate",
+        "explanation": "Riders choose a ride option, request pickup, take the trip, pay and can rate the experience afterward.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Location / Demand / Payment",
+        "explanation": "Riders bring trip demand, pickup and destination information, payment details, ratings and repeated usage that help create demand density.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Drivers",
+        "explanation": "Drivers are the people or licensed transport providers who make vehicles and driving time available to complete ride requests on the platform.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "10.2M earners*",
+            "note": "Uber reported a record 10.2 million drivers and couriers earning on the platform in Q2 2026. This includes delivery couriers and is not a Mobility-only driver count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Earn by Driving",
+        "explanation": "Drivers want access to nearby trip demand so they can turn their time and vehicle into earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Flexibility",
+        "explanation": "Uber can provide a stream of ride requests without drivers having to find each passenger themselves, while many drivers can choose when to go online.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Idle Time / Vehicle Costs",
+        "explanation": "Drivers can spend time waiting between trips and must manage costs such as fuel or charging, insurance, maintenance, rental or financing and local licensing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Accept / Drive",
+        "explanation": "Drivers receive trip offers, decide whether to accept them where permitted, pick up the rider and complete the requested ride.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "License / Vehicle / Checks",
+        "explanation": "Drivers and vehicles must satisfy the legal and platform requirements that apply in the relevant market, including required documents and safety or background checks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Uber Driver App",
+        "explanation": "Drivers use the Uber Driver app to go online, receive trip requests, navigate to pickup and manage their activity and earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Go Online / Drive / Rate",
+        "explanation": "Drivers make themselves available, accept trips, travel to pickup, transport riders and can rate riders after the trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Vehicle / License",
+        "explanation": "Drivers contribute their time, local mobility capacity, driving skills and access to an eligible vehicle and required permits or licences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Vehicle Partners",
+        "explanation": "Rental, leasing and fleet companies help drivers gain access to vehicles that meet Uber's requirements, especially when a driver does not own a suitable car.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Put Cars on the Road",
+        "explanation": "Vehicle partners expand the pool of usable cars by renting, leasing or operating vehicles that drivers can use for ride-hailing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Rental / Fleet Revenue",
+        "explanation": "They can earn rental, leasing or fleet income by serving drivers who need vehicles to participate in the Uber marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Utilization / Risk",
+        "explanation": "Vehicle partners have to keep cars used enough to cover their costs while managing maintenance, insurance, financing, driver quality and local regulatory requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Vehicle Access",
+        "explanation": "Partners provide eligible cars or fleet access to drivers under rental, leasing or employment arrangements that are usually managed outside the rider transaction itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Vehicle / Market Rules",
+        "explanation": "Vehicles and fleet arrangements must meet Uber's requirements and the transport, insurance and licensing rules of the local market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Vehicle Marketplace / Fleet",
+        "explanation": "Uber connects drivers and fleet operators through vehicle-solution programs, fleet tools and local partner arrangements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rent / Lease / Maintain",
+        "explanation": "Partners acquire and maintain vehicles, manage rental or fleet arrangements and keep cars ready for eligible drivers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cars / Capital / Service",
+        "explanation": "They contribute vehicles, financing capacity, maintenance and fleet-management capability that can increase driver supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "202M MAPCs*",
+        "note": "Q4 2025 platform-wide Monthly Active Platform Consumers; includes Mobility and Delivery consumers.",
+        "target": "consumer"
+      },
+      {
+        "value": "10.2M earners*",
+        "note": "Drivers and couriers earning on Uber in Q2 2026; includes Delivery couriers, so this is broader than ride-hailing drivers alone.",
+        "target": "provider"
+      },
+      {
+        "value": "70+ countries",
+        "note": "Uber said its platform was available in over 70 countries at the end of 2025.",
+        "target": "owner"
+      },
+      {
+        "value": "$97.5B Mobility GB",
+        "note": "Approximate 2025 Mobility Gross Bookings calculated from Uber's four reported quarterly Mobility Gross Bookings figures.",
+        "target": "cvu"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Request / Pay",
+          "explanation": "The rider tells Uber where they want to go and pays for the completed trip through the platform or another supported method."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Trip Offer",
+          "explanation": "Uber's matching system sends a ride request to an available driver based on location and other marketplace conditions."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match / ETA",
+          "explanation": "Uber shows the rider the matched driver, vehicle and estimated arrival information and coordinates the trip in the app."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Ride",
+          "explanation": "The driver performs the physical transport from pickup to destination."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "Uber coordinates driver earnings and settlement after the trip, subject to the local pricing and fee structure."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Vehicle Access",
+          "explanation": "Rental, leasing and fleet partners can supply eligible vehicles to drivers who need a car to participate."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Uber Technologies, Inc. 2025 Annual Report (Form 10-K)",
+      "publisher": "U.S. Securities and Exchange Commission / Uber",
+      "date": "2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+      "note": "Primary source for Uber's platform structure, the Mobility segment, 202 million Q4 2025 MAPCs, 2025 Mobility Gross Bookings, Mobility revenue, more than 70 countries, service-fee revenue model and marketplace dependencies."
+    },
+    {
+      "title": "Uber Announces Results for Fourth Quarter and Full Year 2025",
+      "publisher": "Uber Investor Relations",
+      "date": "2026-02-04",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2025/default.aspx",
+      "note": "Primary source summarising 2025 scale, including more than 200 million monthly users and more than 40 million daily trips across Uber's platform."
+    },
+    {
+      "title": "Q2 2026 Prepared Remarks",
+      "publisher": "Uber Investor Relations",
+      "date": "2026-08-05",
+      "url": "https://investor.uber.com/files/doc_earnings/2026/q2/transcript/Uber-Q2-26-Prepared-Remarks.pdf",
+      "note": "Primary source for the Q2 2026 figure of 10.2 million drivers and couriers earning on the platform. The figure includes both Mobility drivers and Delivery couriers."
+    },
+    {
+      "title": "How Uber works",
+      "publisher": "Uber",
+      "date": "",
+      "url": "https://www.uber.com/de/en/about/how-does-uber-work/",
+      "note": "Primary source for the basic ride flow: rider request, driver match, pickup, trip and two-sided rating after completion."
+    },
+    {
+      "title": "Uber Marketplace Matching",
+      "publisher": "Uber",
+      "date": "",
+      "url": "https://www.uber.com/de/de/marketplace/matching/",
+      "note": "Primary source explaining why ride-hailing matching is a real-time local problem and how Uber uses technology to match riders and drivers based on more than simple geographic distance."
+    },
+    {
+      "title": "Vehicle Marketplace",
+      "publisher": "Uber",
+      "date": "",
+      "url": "https://www.uber.com/us/en/drive/vehicle-solutions/",
+      "note": "Primary source showing Uber's role in connecting drivers who need a car with external vehicle rental and purchase partners."
+    },
+    {
+      "title": "Become a Fleet Owner in Germany with Uber",
+      "publisher": "Uber",
+      "date": "",
+      "url": "https://www.uber.com/de/en/drive/vehicle-solutions/fleet-owners/",
+      "note": "Example of the fleet-partner operating model: external operators provide licensed, insured vehicles and use Uber's supplier tools to manage fleets and drivers."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "uber-robotaxis",
+      "akippa",
+      "blablacar"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Uber Ride-Hailing — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
