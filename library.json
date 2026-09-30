@@ -631,6 +631,24 @@
         "Government as a Platform"
       ],
       "status": "published"
+    },
+    {
+      "slug": "pontes",
+      "case_number": "036",
+      "company": "Pontes",
+      "headline": "Can the bridge become the strategic platform?",
+      "industry": [
+        "Financial Market Infrastructure",
+        "Tokenised Finance"
+      ],
+      "topics": [
+        "Interoperability",
+        "DLT",
+        "Central Bank Money",
+        "TARGET Services",
+        "Platform Between Platforms"
+      ],
+      "status": "published"
     }
   ]
 }

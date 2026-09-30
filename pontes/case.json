@@ -1,0 +1,448 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Pontes",
+    "slug": "pontes",
+    "headline": "Can the bridge become the strategic platform?",
+    "case_number": "036",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-24",
+    "status": "official",
+    "industry": [
+      "Financial Market Infrastructure",
+      "Tokenised Finance"
+    ],
+    "topics": [
+      "Interoperability",
+      "DLT",
+      "Central Bank Money",
+      "TARGET Services",
+      "Platform Between Platforms"
+    ],
+    "geography": [
+      "Euro area",
+      "Europe"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Keep your network. Connect it.",
+    "text": "Pontes shows a platform strategy built around interoperability rather than migration. Market DLT platforms can retain their own users, technology and business models while connecting to a common settlement layer anchored in central bank money. The strategic value of the bridge grows if it makes otherwise separate networks easier and safer to use together. That does not mean interoperability automatically creates a network effect, but it can make the connecting layer more valuable as more eligible platforms and participants join."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Settlement",
+      "explanation": "At the center is settlement: completing the cash leg of a tokenised wholesale transaction in central bank money, with legal finality.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "consumer": {
+      "actor": {
+        "value": "Banks",
+        "explanation": "On the Consumer side, Banks is a compact umbrella label. The official category is broader: eligible market participants with access to T2, including banks and public financial institutions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Settle Trades",
+        "explanation": "Their job is to settle tokenised wholesale trades safely and finally.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Safe / Fast",
+        "explanation": "The gain is safe central-bank-money settlement with less manual coordination and more automation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Silos / Risk",
+        "explanation": "The problem is fragmentation. If tokenised markets grow on separate infrastructures, participants face more integration work and settlement complexity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pay / Settle",
+        "explanation": "Participants send the cash leg into settlement and receive final settlement back.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "T2 Access",
+        "explanation": "At launch, market participants must have access to T2 under the TARGET framework.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Pontes",
+        "explanation": "Pontes is the access layer that links eligible market participants to tokenised transactions across market DLT platforms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Trade / Pay",
+        "explanation": "They trade tokenised assets and provide the payment leg needed to settle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cash / Assets",
+        "explanation": "They bring cash in central bank accounts and the tokenised assets or positions being settled.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Platforms",
+        "explanation": "On the Provider side are the market DLT platforms. At launch, onboarded operators included Axiology, Cashlink, Clearstream and SWIAT.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Keep Network",
+        "explanation": "Their unusual job is to keep serving their own network while gaining access to trusted central-bank-money settlement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trust / Reach",
+        "explanation": "The gain is a trusted settlement anchor and the ability to connect their services to a broader euro settlement infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Silos / Link",
+        "explanation": "Their pain is the cost and complexity of linking separate ledgers and synchronising the asset and cash legs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Trade / Sync",
+        "explanation": "The platform contributes the asset-side transaction. Pontes synchronises it with the cash-side settlement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Eligible",
+        "explanation": "Only eligible, supervised market DLT operators can connect at launch.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Hash-Link",
+        "explanation": "One key access mechanism is Hash-Link: the protocol Pontes uses to support secure, synchronised delivery-versus-payment across platforms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Record / Sync",
+        "explanation": "The DLT platform records the tokenised asset transaction and coordinates the settlement event with Pontes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Ledger / Data",
+        "explanation": "Its resources are the ledger, transaction state and data needed to complete the asset-side transfer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "4CB",
+        "explanation": "The Partner is the four Service Providing Central Banks: Deutsche Bundesbank, Banco de España, Banque de France and Banca d'Italia. In the Pontes service design, Service Providers carry the technical Operator role.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run Infra",
+        "explanation": "Their job is to run the infrastructure reliably so the Eurosystem can offer Pontes as an operational settlement service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Role / Scale",
+        "explanation": "The gain is an operational role in a new Eurosystem market infrastructure and the ability to scale that service as adoption grows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Ops / Risk",
+        "explanation": "The pain is operational complexity and risk: the service has to remain secure, resilient and coordinated across central-bank infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Operate / Host",
+        "explanation": "Their transaction role is operational: they provide the technical service that hosts and runs the Pontes infrastructure for the Eurosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Mandate",
+        "explanation": "Participation in this role is not open-market supply. It follows the Eurosystem service-provider mandate.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Nodes",
+        "explanation": "They connect through Pontes' operational node and service-provider architecture.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Run / Test",
+        "explanation": "Their recurring activities include operating the service, testing releases and supporting technical readiness.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Nodes / Infra",
+        "explanation": "Their key resources are the technical nodes and infrastructure needed to operate Pontes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Eurosystem",
+        "explanation": "The Owner is the Eurosystem, not the ECB alone. Pontes and TARGET Services are Eurosystem market infrastructures operated for the euro area.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Bridge Networks",
+        "explanation": "Its job is to bridge separate tokenised-market networks to a common settlement anchor without forcing them all onto one market platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Anchor",
+        "explanation": "The strategic gain is reach while preserving the anchoring role of central bank money across a fragmented digital market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fragment / Risk",
+        "explanation": "The threat is fragmentation and settlement risk if tokenised finance grows into incompatible silos.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Settle / Sync",
+        "explanation": "Pontes participates directly in the exchange by settling the cash leg and synchronising it with the asset leg.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Access / Rules",
+        "explanation": "The Eurosystem controls eligibility, participation rules and the settlement design around Pontes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Onboard / Test",
+        "explanation": "Growth comes through onboarding market participants and DLT operators, supported by testing and market engagement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Operate / Link",
+        "explanation": "The Eurosystem operates the settlement infrastructure, links the systems and extends the service over time.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "TARGET / Money",
+        "explanation": "Its distinctive resources are TARGET Services and central bank money. Final settlement in central bank money sits inside central-bank infrastructure and cannot simply be replicated by a private DLT platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "13+ Ready",
+        "note": "The launch announcement lists 13 market participants ready to use Pontes and notes Deutsche Bundesbank separately in a market-participant capacity.",
+        "target": "consumer"
+      },
+      {
+        "value": "4 DLTs",
+        "note": "Four market DLT operators were onboarded at launch: Axiology, Cashlink, Clearstream and SWIAT.",
+        "target": "provider"
+      },
+      {
+        "value": "4 SPs",
+        "note": "Four national central banks serve in the Service Provider function: Deutsche Bundesbank, Banco de España, Banque de France and Banca d'Italia.",
+        "target": "partner"
+      },
+      {
+        "value": "21 Sep Live",
+        "note": "Pontes launched on 21 September 2026.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "after": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Payment",
+          "explanation": "Market participants send the cash-side payment into the Pontes/T2 settlement process."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Trade",
+          "explanation": "The DLT platform provides the transaction event that Pontes must synchronise with the cash leg."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Sync",
+          "explanation": "Pontes synchronises the settlement outcome back to the DLT side so delivery and payment can complete together."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Finality",
+          "explanation": "The participant receives final settlement in central bank money once the cash leg is completed."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Mandate",
+          "explanation": "The Eurosystem gives the Service Provider function the operating mandate, rules and technical responsibilities needed to run Pontes."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Service",
+          "explanation": "The four Service Providing Central Banks provide the technical operating service that makes Pontes available as live Eurosystem infrastructure."
+        }
+      ]
+    }
+  },
+  "media": {
+    "youtube_id": "SZVws3hHwrk",
+    "youtube_url": "https://www.youtube.com/watch?v=SZVws3hHwrk",
+    "thumbnail": "",
+    "youtube_title": "Watch the Pontes case study"
+  },
+  "sources": [
+    {
+      "title": "Eurosystem brings central bank money to tokenised finance",
+      "publisher": "European Central Bank",
+      "date": "2026-09-21",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+      "note": "Official launch announcement, including the initial market participants and the four onboarded market DLT operators."
+    },
+    {
+      "title": "Pontes",
+      "publisher": "European Central Bank",
+      "date": "",
+      "url": "https://www.ecb.europa.eu/paym/target/pontes/html/index.en.html",
+      "note": "Official overview of the Pontes architecture, eligibility rules, TARGET connection, dual settlement model and Hash-Link interoperability mechanism."
+    },
+    {
+      "title": "Pontes — professional use",
+      "publisher": "European Central Bank",
+      "date": "2026-09-21",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes-documents-links/html/index.en.html",
+      "note": "Official documentation hub including the current Pontes Pilot Service Description, User Handbook and OpenAPI documentation."
+    },
+    {
+      "title": "Pontes Pilot — Business Description Document v1.0",
+      "publisher": "European Central Bank / Eurosystem",
+      "date": "2026-02-03",
+      "url": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes260220_bdd.en.pdf",
+      "note": "Official architecture and actor-role description. It identifies Service Providers as the technical providers and operators and assigns them the Operator role."
+    },
+    {
+      "title": "TARGET Services & Pontes",
+      "publisher": "European Central Bank",
+      "date": "",
+      "url": "https://www.ecb.europa.eu/paym/target/html/index.en.html",
+      "note": "Operational context for Pontes within the Eurosystem market infrastructure and TARGET Services."
+    },
+    {
+      "title": "From vision to delivery: building Europe’s tokenised financial market",
+      "publisher": "European Central Bank",
+      "date": "2026-08-26",
+      "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
+      "note": "Roadmap and strategic context, including fragmentation risk, longer operating hours, planned 24/7 service, programmability, resilience and multi-currency capability by mid-2028."
+    }
+  ],
+  "related": {
+    "manual_override": [],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. (2026). BWI — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "after"
+  }
+}
