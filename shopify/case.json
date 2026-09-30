@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Shopify",
+    "slug": "shopify",
+    "headline": "How can Shopify power millions of independent stores without becoming one giant marketplace?",
+    "case_number": "041",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "E-commerce",
+      "Commerce Infrastructure"
+    ],
+    "topics": [
+      "Merchant Platform",
+      "Independent Storefronts",
+      "App Ecosystem",
+      "Payments",
+      "Commerce Infrastructure"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Shopify powers many independent stores instead of one central marketplace",
+    "text": "Amazon brings many sellers into one marketplace that shoppers visit. Shopify works differently. It gives each merchant its own online store and provides shared technology underneath, including checkout, payments, inventory tools, analytics and apps. Shoppers usually interact with the merchant's brand and may not even notice that Shopify is powering the transaction. This lets Shopify grow without forcing every seller and shopper into one central shopping destination. The developer ecosystem strengthens the model because outside companies can add specialized functions that Shopify does not have to build itself."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Storefront",
+      "explanation": "The core value unit is a merchant-controlled storefront: the products, prices, brand presentation and checkout experience that a shopper can browse and buy from using Shopify-powered commerce tools.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "$378B GMV",
+          "note": "Shopify reported $378.4 billion in gross merchandise volume facilitated through the platform in 2025."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "People buy from independent brands and retailers whose stores are powered by Shopify. They may reach those stores directly, through social media, search, the Shop app or other sales channels.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "150M+ Shop buyers",
+            "note": "Shopify says the Shop experience can reach more than 150 million buyers worldwide. This is not the total number of people who buy from Shopify-powered stores."
+          }
+        ]
+      },
+      "job": {
+        "value": "Buy from Brands",
+        "explanation": "Shoppers want to find a product they like, trust the store, pay easily and receive the order without needing to understand the technology behind the store.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Fast Checkout",
+        "explanation": "They can buy directly from many different brands while using familiar checkout, payment and order-tracking experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Fragmentation",
+        "explanation": "Because every merchant has its own store, shoppers can face different brands, policies, delivery options and levels of trust.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "The shopper places an order with a merchant and pays through the store's checkout, which may use Shopify Payments and Shop Pay.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Store / Payment Rules",
+        "explanation": "Access depends on the merchant's market, product, shipping and payment rules, together with fraud and payment checks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Merchant Stores / Shop",
+        "explanation": "Shoppers normally enter through a merchant's own storefront, but Shopify can also support discovery and repeat purchasing through Shop and other connected channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Browse / Buy / Track",
+        "explanation": "They browse products, choose a merchant, complete checkout and track or manage their order.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Identity / Payment",
+        "explanation": "Shoppers contribute attention, purchase intent, account or contact details, payment information and order history.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Merchants",
+        "explanation": "Businesses use Shopify to create and operate their own commerce experiences rather than listing everything inside one shared Shopify marketplace.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Millions of merchants",
+            "note": "Shopify reports millions of merchants in more than 175 countries."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Commerce",
+        "explanation": "Merchants need to build a store, manage products and inventory, accept payments, fulfill orders and sell across different channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Control / Commerce Tools",
+        "explanation": "They keep their own brand and storefront while using shared technology for checkout, payments, operations, analytics and extensions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition / Cost",
+        "explanation": "Merchants still have to attract their own customers and manage marketing, margins, apps, fulfillment and the cost of running the store.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Sell / Fulfill",
+        "explanation": "The merchant publishes products, accepts orders and is responsible for delivering the goods or services purchased by the shopper.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Plan / Policies",
+        "explanation": "Merchants choose a Shopify plan and must follow platform, payments, app and acceptable-use requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Shopify Admin",
+        "explanation": "The Shopify Admin is the main operating interface for products, orders, inventory, customers, analytics, apps and sales channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Sell / Operate",
+        "explanation": "Merchants create the storefront, manage products and prices, market the brand, process orders and support customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Catalog / Inventory",
+        "explanation": "They bring the products or services, brand, product content, inventory, customer relationships and fulfillment capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "App Developers",
+        "explanation": "Independent developers build apps and extensions that add specialized functions to Shopify stores and merchant operations.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "21K+ Apps",
+            "note": "Shopify reports more than 21,000 apps in its App Store."
+          },
+          {
+            "value": "$1.3B Paid",
+            "note": "Shopify says it paid more than $1.3 billion to partners and developers in 2025."
+          }
+        ]
+      },
+      "job": {
+        "value": "Extend Shopify",
+        "explanation": "Developers fill specific merchant needs such as marketing, subscriptions, support, accounting, fulfillment, analytics and store design.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Merchant Revenue",
+        "explanation": "They can sell software and services to Shopify's large merchant base and build recurring businesses on top of the platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rules / Competition",
+        "explanation": "Developers depend on Shopify's APIs, review rules and platform changes while competing with many other apps and some native Shopify features.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Apps / Services",
+        "explanation": "Developers provide software, extensions and services that merchants can install or connect to their Shopify setup.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "App Review / Rules",
+        "explanation": "Public apps must meet Shopify's technical, security, privacy and App Store requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "APIs / App Store",
+        "explanation": "Developers use Shopify APIs, developer tools and the App Store to build, distribute and support integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Integrate / Support",
+        "explanation": "They build apps, maintain integrations, support merchants and adapt to changes in Shopify's platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Code / Expertise",
+        "explanation": "They contribute software, industry knowledge, specialized functionality and support capacity that Shopify does not need to create internally.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Shopify",
+        "explanation": "Shopify owns and operates the commerce platform that merchants use to build stores and run transactions across online, retail and other channels.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "175+ Countries",
+            "note": "Shopify reports merchants in more than 175 countries."
+          }
+        ]
+      },
+      "job": {
+        "value": "Power Commerce",
+        "explanation": "Shopify has to make it easier for merchants to start, operate and grow a business while keeping checkout and core commerce infrastructure reliable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Subscriptions / Usage",
+        "explanation": "Shopify earns more when more merchants join and when existing merchants sell more and use additional merchant services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Reliability / Complexity",
+        "explanation": "Shopify must keep a global commerce system secure and reliable while supporting many merchant sizes, countries, channels, payment methods and third-party apps.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Plans / Merchant Fees",
+        "explanation": "Shopify charges subscription fees and earns merchant-solution revenue from services such as payments, transaction-related services and other commerce tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Platform / App Rules",
+        "explanation": "Shopify sets the rules for merchants, payments, apps, APIs, security, data use and participation in its ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Partners / Shop / Brand",
+        "explanation": "Shopify grows through merchant referrals, agencies and partners, its own brand and products such as Shop that can help merchants reach buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Operate / Connect",
+        "explanation": "Shopify develops the commerce platform, runs checkout and payments infrastructure, supports merchants and maintains the APIs and ecosystem around the core product.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Platform / Checkout / APIs",
+        "explanation": "Key resources include the Shopify platform, checkout technology, Shopify Payments and Shop Pay, merchant data, APIs, developer tools and the merchant ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Store / Fees",
+          "explanation": "Merchants run their commerce business on Shopify and pay subscriptions and applicable service or transaction-related fees."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Commerce Tools",
+          "explanation": "Shopify provides the storefront technology, admin, checkout, payments, analytics and other tools merchants use to run commerce."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Store / Products",
+          "explanation": "The merchant presents its own brand, products and storefront directly to shoppers rather than placing everything inside one central Shopify marketplace."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Order / Payment",
+          "explanation": "The shopper buys from the merchant. Shopify can power the checkout and payment experience, but the commercial relationship is with the merchant."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Apps / Extensions",
+          "explanation": "Developers extend Shopify with apps and integrations that solve specialized merchant needs."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "APIs / Revenue",
+          "explanation": "Shopify provides APIs, distribution through the App Store and revenue opportunities that let developers build businesses on the platform."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "About Shopify",
+      "publisher": "Shopify",
+      "date": "",
+      "url": "https://www.shopify.com/news/about-us",
+      "note": "Primary source for Shopify's current scale: millions of merchants in 175+ countries, 21,000+ apps, $378 billion in 2025 GMV and more than 14% share of U.S. e-commerce."
+    },
+    {
+      "title": "2025 Annual Report",
+      "publisher": "Shopify / SEC",
+      "date": "2026-02-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000011/shop-20251231.htm",
+      "note": "Primary financial and business-model source. Shopify reports $378.4 billion in 2025 GMV, $11.5 billion in revenue and explains that merchant success drives use of subscriptions, merchant solutions and apps."
+    },
+    {
+      "title": "The developers behind Shopify's $1.3 billion app ecosystem",
+      "publisher": "Shopify",
+      "date": "2026-04-28",
+      "url": "https://www.shopify.com/news/billion-dollar-ecosystem",
+      "note": "Primary source for the developer ecosystem: more than $1.3 billion paid to developers in 2025 and nearly 20% growth in active app installs."
+    },
+    {
+      "title": "Shopify Partner Program",
+      "publisher": "Shopify",
+      "date": "",
+      "url": "https://www.shopify.com/partners",
+      "note": "Primary source describing how partners earn through apps, themes, store builds and referrals and how developers build on Shopify's commerce platform."
+    },
+    {
+      "title": "Shop Pay",
+      "publisher": "Shopify",
+      "date": "",
+      "url": "https://www.shopify.com/shop-pay",
+      "note": "Primary source for the shared buyer-side checkout layer and Shopify's statement that Shop can reach more than 150 million buyers worldwide."
+    },
+    {
+      "title": "Shopify Editions — Winter 2026",
+      "publisher": "Shopify",
+      "date": "2025-12",
+      "url": "https://www.shopify.com/editions/winter2026",
+      "note": "Current product source showing how Shopify continues to integrate payments, shipping, B2B, checkout and third-party fulfillment into one merchant operating system."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "shopify-ai-agents",
+      "amazon-marketplace",
+      "flipkart",
+      "rakuten-ichiba"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Shopify — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}

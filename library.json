@@ -721,6 +721,24 @@
         "Merchant Platform"
       ],
       "status": "published"
+    },
+    {
+      "slug": "shopify",
+      "case_number": "041",
+      "company": "Shopify",
+      "headline": "How can Shopify power millions of independent stores without becoming one giant marketplace?",
+      "industry": [
+        "E-commerce",
+        "Commerce Infrastructure"
+      ],
+      "topics": [
+        "Merchant Platform",
+        "Independent Storefronts",
+        "App Ecosystem",
+        "Payments",
+        "Commerce Infrastructure"
+      ],
+      "status": "published"
     }
   ]
 }
