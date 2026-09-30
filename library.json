@@ -649,6 +649,42 @@
         "Platform Between Platforms"
       ],
       "status": "published"
+    },
+    {
+      "slug": "phonepe-india-upi",
+      "case_number": "037",
+      "company": "PhonePe India",
+      "headline": "What does PhonePe own when UPI owns the rails?",
+      "industry": [
+        "Digital Payments",
+        "UPI Payments"
+      ],
+      "topics": [
+        "Network Effects",
+        "UPI",
+        "Payment Infrastructure",
+        "Interoperability",
+        "Platform Portability"
+      ],
+      "status": "published"
+    },
+    {
+      "slug": "phonepe-uae",
+      "case_number": "038",
+      "company": "PhonePe UAE",
+      "headline": "Can you export a network effect?",
+      "industry": [
+        "Digital Payments",
+        "UAE Payments"
+      ],
+      "topics": [
+        "Network Effects",
+        "International Expansion",
+        "Aani",
+        "Jaywan",
+        "Platform Portability"
+      ],
+      "status": "published"
     }
   ]
 }

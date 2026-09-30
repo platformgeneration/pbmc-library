@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "PhonePe UAE",
+    "slug": "phonepe-uae",
+    "headline": "Can you export a network effect?",
+    "case_number": "038",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Digital Payments",
+      "UAE Payments"
+    ],
+    "topics": [
+      "Network Effects",
+      "International Expansion",
+      "Aani",
+      "Jaywan",
+      "Platform Portability"
+    ],
+    "geography": [
+      "United Arab Emirates"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "The platform can travel faster than the network effect.",
+    "text": "PhonePe can bring software, product design, brand, risk know-how and experience operating at very high transaction volumes into the UAE. What does not automatically travel are the local users, merchants, regulated partners, payment rails and participation rules that made the Indian loop liquid. The target-state PBMC therefore keeps the user and merchant roles but replaces the UPI partner architecture with local banks and licensed payment providers connected to UAE infrastructure. The network effect has to be activated again locally."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Payment",
+      "explanation": "The core value unit remains a local digital payment between users and merchants. The transaction is familiar; the ecosystem that makes it work changes across the border.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "consumer": {
+      "actor": {
+        "value": "Users",
+        "explanation": "The Consumer side is local UAE users who would use PhonePe for everyday payments and transfers once commercial operations are approved and launched.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Pay Fast",
+        "explanation": "Their job remains to pay quickly through a simple digital interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Simple",
+        "explanation": "The intended gain is the same familiar outcome: fast, simple everyday payment experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cash / Friction",
+        "explanation": "Users still face friction from fragmented or inconvenient payment experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pay / Send",
+        "explanation": "Users would initiate local payments and transfers through PhonePe.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Eligible",
+        "explanation": "Local account, identity and service eligibility would follow the UAE payment framework and the participating financial institution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App",
+        "explanation": "The portable interface is the PhonePe app and its product experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Scan / Pay",
+        "explanation": "The repeated behavior remains choosing a payment, scanning or selecting a recipient and authorizing it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Account / Phone",
+        "explanation": "Users need an eligible local account or stored-value relationship, a phone and authorization credentials.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Merchants",
+        "explanation": "The Provider side is UAE merchants that would accept PhonePe-supported local payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Paid",
+        "explanation": "Their job remains to get paid reliably and with low acceptance friction.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Speed",
+        "explanation": "The gain is access to active digital customers and fast payment confirmation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cash / Delay",
+        "explanation": "Acceptance friction, fragmented payment methods and failed or delayed transactions remain merchant pains.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Sell / Receive",
+        "explanation": "Merchants provide goods or services and receive payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Onboard",
+        "explanation": "Merchant participation has to be created locally through PhonePe and the relevant UAE acquiring or payment relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "QR / POS",
+        "explanation": "Acceptance can use QR, online checkout or other local merchant interfaces once supported.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Accept / Serve",
+        "explanation": "Merchants repeatedly present acceptance and serve customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Goods / QR",
+        "explanation": "They bring goods or services and a local payment acceptance endpoint.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Banks",
+        "explanation": "Banks is a compact umbrella for the regional banks and licensed payment service providers PhonePe says it plans to collaborate with. The role is local and must be rebuilt; it is not the Indian NPCI relationship carried abroad.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Enable Pay",
+        "explanation": "Local partners enable account access, acquiring, payment integration and settlement within the UAE architecture.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Volume / Reach",
+        "explanation": "The partner-side gain is additional payment volume, customer reach and service usage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rules / Risk",
+        "explanation": "Partners operate under local licensing, security, compliance and risk obligations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Access / Settle",
+        "explanation": "Their transaction role is to provide regulated access and settlement enablement around local payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Licensed",
+        "explanation": "Retail payment services and relevant participant roles are subject to Central Bank of the UAE licensing and supervision.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Aani / Jaywan",
+        "explanation": "PhonePe says it intends to explore support for Aani and Jaywan, the UAE domestic payment rails. Aani itself is operated by Al Etihad Payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Link / Clear",
+        "explanation": "Local financial partners link PhonePe to accounts, payment infrastructure and clearing or settlement processes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Accounts / APIs",
+        "explanation": "They contribute regulated account access, payment interfaces and the local connectivity PhonePe cannot simply import from India.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "PhonePe",
+        "explanation": "PhonePe remains the Owner of the private platform layer. As of the September 30, 2026 snapshot, the UAE local operation is still a target state: PhonePe has in-principle approvals but not final commercial approval.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Enter UAE",
+        "explanation": "Its job is to establish a functioning local PhonePe payment platform in its first international market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Growth / Reach",
+        "explanation": "The intended gain is new market reach and transaction growth beyond India.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Rebuild / Links",
+        "explanation": "The strategic pain is that local user, merchant, banking, infrastructure and regulatory relationships have to be connected again.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Route / Serve",
+        "explanation": "PhonePe would still capture payment intent, provide the interface and orchestrate the transaction into the local payment architecture.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "License / Risk",
+        "explanation": "PhonePe can govern its product experience and internal risk controls, but UAE licensing and local payment-system rules constrain what can be offered.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Partners",
+        "explanation": "PhonePe explicitly frames deep ecosystem integration and local partnerships as part of its UAE market strategy.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Link",
+        "explanation": "The Owner must localize the product, build the service and connect banks, payment providers, merchants and domestic rails.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "App / Brand",
+        "explanation": "The portable resources are software, app capabilities, brand, operating know-how, risk capabilities and experience at scale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "2 IPAs",
+        "note": "PhonePe announced in-principle approval for two UAE licences: Retail Payment Services and Card Schemes (RPSCS) and Stored Value Facilities (SVF). These are not final commercial licences.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "after": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Payment",
+          "explanation": "The network effect still forms around local users paying useful local merchants."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Intent",
+          "explanation": "Users give PhonePe the payment intent and authorization context through the app."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Status",
+          "explanation": "PhonePe provides the front-end experience and transaction result."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Enroll",
+          "explanation": "Merchants must be onboarded again into the UAE acceptance network."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Tools",
+          "explanation": "PhonePe must provide locally usable merchant acceptance and payment tools."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Connect",
+          "explanation": "PhonePe has to connect to regional banks, licensed payment providers and local infrastructure rather than carrying UPI with it."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Access",
+          "explanation": "Local financial partners provide regulated ecosystem access, accounts and payment connectivity."
+        }
+      ]
+    }
+  },
+  "media": {
+    "youtube_id": "jjZoVhYWbOE",
+    "youtube_url": "https://www.youtube.com/watch?v=jjZoVhYWbOE",
+    "thumbnail": "",
+    "youtube_title": "Watch the PhonePe India-to-UAE case study"
+  },
+  "sources": [
+    {
+      "title": "PhonePe Marks First International Footprint in UAE, Securing In-Principle Approval from Central Bank of UAE",
+      "publisher": "PhonePe",
+      "date": "2026-09-22",
+      "url": "https://www.phonepe.com/press/phonepe-marks-first-international-footprint-in-uae-securing-in-principle-approval-from-central-bank-of-uae",
+      "note": "Primary source for the two in-principle approvals, planned UAE local operation, local partnership strategy, and PhonePe intent to explore support for Aani and Jaywan. Final commercial approval is still pending at the snapshot date."
+    },
+    {
+      "title": "Aani",
+      "publisher": "Al Etihad Payments",
+      "date": "",
+      "url": "https://aep.ae/en/services/aani/",
+      "note": "Official description of the UAE instant-payment rail, 24/7 payments, participating licensed financial institutions and payment-service-provider access."
+    },
+    {
+      "title": "Aani Delivers a Transformational Leap in the UAE’s Digital Payments Landscape",
+      "publisher": "Al Etihad Payments",
+      "date": "2026-04-10",
+      "url": "https://aep.ae/en/news-media/press-releasesarticles/aani-delivers-a-transformational-leap-in-the-uae-s-digital-payments-landscape-125-million-users-and-instant-transfers-in-3-seconds/",
+      "note": "Official scale context: more than 12.5 million Aani users and connectivity to 74 licensed financial institutions by April 2026. These are Aani ecosystem figures, not PhonePe UAE users or partners."
+    },
+    {
+      "title": "Retail Payment Services and Card Schemes Regulation — Introduction",
+      "publisher": "Central Bank of the UAE",
+      "date": "",
+      "url": "https://rulebook.centralbank.ae/en/rulebook/introduction-57",
+      "note": "Official licensing and regulatory framework for digital retail payment services and card schemes in the UAE."
+    },
+    {
+      "title": "Scope and Objectives — Retail Payment Services and Card Schemes Regulation",
+      "publisher": "Central Bank of the UAE",
+      "date": "",
+      "url": "https://rulebook.centralbank.ae/en/rulebook/scope-and-objectives-0",
+      "note": "Official description of licensing, access, supervision, safety, efficiency and innovation objectives for UAE retail payment services."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "phonepe-india-upi"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. (2026). BWI — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "after"
+  }
+}

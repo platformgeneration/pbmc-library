@@ -1,0 +1,448 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "PhonePe India",
+    "slug": "phonepe-india-upi",
+    "headline": "What does PhonePe own when UPI owns the rails?",
+    "case_number": "037",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Digital Payments",
+      "UPI Payments"
+    ],
+    "topics": [
+      "Network Effects",
+      "UPI",
+      "Payment Infrastructure",
+      "Interoperability",
+      "Platform Portability"
+    ],
+    "geography": [
+      "India"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Scale can sit on infrastructure you do not own.",
+    "text": "PhonePe controls the app, product experience, merchant tools, brand, data capabilities and much of the orchestration around a huge two-sided payment network. But the interoperable rail underneath the UPI experience is operated and governed by NPCI. The PBMC separates private platform assets from shared infrastructure: PhonePe can carry its software and operating capabilities abroad, while UPI participation, rules and the Indian bank network do not automatically travel with it."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Payment",
+      "explanation": "The core value unit is a payment: a user wants to send money or pay a merchant, and PhonePe turns that intent into a simple digital transaction.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "consumer": {
+      "actor": {
+        "value": "Users",
+        "explanation": "On the Consumer side are users making everyday payments and transfers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Pay Fast",
+        "explanation": "Their job is to pay quickly without cash or complicated bank details.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Simple",
+        "explanation": "The gain is speed and simplicity across person-to-person and merchant payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cash / Friction",
+        "explanation": "The alternative pain is friction from cash, manual transfers or fragmented payment experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pay / Send",
+        "explanation": "Users send money or initiate a payment through the PhonePe app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Banked",
+        "explanation": "For PhonePe UPI, the user needs an eligible bank or payment account linked to an active mobile number.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App",
+        "explanation": "The interface PhonePe controls is the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Scan / Pay",
+        "explanation": "Repeated behavior is scan, choose and pay.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Bank / Phone",
+        "explanation": "Users bring a bank or payment account, a phone and the credentials needed to authorize payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Merchants",
+        "explanation": "On the Provider side are merchants accepting digital payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Paid",
+        "explanation": "Their job is to get paid reliably and with as little friction as possible.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Speed",
+        "explanation": "The gain is reach to digital customers and faster payment confirmation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cash / Delay",
+        "explanation": "Cash handling and delayed or failed payments create friction on the merchant side.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Sell / Receive",
+        "explanation": "Merchants sell goods or services and receive payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Onboard",
+        "explanation": "Merchants have to be onboarded through the relevant acquiring and payment framework.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "QR / POS",
+        "explanation": "Their practical access is through QR codes, online checkout and other acceptance tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Accept / Serve",
+        "explanation": "They repeatedly present payment acceptance and serve the customer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Goods / QR",
+        "explanation": "They bring the goods or services and a payment acceptance endpoint.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "NPCI",
+        "explanation": "NPCI, the National Payments Corporation of India, operates and coordinates the UPI network that makes the PhonePe payment experience interoperable across participating banks and apps.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run UPI",
+        "explanation": "Its job is to keep UPI available as a common national payment network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Scale / Trust",
+        "explanation": "The system-level gain is scale and trust: many banks and payment apps can participate in one interoperable network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Load / Fraud",
+        "explanation": "At that scale, the infrastructure must manage reliability, fraud, disputes and operational load.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Route / Settle",
+        "explanation": "NPCI provides routing, processing and settlement functions across UPI participants.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Rules",
+        "explanation": "NPCI defines participation and operating rules for UPI within the wider regulated payments framework.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Network",
+        "explanation": "PhonePe reaches UPI through the network and its required banking relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Route / Clear",
+        "explanation": "The recurring infrastructure activity is to route, process and clear transactions across participants.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "UPI / Rails",
+        "explanation": "The critical resource is the UPI rail itself. PhonePe can use it, but PhonePe does not own it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "PhonePe",
+        "explanation": "The Owner of the private platform layer is PhonePe.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Scale Pay",
+        "explanation": "Its job is to scale a trusted payment experience across users and merchants.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Usage",
+        "explanation": "The gain is reach and transaction usage across a very large two-sided acceptance network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Depend / Rules",
+        "explanation": "The strategic pain is dependence on infrastructure and rules PhonePe does not fully control.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Route / Serve",
+        "explanation": "PhonePe captures payment intent, serves the interface and routes the request into the underlying payment architecture.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "UX / Risk",
+        "explanation": "PhonePe controls much of the user experience and its own risk controls, while UPI participation remains governed by external rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Brand / Deals",
+        "explanation": "Growth comes through brand, distribution and commercial partnerships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Build / Support",
+        "explanation": "PhonePe builds the product, supports users and merchants, and keeps the front end reliable at very large scale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "App / Data",
+        "explanation": "Portable resources include the app, software, transaction know-how, brand and data capabilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "720M Users",
+        "note": "PhonePe reported more than 720 million life-to-date registered users as of August 2026; this is not a monthly-active-user figure.",
+        "target": "consumer"
+      },
+      {
+        "value": "50M Merch.",
+        "note": "PhonePe reports a digital-payment acceptance network across more than 50 million merchants in India.",
+        "target": "provider"
+      },
+      {
+        "value": "11B Tx/mo",
+        "note": "Rounded platform-strength indicator based on roughly 11 billion customer transactions in July 2026.",
+        "target": "owner"
+      },
+      {
+        "value": "752 Banks",
+        "note": "NPCI reported 752 banks live on UPI in August 2026. This is UPI network scale, not a count of PhonePe-owned banks.",
+        "target": "partner"
+      }
+    ],
+    "flows": {
+      "after": [
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Payment",
+          "explanation": "The direct value flow is the payment from user to merchant; the money moves account to account through the UPI banking infrastructure."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Intent",
+          "explanation": "The user gives PhonePe the payment intent and authorization context."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Status",
+          "explanation": "PhonePe returns the payment experience and transaction status to the user."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Enroll",
+          "explanation": "Merchants join the acceptance network and provide the information needed to accept payments."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Tools",
+          "explanation": "PhonePe gives merchants acceptance tools such as QR, payment gateway and point-of-sale products."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Request",
+          "explanation": "PhonePe sends transaction requests into the UPI infrastructure through the required banking relationships."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Rails",
+          "explanation": "NPCI provides the common routing, processing and settlement network that the PhonePe UPI experience depends on."
+        }
+      ]
+    }
+  },
+  "media": {
+    "youtube_id": "jjZoVhYWbOE",
+    "youtube_url": "https://www.youtube.com/watch?v=jjZoVhYWbOE",
+    "thumbnail": "",
+    "youtube_title": "Watch the PhonePe India-to-UAE case study"
+  },
+  "sources": [
+    {
+      "title": "PhonePe Marks First International Footprint in UAE",
+      "publisher": "PhonePe",
+      "date": "2026-09-22",
+      "url": "https://www.phonepe.com/press/phonepe-marks-first-international-footprint-in-uae-securing-in-principle-approval-from-central-bank-of-uae",
+      "note": "Current PhonePe scale, first international expansion context and explicit statement that the UAE plan will rely on deep local ecosystem integration."
+    },
+    {
+      "title": "UPI Terms and Conditions",
+      "publisher": "PhonePe",
+      "date": "",
+      "url": "https://www.phonepe.com/terms-conditions/upi/",
+      "note": "Primary source for PhonePe as a third-party application provider and the roles of NPCI, PSP banks and UPI participants."
+    },
+    {
+      "title": "PhonePe — In the Press",
+      "publisher": "PhonePe",
+      "date": "",
+      "url": "https://www.phonepe.com/press/",
+      "note": "Company newsroom used for current platform and merchant-scale disclosures."
+    },
+    {
+      "title": "Unified Payments Interface — Product Statistics",
+      "publisher": "NPCI",
+      "date": "2026-08",
+      "url": "https://www.npci.org.in/product/upi/product-statistics",
+      "note": "Official UPI network statistics. August 2026 shows 752 banks live on UPI and 24.5 billion monthly transactions across the network."
+    },
+    {
+      "title": "UPI Product Booklet",
+      "publisher": "NPCI",
+      "date": "",
+      "url": "https://www.npci.org.in/PDF/npci/upi/Product-Booklet.pdf",
+      "note": "Official UPI architecture and participant-role context."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "phonepe-uae"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. (2026). BWI — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "after"
+  }
+}
