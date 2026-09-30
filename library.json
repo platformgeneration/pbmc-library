@@ -757,6 +757,24 @@
         "Dynamic Pricing"
       ],
       "status": "published"
+    },
+    {
+      "slug": "lyft",
+      "case_number": "043",
+      "company": "Lyft",
+      "headline": "How does Lyft use partnerships to bring more riders into the same ride-hailing network?",
+      "industry": [
+        "Mobility",
+        "Ride-Hailing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Partnership-led Growth",
+        "Local Network Effects",
+        "Ride Matching",
+        "Demand Partnerships"
+      ],
+      "status": "published"
     }
   ]
 }

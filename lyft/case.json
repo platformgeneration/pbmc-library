@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Lyft",
+    "slug": "lyft",
+    "headline": "How does Lyft use partnerships to bring more riders into the same ride-hailing network?",
+    "case_number": "043",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Ride-Hailing"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Partnership-led Growth",
+      "Local Network Effects",
+      "Ride Matching",
+      "Demand Partnerships"
+    ],
+    "geography": [
+      "North America",
+      "Europe"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Lyft grows its ride-hailing marketplace by connecting other services to it",
+    "text": "Lyft still works like a classic ride-hailing platform: riders request trips and drivers provide them. What is interesting is how important outside partnerships have become for bringing people into that marketplace. In the second quarter of 2026, Lyft said that about 30% of North American rideshare rides were linked to a partnership. These partnerships include companies such as Chase, DoorDash and United Airlines, which can give their customers benefits or reasons to use Lyft. For Lyft, this creates another way to bring demand into the rider-driver network without having to acquire every rider through the Lyft app alone. The partnerships do not replace the basic network effect. They help feed more riders into a marketplace that still depends on having enough drivers nearby when a trip is requested."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "A completed ride is the core value unit: a rider requests transport, Lyft matches the request with available supply, and the trip is completed from pickup to destination.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "262M rides Q2*",
+          "note": "Lyft reported 262 million rides in Q2 2026 across its global multimodal platform. This is not a pure North American rideshare-only count."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Lyft",
+        "explanation": "Lyft owns and operates the platform that connects riders with drivers, coordinates matching and pricing, processes transactions and sets the rules for participation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Grow a Healthy Market",
+        "explanation": "Lyft has to keep enough riders and drivers active in each local market so that riders can get a car quickly and drivers can find paid trips without too much waiting.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Rides / Fees",
+        "explanation": "Lyft benefits when more trips are completed and when riders and drivers keep returning to the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Local Imbalance / Regulation",
+        "explanation": "Ride demand and driver supply can change quickly by place and time. Lyft also has to operate under different transport, labor, safety and pricing rules across markets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Platform Fee",
+        "explanation": "Lyft coordinates the trip and earns revenue mainly from fees connected to rides and other platform services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Driver / Safety / Pricing Rules",
+        "explanation": "Lyft sets platform rules for driver eligibility, vehicle requirements, conduct, ratings, safety, payments and how rides are offered, subject to local law.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Lyft App / Partners",
+        "explanation": "The Lyft app remains the main access point, while partnerships with other companies can also bring riders into the platform through rewards, memberships and linked offers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Price / Support",
+        "explanation": "Lyft runs the apps, predicts demand, matches riders and drivers, shows trip information, supports users, coordinates payments and manages marketplace quality and safety.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Data / Brand",
+        "explanation": "Important resources include the rider and driver base, trip and location data, matching technology, payments infrastructure, the Lyft brand and partner relationships.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$5.5B Q2 GB*",
+            "note": "Lyft reported $5.5 billion in Gross Bookings in Q2 2026 across its global platform."
+          }
+        ]
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "People use Lyft when they want transport from one place to another and prefer an on-demand ride over driving themselves or arranging another option.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "30.5M active riders*",
+            "note": "Lyft reported 30.5 million Active Riders in Q2 2026 globally. The metric covers Lyft's broader multimodal platform, not only North American rideshare."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get a Ride",
+        "explanation": "Riders want to get from pickup to destination without having to find, call or negotiate with a driver themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Easy Booking / Short Wait",
+        "explanation": "The app can show ride options, estimated pickup information and trip details so transportation can be arranged quickly.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Wait / Safety",
+        "explanation": "Riders may face higher prices at busy times, longer waits when few drivers are nearby, cancellations, service problems or safety concerns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Request / Pay",
+        "explanation": "The rider requests a trip, confirms the pickup and destination and pays through the platform or another supported method.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Location / Availability",
+        "explanation": "A ride depends on whether Lyft operates in the location, whether eligible supply is available and whether the requested ride type can be served.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Lyft App / Partner Offers",
+        "explanation": "Riders usually request rides in the Lyft app, while partner programs can create additional reasons or pathways to use Lyft.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Request / Ride / Rate",
+        "explanation": "Riders choose a ride option, request pickup, take the trip, pay and can rate the experience afterward.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Location / Demand / Payment",
+        "explanation": "Riders bring trip demand, pickup and destination information, payment details, ratings and repeated usage that help create local demand density.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Drivers",
+        "explanation": "Drivers are the people who make their time and an eligible vehicle available to complete ride requests on the Lyft platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Earn by Driving",
+        "explanation": "Drivers want access to nearby trip demand so they can turn available driving time and a vehicle into earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Flexibility",
+        "explanation": "Lyft can provide ride requests without drivers having to find each passenger themselves, while drivers can choose when to be available subject to local rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Idle Time / Vehicle Costs",
+        "explanation": "Drivers may spend time waiting between trips and must manage costs such as fuel or charging, insurance, maintenance, rental or financing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Accept / Drive",
+        "explanation": "Drivers receive ride offers, see trip and earnings information where available, decide whether to accept and complete the transport.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "License / Vehicle / Checks",
+        "explanation": "Drivers must satisfy local age, licensing, background-check and vehicle requirements before they can provide rides.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Lyft Driver App",
+        "explanation": "Drivers use Lyft's driver app to go online, receive trip requests, navigate to pickup and manage rides and earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Go Online / Drive / Support",
+        "explanation": "Drivers make themselves available, accept suitable trips, travel to pickup, transport riders and manage ratings and support issues.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Time / Vehicle / License",
+        "explanation": "Drivers contribute their time, local mobility capacity, driving skills and access to an eligible vehicle and required documents.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Demand Partners",
+        "explanation": "Companies such as Chase, DoorDash and United Airlines connect their own customers, members or rewards programs with Lyft and can create additional reasons to use the ride-hailing platform.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "~30% NA rides*",
+            "note": "Lyft said approximately 30% of North American rideshare rides in Q2 2026 were linked to a partnership."
+          }
+        ]
+      },
+      "job": {
+        "value": "Bring Riders",
+        "explanation": "Demand partners help channel existing customers or members toward Lyft through benefits, rewards, integrations or joint offers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Customer Value / Engagement",
+        "explanation": "Partners can make their own products or memberships more useful by adding transportation benefits, while deepening engagement with their customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Economics / Integration",
+        "explanation": "Partnerships have to create enough value for both sides while managing technical integration, promotion costs, customer experience and changing commercial terms.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Benefits / Referrals",
+        "explanation": "Partners provide rewards, memberships, linked accounts or promotional access that can lead customers to use Lyft rides.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Brand / Reach / Fit",
+        "explanation": "A useful partner needs a customer base, product or membership that fits Lyft's users and can create enough incremental demand to justify integration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Apps / Loyalty Programs",
+        "explanation": "Partner apps, memberships, loyalty programs and co-branded offers connect their users with Lyft.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Bundle / Reward / Promote",
+        "explanation": "Partners design benefits, communicate offers, link accounts and promote Lyft usage to their customers or members.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Customers / Channels / Rewards",
+        "explanation": "Partners contribute existing customer relationships, distribution channels, loyalty programs and promotional reach.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "202M MAPCs*",
+        "note": "Q4 2025 platform-wide Monthly Active Platform Consumers; includes Mobility and Delivery consumers.",
+        "target": "consumer"
+      },
+      {
+        "value": "10.2M earners*",
+        "note": "Drivers and couriers earning on Uber in Q2 2026; includes Delivery couriers, so this is broader than ride-hailing drivers alone.",
+        "target": "provider"
+      },
+      {
+        "value": "70+ countries",
+        "note": "Uber said its platform was available in over 70 countries at the end of 2025.",
+        "target": "owner"
+      },
+      {
+        "value": "$97.5B Mobility GB",
+        "note": "Approximate 2025 Mobility Gross Bookings calculated from Uber's four reported quarterly Mobility Gross Bookings figures.",
+        "target": "cvu"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Request / Pay",
+          "explanation": "The rider asks for a trip and pays through Lyft or another supported payment method."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Trip Offer",
+          "explanation": "Lyft sends trip opportunities to available drivers based on location and marketplace conditions."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Match / Trip Info",
+          "explanation": "Lyft shows the rider the matched driver or vehicle, pickup information and trip details."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Ride",
+          "explanation": "The driver performs the physical transport from pickup to destination."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "Lyft coordinates driver earnings and settlement after completed rides."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Benefits / Access",
+          "explanation": "Demand partners give their own customers benefits, rewards or linked offers that can lead them to use Lyft."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Lyft Reports Strong Q2 2026 Results",
+      "publisher": "Lyft Investor Relations",
+      "date": "2026-08-06",
+      "url": "https://investor.lyft.com/financials/sec-filings/content/0001628280-26-054305/lyft-20260630xpressrelease.htm",
+      "note": "Primary source for Q2 2026 Gross Bookings of $5.5 billion, 30.5 million Active Riders, 262 million rides and the statement that approximately 30% of North American rideshare rides were linked to a partnership."
+    },
+    {
+      "title": "Lyft, Inc. Q2 2026 Form 10-Q",
+      "publisher": "Lyft / U.S. Securities and Exchange Commission",
+      "date": "2026-08-07",
+      "url": "https://investor.lyft.com/financials/sec-filings/content/0001628280-26-054499/lyft-20260630.htm",
+      "note": "Primary filing for definitions of Active Riders and Rides, marketplace structure, international expansion and current business risks."
+    },
+    {
+      "title": "Lyft, Inc. 2025 Annual Report (Form 10-K)",
+      "publisher": "Lyft / U.S. Securities and Exchange Commission",
+      "date": "2026-02-11",
+      "url": "https://investor.lyft.com/financials/sec-filings/content/0001628280-26-006960/lyft-20251231.htm",
+      "note": "Primary source for Lyft's ridesharing marketplace model, platform revenue structure, 2025 scale and the role of predicting demand and incentivizing driver availability."
+    },
+    {
+      "title": "Lyft Reports Strong Q1 2026 Financial Results",
+      "publisher": "Lyft Investor Relations",
+      "date": "2026-05-07",
+      "url": "https://investor.lyft.com/news-events-presentations/press-releases/detail/197/lyft-reports-strong-q1-2026-financial-results",
+      "note": "Primary source identifying Chase, DoorDash and United Airlines among Lyft's major partnerships and reporting that nearly 27% of North American rides were linked to a partnership in Q1 2026."
+    },
+    {
+      "title": "Upfront pay",
+      "publisher": "Lyft Help",
+      "date": "",
+      "url": "https://help.lyft.com/hc/en-us/driver/articles/8668928544-Upfront-pay",
+      "note": "Primary source explaining how drivers can see route and earnings information before accepting a ride and how real-time marketplace conditions can affect pay."
+    },
+    {
+      "title": "Driver and Vehicle Requirements",
+      "publisher": "Lyft",
+      "date": "",
+      "url": "https://www.lyft.com/driver-application-requirements",
+      "note": "Primary source for driver eligibility, background checks, insurance, vehicle requirements and the option to rent a vehicle through Express Drive."
+    },
+    {
+      "title": "Safety for Riders and Drivers",
+      "publisher": "Lyft",
+      "date": "",
+      "url": "https://www.lyft.com/safety",
+      "note": "Primary source for Lyft's driver verification, background checks, rider verification and real-time ride monitoring."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "uber-ride-hailing",
+      "uber-robotaxis",
+      "akippa"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Lyft — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
