@@ -865,6 +865,24 @@
         "Risk Pricing"
       ],
       "status": "published"
+    },
+    {
+      "slug": "getaround",
+      "case_number": "049",
+      "company": "Getaround",
+      "headline": "How does Getaround turn a private car into a self-service rental?",
+      "industry": [
+        "Mobility",
+        "Peer-to-Peer Car Sharing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Connected Cars",
+        "Contactless Access",
+        "Asset Sharing",
+        "Trust & Insurance"
+      ],
+      "status": "published"
     }
   ]
 }

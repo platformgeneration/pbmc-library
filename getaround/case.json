@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Getaround",
+    "slug": "getaround",
+    "headline": "How does Getaround turn a private car into a self-service rental?",
+    "case_number": "049",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Peer-to-Peer Car Sharing"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Connected Cars",
+      "Contactless Access",
+      "Asset Sharing",
+      "Trust & Insurance"
+    ],
+    "geography": [
+      "Europe"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Getaround makes a private car work more like a self-service rental car",
+    "text": "A normal peer-to-peer car rental often requires the owner and renter to meet and exchange keys. Getaround Connect changes that. A small device installed in the car lets an eligible renter book the vehicle, complete the check-in and unlock it with the Getaround app. The owner does not have to be there. This matters because one owner can make a car available for many more rental times without arranging every handover personally, while renters can book cars at short notice. Getaround says cars equipped with Connect receive at least twice as much demand. The platform still needs owners, renters, insurance and support, but Connect turns access to the physical asset into something the platform can manage digitally. In May 2026, GoMore acquired Getaround Europe; together the two networks reported more than 5 million users, 70,000 shared vehicles and 1.5 million rentals per year across 11 countries."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Getaround and GoMore: a new chapter for carsharing in Europe",
+      "publisher": "Getaround",
+      "date": "2026-05-05",
+      "url": "https://fr.getaround.com/blog/getaround-and-gomore-a-new-chapter-for-carsharing-in-europe/",
+      "note": "Official Getaround announcement of the GoMore acquisition. The combined networks reported more than 5 million users, over 70,000 shared vehicles and 1.5 million rentals per year across 11 countries."
+    },
+    {
+      "title": "GoMore acquires Getaround Europe",
+      "publisher": "GoMore",
+      "date": "2026-05-05",
+      "url": "https://gomore.ee/blog/gomore-getaround-business-sale",
+      "note": "GoMore states that it acquired Getaround's European operations in May 2026."
+    },
+    {
+      "title": "Understanding Getaround Connect",
+      "publisher": "Getaround",
+      "date": "2026",
+      "url": "https://getaround.com/help/articles/445c28d4003f",
+      "note": "Explains the Connect device, smartphone unlocking and the current monthly subscription model for equipped cars in European markets."
+    },
+    {
+      "title": "Rent your car remotely with Getaround Connect",
+      "publisher": "Getaround",
+      "date": "2026",
+      "url": "https://getaround.com/de/connect-autobesitzer",
+      "note": "Official owner page explaining contactless rentals. Getaround states that cars with Connect receive at least twice as much demand and can be unlocked through the app without a key handover."
+    },
+    {
+      "title": "Guide to pricing and owner earnings",
+      "publisher": "Getaround",
+      "date": "2025-01-29",
+      "url": "https://getaround.com/help/articles/1453c295ca9b",
+      "note": "Explains the European booking-price structure, owner earnings, Getaround service fees, insurance and roadside-assistance charges."
+    },
+    {
+      "title": "Insurance and mobility protection",
+      "publisher": "Getaround",
+      "date": "2026",
+      "url": "https://getaround.com/de/insurance",
+      "note": "Describes Getaround's insurance layer, including the Allianz partnership in Germany and roadside assistance."
+    },
+    {
+      "title": "Getaround trust and marketplace scale",
+      "publisher": "Getaround",
+      "date": "2026",
+      "url": "https://getaround.com/de/trust",
+      "note": "Current Getaround trust page reporting 50,000 cars and 1.6 million users across six countries for the Getaround marketplace."
+    },
+    {
+      "title": "Winding down our Carsharing service in the U.S.",
+      "publisher": "Getaround",
+      "date": "2025-02-12",
+      "url": "https://getaround.com/blog/winding-down-our-carsharing-service-in-the-u-s/",
+      "note": "Official announcement that Getaround ended its US carsharing operations in February 2025 and focused on Europe."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "turo",
+      "blablacar",
+      "uber-ride-hailing",
+      "bolt"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Getaround — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Car Access",
+      "explanation": "The core value unit is temporary access to a listed vehicle. With Getaround Connect, that access can be granted digitally without the owner meeting the renter.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "1.5M rentals/yr*",
+          "note": "Combined annual rentals reported by Getaround and GoMore after the May 2026 acquisition; not Getaround-only volume."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Getaround",
+        "explanation": "Getaround operates the marketplace and Connect technology. Getaround Europe was acquired by GoMore in May 2026.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "11 countries*",
+            "note": "Combined Getaround-GoMore footprint reported after the May 2026 acquisition."
+          }
+        ]
+      },
+      "job": {
+        "value": "Make Self-Service",
+        "explanation": "Getaround has to make privately supplied cars easy to find, book and access without creating a traditional rental fleet.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Rentals",
+        "explanation": "Higher booking frequency increases marketplace activity and owner earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Downtime",
+        "explanation": "Getaround must limit fraud, damage, access failures and periods when listed cars are unavailable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Unlock",
+        "explanation": "Getaround coordinates the booking, payment, digital check-in and, for Connect cars, smartphone access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Trust / Rules",
+        "explanation": "Getaround sets renter verification, vehicle eligibility, check-in, insurance and marketplace rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Search",
+        "explanation": "Renters find nearby cars through the Getaround app, website and search.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Support",
+        "explanation": "Getaround runs search, booking, payments, access technology, verification and support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Connect / Data",
+        "explanation": "Key resources include the Connect device and software, local vehicle supply, demand, identity and booking data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Renters",
+        "explanation": "People rent nearby cars for a few hours or days instead of owning or using a traditional rental counter.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "5M+ users*",
+            "note": "Combined Getaround-GoMore user community reported in May 2026; not a Getaround-only active-user count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get a Car",
+        "explanation": "Renters need temporary access to a suitable nearby vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Nearby / Instant",
+        "explanation": "A renter can find a local car and, for Connect rentals, unlock it without meeting the owner.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Supply",
+        "explanation": "Renters face local availability, total booking cost and eligibility or insurance restrictions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Pay",
+        "explanation": "Renters choose a car, book it and pay through Getaround.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Car / Place",
+        "explanation": "A useful listing must fit the renter's location, dates, price and vehicle requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Connect",
+        "explanation": "The app manages booking and, on equipped vehicles, the digital check-in and unlock process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Book / Unlock",
+        "explanation": "Renters search, book, inspect, unlock, drive and return the car.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "ID / Payment",
+        "explanation": "Renters contribute verified identity, payment, trip demand and reviews.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Owners",
+        "explanation": "Private and professional owners list vehicles and make them available for rental.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "70K+ cars*",
+            "note": "Combined shared vehicles reported by Getaround and GoMore after the May 2026 acquisition; not a Getaround-only active-car count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Rent Car",
+        "explanation": "Owners want to earn money from a vehicle when they are not using it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Use",
+        "explanation": "Rentals generate income and improve utilization of an otherwise parked asset.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Damage / Effort",
+        "explanation": "Owners face damage risk, maintenance work, cleaning and periods with no bookings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Car / Time",
+        "explanation": "Owners list a car and make it available for booked periods.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Car Rules",
+        "explanation": "Vehicles and owners must meet Getaround's eligibility and operating requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Owner App",
+        "explanation": "Owners manage availability, prices, bookings and earnings through Getaround tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "List / Prepare",
+        "explanation": "Owners list and maintain vehicles, set availability and prepare cars for renters.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Car / Access",
+        "explanation": "Owners contribute the vehicle, availability and physical access needed for the rental.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Insurers",
+        "explanation": "Insurance partners make peer-to-peer rentals possible by covering the trip separately from the owner's everyday motor policy.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Cover Trips",
+        "explanation": "Partners provide liability, damage protection and support around insured rentals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Premium / Scale",
+        "explanation": "A large rental network creates recurring insured trip volume.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Claims / Fraud",
+        "explanation": "Insurers must manage accident, damage, fraud and eligibility risk.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Coverage",
+        "explanation": "Insurance protection sits around eligible rentals and limits financial exposure for owners and renters.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Eligibility",
+        "explanation": "Coverage depends on the driver, vehicle, market and compliance with rental conditions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Policy",
+        "explanation": "Getaround embeds the relevant insurance and roadside-assistance layer into the booking.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Cover / Claims",
+        "explanation": "Insurance partners provide coverage and support claims when covered incidents occur.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Risk Capital",
+        "explanation": "Partners contribute insurance capacity, underwriting expertise and claims infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "11 countries*",
+        "note": "Combined Getaround-GoMore footprint after the May 2026 acquisition.",
+        "target": "owner"
+      },
+      {
+        "value": "5M+ users*",
+        "note": "Combined Getaround-GoMore user community; not a Getaround-only active-user count.",
+        "target": "consumer"
+      },
+      {
+        "value": "70K+ cars*",
+        "note": "Combined Getaround-GoMore shared vehicles; not a Getaround-only active-car count.",
+        "target": "provider"
+      },
+      {
+        "value": "Allianz DE**",
+        "note": "Allianz is the current Getaround trip insurer in Germany; insurance partners vary by country.",
+        "target": "partner"
+      },
+      {
+        "value": "1.5M rentals/yr*",
+        "note": "Combined Getaround-GoMore annual rental volume reported in May 2026.",
+        "target": "core_value_unit"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Book / Pay",
+          "explanation": "The renter chooses a vehicle, books the rental and pays through Getaround."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Unlock / Cover",
+          "explanation": "Getaround provides the digital rental flow and, for Connect cars, app-based access together with the embedded trip-protection layer."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Car / Listing",
+          "explanation": "The owner lists a vehicle and makes selected time slots available to the marketplace."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Booking / Payout",
+          "explanation": "Getaround sends bookings to the owner and pays rental earnings after applicable service charges."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Coverage",
+          "explanation": "Insurance partners provide trip coverage and risk capacity for eligible rentals."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Premium / Claims",
+          "explanation": "The marketplace channels insurance economics and claims activity into the insurance layer."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}
