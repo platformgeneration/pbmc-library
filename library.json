@@ -775,6 +775,24 @@
         "Demand Partnerships"
       ],
       "status": "published"
+    },
+    {
+      "slug": "bolt",
+      "case_number": "044",
+      "company": "Bolt",
+      "headline": "Why does Bolt work with fleet owners as well as individual drivers?",
+      "industry": [
+        "Mobility",
+        "Ride-Hailing"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Fleet Partners",
+        "Local Network Effects",
+        "Ride Matching",
+        "Mobility Platform"
+      ],
+      "status": "published"
     }
   ]
 }
