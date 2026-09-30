@@ -703,6 +703,24 @@
         "Platform Infrastructure"
       ],
       "status": "published"
+    },
+    {
+      "slug": "rakuten-ichiba",
+      "case_number": "040",
+      "company": "Rakuten Ichiba",
+      "headline": "Why does Rakuten connect shopping, payments, travel and mobile with the same points?",
+      "industry": [
+        "Retail",
+        "E-commerce Marketplace"
+      ],
+      "topics": [
+        "Marketplace",
+        "Loyalty Ecosystem",
+        "Rakuten Points",
+        "Cross-Service Network Effects",
+        "Merchant Platform"
+      ],
+      "status": "published"
     }
   ]
 }

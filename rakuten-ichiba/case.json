@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Rakuten Ichiba",
+    "slug": "rakuten-ichiba",
+    "headline": "Why does Rakuten connect shopping, payments, travel and mobile with the same points?",
+    "case_number": "040",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Retail",
+      "E-commerce Marketplace"
+    ],
+    "topics": [
+      "Marketplace",
+      "Loyalty Ecosystem",
+      "Rakuten Points",
+      "Cross-Service Network Effects",
+      "Merchant Platform"
+    ],
+    "geography": [
+      "Japan"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Rakuten makes its marketplace part of a larger points ecosystem",
+    "text": "Rakuten Ichiba connects shoppers with more than 50,000 merchants, but the marketplace does not end when a purchase is complete. The same Rakuten ID and Rakuten Points are used across many other Rakuten services, including payments, travel, banking and mobile. This gives shoppers more places to earn and use points and gives Rakuten more reasons to bring the same customer back across its services. External partners can make that loop even wider. In 2026, FamilyMart became the first company outside the Rakuten Group to join Rakuten Ichiba's Super Points Up program, linking purchases at its roughly 16,000 convenience stores with rewards on Rakuten Ichiba. The case shows how a marketplace can become more useful when its loyalty system connects shopping with services people use elsewhere in their daily lives."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Product Offer",
+      "explanation": "The core value unit is a merchant's product offer: an item, price, store information and purchase conditions that a shopper can discover and buy on Rakuten Ichiba.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "26.7% EC Share",
+          "note": "Rakuten’s merchant recruitment page reports a 26.7% share of Japan’s internet shopping market, citing FY2025 company materials."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Shoppers",
+        "explanation": "People in Japan use Rakuten Ichiba to discover and buy products from independent merchant stores.",
+        "metrics": [
+          {
+            "value": "100M+ IDs",
+            "note": "Rakuten reports more than 100 million registered Rakuten IDs in Japan. This is the wider membership base, not an active-shopper count for Rakuten Ichiba alone."
+          }
+        ],
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Find & Buy",
+        "explanation": "Shoppers want to find suitable products, compare offers and complete a purchase without visiting each merchant separately.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Points",
+        "explanation": "They get access to many stores and products while earning Rakuten Points that can also be useful across other Rakuten services and participating stores.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Choice / Complexity",
+        "explanation": "A very large marketplace can make comparison difficult, and service, shipping and return conditions can differ between merchants.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Order / Pay",
+        "explanation": "The shopper places an order through Rakuten Ichiba and pays for a product sold by a marketplace merchant.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Account / Rules",
+        "explanation": "Purchases depend on account, payment, product, merchant and delivery rules, as well as fraud and eligibility checks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Shoppers access Rakuten Ichiba through the website and mobile app, using the same Rakuten membership that connects other group services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Buy",
+        "explanation": "They search, compare stores and products, buy, review purchases and take part in point campaigns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "ID / Preferences",
+        "explanation": "Shoppers contribute attention, purchase intent, account details, payment and delivery information, reviews and shopping history.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Merchants",
+        "explanation": "Independent merchants operate stores on Rakuten Ichiba and provide the products sold through the marketplace.",
+        "metrics": [
+          {
+            "value": "50K+ Stores",
+            "note": "Rakuten reports more than 50,000 merchants on Rakuten Ichiba."
+          }
+        ],
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Reach Customers",
+        "explanation": "Merchants want to reach Rakuten’s large customer base without building an equivalent shopping platform and loyalty system themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Tools",
+        "explanation": "They gain customer reach plus store-building, promotion, campaign, analytics and support tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Competition",
+        "explanation": "Merchants pay platform-related fees and compete for attention, rankings and sales while meeting Rakuten’s operating rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "List / Sell",
+        "explanation": "Merchants create and operate their stores, publish product offers and fulfill orders generated through Rakuten Ichiba.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Merchant Review",
+        "explanation": "Rakuten controls access through merchant application, screening, contracts, marketplace rules and ongoing quality requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "RMS",
+        "explanation": "Rakuten Merchant Server and related merchant tools are used to manage stores, products, orders, campaigns and customer communication.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Run Store",
+        "explanation": "Merchants design their storefronts, list products, set prices, manage stock, promote offers, fulfill orders and support customers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Content",
+        "explanation": "They provide inventory, product information, prices, images, brand content, customer service and fulfillment capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "enabled": true,
+      "enabled_before": true,
+      "enabled_after": true,
+      "actor": {
+        "value": "Point Partners",
+        "explanation": "Outside retailers and brands extend where Rakuten Points can be earned or used. FamilyMart became the first non-Rakuten Group company to join Rakuten Ichiba’s Super Points Up program in 2026.",
+        "metrics": [
+          {
+            "value": "~16K FamilyMart",
+            "note": "FamilyMart has roughly 16,000 stores nationwide and became the first external company integrated into Rakuten Ichiba’s SPU program in July 2026."
+          }
+        ],
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Extend Points",
+        "explanation": "Partners make Rakuten Points useful in more everyday places and connect activity outside Rakuten Ichiba back to the Rakuten ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Traffic / Loyalty",
+        "explanation": "They gain access to Rakuten’s membership and rewards system, which can support customer acquisition, repeat visits and joint promotions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cost / Integration",
+        "explanation": "Partners have to integrate systems, fund or administer rewards, follow program rules and prove that the partnership creates enough extra business.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Points / Rewards",
+        "explanation": "Partners award or accept Rakuten Points and can participate in campaigns that influence rewards inside Rakuten Ichiba.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Partner Agreement",
+        "explanation": "Participation depends on a commercial agreement, technical integration and the rules of the relevant Rakuten Point or promotion program.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Point Network",
+        "explanation": "Partners connect through Rakuten Point Card, Rakuten Pay and specific programs such as Rakuten Ichiba’s SPU.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Award / Accept",
+        "explanation": "They award or accept points, run joint promotions and connect purchase activity to Rakuten’s membership system.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Stores / Reach",
+        "explanation": "Partners contribute physical or digital customer touchpoints, their own customer traffic and places where points become useful outside Rakuten-owned services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "owner": {
+      "actor": {
+        "value": "Rakuten Group",
+        "explanation": "Rakuten Group owns and operates Rakuten Ichiba and connects it with a much wider portfolio of services through one membership and loyalty system.",
+        "metrics": [
+          {
+            "value": "70+ Services",
+            "note": "Rakuten says its ecosystem includes more than 70 services spanning commerce, fintech, travel, mobile, digital content and other areas."
+          }
+        ],
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Connect Commerce",
+        "explanation": "Rakuten must make the marketplace useful for shoppers and merchants while linking it to the wider Rakuten membership and points ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Repeat Use / Value",
+        "explanation": "When the same member uses several Rakuten services, Rakuten can reduce customer-acquisition costs, increase repeat use and create more value from each relationship.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Complexity / Cost",
+        "explanation": "Running many connected services and campaigns creates technical, financial and organizational complexity, while the marketplace still has to remain attractive on its own.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Fees / Points",
+        "explanation": "Rakuten collects marketplace-related fees from merchants and uses points, promotions and membership benefits to stimulate transactions and repeat use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Store / Point Rules",
+        "explanation": "Rakuten sets merchant standards, marketplace rules, point-program conditions, campaign mechanics and customer-protection requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Points / SPU",
+        "explanation": "Rakuten Points, Super Points Up, shopping events and cross-service campaigns are major ways to bring shoppers back and encourage use across the ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Operate / Connect",
+        "explanation": "Rakuten operates the marketplace, supports merchants, manages search and discovery, runs campaigns and connects Ichiba with membership, points and other Rakuten services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "ID / Points / Data",
+        "explanation": "Key resources include the Rakuten ID, Rakuten Points, marketplace technology, merchant relationships, customer data and connections to other Rakuten services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "flows": {
+      "current": [
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Store / Fees",
+          "explanation": "Merchants operate stores on Rakuten Ichiba and pay the applicable marketplace and service fees."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Offers / Points",
+          "explanation": "Rakuten makes merchant offers discoverable and adds points, campaigns and membership benefits around the shopping experience."
+        },
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Order / Pay",
+          "explanation": "The shopper places the order through Rakuten Ichiba and completes payment through the marketplace experience."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Order / Payout",
+          "explanation": "Rakuten routes marketplace demand to the merchant and coordinates settlement under the platform’s commercial rules."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Point Program",
+          "explanation": "Rakuten provides the loyalty-program connection, rules and member reach that outside partners can integrate into."
+        },
+        {
+          "from": "partner",
+          "to": "consumer",
+          "value": "Earn / Use Points",
+          "explanation": "Partner stores give customers more places to earn or use Rakuten Points, making the wider loyalty system more useful."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Our Businesses",
+      "publisher": "Rakuten Group, Inc.",
+      "date": "",
+      "url": "https://global.rakuten.com/corp/careers/services/",
+      "note": "Primary source for current Rakuten scale: 100M+ members in Japan, 50,000+ Rakuten Ichiba merchants, 70 services and the group’s membership-centered ecosystem."
+    },
+    {
+      "title": "Open a Store on Rakuten Ichiba",
+      "publisher": "Rakuten Ichiba",
+      "date": "",
+      "url": "https://www.rakuten.co.jp/ec/",
+      "note": "Primary source describing Rakuten Ichiba as a tenant-style e-commerce mall where merchants operate their own stores, and reporting 100M+ Rakuten IDs, 50,000+ stores and 26.7% internet-shopping share."
+    },
+    {
+      "title": "About Us — Rakuten Ecosystem",
+      "publisher": "Rakuten Group, Inc.",
+      "date": "",
+      "url": "https://global.rakuten.com/corp/about/",
+      "note": "Primary source explaining how a common membership and loyalty program links more than 70 Rakuten services and why Rakuten views cross-use as a way to lower acquisition costs and increase member value."
+    },
+    {
+      "title": "Rakuten and FamilyMart Strengthen Partnership: FamilyMart Joins Rakuten Ichiba’s Super Points Up Program as First Non-Rakuten Group Participant Company",
+      "publisher": "Rakuten Group, Inc.",
+      "date": "2026-05-22",
+      "url": "https://global.rakuten.com/corp/news/press/2026/0522_01.html",
+      "note": "Primary source for FamilyMart becoming the first company outside Rakuten Group to join Rakuten Ichiba’s SPU program from July 2026, linking activity at roughly 16,000 FamilyMart stores with extra Rakuten Ichiba rewards."
+    },
+    {
+      "title": "Our Services",
+      "publisher": "Rakuten Payment, Inc.",
+      "date": "",
+      "url": "https://payment.rakuten.co.jp/en/services/",
+      "note": "Primary source explaining how Rakuten Points can be earned and used at participating physical stores and across Rakuten services, and how Rakuten’s payment and point products connect online and offline commerce."
+    },
+    {
+      "title": "How Rakuten Points Work in Japan",
+      "publisher": "Rakuten Group, Inc.",
+      "date": "2026-05-19",
+      "url": "https://global.rakuten.com/corp/event/japan-living/articles/008/",
+      "note": "Current overview of the Rakuten Points system, including use across Rakuten services and participating stores and the common one-point-to-one-yen redemption convention in many cases."
+    },
+    {
+      "title": "Rakuten Ichiba Expands International Merchant Network to Six New Countries",
+      "publisher": "Rakuten Group, Inc.",
+      "date": "2025-09-30",
+      "url": "https://global.rakuten.com/corp/news/press/2025/0930_03.html",
+      "note": "Primary source for international merchant expansion, 1,000+ overseas-affiliated merchants, the 100M-member addressable base and seller support through tools, campaigns and Rakuten Points."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "amazon-marketplace",
+      "walmart-marketplace",
+      "flipkart"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Rakuten Ichiba — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
