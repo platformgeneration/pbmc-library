@@ -829,6 +829,24 @@
         "Local Network Effects"
       ],
       "status": "published"
+    },
+    {
+      "slug": "blablacar",
+      "case_number": "047",
+      "company": "BlaBlaCar",
+      "headline": "How does BlaBlaCar turn empty car seats into a transport network?",
+      "industry": [
+        "Mobility",
+        "Long-Distance Carpooling"
+      ],
+      "topics": [
+        "Two-sided Marketplace",
+        "Unused Capacity",
+        "Cost Sharing",
+        "Multimodal Travel",
+        "Network Effects"
+      ],
+      "status": "published"
     }
   ]
 }

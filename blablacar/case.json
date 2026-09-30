@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "BlaBlaCar",
+    "slug": "blablacar",
+    "headline": "How does BlaBlaCar turn empty car seats into a transport network?",
+    "case_number": "047",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Long-Distance Carpooling"
+    ],
+    "topics": [
+      "Two-sided Marketplace",
+      "Unused Capacity",
+      "Cost Sharing",
+      "Multimodal Travel",
+      "Network Effects"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "BlaBlaCar turns empty seats into travel supply",
+    "text": "Most ride-hailing drivers go online because they want to earn money from driving. BlaBlaCar works differently. A carpool driver is already planning to make a long-distance trip and can offer empty seats to people travelling the same way. Under BlaBlaCar's current terms, the driver is not supposed to make a profit; the passenger payment is a contribution to the costs of a trip the driver was already going to make. That changes the provider side of the marketplace. BlaBlaCar does not need to create a professional driver workforce for every route. It needs to find planned journeys with spare seats and match them with passengers. The company now also connects bus and train operators, giving travellers another option when a suitable carpool is not available. The case shows how a platform can turn unused capacity into useful transport and then add professional transport around the same traveller demand."
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Seat",
+      "explanation": "The core value unit is an available seat on a trip that is already going in the passenger's direction. BlaBlaCar makes that spare capacity searchable and bookable.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "owner": {
+      "actor": {
+        "value": "BlaBlaCar",
+        "explanation": "BlaBlaCar operates the travel marketplace that connects passengers with carpool drivers and also distributes bus and train offers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "41 countries",
+            "note": "BlaBlaCar announced presence in 41 countries after its June 2026 expansion."
+          }
+        ]
+      },
+      "job": {
+        "value": "Fill Seats",
+        "explanation": "BlaBlaCar has to find planned trips with spare seats and connect them with travellers going the same way.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Trips",
+        "explanation": "More useful routes and successful bookings make the marketplace more attractive to both travellers and drivers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Route Gaps",
+        "explanation": "Long-distance demand is spread across many routes and departure times, so a passenger may not always find a suitable trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Match / Book",
+        "explanation": "BlaBlaCar makes trip offers searchable, manages booking and payment flows, and connects both sides before the journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Trust / Costs",
+        "explanation": "BlaBlaCar sets identity, review and booking rules and limits carpool contributions so drivers do not use the service for profit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Search",
+        "explanation": "Travellers and drivers reach the marketplace through BlaBlaCar's apps, website, search and local market activity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Support",
+        "explanation": "The platform matches routes, manages bookings and payments, supports members and operates trust and safety systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Trust",
+        "explanation": "Important resources include traveller demand, driver supply, route data, reviews, payment systems and the BlaBlaCar brand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Passengers",
+        "explanation": "Travellers use BlaBlaCar to find affordable long-distance trips by car, bus or train.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "150M passengers*",
+            "note": "BlaBlaCar reports 150 million carpool, bus and train passengers in 2025. This is a cross-mode figure, not carpool-only."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Trip",
+        "explanation": "Passengers want a convenient way to travel between cities, including places that may have limited direct public transport.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Low Cost / Reach",
+        "explanation": "Carpooling can lower travel costs and add direct connections to places that are harder to reach by scheduled transport.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cancellations",
+        "explanation": "A suitable driver may not be available, plans can change, and meeting points or departure times may be less predictable than scheduled services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Pay",
+        "explanation": "Passengers search for a suitable trip, reserve a seat and pay through the platform where booking is enabled.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Route / Time",
+        "explanation": "A trip is useful only when the route, date, departure time and available seat match the passenger's needs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "BlaBlaCar",
+        "explanation": "Passengers search, compare and book carpool, bus and train options through the BlaBlaCar app and website.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Ride",
+        "explanation": "Passengers search for a route, choose an offer, book a seat, meet the driver or operator and complete the journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Route / Pay",
+        "explanation": "Passengers bring destination demand, timing preferences, payment and reviews to the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Drivers",
+        "explanation": "Carpool drivers are ordinary people already making a trip who offer spare seats to passengers travelling the same way.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "800K+ new drivers**",
+            "note": "BlaBlaCar reported that more than 800,000 new drivers joined worldwide between March and June 2026; this is a period flow, not total active drivers."
+          }
+        ]
+      },
+      "job": {
+        "value": "Share Costs",
+        "explanation": "Drivers want to reduce the cost of a trip they already intend to make by sharing fuel and other travel expenses.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Save Money",
+        "explanation": "Filling empty seats lets drivers recover part of their trip costs without turning the journey into a professional transport service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Detours / No-shows",
+        "explanation": "Drivers may face meeting-point detours, passenger cancellations, delays or uncertainty about whether seats will be filled.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Seat / Costs",
+        "explanation": "Drivers publish a planned trip and available seats; passengers contribute toward the costs of that journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Non-profit",
+        "explanation": "BlaBlaCar's terms require carpooling to remain non-commercial: drivers cannot request more than their actual trip costs or use the platform to make a profit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Driver App",
+        "explanation": "Drivers post routes, manage bookings and communicate with passengers through BlaBlaCar's platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Post / Drive",
+        "explanation": "Drivers publish their planned route, accept passengers, coordinate pickup and complete the journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Car / Trip",
+        "explanation": "Drivers contribute the vehicle, a trip they already planned, spare seats and their time on that journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Bus / Rail",
+        "explanation": "Professional bus and rail operators add scheduled transport offers to the same traveller marketplace.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "15K operators*",
+            "note": "BlaBlaCar reports 15,000 bus and train operators connected in 2025."
+          }
+        ]
+      },
+      "job": {
+        "value": "Add Routes",
+        "explanation": "Transport operators add scheduled alternatives where carpool supply may be unavailable or where travellers prefer a professional service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Sales",
+        "explanation": "Operators can reach BlaBlaCar's travel demand and sell additional seats through another distribution channel.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Empty Seats",
+        "explanation": "Scheduled operators need enough passengers to fill capacity and make routes economically attractive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Trips / Tickets",
+        "explanation": "Operators make schedules, fares and seat inventory available for search and purchase through BlaBlaCar.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Coverage",
+        "explanation": "An operator must serve relevant routes and meet the commercial and technical requirements for distribution on the platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API / Portal",
+        "explanation": "BlaBlaCar connects professional transport inventory through digital distribution and operator systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Run Routes",
+        "explanation": "Operators manage scheduled services, capacity, pricing and the physical transport operation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Seats / Times",
+        "explanation": "Operators contribute scheduled routes, vehicles, seat inventory, timetables and operating capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "41 countries",
+        "note": "BlaBlaCar announced presence in 41 countries in June 2026.",
+        "target": "owner"
+      },
+      {
+        "value": "150M passengers*",
+        "note": "2025 carpool, bus and train passengers across BlaBlaCar's broader travel marketplace.",
+        "target": "consumer"
+      },
+      {
+        "value": "800K+ new drivers**",
+        "note": "Drivers newly joining worldwide between March and June 2026; not a total active-driver count.",
+        "target": "provider"
+      },
+      {
+        "value": "15K operators*",
+        "note": "Bus and train operators connected in 2025.",
+        "target": "partner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Search / Book",
+          "explanation": "The passenger asks BlaBlaCar to find a suitable trip and books through the platform."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Match",
+          "explanation": "BlaBlaCar connects a passenger request with a driver's planned route and spare seat."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Shared Ride",
+          "explanation": "The driver provides the passenger with a seat on the trip the driver was already planning to make."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Cost Share",
+          "explanation": "The passenger contributes toward the driver's trip costs; the driver is not meant to make a profit from carpooling."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Bus / Rail",
+          "explanation": "Professional operators provide scheduled routes, fares and seat inventory to BlaBlaCar's marketplace."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Bookings",
+          "explanation": "BlaBlaCar distributes operator offers and sends completed bookings into the professional transport network."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "About us — Key figures 2025",
+      "publisher": "BlaBlaCar",
+      "date": "",
+      "url": "https://newsroom.blablacar.com/about-us",
+      "note": "Official company overview reporting 40 million active members per year, 150 million carpool, bus and train passengers in 2025, presence in 41 countries and 15,000 connected bus and train operators."
+    },
+    {
+      "title": "Terms & Conditions",
+      "publisher": "BlaBlaCar",
+      "date": "2026-06-15",
+      "url": "https://legal.blablacar.com/en-gb/terms-and-conditions/",
+      "note": "Current terms define carpooling as non-commercial cost sharing, prohibit drivers from making a profit and describe BlaBlaCar's carpool, bus and train marketplace roles."
+    },
+    {
+      "title": "BlaBlaCar Announces Global Expansion Into 20 New Countries",
+      "publisher": "BlaBlaCar",
+      "date": "2026-06-30",
+      "url": "https://newsroom.blablacar.com/news/blablacar-announces-global-expansion-into-20-new-countries",
+      "note": "Official expansion announcement bringing BlaBlaCar to 41 countries and reporting more than 800,000 new drivers joining between March and June 2026."
+    },
+    {
+      "title": "Our impact — Global figures 2025",
+      "publisher": "BlaBlaCar",
+      "date": "",
+      "url": "https://newsroom.blablacar.com/our-impact",
+      "note": "Official impact figures reporting €568 million saved by drivers, 4 million tonnes of CO2 avoided and 2.7 million meeting points worldwide in 2025."
+    },
+    {
+      "title": "Carpooling: India Becomes BlaBlaCar's Largest Market",
+      "publisher": "BlaBlaCar",
+      "date": "2025-09-04",
+      "url": "https://newsroom.blablacar.com/news/carpooling-india-becomes-blablacars-largest-market",
+      "note": "Official case of local carpool scaling, reporting India as BlaBlaCar's largest carpooling market and 95% of trips booked via mobile."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "uber-ride-hailing",
+      "ola",
+      "didi",
+      "bolt"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). BlaBlaCar — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  }
+}
