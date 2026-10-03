@@ -937,6 +937,24 @@
         "Trust"
       ],
       "status": "published"
+    },
+    {
+      "slug": "fiverr",
+      "case_number": "053",
+      "company": "Fiverr",
+      "headline": "How does Fiverr make freelance work easier to buy?",
+      "industry": [
+        "Services",
+        "Freelance Marketplace"
+      ],
+      "topics": [
+        "Freelance Work",
+        "Service Catalog",
+        "Gig Packages",
+        "Two-sided Marketplace",
+        "Payments"
+      ],
+      "status": "published"
     }
   ]
 }
