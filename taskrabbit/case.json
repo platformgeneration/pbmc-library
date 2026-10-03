@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Taskrabbit",
+    "slug": "taskrabbit",
+    "headline": "What happens when Taskrabbit is built into the store checkout?",
+    "case_number": "052",
+    "published_date": "2026-10-03",
+    "updated_date": "2026-10-03",
+    "snapshot_date": "2026-10-03",
+    "status": "official",
+    "industry": [
+      "Services",
+      "Home Services Marketplace"
+    ],
+    "topics": [
+      "Local Services",
+      "Retail Partnerships",
+      "Embedded Marketplace",
+      "Gig Work",
+      "Trust"
+    ],
+    "geography": [
+      "North America",
+      "Europe"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Taskrabbit can get work from retailers before customers visit the marketplace",
+    "text": "Taskrabbit normally works like a local services marketplace: a customer needs help, chooses a Tasker and books the job through Taskrabbit. Retail partnerships add another route into the same marketplace. A customer buying furniture or another product can also book assembly, mounting or installation at the point of purchase. Taskrabbit then turns that retail purchase into a job for a suitable Tasker. IKEA is the clearest example, and Taskrabbit has expanded the same model to other retailers and manufacturers. This matters because Taskrabbit does not have to wait for every customer to open its app and search for help. Retailers can bring ready-made demand into the network at exactly the moment a service is needed. Taskers gain another source of jobs, while retailers can add services without building their own local workforce."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Taskrabbit Launches New Integrated Solutions for Partners",
+      "publisher": "Taskrabbit",
+      "date": "2025",
+      "url": "https://www.taskrabbit.com/press/release/taskrabbit-reimagines-the-retail-customer-experience-launching-new",
+      "note": "Taskrabbit describes Partner Pages for retailers and manufacturers, including fixed pricing, automatic matching and partner-originated tasks."
+    },
+    {
+      "title": "Taskrabbit Scales Partnership with IKEA Across North America and Europe",
+      "publisher": "Taskrabbit",
+      "date": "2025-02-13",
+      "url": "https://www.taskrabbit.com/press/release/taskrabbit-scales-partnership-with-ikea-across-north-america-and-europe",
+      "note": "Taskrabbit describes integrated IKEA assembly booking and states that it is owned by Ingka Group and operates in eight countries."
+    },
+    {
+      "title": "Taskrabbit Gears Up for Peak Moving Season as Relocation Demand Surges Globally",
+      "publisher": "Taskrabbit",
+      "date": "2026-05-12",
+      "url": "https://www.taskrabbit.com/press/release/taskrabbit-gears-up-for-peak-moving-season-as-relocation-demand-surges-globally",
+      "note": "Current company description: Taskrabbit operates in thousands of cities across eight countries and is available in 240+ IKEA stores worldwide."
+    },
+    {
+      "title": "Taskrabbit Launches Nationwide, Bringing Trusted Home Services to All 50 U.S. States",
+      "publisher": "Taskrabbit",
+      "date": "2025-08-05",
+      "url": "https://www.taskrabbit.com/press/release/taskrabbit-launches-nationwide-bringing-trusted-home-services-to-all-50-u-s",
+      "note": "Taskrabbit reports U.S. nationwide availability, background checks, an average U.S. Tasker earning rate of $47/hour, and that Taskers keep 100% of their hourly earnings and tips."
+    },
+    {
+      "title": "How Pricing Works on Taskrabbit — and What It Means for Your Earnings",
+      "publisher": "Taskrabbit",
+      "date": "2025",
+      "url": "https://www.taskrabbit.com/blog/how-pricing-works-on-taskrabbit-and-what-it-means-for-your-earnings/",
+      "note": "Taskrabbit explains its current earning structures, including fixed-price Partner Tasks and IKEA Assembly Tasks and hourly structures for direct-hire work."
+    },
+    {
+      "title": "What's the Taskrabbit trust & support fee?",
+      "publisher": "Taskrabbit Support",
+      "date": "2026",
+      "url": "https://support.taskrabbit.com/hc/en-gb/articles/46260504648731-What-s-the-Taskrabbit-trust-support-fee",
+      "note": "Taskrabbit states that the Trust & Support fee is charged to clients and does not reduce what the Tasker is paid."
+    },
+    {
+      "title": "Assembly service",
+      "publisher": "IKEA Germany",
+      "date": "2026",
+      "url": "https://www.ikea.com/de/en/customer-service/services/assembly/",
+      "note": "IKEA describes Taskrabbit assembly booking, independent Taskers, identity checks, reviews and direct coordination between the customer and the booked Tasker."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "fiverr",
+      "upwork",
+      "care-com",
+      "shopify"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Taskrabbit — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Task",
+      "explanation": "The core value unit is a booked local service task: a specific piece of work that a client needs and a Tasker agrees to complete.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "owner": {
+      "actor": {
+        "value": "Taskrabbit",
+        "explanation": "Taskrabbit runs the marketplace and is owned by Ingka Group, the largest IKEA retailer group.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Match Help",
+        "explanation": "Taskrabbit has to turn local household needs into jobs that suitable Taskers can accept and complete.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Tasks",
+        "explanation": "More completed tasks increase marketplace activity and make the network more useful to clients and Taskers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Quality",
+        "explanation": "A poor match, no-show or bad service can quickly damage trust in a marketplace built around work inside people's homes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Bookings / Fees",
+        "explanation": "Taskrabbit coordinates bookings and payments between clients and Taskers and also receives jobs through retail partners.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Trust / Rules",
+        "explanation": "Taskrabbit sets account, conduct, safety, review and task-category rules and uses identity or background checks where required.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Retail",
+        "explanation": "Taskrabbit reaches clients directly through its app and website and indirectly through retailer checkout and partner pages.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Support",
+        "explanation": "Taskrabbit matches jobs, processes payments, supports users and develops retailer integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Tech",
+        "explanation": "The marketplace relies on the Taskrabbit brand, apps, matching systems, payments, reviews and local service data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "8 countries",
+          "note": "Taskrabbit states that it operates across eight countries in North America and Europe."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Clients",
+        "explanation": "Clients are households and individuals who need local help with assembly, moving, mounting, cleaning, repairs and similar tasks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Help",
+        "explanation": "Clients want a reliable person to complete a job they cannot or do not want to do themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Trusted",
+        "explanation": "Clients benefit from visible prices, availability, reviews and the ability to book local help quickly.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Time / Risk",
+        "explanation": "Finding a reliable person, comparing options and coordinating a home-service appointment can take time and feel risky.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Pay",
+        "explanation": "Clients describe the task, book a Tasker and pay through Taskrabbit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Skill / Time",
+        "explanation": "The Tasker has to have the right skill, availability, location and price for the client's task.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Retail",
+        "explanation": "Clients can book through Taskrabbit directly or through integrated retail experiences such as IKEA assembly.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Book / Review",
+        "explanation": "Clients choose or accept a match, coordinate the job, pay and review the completed task.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Task / Payment",
+        "explanation": "Clients contribute the task description, address, schedule, payment method and feedback.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "50 US states",
+          "note": "Taskrabbit became available in all 50 U.S. states in August 2025."
+        }
+      ]
+    },
+    "provider": {
+      "actor": {
+        "value": "Taskers",
+        "explanation": "Taskers are independent service providers who offer practical skills and complete local jobs for clients.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Earn / Work",
+        "explanation": "Taskers want flexible paid work that fits their skills, schedule and preferred service area.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Choice",
+        "explanation": "Taskers can choose when and where they work and can receive direct marketplace jobs as well as partner-originated tasks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Demand / Travel",
+        "explanation": "Income depends on enough nearby demand, suitable task timing and the travel or setup required for each job.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Payout",
+        "explanation": "Taskers complete the service for the client and receive their earnings through the platform flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Checks / Skills",
+        "explanation": "Taskers must meet platform requirements and have the skills or qualifications needed for the selected categories.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Tasker App",
+        "explanation": "The Tasker app shows invitations, schedules, task information and earnings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Accept / Do",
+        "explanation": "Taskers set availability, accept jobs, coordinate with clients and complete the work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skills / Time",
+        "explanation": "Taskers contribute their labour, tools, practical skills, time and local mobility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "$47/h US*",
+          "note": "Taskrabbit reported an average U.S. Tasker earning rate of $47 per hour in August 2025; earnings vary by location."
+        }
+      ]
+    },
+    "partner": {
+      "actor": {
+        "value": "Retailers",
+        "explanation": "Retailers and manufacturers can embed Taskrabbit services around the products they sell.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Add Services",
+        "explanation": "Retail partners want to offer assembly, mounting or installation without building a large local service workforce themselves.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Easy Setup",
+        "explanation": "A retailer can extend the purchase experience into installation or assembly while Taskrabbit supplies the service network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Service Gaps",
+        "explanation": "Retailers risk a poor customer experience when products are difficult to assemble, install or move after purchase.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Jobs / Fulfil",
+        "explanation": "Retailers create service demand at the point of purchase and Taskrabbit routes that demand to suitable Taskers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Service Fit",
+        "explanation": "The product, location and requested service must match a Taskrabbit category and available Tasker supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Checkout / API",
+        "explanation": "Retailers connect through partner pages, checkout integrations and other Taskrabbit for Business tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Offer / Book",
+        "explanation": "Partners present Taskrabbit services during the buying journey and pass task details into the booking flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Products",
+        "explanation": "Retailers contribute customer demand, product information and a natural moment when a service is needed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "240+ IKEA",
+          "note": "Taskrabbit stated in May 2026 that its services were available in more than 240 IKEA stores worldwide."
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "value": "8 countries",
+        "note": "Taskrabbit operates across eight countries.",
+        "target": "owner"
+      },
+      {
+        "value": "50 US states",
+        "note": "Taskrabbit has U.S. coverage in all 50 states.",
+        "target": "consumer"
+      },
+      {
+        "value": "$47/h US*",
+        "note": "Average U.S. Tasker earnings reported by Taskrabbit in August 2025; varies by location.",
+        "target": "provider"
+      },
+      {
+        "value": "240+ IKEA",
+        "note": "Taskrabbit reported availability in 240+ IKEA stores worldwide in May 2026.",
+        "target": "partner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Book / Pay",
+          "explanation": "Clients submit a task and pay through Taskrabbit."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Task",
+          "explanation": "The Tasker completes the agreed local service for the client."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Skills / Time",
+          "explanation": "Taskers make their skills, availability and service area available to the marketplace."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Jobs / Payout",
+          "explanation": "Taskrabbit sends suitable job opportunities and pays Taskers after completed work."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Customer Jobs",
+          "explanation": "Retail partners bring service demand into Taskrabbit at the point where products are purchased."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Fulfilment",
+          "explanation": "Taskrabbit provides the local Tasker network that fulfils the retailer's service offer."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

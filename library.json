@@ -919,6 +919,24 @@
         "Partner-Operated Fleet"
       ],
       "status": "published"
+    },
+    {
+      "slug": "taskrabbit",
+      "case_number": "052",
+      "company": "Taskrabbit",
+      "headline": "What happens when Taskrabbit is built into the store checkout?",
+      "industry": [
+        "Services",
+        "Home Services Marketplace"
+      ],
+      "topics": [
+        "Local Services",
+        "Retail Partnerships",
+        "Embedded Marketplace",
+        "Gig Work",
+        "Trust"
+      ],
+      "status": "published"
     }
   ]
 }
