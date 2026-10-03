@@ -1063,6 +1063,25 @@
         "Local Services"
       ],
       "status": "published"
+    },
+    {
+      "slug": "care-com",
+      "case_number": "060",
+      "company": "Care.com",
+      "headline": "Can one care marketplace follow a family through different stages of life?",
+      "industry": [
+        "Services",
+        "Care Marketplace"
+      ],
+      "topics": [
+        "Child Care",
+        "Senior Care",
+        "Pet Care",
+        "Housekeeping",
+        "Trust and Safety",
+        "Multi-Category Marketplace"
+      ],
+      "status": "published"
     }
   ]
 }
