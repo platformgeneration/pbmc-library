@@ -1027,6 +1027,24 @@
         "UK Marketplace"
       ],
       "status": "published"
+    },
+    {
+      "slug": "handy",
+      "case_number": "058",
+      "company": "Handy",
+      "headline": "Can a home service be booked like a product?",
+      "industry": [
+        "Services",
+        "Home Services Marketplace"
+      ],
+      "topics": [
+        "Home Services",
+        "Upfront Pricing",
+        "Instant Booking",
+        "Local Services",
+        "Trust and Safety"
+      ],
+      "status": "published"
     }
   ]
 }
