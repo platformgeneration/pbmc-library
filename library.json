@@ -973,6 +973,24 @@
         "Payments"
       ],
       "status": "published"
+    },
+    {
+      "slug": "freelancer-com",
+      "case_number": "055",
+      "company": "Freelancer.com",
+      "headline": "What happens when dozens of freelancers compete for the same job?",
+      "industry": [
+        "Services",
+        "Freelance Marketplace"
+      ],
+      "topics": [
+        "Freelance Work",
+        "Competitive Bidding",
+        "Contests",
+        "Two-sided Marketplace",
+        "Milestone Payments"
+      ],
+      "status": "published"
     }
   ]
 }

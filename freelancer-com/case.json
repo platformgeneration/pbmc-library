@@ -1,0 +1,469 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Freelancer.com",
+    "slug": "freelancer-com",
+    "headline": "What happens when dozens of freelancers compete for the same job?",
+    "case_number": "055",
+    "published_date": "2026-10-03",
+    "updated_date": "2026-10-03",
+    "snapshot_date": "2026-10-03",
+    "status": "official",
+    "industry": [
+      "Services",
+      "Freelance Marketplace"
+    ],
+    "topics": [
+      "Freelance Work",
+      "Competitive Bidding",
+      "Contests",
+      "Two-sided Marketplace",
+      "Milestone Payments"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Freelancer.com makes many providers compete for the same piece of work",
+    "text": "A client can post a project with a brief and budget, and freelancers then compete by sending bids. In 2025, Freelancer.com reported an average of 54 bids per project. The client can compare price, profile, past work and reviews before choosing who gets the job. For some kinds of work, especially design, the platform also offers contests. Instead of only describing what they would do, freelancers can submit actual entries and the client chooses a winner. Freelancer.com reported an average of 761 entries per contest listing in 2025. This creates a very competitive marketplace: clients get many options, while freelancers have to stand out among many rivals. The platform then adds milestone payments, reviews and dispute tools around the winning relationship so that the work can move from competition to delivery."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Freelancer Limited Annual Report 2025",
+      "publisher": "Freelancer Limited",
+      "date": "2026",
+      "url": "https://www.freelancer.com/about/investor-pdf.php?id=293558903&name=FY25_AR_PAGES+FINAL",
+      "note": "Freelancer reported 7.32 million new users, 666,000 new projects, an average project size of US$413, 54 bids per project and 761 contest entries per listing in FY2025."
+    },
+    {
+      "title": "About Freelancer.com",
+      "publisher": "Freelancer.com",
+      "date": "2026",
+      "url": "https://www.freelancer.com/about",
+      "note": "Freelancer.com says it connects more than 90 million employers and freelancers across more than 247 countries, regions and territories."
+    },
+    {
+      "title": "Contests vs. Projects",
+      "publisher": "Freelancer Support",
+      "date": "2026",
+      "url": "https://www.freelancer.com/support/general/contests-vs-projects",
+      "note": "Projects use competitive bidding, while contests let clients review multiple submitted entries and choose a winner."
+    },
+    {
+      "title": "Freelancer Fees and Charges",
+      "publisher": "Freelancer.com",
+      "date": "2026",
+      "url": "https://www.freelancer.com/feesandcharges",
+      "note": "Fixed-price and hourly projects generally charge freelancers 10%; contest winners pay 10% or US$5, whichever is greater. Client project fees are generally 3% or US$3 for fixed-price projects and 3% for hourly projects."
+    },
+    {
+      "title": "Milestone Payments",
+      "publisher": "Freelancer Support",
+      "date": "2026",
+      "url": "https://www.freelancer.com/support/payments/milestone-payment-for-employers-2228",
+      "note": "Freelancer holds funded milestone payments until clients release them and provides dispute support around milestone payments."
+    },
+    {
+      "title": "Withdrawal methods",
+      "publisher": "Freelancer Support",
+      "date": "2026",
+      "url": "https://www.freelancer.com/support/payments/withdrawal-methods",
+      "note": "Freelancers can withdraw through bank methods and external payment providers including PayPal, Skrill and Payoneer depending on location."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "upwork",
+      "fiverr",
+      "99designs",
+      "peopleperhour"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Freelancer.com — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Project",
+      "explanation": "The core value unit is a piece of client work that is awarded to a freelancer through a project bid or, in some categories, through a contest.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "owner": {
+      "actor": {
+        "value": "Freelancer.com",
+        "explanation": "Freelancer.com operates the marketplace, sets bidding and contest rules, manages milestone payments, reviews, disputes and user access.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run Competition",
+        "explanation": "The platform has to turn one client brief into useful competition among qualified freelancers without letting spam or low-quality bids overwhelm the client.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Awards",
+        "explanation": "More projects that receive useful bids and are awarded create marketplace activity, fees and repeat use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Spam / Quality",
+        "explanation": "Too many irrelevant bids, copied contest entries, fraud or low-quality work can make a large marketplace harder to use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Awards / Fees",
+        "explanation": "Freelancer.com manages project awards, contest prizes, milestone payments and marketplace fees.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Bids / Reviews",
+        "explanation": "The platform sets bidding, contest, review, milestone and dispute rules and removes abuse or copied work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Ads",
+        "explanation": "Freelancer.com attracts clients and freelancers through search, marketing, referrals and its large global user base.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Protect",
+        "explanation": "The platform distributes jobs, ranks bids, supports chat, holds milestones, processes awards and handles disputes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Users / Data",
+        "explanation": "Its main resources are the global user network, project history, bids, reputation data, payment systems and marketplace software.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "90M+ users*",
+          "note": "Freelancer.com says it connects more than 90 million employers and freelancers globally; this is a combined network count, not a freelancer-only figure."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Clients",
+        "explanation": "Clients include individuals, startups and organizations that need digital or professional work completed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Work Done",
+        "explanation": "Clients want to describe a problem, see competing offers and choose someone who can deliver it.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Price",
+        "explanation": "Many bids or contest entries give clients a wide choice of skills, approaches and price points.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Quality / Time",
+        "explanation": "A large number of bids can also create screening work, and the lowest bid is not always the best fit.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Post / Fund",
+        "explanation": "Clients post a project or contest, fund milestone payments or prize money, choose a provider and release payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Skill / Budget",
+        "explanation": "A useful provider has to fit the skill, budget, deadline, language and quality expectations of the job.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Projects / Contests",
+        "explanation": "Clients can post a normal project and review bids or start a contest and compare submitted entries.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Post / Select",
+        "explanation": "Clients write briefs, review bids or entries, message freelancers, award work, review delivery and release payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brief / Budget",
+        "explanation": "Clients bring the work requirement, budget, files, feedback and payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "666K projects*",
+          "note": "Freelancer reported 666,000 new projects added to the marketplace in FY2025; this is a project-flow metric, not a count of clients."
+        }
+      ]
+    },
+    "provider": {
+      "actor": {
+        "value": "Freelancers",
+        "explanation": "Freelancers compete for client work by sending bids, portfolios and work samples or by entering contests.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Win Work",
+        "explanation": "Freelancers want to turn their skills into paid projects and build a reputation that helps them win future work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Reach",
+        "explanation": "The marketplace gives independent workers access to demand from clients around the world.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition",
+        "explanation": "Freelancers may compete against many other bidders, spend time on bids that do not win and face strong price pressure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Bid / Deliver",
+        "explanation": "Freelancers submit bids or contest entries, agree terms and then deliver the winning work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Skills / Rules",
+        "explanation": "Bids and entries must meet client requirements, platform rules and any verification or contest conditions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Bids / Contests",
+        "explanation": "Freelancers find projects, submit bids, enter contests and communicate with clients through the platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Bid / Build",
+        "explanation": "Freelancers prepare proposals or entries, negotiate scope, complete work, submit deliverables and build reviews.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skills / Time",
+        "explanation": "Freelancers contribute expertise, time, tools, portfolios and reputation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "54 bids / job",
+          "note": "Freelancer reported an average of 54 bids per project in FY2025."
+        }
+      ]
+    },
+    "partner": {
+      "actor": {
+        "value": "Payment Networks",
+        "explanation": "Banks, card networks and external payout providers help move client funds and freelancer earnings across countries.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Move Money",
+        "explanation": "Payment partners have to move money reliably into and out of a global marketplace with many currencies and local rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Global Volume",
+        "explanation": "Freelancer creates payment and payout volume across a large international services marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fraud / Rules",
+        "explanation": "Global payments involve identity checks, fraud controls, chargebacks, banking rules and country-specific availability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pay / Payout",
+        "explanation": "External payment networks support client deposits, funding and freelancer withdrawals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Coverage",
+        "explanation": "Payment methods have to support the relevant country, currency, account and verification requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Bank / Wallets",
+        "explanation": "Freelancer supports bank withdrawals and external services such as PayPal, Skrill and Payoneer depending on location.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Process Funds",
+        "explanation": "Partners authorize charges, clear transfers and process withdrawals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / KYC",
+        "explanation": "Partners provide banking rails, card or wallet infrastructure and local compliance coverage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": []
+    },
+    "metrics": [
+      {
+        "value": "90M+ users*",
+        "note": "Combined employers and freelancers reported on Freelancer.com About page; not provider-only.",
+        "target": "owner"
+      },
+      {
+        "value": "666K projects*",
+        "note": "New projects added in FY2025; not a client count.",
+        "target": "consumer"
+      },
+      {
+        "value": "54 bids / job",
+        "note": "Average bids per project in FY2025.",
+        "target": "provider"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Post / Fund",
+          "explanation": "A client posts a project or contest and funds milestones or prize money through Freelancer.com."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Bids / Entries",
+          "explanation": "Freelancer.com returns competing bids or contest entries for the client to review."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Bid / Entry",
+          "explanation": "Freelancers submit proposals, prices, work samples or contest entries to compete for the work."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Award / Payout",
+          "explanation": "The platform awards the project or contest and releases protected funds after the relevant work or milestone is accepted."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Work",
+          "explanation": "The winning freelancer delivers the agreed project output to the client."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "External banking and payment networks can move earned funds from Freelancer.com to the freelancer."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}
