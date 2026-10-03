@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Bird",
+    "slug": "bird",
+    "headline": "Who actually keeps Bird scooters ready to ride?",
+    "case_number": "051",
+    "published_date": "2026-10-03",
+    "updated_date": "2026-10-03",
+    "snapshot_date": "2026-10-03",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Shared Micromobility"
+    ],
+    "topics": [
+      "Operations Partners",
+      "Local Fleet Operations",
+      "City Partnerships",
+      "Micromobility",
+      "Partner-Operated Fleet"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Bird lets local businesses run the fleet while Bird provides the platform and vehicles",
+    "text": "To a rider, Bird can look much like other scooter apps: find a vehicle, unlock it and ride. The operating model can be different behind the screen. Bird's current Operations Partner program lets local businesses handle day-to-day fleet work such as charging batteries and repositioning scooters, while Bird provides the vehicles, software, routing tools, live support and repairs. Partners can even build and run a local Bird operation without paying for the vehicles up front. This gives Bird a way to expand local operations without doing every fleet task with its own staff. Cities still decide whether Bird can operate and set local rules for parking, safety and fleet size. The case shows how a micromobility platform can split the physical work between the platform company, local operators and city partners."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Bird — Shared Electric Scooters and E-Bikes",
+      "publisher": "Bird",
+      "date": "2026",
+      "url": "https://bird.co/",
+      "note": "Current Bird overview. Bird reports 150M+ rides and 100+ cities served and describes its current fleet, rider experience and partnership model."
+    },
+    {
+      "title": "Operations Partner — Bird",
+      "publisher": "Bird",
+      "date": "2026",
+      "url": "https://bird.co/us-op/",
+      "note": "Bird invites local businesses to manage day-to-day fleet tasks or run a Bird operation with no upfront vehicle costs. Partners charge batteries, swap batteries and reposition vehicles; Bird handles repairs and provides app-based tools and support."
+    },
+    {
+      "title": "City Partners — Bird",
+      "publisher": "Bird",
+      "date": "2026",
+      "url": "https://bird.co/cities/",
+      "note": "Bird describes city partnerships around permits, operating rules, MDS data, parking, speed limits, safety and local program performance."
+    },
+    {
+      "title": "Vehicles — Bird",
+      "publisher": "Bird",
+      "date": "2026",
+      "url": "https://bird.co/vehicles/",
+      "note": "Current Bird vehicle lineup includes purpose-built e-scooters and e-bikes designed for shared urban use."
+    },
+    {
+      "title": "Third Lane Mobility Inc.",
+      "publisher": "Third Lane Mobility",
+      "date": "2026",
+      "url": "https://thirdlane.co/",
+      "note": "Third Lane Mobility is the current parent company behind Bird and Spin and describes the combined network as operating across 350 cities."
+    },
+    {
+      "title": "Bird emerges from Chapter 11 under Third Lane Mobility",
+      "publisher": "Bird / Business Wire republished by CCAM-TAC",
+      "date": "2024-04-04",
+      "url": "https://www.ccam-tac.org/news/bird-successfully-emerges-from-bankruptcy-as-a-stronger-company-and-will-operate-under-third-lane-mobility-inc/",
+      "note": "Bird announced that it had emerged from Chapter 11 under the new private parent Third Lane Mobility after the sale of Bird's assets."
+    },
+    {
+      "title": "Bird Global asset sale to Third Lane Mobility",
+      "publisher": "Cassel Salpeter & Co.",
+      "date": "2024-04-11",
+      "url": "https://www.casselsalpeter.com/firm-announcements/cassel-salpeter-co-facilitates-sale-of-bird-global-inc-assets-to-third-lane-mobility-inc-for-145-million-in-micromobility-firms-chapter-11-bankruptcy/",
+      "note": "The transaction adviser reports the sale of substantially all Bird Global assets to Third Lane Mobility for approximately $145 million."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "lime",
+      "uber-ride-hailing",
+      "bolt",
+      "getaround"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Bird — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "The core value unit is a short e-scooter or e-bike ride that Bird makes available through its app and local fleet network.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "150M+ rides",
+          "note": "Bird currently reports more than 150 million lifetime rides."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Bird",
+        "explanation": "Bird runs the rider platform and brand under its current parent, Third Lane Mobility, which acquired Bird's assets in 2024.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Run Network",
+        "explanation": "Bird has to make reliable vehicles available across many local markets while coordinating riders, operators and cities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trips / Reach",
+        "explanation": "More rides and more well-run local markets increase utilization, revenue and geographic reach.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fleet / Rules",
+        "explanation": "Bird must manage vehicle quality, operating costs and different local rules across cities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Ride / Tasks",
+        "explanation": "Bird sells ride access to riders and coordinates fleet work with local operations partners.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Safety / Parking",
+        "explanation": "Bird sets account, safety and parking rules while adapting the service to each city's requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Partners",
+        "explanation": "Bird reaches riders through its app and through city, transit, housing and local partnership programs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Run / Support",
+        "explanation": "Bird operates the digital platform, supports local operators, manages repairs and coordinates city programs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brand / Fleet",
+        "explanation": "Bird contributes the brand, vehicles, app, operational software, routing tools and support systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "Riders use Bird scooters and e-bikes for short urban trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Short Trips",
+        "explanation": "Riders need a quick way to travel short distances without using a car.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Nearby / Easy",
+        "explanation": "A useful vehicle can be found nearby and unlocked directly with the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Supply",
+        "explanation": "Riders can face limited availability, low battery, poor parking or higher-than-expected trip costs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Unlock / Pay",
+        "explanation": "Riders unlock a vehicle and pay Bird for the trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Place / Charge",
+        "explanation": "The vehicle has to be close enough, charged and allowed in the intended operating zone.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Bird App",
+        "explanation": "The Bird app shows available vehicles, starts the ride and handles the account and payment flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Find / Ride",
+        "explanation": "Riders find, unlock, ride and park a vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Phone / Pay",
+        "explanation": "Riders contribute an account, payment method, location and trip-demand data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Ops Partners",
+        "explanation": "Local operations partners are businesses that keep Bird fleets charged, positioned and ready for riders.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Keep Ready",
+        "explanation": "Operations partners keep vehicles charged and positioned where riders can use them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Payout / Growth",
+        "explanation": "Partners earn payouts from completed fleet tasks and can build a local operating business around the Bird network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Charge / Move",
+        "explanation": "Partners need local space, staff, vehicles and time to charge batteries and reposition scooters.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Fleet Tasks",
+        "explanation": "Partners complete Bird-assigned charging, battery-swap and repositioning tasks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Local Fit",
+        "explanation": "Bird requires an active compliant business, local insurance and the capacity to support the fleet.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Ops App",
+        "explanation": "Bird's operations tools provide tasks, routing, guidance and live support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Charge / Move",
+        "explanation": "Partners charge or swap batteries and reposition vehicles; Bird says repairs remain with Bird.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Team / Space",
+        "explanation": "Partners contribute local staff, charging space, vehicles and operational capacity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Cities",
+        "explanation": "Cities authorize and shape Bird programs through permits, rules, street-space decisions and data requirements.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "100+ cities",
+            "note": "Bird's current website reports more than 100 cities served."
+          }
+        ]
+      },
+      "job": {
+        "value": "Set Rules",
+        "explanation": "Cities want useful mobility options while keeping streets safe, accessible and orderly.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Access / Goals",
+        "explanation": "Shared micromobility can improve first- and last-mile access and support transport or climate goals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Clutter / Safety",
+        "explanation": "Cities must manage parking, sidewalk obstruction, unsafe riding and uneven service quality.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Permit / Data",
+        "explanation": "Cities provide operating permission and rules; Bird provides service and program data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Local Rules",
+        "explanation": "Permits, fleet limits, parking rules, speed zones and operating areas differ by city.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "City Teams",
+        "explanation": "Bird works with transport departments and other local public agencies.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Permit / Plan",
+        "explanation": "Cities issue permits, set operating rules and monitor local program performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Streets / Data",
+        "explanation": "Cities contribute access to public space, local policy and mobility planning data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "100+ cities",
+        "note": "Bird's current website reports more than 100 cities served.",
+        "target": "partner"
+      },
+      {
+        "value": "150M+ rides",
+        "note": "Bird's current website reports more than 150 million lifetime rides.",
+        "target": "core_value_unit"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Unlock / Pay",
+          "explanation": "Riders unlock a nearby vehicle and pay Bird for the trip."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Ride Access",
+          "explanation": "Bird provides digital access to an available e-scooter or e-bike."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Tasks / Tools",
+          "explanation": "Bird sends fleet tasks, routing and support to local operations partners."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Ready Fleet",
+          "explanation": "Operations partners return charged and correctly positioned vehicles to service."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Permit / Space",
+          "explanation": "Cities provide operating permission and define local use of public space."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Service / Data",
+          "explanation": "Bird provides micromobility service and operating data for city oversight."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

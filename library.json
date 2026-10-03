@@ -901,6 +901,24 @@
         "Asset-Heavy Platform"
       ],
       "status": "published"
+    },
+    {
+      "slug": "bird",
+      "case_number": "051",
+      "company": "Bird",
+      "headline": "Who actually keeps Bird scooters ready to ride?",
+      "industry": [
+        "Mobility",
+        "Shared Micromobility"
+      ],
+      "topics": [
+        "Operations Partners",
+        "Local Fleet Operations",
+        "City Partnerships",
+        "Micromobility",
+        "Partner-Operated Fleet"
+      ],
+      "status": "published"
     }
   ]
 }
