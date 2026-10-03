@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "99designs",
+    "slug": "99designs",
+    "headline": "Can a design contest become the start of a longer client relationship?",
+    "case_number": "056",
+    "published_date": "2026-10-03",
+    "updated_date": "2026-10-03",
+    "snapshot_date": "2026-10-03",
+    "status": "official",
+    "industry": [
+      "Services",
+      "Design Marketplace"
+    ],
+    "topics": [
+      "Design Contests",
+      "Freelance Design",
+      "1-to-1 Projects",
+      "Creative Marketplace",
+      "Curation"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "A contest can help a client find a designer for more than one job",
+    "text": "99designs gives clients two main ways to buy design. They can hire one designer directly, or they can launch a contest and receive ideas from several designers before choosing a winner. The contest can do more than solve one design problem. After the contest, a client can continue working with a designer through a 1-to-1 Project. 99designs even waives its client introduction fee when that designer won or reached the final round of the client’s contest. This means the contest can also work as a discovery process: the client sees different styles and working approaches first, then can turn a successful match into a longer relationship."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "About 99designs by Vista",
+      "publisher": "99designs",
+      "date": "2026",
+      "url": "https://99designs.com/about",
+      "note": "99designs describes itself as part of Vista and says its freelance community has brought more than one million creative projects to life since 2008."
+    },
+    {
+      "title": "How it works",
+      "publisher": "99designs",
+      "date": "2026",
+      "url": "https://99designs.com/how-it-works",
+      "note": "99designs lets clients either start a contest, where multiple designers submit ideas, or continue working directly with a designer after the design is finalized."
+    },
+    {
+      "title": "What is a design contest?",
+      "publisher": "99designs Help Center",
+      "date": "2026",
+      "url": "https://support.99designs.com/hc/en-us/articles/204761045-What-is-a-design-contest",
+      "note": "A client writes a brief, selects a contest package, receives competing design concepts, chooses a winner and receives the winning files and copyright."
+    },
+    {
+      "title": "Logo design pricing",
+      "publisher": "99designs",
+      "date": "2026",
+      "url": "https://99designs.com/pricing",
+      "note": "Current logo contests start at US$249; package levels estimate different numbers of design concepts and can restrict participation to higher designer levels."
+    },
+    {
+      "title": "What is a platform fee?",
+      "publisher": "99designs Help Center",
+      "date": "2026",
+      "url": "https://support.99designs.com/hc/en-us/articles/360022206031-What-is-a-platform-fee",
+      "note": "For 1-to-1 Projects, clients pay a 5% platform fee. Designers pay 5%, 10% or 15% depending on their designer level."
+    },
+    {
+      "title": "What is a client introduction fee?",
+      "publisher": "99designs Help Center",
+      "date": "2026",
+      "url": "https://support.99designs.com/hc/en-us/articles/360022018152-What-is-a-client-introduction-fee",
+      "note": "The designer introduction fee is 20% of the first US$500 of paid invoices with a new client, capped at US$100, and is waived if the designer won or was a finalist in that client’s contest."
+    },
+    {
+      "title": "Designer application process",
+      "publisher": "99designs Help Center",
+      "date": "2026",
+      "url": "https://support.99designs.com/hc/en-us/articles/360036552311-How-does-the-99designs-designer-application-process-work",
+      "note": "New designers are reviewed against quality standards before they can participate, showing that 99designs curates the provider side rather than accepting every applicant automatically."
+    },
+    {
+      "title": "Which payment providers does 99designs use?",
+      "publisher": "99designs Help Center",
+      "date": "2026",
+      "url": "https://support.99designs.com/hc/en-us/articles/204108829-Which-payment-providers-does-99designs-use",
+      "note": "Since January 19, 2026, Hyperwallet, a PayPal service, is the exclusive payout provider for designers on 99designs."
+    },
+    {
+      "title": "General Terms & Conditions",
+      "publisher": "99designs",
+      "date": "2025",
+      "url": "https://99designs.com/legal/terms-and-conditions",
+      "note": "The terms identify 99designs LLC as the platform operator and describe 99designs by Vista as part of the wider Vista family."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "freelancer-com",
+      "fiverr",
+      "upwork",
+      "peopleperhour"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). 99designs — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Design",
+      "explanation": "The core value unit is the design that solves the client brief, whether it is selected from a contest or created through a direct 1-to-1 Project.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "owner": {
+      "actor": {
+        "value": "99designs",
+        "explanation": "99designs by Vista operates the marketplace, curates designers, runs contests and 1-to-1 Projects, handles payments and sets marketplace rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Match Creatives",
+        "explanation": "The platform has to connect a client brief with designers whose style and skills fit the work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Projects",
+        "explanation": "More successful contests and direct projects create fees, repeat work and stronger designer-client relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Quality / Trust",
+        "explanation": "Poor submissions, copied work, payment disputes or weak matching can make creative work harder to buy online.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Briefs / Fees",
+        "explanation": "99designs organizes briefs, contest prizes, 1-to-1 quotes, protected payments and platform fees.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Levels / Rules",
+        "explanation": "99designs curates new designers, assigns designer levels and applies originality, contest and client rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Vista",
+        "explanation": "99designs attracts clients through search, its own brand, design content and the wider Vista ecosystem.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Curate / Match",
+        "explanation": "The platform reviews designers, distributes briefs, supports feedback, transfers files and manages disputes and payments.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Designers / Data",
+        "explanation": "Its core resources include the designer community, portfolios, contest history, reviews, briefs and marketplace software.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "1M+ projects",
+          "note": "99designs says its freelance community has brought more than one million creative projects to life since 2008."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Clients",
+        "explanation": "Clients are entrepreneurs, small businesses, brands and other buyers that need professional design work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Design",
+        "explanation": "Clients want a design that fits their brief, brand, budget and deadline.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Many Ideas",
+        "explanation": "A contest can show the client several creative directions before they commit to one winning design.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Choice / Fit",
+        "explanation": "Clients still have to explain the brief clearly, compare subjective creative options and give useful feedback.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Brief / Pay",
+        "explanation": "Clients create a brief, choose a contest or direct project, provide feedback and fund the work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Style / Budget",
+        "explanation": "The right designer or concept must fit the desired style, category, quality level, budget and timing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Contest / 1-to-1",
+        "explanation": "Clients can open a brief to many designers in a contest or work directly with one designer in a 1-to-1 Project.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Brief / Review",
+        "explanation": "Clients describe the work, review concepts or quotes, give feedback, choose a designer and approve final files.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brief / Brand",
+        "explanation": "Clients bring the design need, brand information, references, feedback and budget.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "786K+ contests*",
+          "note": "The live 99designs contest directory showed more than 786,000 finished contests when checked in October 2026; this is a historical contest count, not a current client count."
+        }
+      ]
+    },
+    "provider": {
+      "actor": {
+        "value": "Designers",
+        "explanation": "Designers are curated freelance creatives who can enter contests or work directly with clients.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Win Design Work",
+        "explanation": "Designers want to turn their creative skills into paid work and build client relationships and reputation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Clients",
+        "explanation": "The marketplace can bring designers clients they would not have reached on their own and can lead to repeat 1-to-1 work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Unpaid Ideas",
+        "explanation": "In contests, several designers may spend time creating concepts even though only the winning design receives the contest prize.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Submit / Deliver",
+        "explanation": "Designers submit contest concepts or direct quotes, revise work and deliver final production-ready files.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Quality / Level",
+        "explanation": "Designers must pass curation and are placed into Entry, Mid or Top Level based on quality and platform performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Contests / Direct",
+        "explanation": "Designers can enter open contests or receive and accept direct 1-to-1 work from clients.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Create / Revise",
+        "explanation": "Designers interpret briefs, create concepts, respond to feedback, revise designs and hand over final files.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skill / Portfolio",
+        "explanation": "Designers contribute creative skill, software, time, portfolios, style knowledge and professional reputation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "5–15% fee",
+          "note": "For 1-to-1 Projects, designer platform fees are 5% for Top Level, 10% for Mid Level and 15% for Entry Level designers."
+        }
+      ]
+    },
+    "partner": {
+      "actor": {
+        "value": "Hyperwallet",
+        "explanation": "Hyperwallet, a PayPal service, is the exclusive payout provider for 99designs designers as of January 2026.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Pay Designers",
+        "explanation": "The payout partner has to move designer earnings reliably across countries and available local payout methods.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Payout Volume",
+        "explanation": "Marketplace activity creates recurring international payout transactions for the payment partner.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "KYC / Coverage",
+        "explanation": "Cross-border payouts require identity checks, compliant accounts and country-specific payout coverage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Payout",
+        "explanation": "Hyperwallet receives payout instructions and moves cleared designer earnings to supported accounts or methods.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Verified",
+        "explanation": "A designer needs an eligible, verified Hyperwallet account connected to the 99designs profile.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Payout Account",
+        "explanation": "Designers connect and manage Hyperwallet through the earnings and payout setup flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Move Funds",
+        "explanation": "Hyperwallet processes payout instructions and supports region-specific withdrawal methods.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Payment Rails",
+        "explanation": "The partner contributes payout infrastructure, account verification and local payment coverage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": []
+    },
+    "metrics": [
+      {
+        "value": "1M+ projects",
+        "note": "More than one million creative projects since 2008, per 99designs About page.",
+        "target": "owner"
+      },
+      {
+        "value": "786K+ contests*",
+        "note": "Historical finished contest count shown in the public contest directory when checked in October 2026; not a client count.",
+        "target": "consumer"
+      },
+      {
+        "value": "5–15% fee",
+        "note": "Designer platform fee range for 1-to-1 Projects depending on designer level.",
+        "target": "provider"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Brief / Pay",
+          "explanation": "The client sends a design brief, chooses a contest or direct project and funds the work through 99designs."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Contest / Project",
+          "explanation": "99designs makes the brief available as a contest or routes direct project work to an eligible designer."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Design / Quote",
+          "explanation": "Designers submit concepts in contests or send quotes and work through 1-to-1 Projects."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Ideas / Files",
+          "explanation": "The platform presents contest concepts or direct-project work and delivers final files after approval and handover."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Feedback",
+          "explanation": "Clients give feedback so designers can refine concepts and final work."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "Hyperwallet moves cleared designer earnings from 99designs to supported payout methods."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

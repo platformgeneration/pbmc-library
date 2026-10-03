@@ -991,6 +991,24 @@
         "Milestone Payments"
       ],
       "status": "published"
+    },
+    {
+      "slug": "99designs",
+      "case_number": "056",
+      "company": "99designs",
+      "headline": "Can a design contest become the start of a longer client relationship?",
+      "industry": [
+        "Services",
+        "Design Marketplace"
+      ],
+      "topics": [
+        "Design Contests",
+        "Freelance Design",
+        "1-to-1 Projects",
+        "Creative Marketplace",
+        "Curation"
+      ],
+      "status": "published"
     }
   ]
 }
