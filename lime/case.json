@@ -1,0 +1,496 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Lime",
+    "slug": "lime",
+    "headline": "What changes when the platform owns the vehicles?",
+    "case_number": "050",
+    "published_date": "2026-09-30",
+    "updated_date": "2026-09-30",
+    "snapshot_date": "2026-09-30",
+    "status": "official",
+    "industry": [
+      "Mobility",
+      "Shared Micromobility"
+    ],
+    "topics": [
+      "Vertically Integrated Platform",
+      "Fleet Operations",
+      "City Partnerships",
+      "Micromobility",
+      "Asset-Heavy Platform"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Lime owns much of the supply that makes the platform work",
+    "text": "Uber and Turo depend on independent drivers or car owners to bring vehicles onto their marketplaces. Lime works differently. It designs its own e-scooters and e-bikes, operates a large vehicle fleet and uses its own software to decide which vehicles need charging, repair or repositioning. That means Lime can control more of the rider experience, but it also has to pay for vehicles and run the physical operation behind every ride. Cities are another important part of the model because Lime can only operate where local authorities allow shared vehicles and set rules for parking, safety and fleet size. The case shows that a digital platform does not always need an independent seller or driver on the supply side. It can own the assets itself and use software to coordinate them at city scale."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Lime Final Prospectus",
+      "publisher": "Lime / SEC",
+      "date": "2026-07-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1699963/000162828026046635/neutronholdingsinc-424b4.htm",
+      "note": "Lime describes its vertically integrated model combining proprietary vehicles, software, data, tech-enabled operations and government-relations expertise. It reported approximately 230 cities, 29 countries and 19 million riders in 2025."
+    },
+    {
+      "title": "Lime Announces Second Quarter 2026 Financial Results",
+      "publisher": "Lime",
+      "date": "2026-08-04",
+      "url": "https://investors.li.me/news-releases/news-release-details/lime-announces-second-quarter-2026-financial-results",
+      "note": "Reports Q2 2026 revenue of $304 million and an average operational fleet of 407,707 vehicles, up 22% year over year."
+    },
+    {
+      "title": "Lime Q2 2026 Form 10-Q",
+      "publisher": "Lime / SEC",
+      "date": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1699963/000162828026055698/lime-20260630.htm",
+      "note": "Defines average operational fleet and monthly active users. Q2 2026 MAU averaged 5.024 million; Lime says charging, maintenance and repositioning are actively managed to keep vehicles available."
+    },
+    {
+      "title": "Investor Relations — Lime",
+      "publisher": "Lime",
+      "date": "2026",
+      "url": "https://investors.li.me/",
+      "note": "Current company overview lists approximately 230 operating cities, 29 countries and more than one billion lifetime trips."
+    },
+    {
+      "title": "What Lime’s IPO means for riders and city partners",
+      "publisher": "Lime",
+      "date": "2026-07-01",
+      "url": "https://www.li.me/blog/what-limes-ipo-means-for-riders-and-city-partners",
+      "note": "Lime describes riders and cities as the two constituencies it must serve and reports around 19 million riders in 2025."
+    },
+    {
+      "title": "Lime Partner Programs",
+      "publisher": "Lime",
+      "date": "2026",
+      "url": "https://www.li.me/de-de/about/partners",
+      "note": "Shows that Lime also uses logistics partners and transit integrations around its vertically integrated fleet operations."
+    },
+    {
+      "title": "Keeping DC Moving",
+      "publisher": "Lime",
+      "date": "2026-09-24",
+      "url": "https://www.li.me/blog/keeping-dc-moving-lime-invests-17-million-in-capitals-thriving-micromobility-program",
+      "note": "A current example of how Lime combines vehicle investment, operations, parking technology, safety measures and city priorities in one local program."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "bird",
+      "uber-ride-hailing",
+      "bolt",
+      "getaround"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Lime — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Ride",
+      "explanation": "The core value unit is a short e-scooter or e-bike trip using a vehicle that Lime has made available in the city.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "1B+ trips",
+          "note": "Lime reports more than one billion lifetime trips across its global network."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Lime",
+        "explanation": "Lime owns and operates the platform, designs its vehicles and coordinates software, fleet operations and city relationships.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$304M Q2 rev",
+            "note": "Revenue reported for the second quarter of 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Run Fleet",
+        "explanation": "Lime has to keep enough safe vehicles available where riders need them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trips / Margin",
+        "explanation": "More rides and better vehicle utilization improve revenue and unit economics.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Damage / Rules",
+        "explanation": "Lime bears vehicle costs and must manage vandalism, maintenance, local rules and parking problems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Unlock / Ride",
+        "explanation": "Lime gives riders digital access to a nearby vehicle and charges for the trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Safety / Parking",
+        "explanation": "Lime sets riding, parking and account rules while adapting service to local regulation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Transit",
+        "explanation": "Riders find Lime through the app, local visibility and integrations with transport services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Deploy / Rebalance",
+        "explanation": "Lime deploys, charges, repairs and repositions vehicles to match local demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Vehicles / Data",
+        "explanation": "The fleet, IoT hardware, software, demand data and operating teams are core resources.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Riders",
+        "explanation": "People use Lime e-scooters and e-bikes for short urban trips.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "5.0M MAU",
+            "note": "Average monthly active users reported for Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Short Trips",
+        "explanation": "Riders need a quick way to cover short distances in a city.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Nearby / Fast",
+        "explanation": "A useful Lime vehicle can be found nearby and unlocked without a rental counter.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Supply",
+        "explanation": "Riders can face high prices, low local availability, poor parking or low battery levels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Unlock / Pay",
+        "explanation": "Riders locate a vehicle, unlock it and pay for the trip through Lime.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Place / Charge",
+        "explanation": "The vehicle has to be close enough, sufficiently charged and allowed for the intended trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Lime App",
+        "explanation": "The Lime app shows vehicles, starts the ride and handles payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Find / Ride",
+        "explanation": "Riders locate, unlock, ride and park the vehicle.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Phone / Payment",
+        "explanation": "Riders contribute location, account, payment and trip-demand data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Fleet Ops",
+        "explanation": "Lime operations teams and supporting logistics partners keep the physical fleet available for riders.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "407.7K fleet",
+            "note": "Average operational fleet reported for Q2 2026."
+          }
+        ]
+      },
+      "job": {
+        "value": "Keep Ready",
+        "explanation": "Operations teams keep vehicles charged, safe, repaired and positioned for demand.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Use / Uptime",
+        "explanation": "More available vehicles and fewer outages improve fleet productivity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Charge / Repair",
+        "explanation": "Vehicles need continual charging, maintenance, collection and repositioning.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Service / Place",
+        "explanation": "Operations prepare vehicles and place them where riders can use them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Priority",
+        "explanation": "The operations system prioritizes vehicles that need charging, repair or repositioning.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Supply App",
+        "explanation": "Lime uses an operations-facing Supply App to coordinate fleet work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Charge / Move",
+        "explanation": "Teams charge, maintain, collect and reposition vehicles.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Staff / Tools",
+        "explanation": "Operations contribute staff, vehicles, maintenance capacity and local logistics tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Cities",
+        "explanation": "Cities authorize and shape shared micromobility programs through permits, operating rules and street-space decisions.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "~230 cities",
+            "note": "Lime reports operations in approximately 230 cities."
+          }
+        ]
+      },
+      "job": {
+        "value": "Shape Service",
+        "explanation": "Cities want shared micromobility to improve transport access without creating unsafe or disorderly streets.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Access / Goals",
+        "explanation": "A well-run program can expand travel options and support congestion, access or sustainability goals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Clutter / Safety",
+        "explanation": "Cities must manage parking, sidewalk clutter, unsafe riding and uneven service coverage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Permit / Space",
+        "explanation": "Cities grant operating permission and define where and how shared vehicles can be deployed or parked.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Local Rules",
+        "explanation": "Fleet size, parking, speed, operating zones and safety requirements vary by city.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "City Teams",
+        "explanation": "Lime works with transport departments, regulators and public agencies in each market.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Permit / Plan",
+        "explanation": "Cities set rules, issue permits, plan street use and evaluate operator performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Streets / Data",
+        "explanation": "Cities contribute legal access to public space, infrastructure, policy and local mobility data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "$304M Q2 rev",
+        "note": "Lime Q2 2026 revenue.",
+        "target": "owner"
+      },
+      {
+        "value": "5.0M MAU",
+        "note": "Average Q2 2026 monthly active users.",
+        "target": "consumer"
+      },
+      {
+        "value": "407.7K fleet",
+        "note": "Average operational fleet in Q2 2026.",
+        "target": "provider"
+      },
+      {
+        "value": "~230 cities",
+        "note": "Approximate operating-city count.",
+        "target": "partner"
+      },
+      {
+        "value": "1B+ trips",
+        "note": "Lifetime trips reported by Lime.",
+        "target": "core_value_unit"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Unlock / Pay",
+          "explanation": "Riders unlock a nearby vehicle and pay Lime for the trip."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Ride Access",
+          "explanation": "Lime provides digital access to a charged, available e-scooter or e-bike."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Ready Fleet",
+          "explanation": "Operations teams return charged, repaired and correctly positioned vehicles to service."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Ops Tasks",
+          "explanation": "Lime software sends charging, repair and repositioning work to operations teams."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Permit / Space",
+          "explanation": "Cities provide the operating permission and street-space rules that make local service possible."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Service / Data",
+          "explanation": "Lime provides micromobility service and operating data that cities use to manage programs."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

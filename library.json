@@ -883,6 +883,24 @@
         "Trust & Insurance"
       ],
       "status": "published"
+    },
+    {
+      "slug": "lime",
+      "case_number": "050",
+      "company": "Lime",
+      "headline": "What changes when the platform owns the vehicles?",
+      "industry": [
+        "Mobility",
+        "Shared Micromobility"
+      ],
+      "topics": [
+        "Vertically Integrated Platform",
+        "Fleet Operations",
+        "City Partnerships",
+        "Micromobility",
+        "Asset-Heavy Platform"
+      ],
+      "status": "published"
     }
   ]
 }
