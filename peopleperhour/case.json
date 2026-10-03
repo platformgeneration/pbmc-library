@@ -1,0 +1,501 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "PeoplePerHour",
+    "slug": "peopleperhour",
+    "headline": "Can buyers shop for a service or post a project on the same marketplace?",
+    "case_number": "057",
+    "published_date": "2026-10-03",
+    "updated_date": "2026-10-03",
+    "snapshot_date": "2026-10-03",
+    "status": "official",
+    "industry": [
+      "Services",
+      "Freelance Marketplace"
+    ],
+    "topics": [
+      "Freelance Work",
+      "Service Offers",
+      "Project Proposals",
+      "Escrow",
+      "UK Marketplace"
+    ],
+    "geography": [
+      "United Kingdom",
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "PeoplePerHour lets buyers choose how they want to hire",
+    "text": "PeoplePerHour does not force every freelance job into the same buying process. A buyer with a small, clearly defined need can purchase an Offer: a fixed-price service that a freelancer has packaged in advance. A buyer with a more specific problem can post a Project and receive custom proposals, or contact a freelancer directly. Whichever route starts the job, PeoplePerHour brings the work into the same WorkStream and escrow process. This means the marketplace can support both quick, product-like purchases and work that needs to be discussed and priced individually."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "PeoplePerHour homepage",
+      "publisher": "PeoplePerHour",
+      "date": "2026",
+      "url": "https://www.peopleperhour.com/",
+      "note": "Current marketplace figures and positioning: 3 million rated freelancers, 8,766 skills, more than 1 million businesses, users in over 100 countries, and a UK-first marketplace."
+    },
+    {
+      "title": "About PeoplePerHour",
+      "publisher": "PeoplePerHour",
+      "date": "2026",
+      "url": "https://www.peopleperhour.com/about",
+      "note": "PeoplePerHour was founded in 2007 and describes its purpose as connecting clients with freelancers available by the hour or project."
+    },
+    {
+      "title": "The Basics",
+      "publisher": "PeoplePerHour Support",
+      "date": "2026",
+      "url": "https://support.peopleperhour.com/hc/en-us/articles/205217187-The-Basics",
+      "note": "Explains the three hiring routes: purchase a pre-packaged Offer, post a custom Project and receive proposals, or contact a freelancer directly. It also describes WorkStream and escrow."
+    },
+    {
+      "title": "Offers Policies",
+      "publisher": "PeoplePerHour Support",
+      "date": "2025",
+      "url": "https://support.peopleperhour.com/hc/en-us/articles/205218167-Offers-Policies",
+      "note": "Defines Offers as fixed-price, bite-size services posted by freelancers and describes marketplace rules for those listings."
+    },
+    {
+      "title": "Posting a project",
+      "publisher": "PeoplePerHour Support",
+      "date": "2026",
+      "url": "https://support.peopleperhour.com/hc/en-us/articles/205217257-Posting-a-project",
+      "note": "Describes how buyers define a project brief and indicative budget and then receive proposals from freelancers."
+    },
+    {
+      "title": "Freelancer Application Process",
+      "publisher": "PeoplePerHour Support",
+      "date": "2026",
+      "url": "https://support.peopleperhour.com/hc/en-us/articles/4408655983633-Freelancer-Application-Process",
+      "note": "Shows that freelancer applications are reviewed before approval and describes the current application process."
+    },
+    {
+      "title": "PeoplePerHour manual — freelancer commission fees",
+      "publisher": "PeoplePerHour",
+      "date": "2026",
+      "url": "https://www.peopleperhour.com/static/manual",
+      "note": "Current freelancer service fees are 20% below £250 lifetime billing per buyer, 7.5% between £250 and £5,000, and 3.5% above £5,000, excluding VAT."
+    },
+    {
+      "title": "What is Escrow and how is it used?",
+      "publisher": "PeoplePerHour Support",
+      "date": "2026",
+      "url": "https://support.peopleperhour.com/hc/en-us/articles/17826134619921-What-is-Escrow-and-how-is-it-used",
+      "note": "Buyers fund escrow before work starts; the full Offer price or an agreed Project deposit is held until work is delivered and payment is released."
+    },
+    {
+      "title": "Terms and Conditions",
+      "publisher": "PeoplePerHour",
+      "date": "2026",
+      "url": "https://www.peopleperhour.com/static/terms",
+      "note": "PeoplePerHour names Adyen, Worldpay, Payoneer and PayPal among third-party payment providers used to process buyer payments and freelancer payouts."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "fiverr",
+      "upwork",
+      "freelancer-com",
+      "99designs"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). PeoplePerHour — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Service",
+      "explanation": "The core value unit is the agreed freelance service: either a pre-packaged Offer or custom work defined through a Project proposal.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "owner": {
+      "actor": {
+        "value": "PeoplePerHour",
+        "explanation": "PeoplePerHour operates the marketplace, reviews freelancer applications, manages matching, WorkStream, escrow, disputes and platform rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Match Work",
+        "explanation": "The platform has to connect a buyer need with a freelancer who can deliver the work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Jobs",
+        "explanation": "More successful jobs create marketplace fees, repeat relationships and stronger liquidity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Quality",
+        "explanation": "Poor work, fraud, payment problems or weak matching can make buyers and freelancers leave.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Jobs / Fees",
+        "explanation": "PeoplePerHour organizes Offers, Projects, proposals, escrow, invoices and marketplace fees.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Review / Rules",
+        "explanation": "Freelancer applications are reviewed and marketplace rules govern listings, proposals, payments and conduct.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / AI",
+        "explanation": "PeoplePerHour uses search, category discovery and Phoenix AI to help buyers find suitable freelancers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Protect",
+        "explanation": "The platform reviews users, matches work, supports WorkStream communication, holds escrow and handles disputes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Talent / Data",
+        "explanation": "Core resources include freelancer profiles, ratings, skills, job history, buyer briefs, WorkStream data and marketplace software.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "100+ countries",
+          "note": "PeoplePerHour says its users span more than 100 countries."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Buyers",
+        "explanation": "Buyers are businesses and individuals that need freelance work, especially small and medium-sized businesses.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Get Work Done",
+        "explanation": "Buyers want a suitable freelancer to complete a task or project without hiring a full-time employee.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Speed",
+        "explanation": "Buyers can choose between ready-made Offers, proposals to a custom Project, or direct contact with a freelancer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Scope / Quality",
+        "explanation": "Buyers can struggle to define the job, judge quality or know whether a freelancer will deliver on time.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Brief / Pay",
+        "explanation": "Buyers purchase an Offer or fund escrow after accepting a custom proposal.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Budget / Fit",
+        "explanation": "Buyers compare skills, ratings, portfolios, timing, proposals and price.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / Phoenix",
+        "explanation": "Buyers use the PeoplePerHour marketplace, search and Phoenix AI to discover talent.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Post / Buy",
+        "explanation": "Buyers can post a Project, buy an Offer, contact freelancers, review work and release payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brief / Budget",
+        "explanation": "Buyers bring the problem, project requirements, budget, files, feedback and payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "1M+ businesses",
+          "note": "PeoplePerHour says it is trusted by more than one million businesses."
+        }
+      ]
+    },
+    "provider": {
+      "actor": {
+        "value": "Freelancers",
+        "explanation": "Freelancers provide skills such as design, writing, development, marketing, administration and many other business services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Win Work",
+        "explanation": "Freelancers want to find paying clients and turn their skills into repeatable income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Clients / Income",
+        "explanation": "The marketplace provides access to buyers, repeat relationships and payment protection through escrow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition",
+        "explanation": "Freelancers compete for attention, proposals and ratings and can spend time applying without winning work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Offer / Work",
+        "explanation": "Freelancers publish fixed-price Offers, submit proposals and deliver custom work through WorkStream.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Review / Rating",
+        "explanation": "Freelancers are reviewed at application and then build reputation through ratings, work history and marketplace performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Profile / Offers",
+        "explanation": "Freelancers use profiles, Offers, proposal tools, saved searches and WorkStream to reach buyers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Offer / Propose",
+        "explanation": "Freelancers package services, submit proposals, communicate, deliver work and raise invoices.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skills / Work",
+        "explanation": "Their key resources are skills, portfolio, availability, reputation, proposals and completed work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "3M rated*",
+          "note": "PeoplePerHour reports 3 million rated freelancers on its homepage; this is a marketplace count rather than a measure of current active freelancers."
+        }
+      ]
+    },
+    "partner": {
+      "actor": {
+        "value": "Payment Partners",
+        "explanation": "Third-party payment providers help PeoplePerHour collect buyer payments and move freelancer payouts.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Move Money",
+        "explanation": "Payment partners provide regulated payment rails between buyers, PeoplePerHour and freelancers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Payment Volume",
+        "explanation": "More marketplace transactions create more payment and payout volume for these providers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fraud / Delays",
+        "explanation": "Payment fraud, chargebacks, compliance checks and settlement delays create cost and friction.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pay / Payout",
+        "explanation": "Providers process card payments, account transfers and freelancer withdrawals around PeoplePerHour escrow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Supported Rail",
+        "explanation": "Payment methods depend on country, currency and supported payment or withdrawal provider.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "API / Bank",
+        "explanation": "PeoplePerHour connects to payment providers and banking rails to receive and distribute funds.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Process / Verify",
+        "explanation": "Partners authorize payments, transfer funds and perform payment-compliance and security checks.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Cards / Rails",
+        "explanation": "Their resources include card networks, banking connections, regulated payment infrastructure and fraud controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "4 named rails",
+          "note": "PeoplePerHour terms name Adyen, Worldpay, Payoneer and PayPal among third-party payment providers."
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "value": "100+ countries",
+        "note": "PeoplePerHour says its users span more than 100 countries.",
+        "target": "owner"
+      },
+      {
+        "value": "1M+ businesses",
+        "note": "PeoplePerHour says it is trusted by more than one million businesses.",
+        "target": "consumer"
+      },
+      {
+        "value": "3M rated*",
+        "note": "PeoplePerHour reports 3 million rated freelancers; not an active-freelancer count.",
+        "target": "provider"
+      },
+      {
+        "value": "4 named rails",
+        "note": "PeoplePerHour terms name Adyen, Worldpay, Payoneer and PayPal among payment providers.",
+        "target": "partner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Buy / Brief",
+          "explanation": "A buyer either purchases a ready-made Offer or posts a Project brief and funds the agreed work."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Offers / Match",
+          "explanation": "PeoplePerHour presents packaged services, freelancer profiles and proposals that fit the buyer need."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Offer / Proposal",
+          "explanation": "Freelancers publish Offers or submit custom proposals for Projects."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Jobs / Payout",
+          "explanation": "PeoplePerHour routes accepted work through WorkStream and releases cleared earnings after invoicing and escrow."
+        },
+        {
+          "from": "consumer",
+          "to": "provider",
+          "value": "Work / Feedback",
+          "explanation": "The buyer provides requirements and feedback while the freelancer delivers the agreed service."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Payment Rails",
+          "explanation": "Payment partners process buyer payments and freelancer withdrawal rails used around the escrow workflow."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

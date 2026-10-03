@@ -1009,6 +1009,24 @@
         "Curation"
       ],
       "status": "published"
+    },
+    {
+      "slug": "peopleperhour",
+      "case_number": "057",
+      "company": "PeoplePerHour",
+      "headline": "Can buyers shop for a service or post a project on the same marketplace?",
+      "industry": [
+        "Services",
+        "Freelance Marketplace"
+      ],
+      "topics": [
+        "Freelance Work",
+        "Service Offers",
+        "Project Proposals",
+        "Escrow",
+        "UK Marketplace"
+      ],
+      "status": "published"
     }
   ]
 }
