@@ -1045,6 +1045,24 @@
         "Trust and Safety"
       ],
       "status": "published"
+    },
+    {
+      "slug": "urbansitter",
+      "case_number": "059",
+      "company": "UrbanSitter",
+      "headline": "What changes when an employer helps pay for care?",
+      "industry": [
+        "Services",
+        "Care Marketplace"
+      ],
+      "topics": [
+        "Child Care",
+        "Employer Benefits",
+        "Trust and Safety",
+        "Care Credits",
+        "Local Services"
+      ],
+      "status": "published"
     }
   ]
 }
