@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Upwork",
+    "slug": "upwork",
+    "headline": "Does the client post the job, or does the freelancer package the service?",
+    "case_number": "054",
+    "published_date": "2026-10-03",
+    "updated_date": "2026-10-03",
+    "snapshot_date": "2026-10-03",
+    "status": "official",
+    "industry": [
+      "Services",
+      "Freelance Marketplace"
+    ],
+    "topics": [
+      "Freelance Work",
+      "Job Marketplace",
+      "Project Catalog",
+      "Two-sided Marketplace",
+      "Payments"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Upwork lets work enter the marketplace from both sides",
+    "text": "The classic Upwork process starts with a client. The client posts a job, explains the problem, budget and skills needed, and freelancers respond with proposals. The client can compare profiles, interview people and agree on an hourly or fixed-price contract. This works well when the job is too specific to be sold as a standard package. But Upwork now also runs Project Catalog, where freelancers define ready-to-start services with a clear scope, price and timeline. Upwork says the catalog contains more than 290,000 projects. That means the marketplace can work in both directions: sometimes the client defines the work first, and sometimes the freelancer packages the service first. The platform then provides search, matching, contracts, payment protection and reputation around either route."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Upwork Reports Second Quarter 2026 Financial Results",
+      "publisher": "Upwork",
+      "date": "2026-08-05",
+      "url": "https://investors.upwork.com/news-releases/news-release-details/upwork-reports-second-quarter-2026-financial-results",
+      "note": "Upwork reported $966.4 million in Q2 2026 GSV, 763,000 active clients and $5,230 GSV per active client."
+    },
+    {
+      "title": "How to start hiring on Upwork",
+      "publisher": "Upwork Help Center",
+      "date": "2026",
+      "url": "https://support.upwork.com/hc/en-us/articles/211063398-How-to-start-hiring-on-Upwork",
+      "note": "Clients can post a job to receive proposals, invite talent directly, or browse and buy predefined services in Project Catalog."
+    },
+    {
+      "title": "How to submit a proposal on Upwork",
+      "publisher": "Upwork Help Center",
+      "date": "2026",
+      "url": "https://support.upwork.com/hc/en-us/articles/211062998-How-to-submit-a-proposal-on-Upwork",
+      "note": "Freelancers use Connects to submit proposals and can set hourly or fixed-price terms, timing, approach and work samples."
+    },
+    {
+      "title": "What is Project Catalog on Upwork?",
+      "publisher": "Upwork Help Center",
+      "date": "2026",
+      "url": "https://support.upwork.com/hc/en-us/articles/10408677826963-What-is-Project-Catalog-on-Upwork",
+      "note": "Upwork says Project Catalog contains more than 290,000 ready-to-start projects with defined pricing, terms, scope and timing."
+    },
+    {
+      "title": "Learn about the Freelancer Service Fee",
+      "publisher": "Upwork Help Center",
+      "date": "2026",
+      "url": "https://support.upwork.com/hc/en-us/articles/211062538-Learn-about-the-Freelancer-Service-Fee",
+      "note": "The current freelancer service fee ranges from 0% to 15% per contract and is fixed once the contract begins."
+    },
+    {
+      "title": "How Upwork protects your payments",
+      "publisher": "Upwork Help Center",
+      "date": "2026",
+      "url": "https://support.upwork.com/hc/en-us/articles/211062568-How-Upwork-protects-your-payments",
+      "note": "Upwork provides hourly payment protection and fixed-price protection using funded milestones and dispute processes."
+    },
+    {
+      "title": "Manage how you get paid",
+      "publisher": "Upwork Help Center",
+      "date": "2026",
+      "url": "https://support.upwork.com/hc/en-us/articles/211060918-Manage-How-You-Get-Paid",
+      "note": "Upwork supports bank withdrawals and third-party payout methods including PayPal, Payoneer and M-Pesa depending on country."
+    },
+    {
+      "title": "Upwork Investor Relations",
+      "publisher": "Upwork",
+      "date": "2026",
+      "url": "https://investors.upwork.com/",
+      "note": "Upwork describes its marketplace as providing access to professionals across more than 10,000 skills and says the platform has facilitated more than $25 billion in economic opportunity for talent."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "fiverr",
+      "freelancer",
+      "99designs",
+      "peopleperhour"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Upwork — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Contract",
+      "explanation": "The core value unit is a contract between a client and a freelancer or agency, with agreed work, price and payment terms.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": []
+    },
+    "owner": {
+      "actor": {
+        "value": "Upwork",
+        "explanation": "Upwork operates the marketplace, sets the rules and coordinates job discovery, proposals, contracts, payments, reviews and support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Match Work",
+        "explanation": "Upwork has to connect a client problem with suitable independent talent and make the working relationship manageable online.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "More Contracts",
+        "explanation": "More successful contracts increase marketplace volume, revenue and repeat use by clients and freelancers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Quality",
+        "explanation": "Poor matches, fraud, low-quality work or weak job posts can waste time and reduce trust on both sides.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Contracts / Fees",
+        "explanation": "Upwork creates and manages hourly, fixed-price and Project Catalog contracts and earns marketplace fees.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rules / Reviews",
+        "explanation": "Upwork sets marketplace rules, identity and payment requirements, review systems and dispute processes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Search / Uma",
+        "explanation": "Upwork brings clients and freelancers together through search, recommendations, job feeds and AI-supported matching.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Match / Protect",
+        "explanation": "Upwork organizes discovery, proposals, contracts, work tracking, payments and dispute support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Talent / Data",
+        "explanation": "The platform relies on its talent network, job data, reputation history, payment systems and matching technology.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "$966M Q2 GSV",
+          "note": "Upwork reported $966.4 million in GSV for the second quarter of 2026."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Clients",
+        "explanation": "Clients range from entrepreneurs and small businesses to large companies that need independent specialists for projects or ongoing work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Hire Talent",
+        "explanation": "Clients want to find someone with the right skills without running a full traditional recruitment process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Skills / Speed",
+        "explanation": "A global talent pool, proposals, profiles and reviews can make specialized skills available faster.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fit / Oversight",
+        "explanation": "Clients still have to judge quality, explain the work clearly and manage a remote working relationship.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Job / Pay",
+        "explanation": "Clients can post a job, invite freelancers or buy a Project Catalog service and then pay through Upwork.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Skill / Budget",
+        "explanation": "The match has to fit the required skills, experience, price, availability and project scope.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Jobs / Catalog",
+        "explanation": "Clients can start with a job post, talent search, direct invite or a ready-made Project Catalog service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Post / Hire",
+        "explanation": "Clients describe work, compare proposals or services, interview talent, agree terms, review delivery and pay.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Brief / Budget",
+        "explanation": "Clients bring the business problem, requirements, budget, feedback and payment.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "763K clients*",
+          "note": "Upwork reported 763,000 active clients in Q2 2026."
+        }
+      ]
+    },
+    "provider": {
+      "actor": {
+        "value": "Freelancers",
+        "explanation": "Freelancers and agencies offer professional skills, submit proposals, accept invitations or publish ready-made Project Catalog services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Win Work",
+        "explanation": "Independent professionals want suitable paid projects and long-term client relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Income / Reach",
+        "explanation": "Upwork provides access to global demand, payment protection, reputation and tools for managing client work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Competition",
+        "explanation": "Freelancers compete for attention, spend Connects on many proposals and depend on strong profiles and reviews.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Propose / Work",
+        "explanation": "Freelancers submit proposals or service listings, agree contract terms and deliver the work.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Skills / Rules",
+        "explanation": "Profiles, proposals and services must fit platform rules, client requirements and relevant skills.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Jobs / Profile",
+        "explanation": "Freelancers use job search, invitations, profiles, proposals and Project Catalog to reach clients.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Bid / Deliver",
+        "explanation": "Freelancers search, submit proposals, interview, agree terms, track or deliver work and build ratings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Skills / Time",
+        "explanation": "Freelancers contribute expertise, working time, portfolio evidence, tools and professional reputation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "10K+ skills*",
+          "note": "Upwork says its platform provides access to professionals spanning more than 10,000 skills."
+        }
+      ]
+    },
+    "partner": {
+      "actor": {
+        "value": "Payment Partners",
+        "explanation": "Banks and external payment providers help clients fund work and let freelancers withdraw earnings across many countries.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Move Money",
+        "explanation": "Payment partners have to move client funds and freelancer earnings reliably across different countries and payment systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Global Volume",
+        "explanation": "Upwork creates payment and payout volume across a large international work marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fraud / Rules",
+        "explanation": "Cross-border payments involve identity checks, fraud controls, banking rules and country-specific availability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Pay / Payout",
+        "explanation": "External payment networks support client billing and freelancer withdrawals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Coverage",
+        "explanation": "A payment option has to support the relevant country, currency, account and verification requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Bank / Wallets",
+        "explanation": "Upwork supports bank methods and external providers such as PayPal and Payoneer, depending on location.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Process / Transfer",
+        "explanation": "Payment partners authorize charges, move funds and process withdrawals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rails / KYC",
+        "explanation": "Partners provide banking rails, wallet infrastructure, identity controls and local financial coverage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": []
+    },
+    "metrics": [
+      {
+        "value": "$966M Q2 GSV",
+        "note": "Q2 2026 Gross Services Volume.",
+        "target": "owner"
+      },
+      {
+        "value": "763K clients*",
+        "note": "Active clients in Q2 2026.",
+        "target": "consumer"
+      },
+      {
+        "value": "10K+ skills*",
+        "note": "Skills represented across Upwork professionals, not a freelancer count.",
+        "target": "provider"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Job / Pay",
+          "explanation": "A client posts work or purchases a service and pays through Upwork."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Talent / Hire",
+          "explanation": "Upwork surfaces suitable talent, proposals or ready-made services and supports the hiring contract."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Profile / Bid",
+          "explanation": "Freelancers publish profiles and services or submit proposals to client jobs."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Jobs / Payout",
+          "explanation": "Upwork provides access to client demand and releases protected earnings after work is approved or billed."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Work",
+          "explanation": "The freelancer or agency delivers the contracted work to the client."
+        },
+        {
+          "from": "partner",
+          "to": "provider",
+          "value": "Payout",
+          "explanation": "External banking and payment partners can move Upwork earnings to the freelancer."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

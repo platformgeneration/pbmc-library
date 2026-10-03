@@ -955,6 +955,24 @@
         "Payments"
       ],
       "status": "published"
+    },
+    {
+      "slug": "upwork",
+      "case_number": "054",
+      "company": "Upwork",
+      "headline": "Does the client post the job, or does the freelancer package the service?",
+      "industry": [
+        "Services",
+        "Freelance Marketplace"
+      ],
+      "topics": [
+        "Freelance Work",
+        "Job Marketplace",
+        "Project Catalog",
+        "Two-sided Marketplace",
+        "Payments"
+      ],
+      "status": "published"
     }
   ]
 }
