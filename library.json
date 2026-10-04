@@ -1190,6 +1190,24 @@
         "Online Travel"
       ],
       "status": "published"
+    },
+    {
+      "slug": "tripadvisor",
+      "case_number": "067",
+      "company": "Tripadvisor",
+      "headline": "How does Tripadvisor make money from reviews it does not write?",
+      "industry": [
+        "Travel",
+        "Travel Guidance Platform"
+      ],
+      "topics": [
+        "User-Generated Content",
+        "Reviews",
+        "Reputation",
+        "Hotel Metasearch",
+        "Travel Advertising"
+      ],
+      "status": "published"
     }
   ]
 }

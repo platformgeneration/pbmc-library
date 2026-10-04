@@ -1,0 +1,502 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "Tripadvisor",
+    "slug": "tripadvisor",
+    "headline": "How does Tripadvisor make money from reviews it does not write?",
+    "case_number": "067",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Travel",
+      "Travel Guidance Platform"
+    ],
+    "topics": [
+      "User-Generated Content",
+      "Reviews",
+      "Reputation",
+      "Hotel Metasearch",
+      "Travel Advertising"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "On Tripadvisor, travelers can be both the customer and the supplier.",
+    "text": "This case models Tripadvisor’s travel-guidance layer, not the whole Tripadvisor Group. The core Tripadvisor product is still built around traveler reviews, ratings, photos and business listings that help people decide where to stay, eat or what to do. The company also operates a bookable experiences marketplace through Tripadvisor and Viator, but that is a different transaction layer. In fact, Tripadvisor simplified the guidance platform further at the start of 2026 by removing vacation rentals, flights and rental cars from Tripadvisor itself.\n\nThe unusual part is who supplies the information that makes the platform useful. Tripadvisor does not write the reviews. Travelers do. A person can therefore use the platform in two different roles: first as a Consumer reading other people’s experiences, and later as a Provider by contributing a first-hand review, rating or photo. Tripadvisor turns those contributions into structured pages and rankings. Its organic Popularity Ranking is driven by review quality, recency, quantity and consistency, while review rules prohibit businesses from manipulating ratings with biased or incentivized content.\n\nBusinesses form the commercial Partner side of this model. Hotels, restaurants, attractions and other travel businesses can claim listings, update information, respond to reviews and, in relevant categories, provide rates or purchase advertising. Tripadvisor can then monetize the high-intent audience created by its review corpus through hotel metasearch referrals, media advertising and paid placements. Sponsored Placements are explicitly sold on a cost-per-click basis and sit alongside, rather than replacing, the organic review-based ranking.\n\nThe model also shows why Tripadvisor’s strategic problem is not simply collecting more reviews. The platform now reports more than 1.35 billion reviews and contributions and more than 10 million listed travel-related businesses, yet its Hotels and Other revenue fell 21% year over year in Q2 2026 as hotel metasearch click volumes and overall traffic weakened. The transferable lesson is that user-generated content can create enormous trust and selection value, but the owner still has to retain the traveler’s attention long enough to convert that trust into commercial traffic."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Tripadvisor, Inc. Form 10-Q — quarter ended June 30, 2026",
+      "publisher": "U.S. SEC / Tripadvisor",
+      "date": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1526520/000119312526336693/trip-20260630.htm",
+      "note": "The filing defines Tripadvisor as a travel-guidance platform built around authentic traveler-submitted reviews and content. It separates the Experiences marketplace from Hotels and Other, states that Tripadvisor stopped offering vacation rentals, flights and rental cars at the start of 2026, and reports Q2 2026 Hotels and Other revenue of $163.3M, including $117.9M of hotels revenue and $31.2M of media and advertising revenue."
+    },
+    {
+      "title": "Journey of a Tripadvisor Review",
+      "publisher": "Tripadvisor Trust & Safety",
+      "date": "2026-10",
+      "url": "https://www.tripadvisor.com/Trust-lVRKC792NqLM.html",
+      "note": "Tripadvisor currently reports 1.35B+ reviews and contributions, 10M+ travel-related businesses listed, 4.2M reviews moderated in 2025 and 24/7 content moderation coverage. The page explains how submitted reviews are evaluated before or after publication."
+    },
+    {
+      "title": "Tripadvisor Review Posting Guidelines",
+      "publisher": "Tripadvisor Trust & Safety",
+      "date": "2026-10",
+      "url": "https://www.tripadvisor.com/Trust-lvBd3L1aU38Y.html",
+      "note": "Tripadvisor requires reviews to describe a first-hand experience and prohibits biased content and attempts to manipulate rankings. The guidelines state that review ratings can affect a property’s popularity ranking."
+    },
+    {
+      "title": "Everything You Need to Know About the Tripadvisor Popularity Ranking",
+      "publisher": "Tripadvisor for Business",
+      "date": "2026-10",
+      "url": "https://www.tripadvisor.com/business/en-gb/insights/resources/tripadvisor-popularity-ranking",
+      "note": "Tripadvisor explains that its organic Popularity Ranking is based on the quality, recency and quantity of reviews a business receives, as well as consistency over time."
+    },
+    {
+      "title": "Sponsored Placements — Frequently Asked Questions",
+      "publisher": "Tripadvisor for Business",
+      "date": "2026-10",
+      "url": "https://www.tripadvisor.com/business/sponsored-placements/frequently-asked-questions",
+      "note": "Tripadvisor states that Sponsored Placements can appear above search results and on competitor pages and are sold to properties on a cost-per-click basis. Campaign reporting includes impressions, click-through rate, page visits and booking referrals."
+    },
+    {
+      "title": "About Us — Tripadvisor for Business",
+      "publisher": "Tripadvisor for Business",
+      "date": "2026-10",
+      "url": "https://www.tripadvisor.com/business/about",
+      "note": "Tripadvisor for Business describes the platform as powered by traveler content and currently states that more than 400M active users across 190 countries visit Tripadvisor each month. This is a company marketing metric rather than a quarterly SEC KPI."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "booking-com",
+      "expedia",
+      "airbnb"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Tripadvisor — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Review",
+      "explanation": "The core value unit is a traveler’s first-hand review and rating attached to a travel business or place. Tripadvisor aggregates these contributions into searchable pages and rankings that other travelers use to decide where to go.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "owner": {
+      "actor": {
+        "value": "Tripadvisor",
+        "explanation": "This case models Tripadvisor’s travel-guidance and hotel-metasearch layer, not the whole Tripadvisor Group and not the separate Viator experiences marketplace.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$163.3M H&O*",
+            "note": "Hotels and Other segment revenue in Q2 2026 was $163.3M, down 21% year over year. The segment includes Tripadvisor hotel and restaurant guidance plus related offerings, so this is broader than the review layer alone."
+          },
+          {
+            "value": "$117.9M hotels*",
+            "note": "Hotels revenue within Hotels and Other was $117.9M in Q2 2026, down 23% year over year."
+          },
+          {
+            "value": "$31.2M ads*",
+            "note": "Media and advertising revenue was $31.2M in Q2 2026, down 12% year over year."
+          }
+        ]
+      },
+      "job": {
+        "value": "Build Trust",
+        "explanation": "Tripadvisor has to turn a very large volume of traveler contributions into useful, credible guidance that helps people choose among travel businesses.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Traffic / Revenue",
+        "explanation": "A trusted review corpus attracts high-intent travel planning traffic that can be monetized through hotel metasearch referrals, advertising and adjacent bookable experiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Traffic",
+        "explanation": "Fake or manipulated reviews can damage trust, while changes in search behavior and weaker referral traffic can reduce the commercial value of even a very large content base.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Publish / Monetize",
+        "explanation": "Tripadvisor publishes and ranks user contributions for travelers, then monetizes the resulting high-intent audience through commercial traffic and advertising relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Review Integrity",
+        "explanation": "Tripadvisor sets content and review rules, moderates suspicious material and can penalize attempts to manipulate ratings or rankings.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "SEO / Brand",
+        "explanation": "Tripadvisor reaches travelers through its brand, search engines, app, direct traffic and marketing, with its accumulated review content acting as a major discovery asset.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Moderate",
+        "explanation": "Core activities include collecting and moderating reviews, maintaining listings, calculating rankings, supporting search and matching commercial traffic to businesses and booking partners.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "UGC / Audience",
+        "explanation": "The key resources are the accumulated review corpus, traveler photos, listing graph, brand trust, ranking systems and a large travel-planning audience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Travelers",
+        "explanation": "Consumers are travelers using Tripadvisor to research and compare places to stay, eat and visit before making a travel decision.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "400M+ monthly*",
+            "note": "Tripadvisor for Business currently states that more than 400M active users across 190 countries visit Tripadvisor each month. This is a company marketing metric, not a Q2 SEC KPI."
+          }
+        ]
+      },
+      "job": {
+        "value": "Choose Confidently",
+        "explanation": "Travelers want enough trustworthy first-hand information to choose a hotel, restaurant or attraction with less uncertainty.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Trusted Advice",
+        "explanation": "Travelers gain a large pool of experiences from other travelers, plus ratings, rankings, photos and comparison tools in one place.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Uncertain Quality",
+        "explanation": "Before visiting an unfamiliar place, travelers cannot easily know whether marketing claims match the real experience or which option best fits their needs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Search / Read",
+        "explanation": "Travelers submit destination or category intent, read reviews and compare ranked businesses; some then click through to a commercial partner or book an experience in a separate marketplace layer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Place / Rating",
+        "explanation": "Travelers narrow results by destination, category, rating, price and other criteria relevant to the travel decision.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Web / App",
+        "explanation": "Travelers access Tripadvisor through its websites and mobile app, often arriving from search engines during the planning journey.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Compare / Decide",
+        "explanation": "Consumers search, read reviews, inspect ratings and photos, compare options and decide which business or experience to use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Attention",
+        "explanation": "Travelers contribute search intent, attention, preferences and click behavior that make the audience commercially valuable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Contributors",
+        "explanation": "Providers in this bounded guidance platform are travelers who contribute first-hand reviews, ratings and photos. The same person may be a Consumer on one trip and a Provider after experiencing a place.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "1.35B+ contrib.*",
+            "note": "Tripadvisor Trust & Safety currently reports more than 1.35 billion reviews and contributions shared on the platform."
+          },
+          {
+            "value": "4.2M moderated*",
+            "note": "Tripadvisor reports that 4.2 million reviews were moderated in 2025. This measures moderation scale, not the number of active contributors."
+          }
+        ]
+      },
+      "job": {
+        "value": "Share Experience",
+        "explanation": "Contributors want to record what happened, help other travelers and make their experience visible to the wider community.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Help Travelers",
+        "explanation": "A published contribution can influence later traveler decisions and add to the contributor’s public profile and participation history.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Effort / Abuse",
+        "explanation": "Writing useful first-hand content takes effort, while fake reviews, harassment or manipulation can reduce the value of genuine contributions.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Review / Rate",
+        "explanation": "Contributors submit a first-hand review, bubble rating and often photos about a listed business or travel experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "First-hand Only",
+        "explanation": "Tripadvisor’s review rules require first-hand experiences and prohibit biased, affiliated or manipulated content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Review Tools",
+        "explanation": "Contributors use Tripadvisor’s review submission tools and account system to add ratings, text and photos.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rate / Upload",
+        "explanation": "They rate a place, describe the experience, upload photos when useful and may later edit or respond within community features.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Experience / Photos",
+        "explanation": "Contributors supply lived experience, written opinions, ratings and traveler-generated photos that Tripadvisor itself does not have to create.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Businesses",
+        "explanation": "The Partner role is the travel-business side: hotels, restaurants, attractions, direct-booking partners and other commercial participants that maintain listings, receive traveler traffic and may buy advertising or referral exposure.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "10M+ businesses*",
+            "note": "Tripadvisor Trust & Safety currently reports more than 10 million travel-related businesses listed on the platform."
+          }
+        ]
+      },
+      "job": {
+        "value": "Win Demand",
+        "explanation": "Travel businesses want travelers to discover them, trust them and ultimately visit or book with them.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Traffic / Reputation",
+        "explanation": "A strong Tripadvisor presence can generate visibility, reputation signals and qualified traffic or booking referrals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Reviews / Competition",
+        "explanation": "Businesses cannot control what travelers write, must compete against nearby alternatives and may need paid marketing to gain extra visibility.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Listing / Leads",
+        "explanation": "Businesses contribute listing information, rates or advertising spend where relevant and receive profile traffic, referrals and leads from Tripadvisor.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Claim / Relevance",
+        "explanation": "Businesses can claim eligible listings and commercial products are shown according to category, geography, availability and campaign rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Business Tools",
+        "explanation": "Businesses use Tripadvisor’s Management Center, advertising products and connectivity or commerce tools to manage their presence.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Update / Respond",
+        "explanation": "Businesses update profiles, upload content, respond to reviews, share rates or availability where relevant and manage paid campaigns.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Details / Rates",
+        "explanation": "They contribute current business details, official photos, responses, prices or availability where relevant, plus advertising budgets in paid products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "$163.3M H&O*",
+        "note": "Tripadvisor Hotels and Other segment revenue in Q2 2026; broader than the review layer alone.",
+        "target": "owner"
+      },
+      {
+        "value": "$117.9M hotels*",
+        "note": "Tripadvisor hotel revenue in Q2 2026.",
+        "target": "owner"
+      },
+      {
+        "value": "$31.2M ads*",
+        "note": "Tripadvisor media and advertising revenue in Q2 2026.",
+        "target": "owner"
+      },
+      {
+        "value": "400M+ monthly*",
+        "note": "Current Tripadvisor for Business marketing claim for monthly active users across 190 countries; not a quarterly SEC KPI.",
+        "target": "consumer"
+      },
+      {
+        "value": "1.35B+ contrib.*",
+        "note": "Tripadvisor Trust & Safety reports 1.35B+ reviews and contributions shared.",
+        "target": "provider"
+      },
+      {
+        "value": "4.2M moderated*",
+        "note": "Reviews moderated during 2025; moderation scale rather than active-contributor count.",
+        "target": "provider"
+      },
+      {
+        "value": "10M+ businesses*",
+        "note": "Tripadvisor Trust & Safety reports 10M+ travel-related businesses listed.",
+        "target": "partner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Search / Read",
+          "explanation": "Travelers bring destination intent, attention and review-reading activity to Tripadvisor."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Reviews / Rank",
+          "explanation": "Tripadvisor returns review-rich listings, ratings and ranked options that help travelers decide."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Reviews / Photos",
+          "explanation": "Contributors supply the first-hand reviews, ratings and photos that power the guidance layer."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Publish / Reach",
+          "explanation": "Tripadvisor publishes accepted contributions and makes them visible to future travelers."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Listings / Spend",
+          "explanation": "Travel businesses contribute listing data and, where relevant, rates, availability or advertising spend."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Traffic / Leads",
+          "explanation": "Tripadvisor sends businesses profile traffic, qualified clicks, booking referrals and advertising exposure."
+        }
+      ]
+    }
+  }
+}
