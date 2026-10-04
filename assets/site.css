@@ -105,12 +105,17 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
 .pbmc-data-table .role-consumer .perspective-cell{box-shadow:inset 4px 0 0 var(--consumer)}
 .pbmc-data-table .role-partner .perspective-cell{box-shadow:inset 4px 0 0 var(--partner)}
 .pbmc-data-table .cvu-row .perspective-cell{box-shadow:inset 4px 0 0 #111}
-.transaction-stack{margin-top:10px;border-top:1px solid #e8e8e5;padding-top:7px}
-.transaction-flow{display:grid;grid-template-columns:minmax(130px,auto) 1fr;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0ed;font-weight:500}
-.transaction-flow:last-child{border-bottom:0;padding-bottom:0}
+/* Transaction flows are real indented table rows beneath the parent Transaction row.
+   Their divider spans Value + Explanation to the right edge instead of ending
+   inside the Value cell. */
+.pbmc-data-table .transaction-parent td{border-bottom:0}
+.pbmc-data-table .transaction-subrow td{padding-top:0;padding-bottom:0;border-bottom:0}
+.pbmc-data-table .transaction-indent{padding:0;background:#fff}
+.pbmc-data-table .transaction-flow-cell{padding:0 18px;background:#fff;border-top:1px solid #e8e8e5;border-bottom:1px solid #eeeeeb}
+.transaction-flow{display:grid;grid-template-columns:minmax(150px,auto) 1fr;gap:14px;padding:10px 0;font-weight:500}
 .transaction-flow-main{font-size:11px;font-weight:850;white-space:nowrap}
 .transaction-flow-note{font-size:11px;color:#777;line-height:1.45}
-.transaction-empty{margin-top:8px;font-size:11px;color:#999;font-weight:500}
+.transaction-flow-cell.transaction-empty{padding:10px 18px;border-top:1px solid #e8e8e5;border-bottom:1px solid #eeeeeb;font-size:11px;color:#999;font-weight:500}
 .next-platform-top{display:inline-flex;align-items:center;justify-content:center;border:1px solid #d8d8d5;background:#fff;border-radius:999px;padding:9px 14px;font-size:11px;font-weight:750;color:#444;white-space:nowrap}
 .next-platform-top:hover{border-color:#111;color:#111}
 .section-head.canvas-head{align-items:center}
@@ -118,7 +123,7 @@ footer{border-top:1px solid #ececea;padding:34px 0 44px;color:#777;font-size:12p
 @media(max-width:700px){
  .pbmc-data-table{min-width:800px}
  .pbmc-data-table-wrap{overflow-x:auto}
- .transaction-flow{grid-template-columns:1fr;gap:2px}
+ .transaction-flow{grid-template-columns:minmax(150px,auto) 1fr;gap:12px}
  .next-platform-top{justify-self:start}
 }
 

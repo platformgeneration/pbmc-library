@@ -92,8 +92,14 @@ def write_csv(case_dir, case):
         w.writerows(rows)
 
 
-def transaction_html(case, role):
-    items = []
+def transaction_flow_rows(case, role):
+    """Render transaction flows as real table subrows spanning Value + Explanation.
+
+    Keeping flows in their own rows lets each divider run from the Value column
+    all the way to the table's right edge, while Perspective and Field stay
+    visibly indented/blank beneath the parent Transaction row.
+    """
+    rows = []
     for flow in active_flows(case):
         if flow.get("from") == role:
             other, arrow = flow.get("to",""), "→"
@@ -102,15 +108,27 @@ def transaction_html(case, role):
         else:
             continue
         label = f"{arrow} {ROLE_NAMES.get(other, other.title())} · {flow.get('value','')}"
-        items.append(
+        rows.append(
+            f'<tr class="transaction-subrow role-{role}">'
+            f'<td class="transaction-indent" colspan="2"></td>'
+            f'<td class="transaction-flow-cell" colspan="2">'
             f'<div class="transaction-flow">'
             f'<span class="transaction-flow-main">{e(label)}</span>'
             f'<span class="transaction-flow-note">{e(flow.get("explanation",""))}</span>'
             f'</div>'
+            f'</td>'
+            f'</tr>'
         )
-    if not items:
-        return '<div class="transaction-empty">No direct transaction flow recorded in this snapshot.</div>'
-    return '<div class="transaction-stack">' + "".join(items) + '</div>'
+    if not rows:
+        rows.append(
+            f'<tr class="transaction-subrow role-{role}">'
+            f'<td class="transaction-indent" colspan="2"></td>'
+            f'<td class="transaction-flow-cell transaction-empty" colspan="2">'
+            f'No direct transaction flow recorded in this snapshot.'
+            f'</td>'
+            f'</tr>'
+        )
+    return rows
 
 def unified_table(case):
     trs = []
@@ -130,16 +148,17 @@ def unified_table(case):
             rec = rd.get(key, {}) if role_enabled else {}
             value = rec.get("value","—") if role_enabled else "—"
             explanation = rec.get("explanation","") if role_enabled else "Not present in this PBMC snapshot."
-            tx = transaction_html(case, role) if key == "transaction" and role_enabled else ""
             start = " role-start" if i == 0 else ""
             trs.append(
-                f'<tr class="role-{role}{start}">'
+                f'<tr class="role-{role}{start}{" transaction-parent" if key == "transaction" and role_enabled else ""}">'
                 f'<td class="perspective-cell">{e(ROLE_NAMES[role])}</td>'
                 f'<td class="field-cell">{e(FIELD_NAMES[key])}</td>'
-                f'<td class="value-cell">{e(value)}{tx}</td>'
+                f'<td class="value-cell">{e(value)}</td>'
                 f'<td class="explanation-cell">{e(explanation)}</td>'
                 f'</tr>'
             )
+            if key == "transaction" and role_enabled:
+                trs.extend(transaction_flow_rows(case, role))
     return (
         '<div class="pbmc-data-table-wrap"><table class="pbmc-data-table">'
         '<colgroup><col class="perspective"><col class="field"><col class="value"><col></colgroup>'
@@ -389,7 +408,7 @@ def case_page(case, css, renderer, first_slug="scalable-capital"):
 
 <section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>{e(lesson["title"])}</h2><p>{e(lesson["text"])}</p></div></div></section>
 
-<section class="section soft" id="data"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PBMC Data</div><h2>Structured data behind the canvas</h2><p class="section-copy">One fixed table for every PBMC. Transaction remains one field; all transaction arrows and their explanations stay inside that field, so cases remain directly comparable.</p></div><div class="data-actions"><button class="data-btn" id="copyTable" type="button">Copy table</button><a class="data-btn" href="pbmc-data.csv" download>Download CSV</a><a class="data-btn" href="case.json" download>JSON</a></div></div>{unified_table(case)}</div></section>
+<section class="section soft" id="data"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PBMC Data</div><h2>Structured data behind the canvas</h2><p class="section-copy">One fixed table for every PBMC. Transaction remains one field; its transaction flows appear directly beneath it as indented subrows, so cases remain directly comparable.</p></div><div class="data-actions"><button class="data-btn" id="copyTable" type="button">Copy table</button><a class="data-btn" href="pbmc-data.csv" download>Download CSV</a><a class="data-btn" href="case.json" download>JSON</a></div></div>{unified_table(case)}</div></section>
 
 <section class="section" id="sources"><div class="wrap"><div class="eyebrow">Evidence</div><div class="section-head"><div><h2>Sources</h2><p class="section-copy">Sources document the platform mechanics and factual case context. The PBMC mapping and Platform Lesson are Platform Generation's analysis.</p></div></div><ol class="sources">{sources_html(case)}</ol></div></section>
 <section class="section soft" id="reuse"><div class="wrap"><div class="reuse-box">
