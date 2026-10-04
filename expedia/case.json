@@ -1,0 +1,495 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Expedia",
+    "slug": "expedia",
+    "headline": "Why does Expedia power travel bookings for other brands?",
+    "case_number": "066",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Travel",
+      "Travel Marketplace"
+    ],
+    "topics": [
+      "B2B Distribution",
+      "Travel APIs",
+      "Embedded Travel",
+      "White Label",
+      "Online Travel"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Expedia can grow even when the traveler never opens Expedia.com.",
+    "text": "Expedia is still a consumer travel marketplace where travelers can search and book hotels, flights, cars, cruises and activities. But the more distinctive part of the current model sits behind the storefront. Expedia Group also distributes its travel supply and booking technology through thousands of other businesses, so the same inventory can reach a traveler inside an airline, bank, corporate travel tool, travel agency or another branded experience.\n\nThose businesses are not the travel Providers in this PBMC. The hotel, airline, car-rental company or activity operator still delivers the actual travel service. The B2B businesses are Partners because they contribute customer relationships and distribution. They can connect through Rapid APIs, use a white-label storefront or book through Expedia TAAP, while Expedia Group supplies the inventory, booking infrastructure, payments and servicing capabilities behind the experience.\n\nThis is no longer a small side channel. Expedia Group reported $10.7 billion of B2B gross bookings in Q2 2026, up 21% year over year, and $1.49 billion of B2B revenue, up 23%. In May 2026 the company said its B2B platform served 75,000 partners and 200,000 travel advisors and processed 21 billion API calls a day. That means Expedia can scale transactions without owning every customer-facing travel brand or requiring every traveler to begin on an Expedia website.\n\nPackages and cross-category booking still matter, but they are not the most distinctive platform mechanism here. Expedia is increasingly turning its marketplace into reusable travel infrastructure. Its 2026 expansion of Rapid beyond lodging, together with the Tiqets and CarTrawler acquisitions, makes the direction explicit: connect more travel supply once, then let many different sellers package and distribute it to their own customers."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Expedia Group Reports Second Quarter 2026 Results",
+      "publisher": "Expedia Group / U.S. SEC",
+      "date": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000051/earningsrelease-q22026.htm",
+      "note": "Q2 2026 gross bookings were $33.928B. B2B gross bookings were $10.742B, up 21% year over year, and B2B revenue was $1.493B, up 23%. The filing defines B2B as serving airlines, travel agents, online retailers, corporate travel management firms and financial institutions using Expedia technology and supply."
+    },
+    {
+      "title": "Expedia Group 2025 Form 10-K",
+      "publisher": "U.S. SEC / Expedia Group",
+      "date": "2026-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm",
+      "note": "The annual report describes Expedia Group's B2C, B2B and trivago segments; the merchant and agency business models; and B2B access through Rapid API, white-label/co-branded solutions and Expedia TAAP."
+    },
+    {
+      "title": "Expedia Group B2B Announces Product Milestones to Expand Its Full Trip Platform",
+      "publisher": "Expedia Group",
+      "date": "2026-10-01",
+      "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-B2B-Announces-Product-Milestones-to-Expand-Its-Full-Trip-Platform--/default.aspx",
+      "note": "Expedia Group B2B announced Rapid Activities API milestones and described its B2B platform as expanding beyond lodging toward a fuller trip platform. The release confirms Tiqets was acquired on February 18, 2026."
+    },
+    {
+      "title": "Expedia Group B2B Introduces AI Toolkit and Platform for the Future of Travel Distribution",
+      "publisher": "Expedia Group",
+      "date": "2026-05-20",
+      "url": "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-B2B-Introduces-AI-Toolkit-and-Platform-for-the-Future-of-Travel-Distribution/default.aspx",
+      "note": "Expedia Group said its B2B platform served 75,000 partners across industry verticals and 200,000 travel advisors and processed 21 billion API calls per day. It also described expansion of Rapid API beyond lodging into cars, flights, activities and trip protection."
+    },
+    {
+      "title": "Global inventory distribution across the traveler journey",
+      "publisher": "Expedia Group",
+      "date": "2026-10",
+      "url": "https://partner.expediagroup.com/en-us/solutions/distribute-your-inventory",
+      "note": "Expedia Group explains that hotels, vacation rentals, flights, cruises, cars and activities can be distributed through its own travel brands and its B2B network of more than 70,000 businesses including banks, airlines and corporate travel companies."
+    },
+    {
+      "title": "Scalable travel solutions for your business",
+      "publisher": "Expedia Group",
+      "date": "2026-10",
+      "url": "https://partner.expediagroup.com/en-us/solutions/build-your-travel-experience",
+      "note": "The current B2B solutions page distinguishes Expedia TAAP for travel advisors, a White Label Travel Platform for branded travel sites, and Rapid API for businesses embedding Expedia Group travel inventory into their own experiences."
+    },
+    {
+      "title": "Expedia Group completes CarTrawler acquisition",
+      "publisher": "Expedia Group",
+      "date": "2026-09-01",
+      "url": "https://partner.expediagroup.com/en-us/resources/blog/expedia-group-completes-cartrawler-acquisition",
+      "note": "Expedia Group states that CarTrawler is now part of B2B and frames the acquisition as another step toward a more complete marketplace where partners can access travel inventory, technology and intelligence through a connected platform."
+    },
+    {
+      "title": "Vacation Packages",
+      "publisher": "Expedia",
+      "date": "2026-10",
+      "url": "https://www.expedia.com/Vacation-Packages",
+      "note": "Expedia continues to sell bundled flight, stay and car packages. This confirms that bundling remains part of the consumer proposition, but this case treats B2B distribution as the more distinctive current platform mechanism."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "booking-com",
+      "vrbo",
+      "holidu"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Expedia — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Travel Service",
+      "explanation": "The selectable unit is a bookable travel service such as a stay, flight, car, cruise or activity that can be distributed through Expedia Group channels or embedded partner channels.",
+      "changed": false,
+      "before": "",
+      "after": ""
+    },
+    "owner": {
+      "actor": {
+        "value": "Expedia Group",
+        "explanation": "This case models Expedia Group’s travel marketplace and B2B distribution layer, not only the Expedia.com consumer storefront.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$33.928B total*",
+            "note": "Expedia Group total gross bookings in Q2 2026 were $33.928B."
+          },
+          {
+            "value": "$10.742B B2B*",
+            "note": "Expedia Group B2B gross bookings in Q2 2026 were $10.742B, up 21% year over year."
+          },
+          {
+            "value": "$1.493B B2B rev*",
+            "note": "Expedia Group B2B revenue in Q2 2026 was $1.493B, up 23% year over year."
+          }
+        ]
+      },
+      "job": {
+        "value": "Distribute Travel",
+        "explanation": "Expedia Group has to aggregate fragmented travel supply and make it searchable, bookable and serviceable across both its own brands and outside partner channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Margin / Scale",
+        "explanation": "Expedia earns transaction economics from merchant and agency bookings while expanding volume through direct consumer brands and B2B distribution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Complexity / Trust",
+        "explanation": "The platform must keep prices, availability, payments, servicing and supplier rules consistent across many travel categories, markets and partner interfaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Aggregate / Sell",
+        "explanation": "Expedia normalizes supplier inventory, exposes it to travelers and partners, and processes bookings under merchant or agency models depending on the product and contract.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rates / Rules",
+        "explanation": "Expedia sets distribution, display, booking, payment, servicing and partner requirements while suppliers retain responsibility for the underlying travel service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Brands / B2B",
+        "explanation": "Demand is reached through Expedia Group consumer brands and through the customer channels of B2B partners.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Service",
+        "explanation": "Core activities include search and merchandising, booking and payment processing, customer service, fraud controls, supplier connectivity and partner enablement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Supply / Data",
+        "explanation": "Key resources include global travel supply, traveler demand, first-party data, pricing and booking systems, service operations and distribution technology.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Travelers",
+        "explanation": "Travelers are people booking leisure, family or business travel either directly on an Expedia Group brand or through a partner-powered travel experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Plan Trip",
+        "explanation": "Travelers want to find and reserve the travel components needed for a trip without managing separate supplier systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Convenience",
+        "explanation": "Travelers gain broad inventory, comparison, bundled trip options, standardized booking flows and support across multiple travel categories.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fragmented Booking",
+        "explanation": "Travel planning is naturally fragmented across airlines, hotels, cars, activities, policies and payment rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Search / Book",
+        "explanation": "Travelers submit dates, destinations and preferences and create bookings either on Expedia-branded channels or through an Expedia-powered partner experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Dates / Budget",
+        "explanation": "Travelers narrow supply by destination, dates, party size, price, category, schedule, amenities and other trip preferences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Partner",
+        "explanation": "Travelers can enter through Expedia Group websites and apps or through a partner-owned interface powered by Expedia Group technology or supply.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Compare / Travel",
+        "explanation": "Travelers compare options, book, pay where applicable, manage changes and ultimately consume the travel service supplied by the provider.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Payment",
+        "explanation": "Travelers contribute trip intent, dates, preferences, attention, identity and payment capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Suppliers",
+        "explanation": "Providers are hotels and vacation-rental operators, airlines, car-rental firms, cruise operators, activity businesses and other companies that deliver the underlying travel service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Sell Inventory",
+        "explanation": "Suppliers want to turn perishable rooms, seats, cars and activity capacity into paid bookings while managing rates and availability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Reach",
+        "explanation": "Expedia Group can expose supplier inventory across its consumer brands and a much wider B2B distribution network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Control",
+        "explanation": "Suppliers give up margin or commission and must manage channel economics, availability, cancellations, content accuracy and distribution rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Inventory / Margin",
+        "explanation": "Suppliers provide rates, availability and bookable inventory; Expedia earns margin or commission depending on the merchant or agency model and contract.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Contract / Quality",
+        "explanation": "Suppliers must meet commercial, technical, content, legal and service requirements for the relevant travel category.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Partner Tools",
+        "explanation": "Suppliers connect through Expedia Group partner tools, connectivity providers and APIs appropriate to their product category.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Price / Deliver",
+        "explanation": "Suppliers maintain inventory and pricing, accept reservations and deliver the hotel stay, flight, car, cruise or activity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rooms / Seats",
+        "explanation": "Providers contribute the actual travel capacity, rates, schedules, content, policies and service operations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Distributors",
+        "explanation": "Partners are airlines, banks, travel agencies, online retailers, corporate travel platforms and other businesses that distribute Expedia Group travel supply to their own customers.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "75K partners*",
+            "note": "Expedia Group said in May 2026 that its B2B platform served 75,000 partners across industry verticals."
+          },
+          {
+            "value": "200K advisors*",
+            "note": "Expedia Group said in May 2026 that its B2B platform served 200,000 travel advisors."
+          },
+          {
+            "value": "21B API/day*",
+            "note": "Expedia Group said its B2B platform processed 21 billion API calls per day based on 2025 internal data."
+          }
+        ]
+      },
+      "job": {
+        "value": "Add Travel",
+        "explanation": "These businesses want to add a travel-shopping and booking capability without building a global supply network and servicing stack from scratch.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Revenue / Loyalty",
+        "explanation": "Travel can create an additional revenue stream, deepen loyalty and make an existing customer relationship more useful.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Integration / Service",
+        "explanation": "Partners need reliable inventory, fast integrations, booking support, payments and servicing that work inside their own customer experience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Demand / Booking",
+        "explanation": "Partners bring traveler demand and booking requests into Expedia Group’s B2B layer and receive travel supply, rates and reservation capabilities in return.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Partner Approval",
+        "explanation": "Expedia Group reviews prospective B2B partners and applies commercial, technical, brand and launch requirements to the selected solution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Rapid / TAAP",
+        "explanation": "Partners can use Rapid APIs, Expedia TAAP, white-label technology and co-branded solutions depending on their business model.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Sell / Support",
+        "explanation": "Partners merchandise travel to their customers, manage the front-end relationship and coordinate booking or service flows with Expedia Group.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Audience / Brand",
+        "explanation": "Partners contribute established customer relationships, traffic, loyalty ecosystems, distribution channels and brand context.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "$10.7B B2B*",
+        "note": "Expedia Group B2B gross bookings in Q2 2026. Group-wide B2B segment figure.",
+        "target": "owner"
+      },
+      {
+        "value": "$1.49B B2B rev*",
+        "note": "Expedia Group B2B revenue in Q2 2026.",
+        "target": "owner"
+      },
+      {
+        "value": "75K partners*",
+        "note": "Expedia Group B2B partners reported in May 2026.",
+        "target": "partner"
+      },
+      {
+        "value": "21B API/day*",
+        "note": "Daily B2B API calls reported by Expedia Group from 2025 internal data.",
+        "target": "partner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Search / Book",
+          "explanation": "Travelers send trip intent and booking requests into Expedia Group directly or through an Expedia-powered partner experience."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Inventory / Rates",
+          "explanation": "Travel suppliers contribute bookable capacity, prices, schedules, policies and availability to the marketplace."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Bookings / Pay",
+          "explanation": "Expedia Group sends reservations and demand to suppliers and, under merchant flows, can collect traveler funds and later pay the supplier; agency flows can be settled differently."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Travel Service",
+          "explanation": "The supplier delivers the actual stay, flight, car, cruise or activity to the traveler."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Inventory / API",
+          "explanation": "Expedia Group exposes travel inventory, rates, booking functions and service capabilities to B2B distributors through Rapid, white-label and other partner products."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Demand / Bookings",
+          "explanation": "B2B distributors bring their own customer demand and booking volume back into Expedia Group’s marketplace infrastructure."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

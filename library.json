@@ -1172,6 +1172,24 @@
         "Online Travel"
       ],
       "status": "published"
+    },
+    {
+      "slug": "expedia",
+      "case_number": "066",
+      "company": "Expedia",
+      "headline": "Why does Expedia power travel bookings for other brands?",
+      "industry": [
+        "Travel",
+        "Travel Marketplace"
+      ],
+      "topics": [
+        "B2B Distribution",
+        "Travel APIs",
+        "Embedded Travel",
+        "White Label",
+        "Online Travel"
+      ],
+      "status": "published"
     }
   ]
 }
