@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.7",
+  "metadata": {
+    "company": "Booking.com",
+    "slug": "booking-com",
+    "headline": "Why can hotels pay more to move up on Booking.com?",
+    "case_number": "065",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Travel",
+      "Accommodation Marketplace"
+    ],
+    "topics": [
+      "Search Ranking",
+      "Marketplace Governance",
+      "Hotel Distribution",
+      "Connectivity Partners",
+      "Online Travel"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Booking.com sells access to travelers, but it also controls how that demand is distributed.",
+    "text": "Booking.com is a classic accommodation marketplace rather than a hotel operator. The properties on the platform are run by independent hotels, hosts and property managers, and Booking.com says it does not own the accommodation. When a traveler books, the underlying stay is normally supplied by that accommodation provider, while Booking.com earns commission for bringing the booking and running the marketplace.\n\nThe interesting part is what happens before the booking. Millions of properties cannot all appear equally prominently, so Booking.com ranks and filters them. Its default recommendation system uses many signals such as popularity, conversion, availability, pricing, reviews and service history. Booking.com also states that commission can influence ranking, although it is not one of the leading default-ranking factors. More explicitly, programs such as Preferred, Preferred Plus and Visibility Booster let eligible properties trade a higher commission for greater visibility, while sponsored placements are marked as ads.\n\nThat means Booking.com operates two connected markets at once. Travelers compete for the best available stay, but accommodation providers also compete for attention inside Booking.com. A hotel can improve its position through price, availability, reviews and conversion, and in some programs it can also give up more margin to gain more visibility. The platform therefore does more than connect supply and demand: its ranking rules help decide how demand is distributed among providers.\n\nConnectivity partners are the most important external Partner role in this model because they make that huge supply base manageable. Channel managers and property-management systems synchronize rooms, rates, availability, content and reservations between accommodation systems and Booking.com. They are not merely background IT suppliers; they are part of the distribution architecture that lets millions of independently operated properties stay bookable in near real time."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Booking Holdings Inc. Form 10-Q — quarter ended June 30, 2026",
+      "publisher": "U.S. SEC / Booking Holdings",
+      "date": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000037/bkng-20260630.htm",
+      "note": "Booking.com had about 4.7 million properties at June 30, 2026, including more than 4.1 million alternative-accommodation properties and more than 500,000 hotels, motels and resorts. Alternative accommodations represented about 37% of Booking.com room nights in Q2 2026. The filing also describes an ongoing shift from agency to merchant bookings at Booking.com."
+    },
+    {
+      "title": "Booking.com: How we work",
+      "publisher": "Booking.com",
+      "date": "2026-10",
+      "url": "https://www.booking.com/content/how_we_work.html",
+      "note": "Booking.com states that it does not own accommodations and that travelers contract with the service provider. It explains that accommodation providers pay commission after a stay, Preferred Partner properties pay a higher commission, paid placements are marked as ads, and recommendation systems determine how properties are displayed and ranked."
+    },
+    {
+      "title": "General Delivery Terms for Accommodation Partners",
+      "publisher": "Booking.com",
+      "date": "2026-10",
+      "url": "https://admin.booking.com/hotelreg/terms-and-conditions.html",
+      "note": "Current accommodation terms describe the direct guest–accommodation contract, commission calculation, ranking factors and optional programs. Booking.com states that commission may affect default ranking and that Preferred, Preferred Plus and Visibility Booster can influence ranking; the latter programs involve a higher commission."
+    },
+    {
+      "title": "Booking.com Connectivity Portal",
+      "publisher": "Booking.com",
+      "date": "2026-10",
+      "url": "https://connect.booking.com/",
+      "note": "Booking.com invites channel managers, PMS providers and other connectivity applications to integrate. The portal highlights APIs for listing properties and synchronizing rates and availability, and notes that individual properties generally connect through a channel manager rather than directly to the Connectivity APIs."
+    },
+    {
+      "title": "About the Booking.com Connectivity APIs",
+      "publisher": "Booking.com Developers",
+      "date": "2026-10",
+      "url": "https://developers.booking.com/connectivity/docs",
+      "note": "Connectivity Partners can manage availability, reservations, prices and other property data from their own systems, allowing property operators to manage Booking.com alongside other distribution channels."
+    },
+    {
+      "title": "About Booking.com — Fast Facts",
+      "publisher": "Booking.com Newsroom",
+      "date": "2026-10",
+      "url": "https://news.booking.com/fast-facts",
+      "note": "Booking.com reports more than 372 million verified guest reviews and says reviews can only be submitted by guests who booked and stayed, making reviews a large trust and ranking input for the marketplace."
+    },
+    {
+      "title": "Understanding the Payments by Booking.com Onboarding API",
+      "publisher": "Booking.com Developers",
+      "date": "2026-09",
+      "url": "https://developers.booking.com/connectivity/docs/payments-by-booking-onboarding-api/understanding-the-pbb-onboarding-api",
+      "note": "Payments by Booking.com is optional for eligible properties. Booking.com can manage online guest payments and support different payout methods, while properties can also remain on pay-at-property agency flows."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "airbnb",
+      "vrbo",
+      "blueground"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Booking.com — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Bookable Stay",
+      "explanation": "The core value unit is a specific accommodation stay that a traveler can compare and reserve for particular dates and conditions.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "37% alt stays",
+          "note": "Alternative accommodations represented about 37% of Booking.com room nights in Q2 2026."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Booking.com",
+        "explanation": "Booking.com B.V. operates the accommodation marketplace, including search, ranking, booking, reviews, customer support and an expanding payment layer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Match Stays",
+        "explanation": "Booking.com must turn millions of independent accommodation offers into a searchable and bookable set of options for each trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Commission / Ads",
+        "explanation": "Booking.com primarily earns from commissions on reservations and can also monetize visibility through paid placement and related advertising products.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Leakage",
+        "explanation": "Booking.com has to keep travelers and properties transacting through the platform while limiting fraud, poor experiences, cancellations and off-platform leakage.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Rank",
+        "explanation": "Booking.com matches traveler intent with bookable accommodation and determines how offers are ordered and surfaced before a reservation is made.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rank / Reviews",
+        "explanation": "Booking.com sets marketplace rules and uses reviews, performance data, commercial programs and other signals to govern which properties are shown and in what order.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Genius / Search",
+        "explanation": "Booking.com attracts repeat demand through direct search, brand marketing and the Genius loyalty program, while also buying traffic from external channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Support",
+        "explanation": "Core activities include search and ranking, booking conversion, fraud and trust controls, customer service, partner support and payment facilitation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Demand / Data",
+        "explanation": "Booking.com’s key resources are global traveler demand, booking and review data, brand recognition, software and its provider network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "372M+ reviews",
+          "note": "Booking.com Fast Facts reports more than 372 million verified reviews from guests who booked and stayed."
+        },
+        {
+          "value": "73% merchant*",
+          "note": "Derived from Booking Holdings Q2 2026 gross bookings: $37.0B merchant out of $51.0B total, about 73%. This is group-wide, not a Booking.com-only payment share; the filing separately confirms an ongoing Booking.com shift from agency to merchant bookings."
+        }
+      ]
+    },
+    "consumer": {
+      "actor": {
+        "value": "Travelers",
+        "explanation": "Travelers are people searching for and booking accommodation for leisure, family, work or other trips.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Find a Stay",
+        "explanation": "Travelers want to find an available place that fits their dates, location, budget and preferences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Trust",
+        "explanation": "Travelers gain broad supply, price comparison, filters, verified reviews, flexible policies and a standardized booking flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Overload",
+        "explanation": "Large choice can create comparison overload, while changing prices, policies and property quality make the decision harder.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Search / Book",
+        "explanation": "Travelers search, compare and reserve a stay through Booking.com; payment may be handled by Booking.com or by the accommodation depending on the booking setup.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Dates / Place",
+        "explanation": "Travelers narrow the marketplace by destination, dates, party size, budget, property type, review score and other preferences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Travelers use Booking.com’s mobile apps and websites to search, book, manage reservations and contact support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Compare / Stay",
+        "explanation": "Travelers search, compare offers, book, complete the stay and can then leave a verified review.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Dates / Budget",
+        "explanation": "Travelers contribute trip dates, destination, preferences, payment capability and attention to the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Hotels / Hosts",
+        "explanation": "Providers are hotels, motels, resorts, hostels, apartment operators, home hosts and professional property managers that supply the accommodation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Sell Rooms",
+        "explanation": "Providers want to turn perishable room or home availability into paid stays while controlling rates, policies and inventory.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Occupancy",
+        "explanation": "Booking.com gives providers access to global demand and tools that can improve occupancy and conversion, especially for independent properties.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Visibility",
+        "explanation": "Providers give up commission and may face intense competition for ranking, price and visibility inside the marketplace.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Rooms / Commission",
+        "explanation": "Providers supply rooms, rates and availability to Booking.com and owe commission on eligible completed or charged reservations under their agreement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Quality / Fit",
+        "explanation": "Properties must meet contractual, content, licensing and operational requirements to become and remain bookable.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Extranet / API",
+        "explanation": "Properties manage Booking.com directly through the Extranet or indirectly through approved connectivity software and APIs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Price / Host",
+        "explanation": "Providers set rates and availability, maintain property content and policies, receive reservations and deliver the stay.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Rooms / Rates",
+        "explanation": "Providers contribute the physical accommodation, live inventory, prices, policies, photos and local service capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "metrics": [
+        {
+          "value": "4.7M properties",
+          "note": "Booking Holdings reported approximately 4.7 million properties on Booking.com at June 30, 2026."
+        },
+        {
+          "value": "4.1M alt stays",
+          "note": "More than 4.1 million of Booking.com’s properties were alternative accommodations at June 30, 2026; the remaining 500,000+ were hotels, motels and resorts."
+        }
+      ]
+    },
+    "partner": {
+      "actor": {
+        "value": "Connectivity",
+        "explanation": "Connectivity Partners are professional channel-manager, PMS and software providers that connect accommodation systems to Booking.com.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "job": {
+        "value": "Sync Supply",
+        "explanation": "Their job is to keep property content, rates, availability and reservations synchronized between Booking.com and the systems properties already use.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Clients / Usage",
+        "explanation": "Connectivity partners become more useful to accommodation clients when one interface can manage Booking.com alongside other sales channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "API / Mapping",
+        "explanation": "They must keep integrations current, map rooms and rates correctly, protect payment and personal data and adapt to Booking.com API changes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Rates / Bookings",
+        "explanation": "Connectivity software exchanges live inventory and reservation data with Booking.com on behalf of connected accommodation providers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Certified",
+        "explanation": "Booking.com requires connectivity providers to meet onboarding, certification, security and ongoing technical requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "APIs / Portal",
+        "explanation": "Connectivity partners use Booking.com’s Connectivity APIs and Provider Portal rather than the traveler-facing marketplace interface.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Sync / Map",
+        "explanation": "They synchronize inventory, rates and reservations, map property data and expose Booking.com functions inside their own software.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "PMS / Data",
+        "explanation": "They contribute property-management systems, channel-management software, APIs and operational property data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "4.7M properties",
+        "note": "Booking.com properties reported at June 30, 2026.",
+        "target": "provider"
+      },
+      {
+        "value": "372M+ reviews",
+        "note": "Verified guest reviews reported in Booking.com Fast Facts.",
+        "target": "owner"
+      },
+      {
+        "value": "37% alt stays",
+        "note": "Alternative accommodations represented about 37% of Booking.com room nights in Q2 2026.",
+        "target": "core_value_unit"
+      },
+      {
+        "value": "73% merchant*",
+        "note": "Booking Holdings group-wide Q2 2026 merchant share of gross bookings, derived from SEC figures; not a Booking.com-only share.",
+        "target": "owner"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Search / Book",
+          "explanation": "Travelers send destination, dates and preferences into Booking.com and make the reservation through the platform."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Ranked Stays",
+          "explanation": "Booking.com returns an ordered set of bookable properties using filters and recommendation systems, with paid placements identified separately."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Rooms / Fee",
+          "explanation": "Accommodation providers supply rooms, rates, availability and content, and pay Booking.com commission on qualifying reservations."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Bookings / Pay",
+          "explanation": "Booking.com sends confirmed reservations and demand to properties; where Payments by Booking.com is used, it can also collect guest funds and pay the property, while agency bookings can still be paid directly at the property."
+        },
+        {
+          "from": "provider",
+          "to": "consumer",
+          "value": "Stay",
+          "explanation": "The accommodation provider, not Booking.com, delivers the actual room or home and the local hospitality service to the traveler."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Inventory Sync",
+          "explanation": "Connectivity partners keep rates, availability, content and reservations synchronized between property systems and Booking.com."
+        }
+      ],
+      "before": [],
+      "after": []
+    }
+  }
+}

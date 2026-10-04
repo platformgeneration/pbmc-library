@@ -1154,6 +1154,24 @@
         "Corporate Housing"
       ],
       "status": "published"
+    },
+    {
+      "slug": "booking-com",
+      "case_number": "065",
+      "company": "Booking.com",
+      "headline": "Why can hotels pay more to move up on Booking.com?",
+      "industry": [
+        "Travel",
+        "Accommodation Marketplace"
+      ],
+      "topics": [
+        "Search Ranking",
+        "Marketplace Governance",
+        "Hotel Distribution",
+        "Connectivity Partners",
+        "Online Travel"
+      ],
+      "status": "published"
     }
   ]
 }
