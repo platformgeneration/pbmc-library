@@ -1,0 +1,5 @@
+Case #044 — Bolt
+
+Upload the contents of this ZIP to the repository root.
+It adds the new /bolt/ case folder and replaces library.json and sitemap.xml.
+No renderer, CSS, or shared asset changes are required.

@@ -1,21 +1,7 @@
-GitHub update for the existing pbmc-library repository
+Upload/replace these files in the root of the PBMC Library repository:
 
-1. Unzip this github patch on your computer.
-2. Open the existing pbmc-library repository on GitHub and choose Add file → Upload files.
-3. Drag the extracted files and folders into the repository root, preserving their paths. Replace files with the same paths and commit the changes. Do not upload the ZIP itself as a single repository file.
-4. Wait for GitHub Pages to redeploy, then verify:
-   - /about/ shows the FortisBC cover and the whitepaper link.
-   - The global menu contains only PBMC Library and About.
-   - A case page shows a small downward triangle beside the platform title; clicking it opens the alphabetical case list.
+- lyft/ (entire folder)
+- library.json
+- sitemap.xml
 
-This patch contains:
-- about/index.html
-- assets/about.css
-- assets/fortisbc-cover.png
-- assets/site.css (updated canonical case-page stylesheet)
-- build.py (updated generator template)
-- generated case index.html files with the same navigation/dropdown update
-
-Existing case data, renderer assets, library.json and other unchanged repository files are intentionally not included and must remain in the repository.
-
-The FortisBC cover PNG is included. The About page still links to the whitepaper PDF at its current external URL.
+No renderer, CSS, or shared asset changes are required.
