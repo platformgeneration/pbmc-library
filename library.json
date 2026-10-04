@@ -1100,6 +1100,24 @@
         "Network Effects"
       ],
       "status": "published"
+    },
+    {
+      "slug": "vrbo",
+      "case_number": "062",
+      "company": "Vrbo",
+      "headline": "Why does Vrbo only list whole homes?",
+      "industry": [
+        "Travel",
+        "Vacation Rental Marketplace"
+      ],
+      "topics": [
+        "Whole-Home Rentals",
+        "Marketplace Focus",
+        "Families and Groups",
+        "Travel Loyalty",
+        "Trust and Safety"
+      ],
+      "status": "published"
     }
   ]
 }
