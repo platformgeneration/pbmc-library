@@ -28,11 +28,66 @@ def e(v):
 def load_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
-def lesson_paragraphs(text):
-    parts=[p.strip() for p in re.split(r"\n\s*\n", str(text or "")) if p.strip()]
-    if not parts:
-        return "<p></p>"
-    return "".join(f"<p>{e(p)}</p>" for p in parts)
+def normalize_hover_metrics(case):
+    """Keep actor/CVU hover metrics in the renderer's canonical locations.
+
+    Cases from #051 onward use actor.metrics (or core_value_unit.metrics) as the
+    canonical hover source. For backward compatibility, accept metrics that were
+    accidentally stored one level higher on a role or only in pbmc.metrics, and
+    merge non-duplicate targeted metrics into the hover data.
+    """
+    try:
+        case_no = int(str(case.get("metadata", {}).get("case_number", "0")))
+    except (TypeError, ValueError):
+        case_no = 0
+    if case_no < 51:
+        return case
+
+    pbmc = case.get("pbmc", {})
+    top_metrics = pbmc.get("metrics", []) if isinstance(pbmc.get("metrics", []), list) else []
+
+    def metric_signature(value):
+        text = re.sub(r"\d+(?:[.,]\d+)?", "", str(value or "").lower())
+        return re.sub(r"[^a-z]+", "", text)
+
+    for role in ROLES:
+        rd = pbmc.get(role)
+        if not isinstance(rd, dict):
+            continue
+        actor = rd.get("actor")
+        if not isinstance(actor, dict):
+            continue
+
+        metrics = actor.get("metrics") if isinstance(actor.get("metrics"), list) else []
+        if not metrics and isinstance(rd.get("metrics"), list):
+            metrics = list(rd.get("metrics") or [])
+
+        seen = {metric_signature(m.get("value")) for m in metrics if isinstance(m, dict)}
+        for m in top_metrics:
+            if not isinstance(m, dict) or m.get("target") != role:
+                continue
+            signature = metric_signature(m.get("value"))
+            if signature and signature not in seen:
+                metrics.append({k: v for k, v in m.items() if k != "target"})
+                seen.add(signature)
+        if metrics:
+            actor["metrics"] = metrics
+
+    cvu = pbmc.get("core_value_unit")
+    if isinstance(cvu, dict):
+        metrics = cvu.get("metrics") if isinstance(cvu.get("metrics"), list) else []
+        seen = {metric_signature(m.get("value")) for m in metrics if isinstance(m, dict)}
+        for m in top_metrics:
+            if not isinstance(m, dict) or m.get("target") != "core_value_unit":
+                continue
+            signature = metric_signature(m.get("value"))
+            if signature and signature not in seen:
+                metrics.append({k: v for k, v in m.items() if k != "target"})
+                seen.add(signature)
+        if metrics:
+            cvu["metrics"] = metrics
+
+    return case
 
 def active_flows(case):
     state = case.get("rendering", {}).get("state", "after")
@@ -317,6 +372,7 @@ def youtube_video_id(url):
     return ""
 
 def case_page(case, css, renderer, first_slug="scalable-capital"):
+    case = normalize_hover_metrics(case)
     md=case["metadata"]; lesson=case["platform_lesson"]; reuse=case["reuse"]
     cite=citation_info(case)
     embedded=json.dumps(case,ensure_ascii=False).replace("</","<\\/").replace("<","\\u003c")
@@ -412,7 +468,7 @@ def case_page(case, css, renderer, first_slug="scalable-capital"):
 
 {video_section}
 
-<section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>{e(lesson["title"])}</h2>{lesson_paragraphs(lesson["text"])}</div></div></section>
+<section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>{e(lesson["title"])}</h2><p>{e(lesson["text"])}</p></div></div></section>
 
 <section class="section soft" id="data"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PBMC Data</div><h2>Structured data behind the canvas</h2><p class="section-copy">One fixed table for every PBMC. Transaction remains one field; its transaction flows appear directly beneath it as indented subrows, so cases remain directly comparable.</p></div><div class="data-actions"><button class="data-btn" id="copyTable" type="button">Copy table</button><a class="data-btn" href="pbmc-data.csv" download>Download CSV</a><a class="data-btn" href="case.json" download>JSON</a></div></div>{unified_table(case)}</div></section>
 

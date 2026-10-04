@@ -133,7 +133,13 @@
         "explanation": "Freelancer.com operates the marketplace, sets bidding and contest rules, manages milestone payments, reviews, disputes and user access.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "90M+ users*",
+            "note": "Freelancer.com says it connects more than 90 million employers and freelancers globally; this is a combined network count, not a freelancer-only figure."
+          }
+        ]
       },
       "job": {
         "value": "Run Competition",
@@ -190,13 +196,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "90M+ users*",
-          "note": "Freelancer.com says it connects more than 90 million employers and freelancers globally; this is a combined network count, not a freelancer-only figure."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -204,7 +204,13 @@
         "explanation": "Clients include individuals, startups and organizations that need digital or professional work completed.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "666K projects*",
+            "note": "Freelancer reported 666,000 new projects added to the marketplace in FY2025; this is a project-flow metric, not a count of clients."
+          }
+        ]
       },
       "job": {
         "value": "Get Work Done",
@@ -261,13 +267,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "666K projects*",
-          "note": "Freelancer reported 666,000 new projects added to the marketplace in FY2025; this is a project-flow metric, not a count of clients."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -275,7 +275,13 @@
         "explanation": "Freelancers compete for client work by sending bids, portfolios and work samples or by entering contests.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "54 bids / job",
+            "note": "Freelancer reported an average of 54 bids per project in FY2025."
+          }
+        ]
       },
       "job": {
         "value": "Win Work",
@@ -332,13 +338,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "54 bids / job",
-          "note": "Freelancer reported an average of 54 bids per project in FY2025."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -403,8 +403,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {

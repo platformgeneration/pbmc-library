@@ -148,7 +148,17 @@
         "explanation": "Care.com operates the multi-category care marketplace. The company was sold by IAC to an affiliate of Pacific Avenue Capital Partners in March 2026.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "45M+ users*",
+            "note": "Care.com says more than 45 million families and caregivers have turned to the platform since its founding; this is a cumulative figure, not current active users."
+          },
+          {
+            "value": "700+ employers",
+            "note": "Care.com says more than 700 employers partner with it to provide workforce care benefits; this reflects the wider Care.com business beyond the consumer marketplace."
+          }
+        ]
       },
       "job": {
         "value": "Match Care",
@@ -205,13 +215,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "45M+ users*",
-          "note": "Care.com says more than 45 million families and caregivers have turned to the platform since its founding; this is a cumulative figure, not current active users."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -276,8 +280,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "provider": {
       "actor": {
@@ -342,8 +345,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "partner": {
       "actor": {
@@ -408,8 +410,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {

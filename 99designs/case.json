@@ -154,7 +154,13 @@
         "explanation": "99designs by Vista operates the marketplace, curates designers, runs contests and 1-to-1 Projects, handles payments and sets marketplace rules.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "1M+ projects",
+            "note": "99designs says its freelance community has brought more than one million creative projects to life since 2008."
+          }
+        ]
       },
       "job": {
         "value": "Match Creatives",
@@ -211,13 +217,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "1M+ projects",
-          "note": "99designs says its freelance community has brought more than one million creative projects to life since 2008."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -225,7 +225,13 @@
         "explanation": "Clients are entrepreneurs, small businesses, brands and other buyers that need professional design work.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "786K+ contests*",
+            "note": "The live 99designs contest directory showed more than 786,000 finished contests when checked in October 2026; this is a historical contest count, not a current client count."
+          }
+        ]
       },
       "job": {
         "value": "Get Design",
@@ -282,13 +288,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "786K+ contests*",
-          "note": "The live 99designs contest directory showed more than 786,000 finished contests when checked in October 2026; this is a historical contest count, not a current client count."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -296,7 +296,13 @@
         "explanation": "Designers are curated freelance creatives who can enter contests or work directly with clients.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "5–15% fee",
+            "note": "For 1-to-1 Projects, designer platform fees are 5% for Top Level, 10% for Mid Level and 15% for Entry Level designers."
+          }
+        ]
       },
       "job": {
         "value": "Win Design Work",
@@ -353,13 +359,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "5–15% fee",
-          "note": "For 1-to-1 Projects, designer platform fees are 5% for Top Level, 10% for Mid Level and 15% for Entry Level designers."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -424,8 +424,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {

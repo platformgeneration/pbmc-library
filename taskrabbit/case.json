@@ -141,7 +141,13 @@
         "explanation": "Taskrabbit runs the marketplace and is owned by Ingka Group, the largest IKEA retailer group.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "8 countries",
+            "note": "Taskrabbit states that it operates across eight countries in North America and Europe."
+          }
+        ]
       },
       "job": {
         "value": "Match Help",
@@ -198,13 +204,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "8 countries",
-          "note": "Taskrabbit states that it operates across eight countries in North America and Europe."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -212,7 +212,13 @@
         "explanation": "Clients are households and individuals who need local help with assembly, moving, mounting, cleaning, repairs and similar tasks.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "50 US states",
+            "note": "Taskrabbit became available in all 50 U.S. states in August 2025."
+          }
+        ]
       },
       "job": {
         "value": "Get Help",
@@ -269,13 +275,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "50 US states",
-          "note": "Taskrabbit became available in all 50 U.S. states in August 2025."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -283,7 +283,13 @@
         "explanation": "Taskers are independent service providers who offer practical skills and complete local jobs for clients.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "$47/h US*",
+            "note": "Taskrabbit reported an average U.S. Tasker earning rate of $47 per hour in August 2025; earnings vary by location."
+          }
+        ]
       },
       "job": {
         "value": "Earn / Work",
@@ -340,13 +346,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "$47/h US*",
-          "note": "Taskrabbit reported an average U.S. Tasker earning rate of $47 per hour in August 2025; earnings vary by location."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -354,7 +354,13 @@
         "explanation": "Retailers and manufacturers can embed Taskrabbit services around the products they sell.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "240+ IKEA",
+            "note": "Taskrabbit stated in May 2026 that its services were available in more than 240 IKEA stores worldwide."
+          }
+        ]
       },
       "job": {
         "value": "Add Services",
@@ -411,13 +417,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "240+ IKEA",
-          "note": "Taskrabbit stated in May 2026 that its services were available in more than 240 IKEA stores worldwide."
-        }
-      ]
+      }
     },
     "metrics": [
       {

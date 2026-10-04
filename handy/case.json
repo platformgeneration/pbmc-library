@@ -154,7 +154,13 @@
         "explanation": "Handy is an Angi brand that organizes direct service booking, matching, payment, trust tools and support while independent pros perform the work.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "100s cities*",
+            "note": "Handy says it operates in hundreds of cities across the US, Canada and the UK."
+          }
+        ]
       },
       "job": {
         "value": "Match Jobs",
@@ -211,13 +217,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "100s cities*",
-          "note": "Handy says it operates in hundreds of cities across the US, Canada and the UK."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -282,8 +282,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "provider": {
       "actor": {
@@ -291,7 +290,13 @@
         "explanation": "Independent cleaners, handymen, installers and other skilled service professionals perform the household work.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "4.5★ avg*",
+            "note": "Handy says the average professional using the platform is rated 4.5 out of 5 stars."
+          }
+        ]
       },
       "job": {
         "value": "Get Jobs",
@@ -348,13 +353,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "4.5★ avg*",
-          "note": "Handy says the average professional using the platform is rated 4.5 out of 5 stars."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -419,8 +418,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {

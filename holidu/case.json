@@ -138,7 +138,13 @@
         "explanation": "Holidu runs the traveler search and booking experience while also providing software, local support and distribution tools to vacation-rental hosts.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "100K+ / month",
+            "note": "Holidu reports more than 100,000 monthly bookings through its current platform ecosystem."
+          }
+        ]
       },
       "job": {
         "value": "Connect Supply",
@@ -195,13 +201,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "100K+ / month",
-          "note": "Holidu reports more than 100,000 monthly bookings through its current platform ecosystem."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -209,7 +209,13 @@
         "explanation": "Travelers use Holidu to find and book vacation homes from both Holidu-supported hosts and external booking partners.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "8M+ web / mo*",
+            "note": "Holidu reports more than 8 million monthly website users in its Developer Hub."
+          }
+        ]
       },
       "job": {
         "value": "Find a Home",
@@ -266,13 +272,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "8M+ web / mo*",
-          "note": "Holidu reports more than 8 million monthly website users in its Developer Hub."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -280,7 +280,13 @@
         "explanation": "Vacation-home hosts and small property managers provide directly managed Holidu Homes and use Holidu software and local support.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "35K+ hosts",
+            "note": "Holidu says its host platform is trusted by more than 35,000 hosts."
+          }
+        ]
       },
       "job": {
         "value": "Rent Homes",
@@ -337,13 +343,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "35K+ hosts",
-          "note": "Holidu says its host platform is trusted by more than 35,000 hosts."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -351,7 +351,13 @@
         "explanation": "External vacation-rental and booking platforms exchange inventory and distribution reach with Holidu through partner connections.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "2,500+ partners",
+            "note": "Holidu reports more than 2,500 vacation-rental partners connected to its current offer network."
+          }
+        ]
       },
       "job": {
         "value": "Share Listings",
@@ -408,13 +414,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "2,500+ partners",
-          "note": "Holidu reports more than 2,500 vacation-rental partners connected to its current offer network."
-        }
-      ]
+      }
     },
     "metrics": [
       {

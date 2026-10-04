@@ -140,7 +140,13 @@
         "explanation": "Fiverr operates the global marketplace, sets marketplace rules and coordinates discovery, ordering, payments, reviews and support.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "$1.07B GMV*",
+            "note": "Fiverr reported $1.073 billion of marketplace GMV for full-year 2025."
+          }
+        ]
       },
       "job": {
         "value": "Organize Work",
@@ -197,13 +203,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "$1.07B GMV*",
-          "note": "Fiverr reported $1.073 billion of marketplace GMV for full-year 2025."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -211,7 +211,13 @@
         "explanation": "Buyers are individuals and businesses purchasing digital freelance services such as design, programming, marketing, video, writing and AI services.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "2.7M buyers*",
+            "note": "Fiverr reported 2.676 million annual active marketplace buyers as of June 30, 2026."
+          }
+        ]
       },
       "job": {
         "value": "Get Work",
@@ -268,13 +274,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "2.7M buyers*",
-          "note": "Fiverr reported 2.676 million annual active marketplace buyers as of June 30, 2026."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -282,7 +282,13 @@
         "explanation": "Freelancers create Gigs and deliver digital services to buyers around the world.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "80% earnings",
+            "note": "Fiverr states that freelancers earn 80% of the purchase amount on completed orders, including extras and tips."
+          }
+        ]
       },
       "job": {
         "value": "Sell Skills",
@@ -339,13 +345,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "80% earnings",
-          "note": "Fiverr states that freelancers earn 80% of the purchase amount on completed orders, including extras and tips."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -410,8 +410,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {

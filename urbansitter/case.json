@@ -145,7 +145,13 @@
         "explanation": "UrbanSitter operates the care marketplace and the employer-benefit layer that helps families find, book and pay caregivers.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "60+ cities",
+            "note": "UrbanSitter says it is available in more than 60 cities."
+          }
+        ]
       },
       "job": {
         "value": "Match Care",
@@ -202,13 +208,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "60+ cities",
-          "note": "UrbanSitter says it is available in more than 60 cities."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -273,8 +273,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "provider": {
       "actor": {
@@ -282,7 +281,13 @@
         "explanation": "Independent caregivers offer child care and other household care services through individual UrbanSitter profiles.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "1M+ caregivers*",
+            "note": "UrbanSitter says its community has grown to more than one million caregivers; this is a cumulative community figure, not a count of currently active bookable caregivers."
+          }
+        ]
       },
       "job": {
         "value": "Find Jobs",
@@ -339,13 +344,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "1M+ caregivers*",
-          "note": "UrbanSitter says its community has grown to more than one million caregivers; this is a cumulative community figure, not a count of currently active bookable caregivers."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -410,8 +409,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {

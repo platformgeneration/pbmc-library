@@ -155,7 +155,13 @@
         "explanation": "PeoplePerHour operates the marketplace, reviews freelancer applications, manages matching, WorkStream, escrow, disputes and platform rules.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "100+ countries",
+            "note": "PeoplePerHour says its users span more than 100 countries."
+          }
+        ]
       },
       "job": {
         "value": "Match Work",
@@ -212,13 +218,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "100+ countries",
-          "note": "PeoplePerHour says its users span more than 100 countries."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -226,7 +226,13 @@
         "explanation": "Buyers are businesses and individuals that need freelance work, especially small and medium-sized businesses.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "1M+ businesses",
+            "note": "PeoplePerHour says it is trusted by more than one million businesses."
+          }
+        ]
       },
       "job": {
         "value": "Get Work Done",
@@ -283,13 +289,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "1M+ businesses",
-          "note": "PeoplePerHour says it is trusted by more than one million businesses."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -297,7 +297,13 @@
         "explanation": "Freelancers provide skills such as design, writing, development, marketing, administration and many other business services.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "3M rated*",
+            "note": "PeoplePerHour reports 3 million rated freelancers on its homepage; this is a marketplace count rather than a measure of current active freelancers."
+          }
+        ]
       },
       "job": {
         "value": "Win Work",
@@ -354,13 +360,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "3M rated*",
-          "note": "PeoplePerHour reports 3 million rated freelancers on its homepage; this is a marketplace count rather than a measure of current active freelancers."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -368,7 +368,13 @@
         "explanation": "Third-party payment providers help PeoplePerHour collect buyer payments and move freelancer payouts.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "4 named rails",
+            "note": "PeoplePerHour terms name Adyen, Worldpay, Payoneer and PayPal among third-party payment providers."
+          }
+        ]
       },
       "job": {
         "value": "Move Money",
@@ -425,13 +431,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "4 named rails",
-          "note": "PeoplePerHour terms name Adyen, Worldpay, Payoneer and PayPal among third-party payment providers."
-        }
-      ]
+      }
     },
     "metrics": [
       {

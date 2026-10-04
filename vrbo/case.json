@@ -145,7 +145,13 @@
         "explanation": "Vrbo, part of Expedia Group, runs the vacation-rental marketplace, booking flow, payment layer, reviews and host tools.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "190+ countries",
+            "note": "Vrbo says its whole-home marketplace spans more than 190 countries worldwide."
+          }
+        ]
       },
       "job": {
         "value": "Run Marketplace",
@@ -202,13 +208,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "190+ countries",
-          "note": "Vrbo says its whole-home marketplace spans more than 190 countries worldwide."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -273,8 +273,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "provider": {
       "actor": {
@@ -282,7 +281,13 @@
         "explanation": "Supply comes from homeowners and professional property managers that list entire vacation homes on Vrbo.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "2.4M+ homes*",
+            "note": "Expedia Group reported approximately 2.4 million online-bookable alternative accommodations through Vrbo at the end of 2025."
+          }
+        ]
       },
       "job": {
         "value": "Rent Whole Home",
@@ -339,13 +344,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "2.4M+ homes*",
-          "note": "Expedia Group reported approximately 2.4 million online-bookable alternative accommodations through Vrbo at the end of 2025."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -353,7 +352,13 @@
         "explanation": "Insurance partners such as Generali support Vrbo's liability and property-protection layers for eligible stays and programs.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "$1M cover*",
+            "note": "Vrbo's liability program provides up to $1 million in coverage for eligible reservations, subject to policy terms."
+          }
+        ]
       },
       "job": {
         "value": "Cover Liability",
@@ -410,13 +415,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "$1M cover*",
-          "note": "Vrbo's liability program provides up to $1 million in coverage for eligible reservations, subject to policy terms."
-        }
-      ]
+      }
     },
     "metrics": [
       {

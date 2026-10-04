@@ -144,7 +144,17 @@
         "explanation": "Booking.com B.V. operates the accommodation marketplace, including search, ranking, booking, reviews, customer support and an expanding payment layer.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "372M+ reviews",
+            "note": "Booking.com Fast Facts reports more than 372 million verified reviews from guests who booked and stayed."
+          },
+          {
+            "value": "73% merchant*",
+            "note": "Derived from Booking Holdings Q2 2026 gross bookings: $37.0B merchant out of $51.0B total, about 73%. This is group-wide, not a Booking.com-only payment share; the filing separately confirms an ongoing Booking.com shift from agency to merchant bookings."
+          }
+        ]
       },
       "job": {
         "value": "Match Stays",
@@ -201,17 +211,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "372M+ reviews",
-          "note": "Booking.com Fast Facts reports more than 372 million verified reviews from guests who booked and stayed."
-        },
-        {
-          "value": "73% merchant*",
-          "note": "Derived from Booking Holdings Q2 2026 gross bookings: $37.0B merchant out of $51.0B total, about 73%. This is group-wide, not a Booking.com-only payment share; the filing separately confirms an ongoing Booking.com shift from agency to merchant bookings."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -284,7 +284,17 @@
         "explanation": "Providers are hotels, motels, resorts, hostels, apartment operators, home hosts and professional property managers that supply the accommodation.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "4.7M properties",
+            "note": "Booking Holdings reported approximately 4.7 million properties on Booking.com at June 30, 2026."
+          },
+          {
+            "value": "4.1M alt stays",
+            "note": "More than 4.1 million of Booking.com’s properties were alternative accommodations at June 30, 2026; the remaining 500,000+ were hotels, motels and resorts."
+          }
+        ]
       },
       "job": {
         "value": "Sell Rooms",
@@ -341,17 +351,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "4.7M properties",
-          "note": "Booking Holdings reported approximately 4.7 million properties on Booking.com at June 30, 2026."
-        },
-        {
-          "value": "4.1M alt stays",
-          "note": "More than 4.1 million of Booking.com’s properties were alternative accommodations at June 30, 2026; the remaining 500,000+ were hotels, motels and resorts."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {

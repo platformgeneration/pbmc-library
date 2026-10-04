@@ -152,7 +152,13 @@
         "explanation": "Airbnb operates the marketplace, search and booking system, payment flow, trust systems and support that connect hosts with guests.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "220+ countries",
+            "note": "Airbnb reports active listings in more than 220 countries and regions."
+          }
+        ]
       },
       "job": {
         "value": "Run Marketplace",
@@ -209,13 +215,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "220+ countries",
-          "note": "Airbnb reports active listings in more than 220 countries and regions."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -223,7 +223,13 @@
         "explanation": "Guests are travelers looking for a place to stay, from private rooms and apartments to whole homes and other accommodation types.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "2.5B arrivals*",
+            "note": "Airbnb reports more than 2.5 billion guest arrivals all-time; this is cumulative, not a current active-user count."
+          }
+        ]
       },
       "job": {
         "value": "Find a Stay",
@@ -280,13 +286,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "2.5B arrivals*",
-          "note": "Airbnb reports more than 2.5 billion guest arrivals all-time; this is cumulative, not a current active-user count."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -294,7 +294,17 @@
         "explanation": "Hosts range from individuals sharing a room or home to professional property managers and hospitality operators listing accommodations on Airbnb.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "5.5M+ hosts",
+            "note": "Airbnb reports more than 5.5 million hosts worldwide as of May 2026."
+          },
+          {
+            "value": "9M+ listings",
+            "note": "Airbnb reports more than 9 million active listings worldwide as of May 2026."
+          }
+        ]
       },
       "job": {
         "value": "Earn from Space",
@@ -351,17 +361,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "5.5M+ hosts",
-          "note": "Airbnb reports more than 5.5 million hosts worldwide as of May 2026."
-        },
-        {
-          "value": "9M+ listings",
-          "note": "Airbnb reports more than 9 million active listings worldwide as of May 2026."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -369,7 +369,13 @@
         "explanation": "Third-party insurers underwrite Airbnb's Host liability insurance in participating countries, adding an external risk-bearing layer to AirCover for Hosts.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "$1M liability*",
+            "note": "AirCover for Hosts includes $1 million of Host liability insurance in eligible countries, subject to policy terms and exclusions."
+          }
+        ]
       },
       "job": {
         "value": "Cover Liability",
@@ -426,13 +432,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "$1M liability*",
-          "note": "AirCover for Hosts includes $1 million of Host liability insurance in eligible countries, subject to policy terms and exclusions."
-        }
-      ]
+      }
     },
     "metrics": [
       {

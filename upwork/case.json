@@ -147,7 +147,13 @@
         "explanation": "Upwork operates the marketplace, sets the rules and coordinates job discovery, proposals, contracts, payments, reviews and support.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "$966M Q2 GSV",
+            "note": "Upwork reported $966.4 million in GSV for the second quarter of 2026."
+          }
+        ]
       },
       "job": {
         "value": "Match Work",
@@ -204,13 +210,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "$966M Q2 GSV",
-          "note": "Upwork reported $966.4 million in GSV for the second quarter of 2026."
-        }
-      ]
+      }
     },
     "consumer": {
       "actor": {
@@ -218,7 +218,13 @@
         "explanation": "Clients range from entrepreneurs and small businesses to large companies that need independent specialists for projects or ongoing work.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "763K clients*",
+            "note": "Upwork reported 763,000 active clients in Q2 2026."
+          }
+        ]
       },
       "job": {
         "value": "Hire Talent",
@@ -275,13 +281,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "763K clients*",
-          "note": "Upwork reported 763,000 active clients in Q2 2026."
-        }
-      ]
+      }
     },
     "provider": {
       "actor": {
@@ -289,7 +289,13 @@
         "explanation": "Freelancers and agencies offer professional skills, submit proposals, accept invitations or publish ready-made Project Catalog services.",
         "changed": false,
         "before": "",
-        "after": ""
+        "after": "",
+        "metrics": [
+          {
+            "value": "10K+ skills*",
+            "note": "Upwork says its platform provides access to professionals spanning more than 10,000 skills."
+          }
+        ]
       },
       "job": {
         "value": "Win Work",
@@ -346,13 +352,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": [
-        {
-          "value": "10K+ skills*",
-          "note": "Upwork says its platform provides access to professionals spanning more than 10,000 skills."
-        }
-      ]
+      }
     },
     "partner": {
       "actor": {
@@ -417,8 +417,7 @@
         "changed": false,
         "before": "",
         "after": ""
-      },
-      "metrics": []
+      }
     },
     "metrics": [
       {
