@@ -1118,6 +1118,24 @@
         "Trust and Safety"
       ],
       "status": "published"
+    },
+    {
+      "slug": "holidu",
+      "case_number": "063",
+      "company": "Holidu",
+      "headline": "How did Holidu grow from comparing vacation rentals to helping hosts run them?",
+      "industry": [
+        "Travel",
+        "Vacation Rental Platform"
+      ],
+      "topics": [
+        "Vacation Rentals",
+        "Aggregation",
+        "Host Software",
+        "Distribution",
+        "Hybrid Platform"
+      ],
+      "status": "published"
     }
   ]
 }
