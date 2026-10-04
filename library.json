@@ -1082,6 +1082,24 @@
         "Multi-Category Marketplace"
       ],
       "status": "published"
+    },
+    {
+      "slug": "airbnb",
+      "case_number": "061",
+      "company": "Airbnb",
+      "headline": "How can Airbnb offer millions of places to stay without building hotels?",
+      "industry": [
+        "Travel",
+        "Accommodation Marketplace"
+      ],
+      "topics": [
+        "Short-Term Rentals",
+        "Asset-Light Platforms",
+        "Trust and Safety",
+        "Home Sharing",
+        "Network Effects"
+      ],
+      "status": "published"
     }
   ]
 }
