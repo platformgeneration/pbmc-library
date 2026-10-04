@@ -1,0 +1,533 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "Instagram",
+    "slug": "instagram",
+    "headline": "Why is Instagram becoming Reels + DMs?",
+    "case_number": "071",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Social Media",
+      "Creator Discovery Platform"
+    ],
+    "topics": [
+      "Reels",
+      "AI Recommendations",
+      "Direct Messaging",
+      "Creator Economy",
+      "Advertising"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Instagram now has two distribution engines: AI recommendations and private sharing.",
+    "text": "Instagram began as a follower-based photo network, but its growth loop now works differently. Meta says Instagram has 3 billion monthly active users, while Reels and messaging are driving much of its growth. Messaging has become the most popular way people share photos and videos on Instagram, and Reels are reshared more than 4.5 billion times a day across Meta platforms.\n\nCreators therefore no longer depend only on followers. Trial Reels can be shown to non-followers first, and Meta said that by Q4 2025, 75% of Instagram recommendations in the US came from original posts. A Reel can be discovered by a stranger through AI ranking, then forwarded privately to friends through DMs or redistributed through reposts.\n\nThe platform lesson is that Instagram now combines algorithmic discovery with social distribution. The follower graph still matters, but it is no longer the only path to reach: Instagram can create an audience first and let people carry the content through their own relationships afterwards."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "In India, Instagram debuts a Reels-first experience for its mobile app",
+      "publisher": "Meta / Instagram",
+      "date": "2025-09-28",
+      "url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+      "note": "Meta said Instagram had reached 3B monthly active users. It also said messaging had become the most popular way to share photos and videos on Instagram and that Reels were reshared more than 4.5B times per day across Meta platforms. The Reels-first test also moved DMs closer to the center of navigation."
+    },
+    {
+      "title": "2026: AI Drives Performance",
+      "publisher": "Meta",
+      "date": "2026-01-28",
+      "url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "note": "Meta said that in Q4 2025, 75% of Instagram recommendations in the US came from original posts. A new run-time model across Instagram Feed, Stories and Reels increased conversion rates by 3%, and nearly 10% of daily Reels views came from content made in Edits."
+    },
+    {
+      "title": "Inspiring Creativity That Brings People Together",
+      "publisher": "Meta / Instagram",
+      "date": "2025-06-12",
+      "url": "https://about.fb.com/news/2025/06/inspiring-creativity-that-brings-people-together/",
+      "note": "Meta said Trial Reels were available to everyone and initially show a Reel to non-followers. In an internal analysis of more than 400,000 creators, 40% posted Reels more often after trying Trial Reels and, among those creators, 80% saw an increase in non-follower reach."
+    },
+    {
+      "title": "Test Content With Non-Followers Using Trial Reels",
+      "publisher": "Meta / Instagram",
+      "date": "2024-12-10",
+      "url": "https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/",
+      "note": "Instagram introduced Trial Reels as a mechanism for testing content with non-followers before sharing it with followers, illustrating that discovery can be deliberately separated from the follower graph."
+    },
+    {
+      "title": "New Instagram Features to Help You Connect",
+      "publisher": "Meta / Instagram",
+      "date": "2025-08-06",
+      "url": "https://about.fb.com/news/2025/08/new-instagram-features-help-you-connect/",
+      "note": "Instagram introduced Reposts and a Friends tab in Reels. Reposted public content can be recommended to the reposter’s followers even when they do not follow the original creator, adding another social redistribution path."
+    },
+    {
+      "title": "New Supervision Tools Give Parents Insights Into Their Teen’s Algorithm and More",
+      "publisher": "Meta",
+      "date": "2026-05-12",
+      "url": "https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/",
+      "note": "Meta described Instagram’s Your Algorithm controls, which let users see and adjust topics shaping recommendations on Reels and Explore, with expansion planned for the main Feed."
+    },
+    {
+      "title": "Meta Reports Second Quarter 2026 Results",
+      "publisher": "Meta Investor Relations",
+      "date": "2026-07-29",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "note": "Meta reported $59.363B of Family of Apps advertising revenue in Q2 2026 and 3.60B Family daily active people. Meta does not disclose Instagram-only revenue, so these figures are broader than Instagram."
+    },
+    {
+      "title": "Over Half a Trillion Dollars, 3.4 Million U.S. Jobs Linked to Meta’s AI-Driven Ads Technologies",
+      "publisher": "Meta",
+      "date": "2025-05-13",
+      "url": "https://about.fb.com/news/2025/05/over-half-trillion-dollars-3-million-us-jobs-linked-metas-ai-driven-ads-technologies/",
+      "note": "Meta said more than 35M US businesses use Facebook and Instagram every month and more than 2M US businesses advertise monthly across Meta apps. These are US and cross-app figures, not Instagram-only global counts."
+    },
+    {
+      "title": "From commerce to culture: how AI powers personalized connection and growth across the funnel",
+      "publisher": "Meta",
+      "date": "2026-03",
+      "url": "https://about.fb.com/ltam/news/2026/03/del-comercio-a-la-cultura-como-la-ia-impulsa-la-conexion-personalizada-y-el-crecimiento-a-lo-largo-del-funnel/",
+      "note": "Meta said Instagram Creator Marketplace had more than 1.5M discoverable creators. This measures creators available through the marketplace, not the total number of Instagram creators."
+    },
+    {
+      "title": "From Culture to Conversion with Meta Brand-Building Tools",
+      "publisher": "Meta",
+      "date": "2025-09",
+      "url": "https://about.fb.com/ltam/news/2025/09/de-la-cultura-a-la-conversion-con-las-herramientas-de-construccion-de-marca-de-meta/",
+      "note": "Meta said more than half of time spent on Instagram was spent on Reels and repeated that Reels were shared 4.5B times per day. The source also described creator-led and AI-optimized advertising."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "facebook",
+      "tiktok-shop"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Instagram — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Reel",
+      "explanation": "The core value unit in this case is a Reel: a short-form video that Instagram can recommend beyond a creator’s followers and that viewers can then reshare through DMs, reposts or other social surfaces.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "4.5B+ reshares/day",
+          "note": "Meta said Reels are reshared more than 4.5B times every day across Meta platforms. This measures redistribution across Meta, not Instagram-only Reel uploads."
+        },
+        {
+          "value": "75% original recs",
+          "note": "Meta said that in Q4 2025, 75% of Instagram recommendations in the US came from original posts. This is a US recommendation-share metric, not a global share of all Instagram content."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Meta",
+        "explanation": "Meta Platforms owns and operates Instagram. This case models Instagram’s Reels discovery-and-sharing layer, so Meta controls recommendation models, content rules, ad inventory, creator tools and the product surfaces that connect Reels with DMs.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$59.36B FoA ads",
+            "note": "Meta Family of Apps advertising revenue was $59.363B in Q2 2026. Meta does not disclose Instagram-only revenue, so this broader figure covers advertising across Facebook, Instagram and other Family of Apps surfaces."
+          },
+          {
+            "value": "+3% IG conversions",
+            "note": "Meta said a new run-time model across Instagram Feed, Stories and Reels increased conversion rates by 3% in Q4 2025. This is an advertising-system performance result, not Instagram revenue growth."
+          }
+        ]
+      },
+      "job": {
+        "value": "Grow Attention",
+        "explanation": "Instagram has to keep people discovering content they enjoy while preserving social connection with friends and creators they already care about.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Ads / Discovery",
+        "explanation": "More relevant discovery increases viewing and sharing, creates more ad inventory and gives creators a reason to keep supplying original content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Fatigue",
+        "explanation": "Instagram must control spam, copied content, harmful recommendations, creator frustration and user fatigue while making an increasingly algorithmic feed feel understandable and useful.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Rank / Monetize",
+        "explanation": "Instagram receives content and engagement signals, ranks Reels for personalized discovery and monetizes part of the resulting attention with advertising.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Recommend / Protect",
+        "explanation": "Instagram sets recommendation eligibility, content and account policies, originality rules, teen protections, ad rules and user controls over recommendation topics.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Reels / Explore",
+        "explanation": "Reels and Explore are major discovery surfaces, while Feed, notifications, reposts and DMs help content move between algorithmic discovery and social relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Moderate",
+        "explanation": "Core activities include recommendation, ranking, safety enforcement, creator support, ad delivery and experimentation with how Reels and DMs are placed in the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Graph / Models",
+        "explanation": "Instagram relies on creator content, the follower and friend graph, viewing and sharing signals, recommendation models, advertiser demand and large-scale infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Viewers",
+        "explanation": "Consumers are people who watch, discover and share Reels. They may follow a creator already, encounter the creator through recommendations, or receive the Reel from a friend in DMs.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "3B Instagram MAU",
+            "note": "Meta said in September 2025 that Instagram had reached 3B monthly active users. This remains the latest official Instagram-specific global monthly active user figure found for this snapshot."
+          },
+          {
+            "value": ">50% time on Reels",
+            "note": "Meta said in 2025 that more than half of time spent on Instagram was spent on Reels. This is a share of time spent, not a user count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Discover / Share",
+        "explanation": "Viewers want entertaining or useful short videos, ideas and people to discover, and an easy way to pass interesting content to friends.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Relevant Reels",
+        "explanation": "The best experience surfaces content that feels personally relevant even when the viewer did not know the creator before opening the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Noise / Control",
+        "explanation": "Viewers can face repetitive recommendations, addictive scrolling, unwanted topics, copied material and uncertainty about why the algorithm is showing particular content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Watch / Share",
+        "explanation": "Viewers contribute attention and signals by watching, skipping, liking, commenting, saving, following, reposting and forwarding Reels through DMs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Interests / Friends",
+        "explanation": "Recommendation models use interests and behavior, while Following, Friends and user controls provide more relationship-based or manually shaped views.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Reels",
+        "explanation": "People enter through the Instagram app and move among Reels, Feed, Explore, Stories and DMs; Instagram has been simplifying navigation so Reels and DMs sit closer together.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Watch / Message",
+        "explanation": "Viewers scroll, watch, react, save, follow, repost and send content to friends, creating both ranking signals and social distribution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Graph / Signals",
+        "explanation": "Viewers contribute follows, friend relationships, watch time, shares, likes, saves, messages and topic preferences that help Instagram personalize recommendations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Creators",
+        "explanation": "Providers are people and organizations that create original Reels. The same person can be a Viewer in one moment and a Creator in the next; professional creators are only one part of this broader supply side.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "1.5M+ marketplace",
+            "note": "Meta said in March 2026 that more than 1.5M creators were discoverable in Instagram Creator Marketplace. This is a marketplace subset, not the total number of Instagram creators."
+          },
+          {
+            "value": "80% saw more reach",
+            "note": "In Meta’s analysis of more than 400,000 creators who tried Trial Reels, 40% began posting Reels more often; among those creators, 80% saw increased reach from non-followers. This is an observed subgroup result, not a guarantee for every creator."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach New People",
+        "explanation": "Creators want their Reels to reach followers and new audiences, build an identity or business and, for professional creators, create opportunities to earn.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Discovery / Deals",
+        "explanation": "Recommendations can take a Reel beyond the follower base, while Creator Marketplace, partnership ads and other tools can connect creators with brands.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Ranking / Copycats",
+        "explanation": "Creators face changing ranking rules, uncertain reach, competition from copied or low-value content and pressure to keep producing material that performs.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Create / Publish",
+        "explanation": "Creators upload Reels and make them available for ranking, recommendation, follower distribution, sharing and potential commercial collaboration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Original / Safe",
+        "explanation": "Recommendation eligibility depends on content and account rules, originality, safety and other signals that can determine whether a Reel can reach non-followers.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Create / Edits",
+        "explanation": "Creators publish through Instagram’s creation tools or Meta’s Edits app and can use professional dashboards and insights to understand performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Film / Post",
+        "explanation": "Creators plan, film, edit, caption and publish Reels, respond to audiences and test formats, including Trial Reels shown to non-followers first.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Reels / Audience",
+        "explanation": "Creators contribute original video, personality, expertise, cultural relevance, existing followers and the willingness to keep producing new material.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Brands",
+        "explanation": "Brands and advertisers are modelled as Partner because they fund much of the platform and increasingly collaborate directly with creators through Creator Marketplace and partnership ads. They do not supply the core Reel that viewers primarily come to watch.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "2M+ US advertisers",
+            "note": "Meta said in 2025 that more than 2M US businesses advertise monthly across its apps. This is a US, cross-Meta figure rather than an Instagram-only global advertiser count."
+          },
+          {
+            "value": "35M+ US businesses",
+            "note": "Meta said more than 35M US businesses use Facebook and Instagram every month to grow their operations. This includes businesses that may not buy ads and is not an Instagram-only figure."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach Customers",
+        "explanation": "Brands want efficient access to relevant audiences and credible creator voices that can turn discovery into awareness, leads or sales.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Creators / Ads",
+        "explanation": "Instagram combines creator partnerships with Meta’s ad targeting, measurement and optimization systems so brands can amplify creator content as paid media.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cost / Fit",
+        "explanation": "Brands face auction costs, creative fatigue, brand-safety concerns and the challenge of choosing creators whose audience and style fit the campaign.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Fund / Collaborate",
+        "explanation": "Brands submit ad budgets or creator briefs and can turn approved creator content into partnership ads distributed through Instagram and Meta’s advertising system.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Policy / Auction",
+        "explanation": "Paid campaigns and partnership ads must meet advertising and branded-content rules and then compete for delivery through Meta’s ad auction and optimization systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Ads / Marketplace",
+        "explanation": "Brands enter through Meta Ads Manager, Instagram Creator Marketplace and related business tools used to discover creators, build campaigns and measure results.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Brief / Promote",
+        "explanation": "Brands define campaign goals, choose creators, provide creative or product inputs, approve collaborations, buy distribution and measure outcomes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Budget / Creative",
+        "explanation": "Brands contribute advertising spend, campaign objectives, product information, creative assets and commercial opportunities for creators.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "$59.36B FoA ads",
+        "note": "Q2 2026 Family of Apps advertising revenue; broader than Instagram alone."
+      },
+      {
+        "target": "consumer",
+        "value": "3B Instagram MAU",
+        "note": "Latest official Instagram-specific global MAU disclosed, September 2025."
+      },
+      {
+        "target": "provider",
+        "value": "1.5M+ marketplace",
+        "note": "Creators discoverable in Instagram Creator Marketplace as of March 2026; a subset of all creators."
+      },
+      {
+        "target": "partner",
+        "value": "2M+ US advertisers",
+        "note": "US businesses advertising monthly across Meta apps, disclosed in 2025."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "4.5B+ reshares/day",
+        "note": "Reels reshared daily across Meta platforms; not Instagram-only."
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Watch / Share",
+          "explanation": "Viewers contribute watch time and engagement signals and also redistribute Reels through DMs, saves, reposts and shares."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Reels / Recs",
+          "explanation": "Instagram returns a personalized stream of Reels chosen from followed accounts and creators the viewer may not know."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Reels / Posts",
+          "explanation": "Creators supply original short-form video that Instagram can rank, recommend and circulate through follower and non-follower surfaces."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Reach / Insights",
+          "explanation": "Instagram supplies distribution, audience feedback, creator tools and opportunities to reach people beyond the creator’s existing follower base."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Spend / Briefs",
+          "explanation": "Brands contribute advertising budgets, campaign goals and creator collaboration briefs that fund the commercial side of the platform."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Reach / Results",
+          "explanation": "Instagram returns targeted reach, creator-led campaign distribution, clicks, conversions and measurement through Meta’s advertising tools."
+        }
+      ]
+    }
+  }
+}

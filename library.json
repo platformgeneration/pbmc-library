@@ -1262,6 +1262,24 @@
         "Content Governance"
       ],
       "status": "published"
+    },
+    {
+      "slug": "instagram",
+      "case_number": "071",
+      "company": "Instagram",
+      "headline": "Why is Instagram becoming Reels + DMs?",
+      "industry": [
+        "Social Media",
+        "Creator Discovery Platform"
+      ],
+      "topics": [
+        "Reels",
+        "AI Recommendations",
+        "Direct Messaging",
+        "Creator Economy",
+        "Advertising"
+      ],
+      "status": "published"
     }
   ]
 }
