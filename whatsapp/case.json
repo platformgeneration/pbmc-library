@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "WhatsApp",
+    "slug": "whatsapp",
+    "headline": "How does WhatsApp make money without charging 3 billion users?",
+    "case_number": "072",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Messaging",
+      "Business Messaging Platform"
+    ],
+    "topics": [
+      "Business Messaging",
+      "End-to-End Encryption",
+      "WhatsApp Business",
+      "Paid Messaging",
+      "Status Ads"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "WhatsApp monetizes around the private chat instead of putting ads inside it.",
+    "text": "WhatsApp has more than 3 billion users, but personal chats and calls remain end-to-end encrypted and are not used to target ads. That makes the Facebook-style model of reading engagement around a public feed a poor fit for WhatsApp’s core private-messaging experience.\n\nInstead, Meta has built paid layers around that private network. Businesses can use the WhatsApp Business Platform to send service, utility, authentication and marketing messages at scale, and paid WhatsApp messaging crossed a $2 billion annual run-rate in Q4 2025. Separately, WhatsApp introduced ads in Status, promoted Channels and Channel subscriptions inside the Updates tab, which is used by 1.5 billion people a day, while keeping those commercial surfaces away from personal chats.\n\nThe platform lesson is that monetization does not have to sit inside the core transaction. WhatsApp protects the high-trust communication layer, then charges commercial actors for scalable access, automation and discovery around it."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Introducing Message Translations on WhatsApp",
+      "publisher": "WhatsApp / Meta",
+      "date": "2025-09-23",
+      "url": "https://about.fb.com/news/2025/09/introducing-message-translations-whatsapp/",
+      "note": "WhatsApp said more than 3 billion people in over 180 countries use the service. Message translations are performed on-device so WhatsApp cannot see translated personal messages."
+    },
+    {
+      "title": "Helping You Find More Channels and Businesses on WhatsApp",
+      "publisher": "WhatsApp / Meta",
+      "date": "2025-06-16",
+      "url": "https://about.fb.com/news/2025/06/helping-you-find-more-channels-businesses-on-whatsapp/",
+      "note": "WhatsApp introduced Channel subscriptions, promoted Channels and ads in Status. Meta said the Updates tab is used by 1.5 billion people per day and that personal chats remain end-to-end encrypted and are not used for ads."
+    },
+    {
+      "title": "2026: AI Drives Performance",
+      "publisher": "Meta",
+      "date": "2026-01-28",
+      "url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "note": "Meta said paid WhatsApp messaging crossed a $2B annual run-rate in Q4 2025. It also reported strong growth in click-to-message ads."
+    },
+    {
+      "title": "Meta Reports Second Quarter 2026 Results / Form 10-Q",
+      "publisher": "Meta / SEC",
+      "date": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "note": "Meta reported $1.007B of Family of Apps other revenue in Q2 2026, up 73% year over year. The filing states that FoA other revenue includes paid messaging from WhatsApp, subscriptions and other sources; it is not a WhatsApp-only revenue number."
+    },
+    {
+      "title": "Be There for Every Customer With Meta Business Agent",
+      "publisher": "Meta",
+      "date": "2026-06-03",
+      "url": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "note": "Meta said more than one million businesses use Meta Business Agent on WhatsApp and Messenger, and there are more than one billion active business threads each day across WhatsApp, Messenger and Instagram. The Business Agent Platform connects to hundreds of systems such as Shopify, Zendesk and Shopee."
+    },
+    {
+      "title": "Supporting Small Businesses To Unlock The Power Of Digital Commerce",
+      "publisher": "Meta",
+      "date": "2023-12-19",
+      "url": "https://about.fb.com/news/2023/12/supporting-small-businesses-to-unlock-the-power-of-digital-commerce/",
+      "note": "Meta said more than 200M users of the WhatsApp Business app existed worldwide. This is the latest official global Business-app scale figure located for this case, but it dates from 2023."
+    },
+    {
+      "title": "Ways To Manage Your Businesses Chats On WhatsApp",
+      "publisher": "Meta",
+      "date": "2025-04-03",
+      "url": "https://about.fb.com/news/2025/04/ways-to-manage-your-businesses-chats-on-whatsapp/",
+      "note": "Meta said more than 2B people use WhatsApp every day and millions are chatting with businesses. It emphasizes that people can stop business chats, block businesses and give feedback."
+    },
+    {
+      "title": "WhatsApp Business Messaging Policy",
+      "publisher": "WhatsApp Business",
+      "date": "2026",
+      "url": "https://business.whatsapp.com/policy/preview",
+      "note": "The policy defines rules for the WhatsApp Business app and Business Platform, including approved templates for business-initiated messages, a 24-hour user-service window, opt-in expectations, quality enforcement and the role of service/platform providers."
+    },
+    {
+      "title": "Helping Billions of People Celebrate New Year on WhatsApp",
+      "publisher": "WhatsApp / Meta",
+      "date": "2025-12",
+      "url": "https://about.fb.com/br/news/2025/12/ajudando-bilhoes-de-pessoas-a-celebrar-o-ano-novo-no-whatsapp/",
+      "note": "WhatsApp said an ordinary day sees about 100B messages and 2B calls. These are all WhatsApp communications, not business-only activity."
+    },
+    {
+      "title": "Centralized Campaigns, AI Support and More for Businesses on WhatsApp",
+      "publisher": "WhatsApp / Meta",
+      "date": "2025-07-01",
+      "url": "https://about.fb.com/news/2025/07/centralized-campaigns-ai-support-businesses-whatsapp/",
+      "note": "Meta described centralized WhatsApp/Facebook/Instagram campaigns, expanded Business AI, and calling/voice capabilities for larger businesses on the WhatsApp Business Platform."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "facebook",
+      "instagram"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). WhatsApp — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Business Chat",
+      "explanation": "The core value unit in this case is a business chat: a private conversation in which a customer can ask, buy, receive updates or get support while a business can reply or send approved messages at scale.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "1B+ business threads/day",
+          "note": "Meta said in June 2026 there were more than one billion active threads with businesses each day across WhatsApp, Messenger and Instagram. This is a cross-Meta messaging figure, not WhatsApp alone."
+        },
+        {
+          "value": "100B messages/day",
+          "note": "WhatsApp said an ordinary day carries about 100B messages. This is total WhatsApp messaging, personal and business combined, and shows the scale of the underlying network."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Meta",
+        "explanation": "Meta owns WhatsApp and controls the messaging infrastructure, Business Platform, pricing, templates, encryption design, safety rules and commercial surfaces around the private network.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$2B paid-msg run-rate",
+            "note": "Meta said paid WhatsApp messaging crossed a $2B annual run-rate in Q4 2025. This is the clearest WhatsApp-specific monetization figure Meta has publicly disclosed for the current business-messaging layer."
+          },
+          {
+            "value": "$1.01B FoA other",
+            "note": "Meta reported $1.007B of Family of Apps other revenue in Q2 2026, up 73% year over year. This broader category includes paid WhatsApp messaging, subscriptions and other sources, so it is not WhatsApp-only revenue."
+          }
+        ]
+      },
+      "job": {
+        "value": "Monetize Trust",
+        "explanation": "Meta has to grow revenue from WhatsApp without undermining the private, reliable messaging experience that made the network valuable in the first place.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Paid Messaging",
+        "explanation": "Business messaging, click-to-message advertising and new Updates-tab products create revenue around a user base that still receives the core messaging service for free.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Spam / Trust",
+        "explanation": "Too much commercial messaging, scams or unclear data use could damage trust, increase blocks and make users less willing to keep WhatsApp at the center of daily communication.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Route / Charge",
+        "explanation": "WhatsApp routes business conversations and can charge for eligible business messaging while keeping ordinary personal communication free to users.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Consent / Privacy",
+        "explanation": "WhatsApp combines end-to-end encryption with opt-in, template, quality and blocking rules for business messages. Personal chats, calls and groups are not used to determine ads in the Updates tab.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Status / Click Ads",
+        "explanation": "Businesses can bring people into WhatsApp through click-to-message ads, while Ads in Status create a separate discovery surface in the Updates tab rather than inside personal chats.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Secure / Route",
+        "explanation": "Meta operates encrypted messaging, message delivery, abuse prevention, business APIs, template review, quality systems and increasingly AI-assisted business support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Network / APIs",
+        "explanation": "WhatsApp combines a global communication network, identity and contact graphs, encrypted infrastructure, Business APIs and Meta’s wider advertising and AI systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Customers",
+        "explanation": "Consumers in this bounded model are WhatsApp users who start or receive conversations with businesses. They sit inside a much larger private-messaging network and do not pay Meta to use the core app.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "3B+ WhatsApp users",
+            "note": "WhatsApp said in September 2025 that more than 3B people in over 180 countries use the service. This is the total WhatsApp user base, not the number of people who message businesses."
+          },
+          {
+            "value": "2B+ daily users",
+            "note": "Meta said in April 2025 that more than 2B people use WhatsApp every day. Millions of them were already chatting with businesses; Meta did not provide a current global business-chat user count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Get Things Done",
+        "explanation": "Customers want to ask a question, get support, receive an update, book or buy without leaving the familiar messaging app they already use for personal communication.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fast / Familiar",
+        "explanation": "A business chat can be faster than email, phone queues or a separate app and can keep confirmations, support and follow-up in one familiar conversation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Spam / Scams",
+        "explanation": "Customers risk unwanted promotions, impersonation, scams and message overload if businesses can reach them too aggressively or without clear consent.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Ask / Reply",
+        "explanation": "Customers start chats, ask questions, reply to messages, request support, browse offers or complete actions through a private business conversation.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Opt-in / Block",
+        "explanation": "People can choose whether to engage, block or report businesses, and WhatsApp uses user feedback and policy enforcement to limit low-quality messaging.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Search",
+        "explanation": "Customers access businesses through WhatsApp itself, links, QR codes, click-to-message ads, business discovery and increasingly search inside the app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Chat / Call",
+        "explanation": "Customers send messages, voice notes and media, make calls and interact with menus, forms, AI agents or other business workflows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Identity",
+        "explanation": "Customers contribute their intent, account identity, conversation context and explicit actions, while the contents of personal chats remain protected by end-to-end encryption.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Businesses",
+        "explanation": "Providers are businesses that supply service, information, commerce and support through WhatsApp. Small firms may use the Business app; larger organizations can integrate the Business Platform into their own systems.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "200M+ Business app users",
+            "note": "Meta said in December 2023 that the WhatsApp Business app had more than 200M users worldwide. This is the latest official global app-scale figure located for the case and is older than the 2026 research cut-off."
+          },
+          {
+            "value": "1M+ AI businesses",
+            "note": "Meta said in June 2026 that more than one million businesses were using Meta Business Agent on WhatsApp and Messenger. This is a cross-app AI-business figure, not a count of all WhatsApp businesses."
+          }
+        ]
+      },
+      "job": {
+        "value": "Serve Customers",
+        "explanation": "Businesses want to answer questions, send useful updates, support purchases and maintain customer relationships in a channel people already check frequently.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Sales",
+        "explanation": "WhatsApp can convert existing mobile reach into support efficiency, repeat engagement, leads and sales without requiring customers to install a separate business app.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cost / Consent",
+        "explanation": "Businesses must manage message costs, templates, opt-in, quality ratings, staffing and the risk that customers block them if messages feel irrelevant or excessive.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Reply / Notify",
+        "explanation": "Businesses respond to customer messages and can send approved utility, authentication or marketing templates through the Business Platform.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Templates / Quality",
+        "explanation": "Business-initiated messages are constrained by approved template categories, opt-in expectations, quality feedback and commerce or messaging policies.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Business Platform",
+        "explanation": "Businesses use the WhatsApp Business app, Cloud API/Business Platform and connected business tools to manage conversations at different scales.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Support / Sell",
+        "explanation": "Businesses answer customers, send order or account updates, run campaigns, automate service, make product recommendations and increasingly add voice or AI support.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Offers / Staff",
+        "explanation": "Businesses contribute product and service information, catalogs, support teams, transaction data, customer permissions and operational systems that make the conversation useful.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Integrators",
+        "explanation": "Partners are CRM, helpdesk, commerce and solution providers that connect WhatsApp to enterprise systems. They are not the business offering itself; they make large-scale customer messaging, automation and workflow integration practical.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "100s connected systems",
+            "note": "Meta said in June 2026 that its Business Agent Platform connects to a growing suite of hundreds of systems such as Shopify, Zendesk and Shopee. This is an integration-system count, not a census of WhatsApp solution-partner companies."
+          }
+        ]
+      },
+      "job": {
+        "value": "Connect Systems",
+        "explanation": "Integrators help businesses connect WhatsApp conversations to CRM, commerce, support, identity and automation systems already used inside the company.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Client Demand",
+        "explanation": "WhatsApp gives software and solution providers access to a large business-messaging market and creates demand for implementation, automation and workflow services.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "API / Policy",
+        "explanation": "Partners must keep up with API changes, messaging policies, template rules, security requirements and client-specific integration complexity.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Integrate / Manage",
+        "explanation": "Partners connect business systems to WhatsApp, manage workflows and help clients operate compliant messaging at scale.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Access / Compliance",
+        "explanation": "Partner implementations must respect WhatsApp Business policy, permissions, data handling, approved use cases and technical requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "APIs / Platform",
+        "explanation": "Integrators work through WhatsApp Business APIs, Meta business tooling and connected enterprise systems rather than through the consumer chat interface alone.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Connect / Automate",
+        "explanation": "Partners implement inboxes, CRM sync, routing, bots, commerce flows, reporting and other automation around WhatsApp conversations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "CRM / Tools",
+        "explanation": "Integrators contribute software, implementation knowledge, connectors, support operations and enterprise relationships that extend WhatsApp into business workflows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "$2B paid-msg run-rate",
+        "note": "Paid WhatsApp messaging crossed a $2B annual run-rate in Q4 2025."
+      },
+      {
+        "target": "consumer",
+        "value": "3B+ WhatsApp users",
+        "note": "More than 3B people in over 180 countries use WhatsApp."
+      },
+      {
+        "target": "provider",
+        "value": "200M+ Business app users",
+        "note": "Latest official global WhatsApp Business app figure found, disclosed in 2023."
+      },
+      {
+        "target": "partner",
+        "value": "100s connected systems",
+        "note": "Business Agent Platform connects to hundreds of systems; not a partner-company count."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "1B+ business threads/day",
+        "note": "Cross-Meta business-thread figure covering WhatsApp, Messenger and Instagram."
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Intent / Consent",
+          "explanation": "Customers initiate chats, reply, grant or withdraw consent, block or report businesses and generate the demand signals that keep business messaging useful."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Messages / Calls",
+          "explanation": "WhatsApp securely delivers business messages, calls and interactive flows while keeping the core customer experience inside the familiar app."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Messages / Fees",
+          "explanation": "Businesses submit replies or approved message templates through WhatsApp and pay Meta for eligible paid messaging at scale."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Delivery / Reach",
+          "explanation": "WhatsApp gives businesses access to customers, message delivery, business identity, automation and increasingly AI, voice and campaign tools."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Systems / Tools",
+          "explanation": "Integrators connect CRM, support, commerce and automation systems to the WhatsApp Business layer."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "APIs / Access",
+          "explanation": "Meta provides APIs, platform access, technical rules and business-messaging capabilities that partners can embed into client solutions."
+        }
+      ]
+    }
+  }
+}

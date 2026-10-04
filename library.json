@@ -1280,6 +1280,24 @@
         "Advertising"
       ],
       "status": "published"
+    },
+    {
+      "slug": "whatsapp",
+      "case_number": "072",
+      "company": "WhatsApp",
+      "headline": "How does WhatsApp make money without charging 3 billion users?",
+      "industry": [
+        "Messaging",
+        "Business Messaging Platform"
+      ],
+      "topics": [
+        "Business Messaging",
+        "End-to-End Encryption",
+        "WhatsApp Business",
+        "Paid Messaging",
+        "Status Ads"
+      ],
+      "status": "published"
     }
   ]
 }
