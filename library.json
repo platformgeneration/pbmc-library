@@ -1244,6 +1244,24 @@
         "Travel Flexibility"
       ],
       "status": "published"
+    },
+    {
+      "slug": "facebook",
+      "case_number": "070",
+      "company": "Facebook",
+      "headline": "Why does Facebook need a separate Friends tab?",
+      "industry": [
+        "Social Media",
+        "Social Discovery Platform"
+      ],
+      "topics": [
+        "Social Graph",
+        "AI Recommendations",
+        "Creator Economy",
+        "Advertising",
+        "Content Governance"
+      ],
+      "status": "published"
     }
   ]
 }

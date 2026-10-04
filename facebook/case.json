@@ -1,0 +1,583 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "Facebook",
+    "slug": "facebook",
+    "headline": "Why does Facebook need a separate Friends tab?",
+    "case_number": "070",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Social Media",
+      "Social Discovery Platform"
+    ],
+    "topics": [
+      "Social Graph",
+      "AI Recommendations",
+      "Creator Economy",
+      "Advertising",
+      "Content Governance"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Facebook now combines a social graph with an AI discovery feed.",
+    "text": "Facebook began as a social graph: you connected to people you knew and their posts filled the feed. That layer still exists, but the main Feed and Reels now also work as an AI discovery system that recommends content based on predicted interest. Meta made the split visible in 2025 by creating a Friends tab that shows only friends’ content and no recommendations. In Q4 2025, new ranking systems lifted views of organic feed and video posts by 7%.\n\nThat changes the Provider side. Facebook still depends on ordinary users posting for friends and groups, but it also competes for professional creators whose content can travel far beyond their follower network. More than four million creators have earned money on Facebook since 2017, and Facebook paid creators nearly $3 billion in 2025. Marketers then pay to reach the attention created by this mix of relationships and recommendations.\n\nThe platform lesson is that Facebook now runs two discovery systems in the same product. The social graph supplies identity, relationships and community; AI ranking can distribute a post to strangers who are predicted to care. The strategic challenge is to gain the engagement of an interest-based feed without losing the friend-based network that made Facebook distinctive."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "Meta Reports Second Quarter 2026 Results",
+      "publisher": "Meta Investor Relations",
+      "date": "2026-07-29",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "note": "Meta reported 3.60B Family daily active people in June 2026, $59.363B of Family of Apps advertising revenue in Q2 2026, 14% year-over-year growth in ad impressions and 12% growth in average price per ad. These figures cover the Family of Apps, not Facebook alone."
+    },
+    {
+      "title": "Meta Reports Fourth Quarter and Full Year 2023 Results",
+      "publisher": "Meta Investor Relations",
+      "date": "2024-02-01",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2024/Meta-Reports-Fourth-Quarter-and-Full-Year-2023-Results-Initiates-Quarterly-Dividend/default.aspx",
+      "note": "The last Facebook-specific global user metrics disclosed by Meta were 2.11B DAU and 3.07B MAU for December 2023. Meta announced that it would stop reporting Facebook-specific DAU and MAU beginning with Q1 2024 and would focus on Family metrics instead."
+    },
+    {
+      "title": "Bringing the Magic of Friends Back to Facebook",
+      "publisher": "Meta / Facebook",
+      "date": "2025-03-27",
+      "url": "https://about.fb.com/news/2025/03/bringing-magic-of-friends-back-to-facebook/",
+      "note": "Facebook introduced a dedicated Friends tab that contains content from Facebook friends and explicitly excludes recommended content. Meta said the change was intended to bring back the original friends experience."
+    },
+    {
+      "title": "2026: AI Drives Performance",
+      "publisher": "Meta",
+      "date": "2026-01-28",
+      "url": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "note": "Meta said Facebook feed and video ranking improvements in Q4 2025 produced a 7% lift in views of organic feed and video posts. Facebook was also surfacing more than 25% more same-day Reels than in Q3 2025."
+    },
+    {
+      "title": "Rewarding Original Creators on Facebook",
+      "publisher": "Meta / Facebook",
+      "date": "2026-03-13",
+      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
+      "note": "Facebook said both views and time spent watching original Reels approximately doubled in the second half of 2025 versus the same period of 2024. It also reported removing more than 20M accounts impersonating large creators in 2025."
+    },
+    {
+      "title": "Creator Fast Track: A New Way to Quickly Grow Your Audience and Earn Money on Facebook",
+      "publisher": "Meta / Facebook",
+      "date": "2026-03",
+      "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+      "note": "Facebook said it paid content creators nearly $3B in 2025, up 35% year over year, and that the number of creators earning more than $10,000 annually grew by more than 30% year over year."
+    },
+    {
+      "title": "Monetize More Content with Facebook’s New Streamlined Program",
+      "publisher": "Meta / Facebook",
+      "date": "2024-10",
+      "url": "https://about.fb.com/news/2024/10/monetize-content-facebooks-new-streamlined-program/",
+      "note": "Meta said more than 4M content creators had earned money on Facebook since Facebook-funded monetization began in 2017. It also stated that one million already-monetizing creators were being invited to the new Content Monetization beta."
+    },
+    {
+      "title": "The Future of Facebook",
+      "publisher": "Meta / Facebook",
+      "date": "2024-05-31",
+      "url": "https://about.fb.com/news/2024/05/the-future-of-facebook/",
+      "note": "Facebook described its future around social discovery and AI. It reported more than 100M daily active users of Professional Mode and said private sharing was growing by more than 80% year over year."
+    },
+    {
+      "title": "Introducing Creator Assistant, Plus More Languages For AI Translations on Facebook",
+      "publisher": "Meta / Facebook",
+      "date": "2026-06-04",
+      "url": "https://about.fb.com/news/2026/06/creator-assistant-more-languages-for-ai-translations-on-facebook/",
+      "note": "Meta said more than half a billion Facebook users were watching AI-translated videos every week, showing the scale at which Facebook distributes creator content beyond language boundaries."
+    },
+    {
+      "title": "Introducing New Facebook Local Tab, Messenger Communities, AI Integrations and More",
+      "publisher": "Meta / Facebook",
+      "date": "2024-10-04",
+      "url": "https://about.fb.com/news/2024/10/facebook-local-tab-messenger-communities-ai/",
+      "note": "Meta reported that almost 1.8B people used Facebook Groups every month and that Facebook had 25M monthly active public groups. These are sub-product metrics rather than total Facebook user counts."
+    },
+    {
+      "title": "Over Half a Trillion Dollars, 3.4 Million U.S. Jobs Linked to Meta’s AI-Driven Ads Technologies",
+      "publisher": "Meta",
+      "date": "2025-05-13",
+      "url": "https://about.fb.com/news/2025/05/over-half-trillion-dollars-3-million-us-jobs-linked-metas-ai-driven-ads-technologies/",
+      "note": "Meta said more than 35M U.S. businesses use Facebook and Instagram every month and more than 2M U.S. businesses advertise monthly across Meta apps. A Meta-commissioned study also reported a 22% improvement in return on ad spend from its AI-driven ad tools."
+    },
+    {
+      "title": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act",
+      "publisher": "European Commission",
+      "date": "2026-07-10",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act",
+      "note": "The European Commission’s preliminary DSA finding focused on design features including infinite scroll, autoplay, push notifications and highly personalized recommender systems. The finding is preliminary and is used here only as evidence that recommender-system governance is material to Facebook’s platform design."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "roblox",
+      "tiktok-shop"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Facebook — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Post",
+      "explanation": "The core value unit is a piece of content placed into Facebook’s distribution system: a text post, photo, video, Reel, Story or other shareable post that can reach friends, followers or people selected by recommendation systems.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "2× original Reels",
+          "note": "Facebook said both views and time spent watching original Reels approximately doubled in the second half of 2025 versus the same period in 2024. This is a growth measure for original Reels, not the total number of Facebook posts."
+        },
+        {
+          "value": "+25% same-day Reels",
+          "note": "In Q4 2025 Facebook was surfacing more than 25% more same-day Reels than in Q3 2025, reflecting an effort to make recommendations fresher."
+        },
+        {
+          "value": "1B+ Stories/day",
+          "note": "Meta’s current company-information page states that more than 1B Stories are shared per day across its apps. This is a Family-of-Apps content-volume metric, not Facebook-only."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Meta",
+        "explanation": "Meta Platforms owns and operates Facebook. This case models only Facebook’s Feed and Reels social-discovery layer, so the Owner governs Facebook’s ranking, creator rules, moderation and advertising inventory rather than the whole Meta product family.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "$59.36B FoA ads",
+            "note": "Meta Family of Apps advertising revenue was $59.363B in Q2 2026. Meta does not disclose Facebook-only advertising revenue, so this is a broader Family metric covering Facebook, Instagram, Messenger and related app advertising."
+          },
+          {
+            "value": "+7% organic views",
+            "note": "Facebook feed and video ranking improvements in Q4 2025 produced a 7% lift in views of organic feed and video posts."
+          },
+          {
+            "value": "20M impersonators",
+            "note": "Facebook said it removed more than 20M accounts impersonating large content creators during 2025. This is a governance and integrity workload metric, not a user-base measure."
+          }
+        ]
+      },
+      "job": {
+        "value": "Keep Attention",
+        "explanation": "Facebook has to keep people returning for relationships, communities and content while making the feed useful even when a user’s friend graph alone does not provide enough interesting material.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Ads / Growth",
+        "explanation": "More useful discovery increases time, engagement and ad opportunities, while creator monetization can attract more supply of original content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Relevance",
+        "explanation": "Facebook must balance recommendation quality, social relevance, spam, impersonation, harmful content and regulatory pressure without making the product feel disconnected from real relationships.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Rank / Monetize",
+        "explanation": "Facebook receives content, relationship and engagement signals, ranks posts into personalized feeds and monetizes part of that attention with advertising.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Recommend / Moderate",
+        "explanation": "Facebook sets recommendation eligibility, originality rules, content standards, account enforcement, ad policies and user controls over what appears in Feed and Reels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "Feed / Reels",
+        "explanation": "Facebook’s own Feed, Reels, notifications, search and sharing surfaces distribute content and pull people back into the network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Rank / Protect",
+        "explanation": "Core activities include content ranking, recommendation, moderation, integrity enforcement, creator monetization, ad delivery and experimentation with feed design.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Graph / Models",
+        "explanation": "Facebook relies on the social graph, content corpus, engagement signals, creator ecosystem, advertiser demand and large-scale AI ranking and ads systems.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Users",
+        "explanation": "Consumers are people who open Facebook to connect with people they know, participate in communities and discover posts, videos and Reels. The same person can later become a Provider by publishing content.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "3.07B Facebook MAU",
+            "note": "Meta’s last reported Facebook-specific global monthly active user count was 3.07B in December 2023. Meta stopped reporting Facebook MAU and DAU after Q4 2023, so this is the latest official Facebook-specific global MAU, not a 2026 count."
+          },
+          {
+            "value": "2.11B Facebook DAU",
+            "note": "Meta’s last reported Facebook-specific global daily active user count was 2.11B in December 2023. Since Q1 2024 Meta has reported Family daily active people instead of Facebook-only DAU."
+          },
+          {
+            "value": "3.60B Family DAP",
+            "note": "Meta reported 3.60B daily active people across Facebook, Instagram, Messenger and WhatsApp in June 2026. This shows current Family scale but cannot be interpreted as Facebook-only usage."
+          },
+          {
+            "value": "500M+ weekly viewers",
+            "note": "In June 2026 Facebook said more than half a billion users were watching AI-translated videos on Facebook each week. This is a content-feature audience, not total Facebook active users."
+          },
+          {
+            "value": "1.8B Group users",
+            "note": "Meta reported in 2024 that almost 1.8B people use Facebook Groups every month. This measures one major Facebook use case rather than total platform activity."
+          }
+        ]
+      },
+      "job": {
+        "value": "Connect / Discover",
+        "explanation": "Users want to stay connected with people and communities they care about while also finding interesting content beyond their existing network.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Relevant Content",
+        "explanation": "A useful feed mixes social updates, community posts and recommendations that feel timely and personally relevant without requiring the user to search for everything.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Noise / Control",
+        "explanation": "Users can face repetitive recommendations, spam, unwanted content, misinformation, addictive design concerns and uncertainty about why particular posts appear.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "View / React",
+        "explanation": "Users contribute attention and behavioral signals through viewing, liking, commenting, sharing, following, hiding and messaging around content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Feed / Friends",
+        "explanation": "The main Feed mixes connected and recommended content, while the dedicated Friends tab provides a friend-only view without recommended content.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "People enter through the Facebook app or website and move among Feed, Reels, Groups, Friends and other Facebook surfaces.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Browse / Engage",
+        "explanation": "Users scroll, watch, react, comment, share, follow, join groups, hide content and tune recommendations through their behavior and controls.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Profile / Signals",
+        "explanation": "Users contribute identity and relationship data, follows, interests, engagement history, device and activity signals that help Facebook personalize distribution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Creators",
+        "explanation": "Providers include ordinary users, group members, Pages and professional creators who publish the posts that Facebook distributes. “Creators” is used as an umbrella term because the same user can consume content in one moment and supply it in the next.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "4M+ creators paid",
+            "note": "As of 2024, Meta said more than 4M content creators had earned money through Facebook-funded monetization programs since 2017."
+          },
+          {
+            "value": "$3B creator payout",
+            "note": "Facebook said it paid content creators nearly $3B in 2025, 35% more than in 2024. This is creator payout, not Facebook revenue."
+          },
+          {
+            "value": "100M Pro Mode DAU",
+            "note": "Facebook reported in 2024 that Professional Mode had grown to more than 100M daily active users. Professional Mode is used by people who want to publish publicly, grow followers and access creator tools; it is not a count of all Facebook creators."
+          },
+          {
+            "value": "+30% $10k earners",
+            "note": "Facebook said in 2026 that the number of creators earning more than $10,000 annually on Facebook had grown by more than 30% year over year."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach People",
+        "explanation": "Creators want their posts to reach friends, communities, followers or new audiences and, for professional creators, potentially generate income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Reach / Earnings",
+        "explanation": "Recommendation can distribute strong content beyond an existing follower graph, while monetization programs can turn qualified views and engagement into creator income.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Low Reach",
+        "explanation": "Creators face ranking uncertainty, changing recommendation rules, spam competition, impersonation and the risk that unoriginal or policy-violating content is deprioritized or demonetized.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Create / Publish",
+        "explanation": "Creators upload posts and Reels, add context or metadata and make them eligible for distribution to connected or recommended audiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Originality / Safety",
+        "explanation": "Facebook evaluates recommendation eligibility, originality, policy compliance, spam signals and integrity risks before or after distribution.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Profile / Page",
+        "explanation": "Supply enters through personal profiles, Professional Mode, Pages, Groups and creator publishing tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Create / Engage",
+        "explanation": "Creators produce posts, photos, video and Reels, respond to audiences, manage communities and use performance or monetization tools.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Posts / Audience",
+        "explanation": "Creators contribute original content, voice, expertise, community relationships and existing follower or group audiences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Marketers",
+        "explanation": "Marketers are the commercial side that pays Facebook for access to user attention. They are modelled as Partner rather than Provider because they do not supply the core Post that users come to consume; they fund the platform by buying targeted ad distribution around that content.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "2M+ US advertisers",
+            "note": "Meta said in 2025 that more than 2M U.S. businesses advertise monthly across its apps. This covers Meta apps rather than Facebook alone and is geographically limited to the United States."
+          },
+          {
+            "value": "35M+ US businesses",
+            "note": "Meta said more than 35M U.S. businesses use Facebook and Instagram every month to grow their operations. This includes non-paying business users as well as advertisers."
+          },
+          {
+            "value": "10M+ advertisers",
+            "note": "Meta reported more than 10M businesses using personalized ads across its services in 2022. This remains a useful disclosed global order of magnitude, but it is older and not a 2026 advertiser census."
+          },
+          {
+            "value": "+22% ROAS",
+            "note": "A Meta study published in 2025 reported a 22% improvement in return on ad spend from Meta’s AI-driven advertising tools. This is a study result for Meta advertising technology, not a guaranteed advertiser outcome."
+          }
+        ]
+      },
+      "job": {
+        "value": "Reach Buyers",
+        "explanation": "Marketers want to reach likely customers efficiently, measure outcomes and turn Facebook attention into awareness, leads, app activity or sales.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Target / Sales",
+        "explanation": "Facebook combines audience signals, AI ranking and ad auctions to help marketers find relevant audiences and optimize toward business outcomes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Cost / Signals",
+        "explanation": "Advertisers face auction competition, changing privacy rules, measurement limits, creative fatigue and uncertainty about incremental performance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Buy Attention",
+        "explanation": "Marketers submit campaigns, creative, budgets and objectives; Facebook auctions and distributes ads into eligible attention opportunities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Policy / Auction",
+        "explanation": "Ads must meet policy and eligibility rules, then compete in auctions where predicted value, quality and advertiser bids shape delivery.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Ads Manager",
+        "explanation": "Businesses buy and manage campaigns through Meta Ads Manager and related business tools that can distribute ads across Facebook and other Meta placements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Target / Measure",
+        "explanation": "Marketers define audiences and objectives, produce creative, set budgets, monitor delivery and evaluate conversions or other outcomes.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Budget / Creative",
+        "explanation": "They contribute advertising spend, campaign goals, product information, creative assets and conversion signals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "$59.36B FoA ads",
+        "note": "Q2 2026 Family of Apps advertising revenue; broader than Facebook alone."
+      },
+      {
+        "target": "consumer",
+        "value": "3.07B Facebook MAU",
+        "note": "Last Facebook-specific global MAU disclosed, December 2023."
+      },
+      {
+        "target": "provider",
+        "value": "4M+ creators paid",
+        "note": "Creators who had earned through Facebook-funded monetization programs as of 2024."
+      },
+      {
+        "target": "partner",
+        "value": "2M+ US advertisers",
+        "note": "U.S. businesses advertising monthly across Meta apps, disclosed in 2025."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "2× original Reels",
+        "note": "Views and watch time of original Reels roughly doubled in H2 2025 versus H2 2024."
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Attention / Signals",
+          "explanation": "Users contribute attention, reactions, follows, hides, shares and relationship signals that Facebook uses to personalize ranking."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Feed / Recs",
+          "explanation": "Facebook returns a personalized mix of connected content and AI-recommended posts, while also offering friend-only and other dedicated surfaces."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Posts / Reels",
+          "explanation": "Creators and ordinary users supply the content that Facebook can distribute through Feed, Reels, Groups and related surfaces."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Reach / Payout",
+          "explanation": "Facebook provides distribution, audience feedback, creator tools and, for eligible creators, performance-based monetization."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Ad Spend",
+          "explanation": "Marketers submit budgets, objectives and creative to compete for paid distribution around user attention."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Reach / Results",
+          "explanation": "Facebook delivers ad impressions, clicks and conversion-oriented outcomes, together with measurement and optimization tools."
+        }
+      ]
+    }
+  }
+}
