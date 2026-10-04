@@ -28,6 +28,12 @@ def e(v):
 def load_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
+def lesson_paragraphs(text):
+    parts=[p.strip() for p in re.split(r"\n\s*\n", str(text or "")) if p.strip()]
+    if not parts:
+        return "<p></p>"
+    return "".join(f"<p>{e(p)}</p>" for p in parts)
+
 def active_flows(case):
     state = case.get("rendering", {}).get("state", "after")
     f = case["pbmc"].get("flows", {})
@@ -406,7 +412,7 @@ def case_page(case, css, renderer, first_slug="scalable-capital"):
 
 {video_section}
 
-<section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>{e(lesson["title"])}</h2><p>{e(lesson["text"])}</p></div></div></section>
+<section class="lesson"><div class="wrap lesson-grid"><div class="lesson-kicker">Platform Lesson</div><div><h2>{e(lesson["title"])}</h2>{lesson_paragraphs(lesson["text"])}</div></div></section>
 
 <section class="section soft" id="data"><div class="wrap"><div class="section-head"><div><div class="eyebrow">PBMC Data</div><h2>Structured data behind the canvas</h2><p class="section-copy">One fixed table for every PBMC. Transaction remains one field; its transaction flows appear directly beneath it as indented subrows, so cases remain directly comparable.</p></div><div class="data-actions"><button class="data-btn" id="copyTable" type="button">Copy table</button><a class="data-btn" href="pbmc-data.csv" download>Download CSV</a><a class="data-btn" href="case.json" download>JSON</a></div></div>{unified_table(case)}</div></section>
 

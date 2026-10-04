@@ -3,7 +3,7 @@
   "metadata": {
     "company": "Blueground",
     "slug": "blueground",
-    "headline": "How does Blueground combine apartments it operates with homes run by partners?",
+    "headline": "Why does Blueground operate some homes itself and list others from partners?",
     "case_number": "064",
     "published_date": "2026-10-04",
     "updated_date": "2026-10-04",
@@ -15,10 +15,10 @@
     ],
     "topics": [
       "Furnished Rentals",
-      "Flexible Living",
       "Hybrid Supply",
-      "Property Operations",
-      "Partner Network"
+      "Direct Operations",
+      "Partner Network",
+      "Corporate Housing"
     ],
     "geography": [
       "Global"
@@ -26,8 +26,8 @@
     "language": "en"
   },
   "platform_lesson": {
-    "title": "Blueground combines directly operated apartments with partner-run homes.",
-    "text": "Blueground is not just a website where landlords publish apartments. In many markets, property owners lease units to Blueground, which furnishes and operates them before renting them to guests for stays of 30 days or more. Blueground also has a Partner Network where professional operators keep running their own furnished homes while Blueground brings demand, booking and payment infrastructure. Both types of homes can appear in the same customer journey. This lets Blueground grow its supply in more than one way: it can operate apartments itself or add professionally managed homes from partners. The challenge is keeping the experience consistent when some homes are run directly and others are run by outside operators."
+    "title": "Blueground runs two supply models behind one booking experience.",
+    "text": "Blueground is not a classic marketplace in the same way as Airbnb or Vrbo. In its original model, property owners lease apartments to Blueground. Blueground then furnishes and operates those homes, controls the booking experience and rents them to guests. The landlord supplies the apartment, but Blueground becomes the operator that turns it into the furnished stay the guest buys.\n\nThe Partner Network adds a second model. Professional furnished-rental operators connect their own homes through a property-management system or channel manager. Their prices, fees and availability stay synchronized from that system, while Blueground brings demand, instant booking and payment collection. The outside operator remains responsible for the local stay, including the lease or rental agreement, move-in coordination, upkeep and in-stay support.\n\nThat combination is the interesting platform mechanism. Blueground can grow by leasing and operating homes itself, or by adding homes that other operators already run. Guests can encounter both kinds of supply through the same search and booking layer. The result is a hybrid platform: more vertically integrated than Airbnb, Vrbo or Booking.com, but more scalable than a rental company that has to operate every apartment itself."
   },
   "media": {
     "youtube_id": "",
@@ -37,46 +37,67 @@
   },
   "sources": [
     {
-      "title": "About Blueground",
+      "title": "Short & Long-Term Furnished Apartments For Rent",
       "publisher": "Blueground",
       "date": "2026-10",
-      "url": "https://www.theblueground.com/about",
-      "note": "Blueground describes itself as a curated global network of furnished rentals for 30+ day stays and reports 100 cities, 200K guests hosted, 4K+ organizations and 500+ Partner Network partners."
+      "url": "https://www.theblueground.com/",
+      "note": "Current Blueground homepage reports 100,000+ furnished homes across 1,000+ cities and 50+ countries, and says 4,000+ companies use the service. The headline positioning is month-or-longer furnished living, while the page also notes that some homes can be booked for a week, month or longer."
+    },
+    {
+      "title": "Why Blueground: Move-In Ready Living Worldwide",
+      "publisher": "Blueground",
+      "date": "2026-10",
+      "url": "https://www.theblueground.com/why-blueground",
+      "note": "Blueground states that it operates 10,000+ homes directly using one playbook for selection, design, service and digital/physical experience, and also offers thousands of homes from vetted partner operators."
     },
     {
       "title": "For landlords & property owners",
       "publisher": "Blueground",
       "date": "2026-10",
       "url": "https://www.theblueground.com/rent-your-property/usa",
-      "note": "Blueground explains its direct landlord model, including leasing apartments from owners and operating them as furnished rentals; current landlord pages describe 20,000+ properties and long-term leasing relationships."
-    },
-    {
-      "title": "For property owners in Germany",
-      "publisher": "Blueground",
-      "date": "2026-10",
-      "url": "https://www.theblueground.com/de/vermiete-deine-immobilie/deutschland",
-      "note": "Blueground reports working with 5,000+ property owners and describes guaranteed or stable rental income for qualifying apartments that Blueground leases and operates."
+      "note": "Blueground describes its direct model as leasing apartments from landlords, then designing, furnishing and managing them. The page also states 30-day+ guest stays with a three-month average, $500M+ annual revenue and $175M+ from B2B; these rounded marketing figures do not support a precise B2B revenue share."
     },
     {
       "title": "About Blueground Partner Network",
       "publisher": "Blueground",
       "date": "2026-10",
       "url": "https://partner-network.theblueground.com/support/about-blueground-partner-network",
-      "note": "The Partner Network lets professional property managers publish furnished listings through PMS or channel-manager integrations; Blueground collects booking payments and pays partners net of commission."
+      "note": "The Partner Network is invite-only for professional property managers and operators. Partners connect listings through PMS/channel-manager systems; Blueground imports pricing, fees and availability, publishes homes, collects guest payments and pays partners net of commission. Partners remain responsible for local operations and guest support."
+    },
+    {
+      "title": "Getting Started — Blueground Partner Network",
+      "publisher": "Blueground",
+      "date": "2026-10",
+      "url": "https://partner-network.theblueground.com/support/getting-started",
+      "note": "Partner Network minimum requirements include professional operators with 5+ units, fully furnished entire homes and Blueground quality standards. Minimum stays are market-dependent and can change with local regulation and market strategy."
     },
     {
       "title": "Blueground Partner Network",
       "publisher": "Blueground",
       "date": "2026-10",
       "url": "https://partner-network.theblueground.com/en",
-      "note": "Blueground reports 20,000+ homes across 50+ countries in the Partner Network context, access to 4,000+ corporate partners and a 7% commission for participating professional operators."
+      "note": "The current Partner Network page advertises 20,000+ homes across 50+ countries, access to 4,000+ corporate partners and a 7% commission for partner bookings."
     },
     {
-      "title": "Franchise with Blueground",
+      "title": "About Blueground",
+      "publisher": "Blueground",
+      "date": "2026-10",
+      "url": "https://www.theblueground.com/about",
+      "note": "Blueground reports 200,000 guests hosted, 10M+ nights, 4K+ organizations and 500+ partners in its Partner Network. Some geographic counters on this page appear narrower than the current homepage, so this case keeps scope labels explicit."
+    },
+    {
+      "title": "Expanding our network exponentially",
+      "publisher": "Blueground",
+      "date": "2026-08",
+      "url": "https://www.theblueground.com/blog/hear-our-news/expanding-our-network/",
+      "note": "Blueground explicitly describes two expansion strategies: the core landlord-leasing model in which Blueground designs and furnishes apartments, and the Partner Network, which adds existing furnished supply from professional operators. The article explains that the Partner Network followed Blueground’s acquisition of Nestpick."
+    },
+    {
+      "title": "Franchise with us",
       "publisher": "Blueground",
       "date": "2026-10",
       "url": "https://www.theblueground.com/partner-with-us",
-      "note": "Blueground offers Franchise and Managed by Blueground models that combine local investment or operations with Blueground technology, marketing, corporate sales and operating systems."
+      "note": "Blueground also offers Franchise and Managed by Blueground models for city expansion. These are important additional scaling mechanisms but are not drawn as separate PBMC roles in this case because the core question focuses on direct-operated versus Partner Network supply."
     }
   ],
   "related": {
@@ -120,290 +141,290 @@
   "pbmc": {
     "core_value_unit": {
       "value": "Furnished Stay",
-      "explanation": "The core value is a furnished, move-in-ready apartment stay that can be booked for 30 days or longer.",
+      "explanation": "The selectable unit is a move-in-ready furnished home for a flexible stay. Blueground is still centered on extended living, but minimum stay rules now vary by market.",
       "changed": false,
       "before": "",
       "after": "",
       "metrics": [
         {
-          "value": "20K+ homes*",
-          "note": "Blueground landlord and Partner Network pages describe a network of more than 20,000 homes or properties; the figure spans multiple supply models."
+          "value": "100K+ homes*",
+          "note": "Blueground’s current homepage reports 100,000+ furnished homes across the overall network; this includes more than the directly operated portfolio."
         }
       ]
     },
     "owner": {
       "actor": {
         "value": "Blueground",
-        "explanation": "Blueground runs the brand, booking experience, technology and operating system that connect guests with furnished homes.",
+        "explanation": "Blueground controls the customer-facing search and booking layer, the brand, payment flow and operating standards. For directly operated homes it also leases, furnishes and runs the apartments itself.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "job": {
-        "value": "Standardize Stays",
-        "explanation": "Blueground has to turn apartments from different owners and operators into a reliable, bookable living experience.",
+        "value": "Unify Supply",
+        "explanation": "Blueground has to make directly operated homes and partner-run homes feel like one coherent, bookable housing network.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Occupancy / Scale",
-        "explanation": "A larger and more consistent network attracts more guests and corporate demand, while higher occupancy improves unit economics.",
+        "value": "Reach / Occupancy",
+        "explanation": "Adding partner supply expands geographic reach without requiring Blueground to lease and operate every unit, while concentrated corporate and consumer demand can improve occupancy.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Quality / Vacancy",
-        "explanation": "Blueground must manage vacancy, lease commitments, service quality and consistency across directly operated and partner-run homes.",
+        "explanation": "The direct model carries vacancy and lease commitments, while the partner model adds consistency risk because outside operators control local fulfillment.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Book / Operate",
-        "explanation": "Blueground coordinates booking, payments, support and the operating rules that make different supply models feel like one rental experience.",
+        "explanation": "Blueground sells the booking experience across both supply models and directly operates only part of the housing inventory.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "governance": {
-        "value": "30+ Days / Quality",
-        "explanation": "Blueground focuses on extended stays and sets quality, property and service standards for homes shown under its brand.",
+        "value": "Quality / Sync",
+        "explanation": "Blueground sets property and service standards, requires reliable inventory synchronization for partners and can remove listings that fail quality or operational expectations.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "promotion_channel": {
-        "value": "Brand / Corporate",
-        "explanation": "Blueground brings demand through its consumer brand, digital channels and relationships with thousands of corporate clients.",
+        "value": "Direct / B2B",
+        "explanation": "Demand comes through the consumer website and app as well as corporate travel, mobility and relocation relationships.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Lease / Operate",
-        "explanation": "Blueground leases and operates apartments in core markets while also integrating and distributing partner-run homes.",
+        "value": "Operate / Distribute",
+        "explanation": "Blueground operates its own leased homes while also distributing partner-operated furnished homes through the same booking layer.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Tech / Local Ops",
-        "explanation": "Key resources include the booking platform, pricing and operations software, local teams, corporate demand and the Blueground brand.",
+        "value": "Demand / Tech",
+        "explanation": "Key resources include the booking platform, pricing and operations technology, corporate demand, brand and direct operating capability.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "metrics": [
         {
-          "value": "100 cities",
-          "note": "Blueground reports operating across 100 cities globally on its current About page."
+          "value": "1K+ cities*",
+          "note": "Blueground’s current homepage reports 1,000+ cities for the overall furnished-home network, broader than the directly operated footprint."
         }
       ]
     },
     "consumer": {
       "actor": {
         "value": "Guests",
-        "explanation": "Individuals and business travelers book furnished Blueground homes for stays of 30 days or longer.",
+        "explanation": "Individuals, relocating families and business travelers use Blueground to book furnished homes.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "job": {
         "value": "Live Flexibly",
-        "explanation": "Guests want a furnished home they can move into quickly without setting up furniture, utilities and local services from scratch.",
+        "explanation": "Guests want a ready-to-live home without buying furniture or committing immediately to a traditional long lease.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Ready / Consistent",
-        "explanation": "Guests gain a ready-to-live apartment, flexible stay length and a more consistent experience across cities.",
+        "value": "Ready / Flexible",
+        "explanation": "Guests get furnished housing with utilities and a simpler booking process, plus stay lengths that can flex by market and product.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Cost / Fit",
-        "explanation": "Guests can face higher monthly costs than a traditional lease and still need the right location, dates, size and quality.",
+        "explanation": "Guests still need the right location, dates, size and price, and the experience can differ depending on whether Blueground or an outside operator runs the home.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Book / Rent",
-        "explanation": "Guests search, reserve and pay through Blueground, then use the platform and app for stay management and support.",
+        "value": "Book / Pay",
+        "explanation": "Guests search, book and pay through Blueground even when the selected home is operated by a Partner Network company.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "City / Dates",
-        "explanation": "Guests filter by city, dates, apartment size, neighborhood, price and amenities.",
+        "value": "Place / Dates",
+        "explanation": "Guests filter by city, neighborhood, dates, home size, price and amenities.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Web / App",
-        "explanation": "Guests book through the Blueground website and manage services and support through digital channels including the guest app.",
+        "explanation": "Guests search and book through Blueground’s digital channels and use its app or support channels to manage the booking.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "Search / Live",
-        "explanation": "Guests search, book, move in, request support and extend or change their stay when eligible.",
+        "value": "Search / Stay",
+        "explanation": "Guests compare homes, book, move in and manage changes or extensions according to the rules of the specific property.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
-        "value": "Budget / Plans",
-        "explanation": "Guests bring travel or relocation dates, budget, identity, payment information and housing preferences.",
+        "value": "Dates / Budget",
+        "explanation": "Guests bring their location needs, move-in and move-out dates, budget, identity and payment information.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "metrics": [
         {
-          "value": "200K guests*",
-          "note": "Blueground reports having hosted 200,000 guests on its current About page; this is a cumulative company figure."
+          "value": "4K+ companies*",
+          "note": "Blueground’s current homepage says 4,000+ companies use the service. This is a demand-side company figure, not a disclosed B2B share of all bookings."
         }
       ]
     },
     "provider": {
       "actor": {
         "value": "Landlords",
-        "explanation": "Property owners and real-estate landlords provide apartments that Blueground can lease and operate as furnished housing.",
+        "explanation": "For the directly operated model, landlords and property owners supply apartments that Blueground leases, furnishes and runs.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "job": {
-        "value": "Rent Units",
-        "explanation": "Landlords want dependable occupancy and rental income without managing every short or mid-term guest themselves.",
+        "value": "Lease Units",
+        "explanation": "Landlords want reliable rental income without managing the flexible-stay guest relationship themselves.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
-        "value": "Stable Income",
-        "explanation": "Longer Blueground leasing relationships can reduce turnover and give landlords more predictable revenue.",
+        "value": "Stable Rent",
+        "explanation": "Blueground offers a professional tenant/operator relationship and ongoing rent for qualifying units.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
-        "value": "Wear / Terms",
-        "explanation": "Landlords must accept Blueground lease terms and depend on the operator to care for the apartment and building relationship.",
+        "value": "Terms / Wear",
+        "explanation": "Landlords depend on Blueground’s lease terms, property care and performance as the operating tenant.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
-        "value": "Lease / Units",
-        "explanation": "Landlords provide qualifying apartments to Blueground under leasing arrangements, often before Blueground furnishes and operates them.",
+        "value": "Units / Rent",
+        "explanation": "Landlords provide apartments under lease; Blueground pays rent and takes responsibility for furnishing and operating those homes.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
-        "value": "Quality / Area",
-        "explanation": "Blueground selects apartments based on location, condition, size, building quality and expected demand.",
+        "value": "Area / Quality",
+        "explanation": "Blueground selects properties based on location, condition, building quality, unit type and expected demand.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
         "value": "Owner Team",
-        "explanation": "Landlords work with Blueground real-estate and business-development teams to qualify and lease units.",
+        "explanation": "Property owners work with Blueground real-estate and business-development teams rather than listing directly to guests.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
         "value": "Lease / Handover",
-        "explanation": "Landlords make units available, sign agreements and hand the apartments over for Blueground operation.",
+        "explanation": "Landlords sign a lease and hand qualifying units over to Blueground for furnishing and operation.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Apartments",
-        "explanation": "Landlords contribute the physical residential units that Blueground can furnish, operate and rent to guests.",
+        "explanation": "The physical apartment is the key resource landlords contribute to Blueground’s directly operated portfolio.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "metrics": [
         {
-          "value": "5K+ owners",
-          "note": "Blueground landlord pages report working with more than 5,000 property owners."
+          "value": "10K+ direct*",
+          "note": "Blueground’s current Why Blueground page says it operates 10,000+ homes directly. This is the closest current measure of the owner-leased/operator portfolio."
         }
       ]
     },
     "partner": {
       "actor": {
-        "value": "Partner Operators",
-        "explanation": "Professional furnished-housing operators can list and operate their own homes through the Blueground Partner Network.",
+        "value": "Operators",
+        "explanation": "Professional furnished-rental operators publish homes through the Blueground Partner Network while continuing to operate those homes themselves.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "job": {
-        "value": "Add Homes",
-        "explanation": "Partners add professionally managed furnished inventory without Blueground having to lease and operate every home itself.",
+        "value": "Fill Homes",
+        "explanation": "Operators want additional extended-stay and corporate demand without handing day-to-day property operations to Blueground.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "gain": {
         "value": "Demand / Occupancy",
-        "explanation": "Partners gain access to Blueground traveler and corporate demand and can fill longer stays with relatively low distribution fees.",
+        "explanation": "Partners gain reach to Blueground’s guest and corporate demand while keeping most accommodation revenue after Blueground’s commission and fees.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "pain": {
         "value": "Standards / Sync",
-        "explanation": "Partners must keep prices and availability synchronized and meet Blueground standards while remaining responsible for local property operations.",
+        "explanation": "Partners must keep prices and availability synchronized and meet Blueground quality, service and regulatory requirements.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "transaction": {
         "value": "Homes / Payout",
-        "explanation": "Partners publish furnished homes, receive Blueground bookings and are paid after the platform collects the guest payment and commission.",
+        "explanation": "Operators provide bookable furnished homes and live rates; Blueground sends bookings and pays out the accommodation revenue net of commission.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "filter": {
         "value": "5+ Units",
-        "explanation": "The Partner Network targets professional operators with at least five units and requires quality, operational and regulatory fit.",
+        "explanation": "The Partner Network targets professional operators with at least five units and screens property quality, operating capability, regulation and market fit.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "access_channel": {
-        "value": "PMS / Network",
-        "explanation": "Partners connect inventory through supported PMS or channel-manager integrations and manage participation through the Partner Network.",
+        "value": "PMS / Portal",
+        "explanation": "Partners connect via supported property-management systems or channel managers and use the Partner Network portal for onboarding and account management.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "activities": {
-        "value": "List / Operate",
-        "explanation": "Partners keep homes guest-ready, synchronize rates and availability, handle local operations and fulfill the stay.",
+        "value": "List / Support",
+        "explanation": "Partners maintain listing data and availability, sign the guest agreement where required, coordinate move-in and handle property-level support during the stay.",
         "changed": false,
         "before": "",
         "after": ""
       },
       "resources": {
         "value": "Furnished Homes",
-        "explanation": "Partners contribute furnished, move-in-ready homes, local hospitality operations and property-management systems.",
+        "explanation": "Partners contribute already furnished, professionally managed homes plus local operating capability.",
         "changed": false,
         "before": "",
         "after": ""
@@ -411,30 +432,35 @@
       "metrics": [
         {
           "value": "500+ partners",
-          "note": "Blueground reports more than 500 partners in its Partner Network on its current About page."
+          "note": "Blueground’s current About page reports 500+ partners in the Partner Network."
         }
       ]
     },
     "metrics": [
       {
-        "value": "100 cities",
-        "note": "Blueground reports operating across 100 cities globally.",
+        "value": "100K+ homes*",
+        "note": "Overall Blueground network advertised on the current homepage; includes more than directly operated supply.",
+        "target": "core_value_unit"
+      },
+      {
+        "value": "1K+ cities*",
+        "note": "Overall network footprint advertised on the current homepage.",
         "target": "owner"
       },
       {
-        "value": "200K guests*",
-        "note": "Blueground reports 200,000 guests hosted cumulatively.",
-        "target": "consumer"
-      },
-      {
-        "value": "5K+ owners",
-        "note": "Blueground reports working with more than 5,000 property owners.",
+        "value": "10K+ direct*",
+        "note": "Homes Blueground says it operates directly.",
         "target": "provider"
       },
       {
         "value": "500+ partners",
-        "note": "Blueground reports more than 500 Partner Network partners.",
+        "note": "Partner Network partners reported on Blueground’s current About page.",
         "target": "partner"
+      },
+      {
+        "value": "4K+ companies*",
+        "note": "Companies using Blueground according to the current homepage; not a booking-share metric.",
+        "target": "consumer"
       }
     ],
     "flows": {
@@ -442,38 +468,38 @@
         {
           "from": "consumer",
           "to": "owner",
-          "value": "Book / Pay",
-          "explanation": "Guests bring housing demand to Blueground, choose an apartment and pay for the stay through the platform."
+          "value": "Search / Pay",
+          "explanation": "Guests search Blueground’s inventory, choose a home and pay through Blueground’s booking flow."
         },
         {
           "from": "owner",
           "to": "consumer",
-          "value": "Home / Support",
-          "explanation": "Blueground provides the furnished-home offer, booking experience, stay information and support around the apartment."
+          "value": "Homes / Booking",
+          "explanation": "Blueground presents available homes, confirms the booking and provides the digital booking relationship across both supply models."
         },
         {
           "from": "provider",
           "to": "owner",
           "value": "Units / Lease",
-          "explanation": "Landlords provide qualifying apartments to Blueground under lease arrangements so Blueground can furnish and operate them."
+          "explanation": "Landlords lease qualifying apartments to Blueground so it can furnish and operate them as its directly managed supply."
         },
         {
           "from": "owner",
           "to": "provider",
           "value": "Rent / Care",
-          "explanation": "Blueground pays rent under the lease and takes responsibility for furnishing, guest operations and day-to-day use of the unit."
+          "explanation": "Blueground pays rent and takes responsibility for furnishing, flexible-stay operations and day-to-day care of directly leased units."
         },
         {
           "from": "partner",
           "to": "owner",
-          "value": "Partner Homes",
-          "explanation": "Professional operators add their own furnished inventory to Blueground through Partner Network integrations."
+          "value": "Homes / Rates",
+          "explanation": "Partner operators send furnished listings, prices, fees and availability into Blueground through PMS or channel-manager integrations."
         },
         {
           "from": "owner",
           "to": "partner",
-          "value": "Bookings / Payout",
-          "explanation": "Blueground brings guest and corporate bookings, collects payments and pays partner operators net of the applicable commission."
+          "value": "Demand / Payout",
+          "explanation": "Blueground brings bookings, collects the guest payment and pays the partner net of the applicable commission and Blueground fees."
         }
       ],
       "before": [],
