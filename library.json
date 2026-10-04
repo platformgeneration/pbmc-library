@@ -1226,6 +1226,24 @@
         "Platform-to-Platform"
       ],
       "status": "published"
+    },
+    {
+      "slug": "hopper",
+      "case_number": "069",
+      "company": "Hopper",
+      "headline": "Why does Hopper sell travel flexibility through other companies?",
+      "industry": [
+        "Travel",
+        "Travel Fintech Platform"
+      ],
+      "topics": [
+        "Travel Fintech",
+        "Embedded Travel",
+        "B2B Distribution",
+        "Dynamic Pricing",
+        "Travel Flexibility"
+      ],
+      "status": "published"
     }
   ]
 }

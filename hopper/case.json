@@ -1,0 +1,566 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "Hopper",
+    "slug": "hopper",
+    "headline": "Why does Hopper sell travel flexibility through other companies?",
+    "case_number": "069",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Travel",
+      "Travel Fintech Platform"
+    ],
+    "topics": [
+      "Travel Fintech",
+      "Embedded Travel",
+      "B2B Distribution",
+      "Dynamic Pricing",
+      "Travel Flexibility"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "Hopper turned travel uncertainty into a product that can travel across channels.",
+    "text": "Hopper is still a consumer travel agency, but its B2B division, HTS, has become the more important part of the business. The technology first built for the Hopper app is now distributed through more than 20 partner channels, including banks, airlines and other travel brands.\n\nWhat makes Hopper unusual is its travel-fintech layer. It does not only help sell flights, hotels or rental cars. Products such as Cancel for Any Reason and Disruption Assistance turn uncertainty around a booking into separately priced services. HTS sells more than 2.2 million of these products a year, and travel fintech accounted for 45% of HTS profit in 2026.\n\nThis creates an unusual platform structure. Airlines, hotels and car-rental companies provide the underlying travel inventory, while banks, airlines and other brands can also distribute Hopper’s fintech products through their own customer channels. The same airline can therefore be both Provider and Partner.\n\nThe platform lesson is that a company can build a valuable new layer around an existing transaction by turning uncertainty itself into a product."
+  },
+  "media": {
+    "thumbnail": "",
+    "youtube_id": "",
+    "youtube_title": "",
+    "youtube_url": ""
+  },
+  "sources": [
+    {
+      "title": "HTS — Travel Fintech, AI Servicing & Commerce for Airlines, Banks & Hotels",
+      "publisher": "HTS / Hopper",
+      "date": "2026-10",
+      "url": "https://hts.hopper.com/",
+      "note": "HTS describes itself as the travel agency, fintech provider and e-commerce platform for partner channels. It states that more than 30% of customers buy at least one fintech ancillary, purchasing 1.7 per order on average, and that fintech ancillaries have gross margins above roughly 50%. It also states that HTS manages payments due directly to customers under its guaranteed fintech models."
+    },
+    {
+      "title": "Summer 2026 Platform Update",
+      "publisher": "HTS / Hopper",
+      "date": "2026-08-11",
+      "url": "https://hts.hopper.com/news/summer-2026-platform-update",
+      "note": "HTS reports more than 2.2 million fintech ancillaries sold annually, an 84% repeat-purchase rate, and expansion of Cancel for Any Reason and Disruption Assistance across North America, Europe, Asia and the Middle East in H1 2026."
+    },
+    {
+      "title": "Why Flexibility Is Fueling Travel’s Most Profitable Layer",
+      "publisher": "HTS / Hopper",
+      "date": "2026-06",
+      "url": "https://hts.hopper.com/insight-reports/why-flexibility-is-fueling-travels-most-profitable-layer",
+      "note": "HTS states that travel fintech, including Cancel for Any Reason and Disruption Assistance, accounts for 45% of HTS total profit."
+    },
+    {
+      "title": "The trends shaping travel commerce in 2026",
+      "publisher": "HTS / Hopper",
+      "date": "2026-02",
+      "url": "https://hts.hopper.com/insight-reports/the-trends-shaping-travel-commerce-in-2026",
+      "note": "HTS says its 2026 analysis is based on more than $6B in annual travel sales, 410M reachable cardholders and 2.2M annual fintech purchases across airlines, banks, hotels, loyalty programs and consumer brands."
+    },
+    {
+      "title": "A New Milestone in Our Partnership with Capital One",
+      "publisher": "HTS / Hopper",
+      "date": "2026-03-17",
+      "url": "https://hts.hopper.com/news/a-new-milestone-in-our-partnership-with-capital-one",
+      "note": "HTS says B2B is now the core of Hopper’s business and that HTS powers billions of dollars in travel and travel fintech annually across more than 20 partner channels. Capital One Travel booking volumes grew more than tenfold since launch, while Capital One is bringing the portal itself in-house and continuing to use selected HTS fintech products."
+    },
+    {
+      "title": "Deloitte Tech Fast 50: Enterprise—Industry Leaders",
+      "publisher": "HTS / Hopper",
+      "date": "2025-10",
+      "url": "https://hts.hopper.com/industry-recognition-awards/hopper-and-hts-hopper-technology-solutions-rank-among-top-companies-in-the",
+      "note": "Hopper President and Co-Founder Dakota Smith states that HTS accounts for nearly 90% of the Hopper business."
+    },
+    {
+      "title": "Hopper named to Travel Weekly Power List for 5th Consecutive Year",
+      "publisher": "Hopper",
+      "date": "2026-07-07",
+      "url": "https://media.hopper.com/news/hopper-named-to-travel-weekly-power-list-for-5th-consecutive-year",
+      "note": "Hopper says its consumer platform serves millions of travelers, its Price Prediction feature has helped travelers save more than $100M, and more than 1.2M customers have given the Hopper app a five-star rating."
+    },
+    {
+      "title": "Hopper and Frontier Airlines Announce NDC Partnership",
+      "publisher": "Hopper",
+      "date": "2025-03",
+      "url": "https://media.hopper.com/news/hopper-and-frontier-airlines-announce-ndc-partnership-enhancing-content",
+      "note": "Hopper states that its consumer app has been downloaded more than 120M times and describes HTS partners as financial institutions, airlines and hotels."
+    },
+    {
+      "title": "CommBank is partnering with global travel agency Hopper",
+      "publisher": "HTS / Hopper",
+      "date": "2023-05-24",
+      "url": "https://hts.hopper.com/news/commbank-is-partnering-with-global-travel-agency-hopper",
+      "note": "The announced CommBank travel experience was designed to use Hopper supply covering 300 airlines, 2M hotels and 100 rental-car companies. These are older disclosed supply-footprint figures and are used as lower-bound context rather than a current 2026 supplier census."
+    },
+    {
+      "title": "Terms and Conditions: Hopper Cancel For Any Reason for Flights",
+      "publisher": "HTS / Hopper",
+      "date": "2026-06-03",
+      "url": "https://hts.hopper.com/legal/Travix-CFAR",
+      "note": "Current CFAR terms state that the service provides refund flexibility around an airline booking and explicitly state that it is not insurance or an insurance contract."
+    },
+    {
+      "title": "FTC v. Hopper (USA), Inc.",
+      "publisher": "Federal Trade Commission",
+      "date": "2026-08-20",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/232-3086-ftc-v-hopper-usa-inc",
+      "note": "The FTC case page records the court-entered stipulated order after Hopper agreed to a $35M monetary judgment and restrictions concerning fee disclosure, consent and product representations, following allegations involving Tip, VIP Support and Price Freeze."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "expedia",
+      "kayak",
+      "booking-com"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). Hopper — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Travel Booking",
+      "explanation": "The selectable unit is a flight, stay or rental-car booking. Hopper can attach separately priced flexibility products such as Cancel for Any Reason or Disruption Assistance to that underlying travel transaction.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "2.2M fintech/yr",
+          "note": "HTS says it sells more than 2.2 million fintech ancillaries per year. This counts flexibility add-ons attached to travel purchases, not all travel bookings."
+        },
+        {
+          "value": "30%+ attach rate",
+          "note": "HTS says more than 30% of customers in participating channels buy at least one fintech ancillary, purchasing 1.7 products per order on average."
+        },
+        {
+          "value": "84% repeat rate",
+          "note": "HTS reports an 84% repeat-purchase rate for its fintech ancillaries."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "Hopper",
+        "explanation": "This case models Hopper together with its B2B division HTS. Hopper still operates a consumer travel app, but HTS is now the core commercial layer that distributes Hopper travel, fintech and commerce capabilities through outside brands.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "~90% HTS share",
+            "note": "In October 2025, Hopper President and Co-Founder Dakota Smith said HTS accounted for nearly 90% of the Hopper business. In March 2026 Hopper described B2B as the core of the business."
+          },
+          {
+            "value": "$6B+ travel sales",
+            "note": "HTS says its 2026 travel-commerce analysis is based on more than $6B in annual travel sales across its platform and partner ecosystem. This is not disclosed company revenue."
+          },
+          {
+            "value": "45% HTS profit",
+            "note": "HTS stated in June 2026 that travel fintech accounts for 45% of HTS total profit."
+          }
+        ]
+      },
+      "job": {
+        "value": "Power Travel",
+        "explanation": "Hopper has to combine travel supply, prediction, booking, servicing and optional flexibility into products that work in its own app and in partner channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Fintech Margin",
+        "explanation": "Travel bookings create transaction economics, while dynamically priced flexibility products add high-margin ancillary revenue that can also be sold through external channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Regulation",
+        "explanation": "Hopper must price complex travel and flexibility products accurately, explain fees and limits clearly, manage claims and refunds, and maintain trust across both its own interface and partner channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Book / Protect",
+        "explanation": "Hopper matches demand with travel inventory, processes or enables the booking, and can attach paid flexibility products around cancellation, disruption or price uncertainty.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Price / Consent",
+        "explanation": "Hopper sets product eligibility, dynamic prices, refund and service rules, and disclosure requirements. A 2026 FTC order reinforced obligations around total-price disclosure, optional-fee consent and accurate product claims.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "App / Partners",
+        "explanation": "Hopper reaches travelers through its own app and web presence, while HTS embeds the same travel and fintech capabilities inside banks, airlines, hotels and other partner brands.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Predict / Service",
+        "explanation": "Core activities include fare and risk prediction, dynamic pricing, merchandising, booking, payments, fraud controls, customer servicing and partner integration.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Data / Models",
+        "explanation": "Hopper relies on large-scale travel price data, demand signals, machine-learning models, travel-supply connectivity, payments and servicing infrastructure.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Travelers",
+        "explanation": "Consumers are travelers using the Hopper app or an HTS-powered partner channel to search, book and optionally add flexibility to flights, stays or rental cars.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "120M+ app downloads",
+            "note": "Hopper reported more than 120 million consumer-app downloads in its 2024/2025 corporate materials. This is a cumulative download count, not current active users."
+          },
+          {
+            "value": "1.2M 5-star ratings",
+            "note": "In July 2026 Hopper said more than 1.2 million customers had given the Hopper app a five-star rating."
+          },
+          {
+            "value": "Millions of travelers",
+            "note": "Hopper’s July 2026 corporate announcement describes the platform as serving millions of travelers. The company does not disclose a current 2026 active-user count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Book Confidently",
+        "explanation": "Travelers want a good fare or room and confidence that price changes, cancellations or disruptions will not make the trip unexpectedly expensive or difficult to fix.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Savings / Flex",
+        "explanation": "Price prediction can improve booking timing, while paid flexibility products can provide cancellation or rebooking options beyond the base fare or room policy.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Disruption",
+        "explanation": "Travel prices move, many fares are restrictive, and delays or cancellations can create costly changes after the traveler has committed.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Search / Buy",
+        "explanation": "Travelers search and select travel inventory, complete a booking and may add a paid flexibility product during checkout.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Trip / Risk",
+        "explanation": "Travelers narrow by route or destination, dates, price and travel attributes, then decide whether extra flexibility is worth its price for that booking.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Brands",
+        "explanation": "Consumers can use Hopper directly or encounter Hopper/HTS capabilities inside the websites and apps of partner banks, airlines and travel brands.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Protect",
+        "explanation": "They search, compare, book, monitor prices and decide whether to purchase cancellation or disruption protection around the trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Dates / Payment",
+        "explanation": "Travelers contribute itinerary details, preferences, payment information, loyalty context and demand signals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Suppliers",
+        "explanation": "Providers are airlines, hotels, property operators and rental-car companies that supply the underlying seat, room, home or vehicle. They remain responsible for the core travel inventory even when Hopper adds fintech around it.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "300 airlines",
+            "note": "A 2023 HTS/CommBank announcement described Hopper-powered supply across 300 airlines. This is the best disclosed official airline-supply count found, but it is an older portal-specific footprint rather than a 2026 supplier census."
+          },
+          {
+            "value": "2M hotels",
+            "note": "The same HTS/CommBank announcement described access to 2 million hotels. This is an older disclosed supply-footprint figure."
+          },
+          {
+            "value": "100 car firms",
+            "note": "The same 2023 announcement described supply from 100 rental-car companies. Hopper has not published a newer comprehensive provider count in the primary sources reviewed."
+          }
+        ]
+      },
+      "job": {
+        "value": "Fill Inventory",
+        "explanation": "Travel suppliers want to sell unused seats, rooms and vehicles while maintaining control over their schedules, base prices and fulfillment rules.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Demand / Yield",
+        "explanation": "Hopper and HTS can bring incremental demand and merchandising capabilities that help suppliers sell inventory and improve economics around each booking.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Distribution Cost",
+        "explanation": "Suppliers must keep inventory and prices synchronized across channels, pay distribution economics and manage changes, cancellations and service obligations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Inventory / Booking",
+        "explanation": "Suppliers provide live inventory, fares or room rates and receive confirmed bookings or settlement through the relevant Hopper or partner-channel flow.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Content / Terms",
+        "explanation": "Inventory must meet integration, availability, pricing and booking requirements, while individual fare or room terms still determine the underlying travel product.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "APIs / NDC",
+        "explanation": "Airlines and other suppliers connect through direct APIs, NDC, aggregators, hotel connectivity and other supply integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Price / Fulfill",
+        "explanation": "Suppliers set inventory and base terms, accept bookings, operate the flight, stay or rental and handle supplier-side fulfillment responsibilities.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Seats / Rooms",
+        "explanation": "They contribute the physical travel capacity, availability, schedules, rates, policies and fulfillment capability that make the booking possible.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "Channels",
+        "explanation": "Partners are banks, airlines, hotels and other brands that embed HTS travel or fintech into their own customer channels. The same airline can be a Provider of a flight and a Partner when its direct checkout distributes an HTS flexibility product.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "20+ channels",
+            "note": "In March 2026 HTS said it powers billions of dollars in travel and travel fintech annually across more than 20 partner channels globally."
+          },
+          {
+            "value": "410M reachable",
+            "note": "HTS says its 2026 travel-commerce analysis spans partner ecosystems with 410 million reachable cardholders. This is potential channel reach, not unique HTS customers."
+          },
+          {
+            "value": "10× Capital One",
+            "note": "HTS says booking volumes on Capital One Travel grew more than tenfold from launch to March 2026. This is a specific partner case, not growth across every HTS channel."
+          }
+        ]
+      },
+      "job": {
+        "value": "Own Customer",
+        "explanation": "Partner brands want to keep travel and flexibility inside their own customer relationship instead of sending users to a separate OTA.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Margin / Loyalty",
+        "explanation": "Embedding HTS can add travel utility, ancillary margin and loyalty value without the partner building the full travel-fintech stack itself.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Build / Service",
+        "explanation": "Running travel commerce internally requires supply connections, payments, fraud controls, servicing, product pricing and operational support that many brands do not want to build alone.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Embed / Sell",
+        "explanation": "Partners integrate HTS modules into their own channels, contribute customer access and booking context, and sell travel or fintech to their audience.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Integration / Fit",
+        "explanation": "HTS products are selected and configured according to partner geography, channel, travel category, customer proposition and technical integration requirements.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "SDK / API",
+        "explanation": "HTS distributes capabilities through APIs, SDKs and embedded e-commerce integrations, including partner-controlled booking flows.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Sell / Service",
+        "explanation": "Partners surface the offer in their own interface, market it to customers and coordinate with HTS on booking, support and product operations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Audience / Brand",
+        "explanation": "Partners contribute existing customer relationships, trusted interfaces, loyalty programs, payment context and distribution reach.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "target": "owner",
+        "value": "~90% HTS share",
+        "note": "In October 2025 Hopper said HTS represented nearly 90% of the business; in March 2026 it called B2B the core of the business."
+      },
+      {
+        "target": "owner",
+        "value": "45% HTS profit",
+        "note": "HTS said travel fintech accounted for 45% of HTS total profit in June 2026."
+      },
+      {
+        "target": "consumer",
+        "value": "120M+ app downloads",
+        "note": "Cumulative Hopper app downloads disclosed in corporate material; not active users."
+      },
+      {
+        "target": "provider",
+        "value": "300 airlines",
+        "note": "Older official Hopper-powered supply footprint disclosed for the CommBank portal."
+      },
+      {
+        "target": "partner",
+        "value": "20+ channels",
+        "note": "Global HTS partner channels as stated in March 2026."
+      },
+      {
+        "target": "core_value_unit",
+        "value": "2.2M fintech/yr",
+        "note": "Annual fintech ancillary purchases attached to travel transactions."
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Search / Buy",
+          "explanation": "Travelers submit trip intent, choose inventory and complete a booking directly with Hopper or through an HTS-powered flow."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Booking / Flex",
+          "explanation": "Hopper returns the booked travel product and can add separately priced flexibility such as cancellation or disruption assistance."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Inventory / Rates",
+          "explanation": "Airlines, hotels and rental-car suppliers provide availability, prices and booking terms to the Hopper platform."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Bookings / Pay",
+          "explanation": "Confirmed demand and the applicable settlement or booking instructions flow back to the supplier that fulfills the trip."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "Channel / Demand",
+          "explanation": "Banks, airlines and other partner brands contribute their customer channel, booking context and demand to HTS integrations."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "Fintech / Commerce",
+          "explanation": "HTS supplies embedded travel-commerce technology and fintech ancillaries that the partner can sell inside its own interface."
+        }
+      ]
+    }
+  }
+}
