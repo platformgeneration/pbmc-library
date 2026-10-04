@@ -1208,6 +1208,24 @@
         "Travel Advertising"
       ],
       "status": "published"
+    },
+    {
+      "slug": "kayak",
+      "case_number": "068",
+      "company": "KAYAK",
+      "headline": "How can KAYAK make money when another site gets the booking?",
+      "industry": [
+        "Travel",
+        "Travel Metasearch"
+      ],
+      "topics": [
+        "Metasearch",
+        "Referral Economics",
+        "Travel Distribution",
+        "Price Comparison",
+        "Platform-to-Platform"
+      ],
+      "status": "published"
     }
   ]
 }

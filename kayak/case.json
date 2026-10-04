@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.3",
+  "metadata": {
+    "company": "KAYAK",
+    "slug": "kayak",
+    "headline": "How can KAYAK make money when another site gets the booking?",
+    "case_number": "068",
+    "published_date": "2026-10-04",
+    "updated_date": "2026-10-04",
+    "snapshot_date": "2026-10-04",
+    "status": "official",
+    "industry": [
+      "Travel",
+      "Travel Metasearch"
+    ],
+    "topics": [
+      "Metasearch",
+      "Referral Economics",
+      "Travel Distribution",
+      "Price Comparison",
+      "Platform-to-Platform"
+    ],
+    "geography": [
+      "Global"
+    ],
+    "language": "en"
+  },
+  "platform_lesson": {
+    "title": "KAYAK earns from the comparison and referral layer rather than from delivering the trip.",
+    "text": "This case models KAYAK’s consumer travel-metasearch layer, not KAYAK for Business or the wider Booking Holdings portfolio. A traveler searches KAYAK for a flight, stay, rental car or package, and KAYAK scans hundreds of travel sites to assemble comparable offers. KAYAK itself does not own or provide the travel product. Its current Terms state that the booking, payment, confirmation and customer service are handled by the selected Travel Provider.\n\nThat means KAYAK can create and monetize value before the final transaction happens. The traveler brings high-intent search demand; airlines, hotels, car-rental companies and booking sites supply prices and availability; KAYAK organizes those options and then sends the traveler to the chosen seller. KAYAK says providers may pay when a traveler clicks through or completes a booking, while Booking Holdings states that KAYAK revenue is generated primarily from referrals and advertising placements. The handoff is therefore part of the business model rather than a failure to keep the customer on KAYAK.\n\nThe supply architecture is also unusual because KAYAK compares two kinds of sellers at the same time. Direct travel suppliers such as airlines or hotels can appear alongside online travel agencies that resell the same underlying travel product. KAYAK’s own 2026 guidance explicitly names Expedia as an OTA that can provide flight offers, even though KAYAK belongs to Booking Holdings, which also owns Booking.com, Priceline and Agoda. KAYAK can therefore sit one layer above both sister brands and rival intermediaries: the winning seller may change, while KAYAK can still earn from the search and referral layer.\n\nThis makes ranking governance especially important. KAYAK says recommendations can consider price, popularity, search details and sometimes expected revenue. When several providers offer the same flight, the cheapest provider is highlighted, while other equal-price booking options are ordered mainly by click-through rate and cost per click; sponsored listings are labeled. The transferable platform lesson is that a company does not need to own the final transaction to own a valuable decision point. If it aggregates fragmented supply and controls a trusted comparison interface, the referral itself can become the monetizable unit."
+  },
+  "media": {
+    "youtube_id": "",
+    "youtube_url": "",
+    "thumbnail": "",
+    "youtube_title": ""
+  },
+  "sources": [
+    {
+      "title": "KAYAK Terms of Use",
+      "publisher": "KAYAK",
+      "date": "2026-07-01",
+      "url": "https://www.kayak.com/terms-of-use",
+      "note": "KAYAK Software Corporation defines itself as a travel search engine that does not sell Travel Products. The Terms state that travel products are supplied directly or through agents such as online travel agencies, that a search scans hundreds of travel sites, that KAYAK is free to travelers, and that providers may pay KAYAK when a traveler clicks through or completes a booking. Booking, payment and post-booking service remain with the Travel Provider."
+    },
+    {
+      "title": "About the company — KAYAK Help Center",
+      "publisher": "KAYAK",
+      "date": "2026-10",
+      "url": "https://www.kayak.com/c/help/about/",
+      "note": "KAYAK reports 60+ international sites, 25+ site languages and 800+ team members. It explains that revenue comes from travel partners and advertisers through per-click or per-booking commissions and sponsored listings. The page also explains recommendation factors, including price, popularity and sometimes expected revenue; for equal-price flight offers, non-cheapest providers are ordered mainly by click-through rate and cost per click."
+    },
+    {
+      "title": "How KAYAK works and what it offers",
+      "publisher": "KAYAK Help Center",
+      "date": "2026-10",
+      "url": "https://www.kayak.com/c/help/about/how-does-kayak-work.61876.faq",
+      "note": "KAYAK describes its core service as searching hundreds of travel sites at once and showing airlines, hotels, online travel agencies and car-rental companies side by side. It says travelers process billions of searches through the platform each year and normally complete payment and booking with the selected partner."
+    },
+    {
+      "title": "Booking through KAYAK? Here’s how it works",
+      "publisher": "KAYAK",
+      "date": "2026-08-21",
+      "url": "https://www.kayak.com/news/booking-through-kayak/",
+      "note": "KAYAK explains the current redirect flow: travelers compare options on KAYAK, choose a deal and complete the booking with the travel company offering it. That company can be an airline, hotel, car-rental company or online travel agency and remains responsible for payment, confirmation and post-booking service."
+    },
+    {
+      "title": "Is it safe to book through KAYAK’s booking partners?",
+      "publisher": "KAYAK",
+      "date": "2026-08-14",
+      "url": "https://www.kayak.com/news/kayak-partner-booking/",
+      "note": "KAYAK gives a current example of the layered supply model: airlines such as American and Delta and OTAs such as Expedia can all provide flight offers that appear in KAYAK search results."
+    },
+    {
+      "title": "Search and discovery — KAYAK Help Center",
+      "publisher": "KAYAK",
+      "date": "2026-10",
+      "url": "https://www.kayak.com/c/help/search/",
+      "note": "KAYAK says hotel search compares prices from 5M+ hotels and properties and hundreds of providers. It also explains that prices can become stale because provider prices and availability change quickly and that the booking provider, not KAYAK, controls the reservation."
+    },
+    {
+      "title": "Booking Holdings Form 10-K — year ended December 31, 2025",
+      "publisher": "U.S. SEC / Booking Holdings",
+      "date": "2026-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm",
+      "note": "Booking Holdings identifies KAYAK as one of its consumer-facing brands and states that KAYAK recognizes revenue primarily from sending referrals to online travel companies and travel service providers and from advertising placements on its platforms."
+    },
+    {
+      "title": "Booking Holdings Form 10-Q — quarter ended June 30, 2026",
+      "publisher": "U.S. SEC / Booking Holdings",
+      "date": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000037/bkng-20260630.htm",
+      "note": "The current quarterly filing continues to list KAYAK among Booking Holdings’ five primary consumer-facing brands and reports $322M of group Advertising and Other revenue in Q2 2026. The figure is broader than KAYAK and is therefore not used as a KAYAK-specific metric in the Canvas."
+    },
+    {
+      "title": "KAYAK — About us",
+      "publisher": "KAYAK",
+      "date": "2026-10",
+      "url": "https://www.kayak.com/about",
+      "note": "KAYAK says it processes billions of searches, partners with hundreds of global travel brands and is trusted by millions of leisure and business travelers worldwide. It also states that the provider network spans airlines, hotels, car rentals and online travel agencies."
+    },
+    {
+      "title": "KAYAK Travel APIs — Affiliate Network",
+      "publisher": "KAYAK Affiliate Network",
+      "date": "2026-10",
+      "url": "https://affiliates.kayak.com/apis",
+      "note": "KAYAK states that its inventory connects to hundreds of global providers and that KAYAK processes more than 150 million searches monthly. This search count is activity volume, not unique users."
+    }
+  ],
+  "related": {
+    "manual_override": [
+      "booking-com",
+      "expedia",
+      "tripadvisor"
+    ],
+    "auto_match": {
+      "industry_weight": 2,
+      "topic_weight": 3,
+      "changed_field_weight": 4
+    }
+  },
+  "reuse": {
+    "license": "CC BY 4.0",
+    "attribution_short": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation",
+    "citation": "Eisape, D. A. (2026). KAYAK — Platform Business Model Canvas. Platform Generation.",
+    "citation_data": {
+      "authors": [
+        {
+          "family": "Eisape",
+          "given": "Davis Adedayo",
+          "display": "Eisape, D. A."
+        }
+      ],
+      "publisher": "Platform Generation",
+      "resource_type": "PBMC snapshot"
+    },
+    "license_scope": "Case-specific analysis and structured data",
+    "case_data_license": "CC BY 4.0",
+    "pbmc_canvas_license": "CC BY-SA 4.0",
+    "required_attribution": "Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "adaptation_attribution": "Adapted from the Platform Business Model Canvas (PBMC), Dr. Davis Eisape / Platform Generation — platformgeneration.com",
+    "reuse_principle": "Use, reproduce and adapt the PBMC with attribution. Do not remove or replace provenance in an unmodified Official PBMC. Adapted versions must keep clear PBMC attribution and must not be presented as Official PBMC.",
+    "brand_rights": "Platform Generation logos and the Official PBMC designation are excluded from the Creative Commons licenses and may not be used to imply endorsement."
+  },
+  "rendering": {
+    "state": "current"
+  },
+  "pbmc": {
+    "core_value_unit": {
+      "value": "Travel Offer",
+      "explanation": "The selectable unit is a live travel offer: a priced flight, stay, rental car or package from a travel supplier or booking intermediary that the traveler can compare and then choose where to book.",
+      "changed": false,
+      "before": "",
+      "after": "",
+      "metrics": [
+        {
+          "value": "5M+ stays*",
+          "note": "KAYAK states that its hotel search can compare options across more than 5 million hotels and properties. This metric covers the accommodation category, not all travel offers."
+        }
+      ]
+    },
+    "owner": {
+      "actor": {
+        "value": "KAYAK",
+        "explanation": "KAYAK Software Corporation operates the metasearch interface and is part of Booking Holdings. KAYAK organizes travel offers and referrals but does not own the underlying travel products.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Billions searches/yr",
+            "note": "KAYAK says millions of travelers use its platform to process billions of searches each year."
+          },
+          {
+            "value": "60+ sites",
+            "note": "KAYAK currently reports more than 60 international sites across more than 25 site languages."
+          }
+        ]
+      },
+      "job": {
+        "value": "Compare Offers",
+        "explanation": "KAYAK must turn fragmented prices and availability from many sellers into one useful comparison for a specific trip.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Referral / Ads",
+        "explanation": "KAYAK earns from referrals and advertising. Providers can pay when travelers click through or complete bookings, while sponsored placements create additional advertising revenue.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Trust / Staleness",
+        "explanation": "KAYAK depends on accurate, current prices and on traveler trust. Rapid price and availability changes can create mismatches between a displayed offer and the provider site.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Search / Redirect",
+        "explanation": "KAYAK captures travel intent, compares offers and then hands the traveler to the selected Travel Provider for the actual booking relationship.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "governance": {
+        "value": "Rank / Label",
+        "explanation": "KAYAK sets result-ordering rules, labels sponsored placements and provider identity, and applies pricing, legal and service standards to booking partners.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "promotion_channel": {
+        "value": "SEO / Brand",
+        "explanation": "KAYAK attracts high-intent demand through its brand, search visibility, apps, price alerts, travel tools and other marketing channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Search / Rank",
+        "explanation": "Core activities are collecting live offers, normalizing data, matching trip intent, ranking results, maintaining price tools and routing referrals.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Intent / Data",
+        "explanation": "KAYAK’s key resources are traveler search intent, broad price and availability feeds, comparison technology, brand trust and historical search data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "consumer": {
+      "actor": {
+        "value": "Travelers",
+        "explanation": "Consumers are leisure and business travelers comparing flights, stays, rental cars or packages before deciding where to book.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "Millions travelers*",
+            "note": "KAYAK says it earns the trust of millions of leisure and business travelers worldwide. This is an order-of-magnitude statement, not a disclosed unique-user KPI."
+          },
+          {
+            "value": "150M searches/mo*",
+            "note": "KAYAK's Affiliate Network says KAYAK processes more than 150 million searches per month. This measures search activity, not unique travelers."
+          }
+        ]
+      },
+      "job": {
+        "value": "Find Best Option",
+        "explanation": "Travelers want to find an option that fits their dates, route, budget and preferences without checking many travel sites manually.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Choice / Savings",
+        "explanation": "KAYAK can expose multiple sellers for the same travel product, making prices and booking conditions easier to compare in one place.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Price / Overload",
+        "explanation": "Travelers face changing prices, many similar options, different fees and conditions, and uncertainty about which seller will handle the booking.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Search / Click",
+        "explanation": "Travelers submit trip criteria, compare results and select a provider or booking site to continue toward purchase.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Trip / Price",
+        "explanation": "Travelers filter by dates, route, destination, price, timing, stops, property attributes, provider and other trip preferences.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "App / Web",
+        "explanation": "Travelers use KAYAK’s websites and apps, along with search tools such as price alerts and Explore, to access the comparison layer.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Compare / Choose",
+        "explanation": "Travelers search, sort, filter and compare before choosing which seller should receive the booking click.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Dates / Budget",
+        "explanation": "Travelers contribute destination or route, travel dates, party needs, budget, preferences and attention to the comparison process.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "provider": {
+      "actor": {
+        "value": "Suppliers",
+        "explanation": "Providers are direct travel suppliers such as airlines, hotels and car-rental companies. They control the underlying travel product and can appear as direct booking options in KAYAK results.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "100s providers*",
+            "note": "KAYAK says it partners with hundreds of travel providers across airlines, hotels, car rentals and online travel agencies. KAYAK does not disclose a separate count for direct suppliers, so this is the combined provider universe."
+          },
+          {
+            "value": "5M+ properties*",
+            "note": "KAYAK says hotel search covers more than 5 million hotels and properties. This is a supply-footprint metric, not a count of supplier companies."
+          }
+        ]
+      },
+      "job": {
+        "value": "Sell Direct",
+        "explanation": "Direct suppliers want high-intent travelers to choose their own offer and complete the reservation with them rather than through another intermediary.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Qualified Demand",
+        "explanation": "KAYAK sends travelers who have already expressed specific dates, routes and product preferences, making referral traffic highly relevant to the supplier.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "Fees / Parity",
+        "explanation": "Suppliers may pay for clicks or bookings and must keep prices competitive and accurately synchronized across KAYAK and other distribution channels.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Offers / Clicks",
+        "explanation": "Suppliers provide prices and availability; KAYAK can return qualified referral traffic when a traveler chooses the direct option.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Standards / Data",
+        "explanation": "Travel companies shown by KAYAK must meet pricing, legal and service standards and supply sufficiently usable pricing and availability data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Feeds / Links",
+        "explanation": "Direct suppliers connect through commercial integrations, price and availability feeds, referral links and other provider connections.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Price / Fulfill",
+        "explanation": "Suppliers set prices and availability, accept the booking, collect payment when applicable and deliver the actual travel service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Inventory / Rates",
+        "explanation": "They contribute the underlying seats, rooms or vehicles together with live prices, schedules, availability, rules and checkout capability.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "partner": {
+      "actor": {
+        "value": "OTAs",
+        "explanation": "Online travel agencies such as Expedia, Booking.com and other booking sites act as intermediary sellers. They can offer the same underlying travel product alongside a direct supplier, creating a platform-to-platform comparison layer.",
+        "changed": false,
+        "before": "",
+        "after": "",
+        "metrics": [
+          {
+            "value": "100s sites*",
+            "note": "KAYAK says hotel comparison draws from hundreds of third-party travel sites and its broader network includes hundreds of travel providers. KAYAK does not disclose an OTA-only partner count."
+          }
+        ]
+      },
+      "job": {
+        "value": "Resell Travel",
+        "explanation": "OTAs aggregate travel supply, package it into their own booking experience and compete for KAYAK’s high-intent referral traffic.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "gain": {
+        "value": "Referral Demand",
+        "explanation": "KAYAK can send OTAs travelers who are already comparing a specific trip and are close to choosing a seller.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "pain": {
+        "value": "CPC / Conversion",
+        "explanation": "OTAs must compete on price, service and conversion while paying for qualified referrals and maintaining accurate offer data.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "transaction": {
+        "value": "Offers / Referrals",
+        "explanation": "OTAs contribute bookable offers and can pay KAYAK when a traveler clicks through or completes a booking under the commercial arrangement.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "filter": {
+        "value": "Service Standards",
+        "explanation": "KAYAK says booking companies must meet pricing, legal and service standards and are reviewed regularly for compliance.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "access_channel": {
+        "value": "Feeds / Links",
+        "explanation": "OTAs connect their offers and booking destinations to KAYAK through commercial data feeds and referral integrations.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "activities": {
+        "value": "Aggregate / Book",
+        "explanation": "OTAs aggregate supplier inventory, price and package offers, run checkout and provide booking confirmation and customer service.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      },
+      "resources": {
+        "value": "Supply / Checkout",
+        "explanation": "They contribute aggregated inventory, pricing, booking technology, payment capability and post-booking servicing.",
+        "changed": false,
+        "before": "",
+        "after": ""
+      }
+    },
+    "metrics": [
+      {
+        "value": "Billions searches/yr",
+        "note": "KAYAK says millions of travelers use the platform to process billions of searches each year.",
+        "target": "owner"
+      },
+      {
+        "value": "60+ sites",
+        "note": "KAYAK currently reports more than 60 international sites and more than 25 site languages.",
+        "target": "owner"
+      },
+      {
+        "value": "5M+ stays*",
+        "note": "KAYAK says its hotel comparison covers more than 5 million hotels and properties. This is a category-specific inventory figure, not the full CVU universe.",
+        "target": "core_value_unit"
+      }
+    ],
+    "flows": {
+      "current": [
+        {
+          "from": "consumer",
+          "to": "owner",
+          "value": "Search Intent",
+          "explanation": "Travelers send destination, route, dates, budget and other trip criteria into KAYAK."
+        },
+        {
+          "from": "owner",
+          "to": "consumer",
+          "value": "Compare Offers",
+          "explanation": "KAYAK returns ranked, filterable travel offers from multiple sellers so the traveler can decide where to book."
+        },
+        {
+          "from": "provider",
+          "to": "owner",
+          "value": "Direct Rates",
+          "explanation": "Airlines, hotels and other direct suppliers contribute prices, availability and booking routes to KAYAK."
+        },
+        {
+          "from": "owner",
+          "to": "provider",
+          "value": "Direct Clicks",
+          "explanation": "When a traveler chooses a direct option, KAYAK sends qualified referral traffic to the travel supplier."
+        },
+        {
+          "from": "partner",
+          "to": "owner",
+          "value": "OTA Rates",
+          "explanation": "Online travel agencies contribute alternative seller offers for the same or comparable travel products."
+        },
+        {
+          "from": "owner",
+          "to": "partner",
+          "value": "OTA Clicks",
+          "explanation": "When the traveler chooses an OTA offer, KAYAK sends the referral to that booking platform, which then owns the booking and payment relationship."
+        }
+      ]
+    }
+  }
+}
