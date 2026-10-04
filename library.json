@@ -1136,6 +1136,24 @@
         "Hybrid Platform"
       ],
       "status": "published"
+    },
+    {
+      "slug": "blueground",
+      "case_number": "064",
+      "company": "Blueground",
+      "headline": "How does Blueground combine apartments it operates with homes run by partners?",
+      "industry": [
+        "Travel",
+        "Flexible Living Platform"
+      ],
+      "topics": [
+        "Furnished Rentals",
+        "Flexible Living",
+        "Hybrid Supply",
+        "Property Operations",
+        "Partner Network"
+      ],
+      "status": "published"
     }
   ]
 }
